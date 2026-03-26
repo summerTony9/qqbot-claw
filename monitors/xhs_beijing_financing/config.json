@@ -1,0 +1,32 @@
+{
+  "name": "xhs_beijing_financing_monitor",
+  "platform": "xiaohongshu",
+  "city": "北京",
+  "poll_interval_minutes": 60,
+  "search_limit_per_keyword": 12,
+  "keywords": [
+    "北京 企业 融资",
+    "北京 公司 贷款",
+    "北京 资金周转",
+    "北京 对公贷款",
+    "北京 经营贷",
+    "北京 流动资金贷款",
+    "北京 银行授信",
+    "北京 保函",
+    "北京 垫资",
+    "北京 中小企业 融资"
+  ],
+  "signal_keywords": [
+    "融资",
+    "贷款",
+    "授信",
+    "资金周转",
+    "经营贷",
+    "流贷",
+    "保函",
+    "垫资",
+    "银行",
+    "企业",
+    "公司"
+  ]
+}
