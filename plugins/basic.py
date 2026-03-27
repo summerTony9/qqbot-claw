@@ -167,9 +167,9 @@ async def _call_minimax_chat(system_prompt: str, user_prompt: str) -> str:
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_prompt},
         ],
-        "temperature": 1.1,
+        "temperature": 1.0,
         "top_p": 0.95,
-        "max_tokens": 80,
+        "max_tokens": 256,
     }
 
     try:
@@ -185,14 +185,53 @@ async def _call_minimax_chat(system_prompt: str, user_prompt: str) -> str:
             resp.raise_for_status()
             data = resp.json()
             logger.info(f"[minimax-chat] model={model} base_resp={data.get('base_resp')} choices_present={bool(data.get('choices'))}")
+
+            choice = ((data or {}).get("choices") or [{}])[0]
+            message = choice.get("message", {}) or {}
+            reply = (message.get("content") or "").strip()
+            if not reply:
+                reply = (((data or {}).get("reply") or {}).get("content") or "").strip()
+
+            if not reply:
+                reasoning = (message.get("reasoning_content") or "").strip()
+                if reasoning:
+                    logger.warning("[minimax-chat] empty content, retrying from reasoning")
+                    retry_payload = {
+                        "model": model,
+                        "messages": [
+                            {
+                                "role": "system",
+                                "content": "把给定分析压缩成一句最终回复。只输出最终回复，不要解释，不要思考过程。20-70字。",
+                            },
+                            {
+                                "role": "user",
+                                "content": reasoning[-1800:],
+                            },
+                        ],
+                        "temperature": 0.8,
+                        "top_p": 0.95,
+                        "max_tokens": 128,
+                    }
+                    retry = await client.post(
+                        "https://api.minimaxi.com/v1/text/chatcompletion_v2",
+                        headers={
+                            "Authorization": f"Bearer {api_key}",
+                            "Content-Type": "application/json",
+                        },
+                        json=retry_payload,
+                    )
+                    retry.raise_for_status()
+                    retry_data = retry.json()
+                    retry_choice = ((retry_data or {}).get("choices") or [{}])[0]
+                    retry_message = retry_choice.get("message", {}) or {}
+                    reply = (retry_message.get("content") or "").strip()
+                    if not reply:
+                        reply = (((retry_data or {}).get("reply") or {}).get("content") or "").strip()
+
+            return reply.replace("\n", " ").strip()[:160]
     except Exception as e:
         logger.warning(f"[minimax-chat] generate failed: {e}")
         return ""
-
-    reply = ((data or {}).get("choices") or [{}])[0].get("message", {}).get("content", "").strip()
-    if not reply:
-        reply = (((data or {}).get("reply") or {}).get("content") or "").strip()
-    return reply.replace("\n", " ").strip()[:160]
 
 
 async def _generate_group_roast_reply(target_text: str, context_lines: list[str]) -> str:
