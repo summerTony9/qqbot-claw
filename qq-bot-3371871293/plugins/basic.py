@@ -54,32 +54,11 @@ def _pick_image_url_from_segments(segments) -> str:
 
 def _extract_bilibili_url(text: str) -> str:
     m = re.search(r"https?://(?:www\.)?(?:bilibili\.com/video/[A-Za-z0-9]+|b23\.tv/[A-Za-z0-9]+)\S*", text or "")
-    return m.group(0) if m else ""
-
-
-def _extract_bilibili_url_from_event(event: Event) -> str:
-    plain = event.get_plaintext().strip() if hasattr(event, "get_plaintext") else ""
-    url = _extract_bilibili_url(plain)
-    if url:
-        return url
-
-    for seg in event.get_message():
-        if seg.type == "json":
-            raw = seg.data.get("data", "") if hasattr(seg, "data") else ""
-            # 先直接正则抠 URL
-            url = _extract_bilibili_url(raw)
-            if url:
-                return url
-            # 再尝试解析 JSON 字符串
-            try:
-                obj = json.loads(raw)
-                blob = json.dumps(obj, ensure_ascii=False)
-                url = _extract_bilibili_url(blob)
-                if url:
-                    return url
-            except Exception:
-                pass
-    return ""
+    if not m:
+        return ""
+    url = m.group(0).strip()
+    url = re.sub(r'["\\,，。！？；：\)\]\}>]+$', '', url)
+    return url
 
 
 def _format_message_brief(event: Event) -> str:
@@ -159,6 +138,7 @@ async def _generate_group_roast_reply(target_text: str, context_lines: list[str]
 
 
 def _fetch_bilibili_metadata(url: str) -> dict:
+    logger.info(f"[bili-roaster] fetching metadata: {url}")
     ydl_opts = {
         "quiet": True,
         "no_warnings": True,
@@ -167,6 +147,7 @@ def _fetch_bilibili_metadata(url: str) -> dict:
     }
     with YoutubeDL(ydl_opts) as ydl:
         info = ydl.extract_info(url, download=False)
+    logger.info(f"[bili-roaster] metadata title: {info.get('title', '')}")
     return {
         "title": info.get("title", ""),
         "description": info.get("description", ""),
@@ -348,12 +329,15 @@ async def _cache_image(bot: Bot, event: Event):
             # B站链接定向回复：优先于随机插话
             bili_url = _extract_bilibili_url_from_event(event)
             if os.getenv("BILIBILI_ROASTER_ENABLED", "true").lower() == "true" and bili_url:
+                logger.info(f"[bili-roaster] handling bilibili url: {bili_url}")
                 if bili_url not in SEEN_BILIBILI_URLS:
                     SEEN_BILIBILI_URLS.append(bili_url)
                     context_lines = list(GROUP_CONTEXTS[group_key])
                     reply = await _generate_bilibili_roast_reply(bili_url, context_lines)
                     if reply:
                         await bot.send(event, reply)
+                    else:
+                        await bot.send(event, "这破链接我看了半天，结果卡片里藏得跟做贼一样，再发个纯链接我看看。")
                 return
 
             if os.getenv("GROUP_ROASTER_ENABLED", "true").lower() == "true":
