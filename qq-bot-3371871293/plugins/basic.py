@@ -231,6 +231,41 @@ def _fetch_bilibili_metadata(url: str) -> dict:
     info = data.get("data") or {}
     owner = info.get("owner") or {}
     stat = info.get("stat") or {}
+    cid = info.get("cid")
+
+    subtitle_text = ""
+    if cid:
+        try:
+            sub_api = f"https://api.bilibili.com/x/v2/dm/view?aid={info.get('aid')}&oid={cid}&type=1"
+            sr = httpx.get(sub_api, headers=headers, timeout=20)
+            sr.raise_for_status()
+            sub_data = sr.json().get("data") or {}
+            subtitles = ((sub_data.get("subtitle") or {}).get("subtitles")) or []
+            zh_sub = None
+            for item in subtitles:
+                if item.get("lan") in ("ai-zh", "zh-CN", "zh-Hans", "zh"):
+                    zh_sub = item
+                    break
+            if not zh_sub and subtitles:
+                zh_sub = subtitles[0]
+            if zh_sub and zh_sub.get("subtitle_url"):
+                sub_url = zh_sub["subtitle_url"]
+                if sub_url.startswith("//"):
+                    sub_url = "https:" + sub_url
+                elif sub_url.startswith("http://"):
+                    sub_url = "https://" + sub_url[len("http://"):]
+                tr = httpx.get(sub_url, headers=headers, timeout=20)
+                tr.raise_for_status()
+                body = tr.json()
+                pieces = []
+                for item in body.get("body", [])[:80]:
+                    content = (item.get("content") or "").strip()
+                    if content:
+                        pieces.append(content)
+                subtitle_text = " ".join(pieces)[:4000]
+        except Exception as e:
+            logger.warning(f"[bili-roaster] subtitle fetch failed: {e}")
+
     logger.info(f"[bili-roaster] metadata title: {info.get('title', '')}")
     return {
         "title": info.get("title", ""),
@@ -242,6 +277,7 @@ def _fetch_bilibili_metadata(url: str) -> dict:
         "like_count": stat.get("like"),
         "dynamic": info.get("dynamic", ""),
         "argue_msg": ((info.get("argue_info") or {}).get("argue_msg")) or "",
+        "subtitle_text": subtitle_text,
         "webpage_url": final_url,
         "bvid": bvid,
     }
@@ -255,6 +291,7 @@ async def _generate_bilibili_roast_reply(url: str, context_lines: list[str], car
         "tags": [],
         "dynamic": "",
         "argue_msg": "",
+        "subtitle_text": "",
         "webpage_url": (card_meta or {}).get("jump_url", "") or url,
     }
     try:
@@ -266,22 +303,20 @@ async def _generate_bilibili_roast_reply(url: str, context_lines: list[str], car
 
     system_prompt = (
         "你是QQ群里的暴躁贴吧老哥。现在有人发了一个B站视频链接。"
-        "你要结合视频标题、简介、UP主、标签，以及最近群聊上下文，回一句具体吐槽或点评。"
-        "要求：1）必须点到视频内容本身，不能空泛；"
-        "2）语气暴躁、阴阳怪气、贴吧老哥味；"
-        "3）短，15-50字；"
-        "4）不要复述一大段标题，不要解释自己；"
-        "5）不允许仇恨、歧视、暴力威胁。"
+        "你要优先根据视频标题、简介、动态文案、字幕内容来理解视频在讲什么，再回一句具体点评。"
+        "要求：1）不要参考群聊上下文；2）必须体现你看懂了视频内容，而不是只看标题；"
+        "3）语气暴躁、阴阳怪气、贴吧老哥味；4）短，20-60字；"
+        "5）不要复述大段原文，不要解释自己；6）不允许仇恨、歧视、暴力威胁。"
     )
     user_prompt = (
-        "最近群聊上下文：\n" + "\n".join(context_lines[-15:]) +
-        "\n\nB站视频信息：\n"
+        "B站视频信息：\n"
         f"标题：{meta.get('title', '')}\n"
         f"UP主：{meta.get('uploader', '')}\n"
         f"标签：{', '.join(meta.get('tags', []) or [])}\n"
-        f"简介：{(meta.get('description', '') or '')[:300]}\n"
-        f"动态文案：{(meta.get('dynamic', '') or '')[:120]}\n"
+        f"简介：{(meta.get('description', '') or '')[:500]}\n"
+        f"动态文案：{(meta.get('dynamic', '') or '')[:200]}\n"
         f"风险提示：{(meta.get('argue_msg', '') or '')[:80]}\n"
+        f"字幕摘录：{(meta.get('subtitle_text', '') or '')[:1800]}\n"
         f"链接：{meta.get('webpage_url', url)}\n\n"
         "现在直接给出一句群聊回复。"
     )
