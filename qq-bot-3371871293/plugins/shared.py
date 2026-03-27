@@ -190,6 +190,53 @@ def append_group_message(group_id: str, record: GroupMessageRecord):
         conn.commit()
 
 
+def load_group_state(group_id: str, config: GroupRoasterConfig) -> tuple[int, int]:
+    with get_db_connection() as conn:
+        row = conn.execute(
+            "SELECT trigger_counter, next_trigger FROM group_state WHERE group_id = ?",
+            (group_id,),
+        ).fetchone()
+    if row is None:
+        return 0, random.randint(config.min_trigger, config.max_trigger)
+    return int(row["trigger_counter"]), int(row["next_trigger"])
+
+
+def save_group_state(group_id: str):
+    with get_db_connection() as conn:
+        conn.execute(
+            """
+            INSERT INTO group_state(group_id, trigger_counter, next_trigger)
+            VALUES(?, ?, ?)
+            ON CONFLICT(group_id) DO UPDATE SET
+                trigger_counter=excluded.trigger_counter,
+                next_trigger=excluded.next_trigger
+            """,
+            (group_id, GROUP_TRIGGER_COUNTER[group_id], GROUP_NEXT_TRIGGER[group_id]),
+        )
+        conn.commit()
+
+
+def load_recent_group_messages(group_id: str, limit: int) -> list[GroupMessageRecord]:
+    with get_db_connection() as conn:
+        rows = conn.execute(
+            "SELECT ts, user_id, text FROM group_messages WHERE group_id = ? ORDER BY ts DESC LIMIT ?",
+            (group_id, limit),
+        ).fetchall()
+    return [
+        GroupMessageRecord(ts=float(row["ts"]), user_id=str(row["user_id"]), text=str(row["text"]))
+        for row in reversed(rows)
+    ]
+
+
+def append_group_message(group_id: str, record: GroupMessageRecord):
+    with get_db_connection() as conn:
+        conn.execute(
+            "INSERT INTO group_messages(group_id, ts, user_id, text) VALUES(?, ?, ?, ?)",
+            (group_id, record.ts, record.user_id, record.text),
+        )
+        conn.commit()
+
+
 def ensure_group_state(group_id: str):
     config = get_group_roaster_config()
     if group_id not in GROUP_CONTEXTS:
@@ -200,6 +247,20 @@ def ensure_group_state(group_id: str):
         GROUP_TRIGGER_COUNTER[group_id] = 0
     if group_id not in GROUP_NEXT_TRIGGER:
         GROUP_NEXT_TRIGGER[group_id] = random.randint(config.min_trigger, config.max_trigger)
+
+    if group_id in HYDRATED_GROUPS:
+        return
+
+    counter, next_trigger = load_group_state(group_id, config)
+    GROUP_TRIGGER_COUNTER[group_id] = counter
+    GROUP_NEXT_TRIGGER[group_id] = next_trigger
+
+    preload_limit = max(config.context_size, min(get_group_summary_log_maxlen(), 300))
+    records = load_recent_group_messages(group_id, preload_limit)
+    for record in records:
+        GROUP_MESSAGE_LOGS[group_id].append(record)
+        GROUP_CONTEXTS[group_id].append(record.text)
+    HYDRATED_GROUPS.add(group_id)
 
     if group_id in HYDRATED_GROUPS:
         return
