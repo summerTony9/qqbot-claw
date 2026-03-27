@@ -3,6 +3,7 @@ import os
 import random
 import re
 from collections import deque
+from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
 
@@ -34,6 +35,34 @@ GROUP_CONTEXTS: dict[str, deque] = {}
 GROUP_TRIGGER_COUNTER: dict[str, int] = {}
 GROUP_NEXT_TRIGGER: dict[str, int] = {}
 SEEN_BILIBILI_URLS: deque = deque(maxlen=200)
+
+
+@dataclass
+class GroupRoasterConfig:
+    enabled: bool
+    min_trigger: int
+    max_trigger: int
+    context_size: int
+
+
+@dataclass
+class BilibiliRoasterContext:
+    title: str = ""
+    description: str = ""
+    uploader: str = ""
+    tags: list[str] | None = None
+    dynamic: str = ""
+    argue_msg: str = ""
+    subtitle_text: str = ""
+    hot_comments: list[str] | None = None
+    webpage_url: str = ""
+    bvid: str = ""
+
+    def __post_init__(self):
+        if self.tags is None:
+            self.tags = []
+        if self.hot_comments is None:
+            self.hot_comments = []
 
 
 def _pick_image_url_from_segments(segments) -> str:
@@ -139,16 +168,40 @@ def _format_message_brief(event: Event) -> str:
     return f"[{user_id}] {text}"
 
 
+def _env_bool(name: str, default: bool) -> bool:
+    value = os.getenv(name)
+    if value is None:
+        return default
+    return value.lower() == "true"
+
+
+def _env_int(name: str, default: int) -> int:
+    try:
+        return int(os.getenv(name, str(default)) or str(default))
+    except ValueError:
+        return default
+
+
+def _get_group_roaster_config() -> GroupRoasterConfig:
+    context_size = max(8, min(_env_int("GROUP_ROASTER_CONTEXT_SIZE", 15), 30))
+    min_trigger = max(3, _env_int("GROUP_ROASTER_MIN_TRIGGER", 5))
+    max_trigger = max(min_trigger, _env_int("GROUP_ROASTER_MAX_TRIGGER", 10))
+    return GroupRoasterConfig(
+        enabled=_env_bool("GROUP_ROASTER_ENABLED", True),
+        min_trigger=min_trigger,
+        max_trigger=max_trigger,
+        context_size=context_size,
+    )
+
+
 def _ensure_group_state(group_id: str):
-    context_size = max(8, min(int(os.getenv("GROUP_ROASTER_CONTEXT_SIZE", "15") or "15"), 30))
+    config = _get_group_roaster_config()
     if group_id not in GROUP_CONTEXTS:
-        GROUP_CONTEXTS[group_id] = deque(maxlen=context_size)
+        GROUP_CONTEXTS[group_id] = deque(maxlen=config.context_size)
     if group_id not in GROUP_TRIGGER_COUNTER:
         GROUP_TRIGGER_COUNTER[group_id] = 0
     if group_id not in GROUP_NEXT_TRIGGER:
-        min_trigger = max(3, int(os.getenv("GROUP_ROASTER_MIN_TRIGGER", "5") or "5"))
-        max_trigger = max(min_trigger, int(os.getenv("GROUP_ROASTER_MAX_TRIGGER", "10") or "10"))
-        GROUP_NEXT_TRIGGER[group_id] = random.randint(min_trigger, max_trigger)
+        GROUP_NEXT_TRIGGER[group_id] = random.randint(config.min_trigger, config.max_trigger)
 
 
 def _json_from_httpx_response(resp: httpx.Response) -> dict:
@@ -225,7 +278,7 @@ async def _call_minimax_chat(system_prompt: str, user_prompt: str) -> str:
     return ""
 
 
-async def _generate_group_roast_reply(target_text: str, context_lines: list[str]) -> str:
+def _build_group_roast_prompt(target_text: str, context_lines: list[str]) -> tuple[str, str]:
     system_prompt = (
         "你是QQ群里的暴躁贴吧老哥。你的任务是针对指定消息做一句具体回复。"
         "要求：1）必须结合最近群聊上下文和目标消息内容，不能泛泛而谈；"
@@ -240,10 +293,82 @@ async def _generate_group_roast_reply(target_text: str, context_lines: list[str]
         "\n\n目标消息：\n" + target_text +
         "\n\n现在直接给出一句回复。"
     )
+    return system_prompt, user_prompt
+
+
+async def _generate_group_roast_reply(target_text: str, context_lines: list[str]) -> str:
+    system_prompt, user_prompt = _build_group_roast_prompt(target_text, context_lines)
     return await _call_minimax_chat(system_prompt, user_prompt)
 
 
-def _fetch_bilibili_metadata(url: str) -> dict:
+def _fetch_bilibili_subtitle_text(headers: dict, aid: int | None, cid: int | None) -> str:
+    if not cid or not aid:
+        return ""
+    try:
+        sub_api = f"https://api.bilibili.com/x/v2/dm/view?aid={aid}&oid={cid}&type=1"
+        sr = httpx.get(sub_api, headers=headers, timeout=20)
+        sr.raise_for_status()
+        sub_data = (_json_from_httpx_response(sr).get("data") or {})
+        subtitles = ((sub_data.get("subtitle") or {}).get("subtitles")) or []
+        zh_sub = None
+        for item in subtitles:
+            if item.get("lan") in ("ai-zh", "zh-CN", "zh-Hans", "zh"):
+                zh_sub = item
+                break
+        if not zh_sub and subtitles:
+            zh_sub = subtitles[0]
+        if not zh_sub or not zh_sub.get("subtitle_url"):
+            return ""
+
+        sub_url = zh_sub["subtitle_url"]
+        if sub_url.startswith("//"):
+            sub_url = "https:" + sub_url
+        elif sub_url.startswith("http://"):
+            sub_url = "https://" + sub_url[len("http://"):]
+        tr = httpx.get(sub_url, headers=headers, timeout=20)
+        tr.raise_for_status()
+        body = _json_from_httpx_response(tr)
+        pieces = []
+        for item in body.get("body", [])[:80]:
+            content = (item.get("content") or "").strip()
+            if content:
+                pieces.append(content)
+        return " ".join(pieces)[:4000]
+    except Exception as e:
+        logger.warning(f"[bili-roaster] subtitle fetch failed: {e}")
+        return ""
+
+
+def _fetch_bilibili_hot_comments(headers: dict, aid: int | None) -> list[str]:
+    if not aid:
+        return []
+    hot_comments: list[str] = []
+    try:
+        reply_candidates = [
+            f"https://api.bilibili.com/x/v2/reply/main?oid={aid}&type=1&mode=3&next=0&ps=5",
+            f"https://api.bilibili.com/x/v2/reply?pn=1&type=1&oid={aid}&sort=2",
+        ]
+        for reply_api in reply_candidates:
+            cr = httpx.get(reply_api, headers=headers, timeout=20)
+            cr.raise_for_status()
+            payload = _json_from_httpx_response(cr)
+            if payload.get("code") != 0:
+                logger.warning(f"[bili-roaster] comment api failed: {reply_api} -> {payload.get('code')}")
+                continue
+            cdata = ((payload.get("data") or {}).get("replies") or [])
+            for item in cdata[:5]:
+                message = (((item.get("content") or {}).get("message")) or "").strip()
+                like = item.get("like", 0)
+                if message:
+                    hot_comments.append(f"{message}（赞{like}）")
+            if hot_comments:
+                break
+    except Exception as e:
+        logger.warning(f"[bili-roaster] hot comments fetch failed: {e}")
+    return hot_comments
+
+
+def _fetch_bilibili_metadata(url: str) -> BilibiliRoasterContext:
     logger.info(f"[bili-roaster] fetching metadata via bilibili api: {url}")
     headers = {
         "User-Agent": "Mozilla/5.0",
@@ -267,134 +392,97 @@ def _fetch_bilibili_metadata(url: str) -> dict:
     info = data.get("data") or {}
     owner = info.get("owner") or {}
     stat = info.get("stat") or {}
-    cid = info.get("cid")
 
-    subtitle_text = ""
-    if cid:
-        try:
-            sub_api = f"https://api.bilibili.com/x/v2/dm/view?aid={info.get('aid')}&oid={cid}&type=1"
-            sr = httpx.get(sub_api, headers=headers, timeout=20)
-            sr.raise_for_status()
-            sub_data = (_json_from_httpx_response(sr).get("data") or {})
-            subtitles = ((sub_data.get("subtitle") or {}).get("subtitles")) or []
-            zh_sub = None
-            for item in subtitles:
-                if item.get("lan") in ("ai-zh", "zh-CN", "zh-Hans", "zh"):
-                    zh_sub = item
-                    break
-            if not zh_sub and subtitles:
-                zh_sub = subtitles[0]
-            if zh_sub and zh_sub.get("subtitle_url"):
-                sub_url = zh_sub["subtitle_url"]
-                if sub_url.startswith("//"):
-                    sub_url = "https:" + sub_url
-                elif sub_url.startswith("http://"):
-                    sub_url = "https://" + sub_url[len("http://"):]
-                tr = httpx.get(sub_url, headers=headers, timeout=20)
-                tr.raise_for_status()
-                body = _json_from_httpx_response(tr)
-                pieces = []
-                for item in body.get("body", [])[:80]:
-                    content = (item.get("content") or "").strip()
-                    if content:
-                        pieces.append(content)
-                subtitle_text = " ".join(pieces)[:4000]
-        except Exception as e:
-            logger.warning(f"[bili-roaster] subtitle fetch failed: {e}")
+    meta = BilibiliRoasterContext(
+        title=info.get("title", ""),
+        description=info.get("desc", ""),
+        uploader=owner.get("name", ""),
+        dynamic=info.get("dynamic", ""),
+        argue_msg=((info.get("argue_info") or {}).get("argue_msg")) or "",
+        subtitle_text=_fetch_bilibili_subtitle_text(headers, info.get("aid"), info.get("cid")),
+        hot_comments=_fetch_bilibili_hot_comments(headers, info.get("aid")),
+        webpage_url=final_url,
+        bvid=bvid,
+    )
+    logger.info(f"[bili-roaster] metadata title: {meta.title}")
+    return meta
 
-    hot_comments = []
+
+def _build_bilibili_context(url: str, card_meta: dict | None = None) -> BilibiliRoasterContext:
+    meta = BilibiliRoasterContext(
+        title=(card_meta or {}).get("title", ""),
+        description=(card_meta or {}).get("desc", ""),
+        webpage_url=(card_meta or {}).get("jump_url", "") or url,
+    )
     try:
-        reply_candidates = [
-            f"https://api.bilibili.com/x/v2/reply/main?oid={info.get('aid')}&type=1&mode=3&next=0&ps=5",
-            f"https://api.bilibili.com/x/v2/reply?pn=1&type=1&oid={info.get('aid')}&sort=2",
-        ]
-        for reply_api in reply_candidates:
-            cr = httpx.get(reply_api, headers=headers, timeout=20)
-            cr.raise_for_status()
-            payload = _json_from_httpx_response(cr)
-            if payload.get("code") != 0:
-                logger.warning(f"[bili-roaster] comment api failed: {reply_api} -> {payload.get('code')}")
-                continue
-            cdata = ((payload.get("data") or {}).get("replies") or [])
-            for item in cdata[:5]:
-                message = (((item.get("content") or {}).get("message")) or "").strip()
-                like = item.get("like", 0)
-                if message:
-                    hot_comments.append(f"{message}（赞{like}）")
-            if hot_comments:
-                break
-    except Exception as e:
-        logger.warning(f"[bili-roaster] hot comments fetch failed: {e}")
-
-    logger.info(f"[bili-roaster] metadata title: {info.get('title', '')}")
-    return {
-        "title": info.get("title", ""),
-        "description": info.get("desc", ""),
-        "uploader": owner.get("name", ""),
-        "tags": [],
-        "duration": info.get("duration"),
-        "view_count": stat.get("view"),
-        "like_count": stat.get("like"),
-        "dynamic": info.get("dynamic", ""),
-        "argue_msg": ((info.get("argue_info") or {}).get("argue_msg")) or "",
-        "subtitle_text": subtitle_text,
-        "hot_comments": hot_comments,
-        "webpage_url": final_url,
-        "bvid": bvid,
-    }
-
-
-async def _generate_bilibili_roast_reply(url: str, context_lines: list[str], sender_ref: str = "发链接这哥们", card_meta: dict | None = None) -> str:
-    meta = {
-        "title": (card_meta or {}).get("title", ""),
-        "description": (card_meta or {}).get("desc", ""),
-        "uploader": "",
-        "tags": [],
-        "dynamic": "",
-        "argue_msg": "",
-        "subtitle_text": "",
-        "hot_comments": [],
-        "webpage_url": (card_meta or {}).get("jump_url", "") or url,
-    }
-    try:
-        fetched = await __import__('asyncio').to_thread(_fetch_bilibili_metadata, url)
-        if fetched:
-            meta.update({k: v for k, v in fetched.items() if v})
+        fetched = _fetch_bilibili_metadata(url)
+        if fetched.title:
+            meta.title = fetched.title
+        if fetched.description:
+            meta.description = fetched.description
+        if fetched.uploader:
+            meta.uploader = fetched.uploader
+        if fetched.dynamic:
+            meta.dynamic = fetched.dynamic
+        if fetched.argue_msg:
+            meta.argue_msg = fetched.argue_msg
+        if fetched.subtitle_text:
+            meta.subtitle_text = fetched.subtitle_text
+        if fetched.hot_comments:
+            meta.hot_comments = fetched.hot_comments
+        if fetched.webpage_url:
+            meta.webpage_url = fetched.webpage_url
+        if fetched.bvid:
+            meta.bvid = fetched.bvid
     except Exception as e:
         logger.warning(f"[bili-roaster] metadata fetch failed: {e}")
+    return meta
 
-    summary_system = (
+
+def _build_bilibili_summary_prompt(meta: BilibiliRoasterContext) -> tuple[str, str]:
+    system_prompt = (
         "你是一个内容分析助手。请根据给定的B站视频信息，提炼出这个视频真正讲了什么、消费了什么梗、评论区主要在说什么。"
         "要求：只输出3条要点；每条一行；每条不超过28字；必须具体，不要空话；"
         "如果缺少字幕，就优先根据标题、简介、评论推断视频重点。"
     )
-    summary_user = (
-        f"标题：{meta.get('title', '')}\n"
-        f"UP主：{meta.get('uploader', '')}\n"
-        f"简介：{(meta.get('description', '') or '')[:400]}\n"
-        f"动态：{(meta.get('dynamic', '') or '')[:160]}\n"
-        f"字幕：{(meta.get('subtitle_text', '') or '')[:1200]}\n"
-        f"热门评论：{' | '.join((meta.get('hot_comments') or [])[:5])}\n"
+    user_prompt = (
+        f"标题：{meta.title}\n"
+        f"UP主：{meta.uploader}\n"
+        f"简介：{(meta.description or '')[:400]}\n"
+        f"动态：{(meta.dynamic or '')[:160]}\n"
+        f"字幕：{(meta.subtitle_text or '')[:1200]}\n"
+        f"热门评论：{' | '.join((meta.hot_comments or [])[:5])}\n"
     )
-    summary_reply, summary_reasoning = await _call_minimax_chat_with_reasoning(summary_system, summary_user)
-    summary = summary_reply or summary_reasoning
+    return system_prompt, user_prompt
 
-    roast_system = (
+
+def _build_bilibili_roast_prompt(meta: BilibiliRoasterContext, sender_ref: str, summary: str) -> tuple[str, str]:
+    system_prompt = (
         "你是QQ群里的暴躁贴吧老哥。根据给定视频要点，写1到3句具体回复。"
         "要求：必须点到具体内容点，不能空泛；要像真人在群里说话，句子完整，别写成半截残句；"
         "回复对象是发这个链接的群友，所以要顺着视频内容去阴阳他、吐槽他发的东西，不要只点评视频本身；"
         "不要输出[小嘴][doge][笑哭]这类平台表情名；"
         "语气暴躁阴阳怪气但别越线；不要解释自己。"
     )
-    roast_user = (
+    user_prompt = (
         f"回复对象：{sender_ref}\n"
-        f"视频标题：{meta.get('title', '')}\n"
-        f"UP主：{meta.get('uploader', '')}\n"
+        f"视频标题：{meta.title}\n"
+        f"UP主：{meta.uploader}\n"
         f"视频要点：\n{summary or '（摘要失败）'}\n"
-        f"补充简介：{(meta.get('description', '') or '')[:220]}\n"
-        f"补充评论：{' | '.join((meta.get('hot_comments') or [])[:3])}\n"
+        f"补充简介：{(meta.description or '')[:220]}\n"
+        f"补充评论：{' | '.join((meta.hot_comments or [])[:3])}\n"
         "现在直接输出1到3句回复。"
     )
+    return system_prompt, user_prompt
+
+
+async def _generate_bilibili_roast_reply(url: str, context_lines: list[str], sender_ref: str = "发链接这哥们", card_meta: dict | None = None) -> str:
+    meta = await __import__('asyncio').to_thread(_build_bilibili_context, url, card_meta)
+    summary_system, summary_user = _build_bilibili_summary_prompt(meta)
+    summary_reply, summary_reasoning = await _call_minimax_chat_with_reasoning(summary_system, summary_user)
+    summary = summary_reply or summary_reasoning
+
+    roast_system, roast_user = _build_bilibili_roast_prompt(meta, sender_ref, summary)
     reply = await _call_minimax_chat(roast_system, roast_user)
     if not reply and summary:
         reply = await _call_minimax_chat(
@@ -402,7 +490,7 @@ async def _generate_bilibili_roast_reply(url: str, context_lines: list[str], sen
             summary[-2200:],
         )
     if not reply:
-        logger.warning(f"[bili-roaster] empty reply; title={meta.get('title','')} summary={summary!r}")
+        logger.warning(f"[bili-roaster] empty reply; title={meta.title} summary={summary!r}")
     return reply
 
 
@@ -508,6 +596,85 @@ async def _run_i2i_from_image_url(image_url: str, prompt: str):
     return True, msg
 
 
+def _remember_group_message(event: Event, group_key: str):
+    _ensure_group_state(group_key)
+    brief = _format_message_brief(event)
+    GROUP_CONTEXTS[group_key].append(brief)
+    GROUP_TRIGGER_COUNTER[group_key] += 1
+    logger.info(
+        f"[group-roaster] group={group_key} counter={GROUP_TRIGGER_COUNTER[group_key]} "
+        f"next={GROUP_NEXT_TRIGGER[group_key]} brief={brief[:120]}"
+    )
+
+
+def _cache_image_message(message_id: int, image_url: str):
+    IMAGE_SEGMENT_CACHE[str(message_id)] = image_url
+    if len(IMAGE_SEGMENT_CACHE) > 500:
+        for key in list(IMAGE_SEGMENT_CACHE.keys())[:100]:
+            IMAGE_SEGMENT_CACHE.pop(key, None)
+
+
+def _is_regular_group_text(plain: str) -> bool:
+    if not plain:
+        return False
+    command_prefixes = ("帮助", "ping", "时间", "说 ", "echo ", "生图", "画图", "图生图", "改图", "垫图", "朗读", "念 ")
+    return not plain.startswith(command_prefixes)
+
+
+async def _handle_pending_i2i_if_needed(bot: Bot, event: Event, image_url: str) -> bool:
+    session_key = f"{event.user_id}:{getattr(event, 'group_id', 'private')}"
+    pending = PENDING_I2I.pop(session_key, None)
+    if not pending:
+        return False
+    await bot.send(event, "收到图片，开始改图……")
+    ok, result = await _run_i2i_from_image_url(image_url, pending["prompt"])
+    await bot.send(event, result)
+    return True
+
+
+async def _handle_bilibili_if_needed(bot: Bot, event: Event, group_key: str) -> bool:
+    if not _env_bool("BILIBILI_ROASTER_ENABLED", True):
+        return False
+    bili_url = _extract_bilibili_url_from_event(event)
+    if not bili_url:
+        return False
+
+    logger.info(f"[bili-roaster] handling bilibili url: {bili_url}")
+    if bili_url in SEEN_BILIBILI_URLS:
+        return True
+
+    SEEN_BILIBILI_URLS.append(bili_url)
+    context_lines = list(GROUP_CONTEXTS[group_key])
+    card_meta = _extract_bilibili_card_meta(event)
+    sender_ref = f"发这个链接的群友（QQ:{getattr(event, 'user_id', 'unknown')}）"
+    reply = await _generate_bilibili_roast_reply(bili_url, context_lines, sender_ref, card_meta)
+    if reply:
+        await bot.send(event, reply)
+    else:
+        logger.warning(f"[bili-roaster] no reply generated for url={bili_url}")
+    return True
+
+
+async def _handle_group_roaster_if_needed(bot: Bot, event: Event, group_key: str, plain: str) -> None:
+    config = _get_group_roaster_config()
+    if not config.enabled or not _is_regular_group_text(plain):
+        return
+    if GROUP_TRIGGER_COUNTER[group_key] < GROUP_NEXT_TRIGGER[group_key]:
+        return
+
+    logger.info(f"[group-roaster] triggered for group={group_key}")
+    context_lines = list(GROUP_CONTEXTS[group_key])
+    reply = await _generate_group_roast_reply(_format_message_brief(event), context_lines)
+    GROUP_TRIGGER_COUNTER[group_key] = 0
+    GROUP_NEXT_TRIGGER[group_key] = random.randint(config.min_trigger, config.max_trigger)
+    logger.info(f"[group-roaster] next trigger reset to {GROUP_NEXT_TRIGGER[group_key]}")
+    if reply:
+        logger.info(f"[group-roaster] sending reply: {reply[:120]}")
+        await bot.send(event, reply)
+    else:
+        logger.warning(f"[group-roaster] empty reply for group={group_key}")
+
+
 @image_cache.handle()
 async def _cache_image(bot: Bot, event: Event):
     try:
@@ -516,66 +683,24 @@ async def _cache_image(bot: Bot, event: Event):
             return
 
         group_id = getattr(event, "group_id", None)
-        if group_id is not None:
-            group_key = str(group_id)
-            _ensure_group_state(group_key)
-            brief = _format_message_brief(event)
-            GROUP_CONTEXTS[group_key].append(brief)
-            GROUP_TRIGGER_COUNTER[group_key] += 1
-            logger.info(f"[group-roaster] group={group_key} counter={GROUP_TRIGGER_COUNTER[group_key]} next={GROUP_NEXT_TRIGGER[group_key]} brief={brief[:120]}")
+        group_key = str(group_id) if group_id is not None else None
+        if group_key is not None:
+            _remember_group_message(event, group_key)
 
         image_url = _pick_image_url_from_segments(event.get_message())
         if image_url:
-            IMAGE_SEGMENT_CACHE[str(message_id)] = image_url
-            if len(IMAGE_SEGMENT_CACHE) > 500:
-                for key in list(IMAGE_SEGMENT_CACHE.keys())[:100]:
-                    IMAGE_SEGMENT_CACHE.pop(key, None)
-
-            session_key = f"{event.user_id}:{getattr(event, 'group_id', 'private')}"
-            pending = PENDING_I2I.pop(session_key, None)
-            if pending:
-                await bot.send(event, "收到图片，开始改图……")
-                ok, result = await _run_i2i_from_image_url(image_url, pending["prompt"])
-                await bot.send(event, result)
+            _cache_image_message(message_id, image_url)
+            if await _handle_pending_i2i_if_needed(bot, event, image_url):
                 return
 
-        # 群聊随机插话逻辑：只对有文本的群消息触发
-        if group_id is not None:
-            plain = event.get_plaintext().strip() if hasattr(event, "get_plaintext") else ""
-            group_key = str(group_id)
+        if group_key is None:
+            return
 
-            # B站链接定向回复：优先于随机插话
-            bili_url = _extract_bilibili_url_from_event(event)
-            if os.getenv("BILIBILI_ROASTER_ENABLED", "true").lower() == "true" and bili_url:
-                logger.info(f"[bili-roaster] handling bilibili url: {bili_url}")
-                if bili_url not in SEEN_BILIBILI_URLS:
-                    SEEN_BILIBILI_URLS.append(bili_url)
-                    context_lines = list(GROUP_CONTEXTS[group_key])
-                    card_meta = _extract_bilibili_card_meta(event)
-                    sender_ref = f"发这个链接的群友（QQ:{getattr(event, 'user_id', 'unknown')}）"
-                    reply = await _generate_bilibili_roast_reply(bili_url, context_lines, sender_ref, card_meta)
-                    if reply:
-                        await bot.send(event, reply)
-                    else:
-                        logger.warning(f"[bili-roaster] no reply generated for url={bili_url}")
-                return
+        if await _handle_bilibili_if_needed(bot, event, group_key):
+            return
 
-            if os.getenv("GROUP_ROASTER_ENABLED", "true").lower() == "true":
-                if plain and not plain.startswith(("帮助", "ping", "时间", "说 ", "echo ", "生图", "画图", "图生图", "改图", "垫图", "朗读", "念 ")):
-                    if GROUP_TRIGGER_COUNTER[group_key] >= GROUP_NEXT_TRIGGER[group_key]:
-                        logger.info(f"[group-roaster] triggered for group={group_key}")
-                        context_lines = list(GROUP_CONTEXTS[group_key])
-                        reply = await _generate_group_roast_reply(_format_message_brief(event), context_lines)
-                        min_trigger = max(3, int(os.getenv("GROUP_ROASTER_MIN_TRIGGER", "5") or "5"))
-                        max_trigger = max(min_trigger, int(os.getenv("GROUP_ROASTER_MAX_TRIGGER", "10") or "10"))
-                        GROUP_TRIGGER_COUNTER[group_key] = 0
-                        GROUP_NEXT_TRIGGER[group_key] = random.randint(min_trigger, max_trigger)
-                        logger.info(f"[group-roaster] next trigger reset to {GROUP_NEXT_TRIGGER[group_key]}")
-                        if reply:
-                            logger.info(f"[group-roaster] sending reply: {reply[:120]}")
-                            await bot.send(event, reply)
-                        else:
-                            logger.warning(f"[group-roaster] empty reply for group={group_key}")
+        plain = event.get_plaintext().strip() if hasattr(event, "get_plaintext") else ""
+        await _handle_group_roaster_if_needed(bot, event, group_key, plain)
     except Exception as e:
         logger.warning(f"[i2i/group] cache handler failed: {e}")
 
