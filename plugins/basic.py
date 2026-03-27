@@ -26,6 +26,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 TMP_AUDIO_DIR = BASE_DIR / "tmp_audio"
 TMP_AUDIO_DIR.mkdir(exist_ok=True)
 IMAGE_SEGMENT_CACHE: dict[str, str] = {}
+PENDING_I2I: dict[str, dict[str, str]] = {}
 
 
 def _pick_image_url_from_segments(segments) -> str:
@@ -80,8 +81,70 @@ async def _extract_image_url(bot: Bot, event: Event, args: Message) -> str:
     return m.group(0) if m else ""
 
 
+async def _run_i2i_from_image_url(image_url: str, prompt: str):
+    api_key = os.getenv("MINIMAX_API_KEY", "").strip()
+    if not api_key:
+        return False, "还没配置 MiniMax API Key。"
+
+    model = os.getenv("MINIMAX_IMAGE_MODEL", "image-01").strip() or "image-01"
+    aspect_ratio = os.getenv("MINIMAX_IMAGE_ASPECT_RATIO", "1:1").strip() or "1:1"
+    reference_type = os.getenv("MINIMAX_I2I_REFERENCE_TYPE", "character").strip() or "character"
+    try:
+        image_count = int(os.getenv("MINIMAX_IMAGE_COUNT", "1").strip() or "1")
+    except ValueError:
+        image_count = 1
+    image_count = max(1, min(image_count, 4))
+
+    payload = {
+        "model": model,
+        "prompt": prompt,
+        "aspect_ratio": aspect_ratio,
+        "subject_reference": [
+            {
+                "type": reference_type,
+                "image_file": image_url,
+            }
+        ],
+        "response_format": "url",
+        "n": image_count,
+    }
+
+    try:
+        async with httpx.AsyncClient(timeout=120) as client:
+            resp = await client.post(
+                "https://api.minimaxi.com/v1/image_generation",
+                headers={
+                    "Authorization": f"Bearer {api_key}",
+                    "Content-Type": "application/json",
+                },
+                json=payload,
+            )
+            resp.raise_for_status()
+            data = resp.json()
+    except httpx.HTTPStatusError as e:
+        detail = e.response.text[:500] if e.response is not None else str(e)
+        return False, f"图生图失败，接口返回错误：{detail}"
+    except Exception as e:
+        return False, f"图生图失败：{e}"
+
+    status_code = (((data or {}).get("base_resp") or {}).get("status_code"))
+    if status_code not in (0, None):
+        status_msg = (((data or {}).get("base_resp") or {}).get("status_msg")) or "未知错误"
+        return False, f"图生图失败：{status_msg}"
+
+    image_urls = (((data or {}).get("data") or {}).get("image_urls")) or []
+    if not image_urls:
+        return False, f"图生图失败，未拿到图片地址。原始返回：{str(data)[:500]}"
+
+    msg = Message()
+    msg.append(MessageSegment.text(f"改图提示词：{prompt}\n"))
+    for url in image_urls:
+        msg.append(MessageSegment.image(url))
+    return True, msg
+
+
 @image_cache.handle()
-async def _cache_image(event: Event):
+async def _cache_image(bot: Bot, event: Event):
     try:
         message_id = getattr(event, "message_id", None)
         if message_id is None:
@@ -93,8 +156,15 @@ async def _cache_image(event: Event):
             if len(IMAGE_SEGMENT_CACHE) > 500:
                 for key in list(IMAGE_SEGMENT_CACHE.keys())[:100]:
                     IMAGE_SEGMENT_CACHE.pop(key, None)
-    except Exception:
-        pass
+
+            session_key = f"{event.user_id}:{getattr(event, 'group_id', 'private')}"
+            pending = PENDING_I2I.pop(session_key, None)
+            if pending:
+                await bot.send(event, "收到图片，开始改图……")
+                ok, result = await _run_i2i_from_image_url(image_url, pending["prompt"])
+                await bot.send(event, result)
+    except Exception as e:
+        logger.warning(f"[i2i-debug] cache/pending handler failed: {e}")
 
 
 @help_cmd.handle()
@@ -107,13 +177,14 @@ async def _help():
         "4. 说 <内容>\n"
         "5. 朗读 <内容>\n"
         "6. 生图 <提示词>\n"
-        "7. 图生图 <提示词>（可直接引用图片）\n"
+        "7. 图生图 <提示词>（可先发命令，再单独发图）\n"
         "\n"
         "示例：\n"
         "说 今天天气不错\n"
         "朗读 你好\n"
         "生图 一只戴墨镜的橘猫\n"
-        "（引用图片）图生图 改成宫崎骏风格"
+        "图生图 改成宫崎骏风格\n"
+        "然后下一条单独发图"
     )
 
 
@@ -220,68 +291,17 @@ async def _i2i(bot: Bot, event: Event, args: Message = CommandArg()):
     elif image_url:
         prompt = re.sub(r"https?://\S+", "", plain_text).strip()
 
-    if not image_url:
-        await i2i_cmd.finish("没找到图片。请直接引用一张图片后发送：图生图 提示词")
     if not prompt:
-        await i2i_cmd.finish("缺少提示词。用法：引用图片后发送：图生图 改成赛博朋克夜景海报")
+        await i2i_cmd.finish("缺少提示词。用法：图生图 改成赛博朋克夜景海报")
 
-    model = os.getenv("MINIMAX_IMAGE_MODEL", "image-01").strip() or "image-01"
-    aspect_ratio = os.getenv("MINIMAX_IMAGE_ASPECT_RATIO", "1:1").strip() or "1:1"
-    reference_type = os.getenv("MINIMAX_I2I_REFERENCE_TYPE", "character").strip() or "character"
-    try:
-        image_count = int(os.getenv("MINIMAX_IMAGE_COUNT", "1").strip() or "1")
-    except ValueError:
-        image_count = 1
-    image_count = max(1, min(image_count, 4))
-
-    payload = {
-        "model": model,
-        "prompt": prompt,
-        "aspect_ratio": aspect_ratio,
-        "subject_reference": [
-            {
-                "type": reference_type,
-                "image_file": image_url,
-            }
-        ],
-        "response_format": "url",
-        "n": image_count,
-    }
+    if not image_url:
+        session_key = f"{event.user_id}:{getattr(event, 'group_id', 'private')}"
+        PENDING_I2I[session_key] = {"prompt": prompt}
+        await i2i_cmd.finish("好，你下一条单独发图片给我，我用这张图来改。")
 
     await i2i_cmd.send("收到，开始改图……")
-
-    try:
-        async with httpx.AsyncClient(timeout=120) as client:
-            resp = await client.post(
-                "https://api.minimaxi.com/v1/image_generation",
-                headers={
-                    "Authorization": f"Bearer {api_key}",
-                    "Content-Type": "application/json",
-                },
-                json=payload,
-            )
-            resp.raise_for_status()
-            data = resp.json()
-    except httpx.HTTPStatusError as e:
-        detail = e.response.text[:500] if e.response is not None else str(e)
-        await i2i_cmd.finish(f"图生图失败，接口返回错误：{detail}")
-    except Exception as e:
-        await i2i_cmd.finish(f"图生图失败：{e}")
-
-    status_code = (((data or {}).get("base_resp") or {}).get("status_code"))
-    if status_code not in (0, None):
-        status_msg = (((data or {}).get("base_resp") or {}).get("status_msg")) or "未知错误"
-        await i2i_cmd.finish(f"图生图失败：{status_msg}")
-
-    image_urls = (((data or {}).get("data") or {}).get("image_urls")) or []
-    if not image_urls:
-        await i2i_cmd.finish(f"图生图失败，未拿到图片地址。原始返回：{str(data)[:500]}")
-
-    msg = Message()
-    msg.append(MessageSegment.text(f"改图提示词：{prompt}\n"))
-    for url in image_urls:
-        msg.append(MessageSegment.image(url))
-    await i2i_cmd.finish(msg)
+    ok, result = await _run_i2i_from_image_url(image_url, prompt)
+    await i2i_cmd.finish(result)
 
 
 @read_cmd.handle()
