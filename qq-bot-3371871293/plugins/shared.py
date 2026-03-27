@@ -23,6 +23,14 @@ GROUP_TRIGGER_COUNTER: dict[str, int] = {}
 GROUP_NEXT_TRIGGER: dict[str, int] = {}
 SEEN_BILIBILI_URLS: deque = deque(maxlen=200)
 
+USER_NAME_MAP = {
+    "769163832": "yt",
+    "1140637229": "润琦",
+    "1048314482": "xh",
+    "1393564897": "晧中",
+    "2115639946": "e",
+}
+
 
 @dataclass
 class GroupRoasterConfig:
@@ -196,12 +204,18 @@ def extract_bilibili_card_meta(event: Event) -> dict:
     return meta
 
 
+def get_user_display_name(user_id: str | int) -> str:
+    user_id = str(user_id)
+    return USER_NAME_MAP.get(user_id, user_id)
+
+
 def format_message_brief(event: Event) -> str:
     user_id = getattr(event, "user_id", "unknown")
+    display_name = get_user_display_name(user_id)
     text = event.get_plaintext().strip() if hasattr(event, "get_plaintext") else ""
     if not text:
         text = str(event.get_message())[:120]
-    return f"[{user_id}] {text}"
+    return f"[{display_name}] {text}"
 
 
 def json_from_httpx_response(resp: httpx.Response) -> dict:
