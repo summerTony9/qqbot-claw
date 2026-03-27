@@ -4,7 +4,8 @@ from datetime import datetime
 from pathlib import Path
 
 import httpx
-from nonebot import on_command, on_keyword, require
+from loguru import logger
+from nonebot import on_command, on_keyword, on_message, require
 from nonebot.adapters.onebot.v11 import Bot, Event, Message, MessageSegment
 from nonebot.params import CommandArg
 
@@ -19,10 +20,12 @@ image_cmd = on_command("生图", aliases={"画图", "draw"}, priority=5, block=T
 i2i_cmd = on_command("图生图", aliases={"垫图", "改图"}, priority=5, block=True)
 read_cmd = on_command("朗读", aliases={"念", "语音复读", "read"}, priority=5, block=True)
 hello = on_keyword({"你好", "在吗", "机器人"}, priority=20, block=False)
+image_cache = on_message(priority=99, block=False)
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 TMP_AUDIO_DIR = BASE_DIR / "tmp_audio"
 TMP_AUDIO_DIR.mkdir(exist_ok=True)
+IMAGE_SEGMENT_CACHE: dict[str, str] = {}
 
 
 def _pick_image_url_from_segments(segments) -> str:
@@ -41,7 +44,7 @@ def _pick_image_url_from_segments(segments) -> str:
 
 
 async def _extract_image_url(bot: Bot, event: Event, args: Message) -> str:
-    # 1) 先读引用消息里的图片
+    # 1) 先读引用消息里的图片（优先查本地缓存）
     try:
         reply_id = None
         for seg in event.get_message():
@@ -51,13 +54,20 @@ async def _extract_image_url(bot: Bot, event: Event, args: Message) -> str:
                     break
 
         if reply_id:
+            cached = IMAGE_SEGMENT_CACHE.get(str(reply_id), "")
+            if cached:
+                logger.info(f"[i2i-debug] hit image cache for reply_id={reply_id}")
+                return cached
+
             replied = await bot.get_msg(message_id=reply_id)
+            logger.info(f"[i2i-debug] reply_id={reply_id} replied={replied}")
             replied_message = replied.get("message") or []
             image_url = _pick_image_url_from_segments(replied_message)
             if image_url:
+                IMAGE_SEGMENT_CACHE[str(reply_id)] = image_url
                 return image_url
-    except Exception:
-        pass
+    except Exception as e:
+        logger.warning(f"[i2i-debug] get replied message failed: {e}")
 
     # 2) 再读当前命令消息里直接附带的图片
     image_url = _pick_image_url_from_segments(args)
@@ -68,6 +78,23 @@ async def _extract_image_url(bot: Bot, event: Event, args: Message) -> str:
     plain_text = args.extract_plain_text().strip()
     m = re.search(r"https?://\S+", plain_text)
     return m.group(0) if m else ""
+
+
+@image_cache.handle()
+async def _cache_image(event: Event):
+    try:
+        message_id = getattr(event, "message_id", None)
+        if message_id is None:
+            return
+        image_url = _pick_image_url_from_segments(event.get_message())
+        if image_url:
+            IMAGE_SEGMENT_CACHE[str(message_id)] = image_url
+            # 控制缓存大小，避免一直涨
+            if len(IMAGE_SEGMENT_CACHE) > 500:
+                for key in list(IMAGE_SEGMENT_CACHE.keys())[:100]:
+                    IMAGE_SEGMENT_CACHE.pop(key, None)
+    except Exception:
+        pass
 
 
 @help_cmd.handle()
