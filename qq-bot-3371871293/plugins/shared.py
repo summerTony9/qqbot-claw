@@ -2,6 +2,7 @@ import json
 import os
 import random
 import re
+import sqlite3
 import time
 from collections import deque
 from dataclasses import dataclass
@@ -12,6 +13,9 @@ from loguru import logger
 from nonebot.adapters.onebot.v11 import Event
 
 BASE_DIR = Path(__file__).resolve().parent.parent
+DATA_DIR = BASE_DIR / "data"
+DATA_DIR.mkdir(exist_ok=True)
+DB_PATH = DATA_DIR / "chat_history.db"
 TMP_AUDIO_DIR = BASE_DIR / "tmp_audio"
 TMP_AUDIO_DIR.mkdir(exist_ok=True)
 
@@ -22,6 +26,7 @@ GROUP_MESSAGE_LOGS: dict[str, deque] = {}
 GROUP_TRIGGER_COUNTER: dict[str, int] = {}
 GROUP_NEXT_TRIGGER: dict[str, int] = {}
 SEEN_BILIBILI_URLS: deque = deque(maxlen=200)
+HYDRATED_GROUPS: set[str] = set()
 
 USER_NAME_MAP = {
     "769163832": "yt",
@@ -67,6 +72,46 @@ class BilibiliRoasterContext:
             self.hot_comments = []
 
 
+def get_db_connection() -> sqlite3.Connection:
+    conn = sqlite3.connect(DB_PATH)
+    conn.row_factory = sqlite3.Row
+    return conn
+
+
+def init_storage():
+    with get_db_connection() as conn:
+        conn.execute(
+            """
+            CREATE TABLE IF NOT EXISTS group_messages (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                group_id TEXT NOT NULL,
+                ts REAL NOT NULL,
+                user_id TEXT NOT NULL,
+                text TEXT NOT NULL
+            )
+            """
+        )
+        conn.execute(
+            """
+            CREATE INDEX IF NOT EXISTS idx_group_messages_group_ts
+            ON group_messages(group_id, ts)
+            """
+        )
+        conn.execute(
+            """
+            CREATE TABLE IF NOT EXISTS group_state (
+                group_id TEXT PRIMARY KEY,
+                trigger_counter INTEGER NOT NULL,
+                next_trigger INTEGER NOT NULL
+            )
+            """
+        )
+        conn.commit()
+
+
+init_storage()
+
+
 def env_bool(name: str, default: bool) -> bool:
     value = os.getenv(name)
     if value is None:
@@ -97,6 +142,54 @@ def get_group_summary_log_maxlen() -> int:
     return max(200, min(env_int("GROUP_SUMMARY_LOG_MAXLEN", 3000), 10000))
 
 
+def load_group_state(group_id: str, config: GroupRoasterConfig) -> tuple[int, int]:
+    with get_db_connection() as conn:
+        row = conn.execute(
+            "SELECT trigger_counter, next_trigger FROM group_state WHERE group_id = ?",
+            (group_id,),
+        ).fetchone()
+    if row is None:
+        return 0, random.randint(config.min_trigger, config.max_trigger)
+    return int(row["trigger_counter"]), int(row["next_trigger"])
+
+
+def save_group_state(group_id: str):
+    with get_db_connection() as conn:
+        conn.execute(
+            """
+            INSERT INTO group_state(group_id, trigger_counter, next_trigger)
+            VALUES(?, ?, ?)
+            ON CONFLICT(group_id) DO UPDATE SET
+                trigger_counter=excluded.trigger_counter,
+                next_trigger=excluded.next_trigger
+            """,
+            (group_id, GROUP_TRIGGER_COUNTER[group_id], GROUP_NEXT_TRIGGER[group_id]),
+        )
+        conn.commit()
+
+
+def load_recent_group_messages(group_id: str, limit: int) -> list[GroupMessageRecord]:
+    with get_db_connection() as conn:
+        rows = conn.execute(
+            "SELECT ts, user_id, text FROM group_messages WHERE group_id = ? ORDER BY ts DESC LIMIT ?",
+            (group_id, limit),
+        ).fetchall()
+    records = [
+        GroupMessageRecord(ts=float(row["ts"]), user_id=str(row["user_id"]), text=str(row["text"]))
+        for row in reversed(rows)
+    ]
+    return records
+
+
+def append_group_message(group_id: str, record: GroupMessageRecord):
+    with get_db_connection() as conn:
+        conn.execute(
+            "INSERT INTO group_messages(group_id, ts, user_id, text) VALUES(?, ?, ?, ?)",
+            (group_id, record.ts, record.user_id, record.text),
+        )
+        conn.commit()
+
+
 def ensure_group_state(group_id: str):
     config = get_group_roaster_config()
     if group_id not in GROUP_CONTEXTS:
@@ -107,6 +200,20 @@ def ensure_group_state(group_id: str):
         GROUP_TRIGGER_COUNTER[group_id] = 0
     if group_id not in GROUP_NEXT_TRIGGER:
         GROUP_NEXT_TRIGGER[group_id] = random.randint(config.min_trigger, config.max_trigger)
+
+    if group_id in HYDRATED_GROUPS:
+        return
+
+    counter, next_trigger = load_group_state(group_id, config)
+    GROUP_TRIGGER_COUNTER[group_id] = counter
+    GROUP_NEXT_TRIGGER[group_id] = next_trigger
+
+    preload_limit = max(config.context_size, min(get_group_summary_log_maxlen(), 300))
+    records = load_recent_group_messages(group_id, preload_limit)
+    for record in records:
+        GROUP_MESSAGE_LOGS[group_id].append(record)
+        GROUP_CONTEXTS[group_id].append(record.text)
+    HYDRATED_GROUPS.add(group_id)
 
 
 def pick_image_url_from_segments(segments) -> str:
@@ -509,11 +616,16 @@ async def generate_bilibili_roast_reply(url: str, sender_ref: str = "发链接�
 def remember_group_message(event: Event, group_key: str):
     ensure_group_state(group_key)
     brief = format_message_brief(event)
-    GROUP_CONTEXTS[group_key].append(brief)
-    GROUP_MESSAGE_LOGS[group_key].append(
-        GroupMessageRecord(ts=time.time(), user_id=str(getattr(event, 'user_id', 'unknown')), text=brief)
+    record = GroupMessageRecord(
+        ts=time.time(),
+        user_id=str(getattr(event, 'user_id', 'unknown')),
+        text=brief,
     )
+    GROUP_CONTEXTS[group_key].append(brief)
+    GROUP_MESSAGE_LOGS[group_key].append(record)
+    append_group_message(group_key, record)
     GROUP_TRIGGER_COUNTER[group_key] += 1
+    save_group_state(group_key)
     logger.info(
         f"[group-roaster] group={group_key} counter={GROUP_TRIGGER_COUNTER[group_key]} "
         f"next={GROUP_NEXT_TRIGGER[group_key]} brief={brief[:120]}"
@@ -537,8 +649,15 @@ def is_regular_group_text(plain: str) -> bool:
 def get_recent_group_records(group_key: str, hours: float) -> list[GroupMessageRecord]:
     now_ts = time.time()
     cutoff = now_ts - max(hours, 0.1) * 3600
-    records = GROUP_MESSAGE_LOGS.get(group_key, deque())
-    return [r for r in records if r.ts >= cutoff]
+    with get_db_connection() as conn:
+        rows = conn.execute(
+            "SELECT ts, user_id, text FROM group_messages WHERE group_id = ? AND ts >= ? ORDER BY ts ASC",
+            (group_key, cutoff),
+        ).fetchall()
+    return [
+        GroupMessageRecord(ts=float(row["ts"]), user_id=str(row["user_id"]), text=str(row["text"]))
+        for row in rows
+    ]
 
 
 def build_group_summary_prompt(records: list[GroupMessageRecord], hours: float) -> tuple[str, str]:
