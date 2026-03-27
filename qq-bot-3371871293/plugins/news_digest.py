@@ -44,11 +44,24 @@ def _write_json(path: Path, payload: dict[str, Any]) -> None:
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
+def _parse_id_list(raw: str) -> list[str]:
+    parts = re.split(r"[,，\s]+", (raw or "").strip())
+    return [p for p in (x.strip() for x in parts) if p]
+
+
 def _load_subscriptions() -> dict[str, list[str]]:
     data = _read_json(SUBSCRIPTIONS_PATH, {"groups": [], "users": [], "updated_at": ""})
+    groups = {str(x) for x in data.get("groups", [])}
+    users = {str(x) for x in data.get("users", [])}
+
+    for gid in _parse_id_list(os.getenv("NEWS_DIGEST_DEFAULT_GROUP_IDS", "")):
+        groups.add(gid)
+    for uid in _parse_id_list(os.getenv("NEWS_DIGEST_DEFAULT_USER_IDS", "")):
+        users.add(uid)
+
     return {
-        "groups": [str(x) for x in data.get("groups", [])],
-        "users": [str(x) for x in data.get("users", [])],
+        "groups": sorted(groups),
+        "users": sorted(users),
         "updated_at": str(data.get("updated_at", "")),
     }
 
@@ -327,7 +340,9 @@ async def _subscribe_news(event: Event):
         data[key].append(target_id)
         _save_subscriptions(data)
     where = f"群 {target_id}" if target_type == "group" else f"QQ {target_id}"
-    await subscribe_news_cmd.finish(f"行，已经给 {where} 开了新闻推送。每天早上 8 点我会自动发，手动也能直接敲“新闻”。")
+    push_hour = max(0, min(env_int("NEWS_DIGEST_HOUR", 8), 23))
+    push_minute = max(0, min(env_int("NEWS_DIGEST_MINUTE", 0), 59))
+    await subscribe_news_cmd.finish(f"行，已经给 {where} 开了新闻推送。每天 {push_hour:02d}:{push_minute:02d} 我会自动发，手动也能直接敲“新闻”。")
 
 
 @unsubscribe_news_cmd.handle()
