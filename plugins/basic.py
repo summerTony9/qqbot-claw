@@ -1,4 +1,5 @@
 import os
+import re
 from datetime import datetime
 from pathlib import Path
 
@@ -15,6 +16,7 @@ ping_cmd = on_command("ping", priority=5, block=True)
 time_cmd = on_command("时间", aliases={"time"}, priority=5, block=True)
 echo_cmd = on_command("说", aliases={"echo"}, priority=5, block=True)
 image_cmd = on_command("生图", aliases={"画图", "draw"}, priority=5, block=True)
+i2i_cmd = on_command("图生图", aliases={"垫图", "改图"}, priority=5, block=True)
 read_cmd = on_command("朗读", aliases={"念", "语音复读", "read"}, priority=5, block=True)
 hello = on_keyword({"你好", "在吗", "机器人"}, priority=20, block=False)
 
@@ -117,6 +119,102 @@ async def _image(args: Message = CommandArg()):
     for url in image_urls:
         msg.append(MessageSegment.image(url))
     await image_cmd.finish(msg)
+
+
+@i2i_cmd.handle()
+async def _i2i(args: Message = CommandArg()):
+    api_key = os.getenv("MINIMAX_API_KEY", "").strip()
+    if not api_key:
+        await i2i_cmd.finish("还没配置 MiniMax API Key。")
+
+    image_url = ""
+    for seg in args:
+        if seg.type == "image":
+            image_url = seg.data.get("url") or seg.data.get("file") or image_url
+            if image_url:
+                break
+
+    plain_text = args.extract_plain_text().strip()
+    prompt = plain_text
+
+    # 支持：图生图 图片链接 | 提示词
+    if "|" in plain_text:
+        left, right = plain_text.split("|", 1)
+        left = left.strip()
+        right = right.strip()
+        if re.match(r"^https?://", left):
+            image_url = left
+        prompt = right
+    elif not image_url:
+        m = re.search(r"https?://\S+", plain_text)
+        if m:
+            image_url = m.group(0)
+            prompt = plain_text.replace(image_url, "").strip()
+
+    if not image_url or not prompt:
+        await i2i_cmd.finish(
+            "用法：图生图 图片链接 | 提示词\n"
+            "例如：图生图 https://example.com/a.jpg | 把它改成赛博朋克夜景海报\n"
+            "如果 NapCat 能把收到的图片段带出 url，也可以直接发：图片 + 图生图 提示词"
+        )
+
+    model = os.getenv("MINIMAX_IMAGE_MODEL", "image-01").strip() or "image-01"
+    aspect_ratio = os.getenv("MINIMAX_IMAGE_ASPECT_RATIO", "1:1").strip() or "1:1"
+    reference_type = os.getenv("MINIMAX_I2I_REFERENCE_TYPE", "character").strip() or "character"
+    try:
+        image_count = int(os.getenv("MINIMAX_IMAGE_COUNT", "1").strip() or "1")
+    except ValueError:
+        image_count = 1
+    image_count = max(1, min(image_count, 4))
+
+    payload = {
+        "model": model,
+        "prompt": prompt,
+        "aspect_ratio": aspect_ratio,
+        "subject_reference": [
+            {
+                "type": reference_type,
+                "image_file": image_url,
+            }
+        ],
+        "response_format": "url",
+        "n": image_count,
+    }
+
+    await i2i_cmd.send("收到，开始改图……")
+
+    try:
+        async with httpx.AsyncClient(timeout=120) as client:
+            resp = await client.post(
+                "https://api.minimaxi.com/v1/image_generation",
+                headers={
+                    "Authorization": f"Bearer {api_key}",
+                    "Content-Type": "application/json",
+                },
+                json=payload,
+            )
+            resp.raise_for_status()
+            data = resp.json()
+    except httpx.HTTPStatusError as e:
+        detail = e.response.text[:500] if e.response is not None else str(e)
+        await i2i_cmd.finish(f"图生图失败，接口返回错误：{detail}")
+    except Exception as e:
+        await i2i_cmd.finish(f"图生图失败：{e}")
+
+    status_code = (((data or {}).get("base_resp") or {}).get("status_code"))
+    if status_code not in (0, None):
+        status_msg = (((data or {}).get("base_resp") or {}).get("status_msg")) or "未知错误"
+        await i2i_cmd.finish(f"图生图失败：{status_msg}")
+
+    image_urls = (((data or {}).get("data") or {}).get("image_urls")) or []
+    if not image_urls:
+        await i2i_cmd.finish(f"图生图失败，未拿到图片地址。原始返回：{str(data)[:500]}")
+
+    msg = Message()
+    msg.append(MessageSegment.text(f"改图提示词：{prompt}\n"))
+    for url in image_urls:
+        msg.append(MessageSegment.image(url))
+    await i2i_cmd.finish(msg)
 
 
 @read_cmd.handle()
