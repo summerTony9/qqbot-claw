@@ -151,6 +151,18 @@ def _ensure_group_state(group_id: str):
         GROUP_NEXT_TRIGGER[group_id] = random.randint(min_trigger, max_trigger)
 
 
+def _local_bili_fallback(meta: dict) -> str:
+    title = meta.get("title", "") or "这视频"
+    desc = (meta.get("description", "") or meta.get("dynamic", "") or meta.get("subtitle_text", ""))[:120]
+    if "reaction" in title.lower() or "reaction" in desc.lower():
+        return f"这不就是拿一堆热梗reaction硬缝一锅吗，节奏倒是给你蹭明白了。"
+    if "ai" in title.lower() or "AI" in title or "ai" in desc.lower():
+        return f"这视频一股AI整活味，活是有点活，细看还是那套熟悉配方。"
+    if "春晚" in desc or "机器人" in desc:
+        return f"又是春晚机器人又是热梗缝合，这玩意儿主打一个谁热往谁身上贴。"
+    return f"这视频标题起得挺猛，内容八成还是老活新整，你这路数我都看麻了。"
+
+
 async def _call_minimax_chat(system_prompt: str, user_prompt: str) -> str:
     api_key = os.getenv("MINIMAX_API_KEY", "").strip()
     if not api_key:
@@ -180,6 +192,7 @@ async def _call_minimax_chat(system_prompt: str, user_prompt: str) -> str:
             )
             resp.raise_for_status()
             data = resp.json()
+            logger.info(f"[minimax-chat] model={model} base_resp={data.get('base_resp')} choices_present={bool(data.get('choices'))}")
     except Exception as e:
         logger.warning(f"[minimax-chat] generate failed: {e}")
         return ""
@@ -320,7 +333,8 @@ async def _generate_bilibili_roast_reply(url: str, context_lines: list[str], car
         f"链接：{meta.get('webpage_url', url)}\n\n"
         "现在直接给出一句群聊回复。"
     )
-    return await _call_minimax_chat(system_prompt, user_prompt)
+    reply = await _call_minimax_chat(system_prompt, user_prompt)
+    return reply or _local_bili_fallback(meta)
 
 
 async def _extract_image_url(bot: Bot, event: Event, args: Message) -> str:
