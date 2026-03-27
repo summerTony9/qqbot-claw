@@ -312,15 +312,25 @@ def _fetch_bilibili_metadata(url: str) -> dict:
 
     hot_comments = []
     try:
-        reply_api = f"https://api.bilibili.com/x/v2/reply/main?oid={info.get('aid')}&type=1&mode=3&next=0&ps=5"
-        cr = httpx.get(reply_api, headers=headers, timeout=20)
-        cr.raise_for_status()
-        cdata = ((_json_from_httpx_response(cr).get("data") or {}).get("replies") or [])
-        for item in cdata[:5]:
-            message = (((item.get("content") or {}).get("message")) or "").strip()
-            like = item.get("like", 0)
-            if message:
-                hot_comments.append(f"{message}（赞{like}）")
+        reply_candidates = [
+            f"https://api.bilibili.com/x/v2/reply/main?oid={info.get('aid')}&type=1&mode=3&next=0&ps=5",
+            f"https://api.bilibili.com/x/v2/reply?pn=1&type=1&oid={info.get('aid')}&sort=2",
+        ]
+        for reply_api in reply_candidates:
+            cr = httpx.get(reply_api, headers=headers, timeout=20)
+            cr.raise_for_status()
+            payload = _json_from_httpx_response(cr)
+            if payload.get("code") != 0:
+                logger.warning(f"[bili-roaster] comment api failed: {reply_api} -> {payload.get('code')}")
+                continue
+            cdata = ((payload.get("data") or {}).get("replies") or [])
+            for item in cdata[:5]:
+                message = (((item.get("content") or {}).get("message")) or "").strip()
+                like = item.get("like", 0)
+                if message:
+                    hot_comments.append(f"{message}（赞{like}）")
+            if hot_comments:
+                break
     except Exception as e:
         logger.warning(f"[bili-roaster] hot comments fetch failed: {e}")
 
@@ -363,7 +373,8 @@ async def _generate_bilibili_roast_reply(url: str, context_lines: list[str], car
 
     summary_system = (
         "你是一个内容分析助手。请根据给定的B站视频信息，提炼出这个视频真正讲了什么、消费了什么梗、评论区主要在说什么。"
-        "要求：只输出3条要点；每条一行；每条不超过28字；必须具体，不要空话。"
+        "要求：只输出3条要点；每条一行；每条不超过28字；必须具体，不要空话；"
+        "如果缺少字幕，就优先根据标题、简介、评论推断视频重点。"
     )
     summary_user = (
         f"标题：{meta.get('title', '')}\n"
@@ -377,7 +388,8 @@ async def _generate_bilibili_roast_reply(url: str, context_lines: list[str], car
 
     roast_system = (
         "你是QQ群里的暴躁贴吧老哥。根据给定视频要点，写1到3句具体回复。"
-        "要求：必须点到具体内容点，不能空泛；语气暴躁阴阳怪气但别越线；不要解释自己。"
+        "要求：必须点到具体内容点，不能空泛；要像真人在群里说话，句子完整，别写成半截残句；"
+        "语气暴躁阴阳怪气但别越线；不要解释自己。"
     )
     roast_user = (
         f"视频标题：{meta.get('title', '')}\n"
