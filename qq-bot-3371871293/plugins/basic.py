@@ -1,5 +1,7 @@
 import os
+import random
 import re
+from collections import deque
 from datetime import datetime
 from pathlib import Path
 
@@ -27,6 +29,9 @@ TMP_AUDIO_DIR = BASE_DIR / "tmp_audio"
 TMP_AUDIO_DIR.mkdir(exist_ok=True)
 IMAGE_SEGMENT_CACHE: dict[str, str] = {}
 PENDING_I2I: dict[str, dict[str, str]] = {}
+GROUP_CONTEXTS: dict[str, deque] = {}
+GROUP_TRIGGER_COUNTER: dict[str, int] = {}
+GROUP_NEXT_TRIGGER: dict[str, int] = {}
 
 
 def _pick_image_url_from_segments(segments) -> str:
@@ -42,6 +47,81 @@ def _pick_image_url_from_segments(segments) -> str:
             if image_url:
                 return image_url
     return ""
+
+
+def _format_message_brief(event: Event) -> str:
+    user_id = getattr(event, "user_id", "unknown")
+    text = event.get_plaintext().strip() if hasattr(event, "get_plaintext") else ""
+    if not text:
+        text = str(event.get_message())[:120]
+    return f"[{user_id}] {text}"
+
+
+def _ensure_group_state(group_id: str):
+    context_size = max(8, min(int(os.getenv("GROUP_ROASTER_CONTEXT_SIZE", "15") or "15"), 30))
+    if group_id not in GROUP_CONTEXTS:
+        GROUP_CONTEXTS[group_id] = deque(maxlen=context_size)
+    if group_id not in GROUP_TRIGGER_COUNTER:
+        GROUP_TRIGGER_COUNTER[group_id] = 0
+    if group_id not in GROUP_NEXT_TRIGGER:
+        min_trigger = max(3, int(os.getenv("GROUP_ROASTER_MIN_TRIGGER", "5") or "5"))
+        max_trigger = max(min_trigger, int(os.getenv("GROUP_ROASTER_MAX_TRIGGER", "10") or "10"))
+        GROUP_NEXT_TRIGGER[group_id] = random.randint(min_trigger, max_trigger)
+
+
+async def _generate_group_roast_reply(target_text: str, context_lines: list[str]) -> str:
+    api_key = os.getenv("MINIMAX_API_KEY", "").strip()
+    if not api_key:
+        return ""
+
+    model = os.getenv("MINIMAX_CHAT_MODEL", "MiniMax-M2.7").strip() or "MiniMax-M2.7"
+    system_prompt = (
+        "你是QQ群里的暴躁贴吧老哥。你的任务是针对指定消息做一句具体回复。"
+        "要求：1）必须结合最近群聊上下文和目标消息内容，不能泛泛而谈；"
+        "2）语气暴躁、阴阳怪气、嘴硬、贴吧老哥味，但不要出现仇恨、歧视、暴力威胁、真实人身伤害鼓动；"
+        "3）回复必须短，10-40字，像真实群友插话；"
+        "4）不要解释自己，不要加引号，不要分点，不要写成AI腔；"
+        "5）如果上下文不足，就抓住目标消息本身吐槽。"
+    )
+    user_prompt = (
+        "最近群聊上下文：\n" + "\n".join(context_lines[-15:]) +
+        "\n\n目标消息：\n" + target_text +
+        "\n\n现在直接给出一句回复。"
+    )
+
+    payload = {
+        "model": model,
+        "messages": [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt},
+        ],
+        "temperature": 1.1,
+        "top_p": 0.95,
+        "max_tokens": 80,
+    }
+
+    try:
+        async with httpx.AsyncClient(timeout=60) as client:
+            resp = await client.post(
+                "https://api.minimaxi.com/v1/text/chatcompletion_v2",
+                headers={
+                    "Authorization": f"Bearer {api_key}",
+                    "Content-Type": "application/json",
+                },
+                json=payload,
+            )
+            resp.raise_for_status()
+            data = resp.json()
+    except Exception as e:
+        logger.warning(f"[group-roaster] generate failed: {e}")
+        return ""
+
+    reply = ((data or {}).get("choices") or [{}])[0].get("message", {}).get("content", "").strip()
+    if not reply:
+        # 兼容另一种字段
+        reply = (((data or {}).get("reply") or {}).get("content") or "").strip()
+    reply = reply.replace("\n", " ").strip()
+    return reply[:120]
 
 
 async def _extract_image_url(bot: Bot, event: Event, args: Message) -> str:
@@ -152,10 +232,18 @@ async def _cache_image(bot: Bot, event: Event):
         message_id = getattr(event, "message_id", None)
         if message_id is None:
             return
+
+        group_id = getattr(event, "group_id", None)
+        if group_id is not None:
+            group_key = str(group_id)
+            _ensure_group_state(group_key)
+            brief = _format_message_brief(event)
+            GROUP_CONTEXTS[group_key].append(brief)
+            GROUP_TRIGGER_COUNTER[group_key] += 1
+
         image_url = _pick_image_url_from_segments(event.get_message())
         if image_url:
             IMAGE_SEGMENT_CACHE[str(message_id)] = image_url
-            # 控制缓存大小，避免一直涨
             if len(IMAGE_SEGMENT_CACHE) > 500:
                 for key in list(IMAGE_SEGMENT_CACHE.keys())[:100]:
                     IMAGE_SEGMENT_CACHE.pop(key, None)
@@ -166,8 +254,24 @@ async def _cache_image(bot: Bot, event: Event):
                 await bot.send(event, "收到图片，开始改图……")
                 ok, result = await _run_i2i_from_image_url(image_url, pending["prompt"])
                 await bot.send(event, result)
+                return
+
+        # 群聊随机插话逻辑：只对有文本的群消息触发
+        if os.getenv("GROUP_ROASTER_ENABLED", "true").lower() == "true" and group_id is not None:
+            plain = event.get_plaintext().strip() if hasattr(event, "get_plaintext") else ""
+            if plain and not plain.startswith(("帮助", "ping", "时间", "说 ", "echo ", "生图", "画图", "图生图", "改图", "垫图", "朗读", "念 ")):
+                group_key = str(group_id)
+                if GROUP_TRIGGER_COUNTER[group_key] >= GROUP_NEXT_TRIGGER[group_key]:
+                    context_lines = list(GROUP_CONTEXTS[group_key])
+                    reply = await _generate_group_roast_reply(_format_message_brief(event), context_lines)
+                    min_trigger = max(3, int(os.getenv("GROUP_ROASTER_MIN_TRIGGER", "5") or "5"))
+                    max_trigger = max(min_trigger, int(os.getenv("GROUP_ROASTER_MAX_TRIGGER", "10") or "10"))
+                    GROUP_TRIGGER_COUNTER[group_key] = 0
+                    GROUP_NEXT_TRIGGER[group_key] = random.randint(min_trigger, max_trigger)
+                    if reply:
+                        await bot.send(event, reply)
     except Exception as e:
-        logger.warning(f"[i2i-debug] cache/pending handler failed: {e}")
+        logger.warning(f"[i2i/group] cache handler failed: {e}")
 
 
 @help_cmd.handle()
