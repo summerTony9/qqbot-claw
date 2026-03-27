@@ -25,6 +25,21 @@ TMP_AUDIO_DIR = BASE_DIR / "tmp_audio"
 TMP_AUDIO_DIR.mkdir(exist_ok=True)
 
 
+def _pick_image_url_from_segments(segments) -> str:
+    for seg in segments or []:
+        seg_type = getattr(seg, "type", None)
+        seg_data = getattr(seg, "data", None)
+        if seg_type is None and isinstance(seg, dict):
+            seg_type = seg.get("type")
+            seg_data = seg.get("data", {})
+        seg_data = seg_data or {}
+        if seg_type == "image":
+            image_url = seg_data.get("url") or seg_data.get("file") or ""
+            if image_url:
+                return image_url
+    return ""
+
+
 async def _extract_image_url(bot: Bot, event: Event, args: Message) -> str:
     # 1) 先读引用消息里的图片
     try:
@@ -36,24 +51,18 @@ async def _extract_image_url(bot: Bot, event: Event, args: Message) -> str:
                     break
 
         if reply_id:
-            replied = await bot.get_msg(message_id=int(reply_id))
+            replied = await bot.get_msg(message_id=reply_id)
             replied_message = replied.get("message") or []
-            for seg in replied_message:
-                seg_type = getattr(seg, "type", None) or seg.get("type")
-                seg_data = getattr(seg, "data", None) or seg.get("data", {})
-                if seg_type == "image":
-                    image_url = seg_data.get("url") or seg_data.get("file") or ""
-                    if image_url:
-                        return image_url
+            image_url = _pick_image_url_from_segments(replied_message)
+            if image_url:
+                return image_url
     except Exception:
         pass
 
     # 2) 再读当前命令消息里直接附带的图片
-    for seg in args:
-        if seg.type == "image":
-            image_url = seg.data.get("url") or seg.data.get("file") or ""
-            if image_url:
-                return image_url
+    image_url = _pick_image_url_from_segments(args)
+    if image_url:
+        return image_url
 
     # 3) 最后从文本里抠链接
     plain_text = args.extract_plain_text().strip()
@@ -184,12 +193,10 @@ async def _i2i(bot: Bot, event: Event, args: Message = CommandArg()):
     elif image_url:
         prompt = re.sub(r"https?://\S+", "", plain_text).strip()
 
-    if not image_url or not prompt:
-        await i2i_cmd.finish(
-            "用法一：引用一张图片后发送：图生图 提示词\n"
-            "用法二：图生图 图片链接 | 提示词\n"
-            "例如：图生图 把它改成赛博朋克夜景海报"
-        )
+    if not image_url:
+        await i2i_cmd.finish("没找到图片。请直接引用一张图片后发送：图生图 提示词")
+    if not prompt:
+        await i2i_cmd.finish("缺少提示词。用法：引用图片后发送：图生图 改成赛博朋克夜景海报")
 
     model = os.getenv("MINIMAX_IMAGE_MODEL", "image-01").strip() or "image-01"
     aspect_ratio = os.getenv("MINIMAX_IMAGE_ASPECT_RATIO", "1:1").strip() or "1:1"
