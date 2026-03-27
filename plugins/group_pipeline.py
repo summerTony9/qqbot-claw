@@ -17,6 +17,7 @@ from .shared import (
     generate_bilibili_roast_reply,
     generate_group_roast_reply,
     get_group_roaster_config,
+    get_user_display_name,
     is_regular_group_text,
     pick_image_url_from_segments,
     remember_group_message,
@@ -49,7 +50,8 @@ async def handle_bilibili_if_needed(bot: Bot, event: Event, group_key: str) -> b
 
     SEEN_BILIBILI_URLS.append(bili_url)
     card_meta = extract_bilibili_card_meta(event)
-    sender_ref = f"发这个链接的群友（QQ:{getattr(event, 'user_id', 'unknown')}）"
+    sender_name = get_user_display_name(getattr(event, 'user_id', 'unknown'))
+    sender_ref = f"发这个链接的群友（{sender_name}）"
     reply = await generate_bilibili_roast_reply(bili_url, sender_ref, card_meta)
     if reply:
         await bot.send(event, reply)

@@ -6,7 +6,7 @@ from nonebot.params import CommandArg
 
 from .shared import generate_group_summary_reply
 
-summary_cmd = on_command("总结群聊", aliases={"群聊总结", "总结聊天"}, priority=5, block=True)
+summary_cmd = on_command("总结群聊", aliases={"群聊总结", "总结聊天", "总结"}, priority=5, block=True)
 
 
 @summary_cmd.handle()
