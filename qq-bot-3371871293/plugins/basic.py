@@ -162,9 +162,9 @@ async def _call_minimax_chat_with_reasoning(system_prompt: str, user_prompt: str
 
     model = os.getenv("MINIMAX_CHAT_MODEL", "MiniMax-M2.7").strip() or "MiniMax-M2.7"
     try:
-        max_tokens = int(os.getenv("MINIMAX_CHAT_MAX_TOKENS", "1024") or "1024")
+        max_tokens = int(os.getenv("MINIMAX_CHAT_MAX_TOKENS", "1536") or "1536")
     except ValueError:
-        max_tokens = 1024
+        max_tokens = 1536
 
     payload = {
         "model": model,
@@ -335,7 +335,7 @@ def _fetch_bilibili_metadata(url: str) -> dict:
     }
 
 
-async def _generate_bilibili_roast_reply(url: str, context_lines: list[str], card_meta: dict | None = None) -> str:
+async def _generate_bilibili_roast_reply(url: str, context_lines: list[str], sender_ref: str = "发链接这哥们", card_meta: dict | None = None) -> str:
     meta = {
         "title": (card_meta or {}).get("title", ""),
         "description": (card_meta or {}).get("desc", ""),
@@ -373,9 +373,11 @@ async def _generate_bilibili_roast_reply(url: str, context_lines: list[str], car
     roast_system = (
         "你是QQ群里的暴躁贴吧老哥。根据给定视频要点，写1到3句具体回复。"
         "要求：必须点到具体内容点，不能空泛；要像真人在群里说话，句子完整，别写成半截残句；"
+        "回复对象是发这个链接的群友，所以要顺着视频内容去阴阳他、吐槽他发的东西，不要只点评视频本身；"
         "语气暴躁阴阳怪气但别越线；不要解释自己。"
     )
     roast_user = (
+        f"回复对象：{sender_ref}\n"
         f"视频标题：{meta.get('title', '')}\n"
         f"UP主：{meta.get('uploader', '')}\n"
         f"视频要点：\n{summary or '（摘要失败）'}\n"
@@ -386,7 +388,7 @@ async def _generate_bilibili_roast_reply(url: str, context_lines: list[str], car
     reply = await _call_minimax_chat(roast_system, roast_user)
     if not reply and summary:
         reply = await _call_minimax_chat(
-            "你是QQ群里的暴躁贴吧老哥。根据给定摘要，写1到3句具体回复。必须像人话，别写残句，别空泛。",
+            f"你是QQ群里的暴躁贴吧老哥。根据给定摘要，冲着{sender_ref}写1到3句具体回复。必须像人话，别写残句，别空泛。",
             summary[-2200:],
         )
     if not reply:
@@ -540,7 +542,8 @@ async def _cache_image(bot: Bot, event: Event):
                     SEEN_BILIBILI_URLS.append(bili_url)
                     context_lines = list(GROUP_CONTEXTS[group_key])
                     card_meta = _extract_bilibili_card_meta(event)
-                    reply = await _generate_bilibili_roast_reply(bili_url, context_lines, card_meta)
+                    sender_ref = f"发这个链接的群友（QQ:{getattr(event, 'user_id', 'unknown')}）"
+                    reply = await _generate_bilibili_roast_reply(bili_url, context_lines, sender_ref, card_meta)
                     if reply:
                         await bot.send(event, reply)
                     else:
