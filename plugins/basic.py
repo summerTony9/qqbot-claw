@@ -151,22 +151,8 @@ def _ensure_group_state(group_id: str):
         GROUP_NEXT_TRIGGER[group_id] = random.randint(min_trigger, max_trigger)
 
 
-def _local_bili_fallback(meta: dict) -> str:
-    title = meta.get("title", "") or "这视频"
-    desc = (meta.get("description", "") or meta.get("dynamic", "") or meta.get("subtitle_text", ""))[:180]
-    comments = " | ".join((meta.get("hot_comments") or [])[:2])
-    blob = f"{title} {desc} {comments}"
-    if "reaction" in blob.lower() and ("热梗" in blob or "梗" in blob):
-        return "说白了就是拿2025那批热梗挨个过一遍，再套个牢大reaction壳子，观众还真就吃这套。"
-    if "春晚" in blob and "机器人" in blob:
-        return "又在那拿春晚机器人和热梗混着炒，老活是老活，奈何这帮人就爱看熟梗返场。"
-    if "柯洁" in blob or "LG杯" in blob:
-        return "前脚拿柯洁和LG杯这种名场面拱情绪，后脚又塞热梗reaction，纯纯流量缝合怪。"
-    if "王源" in blob:
-        return "从春晚机器人跳到王源名场面，这视频内容主打一个哪里有梗就往哪铲，缝得还挺熟。"
-    if "ai" in blob.lower() or "AI" in blob:
-        return "这视频本质还是AI整活reaction，看的不是逻辑，是那股故意端着玩梗的抽象劲。"
-    return "这视频路数其实挺明白：拿一堆现成话题做reaction拼盘，重点不是深度，是让你不停认梗。"
+def _json_from_httpx_response(resp: httpx.Response) -> dict:
+    return json.loads(resp.content.decode("utf-8", errors="replace"))
 
 
 async def _call_minimax_chat(system_prompt: str, user_prompt: str) -> str:
@@ -244,7 +230,7 @@ def _fetch_bilibili_metadata(url: str) -> dict:
     api = f"https://api.bilibili.com/x/web-interface/view?bvid={bvid}"
     rr = httpx.get(api, headers=headers, timeout=20)
     rr.raise_for_status()
-    data = rr.json()
+    data = _json_from_httpx_response(rr)
     if data.get("code") != 0:
         raise ValueError(f"bilibili api error: {data}")
     info = data.get("data") or {}
@@ -258,7 +244,7 @@ def _fetch_bilibili_metadata(url: str) -> dict:
             sub_api = f"https://api.bilibili.com/x/v2/dm/view?aid={info.get('aid')}&oid={cid}&type=1"
             sr = httpx.get(sub_api, headers=headers, timeout=20)
             sr.raise_for_status()
-            sub_data = sr.json().get("data") or {}
+            sub_data = (_json_from_httpx_response(sr).get("data") or {})
             subtitles = ((sub_data.get("subtitle") or {}).get("subtitles")) or []
             zh_sub = None
             for item in subtitles:
@@ -275,7 +261,7 @@ def _fetch_bilibili_metadata(url: str) -> dict:
                     sub_url = "https://" + sub_url[len("http://"):]
                 tr = httpx.get(sub_url, headers=headers, timeout=20)
                 tr.raise_for_status()
-                body = tr.json()
+                body = _json_from_httpx_response(tr)
                 pieces = []
                 for item in body.get("body", [])[:80]:
                     content = (item.get("content") or "").strip()
@@ -290,7 +276,7 @@ def _fetch_bilibili_metadata(url: str) -> dict:
         reply_api = f"https://api.bilibili.com/x/v2/reply/main?oid={info.get('aid')}&type=1&mode=3&next=0&ps=5"
         cr = httpx.get(reply_api, headers=headers, timeout=20)
         cr.raise_for_status()
-        cdata = (cr.json().get("data") or {}).get("replies") or []
+        cdata = ((_json_from_httpx_response(cr).get("data") or {}).get("replies") or [])
         for item in cdata[:5]:
             message = (((item.get("content") or {}).get("message")) or "").strip()
             like = item.get("like", 0)
@@ -340,9 +326,10 @@ async def _generate_bilibili_roast_reply(url: str, context_lines: list[str], car
         "你是QQ群里的暴躁贴吧老哥。现在有人发了一个B站视频链接。"
         "你要优先根据视频标题、简介、动态文案、字幕内容、热门评论来理解视频在讲什么，再回一句具体点评。"
         "要求：1）不要参考群聊上下文；2）必须体现你看懂了视频内容，而不是只看标题；"
-        "3）尽量点出视频在消费什么梗、什么情绪、什么套路；"
-        "4）语气暴躁、阴阳怪气、贴吧老哥味；5）短，20-70字；"
-        "6）不要复述大段原文，不要解释自己；7）不允许仇恨、歧视、暴力威胁。"
+        "3）回复里必须点到至少一个具体内容点，比如春晚机器人、柯洁、王源、reaction、评论区情绪、AI整活等；"
+        "4）尽量指出视频在消费什么梗、什么情绪、什么套路；"
+        "5）语气暴躁、阴阳怪气、贴吧老哥味；6）短，20-70字；"
+        "7）不要复述大段原文，不要解释自己；8）不允许仇恨、歧视、暴力威胁。"
     )
     user_prompt = (
         "B站视频信息：\n"
@@ -358,7 +345,9 @@ async def _generate_bilibili_roast_reply(url: str, context_lines: list[str], car
         "现在直接给出一句群聊回复。"
     )
     reply = await _call_minimax_chat(system_prompt, user_prompt)
-    return reply or _local_bili_fallback(meta)
+    if not reply:
+        logger.warning(f"[bili-roaster] empty reply; meta title={meta.get('title','')} comments={len(meta.get('hot_comments') or [])}")
+    return reply
 
 
 async def _extract_image_url(bot: Bot, event: Event, args: Message) -> str:
@@ -510,7 +499,7 @@ async def _cache_image(bot: Bot, event: Event):
                     if reply:
                         await bot.send(event, reply)
                     else:
-                        await bot.send(event, "这破链接我看了半天，卡片信息抠出来了但还是不够味，再甩个纯链接我补一脚。")
+                        logger.warning(f"[bili-roaster] no reply generated for url={bili_url}")
                 return
 
             if os.getenv("GROUP_ROASTER_ENABLED", "true").lower() == "true":
