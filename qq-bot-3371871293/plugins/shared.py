@@ -703,7 +703,7 @@ def cache_image_message(message_id: int, image_url: str):
 def is_regular_group_text(plain: str) -> bool:
     if not plain:
         return False
-    command_prefixes = ("帮助", "ping", "时间", "说 ", "echo ", "生图", "画图", "图生图", "改图", "垫图", "朗读", "念 ", "总结群聊", "群聊总结", "总结聊天")
+    command_prefixes = ("帮助", "ping", "时间", "说 ", "echo ", "生图", "画图", "图生图", "改图", "垫图", "朗读", "念 ", "总结群聊", "群聊总结", "总结聊天", "新闻", "要闻", "AI新闻", "日报", "订阅新闻", "取消订阅新闻", "开启新闻推送", "关闭新闻推送", "新闻订阅", "取消新闻订阅")
     return not plain.startswith(command_prefixes)
 
 
