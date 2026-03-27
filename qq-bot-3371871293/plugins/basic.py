@@ -155,10 +155,10 @@ def _json_from_httpx_response(resp: httpx.Response) -> dict:
     return json.loads(resp.content.decode("utf-8", errors="replace"))
 
 
-async def _call_minimax_chat(system_prompt: str, user_prompt: str) -> str:
+async def _call_minimax_chat_with_reasoning(system_prompt: str, user_prompt: str) -> tuple[str, str]:
     api_key = os.getenv("MINIMAX_API_KEY", "").strip()
     if not api_key:
-        return ""
+        return "", ""
 
     model = os.getenv("MINIMAX_CHAT_MODEL", "MiniMax-M2.7").strip() or "MiniMax-M2.7"
     payload = {
@@ -189,49 +189,27 @@ async def _call_minimax_chat(system_prompt: str, user_prompt: str) -> str:
             choice = ((data or {}).get("choices") or [{}])[0]
             message = choice.get("message", {}) or {}
             reply = (message.get("content") or "").strip()
+            reasoning = (message.get("reasoning_content") or "").strip()
             if not reply:
                 reply = (((data or {}).get("reply") or {}).get("content") or "").strip()
-
-            if not reply:
-                reasoning = (message.get("reasoning_content") or "").strip()
-                if reasoning:
-                    logger.warning("[minimax-chat] empty content, retrying from reasoning")
-                    retry_payload = {
-                        "model": model,
-                        "messages": [
-                            {
-                                "role": "system",
-                                "content": "把给定分析压缩成一句最终回复。只输出最终回复，不要解释，不要思考过程。20-70字。",
-                            },
-                            {
-                                "role": "user",
-                                "content": reasoning[-1800:],
-                            },
-                        ],
-                        "temperature": 0.8,
-                        "top_p": 0.95,
-                        "max_tokens": 128,
-                    }
-                    retry = await client.post(
-                        "https://api.minimaxi.com/v1/text/chatcompletion_v2",
-                        headers={
-                            "Authorization": f"Bearer {api_key}",
-                            "Content-Type": "application/json",
-                        },
-                        json=retry_payload,
-                    )
-                    retry.raise_for_status()
-                    retry_data = retry.json()
-                    retry_choice = ((retry_data or {}).get("choices") or [{}])[0]
-                    retry_message = retry_choice.get("message", {}) or {}
-                    reply = (retry_message.get("content") or "").strip()
-                    if not reply:
-                        reply = (((retry_data or {}).get("reply") or {}).get("content") or "").strip()
-
-            return reply.replace("\n", " ").strip()[:160]
+            return reply.replace("\n", " ").strip()[:300], reasoning[:4000]
     except Exception as e:
         logger.warning(f"[minimax-chat] generate failed: {e}")
-        return ""
+        return "", ""
+
+
+async def _call_minimax_chat(system_prompt: str, user_prompt: str) -> str:
+    reply, reasoning = await _call_minimax_chat_with_reasoning(system_prompt, user_prompt)
+    if reply:
+        return reply.replace("\n", " ").strip()[:300]
+    if reasoning:
+        logger.warning("[minimax-chat] empty content, retrying from reasoning")
+        retry_reply, _ = await _call_minimax_chat_with_reasoning(
+            "把给定分析压缩成1到3句最终回复。只输出最终回复，不要解释，不要思考过程，要像正常人在群里说话。",
+            reasoning[-2200:],
+        )
+        return retry_reply.replace("\n", " ").strip()[:300] if retry_reply else ""
+    return ""
 
 
 async def _generate_group_roast_reply(target_text: str, context_lines: list[str]) -> str:
@@ -384,7 +362,8 @@ async def _generate_bilibili_roast_reply(url: str, context_lines: list[str], car
         f"字幕：{(meta.get('subtitle_text', '') or '')[:1200]}\n"
         f"热门评论：{' | '.join((meta.get('hot_comments') or [])[:5])}\n"
     )
-    summary = await _call_minimax_chat(summary_system, summary_user)
+    summary_reply, summary_reasoning = await _call_minimax_chat_with_reasoning(summary_system, summary_user)
+    summary = summary_reply or summary_reasoning
 
     roast_system = (
         "你是QQ群里的暴躁贴吧老哥。根据给定视频要点，写1到3句具体回复。"
@@ -400,6 +379,11 @@ async def _generate_bilibili_roast_reply(url: str, context_lines: list[str], car
         "现在直接输出1到3句回复。"
     )
     reply = await _call_minimax_chat(roast_system, roast_user)
+    if not reply and summary:
+        reply = await _call_minimax_chat(
+            "你是QQ群里的暴躁贴吧老哥。根据给定摘要，写1到3句具体回复。必须像人话，别写残句，别空泛。",
+            summary[-2200:],
+        )
     if not reply:
         logger.warning(f"[bili-roaster] empty reply; title={meta.get('title','')} summary={summary!r}")
     return reply
