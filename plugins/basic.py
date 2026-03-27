@@ -521,6 +521,7 @@ async def _cache_image(bot: Bot, event: Event):
             brief = _format_message_brief(event)
             GROUP_CONTEXTS[group_key].append(brief)
             GROUP_TRIGGER_COUNTER[group_key] += 1
+            logger.info(f"[group-roaster] group={group_key} counter={GROUP_TRIGGER_COUNTER[group_key]} next={GROUP_NEXT_TRIGGER[group_key]} brief={brief[:120]}")
 
         image_url = _pick_image_url_from_segments(event.get_message())
         if image_url:
@@ -560,14 +561,19 @@ async def _cache_image(bot: Bot, event: Event):
             if os.getenv("GROUP_ROASTER_ENABLED", "true").lower() == "true":
                 if plain and not plain.startswith(("帮助", "ping", "时间", "说 ", "echo ", "生图", "画图", "图生图", "改图", "垫图", "朗读", "念 ")):
                     if GROUP_TRIGGER_COUNTER[group_key] >= GROUP_NEXT_TRIGGER[group_key]:
+                        logger.info(f"[group-roaster] triggered for group={group_key}")
                         context_lines = list(GROUP_CONTEXTS[group_key])
                         reply = await _generate_group_roast_reply(_format_message_brief(event), context_lines)
                         min_trigger = max(3, int(os.getenv("GROUP_ROASTER_MIN_TRIGGER", "5") or "5"))
                         max_trigger = max(min_trigger, int(os.getenv("GROUP_ROASTER_MAX_TRIGGER", "10") or "10"))
                         GROUP_TRIGGER_COUNTER[group_key] = 0
                         GROUP_NEXT_TRIGGER[group_key] = random.randint(min_trigger, max_trigger)
+                        logger.info(f"[group-roaster] next trigger reset to {GROUP_NEXT_TRIGGER[group_key]}")
                         if reply:
+                            logger.info(f"[group-roaster] sending reply: {reply[:120]}")
                             await bot.send(event, reply)
+                        else:
+                            logger.warning(f"[group-roaster] empty reply for group={group_key}")
     except Exception as e:
         logger.warning(f"[i2i/group] cache handler failed: {e}")
 
