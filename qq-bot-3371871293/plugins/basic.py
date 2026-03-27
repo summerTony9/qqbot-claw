@@ -161,6 +161,11 @@ async def _call_minimax_chat_with_reasoning(system_prompt: str, user_prompt: str
         return "", ""
 
     model = os.getenv("MINIMAX_CHAT_MODEL", "MiniMax-M2.7").strip() or "MiniMax-M2.7"
+    try:
+        max_tokens = int(os.getenv("MINIMAX_CHAT_MAX_TOKENS", "1024") or "1024")
+    except ValueError:
+        max_tokens = 1024
+
     payload = {
         "model": model,
         "messages": [
@@ -169,7 +174,7 @@ async def _call_minimax_chat_with_reasoning(system_prompt: str, user_prompt: str
         ],
         "temperature": 1.0,
         "top_p": 0.95,
-        "max_tokens": 256,
+        "max_tokens": max_tokens,
     }
 
     try:
