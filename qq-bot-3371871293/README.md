@@ -6,6 +6,7 @@
 
 - NapCatQQ：负责登录 QQ（你的机器人 QQ 号：`3371871293`）
 - NoneBot2：Python 机器人框架
+- FastAPI/WebSocket Driver：作为 NoneBot 运行驱动
 - OneBot v11 Adapter：连接 NapCat
 
 ## 已实现功能
