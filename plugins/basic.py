@@ -10,6 +10,7 @@ from loguru import logger
 from nonebot import on_command, on_keyword, on_message, require
 from nonebot.adapters.onebot.v11 import Bot, Event, Message, MessageSegment
 from nonebot.params import CommandArg
+from yt_dlp import YoutubeDL
 
 require("nonebot_plugin_apscheduler")
 from nonebot_plugin_apscheduler import scheduler
@@ -32,6 +33,7 @@ PENDING_I2I: dict[str, dict[str, str]] = {}
 GROUP_CONTEXTS: dict[str, deque] = {}
 GROUP_TRIGGER_COUNTER: dict[str, int] = {}
 GROUP_NEXT_TRIGGER: dict[str, int] = {}
+SEEN_BILIBILI_URLS: deque = deque(maxlen=200)
 
 
 def _pick_image_url_from_segments(segments) -> str:
@@ -47,6 +49,11 @@ def _pick_image_url_from_segments(segments) -> str:
             if image_url:
                 return image_url
     return ""
+
+
+def _extract_bilibili_url(text: str) -> str:
+    m = re.search(r"https?://(?:www\.)?(?:bilibili\.com/video/[A-Za-z0-9]+|b23\.tv/[A-Za-z0-9]+)\S*", text or "")
+    return m.group(0) if m else ""
 
 
 def _format_message_brief(event: Event) -> str:
@@ -69,26 +76,12 @@ def _ensure_group_state(group_id: str):
         GROUP_NEXT_TRIGGER[group_id] = random.randint(min_trigger, max_trigger)
 
 
-async def _generate_group_roast_reply(target_text: str, context_lines: list[str]) -> str:
+async def _call_minimax_chat(system_prompt: str, user_prompt: str) -> str:
     api_key = os.getenv("MINIMAX_API_KEY", "").strip()
     if not api_key:
         return ""
 
     model = os.getenv("MINIMAX_CHAT_MODEL", "MiniMax-M2.7").strip() or "MiniMax-M2.7"
-    system_prompt = (
-        "你是QQ群里的暴躁贴吧老哥。你的任务是针对指定消息做一句具体回复。"
-        "要求：1）必须结合最近群聊上下文和目标消息内容，不能泛泛而谈；"
-        "2）语气暴躁、阴阳怪气、嘴硬、贴吧老哥味，但不要出现仇恨、歧视、暴力威胁、真实人身伤害鼓动；"
-        "3）回复必须短，10-40字，像真实群友插话；"
-        "4）不要解释自己，不要加引号，不要分点，不要写成AI腔；"
-        "5）如果上下文不足，就抓住目标消息本身吐槽。"
-    )
-    user_prompt = (
-        "最近群聊上下文：\n" + "\n".join(context_lines[-15:]) +
-        "\n\n目标消息：\n" + target_text +
-        "\n\n现在直接给出一句回复。"
-    )
-
     payload = {
         "model": model,
         "messages": [
@@ -113,15 +106,80 @@ async def _generate_group_roast_reply(target_text: str, context_lines: list[str]
             resp.raise_for_status()
             data = resp.json()
     except Exception as e:
-        logger.warning(f"[group-roaster] generate failed: {e}")
+        logger.warning(f"[minimax-chat] generate failed: {e}")
         return ""
 
     reply = ((data or {}).get("choices") or [{}])[0].get("message", {}).get("content", "").strip()
     if not reply:
-        # 兼容另一种字段
         reply = (((data or {}).get("reply") or {}).get("content") or "").strip()
-    reply = reply.replace("\n", " ").strip()
-    return reply[:120]
+    return reply.replace("\n", " ").strip()[:160]
+
+
+async def _generate_group_roast_reply(target_text: str, context_lines: list[str]) -> str:
+    system_prompt = (
+        "你是QQ群里的暴躁贴吧老哥。你的任务是针对指定消息做一句具体回复。"
+        "要求：1）必须结合最近群聊上下文和目标消息内容，不能泛泛而谈；"
+        "2）语气暴躁、阴阳怪气、嘴硬、贴吧老哥味，但不要出现仇恨、歧视、暴力威胁、真实人身伤害鼓动；"
+        "3）回复必须短，10-40字，像真实群友插话；"
+        "4）不要解释自己，不要加引号，不要分点，不要写成AI腔；"
+        "5）如果上下文不足，就抓住目标消息本身吐槽。"
+    )
+    user_prompt = (
+        "最近群聊上下文：\n" + "\n".join(context_lines[-15:]) +
+        "\n\n目标消息：\n" + target_text +
+        "\n\n现在直接给出一句回复。"
+    )
+    return await _call_minimax_chat(system_prompt, user_prompt)
+
+
+def _fetch_bilibili_metadata(url: str) -> dict:
+    ydl_opts = {
+        "quiet": True,
+        "no_warnings": True,
+        "skip_download": True,
+        "extract_flat": False,
+    }
+    with YoutubeDL(ydl_opts) as ydl:
+        info = ydl.extract_info(url, download=False)
+    return {
+        "title": info.get("title", ""),
+        "description": info.get("description", ""),
+        "uploader": info.get("uploader", ""),
+        "tags": info.get("tags", [])[:10],
+        "duration": info.get("duration"),
+        "view_count": info.get("view_count"),
+        "like_count": info.get("like_count"),
+        "webpage_url": info.get("webpage_url", url),
+    }
+
+
+async def _generate_bilibili_roast_reply(url: str, context_lines: list[str]) -> str:
+    try:
+        meta = await __import__('asyncio').to_thread(_fetch_bilibili_metadata, url)
+    except Exception as e:
+        logger.warning(f"[bili-roaster] metadata fetch failed: {e}")
+        meta = {"title": "", "description": "", "uploader": "", "tags": [], "webpage_url": url}
+
+    system_prompt = (
+        "你是QQ群里的暴躁贴吧老哥。现在有人发了一个B站视频链接。"
+        "你要结合视频标题、简介、UP主、标签，以及最近群聊上下文，回一句具体吐槽或点评。"
+        "要求：1）必须点到视频内容本身，不能空泛；"
+        "2）语气暴躁、阴阳怪气、贴吧老哥味；"
+        "3）短，15-50字；"
+        "4）不要复述一大段标题，不要解释自己；"
+        "5）不允许仇恨、歧视、暴力威胁。"
+    )
+    user_prompt = (
+        "最近群聊上下文：\n" + "\n".join(context_lines[-15:]) +
+        "\n\nB站视频信息：\n"
+        f"标题：{meta.get('title', '')}\n"
+        f"UP主：{meta.get('uploader', '')}\n"
+        f"标签：{', '.join(meta.get('tags', []) or [])}\n"
+        f"简介：{(meta.get('description', '') or '')[:300]}\n"
+        f"链接：{meta.get('webpage_url', url)}\n\n"
+        "现在直接给出一句群聊回复。"
+    )
+    return await _call_minimax_chat(system_prompt, user_prompt)
 
 
 async def _extract_image_url(bot: Bot, event: Event, args: Message) -> str:
@@ -257,19 +315,32 @@ async def _cache_image(bot: Bot, event: Event):
                 return
 
         # 群聊随机插话逻辑：只对有文本的群消息触发
-        if os.getenv("GROUP_ROASTER_ENABLED", "true").lower() == "true" and group_id is not None:
+        if group_id is not None:
             plain = event.get_plaintext().strip() if hasattr(event, "get_plaintext") else ""
-            if plain and not plain.startswith(("帮助", "ping", "时间", "说 ", "echo ", "生图", "画图", "图生图", "改图", "垫图", "朗读", "念 ")):
-                group_key = str(group_id)
-                if GROUP_TRIGGER_COUNTER[group_key] >= GROUP_NEXT_TRIGGER[group_key]:
+            group_key = str(group_id)
+
+            # B站链接定向回复：优先于随机插话
+            bili_url = _extract_bilibili_url(plain)
+            if os.getenv("BILIBILI_ROASTER_ENABLED", "true").lower() == "true" and bili_url:
+                if bili_url not in SEEN_BILIBILI_URLS:
+                    SEEN_BILIBILI_URLS.append(bili_url)
                     context_lines = list(GROUP_CONTEXTS[group_key])
-                    reply = await _generate_group_roast_reply(_format_message_brief(event), context_lines)
-                    min_trigger = max(3, int(os.getenv("GROUP_ROASTER_MIN_TRIGGER", "5") or "5"))
-                    max_trigger = max(min_trigger, int(os.getenv("GROUP_ROASTER_MAX_TRIGGER", "10") or "10"))
-                    GROUP_TRIGGER_COUNTER[group_key] = 0
-                    GROUP_NEXT_TRIGGER[group_key] = random.randint(min_trigger, max_trigger)
+                    reply = await _generate_bilibili_roast_reply(bili_url, context_lines)
                     if reply:
                         await bot.send(event, reply)
+                return
+
+            if os.getenv("GROUP_ROASTER_ENABLED", "true").lower() == "true":
+                if plain and not plain.startswith(("帮助", "ping", "时间", "说 ", "echo ", "生图", "画图", "图生图", "改图", "垫图", "朗读", "念 ")):
+                    if GROUP_TRIGGER_COUNTER[group_key] >= GROUP_NEXT_TRIGGER[group_key]:
+                        context_lines = list(GROUP_CONTEXTS[group_key])
+                        reply = await _generate_group_roast_reply(_format_message_brief(event), context_lines)
+                        min_trigger = max(3, int(os.getenv("GROUP_ROASTER_MIN_TRIGGER", "5") or "5"))
+                        max_trigger = max(min_trigger, int(os.getenv("GROUP_ROASTER_MAX_TRIGGER", "10") or "10"))
+                        GROUP_TRIGGER_COUNTER[group_key] = 0
+                        GROUP_NEXT_TRIGGER[group_key] = random.randint(min_trigger, max_trigger)
+                        if reply:
+                            await bot.send(event, reply)
     except Exception as e:
         logger.warning(f"[i2i/group] cache handler failed: {e}")
 
