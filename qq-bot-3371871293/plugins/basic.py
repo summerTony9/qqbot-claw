@@ -61,6 +61,77 @@ def _extract_bilibili_url(text: str) -> str:
     return url
 
 
+def _extract_bilibili_url_from_event(event: Event) -> str:
+    plain = event.get_plaintext().strip() if hasattr(event, "get_plaintext") else ""
+    url = _extract_bilibili_url(plain)
+    if url:
+        logger.info(f"[bili-roaster] found url in plain text: {url}")
+        return url
+
+    for seg in event.get_message():
+        if seg.type == "json":
+            raw = seg.data.get("data", "") if hasattr(seg, "data") else ""
+            logger.info(f"[bili-roaster] json card snippet: {str(raw)[:600]}")
+            url = _extract_bilibili_url(raw)
+            if url:
+                logger.info(f"[bili-roaster] found url in json raw: {url}")
+                return url
+            try:
+                obj = json.loads(raw)
+                blob = json.dumps(obj, ensure_ascii=False)
+                url = _extract_bilibili_url(blob)
+                if url:
+                    logger.info(f"[bili-roaster] found url in parsed json: {url}")
+                    return url
+            except Exception as e:
+                logger.warning(f"[bili-roaster] json parse failed: {e}")
+    logger.info("[bili-roaster] no bilibili url found in event")
+    return ""
+
+
+def _extract_bilibili_card_meta(event: Event) -> dict:
+    meta = {"title": "", "desc": "", "jump_url": "", "raw": ""}
+    for seg in event.get_message():
+        if seg.type != "json":
+            continue
+        raw = seg.data.get("data", "") if hasattr(seg, "data") else ""
+        meta["raw"] = str(raw)[:1000]
+        try:
+            obj = json.loads(raw)
+        except Exception:
+            continue
+        blob = json.dumps(obj, ensure_ascii=False)
+        meta["jump_url"] = _extract_bilibili_url(blob) or meta["jump_url"]
+
+        candidates = []
+        for key in ["prompt", "desc", "description", "title", "headline", "news"]:
+            val = obj.get(key)
+            if isinstance(val, str):
+                candidates.append(val)
+
+        detail = ((obj.get("meta") or {}).get("detail_1") or {})
+        for key in ["desc", "descText", "title", "qqdocurl", "jumpUrl", "url"]:
+            val = detail.get(key)
+            if isinstance(val, str):
+                candidates.append(val)
+
+        news = detail.get("news") or {}
+        if isinstance(news, dict):
+            for key in ["title", "desc", "summary", "tag"]:
+                val = news.get(key)
+                if isinstance(val, str):
+                    candidates.append(val)
+
+        cleaned = [c.strip() for c in candidates if isinstance(c, str) and c.strip()]
+        if cleaned:
+            meta["title"] = cleaned[0]
+            if len(cleaned) > 1:
+                meta["desc"] = cleaned[1]
+        break
+    logger.info(f"[bili-roaster] card meta: {meta}")
+    return meta
+
+
 def _format_message_brief(event: Event) -> str:
     user_id = getattr(event, "user_id", "unknown")
     text = event.get_plaintext().strip() if hasattr(event, "get_plaintext") else ""
@@ -160,12 +231,20 @@ def _fetch_bilibili_metadata(url: str) -> dict:
     }
 
 
-async def _generate_bilibili_roast_reply(url: str, context_lines: list[str]) -> str:
+async def _generate_bilibili_roast_reply(url: str, context_lines: list[str], card_meta: dict | None = None) -> str:
+    meta = {
+        "title": (card_meta or {}).get("title", ""),
+        "description": (card_meta or {}).get("desc", ""),
+        "uploader": "",
+        "tags": [],
+        "webpage_url": (card_meta or {}).get("jump_url", "") or url,
+    }
     try:
-        meta = await __import__('asyncio').to_thread(_fetch_bilibili_metadata, url)
+        fetched = await __import__('asyncio').to_thread(_fetch_bilibili_metadata, url)
+        if fetched:
+            meta.update({k: v for k, v in fetched.items() if v})
     except Exception as e:
         logger.warning(f"[bili-roaster] metadata fetch failed: {e}")
-        meta = {"title": "", "description": "", "uploader": "", "tags": [], "webpage_url": url}
 
     system_prompt = (
         "你是QQ群里的暴躁贴吧老哥。现在有人发了一个B站视频链接。"
@@ -333,11 +412,12 @@ async def _cache_image(bot: Bot, event: Event):
                 if bili_url not in SEEN_BILIBILI_URLS:
                     SEEN_BILIBILI_URLS.append(bili_url)
                     context_lines = list(GROUP_CONTEXTS[group_key])
-                    reply = await _generate_bilibili_roast_reply(bili_url, context_lines)
+                    card_meta = _extract_bilibili_card_meta(event)
+                    reply = await _generate_bilibili_roast_reply(bili_url, context_lines, card_meta)
                     if reply:
                         await bot.send(event, reply)
                     else:
-                        await bot.send(event, "这破链接我看了半天，结果卡片里藏得跟做贼一样，再发个纯链接我看看。")
+                        await bot.send(event, "这破链接我看了半天，卡片信息抠出来了但还是不够味，再甩个纯链接我补一脚。")
                 return
 
             if os.getenv("GROUP_ROASTER_ENABLED", "true").lower() == "true":
