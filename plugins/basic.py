@@ -361,31 +361,35 @@ async def _generate_bilibili_roast_reply(url: str, context_lines: list[str], car
     except Exception as e:
         logger.warning(f"[bili-roaster] metadata fetch failed: {e}")
 
-    system_prompt = (
-        "你是QQ群里的暴躁贴吧老哥。现在有人发了一个B站视频链接。"
-        "你要优先根据视频标题、简介、动态文案、字幕内容、热门评论来理解视频在讲什么，再回一句具体点评。"
-        "要求：1）不要参考群聊上下文；2）必须体现你看懂了视频内容，而不是只看标题；"
-        "3）回复里必须点到至少一个具体内容点，比如春晚机器人、柯洁、王源、reaction、评论区情绪、AI整活等；"
-        "4）尽量指出视频在消费什么梗、什么情绪、什么套路；"
-        "5）语气暴躁、阴阳怪气、贴吧老哥味；6）短，20-70字；"
-        "7）不要复述大段原文，不要解释自己；8）不允许仇恨、歧视、暴力威胁。"
+    summary_system = (
+        "你是一个内容分析助手。请根据给定的B站视频信息，提炼出这个视频真正讲了什么、消费了什么梗、评论区主要在说什么。"
+        "要求：只输出3条要点；每条一行；每条不超过28字；必须具体，不要空话。"
     )
-    user_prompt = (
-        "B站视频信息：\n"
+    summary_user = (
         f"标题：{meta.get('title', '')}\n"
         f"UP主：{meta.get('uploader', '')}\n"
-        f"标签：{', '.join(meta.get('tags', []) or [])}\n"
-        f"简介：{(meta.get('description', '') or '')[:500]}\n"
-        f"动态文案：{(meta.get('dynamic', '') or '')[:200]}\n"
-        f"风险提示：{(meta.get('argue_msg', '') or '')[:80]}\n"
-        f"字幕摘录：{(meta.get('subtitle_text', '') or '')[:1800]}\n"
+        f"简介：{(meta.get('description', '') or '')[:400]}\n"
+        f"动态：{(meta.get('dynamic', '') or '')[:160]}\n"
+        f"字幕：{(meta.get('subtitle_text', '') or '')[:1200]}\n"
         f"热门评论：{' | '.join((meta.get('hot_comments') or [])[:5])}\n"
-        f"链接：{meta.get('webpage_url', url)}\n\n"
-        "现在直接给出一句群聊回复。"
     )
-    reply = await _call_minimax_chat(system_prompt, user_prompt)
+    summary = await _call_minimax_chat(summary_system, summary_user)
+
+    roast_system = (
+        "你是QQ群里的暴躁贴吧老哥。根据给定视频要点，写1到3句具体回复。"
+        "要求：必须点到具体内容点，不能空泛；语气暴躁阴阳怪气但别越线；不要解释自己。"
+    )
+    roast_user = (
+        f"视频标题：{meta.get('title', '')}\n"
+        f"UP主：{meta.get('uploader', '')}\n"
+        f"视频要点：\n{summary or '（摘要失败）'}\n"
+        f"补充简介：{(meta.get('description', '') or '')[:220]}\n"
+        f"补充评论：{' | '.join((meta.get('hot_comments') or [])[:3])}\n"
+        "现在直接输出1到3句回复。"
+    )
+    reply = await _call_minimax_chat(roast_system, roast_user)
     if not reply:
-        logger.warning(f"[bili-roaster] empty reply; meta title={meta.get('title','')} comments={len(meta.get('hot_comments') or [])}")
+        logger.warning(f"[bili-roaster] empty reply; title={meta.get('title','')} summary={summary!r}")
     return reply
 
 
