@@ -54,7 +54,4 @@ async def _hello(bot: Bot, event: Event):
         await hello.finish("你好，我在。发“帮助”看命令。")
 
 
-@scheduler.scheduled_job("cron", hour="9", minute="0", id="daily-greeting", replace_existing=True)
-async def _daily_greeting():
-    # 这里只示例定时任务注册；实际发送对象需要你按群号/QQ号补充。
-    return None
+# 定时任务能力已接入；如需启用，请按你的发送对象再补具体任务。
