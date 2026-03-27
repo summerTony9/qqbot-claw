@@ -1,5 +1,5 @@
 from nonebot import on_message
-from nonebot.adapters.onebot.v11 import Bot, Event
+from nonebot.adapters.onebot.v11 import Bot, Event, Message, MessageSegment
 from loguru import logger
 
 from .image_to_image import run_i2i_from_image_url
@@ -77,7 +77,14 @@ async def handle_group_roaster_if_needed(bot: Bot, event: Event, group_key: str,
     logger.info(f"[group-roaster] next trigger reset to {GROUP_NEXT_TRIGGER[group_key]}")
     if reply:
         logger.info(f"[group-roaster] sending reply: {reply[:120]}")
-        await bot.send(event, reply)
+        message_id = getattr(event, "message_id", None)
+        if message_id is not None:
+            msg = Message()
+            msg.append(MessageSegment.reply(message_id))
+            msg.append(MessageSegment.text(reply))
+            await bot.send(event, msg)
+        else:
+            await bot.send(event, reply)
     else:
         logger.warning(f"[group-roaster] empty reply for group={group_key}")
 
