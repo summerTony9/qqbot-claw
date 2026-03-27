@@ -6,6 +6,7 @@ from collections import deque
 from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
+import time
 
 import httpx
 from loguru import logger
@@ -23,6 +24,7 @@ echo_cmd = on_command("说", aliases={"echo"}, priority=5, block=True)
 image_cmd = on_command("生图", aliases={"画图", "draw"}, priority=5, block=True)
 i2i_cmd = on_command("图生图", aliases={"垫图", "改图"}, priority=5, block=True)
 read_cmd = on_command("朗读", aliases={"念", "语音复读", "read"}, priority=5, block=True)
+summary_cmd = on_command("总结群聊", aliases={"群聊总结", "总结聊天"}, priority=5, block=True)
 hello = on_keyword({"你好", "在吗", "机器人"}, priority=20, block=False)
 image_cache = on_message(priority=99, block=False)
 
@@ -32,6 +34,7 @@ TMP_AUDIO_DIR.mkdir(exist_ok=True)
 IMAGE_SEGMENT_CACHE: dict[str, str] = {}
 PENDING_I2I: dict[str, dict[str, str]] = {}
 GROUP_CONTEXTS: dict[str, deque] = {}
+GROUP_MESSAGE_LOGS: dict[str, deque] = {}
 GROUP_TRIGGER_COUNTER: dict[str, int] = {}
 GROUP_NEXT_TRIGGER: dict[str, int] = {}
 SEEN_BILIBILI_URLS: deque = deque(maxlen=200)
@@ -43,6 +46,13 @@ class GroupRoasterConfig:
     min_trigger: int
     max_trigger: int
     context_size: int
+
+
+@dataclass
+class GroupMessageRecord:
+    ts: float
+    user_id: str
+    text: str
 
 
 @dataclass
@@ -194,10 +204,16 @@ def _get_group_roaster_config() -> GroupRoasterConfig:
     )
 
 
+def _get_group_summary_log_maxlen() -> int:
+    return max(200, min(_env_int("GROUP_SUMMARY_LOG_MAXLEN", 3000), 10000))
+
+
 def _ensure_group_state(group_id: str):
     config = _get_group_roaster_config()
     if group_id not in GROUP_CONTEXTS:
         GROUP_CONTEXTS[group_id] = deque(maxlen=config.context_size)
+    if group_id not in GROUP_MESSAGE_LOGS:
+        GROUP_MESSAGE_LOGS[group_id] = deque(maxlen=_get_group_summary_log_maxlen())
     if group_id not in GROUP_TRIGGER_COUNTER:
         GROUP_TRIGGER_COUNTER[group_id] = 0
     if group_id not in GROUP_NEXT_TRIGGER:
@@ -600,6 +616,13 @@ def _remember_group_message(event: Event, group_key: str):
     _ensure_group_state(group_key)
     brief = _format_message_brief(event)
     GROUP_CONTEXTS[group_key].append(brief)
+    GROUP_MESSAGE_LOGS[group_key].append(
+        GroupMessageRecord(
+            ts=time.time(),
+            user_id=str(getattr(event, "user_id", "unknown")),
+            text=brief,
+        )
+    )
     GROUP_TRIGGER_COUNTER[group_key] += 1
     logger.info(
         f"[group-roaster] group={group_key} counter={GROUP_TRIGGER_COUNTER[group_key]} "
@@ -653,6 +676,39 @@ async def _handle_bilibili_if_needed(bot: Bot, event: Event, group_key: str) -> 
     else:
         logger.warning(f"[bili-roaster] no reply generated for url={bili_url}")
     return True
+
+
+def _get_recent_group_records(group_key: str, hours: float) -> list[GroupMessageRecord]:
+    now_ts = time.time()
+    cutoff = now_ts - max(hours, 0.1) * 3600
+    records = GROUP_MESSAGE_LOGS.get(group_key, deque())
+    return [r for r in records if r.ts >= cutoff]
+
+
+def _build_group_summary_prompt(records: list[GroupMessageRecord], hours: float) -> tuple[str, str]:
+    system_prompt = (
+        "你是QQ群里的暴躁贴吧老哥。请总结最近一段时间的群聊。"
+        "要求：1）总结要具体，点出群里主要在聊什么、谁在带节奏、哪几段最抽象；"
+        "2）语气暴躁、阴阳怪气、贴吧老哥味，但不要出现仇恨、歧视、暴力威胁；"
+        "3）输出2到5句人话，不要分点，不要写成报告；"
+        "4）不要输出[小嘴][doge][笑哭]这类平台表情名。"
+    )
+    recent_lines = [r.text for r in records[-120:]]
+    user_prompt = (
+        f"时间范围：最近 {hours:g} 小时\n"
+        f"消息条数：{len(records)}\n"
+        "群聊记录：\n" + "\n".join(recent_lines)
+    )
+    return system_prompt, user_prompt
+
+
+async def _generate_group_summary_reply(group_key: str, hours: float) -> str:
+    records = _get_recent_group_records(group_key, hours)
+    if not records:
+        return "这几个小时群里基本没啥可总结的，冷得跟停服了一样。"
+    system_prompt, user_prompt = _build_group_summary_prompt(records, hours)
+    reply = await _call_minimax_chat(system_prompt, user_prompt)
+    return reply or "这几个小时群聊有动静，但你这会儿让我总结，它偏偏给我装哑巴。"
 
 
 async def _handle_group_roaster_if_needed(bot: Bot, event: Event, group_key: str, plain: str) -> None:
@@ -716,13 +772,15 @@ async def _help():
         "5. 朗读 <内容>\n"
         "6. 生图 <提示词>\n"
         "7. 图生图 <提示词>（可先发命令，再单独发图）\n"
+        "8. 总结群聊 <小时数>\n"
         "\n"
         "示例：\n"
         "说 今天天气不错\n"
         "朗读 你好\n"
         "生图 一只戴墨镜的橘猫\n"
         "图生图 改成宫崎骏风格\n"
-        "然后下一条单独发图"
+        "然后下一条单独发图\n"
+        "总结群聊 6"
     )
 
 
@@ -840,6 +898,27 @@ async def _i2i(bot: Bot, event: Event, args: Message = CommandArg()):
     await i2i_cmd.send("收到，开始改图……")
     ok, result = await _run_i2i_from_image_url(image_url, prompt)
     await i2i_cmd.finish(result)
+
+
+@summary_cmd.handle()
+async def _summary(event: Event, args: Message = CommandArg()):
+    group_id = getattr(event, "group_id", None)
+    if group_id is None:
+        await summary_cmd.finish("这个命令要在群里用，不然我总结个空气。")
+
+    raw = args.extract_plain_text().strip()
+    hours = 6.0
+    if raw:
+        m = re.search(r"(\d+(?:\.\d+)?)", raw)
+        if m:
+            try:
+                hours = float(m.group(1))
+            except ValueError:
+                hours = 6.0
+    hours = max(0.5, min(hours, 72.0))
+    await summary_cmd.send(f"行，我给你盘一下最近 {hours:g} 小时群聊。")
+    reply = await _generate_group_summary_reply(str(group_id), hours)
+    await summary_cmd.finish(reply)
 
 
 @read_cmd.handle()
