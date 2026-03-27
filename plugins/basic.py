@@ -153,14 +153,20 @@ def _ensure_group_state(group_id: str):
 
 def _local_bili_fallback(meta: dict) -> str:
     title = meta.get("title", "") or "这视频"
-    desc = (meta.get("description", "") or meta.get("dynamic", "") or meta.get("subtitle_text", ""))[:120]
-    if "reaction" in title.lower() or "reaction" in desc.lower():
-        return f"这不就是拿一堆热梗reaction硬缝一锅吗，节奏倒是给你蹭明白了。"
-    if "ai" in title.lower() or "AI" in title or "ai" in desc.lower():
-        return f"这视频一股AI整活味，活是有点活，细看还是那套熟悉配方。"
-    if "春晚" in desc or "机器人" in desc:
-        return f"又是春晚机器人又是热梗缝合，这玩意儿主打一个谁热往谁身上贴。"
-    return f"这视频标题起得挺猛，内容八成还是老活新整，你这路数我都看麻了。"
+    desc = (meta.get("description", "") or meta.get("dynamic", "") or meta.get("subtitle_text", ""))[:180]
+    comments = " | ".join((meta.get("hot_comments") or [])[:2])
+    blob = f"{title} {desc} {comments}"
+    if "reaction" in blob.lower() and ("热梗" in blob or "梗" in blob):
+        return "说白了就是拿2025那批热梗挨个过一遍，再套个牢大reaction壳子，观众还真就吃这套。"
+    if "春晚" in blob and "机器人" in blob:
+        return "又在那拿春晚机器人和热梗混着炒，老活是老活，奈何这帮人就爱看熟梗返场。"
+    if "柯洁" in blob or "LG杯" in blob:
+        return "前脚拿柯洁和LG杯这种名场面拱情绪，后脚又塞热梗reaction，纯纯流量缝合怪。"
+    if "王源" in blob:
+        return "从春晚机器人跳到王源名场面，这视频内容主打一个哪里有梗就往哪铲，缝得还挺熟。"
+    if "ai" in blob.lower() or "AI" in blob:
+        return "这视频本质还是AI整活reaction，看的不是逻辑，是那股故意端着玩梗的抽象劲。"
+    return "这视频路数其实挺明白：拿一堆现成话题做reaction拼盘，重点不是深度，是让你不停认梗。"
 
 
 async def _call_minimax_chat(system_prompt: str, user_prompt: str) -> str:
@@ -279,6 +285,20 @@ def _fetch_bilibili_metadata(url: str) -> dict:
         except Exception as e:
             logger.warning(f"[bili-roaster] subtitle fetch failed: {e}")
 
+    hot_comments = []
+    try:
+        reply_api = f"https://api.bilibili.com/x/v2/reply/main?oid={info.get('aid')}&type=1&mode=3&next=0&ps=5"
+        cr = httpx.get(reply_api, headers=headers, timeout=20)
+        cr.raise_for_status()
+        cdata = (cr.json().get("data") or {}).get("replies") or []
+        for item in cdata[:5]:
+            message = (((item.get("content") or {}).get("message")) or "").strip()
+            like = item.get("like", 0)
+            if message:
+                hot_comments.append(f"{message}（赞{like}）")
+    except Exception as e:
+        logger.warning(f"[bili-roaster] hot comments fetch failed: {e}")
+
     logger.info(f"[bili-roaster] metadata title: {info.get('title', '')}")
     return {
         "title": info.get("title", ""),
@@ -291,6 +311,7 @@ def _fetch_bilibili_metadata(url: str) -> dict:
         "dynamic": info.get("dynamic", ""),
         "argue_msg": ((info.get("argue_info") or {}).get("argue_msg")) or "",
         "subtitle_text": subtitle_text,
+        "hot_comments": hot_comments,
         "webpage_url": final_url,
         "bvid": bvid,
     }
@@ -305,6 +326,7 @@ async def _generate_bilibili_roast_reply(url: str, context_lines: list[str], car
         "dynamic": "",
         "argue_msg": "",
         "subtitle_text": "",
+        "hot_comments": [],
         "webpage_url": (card_meta or {}).get("jump_url", "") or url,
     }
     try:
@@ -316,10 +338,11 @@ async def _generate_bilibili_roast_reply(url: str, context_lines: list[str], car
 
     system_prompt = (
         "你是QQ群里的暴躁贴吧老哥。现在有人发了一个B站视频链接。"
-        "你要优先根据视频标题、简介、动态文案、字幕内容来理解视频在讲什么，再回一句具体点评。"
+        "你要优先根据视频标题、简介、动态文案、字幕内容、热门评论来理解视频在讲什么，再回一句具体点评。"
         "要求：1）不要参考群聊上下文；2）必须体现你看懂了视频内容，而不是只看标题；"
-        "3）语气暴躁、阴阳怪气、贴吧老哥味；4）短，20-60字；"
-        "5）不要复述大段原文，不要解释自己；6）不允许仇恨、歧视、暴力威胁。"
+        "3）尽量点出视频在消费什么梗、什么情绪、什么套路；"
+        "4）语气暴躁、阴阳怪气、贴吧老哥味；5）短，20-70字；"
+        "6）不要复述大段原文，不要解释自己；7）不允许仇恨、歧视、暴力威胁。"
     )
     user_prompt = (
         "B站视频信息：\n"
@@ -330,6 +353,7 @@ async def _generate_bilibili_roast_reply(url: str, context_lines: list[str], car
         f"动态文案：{(meta.get('dynamic', '') or '')[:200]}\n"
         f"风险提示：{(meta.get('argue_msg', '') or '')[:80]}\n"
         f"字幕摘录：{(meta.get('subtitle_text', '') or '')[:1800]}\n"
+        f"热门评论：{' | '.join((meta.get('hot_comments') or [])[:5])}\n"
         f"链接：{meta.get('webpage_url', url)}\n\n"
         "现在直接给出一句群聊回复。"
     )
