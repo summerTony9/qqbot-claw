@@ -311,10 +311,11 @@ async def _news(args: Message = CommandArg()):
     await news_cmd.send("等会儿，我去扒今天 X 上那帮 AI builder 又在说什么。")
     try:
         digest = await _generate_news_digest(force_refresh=force_refresh)
-        await news_cmd.finish(digest)
     except Exception as e:
         logger.warning(f"[news] manual generate failed: {e}")
         await news_cmd.finish("新闻这会儿拉取失败了，八成是 feed 或模型在抽风，你等下再来一脚。")
+        return
+    await news_cmd.finish(digest)
 
 
 @subscribe_news_cmd.handle()

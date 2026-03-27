@@ -1,0 +1,32 @@
+## [ERR-20260328-001] qqbot-news-finishedexception
+
+**Logged**: 2026-03-27T16:10:00Z
+**Priority**: high
+**Status**: resolved
+**Area**: backend
+
+### Summary
+QQ bot 的 `新闻` 命令实际上已成功生成摘要，但因 `news_cmd.finish()` 位于 `try/except` 内部，NoneBot 抛出的 `FinishedException` 被误当成失败，导致用户收到错误提示。
+
+### Error
+```
+[news] manual generate failed: FinishedException()
+```
+
+### Context
+- Command/operation attempted: QQ bot 私聊触发 `新闻`
+- Environment details: NoneBot2 + OneBot v11 + custom `plugins/news_digest.py`
+- Root cause: `Matcher.finish()` 本身通过抛出 `FinishedException` 结束流程，不应被宽泛的 `except Exception` 捕获
+
+### Suggested Fix
+将摘要生成放在 `try` 内，仅捕获真实生成异常；把 `news_cmd.finish(digest)` 移到 `try/except` 外。
+
+### Metadata
+- Reproducible: yes
+- Related Files: qq-bot-3371871293/plugins/news_digest.py
+
+### Resolution
+- **Resolved**: 2026-03-27T16:10:00Z
+- **Notes**: 已调整异常边界，避免把正常结束误判为失败。
+
+---
