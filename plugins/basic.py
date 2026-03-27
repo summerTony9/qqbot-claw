@@ -107,7 +107,10 @@ async def _run_i2i_from_image_url(image_url: str, prompt: str):
         ],
         "response_format": "url",
         "n": image_count,
+        "prompt_optimizer": True,
     }
+
+    logger.info(f"[i2i-debug] prompt={prompt!r} image_url={image_url[:120]}")
 
     try:
         async with httpx.AsyncClient(timeout=120) as client:
