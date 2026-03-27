@@ -11,7 +11,6 @@ from loguru import logger
 from nonebot import on_command, on_keyword, on_message, require
 from nonebot.adapters.onebot.v11 import Bot, Event, Message, MessageSegment
 from nonebot.params import CommandArg
-from yt_dlp import YoutubeDL
 
 require("nonebot_plugin_apscheduler")
 from nonebot_plugin_apscheduler import scheduler
@@ -209,25 +208,42 @@ async def _generate_group_roast_reply(target_text: str, context_lines: list[str]
 
 
 def _fetch_bilibili_metadata(url: str) -> dict:
-    logger.info(f"[bili-roaster] fetching metadata: {url}")
-    ydl_opts = {
-        "quiet": True,
-        "no_warnings": True,
-        "skip_download": True,
-        "extract_flat": False,
+    logger.info(f"[bili-roaster] fetching metadata via bilibili api: {url}")
+    headers = {
+        "User-Agent": "Mozilla/5.0",
+        "Referer": "https://www.bilibili.com/",
     }
-    with YoutubeDL(ydl_opts) as ydl:
-        info = ydl.extract_info(url, download=False)
+
+    r = httpx.get(url, headers=headers, follow_redirects=True, timeout=20)
+    final_url = str(r.url)
+    logger.info(f"[bili-roaster] final url: {final_url}")
+    m = re.search(r"/video/(BV[0-9A-Za-z]+)", final_url)
+    if not m:
+        raise ValueError(f"cannot extract bvid from url: {final_url}")
+    bvid = m.group(1)
+
+    api = f"https://api.bilibili.com/x/web-interface/view?bvid={bvid}"
+    rr = httpx.get(api, headers=headers, timeout=20)
+    rr.raise_for_status()
+    data = rr.json()
+    if data.get("code") != 0:
+        raise ValueError(f"bilibili api error: {data}")
+    info = data.get("data") or {}
+    owner = info.get("owner") or {}
+    stat = info.get("stat") or {}
     logger.info(f"[bili-roaster] metadata title: {info.get('title', '')}")
     return {
         "title": info.get("title", ""),
-        "description": info.get("description", ""),
-        "uploader": info.get("uploader", ""),
-        "tags": info.get("tags", [])[:10],
+        "description": info.get("desc", ""),
+        "uploader": owner.get("name", ""),
+        "tags": [],
         "duration": info.get("duration"),
-        "view_count": info.get("view_count"),
-        "like_count": info.get("like_count"),
-        "webpage_url": info.get("webpage_url", url),
+        "view_count": stat.get("view"),
+        "like_count": stat.get("like"),
+        "dynamic": info.get("dynamic", ""),
+        "argue_msg": ((info.get("argue_info") or {}).get("argue_msg")) or "",
+        "webpage_url": final_url,
+        "bvid": bvid,
     }
 
 
@@ -237,6 +253,8 @@ async def _generate_bilibili_roast_reply(url: str, context_lines: list[str], car
         "description": (card_meta or {}).get("desc", ""),
         "uploader": "",
         "tags": [],
+        "dynamic": "",
+        "argue_msg": "",
         "webpage_url": (card_meta or {}).get("jump_url", "") or url,
     }
     try:
@@ -262,6 +280,8 @@ async def _generate_bilibili_roast_reply(url: str, context_lines: list[str], car
         f"UP主：{meta.get('uploader', '')}\n"
         f"标签：{', '.join(meta.get('tags', []) or [])}\n"
         f"简介：{(meta.get('description', '') or '')[:300]}\n"
+        f"动态文案：{(meta.get('dynamic', '') or '')[:120]}\n"
+        f"风险提示：{(meta.get('argue_msg', '') or '')[:80]}\n"
         f"链接：{meta.get('webpage_url', url)}\n\n"
         "现在直接给出一句群聊回复。"
     )
