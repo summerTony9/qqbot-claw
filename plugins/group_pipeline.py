@@ -21,6 +21,7 @@ from .shared import (
     is_regular_group_text,
     pick_image_url_from_segments,
     remember_group_message,
+    save_group_state,
 )
 
 image_cache = on_message(priority=99, block=False)
@@ -72,6 +73,7 @@ async def handle_group_roaster_if_needed(bot: Bot, event: Event, group_key: str,
     reply = await generate_group_roast_reply(format_message_brief(event), context_lines)
     GROUP_TRIGGER_COUNTER[group_key] = 0
     GROUP_NEXT_TRIGGER[group_key] = config.min_trigger + __import__('random').randint(0, config.max_trigger - config.min_trigger)
+    save_group_state(group_key)
     logger.info(f"[group-roaster] next trigger reset to {GROUP_NEXT_TRIGGER[group_key]}")
     if reply:
         logger.info(f"[group-roaster] sending reply: {reply[:120]}")
