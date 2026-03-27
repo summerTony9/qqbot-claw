@@ -25,6 +25,42 @@ TMP_AUDIO_DIR = BASE_DIR / "tmp_audio"
 TMP_AUDIO_DIR.mkdir(exist_ok=True)
 
 
+async def _extract_image_url(bot: Bot, event: Event, args: Message) -> str:
+    # 1) 先读引用消息里的图片
+    try:
+        reply_id = None
+        for seg in event.get_message():
+            if seg.type == "reply":
+                reply_id = seg.data.get("id")
+                if reply_id:
+                    break
+
+        if reply_id:
+            replied = await bot.get_msg(message_id=int(reply_id))
+            replied_message = replied.get("message") or []
+            for seg in replied_message:
+                seg_type = getattr(seg, "type", None) or seg.get("type")
+                seg_data = getattr(seg, "data", None) or seg.get("data", {})
+                if seg_type == "image":
+                    image_url = seg_data.get("url") or seg_data.get("file") or ""
+                    if image_url:
+                        return image_url
+    except Exception:
+        pass
+
+    # 2) 再读当前命令消息里直接附带的图片
+    for seg in args:
+        if seg.type == "image":
+            image_url = seg.data.get("url") or seg.data.get("file") or ""
+            if image_url:
+                return image_url
+
+    # 3) 最后从文本里抠链接
+    plain_text = args.extract_plain_text().strip()
+    m = re.search(r"https?://\S+", plain_text)
+    return m.group(0) if m else ""
+
+
 @help_cmd.handle()
 async def _help():
     await help_cmd.finish(
@@ -33,9 +69,15 @@ async def _help():
         "2. ping\n"
         "3. 时间\n"
         "4. 说 <内容>\n"
+        "5. 朗读 <内容>\n"
+        "6. 生图 <提示词>\n"
+        "7. 图生图 <提示词>（可直接引用图片）\n"
         "\n"
         "示例：\n"
-        "说 今天天气不错"
+        "说 今天天气不错\n"
+        "朗读 你好\n"
+        "生图 一只戴墨镜的橘猫\n"
+        "（引用图片）图生图 改成宫崎骏风格"
     )
 
 
@@ -122,18 +164,12 @@ async def _image(args: Message = CommandArg()):
 
 
 @i2i_cmd.handle()
-async def _i2i(args: Message = CommandArg()):
+async def _i2i(bot: Bot, event: Event, args: Message = CommandArg()):
     api_key = os.getenv("MINIMAX_API_KEY", "").strip()
     if not api_key:
         await i2i_cmd.finish("还没配置 MiniMax API Key。")
 
-    image_url = ""
-    for seg in args:
-        if seg.type == "image":
-            image_url = seg.data.get("url") or seg.data.get("file") or image_url
-            if image_url:
-                break
-
+    image_url = await _extract_image_url(bot, event, args)
     plain_text = args.extract_plain_text().strip()
     prompt = plain_text
 
@@ -145,17 +181,14 @@ async def _i2i(args: Message = CommandArg()):
         if re.match(r"^https?://", left):
             image_url = left
         prompt = right
-    elif not image_url:
-        m = re.search(r"https?://\S+", plain_text)
-        if m:
-            image_url = m.group(0)
-            prompt = plain_text.replace(image_url, "").strip()
+    elif image_url:
+        prompt = re.sub(r"https?://\S+", "", plain_text).strip()
 
     if not image_url or not prompt:
         await i2i_cmd.finish(
-            "用法：图生图 图片链接 | 提示词\n"
-            "例如：图生图 https://example.com/a.jpg | 把它改成赛博朋克夜景海报\n"
-            "如果 NapCat 能把收到的图片段带出 url，也可以直接发：图片 + 图生图 提示词"
+            "用法一：引用一张图片后发送：图生图 提示词\n"
+            "用法二：图生图 图片链接 | 提示词\n"
+            "例如：图生图 把它改成赛博朋克夜景海报"
         )
 
     model = os.getenv("MINIMAX_IMAGE_MODEL", "image-01").strip() or "image-01"
