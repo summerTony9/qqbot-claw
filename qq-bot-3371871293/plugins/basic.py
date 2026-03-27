@@ -155,6 +155,14 @@ def _json_from_httpx_response(resp: httpx.Response) -> dict:
     return json.loads(resp.content.decode("utf-8", errors="replace"))
 
 
+def _sanitize_generated_text(text: str) -> str:
+    text = (text or "").replace("\n", " ").strip()
+    # 清掉平台表情名/未解析表情，如 [小嘴] [doge]
+    text = re.sub(r"\[[^\[\]\s]{1,12}\]", "", text)
+    text = re.sub(r"\s{2,}", " ", text).strip()
+    return text[:300]
+
+
 async def _call_minimax_chat_with_reasoning(system_prompt: str, user_prompt: str) -> tuple[str, str]:
     api_key = os.getenv("MINIMAX_API_KEY", "").strip()
     if not api_key:
@@ -197,7 +205,7 @@ async def _call_minimax_chat_with_reasoning(system_prompt: str, user_prompt: str
             reasoning = (message.get("reasoning_content") or "").strip()
             if not reply:
                 reply = (((data or {}).get("reply") or {}).get("content") or "").strip()
-            return reply.replace("\n", " ").strip()[:300], reasoning[:4000]
+            return _sanitize_generated_text(reply), reasoning[:4000]
     except Exception as e:
         logger.warning(f"[minimax-chat] generate failed: {e}")
         return "", ""
@@ -206,14 +214,14 @@ async def _call_minimax_chat_with_reasoning(system_prompt: str, user_prompt: str
 async def _call_minimax_chat(system_prompt: str, user_prompt: str) -> str:
     reply, reasoning = await _call_minimax_chat_with_reasoning(system_prompt, user_prompt)
     if reply:
-        return reply.replace("\n", " ").strip()[:300]
+        return _sanitize_generated_text(reply)
     if reasoning:
         logger.warning("[minimax-chat] empty content, retrying from reasoning")
         retry_reply, _ = await _call_minimax_chat_with_reasoning(
-            "把给定分析压缩成1到3句最终回复。只输出最终回复，不要解释，不要思考过程，要像正常人在群里说话。",
+            "把给定分析压缩成1到3句最终回复。只输出最终回复，不要解释，不要思考过程，要像正常人在群里说话。不要输出[小嘴][doge][笑哭]这类平台表情名。",
             reasoning[-2200:],
         )
-        return retry_reply.replace("\n", " ").strip()[:300] if retry_reply else ""
+        return _sanitize_generated_text(retry_reply) if retry_reply else ""
     return ""
 
 
@@ -224,7 +232,8 @@ async def _generate_group_roast_reply(target_text: str, context_lines: list[str]
         "2）语气暴躁、阴阳怪气、嘴硬、贴吧老哥味，但不要出现仇恨、歧视、暴力威胁、真实人身伤害鼓动；"
         "3）回复必须短，10-40字，像真实群友插话；"
         "4）不要解释自己，不要加引号，不要分点，不要写成AI腔；"
-        "5）如果上下文不足，就抓住目标消息本身吐槽。"
+        "5）不要输出[小嘴][doge][笑哭]这类平台表情名；"
+        "6）如果上下文不足，就抓住目标消息本身吐槽。"
     )
     user_prompt = (
         "最近群聊上下文：\n" + "\n".join(context_lines[-15:]) +
@@ -374,6 +383,7 @@ async def _generate_bilibili_roast_reply(url: str, context_lines: list[str], sen
         "你是QQ群里的暴躁贴吧老哥。根据给定视频要点，写1到3句具体回复。"
         "要求：必须点到具体内容点，不能空泛；要像真人在群里说话，句子完整，别写成半截残句；"
         "回复对象是发这个链接的群友，所以要顺着视频内容去阴阳他、吐槽他发的东西，不要只点评视频本身；"
+        "不要输出[小嘴][doge][笑哭]这类平台表情名；"
         "语气暴躁阴阳怪气但别越线；不要解释自己。"
     )
     roast_user = (
