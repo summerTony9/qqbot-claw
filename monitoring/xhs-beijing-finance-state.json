@@ -1,14 +1,24 @@
 {
   "version": 1,
   "created_at": "2026-03-28T15:20:00+08:00",
-  "last_run_at": null,
-  "last_success_at": null,
+  "last_run_at": "2026-03-28T15:33:19.868607+08:00",
+  "last_success_at": "2026-03-28T15:33:19.868607+08:00",
   "last_unavailable_alert_at": null,
   "browser_dependency": {
     "requires_local_chrome": true,
     "requires_ssh_reverse_tunnel": true,
     "requires_server_relay": true
   },
-  "seen_signatures": [],
-  "recent_findings": []
+  "seen_signatures": [
+    "xhs:685a6cea0000000013012c11"
+  ],
+  "recent_findings": [
+    {
+      "signature": "xhs:685a6cea0000000013012c11",
+      "time": "2026-03-28T15:33:19.868607+08:00",
+      "title": "北京有没有3个点左右的银行能贷？",
+      "url": "https://www.xiaohongshu.com/explore/685a6cea0000000013012c11?xsec_token=ABAuFbYdI5BcCoQVJIRQx_P5dmkCMLf1rHDr95BgsMvnU=&xsec_source=",
+      "urgency": "高"
+    }
+  ]
 }
