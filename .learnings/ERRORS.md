@@ -58,3 +58,25 @@ For system administration commands, prefer explicit paths or export `PATH=/usr/s
 - Related Files: /root/.openclaw/workspace/.learnings/ERRORS.md, /root/.openclaw/workspace/TOOLS.md
 
 ---
+## [ERR-20260328-003] xhs-lead-qualification-too-narrow-and-intermediary-false-positive
+
+**Logged**: 2026-03-28T16:10:00+08:00
+**Priority**: high
+**Status**: pending
+**Area**: monitoring
+
+### Summary
+The Xiaohongshu lead monitor was initially too narrow (focused mostly on loans/financing) and also misclassified intermediary/broker content as a valid lead.
+
+### Error
+- Email delivery format used plain body text instead of a markdown attachment, which made long reports feel truncated.
+- The monitor did not sufficiently distinguish true business targets from loan brokers/intermediaries.
+- The monitor underweighted comments as independent sources of lead intent.
+
+### Correction
+- Send markdown reports as email attachments.
+- Treat comments as first-class lead sources.
+- Broaden target types to tech-business outreach leads (hiring/expansion/account-opening/business-banking signals), not only explicit financing requests.
+- Explicitly exclude intermediaries / brokers / agencies as lead targets.
+
+---

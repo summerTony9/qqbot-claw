@@ -1,8 +1,8 @@
 {
   "version": 1,
   "created_at": "2026-03-28T15:20:00+08:00",
-  "last_run_at": "2026-03-28T15:44:48.095038+08:00",
-  "last_success_at": "2026-03-28T15:41:48.080124+08:00",
+  "last_run_at": "2026-03-28T15:55:36.954400+08:00",
+  "last_success_at": "2026-03-28T15:48:09.430380+08:00",
   "last_unavailable_alert_at": null,
   "browser_dependency": {
     "requires_local_chrome": true,
@@ -10,7 +10,8 @@
     "requires_server_relay": true
   },
   "seen_signatures": [
-    "xhs:685a6cea0000000013012c11"
+    "xhs:685a6cea0000000013012c11",
+    "xhs:69a68382000000001b015520"
   ],
   "recent_findings": [
     {
@@ -27,9 +28,17 @@
     "exclude_primary_topics": [
       "发票贷"
     ],
-    "notes": "Prefer recent Beijing tech-enterprise financing demand. Ignore stale leads older than 30 days.",
-    "scan_comments": true,
-    "comments_priority": "high",
+    "comments_as_independent_leads": true,
+    "delivery_format": "markdown_attachment",
+    "broadened_lead_types": [
+      "financing",
+      "account-opening",
+      "business-banking",
+      "hiring-expansion",
+      "operations-growth"
+    ],
+    "exclude_intermediaries": true,
+    "notes": "Do not restrict to loan/financing only. Comments can independently reveal leads. Exclude agencies/intermediaries/loan brokers. Prefer recent Beijing tech-business outreach leads.",
     "randomized_pacing": true,
     "deep_open_cap_per_run": 6,
     "search_delay_seconds": [
@@ -44,5 +53,12 @@
       1,
       3
     ]
+  },
+  "rejected_signatures": {
+    "xhs:69a68382000000001b015520": {
+      "reason": "intermediary_or_broker_content",
+      "note": "User does not want intermediary / loan-agent cooperation leads.",
+      "updated_at": "2026-03-28T15:55:36.954400+08:00"
+    }
   }
 }
