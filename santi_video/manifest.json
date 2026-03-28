@@ -1,0 +1,73 @@
+{
+  "images": [
+    {
+      "id": "01_ant",
+      "url": "https://hailuo-image-algeng-data.oss-cn-wulanchabu.aliyuncs.com/image_inference_output%2Ftalkie%2Fprod%2Fimg%2F2026-03-28%2Fb27b0a7f-35b4-4220-a052-8bbc3053098b_aigc.jpeg?Expires=1774795178&OSSAccessKeyId=LTAI5tB2SwrRwAtD23etQUbC&Signature=B3uN5VZcXkF1U8gblGDTtjPPEoQ%3D"
+    },
+    {
+      "id": "02_cliff",
+      "url": "https://hailuo-image-algeng-data.oss-cn-wulanchabu.aliyuncs.com/image_inference_output%2Ftalkie%2Fprod%2Fimg%2F2026-03-28%2F0247177e-ee66-43c2-accf-373e9300f089_aigc.jpeg?Expires=1774795196&OSSAccessKeyId=LTAI5tB2SwrRwAtD23etQUbC&Signature=72uKmFKiKL67rbZ1cBdi9ivTDxY%3D"
+    },
+    {
+      "id": "03_ship",
+      "url": "https://hailuo-image-algeng-data.oss-cn-wulanchabu.aliyuncs.com/image_inference_output%2Ftalkie%2Fprod%2Fimg%2F2026-03-28%2F5d923d21-e83f-4dcd-9d71-bd16a33a0b97_aigc.jpeg?Expires=1774795194&OSSAccessKeyId=LTAI5tB2SwrRwAtD23etQUbC&Signature=Bj%2BGcP3GWYQ3F%2Br7p48A6UZgiI0%3D"
+    },
+    {
+      "id": "04_aliens",
+      "url": "https://hailuo-image-algeng-data.oss-cn-wulanchabu.aliyuncs.com/image_inference_output%2Ftalkie%2Fprod%2Fimg%2F2026-03-28%2F3f93c2ef-72a6-4bd2-8391-347a80e62147_aigc.jpeg?Expires=1774795182&OSSAccessKeyId=LTAI5tB2SwrRwAtD23etQUbC&Signature=bORuuZQ0caXti%2BtZwGrqPbnL55I%3D"
+    },
+    {
+      "id": "05_stars",
+      "url": "https://hailuo-image-algeng-data.oss-cn-wulanchabu.aliyuncs.com/image_inference_output%2Ftalkie%2Fprod%2Fimg%2F2026-03-28%2F2400f263-5958-450d-bfd7-946f5856749f_aigc.jpeg?Expires=1774795194&OSSAccessKeyId=LTAI5tB2SwrRwAtD23etQUbC&Signature=tG2K9UPKrrvgKwOn%2BZAaUWcyfQU%3D"
+    }
+  ],
+  "audio": [
+    {
+      "id": "01_ant",
+      "file": "/root/.openclaw/workspace/santi_video/audio_01_ant.mp3"
+    },
+    {
+      "id": "02_cliff",
+      "file": "/root/.openclaw/workspace/santi_video/audio_02_cliff.mp3"
+    },
+    {
+      "id": "03_ship",
+      "file": null
+    },
+    {
+      "id": "04_deception",
+      "file": null
+    },
+    {
+      "id": "05_end",
+      "file": "/root/.openclaw/workspace/santi_video/audio_05_end.mp3"
+    }
+  ],
+  "narration": [
+    {
+      "id": "01_ant",
+      "emotion": "sad",
+      "text": "这个星球上，有两种眼睛。一种，是地底下那只褐蚁。它渺小，卑微，抬起头也望不见天空的边界。它只是爬，漫无目的地爬。黑色的孤峰拔地而起，挡在它面前，它就顺着岩壁向上。不是为了抵达，只是神经里一次微不足道的扰动。它不知道的是，此刻在它脚下，有两个即将改变人类命运的人，正站在崖边对话。"
+    },
+    {
+      "id": "02_cliff",
+      "emotion": "calm",
+      "text": "山顶上，褐蚁俯瞰着两个人类的相遇。她叫叶文洁，白发在暮色中格外醒目。他叫罗辑，一个天文转社会学的年轻人，聪明，但心很散。一个已经失去了女儿，一个还不知道为什么活着。他们相遇在这片荒原的孤峰下，说着些看似无关紧要的话。但正是这些无关紧要的话，悄悄地推动了人类的命运。叶文洁说：宇宙中分布着数量巨大的文明，它们的数目与能观测到的星星是一个数量级。很多很多。这就是宇宙社会学。"
+    },
+    {
+      "id": "03_ship",
+      "emotion": "serious",
+      "text": "另一种眼睛，在太平洋的夜海上。审判日号，劈开黑色的浪，船上站着一个男人。他叫伊文斯。富二代，美国石油大亨的儿子。他手握一根细细的线，连接着四光年外的另一个文明。此刻他正与那个世界进行最后一次对话。字幕亮起，冷冰冰的，没有温度。那是另一个世界的声音。"
+    },
+    {
+      "id": "04_deception",
+      "emotion": "scare",
+      "text": "字幕说：你们人类有一个词，我们始终无法理解。伊文斯问：哪个词？字幕回答：欺骗。伊文斯愣住了。他给三体人讲了小红帽的故事——狼装成外婆，骗孩子们开门。多么简单的骗局。但三体人完全无法理解。它们说：狼为什么要交流？它直接进去吃不就行了？伊文斯恍然大悟。他们的文明里没有谎言。思维是全透明的，像一本摊开的书。想，就是说。说，就是想。对他们而言，欺骗，根本不存在。"
+    },
+    {
+      "id": "05_end",
+      "emotion": "sad",
+      "text": "伊文斯抬起头，望向星空。他终于明白了一件事。地球人最强大的武器，不是飞船，不是核弹——是谎言。字幕再次亮起。这一次，只有短短五个字。字幕说：我害怕你们。画面渐黑。这就是序章。一只蚂蚁，两个失意的人，一段跨越四光年的对话，以及一个文明最深的恐惧。故事，才刚刚开始。"
+    }
+  ]
+}
