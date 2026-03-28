@@ -39,6 +39,7 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 - When using `exec` for live inspection during a chat, keep output minimal and user-relevant. On this setup, raw shell output may end up visible enough to annoy the user.
 - If a quiet first-class tool path fails and shell fallback is necessary, summarize the result instead of pasting command output.
+- For host admin commands in `exec`, `/usr/sbin` and `/sbin` may be missing from PATH. Use full paths (for example `/usr/sbin/useradd`) or export `PATH=/usr/sbin:/sbin:$PATH` first.
 
 ---
 

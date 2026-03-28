@@ -30,3 +30,31 @@ QQ bot 的 `新闻` 命令实际上已成功生成摘要，但因 `news_cmd.fini
 - **Notes**: 已调整异常边界，避免把正常结束误判为失败。
 
 ---
+## [ERR-20260328-002] exec-path-missing-sbin
+
+**Logged**: 2026-03-28T15:11:00+08:00
+**Priority**: medium
+**Status**: pending
+**Area**: config
+
+### Summary
+Admin commands like `useradd` may fail in exec because `/usr/sbin` is not always present in PATH.
+
+### Error
+```
+/usr/bin/bash: line 5: useradd: command not found
+```
+
+### Context
+- Operation attempted: create restricted SSH tunnel user `relay`
+- Environment: OpenClaw exec shell on Ubuntu host
+- Resolution: prepend `/usr/sbin:/sbin` to PATH or use full command path like `/usr/sbin/useradd`
+
+### Suggested Fix
+For system administration commands, prefer explicit paths or export `PATH=/usr/sbin:/sbin:$PATH` first.
+
+### Metadata
+- Reproducible: yes
+- Related Files: /root/.openclaw/workspace/.learnings/ERRORS.md, /root/.openclaw/workspace/TOOLS.md
+
+---
