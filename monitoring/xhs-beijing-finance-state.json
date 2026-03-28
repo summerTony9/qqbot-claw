@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-03-28T15:20:00+08:00",
-  "last_run_at": "2026-03-28T15:41:48.080124+08:00",
+  "last_run_at": "2026-03-28T15:44:48.095038+08:00",
   "last_success_at": "2026-03-28T15:41:48.080124+08:00",
   "last_unavailable_alert_at": null,
   "browser_dependency": {
@@ -27,6 +27,22 @@
     "exclude_primary_topics": [
       "发票贷"
     ],
-    "notes": "Prefer recent Beijing tech-enterprise financing demand. Ignore stale leads older than 30 days."
+    "notes": "Prefer recent Beijing tech-enterprise financing demand. Ignore stale leads older than 30 days.",
+    "scan_comments": true,
+    "comments_priority": "high",
+    "randomized_pacing": true,
+    "deep_open_cap_per_run": 6,
+    "search_delay_seconds": [
+      2,
+      5
+    ],
+    "post_open_delay_seconds": [
+      3,
+      7
+    ],
+    "scroll_delay_seconds": [
+      1,
+      3
+    ]
   }
 }

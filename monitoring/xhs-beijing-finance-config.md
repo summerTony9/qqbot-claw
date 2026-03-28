@@ -50,6 +50,7 @@ Strong signals:
 - clearly expresses financing intent, pain, or need
 - examples: `需要贷款`, `求融资`, `资金周转`, `征信花了还能做吗`, `有没有渠道`, `企业贷`, `税贷`, `流水贷`, `过桥`, `对公`, `急需资金`
 - comments asking for contact,额度,条件,渠道,方案 also count
+- **评论区优先级很高**：如果标题普通，但正文或评论区明确暴露出北京科技企业的融资需求，也算有效线索
 
 ## Exclusions
 Ignore:
@@ -61,6 +62,27 @@ Ignore:
 - `发票贷`-focused content as a primary topic
 - stale leads older than 30 days
 - non-tech businesses when the technology signal is weak or missing
+
+## Comment scanning rules
+For each promising candidate post:
+- do not judge by title alone
+- read the note body and inspect visible comments
+- prioritize the first 8-15 meaningful visible comments
+- if a comment reveals stronger intent than the original post, record the **comment-derived** lead
+- capture whether the key signal came from `title`, `body`, `comment`, or `body+comment`
+- if comments are generic noise and the post itself is weak, discard it
+
+## Anti-blocking / pacing rules
+To reduce platform risk:
+- randomize query order each run instead of using a fixed sequence
+- keep one main tab and reuse it; avoid tab bursts
+- wait a random delay between actions:
+  - 2-5 seconds between searches/navigation
+  - 3-7 seconds after opening a post before reading comments
+  - 1-3 seconds between small scrolls
+- deep-open only the most promising results first; cap deep post opens to about 4-6 per run
+- do not rapidly click many links from the same result page
+- if the page looks abnormal / empty / heavily rate-limited, stop early and avoid hammering retries
 
 ## Alert format
 When a new valid lead is found, send a short alert with:
