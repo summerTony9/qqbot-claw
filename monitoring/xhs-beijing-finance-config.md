@@ -75,6 +75,8 @@ Ignore:
 - **中介 / 助贷 / 代理 / 渠道商 / 居间方** as the lead subject
 - posts where the author is obviously selling loan products rather than expressing business need
 - recruiter / service-provider content unless the underlying company itself is the real target and not just an agency shell
+- service-provider /企服/顾问型账号, including patterns like `企服`, `高企认定`, `财税`, `代账`, `知识产权`, `贷款服务`, `融资顾问`, `企业服务`, `银行贷款服务`
+- success-story marketing posts that showcase another company's financing result but are actually used to attract inbound咨询
 
 ## Comment scanning rules
 For each promising candidate post:

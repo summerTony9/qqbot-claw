@@ -34,3 +34,15 @@ Append new unique findings here with timestamp, source, snippet, relevance, and 
 - Comments can independently count as lead signals
 - Exclude intermediaries / loan brokers / agents as lead targets
 - Reclassified xhs:69a68382000000001b015520 as rejected (intermediary_or_broker_content)
+
+## 2026-03-28T16:05:19.943726+08:00
+- Manual rerun after adding markdown-attachment email and broader outreach lead rules
+- Candidate count: 14
+- Deep-opened posts: 4
+- New valid findings: 1
+- [financing] [body] 北京这家企业，拿到2个亿贷款而且还是贷款 | 03-19 | https://www.xiaohongshu.com/explore/69bb4f460000000023023781?xsec_token=ABrVqUYJcktYqR2WmJT_kfEhx2BhkXEnCZ0sjeA3otVq8=&xsec_source=
+
+## 2026-03-28T16:07:51.421520+08:00
+- Manual correction after review
+- Rejected xhs:69bb4f460000000023023781 as service_provider_or_case_study_marketing
+- Corrected effective result for prior run: 0 valid high-confidence leads

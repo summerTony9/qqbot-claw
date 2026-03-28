@@ -1,8 +1,8 @@
 {
   "version": 1,
   "created_at": "2026-03-28T15:20:00+08:00",
-  "last_run_at": "2026-03-28T15:55:36.954400+08:00",
-  "last_success_at": "2026-03-28T15:48:09.430380+08:00",
+  "last_run_at": "2026-03-28T16:07:26.224319+08:00",
+  "last_success_at": "2026-03-28T16:07:26.224319+08:00",
   "last_unavailable_alert_at": null,
   "browser_dependency": {
     "requires_local_chrome": true,
@@ -11,7 +11,8 @@
   },
   "seen_signatures": [
     "xhs:685a6cea0000000013012c11",
-    "xhs:69a68382000000001b015520"
+    "xhs:69a68382000000001b015520",
+    "xhs:69bb4f460000000023023781"
   ],
   "recent_findings": [
     {
@@ -59,6 +60,26 @@
       "reason": "intermediary_or_broker_content",
       "note": "User does not want intermediary / loan-agent cooperation leads.",
       "updated_at": "2026-03-28T15:55:36.954400+08:00"
+    },
+    "xhs:69bdf642000000001b002377": {
+      "reason": "intermediary_or_broker",
+      "updated_at": "2026-03-28T16:05:19.943726+08:00",
+      "title": "我们招人啦 | AI初创公司-Apexmind"
+    },
+    "xhs:699d5504000000001d027763": {
+      "reason": "job_seeker",
+      "updated_at": "2026-03-28T16:05:19.943726+08:00",
+      "title": "北京初创AI公司：join us（接受无经验"
+    },
+    "xhs:69b7a5330000000023027498": {
+      "reason": "job_seeker",
+      "updated_at": "2026-03-28T16:05:19.943726+08:00",
+      "title": "北京AI初创公司，3月组里缺人，"
+    },
+    "xhs:69bb4f460000000023023781": {
+      "reason": "service_provider_or_case_study_marketing",
+      "note": "Author name suggests enterprise-service / 高企认定 style account; not a direct target customer.",
+      "updated_at": "2026-03-28T16:07:26.224319+08:00"
     }
   }
 }
