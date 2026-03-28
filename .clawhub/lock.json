@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "skills": {
+    "openclaw-tavily-search": {
+      "version": "0.1.0",
+      "installedAt": 1774109334571
+    },
+    "summarize": {
+      "version": "1.0.0",
+      "installedAt": 1774109335951
+    },
+    "agent-browser": {
+      "version": "0.2.0",
+      "installedAt": 1774109337362
+    },
+    "github": {
+      "version": "1.0.0",
+      "installedAt": 1774109338802
+    },
+    "obsidian": {
+      "version": "1.0.0",
+      "installedAt": 1774109340566
+    },
+    "weather": {
+      "version": "1.0.0",
+      "installedAt": 1774109342048
+    },
+    "tencentcloud-lighthouse-skill": {
+      "version": "1.0.0",
+      "installedAt": 1774109344093
+    },
+    "tencent-docs": {
+      "version": "1.0.18",
+      "installedAt": 1774109347404
+    },
+    "tencent-cos-skill": {
+      "version": "1.0.6",
+      "installedAt": 1774109349848
+    },
+    "browser-relay-xiaohongshu": {
+      "version": "0.2.2",
+      "installedAt": 1774519316160
+    },
+    "agent-reach": {
+      "version": "1.1.0",
+      "installedAt": 1774519316869
+    },
+    "self-improving-agent": {
+      "version": "1.0.11",
+      "installedAt": 1774626719963
+    },
+    "xiaohongshu-ops": {
+      "version": "0.1.1",
+      "installedAt": 1774680662154
+    }
+  }
+}
