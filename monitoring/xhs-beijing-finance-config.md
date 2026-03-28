@@ -9,8 +9,10 @@ Monitor Xiaohongshu hourly for **new** posts/comments that indicate a **Beijing-
 
 ## Delivery
 - Preferred email target: `769163832@qq.com`
-- **Current live delivery**: Telegram chat only
-- Email is **not configured yet** on this host because no SMTP / mail transport is available.
+- **Primary live delivery**: QQ SMTP email to `769163832@qq.com`
+- **Secondary live delivery**: Telegram chat can be used as fallback / duplicate alert if needed
+- SMTP runtime config is stored root-only at `/root/.config/xhs-monitor/smtp.json`
+- Email helper script: `/root/.openclaw/workspace/monitoring/send_email_alert.py`
 
 ## Runtime dependency
 This monitor depends on the user's local browser path being online:
