@@ -1,11 +1,17 @@
 # Xiaohongshu monitor: Beijing enterprise financing leads
 
 ## Goal
-Monitor Xiaohongshu hourly for **new** posts/comments that indicate a **Beijing-based business** may need:
+Monitor Xiaohongshu hourly for **new** posts/comments that indicate a **Beijing-based tech-related business** may need:
 - business loans
 - enterprise financing
 - working-capital funding
-- bridge loans / invoice loans / tax loans / operating loans
+- bridge loans / tax loans / operating loans
+
+## Time window
+- Prefer **fresh** leads only
+- Ignore leads that are clearly **older than 30 days**
+- If the page date is ambiguous, only keep it when other evidence suggests it is recent
+- If it is already several months old, do not alert
 
 ## Delivery
 - Preferred email target: `769163832@qq.com`
@@ -24,24 +30,25 @@ If the browser/tunnel is offline, the monitor cannot inspect Xiaohongshu.
 
 ## Search seeds
 Use and rotate combinations of these keywords:
-- 北京 企业 贷款
-- 北京 企业 融资
-- 北京 公司 贷款
-- 北京 公司 融资
-- 北京 资金周转
-- 北京 对公 贷款
-- 北京 税贷
-- 北京 发票贷
-- 北京 流贷
-- 北京 过桥 资金
-- 北京 中小企业 融资
-- 北京 法人 贷款
+- 北京 科技企业 贷款
+- 北京 科技企业 融资
+- 北京 软件公司 贷款
+- 北京 软件公司 融资
+- 北京 AI公司 融资
+- 北京 人工智能 公司 融资
+- 北京 互联网公司 贷款
+- 北京 电商 公司 贷款
+- 北京 MCN 公司 贷款
+- 北京 高新企业 贷款
+- 北京 对公 贷款 科技
+- 北京 税贷 科技企业
 
 ## What counts as a valid lead
 Strong signals:
-- clearly mentions Beijing / 北京 / 北京公司 / 北京企业 / 北京老板 / 北京个体工商户 / 北京工厂 / 北京商贸 / 北京快科/科技公司 etc.
+- clearly mentions Beijing / 北京 / 北京公司 / 北京企业 / 北京老板 / 北京个体工商户 / 北京工厂 / 北京商贸 / 北京快科 / 科技公司 etc.
+- clearly shows **technology-related business context**, such as: `科技`, `软件`, `AI`, `人工智能`, `互联网`, `SaaS`, `系统开发`, `电商`, `MCN`, `高新`, `专精特新`, `研发`, `平台`, `云服务`
 - clearly expresses financing intent, pain, or need
-- examples: `需要贷款`, `求融资`, `资金周转`, `征信花了还能做吗`, `有没有渠道`, `企业贷`, `票贷`, `税贷`, `流水贷`, `过桥`, `对公`, `急需资金`
+- examples: `需要贷款`, `求融资`, `资金周转`, `征信花了还能做吗`, `有没有渠道`, `企业贷`, `税贷`, `流水贷`, `过桥`, `对公`, `急需资金`
 - comments asking for contact,额度,条件,渠道,方案 also count
 
 ## Exclusions
@@ -51,6 +58,9 @@ Ignore:
 - investment news with no customer intent
 - duplicate posts/comments already reported
 - obvious recruiters/agents scraping leads from others unless they reveal a real demand side
+- `发票贷`-focused content as a primary topic
+- stale leads older than 30 days
+- non-tech businesses when the technology signal is weak or missing
 
 ## Alert format
 When a new valid lead is found, send a short alert with:

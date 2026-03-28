@@ -12,3 +12,9 @@ Append new unique findings here with timestamp, source, snippet, relevance, and 
 - Why: 明确提到公司在北京、民生公户、想贷几万额度，并在评论区继续讨论企业/个人能否操作，属于较强的真实融资需求信号。
 - Snippet: 公司在北京，民生的公户，一年流水一万左右；已经有一定的自媒体平台数据，现在打算用这个公司正常走账，想贷几万的额度出来。
 - Link: https://www.xiaohongshu.com/explore/685a6cea0000000013012c11?xsec_token=ABAuFbYdI5BcCoQVJIRQx_P5dmkCMLf1rHDr95BgsMvnU=&xsec_source=
+
+## 2026-03-28T15:41:48.080124+08:00
+- Manual rerun with stricter filters
+- Filters: no 发票贷, tech-related only, recency <= 30 days
+- Result: 0 high-confidence valid leads
+- Excluded buckets: stale old posts, marketing/product posts, policy/news posts, hiring/career posts, non-tech/non-business scenes
