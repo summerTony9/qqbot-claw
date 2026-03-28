@@ -1,0 +1,92 @@
+{
+  "title": "三体II序章（重制版）",
+  "output_filename": "三体II序章_口播视频_v2.mp4",
+  "fps": 25,
+  "resolution": "1920x1080",
+  "image_model": "image-01",
+  "style_prompt": "统一风格：电影级写实科幻概念艺术，冷色调（深蓝/黑/银灰），高对比光影，35mm cinematic composition，volumetric lighting，细节丰富，史诗感；人物面部与服装保持连续性；禁止卡通风、禁止文字水印、禁止logo。",
+  "audio_segments": [
+    {
+      "id": "01_ant",
+      "file": "/root/.openclaw/workspace/santi_video/audio_01_ant.mp3"
+    },
+    {
+      "id": "02_cliff",
+      "file": "/root/.openclaw/workspace/santi_video/audio_02_cliff.mp3"
+    },
+    {
+      "id": "03_ship",
+      "file": "/root/.openclaw/workspace/santi_video/audio_03_ship.mp3"
+    },
+    {
+      "id": "04_deception",
+      "file": "/root/.openclaw/workspace/santi_video/audio_04_deception.mp3"
+    },
+    {
+      "id": "05_end",
+      "file": "/root/.openclaw/workspace/santi_video/audio_05_end.mp3"
+    }
+  ],
+  "shots": [
+    {
+      "id": "01_ant_a",
+      "segment": "01_ant",
+      "prompt": "微观镜头：一只褐蚁贴着黑色岩壁向上爬，蚂蚁触角与岩石纹理清晰可见，暮色冷光，压迫感强，画面中没有天空大留白。"
+    },
+    {
+      "id": "01_ant_b",
+      "segment": "01_ant",
+      "prompt": "广角镜头：孤峰像黑色刀锋直插天际，前景仍能看到褐蚁的微小身影，远处荒原与稀疏星点形成巨大尺度对比。"
+    },
+    {
+      "id": "02_cliff_a",
+      "segment": "02_cliff",
+      "prompt": "叶文洁与罗辑站在悬崖边的中景镜头：叶文洁白发、深色长外套；罗辑年轻、神情困惑，二人面对荒原对话。"
+    },
+    {
+      "id": "02_cliff_b",
+      "segment": "02_cliff",
+      "prompt": "叶文洁近景肖像：白发被夜风吹动，脸部冷静克制，背景是深蓝色暮空与黑色山脊，电影人物特写。"
+    },
+    {
+      "id": "02_cliff_c",
+      "segment": "02_cliff",
+      "prompt": "背影远景：叶文洁与罗辑并肩立于崖顶，脚下荒原无尽延伸，天空星光初现，人物轮廓清晰可辨。"
+    },
+    {
+      "id": "03_ship_a",
+      "segment": "03_ship",
+      "prompt": "太平洋夜海远景：审判日号巨轮破浪前行，海面反射冷月，船头有男人独立的身影，风浪细节明显。"
+    },
+    {
+      "id": "03_ship_b",
+      "segment": "03_ship",
+      "prompt": "伊文斯中近景：站在甲板护栏旁，手握通讯装置，面容被星光与屏幕冷光照亮，背后是漆黑深海。"
+    },
+    {
+      "id": "04_deception_a",
+      "segment": "04_deception",
+      "prompt": "伊文斯凝视悬浮字幕界面，字幕关键词“欺骗”以微光投影呈现；人物表情从困惑转为震惊，画面紧张。"
+    },
+    {
+      "id": "04_deception_b",
+      "segment": "04_deception",
+      "prompt": "概念对比镜头：左侧透明外星头部，神经光路外显；右侧人类侧脸被阴影遮蔽，脑内像迷雾与符号翻涌。"
+    },
+    {
+      "id": "04_deception_c",
+      "segment": "04_deception",
+      "prompt": "寓言化场景：狼伪装成老妇站在门前，门内孩童警惕凝视，作为“欺骗”概念隐喻，保持科幻冷色与电影光影。"
+    },
+    {
+      "id": "05_end_a",
+      "segment": "05_end",
+      "prompt": "伊文斯仰望星空的近中景：人物面部有复杂情绪，身后是船舷与深夜海面，情绪收束，结尾感强。"
+    },
+    {
+      "id": "05_end_b",
+      "segment": "05_end",
+      "prompt": "宇宙终章镜头：无尽繁星中一颗暗淡蓝色地球悬浮，周围如黑暗森林般幽深，微弱光束向外延伸，孤独史诗感。"
+    }
+  ]
+}

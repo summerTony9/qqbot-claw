@@ -1,0 +1,17 @@
+{
+  "title": "你的项目标题",
+  "output_filename": "story_video.mp4",
+  "fps": 25,
+  "resolution": "1920x1080",
+  "image_model": "image-01",
+  "style_prompt": "统一风格描述（色调、镜头语言、人物连续性、禁用风格）",
+  "audio_segments": [
+    {"id": "seg01", "file": "/absolute/path/to/seg01.mp3"},
+    {"id": "seg02", "file": "/absolute/path/to/seg02.mp3"}
+  ],
+  "shots": [
+    {"id": "seg01_a", "segment": "seg01", "prompt": "镜头描述A（尽量具体，有人物/动作/场景）"},
+    {"id": "seg01_b", "segment": "seg01", "prompt": "镜头描述B"},
+    {"id": "seg02_a", "segment": "seg02", "prompt": "镜头描述C"}
+  ]
+}
