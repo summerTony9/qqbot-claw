@@ -80,3 +80,36 @@ The Xiaohongshu lead monitor was initially too narrow (focused mostly on loans/f
 - Explicitly exclude intermediaries / brokers / agencies as lead targets.
 
 ---
+
+## [ERR-20260328-VID] ffmpeg filter arg interpolation failure
+
+**Logged**: 2026-03-28T23:47:00+08:00
+**Priority**: medium
+**Status**: resolved
+**Area**: infra
+
+### Summary
+BGM remix command failed because `afade` out-start argument was injected with a broken inline Python call, producing empty `st=`.
+
+### Error
+```
+Error applying option 'st' to filter 'afade': Invalid argument
+... afade=t=out:st=:d=4
+```
+
+### Context
+- Operation: create v3 epic BGM remix for story video
+- Root cause: shell argument passing in `$(python3 - <<'PY' ... "$DUR")` was malformed
+
+### Suggested Fix
+Compute fade start in a separate shell variable before ffmpeg, then interpolate that variable directly.
+
+### Metadata
+- Reproducible: yes
+- Related Files: santi_video/v3/*
+
+### Resolution
+- **Resolved**: 2026-03-28T23:48:00+08:00
+- **Notes**: Switched to `FADE_OUT_START=$(python3 -c '...')` and reused variable in ffmpeg filter.
+
+---
