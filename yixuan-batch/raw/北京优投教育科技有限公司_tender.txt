@@ -1,0 +1,389 @@
+- generic
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。" [ref=e1]
+  - generic
+    - generic
+  - generic
+    - generic
+      - generic
+        - link "到百度首页" [ref=e2]
+          - image "到百度首页"
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                  - generic
+                  - generic
+                    - generic
+                      - generic
+                      - generic
+                        - textbox [ref=e90]: 北京优投教育科技有限公司 招投标
+                          - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                          - generic
+                          - generic
+                        - button "百度一下" [ref=e91]
+                          - StaticText "百度一下"
+                    - generic
+                      - generic
+      - generic
+        - link "百度首页" [ref=e3]
+          - StaticText "百度首页"
+        - link "设置" [ref=e4]
+          - StaticText "设置"
+        - link "登录" [ref=e5]
+          - StaticText "登录"
+    - generic
+    - generic
+      - generic
+        - link [ref=e6]
+          - image
+        - StaticText "网页"
+        - link "图片" [ref=e7]
+          - StaticText "图片"
+        - link "资讯" [ref=e8]
+          - StaticText "资讯"
+        - link "视频" [ref=e9]
+          - StaticText "视频"
+        - link "笔记" [ref=e10]
+          - StaticText "笔记"
+        - link "地图" [ref=e11]
+          - StaticText "地图"
+        - link "贴吧" [ref=e12]
+          - StaticText "贴吧"
+        - link "文库" [ref=e13]
+          - StaticText "文库"
+        - link "更多" [ref=e14]
+          - StaticText "更多"
+        - generic
+          - StaticText "搜索工具"
+    - generic
+      - generic
+        - generic
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "相关搜索  北京十大招标代理公司  北京招投标公司  国采招标(深圳)有限公司  国投集团电子采购平台  国电投招标采购平台  国投招标    换一换 热搜榜 民生榜 财经榜  把绿色的种子种进心里 1"
+                - generic
+                  - generic
+                    - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                            - link " 北京十大招标代理公司" [ref=e111]
+                          - generic
+                            - link " 北京招投标公司" [ref=e112]
+                          - generic
+                            - link " 国采招标(深圳)有限公司" [ref=e113]
+                          - generic
+                            - link " 国投集团电子采购平台" [ref=e114]
+                          - generic
+                            - link " 国电投招标采购平台" [ref=e115]
+                          - generic
+                            - link " 国投招标" [ref=e116]
+                  - generic
+                    - generic
+                      - generic
+                        - link " " [ref=e92]
+                        - generic
+                          - link " 换一换" [ref=e93]
+                      - generic
+                        - generic
+                        - generic
+                        - generic
+                      - generic
+                        - generic
+                          - link "把绿色的种子种进心里" [ref=e94]
+                      - generic
+                        - generic
+                          - link "郑丽文谈访陆：两岸不是终须一战" [ref=e95]
+                      - generic
+                        - generic
+                          - link "“别人的春和景明 我的氯雷他定”" [ref=e96]
+                      - generic
+                        - generic
+                          - link "中国创新“酷”在哪里" [ref=e97]
+                      - generic
+                        - generic
+                          - link "今年蚊子或迎来史诗级加强 疾控提醒" [ref=e98]
+                      - generic
+                        - generic
+                          - link "新手友好，PayPal个人卖家账户上线" [ref=e99]
+                      - generic
+                        - generic
+                          - link "年轻人流行起“重新养育父母”" [ref=e100]
+                      - generic
+                        - generic
+                          - link "伊朗一儿童游乐场遭美以袭击" [ref=e101]
+                      - generic
+                        - generic
+                          - link "被中国淘汰的车却在印度“杀疯了”" [ref=e102]
+                      - generic
+                        - generic
+                          - link "广州遭遇“高压水枪式暴击”" [ref=e103]
+                      - generic
+                        - generic
+                          - link "女职工到底50岁还是55岁退休" [ref=e104]
+                      - generic
+                        - generic
+                          - link "时隔6年中国航班再次抵达平壤" [ref=e105]
+                      - generic
+                        - generic
+                          - link "“抗过敏药容易产生依赖”是误区" [ref=e106]
+                      - generic
+                        - generic
+                          - link "单依纯再次道歉后李荣浩秒回" [ref=e107]
+                      - generic
+                        - generic
+                          - link "伊朗首都遭大规模空袭 部分区域断电" [ref=e108]
+                      - generic
+                        - generic
+                          - link "蔡磊身体近况：四人搀扶也无法迈步" [ref=e109]
+                      - generic
+                        - generic
+                          - link "黑龙江海林建筑坍塌事故致7人遇难" [ref=e110]
+                - generic
+        - generic
+          - generic
+            - generic
+              - heading "北京优投科技孵化器有限公司(北京市从事投资创业服... - 百度百科" [level=3, ref=e31]
+                - link "北京优投科技孵化器有限公司(北京市从事投资创业服... - 百度百科" [ref=e41]
+                  - paragraph
+                    - emphasis
+                    - StaticText "孵化器"
+                    - emphasis
+                    - StaticText "(北京市从事投资创业服... - 百度百科"
+              - generic
+                - generic
+                  - generic
+                    - link [ref=e79]
+                  - generic
+                    - paragraph
+                      - link "详情" [ref=e86]
+                      - link "" [ref=e87]
+                  - generic
+                    - link "公司简介" [ref=e80]
+                  - generic
+                    - link "发展历程" [ref=e81]
+                  - generic
+                    - link "主营业务" [ref=e82]
+                  - generic
+                    - link "组织架构" [ref=e83]
+              - generic
+                - link "百度百科" [ref=e42]
+                  - StaticText "百度百科"
+          - generic
+            - generic
+              - generic
+                - heading "北京优投科技孵化器有限公司经营信息 - 企查查" [level=3, ref=e43]
+                  - link "北京优投科技孵化器有限公司经营信息 - 企查查" [ref=e67]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e84]
+                  - generic
+                    - StaticText "2026年3月15日"
+                    - StaticText "优投空间是一个创业孵化服务平台,采取“空间+服务+投资”的模式,为早期创业项目提供创业服务、种子投资和天使投资,同时提供导师系统,并线上定期举行“优学社”大咖分享会、线下定期举行“优投创业营”创业培训、“优投导师说”活动。 2、基本信息 "
+                    - emphasis
+                    - StaticText "孵化器"
+                    - emphasis
+                    - StaticText "是⼀家成⽴于2016年01月21日的有限..."
+                  - generic
+                    - generic
+                      - link "头像 企查查" [ref=e88]
+                    - generic
+          - generic
+            - generic
+              - generic
+                - heading "[公开]信息化系统新建和升级改造项目--北京市教育公共管理平台五..." [level=3, ref=e44]
+                  - link "[公开]信息化系统新建和升级改造项目--北京市教育公共管理平台五..." [ref=e68]
+                    - paragraph
+                - generic
+                  - StaticText "2025年6月13日"
+                  - StaticText "第5包:"
+                  - emphasis
+                    - StaticText "北京市"
+                  - StaticText "基础"
+                  - emphasis
+                    - StaticText "教育"
+                  - StaticText "内控管理与市级资金项目管理子系统建设 服务名称:北京市基础教育内控管理与市级资金项目管理子系统建设。 服务范围:提供北京市基础教育内控管理与市级资金项目管理子系统建设服务,详见"
+                  - emphasis
+                    - StaticText "招标"
+                  - StaticText "文件。 服务要求:按照招标文件及合同的约定执行,详见招标文件。 服务时间:2026年5月31前完成交付及验收。 服务..."
+                - generic
+                  - link "头像 北京市政府采购网" [ref=e69]
+                    - generic
+                    - StaticText "北京市政府采购网"
+          - generic
+            - generic
+              - StaticText "大家还在搜"
+            - generic
+              - link "北京十大招标代理公司" [ref=e32]
+                - StaticText "北京十大招标代理公司"
+              - link "北京招投标公司" [ref=e33]
+                - StaticText "北京招投标公司"
+              - link "国采招标(深圳)有限公司" [ref=e34]
+                - StaticText "国采招标(深圳)有限公司"
+              - link "国投集团电子采购平台" [ref=e35]
+                - StaticText "国投集团电子采购平台"
+              - link "国电投招标采购平台" [ref=e36]
+                - StaticText "国电投招标采购平台"
+              - link "国投招标" [ref=e37]
+                - StaticText "国投招标"
+              - link "优胜招标代理有限公司" [ref=e38]
+                - StaticText "优胜招标代理有限公司"
+              - link "国家能源招标网" [ref=e39]
+                - StaticText "国家能源招标网"
+          - generic
+            - generic
+              - generic
+                - heading "2026年朝阳教育应用系统运维第1包应用系统运维" [level=3, ref=e45]
+                  - link "2026年朝阳教育应用系统运维第1包应用系统运维" [ref=e70]
+                    - paragraph
+                - generic
+                  - StaticText "4天前"
+                  - StaticText "四、项目名称: 2026年朝阳"
+                  - emphasis
+                    - StaticText "教育"
+                  - StaticText "应用系统运维 第1包 应用系统运维 五、合同主体 采购人(甲方): "
+                  - emphasis
+                    - StaticText "北京市"
+                  - StaticText "朝阳区教育数智化发展中心 地址: 北京市朝阳区水碓子北里14号楼 联系方式: 010-85979246 供应商(乙方):北京信诺时代"
+                  - emphasis
+                    - StaticText "科技"
+                  - StaticText "发展"
+                  - emphasis
+                    - StaticText "有限公司"
+                  - StaticText " 地址:详见合同附件 联系方式:详见合同附件 六、合同主要信息 主要标的名称: 2..."
+                - generic
+                  - link "头像 北京市政府采购网" [ref=e71]
+                    - generic
+                    - StaticText "北京市政府采购网"
+          - generic
+            - generic
+              - generic
+                - heading "北京市房山区教师进修学校房山区小学课程领导力提升工程(二期..." [level=3, ref=e46]
+                  - link "北京市房山区教师进修学校房山区小学课程领导力提升工程(二期..." [ref=e72]
+                    - paragraph
+                - generic
+                  - StaticText "2024年9月14日"
+                  - StaticText "一、项目编号:HCZB-2024-038("
+                  - emphasis
+                    - StaticText "招标"
+                  - StaticText "文件编号:HCZB-2024-038) 二、项目名称:房山区小学课程领导力提升工程(二期)素养导向下的思维课堂建设项目 三、中标(成交)信息 供应商名称:中少智创(北京)国际"
+                  - emphasis
+                    - StaticText "教育科技有限公司"
+                  - StaticText " 供应商地址:"
+                  - emphasis
+                    - StaticText "北京市"
+                  - StaticText "大兴区宏业路9号院2号楼10层1001 ..."
+                - generic
+                  - link "头像 中国政府采购网" [ref=e73]
+                    - generic
+                    - StaticText "中国政府采购网"
+          - generic
+            - generic
+              - generic
+                - heading "「北京优投科技孵化器有限公司招聘」2026年北京优投科技孵化器有限公司..." [level=3, ref=e47]
+                  - link "「北京优投科技孵化器有限公司招聘」2026年北京优投科技孵化器有限公司..." [ref=e74]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e85]
+                  - generic
+                    - StaticText "2026年1月30日"
+                    - StaticText "12在招职位 240共邀面试 公司介绍 "
+                    - emphasis
+                    - StaticText "孵化器"
+                    - emphasis
+                    - StaticText "(优投空间)是总部位于北京的创新型孵化器。集“空间+服务+学院+投资”于一体,为优秀的创业项目提供有价值的创业加速服务,从而帮助创业项目更好更快的成长。基于成熟的孵化体系和系统的服务体系,以及所取得的孵化和加速成果,优投空间先后获得了相关部门的..."
+                  - generic
+                    - generic
+                      - link "头像 智联招聘" [ref=e89]
+          - generic
+            - heading "标题:北京优投教育科技有限公司 - 企业信息" [level=3, ref=e26]
+              - link "标题:北京优投教育科技有限公司 - 企业信息" [ref=e40]
+                - emphasis
+                - StaticText " - 企业信息"
+            - generic
+              - generic
+                - link [ref=e48]
+              - generic
+                - paragraph
+                - link "工商信息" [ref=e49]
+                - link "认领企业" [ref=e50]
+                - link "经营状况" [ref=e51]
+                - link "企业年报" [ref=e52]
+                - link "企业股东" [ref=e53]
+                - link "来源：以上信息来源爱企查，一个专业免费的企业信息查询平台" [ref=e54]
+          - generic
+            - generic
+              - generic
+                - heading "北京优越教育科技有限公司" [level=3, ref=e55]
+                  - link "北京优越教育科技有限公司" [ref=e75]
+                - generic
+                - generic
+                  - link "千里马招标网" [ref=e76]
+          - generic
+            - generic
+              - generic
+                - heading "...中心服务类项目(代管一般)体育场馆服务采购项目(二次)公开招标..." [level=3, ref=e56]
+                  - link "...中心服务类项目(代管一般)体育场馆服务采购项目(二次)公开招标..." [ref=e77]
+                - generic
+                - generic
+                  - link "头像 中国政府采购网" [ref=e78]
+        - generic
+          - generic
+            - StaticText "相关搜索"
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "北京十大招标代理公司"
+                - link "北京十大招标代理公司" [ref=e57]
+              - LayoutTableCell "北京招投标公司"
+                - link "北京招投标公司" [ref=e58]
+            - LayoutTableRow
+              - LayoutTableCell "国采招标(深圳)有限公司"
+                - link "国采招标(深圳)有限公司" [ref=e59]
+              - LayoutTableCell "国投集团电子采购平台"
+                - link "国投集团电子采购平台" [ref=e60]
+            - LayoutTableRow
+              - LayoutTableCell "国电投招标采购平台"
+                - link "国电投招标采购平台" [ref=e61]
+              - LayoutTableCell "国投招标"
+                - link "国投招标" [ref=e62]
+            - LayoutTableRow
+              - LayoutTableCell "优胜招标代理有限公司"
+                - link "优胜招标代理有限公司" [ref=e63]
+              - LayoutTableCell "国家能源招标网"
+                - link "国家能源招标网" [ref=e64]
+            - LayoutTableRow
+              - LayoutTableCell "e招冀成招标投标交易平台"
+                - link "e招冀成招标投标交易平台" [ref=e65]
+              - LayoutTableCell "国网招投标电子商务平台"
+                - link "国网招投标电子商务平台" [ref=e66]
+      - generic
+        - generic
+          - link "上一页" [ref=e15]
+          - strong
+          - link "2" [ref=e16]
+          - link "3" [ref=e17]
+          - link "4" [ref=e18]
+          - link "5" [ref=e19]
+          - link "6" [ref=e20]
+          - link "7" [ref=e21]
+          - link "8" [ref=e22]
+          - link "9" [ref=e23]
+          - link "10" [ref=e24]
+          - link "下一页" [ref=e25]
+      - generic
+      - generic
+        - generic
+          - generic
+            - link "帮助" [ref=e27]
+            - link "举报" [ref=e28]
+            - link "用户反馈" [ref=e29]
+            - link "企业推广" [ref=e30]

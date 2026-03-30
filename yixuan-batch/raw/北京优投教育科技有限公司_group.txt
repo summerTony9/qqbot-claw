@@ -1,0 +1,460 @@
+- generic
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。" [ref=e1]
+  - generic
+    - generic
+  - generic
+    - generic
+      - generic
+        - link "到百度首页" [ref=e2]
+          - image "到百度首页"
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                  - generic
+                  - generic
+                    - generic
+                      - generic
+                      - generic
+                        - textbox [ref=e86]: 北京优投教育科技有限公司 对外投资 子公司 母公司 股东
+                          - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                          - generic
+                          - generic
+                        - button "百度一下" [ref=e87]
+                          - StaticText "百度一下"
+                    - generic
+                      - generic
+      - generic
+        - link "百度首页" [ref=e3]
+          - StaticText "百度首页"
+        - link "设置" [ref=e4]
+          - StaticText "设置"
+        - link "登录" [ref=e5]
+          - StaticText "登录"
+    - generic
+    - generic
+      - generic
+        - link [ref=e6]
+          - image
+        - StaticText "网页"
+        - link "图片" [ref=e7]
+          - StaticText "图片"
+        - link "资讯" [ref=e8]
+          - StaticText "资讯"
+        - link "视频" [ref=e9]
+          - StaticText "视频"
+        - link "笔记" [ref=e10]
+          - StaticText "笔记"
+        - link "地图" [ref=e11]
+          - StaticText "地图"
+        - link "贴吧" [ref=e12]
+          - StaticText "贴吧"
+        - link "文库" [ref=e13]
+          - StaticText "文库"
+        - link "更多" [ref=e14]
+          - StaticText "更多"
+        - generic
+          - StaticText "搜索工具"
+    - generic
+      - generic
+        - generic
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "相关搜索  控股子公司和参股子公司的区别  母公司可以不对子公司控股吗  母公司是股东吗  对外投资的公司是子公司吗  北京优学教育科技股份有限公司  子公司收购母公司    换一换 热搜榜 民生榜 财经榜  把绿色的种子种进心里 1"
+                - generic
+                  - generic
+                    - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                            - link " 控股子公司和参股子公司的区别" [ref=e111]
+                          - generic
+                            - link " 母公司可以不对子公司控股吗" [ref=e112]
+                          - generic
+                            - link " 母公司是股东吗" [ref=e113]
+                          - generic
+                            - link " 对外投资的公司是子公司吗" [ref=e114]
+                          - generic
+                            - link " 北京优学教育科技股份有限公司" [ref=e115]
+                          - generic
+                            - link " 子公司收购母公司" [ref=e116]
+                  - generic
+                    - generic
+                      - generic
+                        - link " " [ref=e88]
+                        - generic
+                          - link " 换一换" [ref=e90]
+                      - generic
+                        - generic
+                        - generic
+                        - generic
+                      - generic
+                        - generic
+                          - link "把绿色的种子种进心里" [ref=e91]
+                      - generic
+                        - generic
+                          - link "郑丽文谈访陆：两岸不是终须一战" [ref=e92]
+                      - generic
+                        - generic
+                          - link "“别人的春和景明 我的氯雷他定”" [ref=e93]
+                      - generic
+                        - generic
+                          - link "中国创新“酷”在哪里" [ref=e94]
+                      - generic
+                        - generic
+                          - link "今年蚊子或迎来史诗级加强 疾控提醒" [ref=e95]
+                      - generic
+                        - generic
+                          - link "新手友好，PayPal个人卖家账户上线" [ref=e96]
+                      - generic
+                        - generic
+                          - link "年轻人流行起“重新养育父母”" [ref=e97]
+                      - generic
+                        - generic
+                          - link "伊朗一儿童游乐场遭美以袭击" [ref=e98]
+                      - generic
+                        - generic
+                          - link "被中国淘汰的车却在印度“杀疯了”" [ref=e99]
+                      - generic
+                        - generic
+                          - link "广州遭遇“高压水枪式暴击”" [ref=e100]
+                      - generic
+                        - generic
+                          - link "女职工到底50岁还是55岁退休" [ref=e101]
+                      - generic
+                        - generic
+                          - link "时隔6年中国航班再次抵达平壤" [ref=e102]
+                      - generic
+                        - generic
+                          - link "“抗过敏药容易产生依赖”是误区" [ref=e103]
+                      - generic
+                        - generic
+                          - link "单依纯再次道歉后李荣浩秒回" [ref=e104]
+                      - generic
+                        - generic
+                          - link "伊朗首都遭大规模空袭 部分区域断电" [ref=e105]
+                      - generic
+                        - generic
+                          - link "蔡磊身体近况：四人搀扶也无法迈步" [ref=e106]
+                      - generic
+                        - generic
+                          - link "黑龙江海林建筑坍塌事故致7人遇难" [ref=e107]
+                - generic
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                    - image
+                    - generic
+                      - generic
+                        - generic
+                        - StaticText "停"
+                      - generic
+                        - generic
+                        - StaticText "听"
+                    - generic
+                      - generic
+                        - paragraph
+                        - heading "股东信息" [level=3, ref=e89]
+                        - paragraph
+                        - list
+                        - blockquote
+                    - generic
+                      - generic
+                        - generic
+                          - link "北京优投教育科技有限公司 企查查网" [ref=e108]
+                        - generic
+                          - link "代瑞红 爱企查" [ref=e109]
+                    - generic
+                    - generic
+          - generic
+            - generic
+              - generic
+                - heading "北京优投教育科技有限公司_股东信息 - 企查查" [level=3, ref=e40]
+                  - link "北京优投教育科技有限公司_股东信息 - 企查查" [ref=e58]
+                    - paragraph
+                - generic
+                  - StaticText "2026年1月29日"
+                  - emphasis
+                    - StaticText "北京优投教育科技有限公司"
+                  - StaticText "(曾用名:北京优投科技服务有限公司、北京博睿联思国际咨询有限公司)是⼀家成⽴于2010年05月06日的有限责任公司,属于以从事科学研究和技术服务业为主的企业。位于北京市海淀区,法定代表人为代瑞红,目前处于存续状态,公司电话:18518916957,网址:www.utou.cc,邮箱:2911243812@"
+                - generic
+                  - link "头像 企查查" [ref=e59]
+                    - generic
+                    - StaticText "企查查"
+                - generic
+                  - generic
+          - generic
+            - heading "北京优投科技孵化器有限公司，北京市从事投资创业服务的公司，百度百科" [level=3, ref=e26]
+              - link "北京优投科技孵化器有限公司，北京市从事投资创业服务的公司，百度百科" [ref=e32]
+                - emphasis
+                  - StaticText "北京优投科技"
+                - StaticText "孵化器"
+                - emphasis
+                  - StaticText "有限公司"
+                - StaticText " - 百度百科"
+            - generic
+              - generic "查看更多内容"
+                - link "查看更多内容" [ref=e41]
+                  - generic
+                    - generic
+              - generic
+                - generic "北京优投科技孵化器有限公司成立于2016年1月21日，公司成立初期即定位为集“空间+服务+投资+学院”于一体的创新型孵化器。2017年4月，公司申请了“优投空间”等商标。2019年5月16日，公司投资成立了全资子公司济南优投科技企业孵化器有限公司。2021年，公司举办了“2021优投创新创业大赛”等活动，并于同年1月登记..."
+                  - emphasis
+                    - StaticText "北京优投科技"
+                  - StaticText "孵化器"
+                  - emphasis
+                    - StaticText "有限公司"
+                  - StaticText "成立于2016年1月21日，公司成立初期即定位为集“空间+服务+"
+                  - emphasis
+                    - StaticText "投资"
+                  - StaticText "+学院”于一体的创新型孵化器。2017年4月，公司申请了“优投空间”等商标。2019年5月16日，公司投资成立了全资"
+                  - emphasis
+                    - StaticText "子公司"
+                  - StaticText "济南优投"
+                  - emphasis
+                    - StaticText "科技企业"
+                  - StaticText "孵化器有限公司。2021年，公司举..."
+                - generic
+                  - link "公司简介" [ref=e60]
+                    - emphasis
+                    - StaticText "简介 "
+                  - link "发展历程" [ref=e61]
+                    - StaticText "发展历程 "
+                  - link "主营业务" [ref=e62]
+                    - StaticText "主营业务 "
+                  - link "组织架构" [ref=e63]
+                    - StaticText "组织架构 "
+                  - link "经营状况" [ref=e64]
+                    - StaticText "经营状况 "
+                  - link "点击可查看更多内容" [ref=e65]
+                    - StaticText "更多 >"
+                - generic
+                  - link "百度百科" [ref=e66]
+                    - generic
+                - generic
+          - generic
+            - generic
+              - generic
+                - heading "北京优投教育科技有限公司联系方式-番番寻客宝" [level=3, ref=e42]
+                  - link "北京优投教育科技有限公司联系方式-番番寻客宝" [ref=e67]
+                    - paragraph
+                - generic
+                  - StaticText "2026年3月9日"
+                  - emphasis
+                    - StaticText "北京优投教育科技有限公司"
+                  - StaticText " 经营范围:一般项目:技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广;会议及展览服务;创业空间服务;项目策划与公关服务;咨询策划服务;组织文化艺术交流活动;企业管理咨询;企业形象策划;广告设计、代理;广告制作;广告发布;文艺创作;社会经济咨询服务;教育咨询服务(不含涉许可审批的..."
+                - generic
+                  - link "爱番番" [ref=e68]
+                    - StaticText "爱番番"
+          - generic
+            - generic
+              - StaticText "大家还在搜"
+            - generic
+              - link "控股子公司和参股子公司的区别" [ref=e33]
+                - StaticText "控股子公司和参股子公司的区别"
+              - link "母公司可以不对子公司控股吗" [ref=e34]
+                - StaticText "母公司可以不对子公司控股吗"
+              - link "母公司是股东吗" [ref=e35]
+                - StaticText "母公司是股东吗"
+              - link "对外投资的公司是子公司吗" [ref=e36]
+                - StaticText "对外投资的公司是子公司吗"
+              - link "北京优学教育科技股份有限公司" [ref=e37]
+                - StaticText "北京优学教育科技股份有限公司"
+              - link "子公司收购母公司" [ref=e38]
+                - StaticText "子公司收购母公司"
+          - generic
+            - generic
+              - generic
+                - heading "代瑞红 - 北京星河智源科技有限公司 - 法定代表人/高管/股东 - 爱..." [level=3, ref=e43]
+                  - link "代瑞红 - 北京星河智源科技有限公司 - 法定代表人/高管/股东 - 爱..." [ref=e69]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e82]
+                  - generic
+                    - StaticText "2026年3月14日"
+                    - StaticText "代瑞红目前担任北京优投科技孵化器有限公司、"
+                    - emphasis
+                    - StaticText "等13家企业法定代表人,同时在16家企业担任高管,包括担任北京优投科技孵化器有限公司执行董事,经理,北京随闻科技有限公司董事;二、代瑞红"
+                    - emphasis
+                    - StaticText "情况:代瑞红目前是14家企业直接控股"
+                    - emphasis
+                    - StaticText ",包括上第摩码(北京)餐饮有限公司、控股比例达100%,太原优投科技服务..."
+                  - generic
+                    - generic
+                      - link "头像 爱企查" [ref=e84]
+          - generic
+            - heading "北京优学教育科技有限公司，科技推广和应用服务股份有限公司，百度百科" [level=3, ref=e27]
+              - link "北京优学教育科技有限公司，科技推广和应用服务股份有限公司，百度百科" [ref=e39]
+                - emphasis
+                  - StaticText "北京优"
+                - StaticText "学"
+                - emphasis
+                  - StaticText "教育科技有限公司"
+                - StaticText " - 百度百科"
+            - generic
+              - generic "查看更多内容"
+                - link "查看更多内容" [ref=e44]
+                  - generic
+                    - generic
+              - generic
+                - generic "公司管理 ▪ 股东信息 ▪ 对外投资 5 主要产品 6 风险事件 公司简介 播报 编辑 北京优学教育科技股份有限公司 (曾用名:北京优学教育科技有限公司,2007年2月至2016年6月)成立于2007年2月15日,位于北京市,是一家以从事科技推广和应用服务业为主的股份有限公司(非上市,自然人投资或控股),登记状态为存续. [1..."
+                  - StaticText "公司管理 ▪ "
+                  - emphasis
+                    - StaticText "股东"
+                  - StaticText "信息 ▪ "
+                  - emphasis
+                    - StaticText "对外投资"
+                  - StaticText " 5 主要产品 6 风险事件 公司简介 播报 编辑 "
+                  - emphasis
+                    - StaticText "北京优"
+                  - StaticText "学教育科技股份有限公司 (曾用名:北京优学"
+                  - emphasis
+                    - StaticText "教育科技有限公司"
+                  - StaticText ",2007年2月至2016年6月)成立于2007年2月15日,位于北京市,是一家以从事科技推广和应用服务业为主的股份有限公司(..."
+                - generic
+                  - link "公司简介" [ref=e70]
+                    - emphasis
+                    - StaticText "简介 "
+                  - link "历史沿革" [ref=e71]
+                    - StaticText "历史沿革 "
+                  - link "公司业务" [ref=e72]
+                    - emphasis
+                    - StaticText "业务 "
+                  - link "公司管理" [ref=e73]
+                    - emphasis
+                    - StaticText "管理 "
+                  - link "主要产品" [ref=e74]
+                    - StaticText "主要产品 "
+                  - link "点击可查看更多内容" [ref=e75]
+                    - StaticText "更多 >"
+                - generic
+                  - link "百度百科" [ref=e76]
+                    - generic
+                - generic
+          - generic
+            - generic
+              - generic
+                - heading "华策影视:公司全资子公司出资1亿元投资北京智谱华章科技有限公司..." [level=3, ref=e45]
+                  - link "华策影视:公司全资子公司出资1亿元投资北京智谱华章科技有限公司..." [ref=e77]
+                    - paragraph
+                - generic
+                  - StaticText "4天前"
+                  - StaticText "公司回答表示,您好,2024 年 7 月公司全资"
+                  - emphasis
+                    - StaticText "子公司"
+                  - StaticText "浙江华策"
+                  - emphasis
+                    - StaticText "投资有限公司"
+                  - StaticText "出资 1 亿元与海南智桥私募基金管理合伙企业(有限合伙)共同设立盐城智华创业投资基金合伙企业(有限合伙),专项"
+                  - emphasis
+                    - StaticText "投资北京"
+                  - StaticText "智谱(HK2513)华章"
+                  - emphasis
+                    - StaticText "科技"
+                  - StaticText "(HK1673)有限公司股权。具体内容详见公司于 2024 年 7 月 24 日在巨潮资讯网(www.cninfo.com.cn)披露的..."
+                - generic
+                  - link "同花顺财经" [ref=e78]
+                    - StaticText "同花顺财经"
+          - generic
+            - generic
+              - generic
+                - heading "北京优亿科技有限公司_对外投资_公司对外投资查询 - 天眼查" [level=3, ref=e46]
+                  - link "北京优亿科技有限公司_对外投资_公司对外投资查询 - 天眼查" [ref=e79]
+                    - paragraph
+                - generic
+                  - StaticText "2026年1月8日"
+                  - StaticText "简介:"
+                  - emphasis
+                    - StaticText "北京优"
+                  - StaticText "亿"
+                  - emphasis
+                    - StaticText "科技有限公司"
+                  - StaticText ",成立于2023年,位于北京市,是一家以从事科技推广和应用服务业为主的企业。企业注册资本800万人民币,实缴资本690万人民币。通过天眼查大数据分析,北京优亿科技有限公司共"
+                  - emphasis
+                    - StaticText "对外投资"
+                  - StaticText "了1家企业;此外企业还拥有行政许可1个。更多评分68法定代表人季聪磊注册资本800万人民币成立日期2023-04-..."
+                - generic
+                  - link "头像 天眼查" [ref=e80]
+                    - generic
+                    - StaticText "天眼查"
+          - generic
+            - generic
+              - generic
+                - heading "ST优通:对外投资的公告-新三板—东方财富网" [level=3, ref=e47]
+                  - link "ST优通:对外投资的公告-新三板—东方财富网" [ref=e81]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e83]
+                  - generic
+                    - StaticText "8天前"
+                    - StaticText "ST优通:对外投资的公告 公告编号:2026-020 证券代码:836746 证券简称:ST 优通 主办券商:光大证券 南京优通信息"
+                    - emphasis
+                    - StaticText "股份"
+                    - emphasis
+                    - StaticText "的公告 本公司及董事会全体成员保证公告内容的真实、准确和完整,没有虚假记载、误导性陈述或者重大遗漏,并对其内容的真实性、准确性和完整性承担个别及连带法律责任。一、对外投资..."
+                  - generic
+                    - generic
+                      - link "东方财富网" [ref=e85]
+        - generic
+          - generic
+            - StaticText "相关搜索"
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "控股子公司和参股子公司的区别"
+                - link "控股子公司和参股子公司的区别" [ref=e48]
+              - LayoutTableCell "母公司可以不对子公司控股吗"
+                - link "母公司可以不对子公司控股吗" [ref=e49]
+            - LayoutTableRow
+              - LayoutTableCell "母公司是股东吗"
+                - link "母公司是股东吗" [ref=e50]
+              - LayoutTableCell "对外投资的公司是子公司吗"
+                - link "对外投资的公司是子公司吗" [ref=e51]
+            - LayoutTableRow
+              - LayoutTableCell "北京优学教育科技股份有限公司"
+                - link "北京优学教育科技股份有限公司" [ref=e52]
+              - LayoutTableCell "子公司收购母公司"
+                - link "子公司收购母公司" [ref=e53]
+            - LayoutTableRow
+              - LayoutTableCell "北京优投科技孵化器有限公司"
+                - link "北京优投科技孵化器有限公司" [ref=e54]
+              - LayoutTableCell "北京国投创盈投资管理有限公司"
+                - link "北京国投创盈投资管理有限公司" [ref=e55]
+            - LayoutTableRow
+              - LayoutTableCell "母公司如何成立子公司"
+                - link "母公司如何成立子公司" [ref=e56]
+              - LayoutTableCell "母公司股东变成子公司股东"
+                - link "母公司股东变成子公司股东" [ref=e57]
+      - generic
+        - generic
+          - link "上一页" [ref=e15]
+          - strong
+          - link "2" [ref=e16]
+          - link "3" [ref=e17]
+          - link "4" [ref=e18]
+          - link "5" [ref=e19]
+          - link "6" [ref=e20]
+          - link "7" [ref=e21]
+          - link "8" [ref=e22]
+          - link "9" [ref=e23]
+          - link "10" [ref=e24]
+          - link "下一页" [ref=e25]
+      - generic
+      - generic
+        - generic
+          - generic
+            - link "帮助" [ref=e28]
+            - link "举报" [ref=e29]
+            - link "用户反馈" [ref=e30]
+            - link "企业推广" [ref=e31]

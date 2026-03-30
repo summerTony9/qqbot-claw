@@ -1,0 +1,415 @@
+- generic
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。" [ref=e1]
+  - generic
+    - generic
+  - generic
+    - generic
+      - generic
+        - link "到百度首页" [ref=e2]
+          - image "到百度首页"
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                  - generic
+                  - generic
+                    - generic
+                      - generic
+                      - generic
+                        - textbox [ref=e85]: 北京优投教育科技有限公司 招聘 专利 融资 中标 官网
+                          - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                          - generic
+                          - generic
+                        - button "百度一下" [ref=e86]
+                          - StaticText "百度一下"
+                    - generic
+                      - generic
+      - generic
+        - link "百度首页" [ref=e3]
+          - StaticText "百度首页"
+        - link "设置" [ref=e4]
+          - StaticText "设置"
+        - link "登录" [ref=e5]
+          - StaticText "登录"
+    - generic
+    - generic
+      - generic
+        - link [ref=e6]
+          - image
+        - StaticText "网页"
+        - link "图片" [ref=e7]
+          - StaticText "图片"
+        - link "资讯" [ref=e8]
+          - StaticText "资讯"
+        - link "视频" [ref=e9]
+          - StaticText "视频"
+        - link "笔记" [ref=e10]
+          - StaticText "笔记"
+        - link "地图" [ref=e11]
+          - StaticText "地图"
+        - link "贴吧" [ref=e12]
+          - StaticText "贴吧"
+        - link "文库" [ref=e13]
+          - StaticText "文库"
+        - link "更多" [ref=e14]
+          - StaticText "更多"
+        - generic
+          - StaticText "搜索工具"
+    - generic
+      - generic
+        - generic
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "相关搜索  专利审查协作中心公共招聘平台  北京优投科技孵化器有限公司  北京专赢专利代理有限公司  实用新型专利可以融资吗  优投空间  有专利如何融资    换一换 热搜榜 民生榜 财经榜  把绿色的种子种进心里 1"
+                - generic
+                  - generic
+                    - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                            - link " 专利审查协作中心公共招聘平台" [ref=e106]
+                          - generic
+                            - link " 北京优投科技孵化器有限公司" [ref=e107]
+                          - generic
+                            - link " 北京专赢专利代理有限公司" [ref=e108]
+                          - generic
+                            - link " 实用新型专利可以融资吗" [ref=e109]
+                          - generic
+                            - link " 优投空间" [ref=e110]
+                          - generic
+                            - link " 有专利如何融资" [ref=e111]
+                  - generic
+                    - generic
+                      - generic
+                        - link " " [ref=e87]
+                        - generic
+                          - link " 换一换" [ref=e88]
+                      - generic
+                        - generic
+                        - generic
+                        - generic
+                      - generic
+                        - generic
+                          - link "把绿色的种子种进心里" [ref=e89]
+                      - generic
+                        - generic
+                          - link "郑丽文谈访陆：两岸不是终须一战" [ref=e90]
+                      - generic
+                        - generic
+                          - link "“别人的春和景明 我的氯雷他定”" [ref=e91]
+                      - generic
+                        - generic
+                          - link "中国创新“酷”在哪里" [ref=e92]
+                      - generic
+                        - generic
+                          - link "今年蚊子或迎来史诗级加强 疾控提醒" [ref=e93]
+                      - generic
+                        - generic
+                          - link "新手友好，PayPal个人卖家账户上线" [ref=e94]
+                      - generic
+                        - generic
+                          - link "年轻人流行起“重新养育父母”" [ref=e95]
+                      - generic
+                        - generic
+                          - link "伊朗一儿童游乐场遭美以袭击" [ref=e96]
+                      - generic
+                        - generic
+                          - link "被中国淘汰的车却在印度“杀疯了”" [ref=e97]
+                      - generic
+                        - generic
+                          - link "广州遭遇“高压水枪式暴击”" [ref=e98]
+                      - generic
+                        - generic
+                          - link "女职工到底50岁还是55岁退休" [ref=e99]
+                      - generic
+                        - generic
+                          - link "时隔6年中国航班再次抵达平壤" [ref=e100]
+                      - generic
+                        - generic
+                          - link "“抗过敏药容易产生依赖”是误区" [ref=e101]
+                      - generic
+                        - generic
+                          - link "单依纯再次道歉后李荣浩秒回" [ref=e102]
+                      - generic
+                        - generic
+                          - link "伊朗首都遭大规模空袭 部分区域断电" [ref=e103]
+                      - generic
+                        - generic
+                          - link "蔡磊身体近况：四人搀扶也无法迈步" [ref=e104]
+                      - generic
+                        - generic
+                          - link "黑龙江海林建筑坍塌事故致7人遇难" [ref=e105]
+                - generic
+        - generic
+          - generic
+            - generic
+              - generic
+                - heading "北京优投教育科技有限公司_企业业务 - 企查查" [level=3, ref=e38]
+                  - link "北京优投教育科技有限公司_企业业务 - 企查查" [ref=e57]
+                    - paragraph
+                - generic
+                  - StaticText "2026年1月31日"
+                  - emphasis
+                    - StaticText "北京优投教育科技有限公司"
+                  - StaticText "(曾用名:北京优投科技服务有限公司、北京博睿联思国际咨询有限公司)是⼀家成⽴于2010年05月06日的有限责任公司,属于以从事科学研究和技术服务业为主的企业。位于北京市海淀区,法定代表人为代瑞红,目前处于存续状态,公司电话:18518916957,网址:www.utou.cc,邮箱:2911243812@"
+                - generic
+                  - link "头像 企查查" [ref=e58]
+                    - generic
+                    - StaticText "企查查"
+                - generic
+                  - generic
+          - generic
+            - heading "北京优投科技孵化器有限公司，北京市从事投资创业服务的公司，百度百科" [level=3, ref=e26]
+              - link "北京优投科技孵化器有限公司，北京市从事投资创业服务的公司，百度百科" [ref=e31]
+                - emphasis
+                  - StaticText "北京优投科技"
+                - StaticText "孵化器"
+                - emphasis
+                  - StaticText "有限公司"
+                - StaticText " - 百度百科"
+            - generic
+              - generic "查看更多内容"
+                - link "查看更多内容" [ref=e39]
+                  - generic
+                    - generic
+              - generic
+                - generic "北京优投科技孵化器有限公司成立于2016年1月21日，总部位于北京市海淀区，是一家以从事科技推广和应用服务业为主的有限责任公司，也是国家级众创空间和科技企业孵化器。公司是创业孵化服务平台“优投空间”的运营主体，采取“空间+服务+投资”的一体化模式，为早期创业项目提供孵化与加速服务。作为HICOOL全球创业大赛的伯乐单位，公司曾推荐并辅导大量参赛项目，并多次中标承办“创赢大同”、“智汇东疆”、“中国创翼”等各类创新创业大赛的服务项目。"
+                  - emphasis
+                    - StaticText "北京优投科技"
+                  - StaticText "孵化器"
+                  - emphasis
+                    - StaticText "有限公司"
+                  - StaticText "成立于2016年1月21日，总部位于北京市海淀区，是一家以从事"
+                  - emphasis
+                    - StaticText "科技"
+                  - StaticText "推广和应用服务业为主的"
+                  - emphasis
+                    - StaticText "有限责任公司"
+                  - StaticText "，也是国家级众创空间和"
+                  - emphasis
+                    - StaticText "科技"
+                  - StaticText "企业孵化器。公司是创业孵化服务平台“优投空间”的运营主体，采取“空间+服务+投资”的一体化模式，..."
+                - generic
+                  - link "公司简介" [ref=e59]
+                    - emphasis
+                    - StaticText "简介 "
+                  - link "发展历程" [ref=e60]
+                    - StaticText "发展历程 "
+                  - link "主营业务" [ref=e61]
+                    - StaticText "主营业务 "
+                  - link "组织架构" [ref=e62]
+                    - StaticText "组织架构 "
+                  - link "经营状况" [ref=e63]
+                    - StaticText "经营状况 "
+                  - link "点击可查看更多内容" [ref=e64]
+                    - StaticText "更多 >"
+                - generic
+                  - link "百度百科" [ref=e65]
+                    - generic
+                - generic
+          - generic
+            - generic
+              - generic
+                - heading "「北京优投科技孵化器有限公司招聘」-BOSS直聘" [level=3, ref=e40]
+                  - link "「北京优投科技孵化器有限公司招聘」-BOSS直聘" [ref=e66]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e75]
+                  - generic
+                    - StaticText "2026年3月6日"
+                    - StaticText "公司简介在"
+                    - emphasis
+                    - StaticText "职位 公司简介 优投空间是"
+                    - emphasis
+                    - StaticText "孵化器"
+                    - emphasis
+                    - StaticText "旗下品牌。 北京优投科技孵化器有限公司是一家以孵化互联网、智能硬件、创新医疗、新能源新材料、信息技术等科技类企业为主营业务的公司,目前公司持有优投空间(iMOMA)和优投创新中心(数码大厦A座35层36层)两个众创空间。总面积4000多平米,入驻企业..."
+                  - generic
+                    - generic
+                      - link "BOSS直聘" [ref=e80]
+          - generic
+            - generic
+              - StaticText "大家还在搜"
+            - generic
+              - link "专利审查协作中心公共招聘平台" [ref=e32]
+                - StaticText "专利审查协作中心公共招聘平台"
+              - link "北京优投科技孵化器有限公司" [ref=e33]
+                - StaticText "北京优投科技孵化器有限公司"
+              - link "北京专赢专利代理有限公司" [ref=e34]
+                - StaticText "北京专赢专利代理有限公司"
+              - link "实用新型专利可以融资吗" [ref=e35]
+                - StaticText "实用新型专利可以融资吗"
+              - link "优投空间" [ref=e36]
+                - StaticText "优投空间"
+              - link "有专利如何融资" [ref=e37]
+                - StaticText "有专利如何融资"
+          - generic
+            - generic
+              - generic
+                - heading "「北京优投科技孵化器有限公司招聘」2026年北京优投科技孵化器有限公司..." [level=3, ref=e41]
+                  - link "「北京优投科技孵化器有限公司招聘」2026年北京优投科技孵化器有限公司..." [ref=e67]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e76]
+                  - generic
+                    - StaticText "2026年1月30日"
+                    - StaticText "未"
+                    - emphasis
+                    - StaticText "民营20-99人 专业技术服务、广播/影视、咨询服务、物业管理 公司官网 12在"
+                    - emphasis
+                    - StaticText "职位 240共邀面试 公司介绍 "
+                    - emphasis
+                    - StaticText "孵化器"
+                    - emphasis
+                    - StaticText "(优投空间)是总部位于北京的创新型孵化器。集“空间+服务+学院+投资”于一体,为优秀的创业项目提供有价值的创业加速服务,从而帮助创业项目更好更快的成长。基于成熟的孵化体系..."
+                  - generic
+                    - generic
+                      - link "头像 智联招聘" [ref=e81]
+                    - generic
+          - generic
+            - generic
+              - generic
+                - heading "「优投空间招聘」-BOSS直聘" [level=3, ref=e42]
+                  - link "「优投空间招聘」-BOSS直聘" [ref=e68]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e77]
+                  - generic
+                    - StaticText "2026年1月3日"
+                    - emphasis
+                    - StaticText "孵化器"
+                    - emphasis
+                    - StaticText "是一家以孵化互联网、智能硬件、创新医疗、新能源新材料、信息技术等科技类企业为主营业务的公司,目前公司持有优投空间(iMOMA)和优投创新中心(数码大厦A座35层36层)两个众创空间。总面积4000多平米,入驻企业为五十几家。公司为入驻企业提供诸如:办公场地、创业培训、项目申报、项目对接、..."
+                  - generic
+                    - generic
+                      - link "BOSS直聘" [ref=e82]
+          - generic
+            - generic
+              - generic
+                - heading "北京优教互动教育科技有限公司招聘 - 智联招聘" [level=3, ref=e43]
+                  - link "北京优教互动教育科技有限公司招聘 - 智联招聘" [ref=e69]
+                    - paragraph
+                - generic
+                  - StaticText "2026年3月12日"
+                  - StaticText "企业名称 北京优教互动教育科技有限公司法人代表 韩崎成立时间 2015-08-14企业类型 有限责任公司(自然人投资或控股) 展开全部 公司地址 "
+                  - emphasis
+                    - StaticText "北京市"
+                  - StaticText "朝阳区裕民路12号华展国际公寓c座503室 公司地址 公司在招职位 全部职位 · 0 招聘网 > "
+                  - emphasis
+                    - StaticText "北京招聘"
+                  - StaticText " > 北京优教互动"
+                  - emphasis
+                    - StaticText "教育科技有限公司招聘"
+                  - StaticText " 智联招聘,更懂你的价值 客服热线..."
+                - generic
+                  - link "头像 智联招聘" [ref=e70]
+                    - generic
+                    - StaticText "智联招聘"
+                - generic
+                  - generic
+          - generic
+            - generic
+              - generic
+                - heading "北京知优科技有限公司招聘 - 智联招聘" [level=3, ref=e44]
+                  - link "北京知优科技有限公司招聘 - 智联招聘" [ref=e71]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e78]
+                  - generic
+                    - StaticText "2026年3月17日"
+                    - StaticText "北京知"
+                    - emphasis
+                    - StaticText ",以“科技创造价值”为愿景,旨在应用前沿科技,让科技与城市建设运营高效融合,为城市智慧化赋能。知优科技是国家级高新技术企业、中关村高新技术企业,创始团队由美国智能化领域的高级技术人才构成,曾参与主导包括洛杉矶智慧城市、谷歌智慧园区等国内外多个示范性项目,在国内外科技大赛中屡次获奖。我们为..."
+                  - generic
+                    - generic
+                      - link "头像 智联招聘" [ref=e83]
+                    - generic
+          - generic
+            - generic
+              - generic
+                - heading "【北京优体教育科技有限公司】_北京优体教育科技有限公司招聘-猎聘" [level=3, ref=e45]
+                  - link "【北京优体教育科技有限公司】_北京优体教育科技有限公司招聘-猎聘" [ref=e72]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e79]
+                  - generic
+                    - StaticText "2026年2月28日"
+                    - StaticText "猎聘北京优体"
+                    - emphasis
+                    - StaticText "频道为您提供大量的北京优体教育科技有限公司招聘信息,有超过10000多北京优体教育科技有限公司招聘信息任你选寻,"
+                    - emphasis
+                    - StaticText "体教育科技有限公司人才就来猎聘北京优体教育科技有限公司招聘!求职找工作就用猎聘聊。"
+                  - generic
+                    - generic
+                      - link "头像 猎聘" [ref=e84]
+          - generic
+            - generic
+              - generic
+                - heading "北京优投教育科技有限公司联系方式-番番寻客宝" [level=3, ref=e46]
+                  - link "北京优投教育科技有限公司联系方式-番番寻客宝" [ref=e73]
+                - generic
+                - generic
+                  - link "爱番番" [ref=e74]
+        - generic
+          - generic
+            - StaticText "相关搜索"
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "专利审查协作中心公共招聘平台"
+                - link "专利审查协作中心公共招聘平台" [ref=e47]
+              - LayoutTableCell "北京优投科技孵化器有限公司"
+                - link "北京优投科技孵化器有限公司" [ref=e48]
+            - LayoutTableRow
+              - LayoutTableCell "北京专赢专利代理有限公司"
+                - link "北京专赢专利代理有限公司" [ref=e49]
+              - LayoutTableCell "实用新型专利可以融资吗"
+                - link "实用新型专利可以融资吗" [ref=e50]
+            - LayoutTableRow
+              - LayoutTableCell "优投空间"
+                - link "优投空间" [ref=e51]
+              - LayoutTableCell "有专利如何融资"
+                - link "有专利如何融资" [ref=e52]
+            - LayoutTableRow
+              - LayoutTableCell "专利融资需要什么资料"
+                - link "专利融资需要什么资料" [ref=e53]
+              - LayoutTableCell "专利融资对企业的影响"
+                - link "专利融资对企业的影响" [ref=e54]
+            - LayoutTableRow
+              - LayoutTableCell "北京专利代理人招聘"
+                - link "北京专利代理人招聘" [ref=e55]
+              - LayoutTableCell "个人专利融资"
+                - link "个人专利融资" [ref=e56]
+      - generic
+        - generic
+          - link "上一页" [ref=e15]
+          - strong
+          - link "2" [ref=e16]
+          - link "3" [ref=e17]
+          - link "4" [ref=e18]
+          - link "5" [ref=e19]
+          - link "6" [ref=e20]
+          - link "7" [ref=e21]
+          - link "8" [ref=e22]
+          - link "9" [ref=e23]
+          - link "10" [ref=e24]
+          - link "下一页" [ref=e25]
+      - generic
+      - generic
+        - generic
+          - generic
+            - link "帮助" [ref=e27]
+            - link "举报" [ref=e28]
+            - link "用户反馈" [ref=e29]
+            - link "企业推广" [ref=e30]

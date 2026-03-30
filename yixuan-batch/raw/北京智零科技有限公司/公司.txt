@@ -1,0 +1,390 @@
+- generic
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。" [ref=e1]
+  - generic
+    - generic
+  - generic
+    - generic
+      - generic
+        - link "到百度首页" [ref=e2]
+          - image "到百度首页"
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                  - generic
+                  - generic
+                    - generic
+                      - generic
+                      - generic
+                        - textbox [ref=e75]: 北京 北京智零科技有限公司 公司
+                          - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                          - generic
+                          - generic
+                        - button "百度一下" [ref=e76]
+                          - StaticText "百度一下"
+                    - generic
+                      - generic
+      - generic
+        - link "百度首页" [ref=e3]
+          - StaticText "百度首页"
+        - link "设置" [ref=e4]
+          - StaticText "设置"
+        - link "登录" [ref=e5]
+          - StaticText "登录"
+    - generic
+    - generic
+      - generic
+        - link [ref=e6]
+          - image
+        - StaticText "网页"
+        - link "图片" [ref=e7]
+          - StaticText "图片"
+        - link "资讯" [ref=e8]
+          - StaticText "资讯"
+        - link "视频" [ref=e9]
+          - StaticText "视频"
+        - link "笔记" [ref=e10]
+          - StaticText "笔记"
+        - link "地图" [ref=e11]
+          - StaticText "地图"
+        - link "贴吧" [ref=e12]
+          - StaticText "贴吧"
+        - link "文库" [ref=e13]
+          - StaticText "文库"
+        - link "更多" [ref=e14]
+          - StaticText "更多"
+        - generic
+          - StaticText "搜索工具"
+    - generic
+      - generic
+        - generic
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "相关搜索  智道网联科技(北京)有限公司  北京智者天下科技有限公司  北京数智科技发展有限公司  北京数智控股有限公司  易能智丰机器人科技(北京)有限公司  北京零偏科技有限责任公司    换一换 热搜榜 民生榜 财经榜  把绿色的种子种进心里 1"
+                - generic
+                  - generic
+                    - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                            - link " 智道网联科技(北京)有限公司" [ref=e96]
+                          - generic
+                            - link " 北京智者天下科技有限公司" [ref=e97]
+                          - generic
+                            - link " 北京数智科技发展有限公司" [ref=e98]
+                          - generic
+                            - link " 北京数智控股有限公司" [ref=e99]
+                          - generic
+                            - link " 易能智丰机器人科技(北京)有限公司" [ref=e100]
+                          - generic
+                            - link " 北京零偏科技有限责任公司" [ref=e101]
+                  - generic
+                    - generic
+                      - generic
+                        - link " " [ref=e77]
+                        - generic
+                          - link " 换一换" [ref=e78]
+                      - generic
+                        - generic
+                        - generic
+                        - generic
+                      - generic
+                        - generic
+                          - link "把绿色的种子种进心里" [ref=e79]
+                      - generic
+                        - generic
+                          - link "习近平欢迎并邀请郑丽文率团来访" [ref=e80]
+                      - generic
+                        - generic
+                          - link "时隔6年中国航班再次抵达平壤" [ref=e81]
+                      - generic
+                        - generic
+                          - link "中国创新“酷”在哪里" [ref=e82]
+                      - generic
+                        - generic
+                          - link "疾控提醒：今年蚊子或迎来史诗级加强" [ref=e83]
+                      - generic
+                        - generic
+                          - link "新手友好，PayPal个人卖家账户上线" [ref=e84]
+                      - generic
+                        - generic
+                          - link "广州遭遇“高压水枪式暴击”" [ref=e85]
+                      - generic
+                        - generic
+                          - link "伊朗首都遭大规模空袭 部分区域断电" [ref=e86]
+                      - generic
+                        - generic
+                          - link "被中国淘汰的车却在印度“杀疯了”" [ref=e87]
+                      - generic
+                        - generic
+                          - link "长江水下89米开高铁" [ref=e88]
+                      - generic
+                        - generic
+                          - link "女生在橘子洲拍摄旱地拔葱震撼大片" [ref=e89]
+                      - generic
+                        - generic
+                          - link "女职工到底50岁还是55岁退休" [ref=e90]
+                      - generic
+                        - generic
+                          - link "“抗过敏药容易产生依赖”是误区" [ref=e91]
+                      - generic
+                        - generic
+                          - link "单依纯再次道歉后李荣浩秒回" [ref=e92]
+                      - generic
+                        - generic
+                          - link "蔡磊身体近况：四人搀扶也无法迈步" [ref=e93]
+                      - generic
+                        - generic
+                          - link "伊朗：美国提的建议非常极端且不合理" [ref=e94]
+                      - generic
+                        - generic
+                          - link "住家保姆上门当日病人死亡 家属索赔" [ref=e95]
+                - generic
+        - generic
+          - generic
+            - generic
+              - generic
+                - heading "北京智零科技有限公司 - 企查查" [level=3, ref=e36]
+                  - link "北京智零科技有限公司 - 企查查" [ref=e55]
+                    - paragraph
+                - generic
+                  - StaticText "2026年3月19日"
+                  - emphasis
+                    - StaticText "北京智零科技有限公司"
+                  - StaticText "成立于2019-09-04,法定代表人为曹贺,注册资本为1000万元,统一社会信用代码为91110114MA01MEKH2X,企业注册地址位于北京市大兴区隆华大街55号院15号楼2层2751室,所属行业为科技推广和应用服务业,经营范围包含:技术开发、技术转让、技术推广、技术"
+                - generic
+                  - link "头像 企查查" [ref=e56]
+                    - generic
+                    - StaticText "企查查"
+                - generic
+                  - generic
+          - generic
+            - generic
+              - generic
+                - heading "智零科技 - 智零科技公司 - 智零科技竞品公司信息 - 爱企查" [level=3, ref=e37]
+                  - link "智零科技 - 智零科技公司 - 智零科技竞品公司信息 - 爱企查" [ref=e57]
+                    - paragraph
+                - generic
+                  - StaticText "2019年9月4日"
+                  - StaticText "所属企业 "
+                  - emphasis
+                    - StaticText "北京智零科技有限公司"
+                  - StaticText " 英文名 - 发源地 "
+                  - emphasis
+                    - StaticText "北京市"
+                  - StaticText " 创建年份 2019-09-04 咨询电话 13370150958 传真 - 官网 - 邮箱 1579401793@qq.com 公司地址 北京市大兴区隆华大街55号院15号楼2层2751室 查看地图 品牌介绍 智零科技是一家软件开发商,经营范围包括技术开发、技术转让、技术推广、技术服务、技术..."
+                - generic
+                  - link "头像 爱企查" [ref=e58]
+                    - generic
+                    - StaticText "爱企查"
+          - generic
+            - generic
+              - generic
+                - heading "北京智零科技有限公司 - 爱企查" [level=3, ref=e38]
+                  - link "北京智零科技有限公司 - 爱企查" [ref=e59]
+                    - paragraph
+                - generic
+                  - StaticText "2021年12月31日"
+                  - emphasis
+                    - StaticText "北京智零科技有限公司"
+                  - StaticText "成立于2019年09月04日,注册地位于"
+                  - emphasis
+                    - StaticText "北京市"
+                  - StaticText "昌平区石坊院21号5层527,法定代表人为张军。经营范围包括技术开发、技术转让、技术推广、技术服务、技术咨询;软件开发;计算机系统服务;专业承包;劳务分包;销售日用品、文化用品、机械设备、计算机、软件及辅助设备、电子产品;会议服务;组织文化艺术交流活动(不..."
+                - generic
+                  - link "头像 爱企查" [ref=e60]
+                    - generic
+                    - StaticText "爱企查"
+          - generic
+            - generic
+              - StaticText "大家还在搜"
+            - generic
+              - link "智道网联科技(北京)有限公司" [ref=e30]
+                - StaticText "智道网联科技(北京)有限公司"
+              - link "北京智者天下科技有限公司" [ref=e31]
+                - StaticText "北京智者天下科技有限公司"
+              - link "北京数智科技发展有限公司" [ref=e32]
+                - StaticText "北京数智科技发展有限公司"
+              - link "北京数智控股有限公司" [ref=e33]
+                - StaticText "北京数智控股有限公司"
+              - link "易能智丰机器人科技(北京)有限公司" [ref=e34]
+                - StaticText "易能智丰机器人科技(北京)有限公司"
+              - link "北京零偏科技有限责任公司" [ref=e35]
+                - StaticText "北京零偏科技有限责任公司"
+          - generic
+            - generic
+              - generic
+                - heading "北京智零科技有限公司联系方式-番番寻客宝" [level=3, ref=e39]
+                  - link "北京智零科技有限公司联系方式-番番寻客宝" [ref=e61]
+                    - paragraph
+                - generic
+                  - StaticText "2026年3月3日"
+                  - StaticText "企业联系方式查询 "
+                  - emphasis
+                    - StaticText "北京智零科技有限公司"
+                  - StaticText " 更新时间:2026-03-03 法人代表:曹贺注册资本:1,000万元成立日期:2019-09-04行业:科技推广和应用服务业 经营范围: 技术开发、技术转让、技术推广、技术服务、技术咨询;软件开发;计算机系统服务;专业承包;劳务分包;销售日用品、文化用品、机械设备、计算机、软件及辅助设备、电子..."
+                - generic
+                  - link "爱番番" [ref=e62]
+                    - StaticText "爱番番"
+          - generic
+            - generic
+              - generic
+                - heading "杨诚- 深圳常合通科技有限公司 - 法定代表人/高管/股东 - 爱企查" [level=3, ref=e40]
+                  - link "杨诚- 深圳常合通科技有限公司 - 法定代表人/高管/股东 - 爱企查" [ref=e63]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e71]
+                  - generic
+                    - StaticText "2025年11月28日"
+                    - StaticText "智零科技 "
+                    - emphasis
+                    - StaticText " 监事 1,000万(元) 2019-09-04 "
+                    - emphasis
+                    - StaticText "大兴区 开业 3 常合通 中山市常合通电子有限公司 监事 1,000万(元) 2024-02-02 广东省中山市 开业 4 哆吉科技 深圳市哆吉科技有限责任公司 法定代表人 股东 执行董事,清算组负责人,总经理 500万(元) 2019-06-11 ..."
+                  - generic
+                    - generic
+                      - link "头像 爱企查" [ref=e73]
+          - generic
+            - generic
+              - generic
+                - heading "北京全电智领科技有限公司招聘 - 智联招聘" [level=3, ref=e41]
+                  - link "北京全电智领科技有限公司招聘 - 智联招聘" [ref=e64]
+                    - paragraph
+                - generic
+                  - StaticText "2026年3月7日"
+                  - StaticText "企业名称 北京全电智领"
+                  - emphasis
+                    - StaticText "科技有限公司"
+                  - StaticText "法人代表 李晓成立时间 2012-01-19"
+                  - emphasis
+                    - StaticText "企业"
+                  - StaticText "类型 有限责任公司(自然人投资或控股) 展开全部 公司地址 "
+                  - emphasis
+                    - StaticText "北京市"
+                  - StaticText "海淀区中关村梦想实验室9层 公司地址 公司在招职位 全部职位 · 0 招聘网 > 北京招聘 > 北京全电智领科技有限公司招聘 智联招聘,更懂你的价值 客服热线和举报电话: 400-..."
+                - generic
+                  - link "头像 智联招聘" [ref=e65]
+                    - generic
+                    - StaticText "智联招聘"
+                - generic
+                  - generic
+          - generic
+            - generic
+              - generic
+                - heading "北京智零企业管理有限公司 - 企查查" [level=3, ref=e42]
+                  - link "北京智零企业管理有限公司 - 企查查" [ref=e66]
+                    - paragraph
+                - generic
+                  - StaticText "2026年2月1日"
+                  - emphasis
+                    - StaticText "北京智零"
+                  - StaticText "企业管理"
+                  - emphasis
+                    - StaticText "有限公司"
+                  - StaticText "成立于2020-04-07,法定代表人为李洪亮,注册资本为500万元,统一社会信用代码为91110112MA01QLGU43,"
+                  - emphasis
+                    - StaticText "企业"
+                  - StaticText "注册地址位于"
+                  - emphasis
+                    - StaticText "北京市"
+                  - StaticText "通州区潞苑南大街甲560号B区111-A6,所属行业为商务服务业,经营范围包含:企业管理;房地产咨询服务;企业管理咨询;公"
+                - generic
+                  - link "企查查" [ref=e67]
+                    - StaticText "企查查"
+          - generic
+            - generic
+              - generic
+                - heading "零度智控(北京)智能科技有限公司地址、电话、邮编、地图 - 图吧..." [level=3, ref=e43]
+                  - link "零度智控(北京)智能科技有限公司地址、电话、邮编、地图 - 图吧..." [ref=e68]
+                    - paragraph
+                - generic
+                  - StaticText "2026年3月8日"
+                  - StaticText "电话 零度智控("
+                  - emphasis
+                    - StaticText "北京"
+                  - StaticText ")智能"
+                  - emphasis
+                    - StaticText "科技有限公司"
+                  - StaticText "电话: 暂无信息 地址 通讯地址: 中关村软件园09号国际软件大厦2层203/204 查看地图 搜索周边 到达这里 从这出发 零度智控(北京)智能科技有限公司公交站: 东北旺、软件园南站、软件园东站、上地七街环岛西、上地七街、上地九街西口、东北旺中路、软件园广场、上地七街、上地七..."
+                - generic
+                  - link "图吧" [ref=e69]
+                    - StaticText "图吧"
+          - generic
+            - generic
+              - generic
+                - heading "穿针引线、灯塔工厂、机器人餐吧、随身翻译官,560项黑科技亮相..." [level=3, ref=e44]
+                  - link "穿针引线、灯塔工厂、机器人餐吧、随身翻译官,560项黑科技亮相..." [ref=e70]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e72]
+                  - generic
+                    - StaticText "4天前"
+                    - emphasis
+                    - StaticText "冉医疗"
+                    - emphasis
+                    - StaticText "展示的高通量侵入式脑机接口系统,体现出科技的“温度”。系统支持长期稳定、高效率的神经元细胞级别信号采集,配合自研的深度神经网络解码算法,能实现毫秒级实时解码和超高精度纯脑控运动,支持多种临床使用场景,关键技术指标达到国际先进水平。"
+                  - generic
+                    - generic
+                      - link "上观新闻" [ref=e74]
+        - generic
+          - generic
+            - StaticText "相关搜索"
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "智道网联科技(北京)有限公司"
+                - link "智道网联科技(北京)有限公司" [ref=e45]
+              - LayoutTableCell "北京智者天下科技有限公司"
+                - link "北京智者天下科技有限公司" [ref=e46]
+            - LayoutTableRow
+              - LayoutTableCell "北京数智科技发展有限公司"
+                - link "北京数智科技发展有限公司" [ref=e47]
+              - LayoutTableCell "北京数智控股有限公司"
+                - link "北京数智控股有限公司" [ref=e48]
+            - LayoutTableRow
+              - LayoutTableCell "易能智丰机器人科技(北京)有限公司"
+                - link "易能智丰机器人科技(北京)有限公司" [ref=e49]
+              - LayoutTableCell "北京零偏科技有限责任公司"
+                - link "北京零偏科技有限责任公司" [ref=e50]
+            - LayoutTableRow
+              - LayoutTableCell "北京集智科技干嘛的"
+                - link "北京集智科技干嘛的" [ref=e51]
+              - LayoutTableCell "北京智能科技有限公司官网"
+                - link "北京智能科技有限公司官网" [ref=e52]
+            - LayoutTableRow
+              - LayoutTableCell "北京零度智控科技有限公司"
+                - link "北京零度智控科技有限公司" [ref=e53]
+              - LayoutTableCell "北京首智创新科技有限公司"
+                - link "北京首智创新科技有限公司" [ref=e54]
+      - generic
+        - generic
+          - link "上一页" [ref=e15]
+          - strong
+          - link "2" [ref=e16]
+          - link "3" [ref=e17]
+          - link "4" [ref=e18]
+          - link "5" [ref=e19]
+          - link "6" [ref=e20]
+          - link "7" [ref=e21]
+          - link "8" [ref=e22]
+          - link "9" [ref=e23]
+          - link "10" [ref=e24]
+          - link "下一页" [ref=e25]
+      - generic
+      - generic
+        - generic
+          - generic
+            - link "帮助" [ref=e26]
+            - link "举报" [ref=e27]
+            - link "用户反馈" [ref=e28]
+            - link "企业推广" [ref=e29]
+
+STDERR:

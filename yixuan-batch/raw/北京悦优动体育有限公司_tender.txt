@@ -1,0 +1,395 @@
+- generic
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。" [ref=e1]
+  - generic
+    - generic
+  - generic
+    - generic
+      - generic
+        - link "到百度首页" [ref=e2]
+          - image "到百度首页"
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                  - generic
+                  - generic
+                    - generic
+                      - generic
+                      - generic
+                        - textbox [ref=e110]: 北京悦优动体育有限公司 招投标
+                          - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                          - generic
+                          - generic
+                        - button "百度一下" [ref=e111]
+                          - StaticText "百度一下"
+                    - generic
+                      - generic
+      - generic
+        - link "百度首页" [ref=e3]
+          - StaticText "百度首页"
+        - link "设置" [ref=e4]
+          - StaticText "设置"
+        - link "登录" [ref=e5]
+          - StaticText "登录"
+    - generic
+    - generic
+      - generic
+        - link [ref=e6]
+          - image
+        - StaticText "网页"
+        - link "图片" [ref=e7]
+          - StaticText "图片"
+        - link "资讯" [ref=e8]
+          - StaticText "资讯"
+        - link "视频" [ref=e9]
+          - StaticText "视频"
+        - link "笔记" [ref=e10]
+          - StaticText "笔记"
+        - link "地图" [ref=e11]
+          - StaticText "地图"
+        - link "贴吧" [ref=e12]
+          - StaticText "贴吧"
+        - link "文库" [ref=e13]
+          - StaticText "文库"
+        - link "更多" [ref=e14]
+          - StaticText "更多"
+        - generic
+          - StaticText "搜索工具"
+    - generic
+      - generic
+        - generic
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "相关搜索  北京招投标公司  优胜招标代理有限公司  北京网动体育文化发展有限公司  国航采购招标网  海淀区招标投标公共服务平台  北京招标投标交易平台    换一换 热搜榜 民生榜 财经榜  把绿色的种子种进心里 1"
+                - generic
+                  - generic
+                    - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                            - link " 北京招投标公司" [ref=e131]
+                          - generic
+                            - link " 优胜招标代理有限公司" [ref=e132]
+                          - generic
+                            - link " 北京网动体育文化发展有限公司" [ref=e133]
+                          - generic
+                            - link " 国航采购招标网" [ref=e134]
+                          - generic
+                            - link " 海淀区招标投标公共服务平台" [ref=e135]
+                          - generic
+                            - link " 北京招标投标交易平台" [ref=e136]
+                  - generic
+                    - generic
+                      - generic
+                        - link " " [ref=e112]
+                        - generic
+                          - link " 换一换" [ref=e113]
+                      - generic
+                        - generic
+                        - generic
+                        - generic
+                      - generic
+                        - generic
+                          - link "把绿色的种子种进心里" [ref=e114]
+                      - generic
+                        - generic
+                          - link "郑丽文谈访陆：两岸不是终须一战" [ref=e115]
+                      - generic
+                        - generic
+                          - link "“别人的春和景明 我的氯雷他定”" [ref=e116]
+                      - generic
+                        - generic
+                          - link "中国创新“酷”在哪里" [ref=e117]
+                      - generic
+                        - generic
+                          - link "今年蚊子或迎来史诗级加强 疾控提醒" [ref=e118]
+                      - generic
+                        - generic
+                          - link "新手友好，PayPal个人卖家账户上线" [ref=e119]
+                      - generic
+                        - generic
+                          - link "年轻人流行起“重新养育父母”" [ref=e120]
+                      - generic
+                        - generic
+                          - link "伊朗一儿童游乐场遭美以袭击" [ref=e121]
+                      - generic
+                        - generic
+                          - link "被中国淘汰的车却在印度“杀疯了”" [ref=e122]
+                      - generic
+                        - generic
+                          - link "广州遭遇“高压水枪式暴击”" [ref=e123]
+                      - generic
+                        - generic
+                          - link "女职工到底50岁还是55岁退休" [ref=e124]
+                      - generic
+                        - generic
+                          - link "女生在橘子洲拍摄旱地拔葱震撼大片" [ref=e125]
+                      - generic
+                        - generic
+                          - link "“抗过敏药容易产生依赖”是误区" [ref=e126]
+                      - generic
+                        - generic
+                          - link "单依纯再次道歉后李荣浩秒回" [ref=e127]
+                      - generic
+                        - generic
+                          - link "伊朗首都遭大规模空袭 部分区域断电" [ref=e128]
+                      - generic
+                        - generic
+                          - link "蔡磊身体近况：四人搀扶也无法迈步" [ref=e129]
+                      - generic
+                        - generic
+                          - link "时隔6年中国航班再次抵达平壤" [ref=e130]
+                - generic
+        - generic
+          - generic
+            - generic
+              - generic
+                - heading "场馆中心服务类项目(代管一般)体育场馆服务采购项目(二次)公开..." [level=3, ref=e68]
+                  - link "场馆中心服务类项目(代管一般)体育场馆服务采购项目(二次)公开..." [ref=e94]
+                - generic
+                - generic
+                  - link "头像 中国政府采购网" [ref=e95]
+          - generic
+            - generic
+              - generic
+                - heading "北京悦动未来体育发展有限公司" [level=3, ref=e69]
+                  - link "北京悦动未来体育发展有限公司" [ref=e96]
+                - generic
+                  - StaticText "采购信息 机构名称:北京悦动未来体育发展有限公司 地址: 地区:北京市 定制最新“北京悦动未来体育发展有限公司相关信息”信息发送至您的邮箱发送 北京悦动未来体育发展有限公司——发布过的公告 【中标结果】 关于【慈溪市坎墩街道孙方村文化礼堂检测】中选结果的公告 慈溪市 2026..."
+                - generic
+                  - link "千里马招标网" [ref=e97]
+          - generic
+            - heading "北京市招投标-招投标信息查询平台" [level=3, ref=e26]
+              - generic
+                - link "北京市招投标-招投标信息查询平台" [ref=e70]
+            - link [ref=e27]
+              - image
+            - generic
+              - link "最近36分钟前有人申请相关服务" [ref=e41]
+                - generic
+            - generic
+              - link "北京市招投标—中小企业公共服务示范平台,为企业提供招标,采购,中标,工程项目信息,覆盖行业全,涵盖全国数万家招标资源,助力企业中标!" [ref=e42]
+                - generic
+            - generic
+              - StaticText "服务项目:"
+              - link "招标采购查询" [ref=e43]
+                - StaticText "招标采购查询"
+              - link "项目进度跟踪" [ref=e44]
+                - StaticText "项目进度跟踪"
+              - link "企业数据查询" [ref=e45]
+                - StaticText "企业数据查询"
+              - link "更多" [ref=e46]
+                - StaticText "更多"
+                - StaticText ""
+            - generic
+              - StaticText "服务项目:"
+              - link "特约查询" [ref=e47]
+                - StaticText "特约查询"
+              - link "竟对分析" [ref=e48]
+                - StaticText "竟对分析"
+              - link "商机跟踪" [ref=e49]
+                - StaticText "商机跟踪"
+              - link "更多" [ref=e50]
+                - StaticText "更多"
+                - StaticText ""
+            - generic
+              - StaticText "热门分类:"
+              - link "实时标讯" [ref=e51]
+                - StaticText "实时标讯"
+              - link "采购意向" [ref=e52]
+                - StaticText "采购意向"
+              - link "招标查询" [ref=e53]
+                - StaticText "招标查询"
+              - link "更多" [ref=e54]
+                - StaticText "更多"
+                - StaticText ""
+            - generic
+              - link [ref=e55]
+                - image
+            - link "招标公告" [ref=e28]
+              - generic
+                - StaticText "招标"
+                - StaticText "公告"
+            - link "实时更新" [ref=e29]
+              - generic
+                - StaticText "实时更新"
+            - generic
+              - link [ref=e56]
+                - image
+            - link "拟在建项目" [ref=e30]
+              - generic
+                - StaticText "拟在建项目"
+            - link "建设项目跟踪" [ref=e31]
+              - generic
+                - StaticText "建设项目跟踪"
+            - generic
+              - link [ref=e57]
+                - image
+            - link "采购信息" [ref=e32]
+              - generic
+                - StaticText "采购信息"
+            - link "覆盖全国" [ref=e33]
+              - generic
+                - StaticText "覆盖全国"
+            - generic
+              - link [ref=e58]
+                - image
+            - link "一键订阅" [ref=e34]
+              - generic
+                - StaticText "一键订阅"
+            - link "助力企业" [ref=e35]
+              - generic
+                - StaticText "助力企业"
+            - generic
+              - link "查看更多相关信息" [ref=e59]
+                - StaticText "查看更多相关信息"
+                - StaticText ""
+            - generic
+              - link "宁夏智启星教育咨询 2026-03广告" [ref=e60]
+                - StaticText "宁夏智启星教育咨询"
+                - StaticText " 2026-03"
+                - generic
+                - generic
+                - generic
+          - generic
+            - generic
+              - generic
+                - heading "北京立动体育发展有限公司-北京招标网-中标结果" [level=3, ref=e71]
+                  - link "北京立动体育发展有限公司-北京招标网-中标结果" [ref=e98]
+                - generic
+                - generic
+                  - link "北京招标网" [ref=e99]
+          - generic
+            - generic
+              - StaticText "大家还在搜"
+            - generic
+              - link "北京招投标公司" [ref=e61]
+                - StaticText "北京招投标公司"
+              - link "优胜招标代理有限公司" [ref=e62]
+                - StaticText "优胜招标代理有限公司"
+              - link "北京网动体育文化发展有限公司" [ref=e63]
+                - StaticText "北京网动体育文化发展有限公司"
+              - link "国航采购招标网" [ref=e64]
+                - StaticText "国航采购招标网"
+              - link "海淀区招标投标公共服务平台" [ref=e65]
+                - StaticText "海淀区招标投标公共服务平台"
+              - link "北京招标投标交易平台" [ref=e66]
+                - StaticText "北京招标投标交易平台"
+          - generic
+            - generic
+              - generic
+                - heading "政府采购- 北京市体育局网站" [level=3, ref=e72]
+                  - link "政府采购- 北京市体育局网站" [ref=e100]
+                - generic
+                - generic
+                  - link "头像 北京市体育局" [ref=e101]
+          - generic
+            - generic
+              - generic
+                - heading "北京超达动悦体育有限公司-北京超达" [level=3, ref=e73]
+                  - link "北京超达动悦体育有限公司-北京超达" [ref=e102]
+                - generic
+                  - StaticText "项目名称: 2025全民健身公益网球培训项目 招标编号: 53100000500016121Y 招标项目编号: Z1101000167007539001 所属行业: 科教文卫 所属地区: ...(北京超达动悦体育有限公司在正文或附件中)查看详情 地区: 北京 发布时间:2025-03-18 中标..."
+                - generic
+                  - link "比地招标" [ref=e103]
+                - generic
+          - generic
+            - generic
+              - generic
+                - heading "最新招投标信息_北京市体育局-寻标宝" [level=3, ref=e74]
+                  - link "最新招投标信息_北京市体育局-寻标宝" [ref=e104]
+                - generic
+                - generic
+                  - link "番番寻标宝" [ref=e105]
+                - generic
+          - generic
+            - heading "标题:北京悦优动体育有限公司 - 企业信息" [level=3, ref=e36]
+              - link "标题:北京悦优动体育有限公司 - 企业信息" [ref=e67]
+                - emphasis
+                - StaticText " - 企业信息"
+            - generic
+              - generic
+                - link [ref=e75]
+              - generic
+                - paragraph
+                - link "工商信息" [ref=e76]
+                - link "认领企业" [ref=e77]
+                - link "企业风险" [ref=e78]
+                - link "企业股东" [ref=e79]
+                - link "经营状况" [ref=e80]
+                - link "来源：以上信息来源爱企查，一个专业免费的企业信息查询平台" [ref=e81]
+          - generic
+            - generic
+              - generic
+                - heading "北京思博优体育科技有限公司招标" [level=3, ref=e82]
+                  - link "北京思博优体育科技有限公司招标" [ref=e106]
+                - generic
+                - generic
+                  - link "采购与招标网" [ref=e107]
+                - generic
+          - generic
+            - generic
+              - generic
+                - heading "政府采购意向公开 - 中国政府采购网" [level=3, ref=e83]
+                  - link "政府采购意向公开 - 中国政府采购网" [ref=e108]
+                - generic
+                - generic
+                  - link "头像 中国政府采购网（政府采购意向公开）" [ref=e109]
+        - generic
+          - generic
+            - StaticText "相关搜索"
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "北京招投标公司"
+                - link "北京招投标公司" [ref=e84]
+              - LayoutTableCell "优胜招标代理有限公司"
+                - link "优胜招标代理有限公司" [ref=e85]
+            - LayoutTableRow
+              - LayoutTableCell "北京网动体育文化发展有限公司"
+                - link "北京网动体育文化发展有限公司" [ref=e86]
+              - LayoutTableCell "国航采购招标网"
+                - link "国航采购招标网" [ref=e87]
+            - LayoutTableRow
+              - LayoutTableCell "海淀区招标投标公共服务平台"
+                - link "海淀区招标投标公共服务平台" [ref=e88]
+              - LayoutTableCell "北京招标投标交易平台"
+                - link "北京招标投标交易平台" [ref=e89]
+            - LayoutTableRow
+              - LayoutTableCell "河北瑞燕体育设施工程有限公司"
+                - link "河北瑞燕体育设施工程有限公司" [ref=e90]
+              - LayoutTableCell "北京奥帆体育设施工程有限公司"
+                - link "北京奥帆体育设施工程有限公司" [ref=e91]
+            - LayoutTableRow
+              - LayoutTableCell "悦达集团招标采购网"
+                - link "悦达集团招标采购网" [ref=e92]
+              - LayoutTableCell "北京中标公示"
+                - link "北京中标公示" [ref=e93]
+      - generic
+        - generic
+          - link "上一页" [ref=e15]
+          - strong
+          - link "2" [ref=e16]
+          - link "3" [ref=e17]
+          - link "4" [ref=e18]
+          - link "5" [ref=e19]
+          - link "6" [ref=e20]
+          - link "7" [ref=e21]
+          - link "8" [ref=e22]
+          - link "9" [ref=e23]
+          - link "10" [ref=e24]
+          - link "下一页" [ref=e25]
+      - generic
+      - generic
+        - generic
+          - generic
+            - link "帮助" [ref=e37]
+            - link "举报" [ref=e38]
+            - link "用户反馈" [ref=e39]
+            - link "企业推广" [ref=e40]

@@ -1,0 +1,387 @@
+- generic
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。" [ref=e1]
+  - generic
+    - generic
+  - generic
+    - generic
+      - generic
+        - link "到百度首页" [ref=e2]
+          - image "到百度首页"
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                  - generic
+                  - generic
+                    - generic
+                      - generic
+                      - generic
+                        - textbox [ref=e78]: 北京苓娜缤纷商贸有限公司 招投标
+                          - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                          - generic
+                          - generic
+                        - button "百度一下" [ref=e79]
+                          - StaticText "百度一下"
+                    - generic
+                      - generic
+      - generic
+        - link "百度首页" [ref=e3]
+          - StaticText "百度首页"
+        - link "设置" [ref=e4]
+          - StaticText "设置"
+        - link "登录" [ref=e5]
+          - StaticText "登录"
+    - generic
+    - generic
+      - generic
+        - link [ref=e6]
+          - image
+        - StaticText "网页"
+        - link "图片" [ref=e7]
+          - StaticText "图片"
+        - link "资讯" [ref=e8]
+          - StaticText "资讯"
+        - link "视频" [ref=e9]
+          - StaticText "视频"
+        - link "笔记" [ref=e10]
+          - StaticText "笔记"
+        - link "地图" [ref=e11]
+          - StaticText "地图"
+        - link "贴吧" [ref=e12]
+          - StaticText "贴吧"
+        - link "文库" [ref=e13]
+          - StaticText "文库"
+        - link "更多" [ref=e14]
+          - StaticText "更多"
+        - generic
+          - StaticText "搜索工具"
+    - generic
+      - generic
+        - generic
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "相关搜索  北京十大招标代理公司  北京招投标公司  国管招标(北京)有限公司  北京政采商贸有限公司  采联国际招标采购集团有限公司  北京招标投标交易平台    换一换 热搜榜 民生榜 财经榜  把绿色的种子种进心里 1"
+                - generic
+                  - generic
+                    - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                            - link " 北京十大招标代理公司" [ref=e101]
+                          - generic
+                            - link " 北京招投标公司" [ref=e102]
+                          - generic
+                            - link " 国管招标(北京)有限公司" [ref=e103]
+                          - generic
+                            - link " 北京政采商贸有限公司" [ref=e104]
+                          - generic
+                            - link " 采联国际招标采购集团有限公司" [ref=e105]
+                          - generic
+                            - link " 北京招标投标交易平台" [ref=e106]
+                  - generic
+                    - generic
+                      - generic
+                        - link " " [ref=e80]
+                        - generic
+                          - link " 换一换" [ref=e83]
+                      - generic
+                        - generic
+                        - generic
+                        - generic
+                      - generic
+                        - generic
+                          - link "把绿色的种子种进心里" [ref=e84]
+                      - generic
+                        - generic
+                          - link "郑丽文谈访陆：两岸不是终须一战" [ref=e85]
+                      - generic
+                        - generic
+                          - link "“别人的春和景明 我的氯雷他定”" [ref=e86]
+                      - generic
+                        - generic
+                          - link "中国创新“酷”在哪里" [ref=e87]
+                      - generic
+                        - generic
+                          - link "今年蚊子或迎来史诗级加强 疾控提醒" [ref=e88]
+                      - generic
+                        - generic
+                          - link "新手友好，PayPal个人卖家账户上线" [ref=e89]
+                      - generic
+                        - generic
+                          - link "年轻人流行起“重新养育父母”" [ref=e90]
+                      - generic
+                        - generic
+                          - link "伊朗一儿童游乐场遭美以袭击" [ref=e91]
+                      - generic
+                        - generic
+                          - link "被中国淘汰的车却在印度“杀疯了”" [ref=e92]
+                      - generic
+                        - generic
+                          - link "广州遭遇“高压水枪式暴击”" [ref=e93]
+                      - generic
+                        - generic
+                          - link "女职工到底50岁还是55岁退休" [ref=e94]
+                      - generic
+                        - generic
+                          - link "时隔6年中国航班再次抵达平壤" [ref=e95]
+                      - generic
+                        - generic
+                          - link "“抗过敏药容易产生依赖”是误区" [ref=e96]
+                      - generic
+                        - generic
+                          - link "单依纯再次道歉后李荣浩秒回" [ref=e97]
+                      - generic
+                        - generic
+                          - link "伊朗首都遭大规模空袭 部分区域断电" [ref=e98]
+                      - generic
+                        - generic
+                          - link "蔡磊身体近况：四人搀扶也无法迈步" [ref=e99]
+                      - generic
+                        - generic
+                          - link "黑龙江海林建筑坍塌事故致7人遇难" [ref=e100]
+                - generic
+        - generic
+          - generic
+            - generic
+              - generic
+                - heading "调料配送服务采购项目中标公告" [level=3, ref=e38]
+                  - link "调料配送服务采购项目中标公告" [ref=e62]
+                    - paragraph
+                      - StaticText "调料配送服务采购项目中标公告"
+                - generic
+                  - StaticText "2026年3月4日"
+                  - StaticText "一、项目编号:0733-26190251("
+                  - emphasis
+                    - StaticText "招标"
+                  - StaticText "文件编号:0733-26190251) 二、项目名称:调料配送服务采购项目 三、中标(成交)信息 供应商名称:北京顺丰俞香商贸有限公司 供应商地址:北京市丰台区京开路新发地桥西侧新发地农副产品批发市场综合交易大厅二层2092号 中标(成交)金额:124.1010000(万元) 四、主要标的信息 五、评"
+                - generic
+                  - link "头像 中国政府采购网" [ref=e63]
+                    - generic
+                      - generic
+                    - StaticText "中国政府采购网"
+          - generic
+            - generic
+              - generic
+                - heading "北京缤纷顺通商贸有限公司" [level=3, ref=e39]
+                  - link "北京缤纷顺通商贸有限公司" [ref=e64]
+                    - paragraph
+                      - emphasis
+                      - StaticText "顺通"
+                      - emphasis
+                - generic
+                  - StaticText "2026年2月13日"
+                  - StaticText "提供"
+                  - emphasis
+                    - StaticText "北京缤纷"
+                  - StaticText "顺通"
+                  - emphasis
+                    - StaticText "商贸有限公司招标"
+                  - StaticText "采购信息,涵盖北京缤纷顺通商贸有限公司招标与北京缤纷顺通商贸有限公司采购信息。每天更新15万条招标项目信息,查询北京缤纷顺通"
+                  - emphasis
+                    - StaticText "商贸有限公司招投标"
+                  - StaticText "采购信息,就上千里马招标网!"
+                - generic
+                  - link "千里马招标网" [ref=e65]
+                    - StaticText "千里马招标网"
+          - generic
+            - generic
+              - generic
+                - heading "北京彩缤纷商贸有限公司" [level=3, ref=e40]
+                  - link "北京彩缤纷商贸有限公司" [ref=e66]
+                    - paragraph
+                      - emphasis
+                      - StaticText "彩"
+                      - emphasis
+                - generic
+                  - StaticText "2026年2月16日"
+                  - StaticText "提供北京彩"
+                  - emphasis
+                    - StaticText "缤纷商贸有限公司招标"
+                  - StaticText "采购信息,涵盖北京彩缤纷商贸有限公司招标与北京彩缤纷商贸有限公司采购信息。每天更新15万条招标项目信息,查询北京彩"
+                  - emphasis
+                    - StaticText "缤纷商贸有限公司招投标"
+                  - StaticText "采购信息,就上千里马招标网!"
+                - generic
+                  - link "千里马招标网" [ref=e67]
+                    - StaticText "千里马招标网"
+          - generic
+            - generic
+              - StaticText "大家还在搜"
+            - generic
+              - link "北京十大招标代理公司" [ref=e31]
+                - StaticText "北京十大招标代理公司"
+              - link "北京招投标公司" [ref=e32]
+                - StaticText "北京招投标公司"
+              - link "国管招标(北京)有限公司" [ref=e33]
+                - StaticText "国管招标(北京)有限公司"
+              - link "北京政采商贸有限公司" [ref=e34]
+                - StaticText "北京政采商贸有限公司"
+              - link "采联国际招标采购集团有限公司" [ref=e35]
+                - StaticText "采联国际招标采购集团有限公司"
+              - link "北京招标投标交易平台" [ref=e36]
+                - StaticText "北京招标投标交易平台"
+          - generic
+            - generic
+              - generic
+                - heading "郭耀程 - 北广财富金融服务外包(北京)有限公司 - 法定代表人/高管..." [level=3, ref=e41]
+                  - link "郭耀程 - 北广财富金融服务外包(北京)有限公司 - 法定代表人/高管..." [ref=e68]
+                    - paragraph
+                      - StaticText "郭耀程 - 北广财富金融服务外包("
+                      - emphasis
+                      - StaticText ")"
+                      - emphasis
+                      - StaticText " - 法定代表人/高管..."
+                - generic
+                  - StaticText "2025年6月30日"
+                  - StaticText "史伟鑫 合作1次 担任 北广财富金融服务外包(北京)有限公司 法定代表人 担任法定代表人: 2 家 担任股东: 2 家 担任高管: 2 家 控股企业: 2 家 罗秋雨 合作1次 担任 "
+                  - emphasis
+                    - StaticText "北京苓娜缤纷商贸有限公司"
+                  - StaticText " 法定代表人 担任法定代表人: 1 家 担任股东: 1 家 担任高管: 1 家 控股企业: 1 家 上述信息根..."
+                - generic
+                  - link "头像 爱企查" [ref=e69]
+                    - generic
+                      - generic
+                    - StaticText "爱企查"
+          - generic
+            - heading "标题:北京苓娜缤纷商贸有限公司 - 企业信息" [level=3, ref=e26]
+              - link "标题:北京苓娜缤纷商贸有限公司 - 企业信息" [ref=e37]
+                - emphasis
+                  - StaticText "北京苓娜缤纷商贸有限公司"
+                - StaticText " - 企业信息"
+            - generic
+              - generic
+                - link [ref=e42]
+                  - generic
+                    - generic
+              - generic
+                - paragraph
+                  - emphasis
+                    - StaticText "北京苓娜缤纷商贸有限公司"
+                  - StaticText "法定代表人：罗秋雨，注册资金：300万元，地址：北京市大兴区黄村镇金星西路3号及3号院3号楼1F-ZD04，经营范围：销售化妆品、文化用品、服装、服饰、鞋帽、工艺美术品、家庭用品、针纺织品。（市场主体依法自主选择经营项目，开展经营活动；依法须经批准的项目，经相关部门批准后依批准的内容开展经营活动；不得从事国家和本市产业政策禁止和限制类项目的经营活动。）"
+                - link "工商信息" [ref=e43]
+                  - generic
+                    - StaticText "工商信息"
+                - link "认领企业" [ref=e44]
+                  - generic
+                    - StaticText "认领企业"
+                - link "经营状况" [ref=e45]
+                  - generic
+                    - StaticText "经营状况"
+                - link "企业年报" [ref=e46]
+                  - generic
+                    - StaticText "企业年报"
+                - link "企业股东" [ref=e47]
+                  - generic
+                    - StaticText "企业股东"
+                - link "来源：以上信息来源爱企查，一个专业免费的企业信息查询平台" [ref=e48]
+                  - generic
+                    - generic
+                      - generic
+          - generic
+            - generic
+              - generic
+                - heading "CBD管委会采购代理机构选取项目中标公告" [level=3, ref=e49]
+                  - link "CBD管委会采购代理机构选取项目中标公告" [ref=e70]
+                    - paragraph
+                      - StaticText "CBD管委会采购代理机构选取项目中标公告"
+                - generic
+                  - StaticText "2024年1月9日"
+                  - StaticText "供应商名称:"
+                  - emphasis
+                    - StaticText "北京"
+                  - StaticText "国际工程咨询"
+                  - emphasis
+                    - StaticText "有限公司 "
+                  - StaticText "供应商地址:北京市西城区广安门外大街甲275号 中标(成交)金额:0.0000000(万元) 供应商名称:北京国际贸易有限公司 供应商地址:北京市朝阳区建国门外大街甲3号 中标(成交)金额:0.0000000(万元) 供应商名称:北京北咨招标有限公司 ..."
+                - generic
+                  - link "头像 中国政府采购网" [ref=e71]
+                    - generic
+                      - generic
+                    - StaticText "中国政府采购网"
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                    - generic
+                      - heading "北京苓娜缤纷商贸有限公司 招投标 - 实时智能回复" [level=3, ref=e76]
+                        - link "北京苓娜缤纷商贸有限公司 招投标 - 实时智能回复" [ref=e81]
+                    - generic
+                      - link "头像" [ref=e77]
+                      - generic
+                        - link "北京招标信息查询 109人聊过 北京地区招投标咨询服务专家，提供招标流程、招标文件编制、投标策略等方面的咨询服务。" [ref=e82]
+          - generic
+            - generic
+              - generic
+                - heading "[丰台区]2026年交通疏堵及综合治理工程项目(服务)中标公告" [level=3, ref=e50]
+                  - link "[丰台区]2026年交通疏堵及综合治理工程项目(服务)中标公告" [ref=e72]
+                - generic
+                  - StaticText "文件 服务时间:30日历天 服务标准:详见招标文件 五、评审专家(单一来源采购人员)名单: 邱万军、李秀芬、王辉、徐如志、郭夏臣 ..."
+                - generic
+                  - link "头像 北京市政府采购网" [ref=e73]
+          - generic
+            - generic
+              - generic
+                - heading "[公开]北京市体育彩票管理中心2026实体店日常维护及管理中标公告" [level=3, ref=e51]
+                  - link "[公开]北京市体育彩票管理中心2026实体店日常维护及管理中标公告" [ref=e74]
+                - generic
+                - generic
+                  - link "头像 北京市政府采购网" [ref=e75]
+        - generic
+          - generic
+            - StaticText "相关搜索"
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "北京十大招标代理公司"
+                - link "北京十大招标代理公司" [ref=e52]
+              - LayoutTableCell "北京招投标公司"
+                - link "北京招投标公司" [ref=e53]
+            - LayoutTableRow
+              - LayoutTableCell "国管招标(北京)有限公司"
+                - link "国管招标(北京)有限公司" [ref=e54]
+              - LayoutTableCell "北京政采商贸有限公司"
+                - link "北京政采商贸有限公司" [ref=e55]
+            - LayoutTableRow
+              - LayoutTableCell "采联国际招标采购集团有限公司"
+                - link "采联国际招标采购集团有限公司" [ref=e56]
+              - LayoutTableCell "北京招标投标交易平台"
+                - link "北京招标投标交易平台" [ref=e57]
+            - LayoutTableRow
+              - LayoutTableCell "北京国际招标有限公司官网"
+                - link "北京国际招标有限公司官网" [ref=e58]
+              - LayoutTableCell "京发招标有限公司"
+                - link "京发招标有限公司" [ref=e59]
+            - LayoutTableRow
+              - LayoutTableCell "金采联合(北京)招标有限公司"
+                - link "金采联合(北京)招标有限公司" [ref=e60]
+              - LayoutTableCell "北京华采招标代理有限公司"
+                - link "北京华采招标代理有限公司" [ref=e61]
+      - generic
+        - generic
+          - link "上一页" [ref=e15]
+          - strong
+          - link "2" [ref=e16]
+          - link "3" [ref=e17]
+          - link "4" [ref=e18]
+          - link "5" [ref=e19]
+          - link "6" [ref=e20]
+          - link "7" [ref=e21]
+          - link "8" [ref=e22]
+          - link "9" [ref=e23]
+          - link "10" [ref=e24]
+          - link "下一页" [ref=e25]
+      - generic
+      - generic
+        - generic
+          - generic
+            - link "帮助" [ref=e27]
+            - link "举报" [ref=e28]
+            - link "用户反馈" [ref=e29]
+            - link "企业推广" [ref=e30]

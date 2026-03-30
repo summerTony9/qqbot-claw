@@ -1,0 +1,369 @@
+- generic
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。" [ref=e1]
+  - generic
+    - generic
+  - generic
+    - generic
+      - generic
+        - link "到百度首页" [ref=e2]
+          - image "到百度首页"
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                  - generic
+                  - generic
+                    - generic
+                      - generic
+                      - generic
+                        - textbox [ref=e74]: 北京 北京智零科技有限公司 招聘
+                          - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                          - generic
+                          - generic
+                        - button "百度一下" [ref=e75]
+                          - StaticText "百度一下"
+                    - generic
+                      - generic
+      - generic
+        - link "百度首页" [ref=e3]
+          - StaticText "百度首页"
+        - link "设置" [ref=e4]
+          - StaticText "设置"
+        - link "登录" [ref=e5]
+          - StaticText "登录"
+    - generic
+    - generic
+      - generic
+        - link [ref=e6]
+          - image
+        - StaticText "网页"
+        - link "图片" [ref=e7]
+          - StaticText "图片"
+        - link "资讯" [ref=e8]
+          - StaticText "资讯"
+        - link "视频" [ref=e9]
+          - StaticText "视频"
+        - link "笔记" [ref=e10]
+          - StaticText "笔记"
+        - link "地图" [ref=e11]
+          - StaticText "地图"
+        - link "贴吧" [ref=e12]
+          - StaticText "贴吧"
+        - link "文库" [ref=e13]
+          - StaticText "文库"
+        - link "更多" [ref=e14]
+          - StaticText "更多"
+        - generic
+          - StaticText "搜索工具"
+    - generic
+      - generic
+        - generic
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "相关搜索  北京智麦科技有限公司  北京智芯微电子科技有限公司招聘  智道网联科技(北京)有限公司  北京智者天下科技有限公司  天通苑科技园招聘信息  北京招聘公司    换一换 热搜榜 民生榜 财经榜  把绿色的种子种进心里 1"
+                - generic
+                  - generic
+                    - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                            - link " 北京智麦科技有限公司" [ref=e95]
+                          - generic
+                            - link " 北京智芯微电子科技有限公司招聘" [ref=e96]
+                          - generic
+                            - link " 智道网联科技(北京)有限公司" [ref=e97]
+                          - generic
+                            - link " 北京智者天下科技有限公司" [ref=e98]
+                          - generic
+                            - link " 天通苑科技园招聘信息" [ref=e99]
+                          - generic
+                            - link " 北京招聘公司" [ref=e100]
+                  - generic
+                    - generic
+                      - generic
+                        - link " " [ref=e76]
+                        - generic
+                          - link " 换一换" [ref=e77]
+                      - generic
+                        - generic
+                        - generic
+                        - generic
+                      - generic
+                        - generic
+                          - link "把绿色的种子种进心里" [ref=e78]
+                      - generic
+                        - generic
+                          - link "习近平欢迎并邀请郑丽文率团来访" [ref=e79]
+                      - generic
+                        - generic
+                          - link "时隔6年中国航班再次抵达平壤" [ref=e80]
+                      - generic
+                        - generic
+                          - link "中国创新“酷”在哪里" [ref=e81]
+                      - generic
+                        - generic
+                          - link "疾控提醒：今年蚊子或迎来史诗级加强" [ref=e82]
+                      - generic
+                        - generic
+                          - link "新手友好，PayPal个人卖家账户上线" [ref=e83]
+                      - generic
+                        - generic
+                          - link "广州遭遇“高压水枪式暴击”" [ref=e84]
+                      - generic
+                        - generic
+                          - link "伊朗首都遭大规模空袭 部分区域断电" [ref=e85]
+                      - generic
+                        - generic
+                          - link "被中国淘汰的车却在印度“杀疯了”" [ref=e86]
+                      - generic
+                        - generic
+                          - link "长江水下89米开高铁" [ref=e87]
+                      - generic
+                        - generic
+                          - link "女生在橘子洲拍摄旱地拔葱震撼大片" [ref=e88]
+                      - generic
+                        - generic
+                          - link "女职工到底50岁还是55岁退休" [ref=e89]
+                      - generic
+                        - generic
+                          - link "“抗过敏药容易产生依赖”是误区" [ref=e90]
+                      - generic
+                        - generic
+                          - link "单依纯再次道歉后李荣浩秒回" [ref=e91]
+                      - generic
+                        - generic
+                          - link "蔡磊身体近况：四人搀扶也无法迈步" [ref=e92]
+                      - generic
+                        - generic
+                          - link "伊朗：美国提的建议非常极端且不合理" [ref=e93]
+                      - generic
+                        - generic
+                          - link "住家保姆上门当日病人死亡 家属索赔" [ref=e94]
+                - generic
+        - generic
+          - generic
+            - generic
+              - generic
+                - heading "【北京智临科技有限公司招聘信息】-猎聘" [level=3, ref=e36]
+                  - link "【北京智临科技有限公司招聘信息】-猎聘" [ref=e55]
+                    - paragraph
+                - generic
+                  - StaticText "2026年3月22日"
+                  - emphasis
+                    - StaticText "北京智"
+                  - StaticText "临"
+                  - emphasis
+                    - StaticText "科技有限公司"
+                  - StaticText "位于"
+                  - emphasis
+                    - StaticText "北京市"
+                  - StaticText "海淀区西四环北路158号1幢十一层639号,注册资本为10.00万人民币,成立于2022-07-15,目前公司的主要经营范围是一般项目:软件开发;物联网技术研发;人工智能行业应用系统集成服务;人工智能应用软件开发;物联网技术服务;技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广;5"
+                - generic
+                  - link "头像 猎聘网" [ref=e56]
+                    - generic
+                    - StaticText "猎聘网"
+          - generic
+            - generic
+              - generic
+                - heading "北京零智文化发展有限公司招聘 - 智联招聘" [level=3, ref=e37]
+                  - link "北京零智文化发展有限公司招聘 - 智联招聘" [ref=e57]
+                    - paragraph
+                - generic
+                  - StaticText "2026年3月4日"
+                  - StaticText "公司简介 在"
+                  - emphasis
+                    - StaticText "招"
+                  - StaticText "职位公司介绍 《超市周刊》因业务发展需要,诚邀优秀人才(编辑记者、广告客服、平面设计、市场营销、会议培训、市场推广)加盟,一起做事业!公司现在有六大产品和资源平台: 1、《超市周刊》 2、龙商网:http://www.longsok.com/ 3、超市周刊微信(微信号:cacszk) 4、每年数次全国超市连锁行业会议、培..."
+                - generic
+                  - link "头像 智联招聘" [ref=e58]
+                    - generic
+                    - StaticText "智联招聘"
+                - generic
+                  - generic
+          - generic
+            - generic
+              - generic
+                - heading "零空间(北京)科技有限公司招聘 - 智联招聘" [level=3, ref=e38]
+                  - link "零空间(北京)科技有限公司招聘 - 智联招聘" [ref=e59]
+                    - paragraph
+                - generic
+                  - StaticText "2026年3月13日"
+                  - emphasis
+                    - StaticText "零"
+                  - StaticText "空间"
+                  - emphasis
+                    - StaticText "北京科技有限公司"
+                  - StaticText "在2010年7月成立,属于中关村高新技术企业,拥有国高新、中关村高新企业认证证书,同时拥有20项软件著作权以及新申请的5项虚拟现实行业专利著作权等,专注虚拟现实技术的产品研发和项目开发,拥有多年的大数据研发优势,以虚拟现实技术为核心,融合增强现实、混合现实、空间定位技术、动作捕捉等技术,以全新的..."
+                - generic
+                  - link "头像 智联招聘" [ref=e60]
+                    - generic
+                    - StaticText "智联招聘"
+                - generic
+                  - generic
+          - generic
+            - generic
+              - generic
+                - heading "北京赛普智成科技有限公司招聘 - 智联招聘" [level=3, ref=e39]
+                  - link "北京赛普智成科技有限公司招聘 - 智联招聘" [ref=e61]
+                    - paragraph
+                - generic
+                  - StaticText "2026年3月18日"
+                  - StaticText "企业名称 北京赛普智成科技有限公司法人代表 毛中成立时间 2003-12-02企业类型 有限责任公司(自然人投资或控股) 展开全部 公司地址 "
+                  - emphasis
+                    - StaticText "北京市"
+                  - StaticText "海淀区上地十街辉煌国际东6区443室 公司地址 公司在招职位 全部职位 · 0 招聘网 > "
+                  - emphasis
+                    - StaticText "北京招聘"
+                  - StaticText " > 北京赛普智成"
+                  - emphasis
+                    - StaticText "科技有限公司招聘"
+                  - StaticText " 智联招聘,更懂你的价值 客服热线和举报电话:..."
+                - generic
+                  - link "头像 智联招聘" [ref=e62]
+                    - generic
+                    - StaticText "智联招聘"
+                - generic
+                  - generic
+          - generic
+            - generic
+              - generic
+                - heading "猛招2380人!通州最新招聘来了" [level=3, ref=e40]
+                  - link "猛招2380人!通州最新招聘来了" [ref=e63]
+                    - paragraph
+                - generic
+                  - StaticText "8天前"
+                  - StaticText "具体"
+                  - emphasis
+                    - StaticText "招聘"
+                  - StaticText "内容如下 👇👇👇 01 "
+                  - emphasis
+                    - StaticText "北京"
+                  - StaticText "圣伟律师事务所 联系方式:李老师 13311329612 工作地址:通州区北黄木厂街1号院1号楼16层1601 02 北京安美肌营销策划有限"
+                  - emphasis
+                    - StaticText "公司 "
+                  - StaticText "联系方式:易老师 18600879185 工作地址:通州区万达广场A座24层2415 03 北京安行远科技有限公司 ..."
+                - generic
+                  - link "头像 北京西集" [ref=e64]
+                    - generic
+                    - StaticText "北京西集"
+          - generic
+            - generic
+              - StaticText "大家还在搜"
+            - generic
+              - link "北京智麦科技有限公司" [ref=e30]
+                - StaticText "北京智麦科技有限公司"
+              - link "北京智芯微电子科技有限公司招聘" [ref=e31]
+                - StaticText "北京智芯微电子科技有限公司招聘"
+              - link "智道网联科技(北京)有限公司" [ref=e32]
+                - StaticText "智道网联科技(北京)有限公司"
+              - link "北京智者天下科技有限公司" [ref=e33]
+                - StaticText "北京智者天下科技有限公司"
+              - link "天通苑科技园招聘信息" [ref=e34]
+                - StaticText "天通苑科技园招聘信息"
+              - link "北京招聘公司" [ref=e35]
+                - StaticText "北京招聘公司"
+          - generic
+            - generic
+              - generic
+                - heading "「教育培训市场专员招聘」_零智文化发展招聘-BOSS直聘" [level=3, ref=e41]
+                  - link "「教育培训市场专员招聘」_零智文化发展招聘-BOSS直聘" [ref=e65]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e72]
+                  - generic
+                    - StaticText "2026年3月16日"
+                    - emphasis
+                    - StaticText "文化发展教育培训市场专员"
+                    - emphasis
+                    - StaticText ",薪资:,地点:"
+                    - emphasis
+                    - StaticText ",要求:1-3年,学历:大专,福利:五险一金、定期体检、全勤奖、年终奖、带薪年假、员工旅游、餐补、通讯补贴、交通补助、包吃、节日福利、零食下午茶,董事长刚刚在线,随时随地直接开聊。"
+                  - generic
+                    - generic
+                      - link "BOSS直聘" [ref=e73]
+          - generic
+            - generic
+              - generic
+                - heading "ai产品经理招聘(工资待遇要求)| 北京三六零数智科技有限公司 - 职..." [level=3, ref=e42]
+                  - link "ai产品经理招聘(工资待遇要求)| 北京三六零数智科技有限公司 - 职..." [ref=e66]
+                - generic
+                - generic
+                  - link "头像 职友集" [ref=e67]
+          - generic
+            - generic
+              - generic
+                - heading "「北京智优集品科技有限公司招聘」-BOSS直聘" [level=3, ref=e43]
+                  - link "「北京智优集品科技有限公司招聘」-BOSS直聘" [ref=e68]
+                - generic
+                  - StaticText "旗下品牌。北京智优集品科技有限公司(简称: 智优集品)是国内综合性办公采购整体解决方案服务商,创立于2013年,致力于让礼品为企业代言,让礼品说话、让礼品传情、让礼品成为企业与员工和客户有温度且生动的链接,为企业的文化建设和IP化传播持续创造价值..."
+                - generic
+                  - link "BOSS直聘" [ref=e69]
+          - generic
+            - generic
+              - generic
+                - heading "北京三六零数智科技有限公司怎么样 - 职友集" [level=3, ref=e44]
+                  - link "北京三六零数智科技有限公司怎么样 - 职友集" [ref=e70]
+                - generic
+                - generic
+                  - link "头像 职友集" [ref=e71]
+        - generic
+          - generic
+            - StaticText "相关搜索"
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "北京智麦科技有限公司"
+                - link "北京智麦科技有限公司" [ref=e45]
+              - LayoutTableCell "北京智芯微电子科技有限公司招聘"
+                - link "北京智芯微电子科技有限公司招聘" [ref=e46]
+            - LayoutTableRow
+              - LayoutTableCell "智道网联科技(北京)有限公司"
+                - link "智道网联科技(北京)有限公司" [ref=e47]
+              - LayoutTableCell "北京智者天下科技有限公司"
+                - link "北京智者天下科技有限公司" [ref=e48]
+            - LayoutTableRow
+              - LayoutTableCell "天通苑科技园招聘信息"
+                - link "天通苑科技园招聘信息" [ref=e49]
+              - LayoutTableCell "北京招聘公司"
+                - link "北京招聘公司" [ref=e50]
+            - LayoutTableRow
+              - LayoutTableCell "北京亦庄招聘信息"
+                - link "北京亦庄招聘信息" [ref=e51]
+              - LayoutTableCell "北京智联招聘"
+                - link "北京智联招聘" [ref=e52]
+            - LayoutTableRow
+              - LayoutTableCell "北京正规招聘信息"
+                - link "北京正规招聘信息" [ref=e53]
+              - LayoutTableCell "北京正规厂家招聘普工"
+                - link "北京正规厂家招聘普工" [ref=e54]
+      - generic
+        - generic
+          - link "上一页" [ref=e15]
+          - strong
+          - link "2" [ref=e16]
+          - link "3" [ref=e17]
+          - link "4" [ref=e18]
+          - link "5" [ref=e19]
+          - link "6" [ref=e20]
+          - link "7" [ref=e21]
+          - link "8" [ref=e22]
+          - link "9" [ref=e23]
+          - link "10" [ref=e24]
+          - link "下一页" [ref=e25]
+      - generic
+      - generic
+        - generic
+          - generic
+            - link "帮助" [ref=e26]
+            - link "举报" [ref=e27]
+            - link "用户反馈" [ref=e28]
+            - link "企业推广" [ref=e29]
+
+STDERR:

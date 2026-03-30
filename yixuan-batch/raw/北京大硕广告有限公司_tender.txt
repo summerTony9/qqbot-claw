@@ -1,0 +1,343 @@
+- generic
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。" [ref=e1]
+  - generic
+    - generic
+  - generic
+    - generic
+      - generic
+        - link "到百度首页" [ref=e2]
+          - image "到百度首页"
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                  - generic
+                  - generic
+                    - generic
+                      - generic
+                      - generic
+                        - textbox [ref=e84]: 北京大硕广告有限公司 招投标
+                          - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                          - generic
+                          - generic
+                        - button "百度一下" [ref=e85]
+                          - StaticText "百度一下"
+                    - generic
+                      - generic
+      - generic
+        - link "百度首页" [ref=e3]
+          - StaticText "百度首页"
+        - link "设置" [ref=e4]
+          - StaticText "设置"
+        - link "登录" [ref=e5]
+          - StaticText "登录"
+    - generic
+    - generic
+      - generic
+        - link [ref=e6]
+          - image
+        - StaticText "网页"
+        - link "图片" [ref=e7]
+          - StaticText "图片"
+        - link "资讯" [ref=e8]
+          - StaticText "资讯"
+        - link "视频" [ref=e9]
+          - StaticText "视频"
+        - link "笔记" [ref=e10]
+          - StaticText "笔记"
+        - link "地图" [ref=e11]
+          - StaticText "地图"
+        - link "贴吧" [ref=e12]
+          - StaticText "贴吧"
+        - link "文库" [ref=e13]
+          - StaticText "文库"
+        - link "更多" [ref=e14]
+          - StaticText "更多"
+        - generic
+          - StaticText "搜索工具"
+    - generic
+      - generic
+        - generic
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "相关搜索  北京十大招标代理公司  北京招投标公司  中化招标电子招投标平台  湖北招标股份有限公司官网  招投标公司是做什么的  北京招标网    换一换 热搜榜 民生榜 财经榜  把绿色的种子种进心里 1"
+                - generic
+                  - generic
+                    - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                            - link " 北京十大招标代理公司" [ref=e105]
+                          - generic
+                            - link " 北京招投标公司" [ref=e106]
+                          - generic
+                            - link " 中化招标电子招投标平台" [ref=e107]
+                          - generic
+                            - link " 湖北招标股份有限公司官网" [ref=e108]
+                          - generic
+                            - link " 招投标公司是做什么的" [ref=e109]
+                          - generic
+                            - link " 北京招标网" [ref=e110]
+                  - generic
+                    - generic
+                      - generic
+                        - link " " [ref=e86]
+                        - generic
+                          - link " 换一换" [ref=e87]
+                      - generic
+                        - generic
+                        - generic
+                        - generic
+                      - generic
+                        - generic
+                          - link "把绿色的种子种进心里" [ref=e88]
+                      - generic
+                        - generic
+                          - link "郑丽文谈访陆：两岸不是终须一战" [ref=e89]
+                      - generic
+                        - generic
+                          - link "“别人的春和景明 我的氯雷他定”" [ref=e90]
+                      - generic
+                        - generic
+                          - link "中国创新“酷”在哪里" [ref=e91]
+                      - generic
+                        - generic
+                          - link "今年蚊子或迎来史诗级加强 疾控提醒" [ref=e92]
+                      - generic
+                        - generic
+                          - link "新手友好，PayPal个人卖家账户上线" [ref=e93]
+                      - generic
+                        - generic
+                          - link "年轻人流行起“重新养育父母”" [ref=e94]
+                      - generic
+                        - generic
+                          - link "伊朗一儿童游乐场遭美以袭击" [ref=e95]
+                      - generic
+                        - generic
+                          - link "被中国淘汰的车却在印度“杀疯了”" [ref=e96]
+                      - generic
+                        - generic
+                          - link "广州遭遇“高压水枪式暴击”" [ref=e97]
+                      - generic
+                        - generic
+                          - link "女职工到底50岁还是55岁退休" [ref=e98]
+                      - generic
+                        - generic
+                          - link "时隔6年中国航班再次抵达平壤" [ref=e99]
+                      - generic
+                        - generic
+                          - link "“抗过敏药容易产生依赖”是误区" [ref=e100]
+                      - generic
+                        - generic
+                          - link "单依纯再次道歉后李荣浩秒回" [ref=e101]
+                      - generic
+                        - generic
+                          - link "伊朗首都遭大规模空袭 部分区域断电" [ref=e102]
+                      - generic
+                        - generic
+                          - link "蔡磊身体近况：四人搀扶也无法迈步" [ref=e103]
+                      - generic
+                        - generic
+                          - link "黑龙江海林建筑坍塌事故致7人遇难" [ref=e104]
+                - generic
+        - generic
+          - generic
+            - generic
+              - generic
+                - heading "叶久辉 - 北京大硕广告有限公司 - 法定代表人/高管/股东 - 爱企查" [level=3, ref=e42]
+                  - link "叶久辉 - 北京大硕广告有限公司 - 法定代表人/高管/股东 - 爱企查" [ref=e61]
+                    - paragraph
+                - generic
+                  - StaticText "2026年3月4日"
+                  - StaticText "叶久辉目前担任"
+                  - emphasis
+                    - StaticText "北京大硕广告有限公司"
+                  - StaticText "、北京金鲨广告有限公司等3家企业法定代表人,同时在3家企业担任高管,包括担任北京大硕广告有限公司执行董事,经理,北京金鲨广告有限公司执行董事,经理;二、叶久辉投资情况:目前叶久辉是3家企业最终受益人,包括其在投资北京金鲨广告有限公司最终收益股份为50%,投资北京优硕广告有限公司最终收益股份为50%"
+                - generic
+                  - link "头像 爱企查" [ref=e62]
+                    - generic
+                    - StaticText "爱企查"
+          - generic
+            - heading "标题:北京大硕广告有限公司 - 企业信息" [level=3, ref=e26]
+              - link "标题:北京大硕广告有限公司 - 企业信息" [ref=e33]
+                - emphasis
+                  - StaticText "北京大硕广告有限公司"
+                - StaticText " - 企业信息"
+            - generic
+              - generic
+                - link [ref=e43]
+                  - generic
+                    - generic
+              - generic
+                - paragraph
+                  - StaticText "法定代表人：叶久辉"
+                - paragraph
+                  - StaticText "注册资本：10万元"
+                - paragraph
+                  - StaticText "成立时间：2021-04-02"
+                - StaticText "注销"
+                - StaticText "企业未认领"
+            - paragraph
+              - emphasis
+                - StaticText "北京大硕广告有限公司"
+              - StaticText "地址位于北京市昌平区中兴路21号院1号楼7层723，经营范围设计、制作、代理、发布广告；承办展览展示活动；会议服务；包装装潢设计；模型设计；工艺美术设计；组织文化艺术交流活动（不含营业性演出）；房地产信息咨询；从事房地产经纪业务；电影摄制；电脑图文设计；软件开发；基础软件服务、应用软件服务（不含医用软件）；企业策划（不含中介服务）；模型设计；电脑动画设计；摄影服务；影视策划；礼仪服务；销售文化用品、工艺品、电子产品、计算机、软件及辅助设备。（市场主体依法自主选择经营项目，开展经营活动；依法须经批准的项目，经相关部门批准后依批准的内容开展经营活动；不得从事国家和本市产业政策禁止和限制类项目的经营活动。）"
+            - generic
+              - LayoutTable
+                - LayoutTableRow
+                  - LayoutTableCell "工商信息"
+                    - link "工商信息" [ref=e77]
+                  - LayoutTableCell "经营状况"
+                    - link "经营状况" [ref=e78]
+                  - LayoutTableCell "企业年报"
+                    - link "企业年报" [ref=e79]
+                  - LayoutTableCell "企业股东"
+                    - link "企业股东" [ref=e80]
+                  - LayoutTableCell "行政许可"
+                    - link "行政许可" [ref=e81]
+            - link "2位相关人员" [ref=e27]
+              - StaticText "2位相关人员"
+            - list
+              - generic
+                - generic
+                  - generic
+                    - listitem [level=1]
+                      - link "叶久辉 执行董事，经理" [ref=e82]
+                    - listitem [level=1]
+                      - link "祁标 监事" [ref=e83]
+            - link "来源：以上信息来源爱企查，一个专业免费的企业信息查询平台" [ref=e28]
+              - generic
+                - generic
+          - generic
+            - generic
+              - generic
+                - heading "中国电子技术标准化研究院EDA产业宣传介绍视频制作服务及集成电路..." [level=3, ref=e44]
+                  - link "中国电子技术标准化研究院EDA产业宣传介绍视频制作服务及集成电路..." [ref=e63]
+                - generic
+                - generic
+                  - link "头像 中国政府采购网" [ref=e64]
+          - generic
+            - generic
+              - StaticText "大家还在搜"
+            - generic
+              - link "北京十大招标代理公司" [ref=e34]
+                - StaticText "北京十大招标代理公司"
+              - link "北京招投标公司" [ref=e35]
+                - StaticText "北京招投标公司"
+              - link "中化招标电子招投标平台" [ref=e36]
+                - StaticText "中化招标电子招投标平台"
+              - link "湖北招标股份有限公司官网" [ref=e37]
+                - StaticText "湖北招标股份有限公司官网"
+              - link "招投标公司是做什么的" [ref=e38]
+                - StaticText "招投标公司是做什么的"
+              - link "北京招标网" [ref=e39]
+                - StaticText "北京招标网"
+              - link "北京大思广告有限公司" [ref=e40]
+                - StaticText "北京大思广告有限公司"
+              - link "广告公司投标需要什么资质" [ref=e41]
+                - StaticText "广告公司投标需要什么资质"
+          - generic
+            - generic
+              - generic
+                - heading "[磋商]市委市政府新闻发布会服务成交公告" [level=3, ref=e45]
+                  - link "[磋商]市委市政府新闻发布会服务成交公告" [ref=e65]
+                - generic
+                - generic
+                  - link "头像 北京市政府采购网" [ref=e66]
+          - generic
+            - generic
+              - generic
+                - heading "北京点亿大硕广告中心(个体工商户) - 爱企查" [level=3, ref=e46]
+                  - link "北京点亿大硕广告中心(个体工商户) - 爱企查" [ref=e67]
+                - generic
+                - generic
+                  - link "头像 爱企查" [ref=e68]
+          - generic
+            - generic
+              - generic
+                - heading "...第04包市属广播电台宣传合作中标公告_中标公告北京市城市管理..." [level=3, ref=e47]
+                  - link "...第04包市属广播电台宣传合作中标公告_中标公告北京市城市管理..." [ref=e69]
+                - generic
+                - generic
+                  - link "头像 北京市城市管理综合行政执法局" [ref=e70]
+          - generic
+            - generic
+              - generic
+                - heading "网络正面宣传项目成交公告_政府采购_北京经济技术开发区" [level=3, ref=e48]
+                  - link "网络正面宣传项目成交公告_政府采购_北京经济技术开发区" [ref=e71]
+                - generic
+                - generic
+                  - link "头像 北京经济技术开发区" [ref=e72]
+          - generic
+            - generic
+              - generic
+                - heading "[公开]北京市土地质量生态地球化学监测网运行地质勘测服务采购..." [level=3, ref=e49]
+                  - link "[公开]北京市土地质量生态地球化学监测网运行地质勘测服务采购..." [ref=e73]
+                - generic
+                - generic
+                  - link "头像 北京市政府采购网" [ref=e74]
+          - generic
+            - generic
+              - generic
+                - heading "北京市体育彩票管理中心2025广告投放第4包户外大屏广告采购公开..." [level=3, ref=e50]
+                  - link "北京市体育彩票管理中心2025广告投放第4包户外大屏广告采购公开..." [ref=e75]
+                - generic
+                - generic
+                  - link "头像 北京市体育局" [ref=e76]
+        - generic
+          - generic
+            - StaticText "相关搜索"
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "北京十大招标代理公司"
+                - link "北京十大招标代理公司" [ref=e51]
+              - LayoutTableCell "北京招投标公司"
+                - link "北京招投标公司" [ref=e52]
+            - LayoutTableRow
+              - LayoutTableCell "中化招标电子招投标平台"
+                - link "中化招标电子招投标平台" [ref=e53]
+              - LayoutTableCell "湖北招标股份有限公司官网"
+                - link "湖北招标股份有限公司官网" [ref=e54]
+            - LayoutTableRow
+              - LayoutTableCell "北京招标网"
+                - link "北京招标网" [ref=e55]
+              - LayoutTableCell "招投标公司是做什么的"
+                - link "招投标公司是做什么的" [ref=e56]
+            - LayoutTableRow
+              - LayoutTableCell "北京大思广告有限公司"
+                - link "北京大思广告有限公司" [ref=e57]
+              - LayoutTableCell "广告公司投标需要什么资质"
+                - link "广告公司投标需要什么资质" [ref=e58]
+            - LayoutTableRow
+              - LayoutTableCell "湖北中采招标有限公司"
+                - link "湖北中采招标有限公司" [ref=e59]
+              - LayoutTableCell "北京招标投标交易平台"
+                - link "北京招标投标交易平台" [ref=e60]
+      - generic
+        - generic
+          - link "上一页" [ref=e15]
+          - strong
+          - link "2" [ref=e16]
+          - link "3" [ref=e17]
+          - link "4" [ref=e18]
+          - link "5" [ref=e19]
+          - link "6" [ref=e20]
+          - link "7" [ref=e21]
+          - link "8" [ref=e22]
+          - link "9" [ref=e23]
+          - link "10" [ref=e24]
+          - link "下一页" [ref=e25]
+      - generic
+      - generic
+        - generic
+          - generic
+            - link "帮助" [ref=e29]
+            - link "举报" [ref=e30]
+            - link "用户反馈" [ref=e31]
+            - link "企业推广" [ref=e32]

@@ -1,0 +1,371 @@
+- generic
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。" [ref=e1]
+  - generic
+    - generic
+  - generic
+    - generic
+      - generic
+        - link "到百度首页" [ref=e2]
+          - image "到百度首页"
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                  - generic
+                  - generic
+                    - generic
+                      - generic
+                      - generic
+                        - textbox [ref=e86]: 北京苓娜缤纷商贸有限公司
+                          - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                          - generic
+                          - generic
+                        - button "百度一下" [ref=e87]
+                          - StaticText "百度一下"
+                    - generic
+                      - generic
+      - generic
+        - link "百度首页" [ref=e3]
+          - StaticText "百度首页"
+        - link "设置" [ref=e4]
+          - StaticText "设置"
+        - link "登录" [ref=e5]
+          - StaticText "登录"
+    - generic
+    - generic
+      - generic
+        - link [ref=e6]
+          - image
+        - StaticText "网页"
+        - link "图片" [ref=e7]
+          - StaticText "图片"
+        - link "资讯" [ref=e8]
+          - StaticText "资讯"
+        - link "视频" [ref=e9]
+          - StaticText "视频"
+        - link "笔记" [ref=e10]
+          - StaticText "笔记"
+        - link "地图" [ref=e11]
+          - StaticText "地图"
+        - link "贴吧" [ref=e12]
+          - StaticText "贴吧"
+        - link "文库" [ref=e13]
+          - StaticText "文库"
+        - link "更多" [ref=e14]
+          - StaticText "更多"
+        - generic
+          - StaticText "搜索工具"
+    - generic
+      - generic
+        - generic
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "相关搜索  纷美北京贸易有限公司  天津娜娇植商贸有限公司  娜纷歌商贸(上海)有限公司  北京缤纷文化传媒有限公司  北京鑫娜商贸有限公司  娜多美商贸 北京苓娜缤纷商贸有限公司关系图_爱企查 投资方(1) 法定代表人：罗秋雨 主要人员(2) 北京苓娜缤纷商贸有限公司 分支机构(0) 对外投资(0) 疑似控股(0)  "
+                - generic
+                  - generic
+                    - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                            - link " 纷美北京贸易有限公司" [ref=e109]
+                          - generic
+                            - link " 天津娜娇植商贸有限公司" [ref=e110]
+                          - generic
+                            - link " 娜纷歌商贸(上海)有限公司" [ref=e111]
+                          - generic
+                            - link " 北京缤纷文化传媒有限公司" [ref=e112]
+                          - generic
+                            - link " 北京鑫娜商贸有限公司" [ref=e113]
+                          - generic
+                            - link " 娜多美商贸" [ref=e114]
+                  - generic
+                    - StaticText "北京苓娜缤纷商贸有限公司关系图_爱企查"
+                  - link "投资方(1) 法定代表人：罗秋雨 主要人员(2) 北京苓娜缤纷商贸有限公司 分支机构(0) 对外投资(0) 疑似控股(0)" [ref=e62]
+                    - generic
+                      - generic
+                        - StaticText "投资方(1)"
+                      - generic
+                        - StaticText "法定代表人：罗秋雨"
+                      - generic
+                        - StaticText "主要人员(2)"
+                    - generic
+                      - StaticText "北京苓娜缤纷商贸有限公司"
+                    - generic
+                      - generic
+                        - StaticText "分支机构(0)"
+                      - generic
+                        - StaticText "对外投资(0)"
+                      - generic
+                        - StaticText "疑似控股(0)"
+                  - generic
+                    - generic
+                      - generic
+                        - link " " [ref=e88]
+                        - generic
+                          - link " 换一换" [ref=e91]
+                      - generic
+                        - generic
+                        - generic
+                        - generic
+                      - generic
+                        - generic
+                          - link "把绿色的种子种进心里" [ref=e92]
+                      - generic
+                        - generic
+                          - link "郑丽文谈访陆：两岸不是终须一战" [ref=e93]
+                      - generic
+                        - generic
+                          - link "“别人的春和景明 我的氯雷他定”" [ref=e94]
+                      - generic
+                        - generic
+                          - link "中国创新“酷”在哪里" [ref=e95]
+                      - generic
+                        - generic
+                          - link "今年蚊子或迎来史诗级加强 疾控提醒" [ref=e96]
+                      - generic
+                        - generic
+                          - link "新手友好，PayPal个人卖家账户上线" [ref=e97]
+                      - generic
+                        - generic
+                          - link "年轻人流行起“重新养育父母”" [ref=e98]
+                      - generic
+                        - generic
+                          - link "伊朗一儿童游乐场遭美以袭击" [ref=e99]
+                      - generic
+                        - generic
+                          - link "被中国淘汰的车却在印度“杀疯了”" [ref=e100]
+                      - generic
+                        - generic
+                          - link "广州遭遇“高压水枪式暴击”" [ref=e101]
+                      - generic
+                        - generic
+                          - link "女职工到底50岁还是55岁退休" [ref=e102]
+                      - generic
+                        - generic
+                          - link "时隔6年中国航班再次抵达平壤" [ref=e103]
+                      - generic
+                        - generic
+                          - link "“抗过敏药容易产生依赖”是误区" [ref=e104]
+                      - generic
+                        - generic
+                          - link "单依纯再次道歉后李荣浩秒回" [ref=e105]
+                      - generic
+                        - generic
+                          - link "伊朗首都遭大规模空袭 部分区域断电" [ref=e106]
+                      - generic
+                        - generic
+                          - link "蔡磊身体近况：四人搀扶也无法迈步" [ref=e107]
+                      - generic
+                        - generic
+                          - link "黑龙江海林建筑坍塌事故致7人遇难" [ref=e108]
+                - generic
+        - generic
+          - generic
+            - generic
+              - heading "标题:北京苓娜缤纷商贸有限公司-企业信息" [level=3, ref=e31]
+                - link "标题:北京苓娜缤纷商贸有限公司-企业信息" [ref=e43]
+                  - emphasis
+                    - StaticText "北京苓娜缤纷商贸有限公司"
+                  - StaticText "-企业信息"
+              - generic
+                - generic
+                  - link [ref=e63]
+                    - generic
+                      - generic
+                - generic
+                  - paragraph
+                    - StaticText "法定代表人：罗秋雨"
+                  - paragraph
+                    - StaticText "注册资本：300万元"
+                  - paragraph
+                    - StaticText "成立时间：2014-07-10"
+                  - StaticText "开业"
+                  - StaticText "企业待认领"
+                - generic
+                  - link "咨询" [ref=e64]
+                    - button "咨询" [ref=e80]
+                      - StaticText "咨询"
+              - paragraph
+                - emphasis
+                  - StaticText "北京苓娜缤纷商贸有限公司"
+                - StaticText "地址位于北京市大兴区黄村镇金星西路3号及3号院3号楼1F-ZD04，经营范围销售化妆品、文化用品、服装、服饰、鞋帽、工艺美术品、家庭用品、针纺织品。（市场主体依法自主选择经营项目，开展经营活动；依法须经批准的项目，经相关部门批准后依批准的内容开展经营活动；不得从事国家和本市产业政策禁止和限制类项目的经营活动。）"
+              - generic
+                - LayoutTable
+                  - LayoutTableRow
+                    - LayoutTableCell "工商信息"
+                      - link "工商信息" [ref=e81]
+                    - LayoutTableCell "认领企业"
+                      - link "认领企业" [ref=e82]
+                    - LayoutTableCell "经营状况"
+                      - link "经营状况" [ref=e83]
+                    - LayoutTableCell "企业年报"
+                      - link "企业年报" [ref=e84]
+                    - LayoutTableCell "企业股东"
+                      - link "企业股东" [ref=e85]
+              - link "2位相关人员" [ref=e32]
+                - StaticText "2位相关人员"
+              - list
+                - generic
+                  - generic
+                    - generic
+                      - listitem [level=1]
+                        - link "罗秋雨 执行董事，经理" [ref=e89]
+                      - listitem [level=1]
+                        - link "郭耀程 监事" [ref=e90]
+              - link "来源：以上信息来源爱企查，一个专业免费的企业信息查询平台" [ref=e33]
+                - generic
+          - generic
+            - generic
+              - generic
+                - heading "郭耀程 - 北广财富金融服务外包(北京)有限公司 - 法定代表人/高管..." [level=3, ref=e44]
+                  - link "郭耀程 - 北广财富金融服务外包(北京)有限公司 - 法定代表人/高管..." [ref=e65]
+                - generic
+                  - StaticText " 法定代表人 担任法定代表人: 2 家 担任股东: 2 家 担任高管: 2 家 控股企业: 2 家 罗秋雨 合作1次 担任 "
+                  - StaticText " 法定代表人 担任法定代表人: 1 家 担任股东: 1 家 担任高管: 1 家 控股企业: 1 家"
+                - generic
+                  - link "头像 爱企查" [ref=e66]
+          - generic
+            - generic
+              - generic
+                - heading "「广州众聚网络信息有限公司」2026年招聘信息-BOSS直聘" [level=3, ref=e45]
+                  - link "「广州众聚网络信息有限公司」2026年招聘信息-BOSS直聘" [ref=e67]
+                - generic
+                  - StaticText "广州 5-10年 本科 某大型游戏公司 程女士顾问 立即沟通 推荐公司: 上海铃江实业有限公司 惠州市高丰盛实业有限公司 株洲苹果营销顾问招聘 "
+                - generic
+                  - link "看准网" [ref=e68]
+          - generic
+            - generic
+              - StaticText "大家还在搜"
+            - generic
+              - link "纷美北京贸易有限公司" [ref=e34]
+                - StaticText "纷美北京贸易有限公司"
+              - link "天津娜娇植商贸有限公司" [ref=e35]
+                - StaticText "天津娜娇植商贸有限公司"
+              - link "娜纷歌商贸(上海)有限公司" [ref=e36]
+                - StaticText "娜纷歌商贸(上海)有限公司"
+              - link "北京缤纷文化传媒有限公司" [ref=e37]
+                - StaticText "北京缤纷文化传媒有限公司"
+              - link "北京鑫娜商贸有限公司" [ref=e38]
+                - StaticText "北京鑫娜商贸有限公司"
+              - link "娜多美商贸" [ref=e39]
+                - StaticText "娜多美商贸"
+              - link "北京美缇商贸有限公司" [ref=e40]
+                - StaticText "北京美缇商贸有限公司"
+              - link "北京景琳煊国际商贸有限公司" [ref=e41]
+                - StaticText "北京景琳煊国际商贸有限公司"
+          - generic
+            - generic
+              - generic
+                - heading "北京乐纯缤纷商贸有限公司 - 企查查" [level=3, ref=e46]
+                  - link "北京乐纯缤纷商贸有限公司 - 企查查" [ref=e69]
+                - generic
+                - generic
+                  - link "头像 企查查" [ref=e70]
+                - generic
+          - generic
+            - generic
+              - generic
+                - heading "[朝阳区]2026年上半年融雪剂采购项目中标公告" [level=3, ref=e47]
+                  - link "[朝阳区]2026年上半年融雪剂采购项目中标公告" [ref=e71]
+                - generic
+                - generic
+                  - link "头像 北京市政府采购网" [ref=e72]
+          - generic
+            - generic
+              - generic
+                - heading "北京乐纯缤纷商贸有限公司怎么样 - 爱企查" [level=3, ref=e48]
+                  - link "北京乐纯缤纷商贸有限公司怎么样 - 爱企查" [ref=e73]
+                - generic
+                - generic
+                  - link "头像 爱企查" [ref=e74]
+          - generic
+            - generic
+              - generic
+                - heading "黑名单查询_北京市密云区人民政府" [level=3, ref=e49]
+                  - link "黑名单查询_北京市密云区人民政府" [ref=e75]
+                - generic
+                - generic
+                  - link "头像 北京市密云区人民政府" [ref=e76]
+          - generic
+            - heading "北京缤纷顺通商贸有限公司，公司，百度百科" [level=3, ref=e26]
+              - link "北京缤纷顺通商贸有限公司，公司，百度百科" [ref=e42]
+                - emphasis
+                - StaticText "顺通"
+                - emphasis
+                - StaticText " - 百度百科"
+            - generic
+              - generic "查看更多内容"
+                - link "查看更多内容" [ref=e50]
+              - generic
+                - generic "北京缤纷顺通商贸有限公司于2003年05月21日在平谷分局登记成立。法定代表人刘如宝，公司经营范围包括销售金属材料；货物进出口、代理进出口、技术进出口等。"
+                - generic
+                  - link "百度百科" [ref=e77]
+                - generic
+          - generic
+            - generic
+              - generic
+                - heading "北京市西城区人民政府" [level=3, ref=e51]
+                  - link "北京市西城区人民政府" [ref=e78]
+                - generic
+                  - StaticText "信息详情 创业者房租补贴企业名单公示(2026年3月)发布时间:2026-03-26 14:49 分享: 序号 申请企业 1 "
+                  - StaticText " 注:现将创业者房租补贴企业名单予以7天公示。个人和组织均可就公示对象有关情况向我局反映。 联系电话: 66206019 地址:西城区樱桃二条8号院3号楼 西城区劳动服务管理中心..."
+                - generic
+                  - link "头像 北京市西城区人民政府" [ref=e79]
+        - generic
+          - generic
+            - StaticText "相关搜索"
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "纷美北京贸易有限公司"
+                - link "纷美北京贸易有限公司" [ref=e52]
+              - LayoutTableCell "天津娜娇植商贸有限公司"
+                - link "天津娜娇植商贸有限公司" [ref=e53]
+            - LayoutTableRow
+              - LayoutTableCell "娜纷歌商贸(上海)有限公司"
+                - link "娜纷歌商贸(上海)有限公司" [ref=e54]
+              - LayoutTableCell "北京缤纷文化传媒有限公司"
+                - link "北京缤纷文化传媒有限公司" [ref=e55]
+            - LayoutTableRow
+              - LayoutTableCell "北京鑫娜商贸有限公司"
+                - link "北京鑫娜商贸有限公司" [ref=e56]
+              - LayoutTableCell "娜多美商贸"
+                - link "娜多美商贸" [ref=e57]
+            - LayoutTableRow
+              - LayoutTableCell "北京美缇商贸有限公司"
+                - link "北京美缇商贸有限公司" [ref=e58]
+              - LayoutTableCell "北京景琳煊国际商贸有限公司"
+                - link "北京景琳煊国际商贸有限公司" [ref=e59]
+            - LayoutTableRow
+              - LayoutTableCell "北京俏莲娜文化传播集团有限公司"
+                - link "北京俏莲娜文化传播集团有限公司" [ref=e60]
+              - LayoutTableCell "优雅娜商贸"
+                - link "优雅娜商贸" [ref=e61]
+      - generic
+        - generic
+          - link "上一页" [ref=e15]
+          - strong
+          - link "2" [ref=e16]
+          - link "3" [ref=e17]
+          - link "4" [ref=e18]
+          - link "5" [ref=e19]
+          - link "6" [ref=e20]
+          - link "7" [ref=e21]
+          - link "8" [ref=e22]
+          - link "9" [ref=e23]
+          - link "10" [ref=e24]
+          - link "下一页" [ref=e25]
+      - generic
+      - generic
+        - generic
+          - generic
+            - link "帮助" [ref=e27]
+            - link "举报" [ref=e28]
+            - link "用户反馈" [ref=e29]
+            - link "企业推广" [ref=e30]

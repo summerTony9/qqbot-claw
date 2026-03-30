@@ -1,0 +1,361 @@
+- generic
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。" [ref=e1]
+  - generic
+    - generic
+  - generic
+    - generic
+      - generic
+        - link "到百度首页" [ref=e2]
+          - image "到百度首页"
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                  - generic
+                  - generic
+                    - generic
+                      - generic
+                      - generic
+                        - textbox [ref=e80]: 北京 中科华坤(北京)科技有限公司 招投标
+                          - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                          - generic
+                          - generic
+                        - button "百度一下" [ref=e81]
+                          - StaticText "百度一下"
+                    - generic
+                      - generic
+      - generic
+        - link "百度首页" [ref=e3]
+          - StaticText "百度首页"
+        - link "设置" [ref=e4]
+          - StaticText "设置"
+        - link "登录" [ref=e5]
+          - StaticText "登录"
+    - generic
+    - generic
+      - generic
+        - link [ref=e6]
+          - image
+        - StaticText "网页"
+        - link "图片" [ref=e7]
+          - StaticText "图片"
+        - link "资讯" [ref=e8]
+          - StaticText "资讯"
+        - link "视频" [ref=e9]
+          - StaticText "视频"
+        - link "笔记" [ref=e10]
+          - StaticText "笔记"
+        - link "地图" [ref=e11]
+          - StaticText "地图"
+        - link "贴吧" [ref=e12]
+          - StaticText "贴吧"
+        - link "文库" [ref=e13]
+          - StaticText "文库"
+        - link "更多" [ref=e14]
+          - StaticText "更多"
+        - generic
+          - StaticText "搜索工具"
+    - generic
+      - generic
+        - generic
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "相关搜索  北京科技园拍卖招标有限公司  华融东创(北京)招标咨询有限公司  华坤生物科技有限公司  海淀区招标投标公共服务平台  科技园招标代理公司  北京招标投标交易平台    换一换 热搜榜 民生榜 财经榜  把绿色的种子种进心里 1"
+                - generic
+                  - generic
+                    - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                            - link " 北京科技园拍卖招标有限公司" [ref=e101]
+                          - generic
+                            - link " 华融东创(北京)招标咨询有限公司" [ref=e102]
+                          - generic
+                            - link " 华坤生物科技有限公司" [ref=e103]
+                          - generic
+                            - link " 海淀区招标投标公共服务平台" [ref=e104]
+                          - generic
+                            - link " 科技园招标代理公司" [ref=e105]
+                          - generic
+                            - link " 北京招标投标交易平台" [ref=e106]
+                  - generic
+                    - generic
+                      - generic
+                        - link " " [ref=e82]
+                        - generic
+                          - link " 换一换" [ref=e83]
+                      - generic
+                        - generic
+                        - generic
+                        - generic
+                      - generic
+                        - generic
+                          - link "把绿色的种子种进心里" [ref=e84]
+                      - generic
+                        - generic
+                          - link "习近平欢迎并邀请郑丽文率团来访" [ref=e85]
+                      - generic
+                        - generic
+                          - link "时隔6年中国航班再次抵达平壤" [ref=e86]
+                      - generic
+                        - generic
+                          - link "中国创新“酷”在哪里" [ref=e87]
+                      - generic
+                        - generic
+                          - link "疾控提醒：今年蚊子或迎来史诗级加强" [ref=e88]
+                      - generic
+                        - generic
+                          - link "新手友好，PayPal个人卖家账户上线" [ref=e89]
+                      - generic
+                        - generic
+                          - link "广州遭遇“高压水枪式暴击”" [ref=e90]
+                      - generic
+                        - generic
+                          - link "伊朗首都遭大规模空袭 部分区域断电" [ref=e91]
+                      - generic
+                        - generic
+                          - link "被中国淘汰的车却在印度“杀疯了”" [ref=e92]
+                      - generic
+                        - generic
+                          - link "长江水下89米开高铁" [ref=e93]
+                      - generic
+                        - generic
+                          - link "女生在橘子洲拍摄旱地拔葱震撼大片" [ref=e94]
+                      - generic
+                        - generic
+                          - link "女职工到底50岁还是55岁退休" [ref=e95]
+                      - generic
+                        - generic
+                          - link "“抗过敏药容易产生依赖”是误区" [ref=e96]
+                      - generic
+                        - generic
+                          - link "单依纯再次道歉后李荣浩秒回" [ref=e97]
+                      - generic
+                        - generic
+                          - link "蔡磊身体近况：四人搀扶也无法迈步" [ref=e98]
+                      - generic
+                        - generic
+                          - link "伊朗：美国提的建议非常极端且不合理" [ref=e99]
+                      - generic
+                        - generic
+                          - link "住家保姆上门当日病人死亡 家属索赔" [ref=e100]
+                - generic
+        - generic
+          - generic
+            - generic
+              - generic
+                - heading "[公开]卫星导航及通信干扰信号抵近侦测能力提升项目公开招标公告" [level=3, ref=e38]
+                  - link "[公开]卫星导航及通信干扰信号抵近侦测能力提升项目公开招标公告" [ref=e63]
+                    - paragraph
+                - generic
+                  - StaticText "2025年5月20日"
+                  - StaticText "(3)招标文件获取方式:供应商按照规定办理CA数字认证证书"
+                  - emphasis
+                    - StaticText "(北京"
+                  - StaticText "一证通数字证书)后,自招标公告发布之日起持供应商自身数字证书登录北京市政府采购电子交易平台免费获取电子版招标文件。 (4)未按上述获取方式和期限下载招标文件的投标无效。 (5)证书驱动下载: 5.1北京市政府采购电子交易平台“用户指南”一“工具下载”一“招标采购..."
+                - generic
+                  - link "头像 北京市政府采购网" [ref=e64]
+                    - generic
+                    - StaticText "北京市政府采购网"
+          - generic
+            - generic
+              - generic
+                - heading "北京华坤科技开发有限责任公司-北京招标网-招标公告" [level=3, ref=e39]
+                  - link "北京华坤科技开发有限责任公司-北京招标网-招标公告" [ref=e65]
+                    - paragraph
+                - generic
+                  - StaticText "北京五居投资有限公司 "
+                  - emphasis
+                    - StaticText "北京市"
+                  - StaticText "利山房地产开发有限公... 北京国瑞兴业房地产开发有限... 天利"
+                  - emphasis
+                    - StaticText "(北京)"
+                  - StaticText "酒店管理有限公... 北京城康华房地产开发有限公... 北京黄金实业有限公司 北京市公路事业发展中心 北京市昌平区延寿镇慈悲峪村... 北京水发云天"
+                  - emphasis
+                    - StaticText "科技有限公司"
+                  - StaticText " 青宇(北京)国际"
+                  - emphasis
+                    - StaticText "招标有限"
+                  - StaticText "公... 交通银行北京政务中心 ..."
+                - generic
+                  - link "北京招标网" [ref=e66]
+                    - StaticText "北京招标网"
+          - generic
+            - generic
+              - generic
+                - heading "中科华坤(北京)科技有限公司 (北京市海淀区中关村南大街36号12号..." [level=3, ref=e40]
+                  - link "中科华坤(北京)科技有限公司 (北京市海淀区中关村南大街36号12号..." [ref=e67]
+                    - paragraph
+                - generic
+                  - StaticText "2026年2月9日"
+                  - StaticText "机构类型:企业 注册资金:100万 元人民币 --调查中科华坤(北京)科技有限公司异常经营报告 --调查中科华坤(北京)科技有限公司资产异动情况报告 企业类型:其他有限责任公司 社保人数:2 (人) --企业专利信息查询 --查询"
+                  - emphasis
+                    - StaticText "中科华坤(北京)科技有限公司招投标"
+                  - StaticText "信息报告(建筑企业含建筑资质与注册人员信息) ..."
+                - generic
+                  - link "名录集" [ref=e68]
+                    - StaticText "名录集"
+          - generic
+            - generic
+              - generic
+                - heading "[公开]北京友谊医院顺义院区应用系统与研究所信息化建设项目(第1..." [level=3, ref=e41]
+                  - link "[公开]北京友谊医院顺义院区应用系统与研究所信息化建设项目(第1..." [ref=e69]
+                    - paragraph
+                - generic
+                  - StaticText "2025年9月11日"
+                  - StaticText "中标成交供应商名称:"
+                  - emphasis
+                    - StaticText "北京中科"
+                  - StaticText "医信"
+                  - emphasis
+                    - StaticText "科技有限公司"
+                  - StaticText " 中标成交供应商地址:"
+                  - emphasis
+                    - StaticText "北京市"
+                  - StaticText "怀柔区杨宋镇四季屯村临甲40号东1室 中标金额:216.6万元 中标成交供应商名称:医渡云"
+                  - emphasis
+                    - StaticText "(北京)"
+                  - StaticText "技术有限公司 中标成交供应商地址:北京市海淀区花园北路35号9号楼8层801 中标金额:166万元 ..."
+                - generic
+                  - link "头像 北京市政府采购网" [ref=e70]
+                    - generic
+                    - StaticText "北京市政府采购网"
+          - generic
+            - generic
+              - StaticText "大家还在搜"
+            - generic
+              - link "北京科技园拍卖招标有限公司" [ref=e31]
+                - StaticText "北京科技园拍卖招标有限公司"
+              - link "华融东创(北京)招标咨询有限公司" [ref=e32]
+                - StaticText "华融东创(北京)招标咨询有限公司"
+              - link "华坤生物科技有限公司" [ref=e33]
+                - StaticText "华坤生物科技有限公司"
+              - link "海淀区招标投标公共服务平台" [ref=e34]
+                - StaticText "海淀区招标投标公共服务平台"
+              - link "科技园招标代理公司" [ref=e35]
+                - StaticText "科技园招标代理公司"
+              - link "北京招标投标交易平台" [ref=e36]
+                - StaticText "北京招标投标交易平台"
+          - generic
+            - generic
+              - generic
+                - heading "中科华坤(北京)科技有限公司 - 中科华坤 - 爱企查" [level=3, ref=e42]
+                  - link "中科华坤(北京)科技有限公司 - 中科华坤 - 爱企查" [ref=e71]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e78]
+                  - generic
+                    - StaticText "5天前"
+                    - emphasis
+                    - StaticText "是一家小微企业,该公司成立于2020年10月29日,位于"
+                    - emphasis
+                    - StaticText "海淀区中关村南大街36号12号楼18层1801-0221,目前处于开业状态,经营范围包括技术开发、技术转让、技术推广、技术服务、技术咨询;企业管理咨询;经济贸易咨询;教育咨询(中介服务除外);企业策划、设计;设计、制作、代理、发布广告;市场..."
+                  - generic
+                    - generic
+                      - link "头像 爱企查" [ref=e79]
+          - generic
+            - generic
+              - generic
+                - heading "中科华川(北京)科技有限公司-北京招标网-中标结果" [level=3, ref=e43]
+                  - link "中科华川(北京)科技有限公司-北京招标网-中标结果" [ref=e72]
+                - generic
+                - generic
+                  - link "北京招标网" [ref=e73]
+          - generic
+            - heading "标题:中科华坤（北京）科技有限公司-企业信息" [level=3, ref=e26]
+              - link "标题:中科华坤（北京）科技有限公司-企业信息" [ref=e37]
+                - emphasis
+                - StaticText "（"
+                - emphasis
+                - StaticText "）"
+                - emphasis
+                - StaticText "-企业信息"
+            - generic
+              - generic
+                - link [ref=e44]
+              - generic
+                - paragraph
+                - link "工商信息" [ref=e45]
+                - link "认领企业" [ref=e46]
+                - link "经营状况" [ref=e47]
+                - link "企业年报" [ref=e48]
+                - link "企业股东" [ref=e49]
+                - link "来源：以上信息来源爱企查，一个专业免费的企业信息查询平台" [ref=e50]
+          - generic
+            - generic
+              - generic
+                - heading "中科华坤(北京)科技有限公司_股东信息 - 企查查" [level=3, ref=e51]
+                  - link "中科华坤(北京)科技有限公司_股东信息 - 企查查" [ref=e74]
+                - generic
+                - generic
+                  - link "头像 企查查" [ref=e75]
+                - generic
+          - generic
+            - generic
+              - generic
+                - heading "北京邮电大学沙河校区智慧餐厅项目成交公告" [level=3, ref=e52]
+                  - link "北京邮电大学沙河校区智慧餐厅项目成交公告" [ref=e76]
+                - generic
+                - generic
+                  - link "头像 中国政府采购网" [ref=e77]
+        - generic
+          - generic
+            - StaticText "相关搜索"
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "北京科技园拍卖招标有限公司"
+                - link "北京科技园拍卖招标有限公司" [ref=e53]
+              - LayoutTableCell "华融东创(北京)招标咨询有限公司"
+                - link "华融东创(北京)招标咨询有限公司" [ref=e54]
+            - LayoutTableRow
+              - LayoutTableCell "华坤生物科技有限公司"
+                - link "华坤生物科技有限公司" [ref=e55]
+              - LayoutTableCell "海淀区招标投标公共服务平台"
+                - link "海淀区招标投标公共服务平台" [ref=e56]
+            - LayoutTableRow
+              - LayoutTableCell "科技园招标代理公司"
+                - link "科技园招标代理公司" [ref=e57]
+              - LayoutTableCell "华坤科技"
+                - link "华坤科技" [ref=e58]
+            - LayoutTableRow
+              - LayoutTableCell "北京招标投标交易平台"
+                - link "北京招标投标交易平台" [ref=e59]
+              - LayoutTableCell "兖矿集团招投标"
+                - link "兖矿集团招投标" [ref=e60]
+            - LayoutTableRow
+              - LayoutTableCell "招投标网"
+                - link "招投标网" [ref=e61]
+              - LayoutTableCell "京华云采北京市政府采购电子卖场"
+                - link "京华云采北京市政府采购电子卖场" [ref=e62]
+      - generic
+        - generic
+          - link "上一页" [ref=e15]
+          - strong
+          - link "2" [ref=e16]
+          - link "3" [ref=e17]
+          - link "4" [ref=e18]
+          - link "5" [ref=e19]
+          - link "6" [ref=e20]
+          - link "7" [ref=e21]
+          - link "8" [ref=e22]
+          - link "9" [ref=e23]
+          - link "10" [ref=e24]
+          - link "下一页" [ref=e25]
+      - generic
+      - generic
+        - generic
+          - generic
+            - link "帮助" [ref=e27]
+            - link "举报" [ref=e28]
+            - link "用户反馈" [ref=e29]
+            - link "企业推广" [ref=e30]
+
+STDERR:

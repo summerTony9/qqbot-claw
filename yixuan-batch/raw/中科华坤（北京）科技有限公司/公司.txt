@@ -1,0 +1,461 @@
+- generic
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。" [ref=e1]
+  - generic
+    - generic
+  - generic
+    - generic
+      - generic
+        - link "到百度首页" [ref=e2]
+          - image "到百度首页"
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                  - generic
+                  - generic
+                    - generic
+                      - generic
+                      - generic
+                        - textbox [ref=e97]: 北京 中科华坤(北京)科技有限公司 公司
+                          - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                          - generic
+                          - generic
+                        - button "百度一下" [ref=e98]
+                          - StaticText "百度一下"
+                    - generic
+                      - generic
+      - generic
+        - link "百度首页" [ref=e3]
+          - StaticText "百度首页"
+        - link "设置" [ref=e4]
+          - StaticText "设置"
+        - link "登录" [ref=e5]
+          - StaticText "登录"
+    - generic
+    - generic
+      - generic
+        - link [ref=e6]
+          - image
+        - StaticText "网页"
+        - link "图片" [ref=e7]
+          - StaticText "图片"
+        - link "资讯" [ref=e8]
+          - StaticText "资讯"
+        - link "视频" [ref=e9]
+          - StaticText "视频"
+        - link "笔记" [ref=e10]
+          - StaticText "笔记"
+        - link "地图" [ref=e11]
+          - StaticText "地图"
+        - link "贴吧" [ref=e12]
+          - StaticText "贴吧"
+        - link "文库" [ref=e13]
+          - StaticText "文库"
+        - link "更多" [ref=e14]
+          - StaticText "更多"
+        - generic
+          - StaticText "搜索工具"
+    - generic
+      - generic
+        - generic
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "相关搜索  昆山华坤电子科技有限公司  北京中科有限公司  华坤生物科技有限公司  北京华宇科技有限公司  北京国科环宇科技股份有限公司  华坤科技    换一换 热搜榜 民生榜 财经榜  把绿色的种子种进心里 1"
+                - generic
+                  - generic
+                    - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                            - link " 昆山华坤电子科技有限公司" [ref=e119]
+                          - generic
+                            - link " 北京中科有限公司" [ref=e120]
+                          - generic
+                            - link " 华坤生物科技有限公司" [ref=e121]
+                          - generic
+                            - link " 北京华宇科技有限公司" [ref=e122]
+                          - generic
+                            - link " 北京国科环宇科技股份有限公司" [ref=e123]
+                          - generic
+                            - link " 华坤科技" [ref=e124]
+                  - generic
+                    - generic
+                      - generic
+                        - link " " [ref=e99]
+                        - generic
+                          - link " 换一换" [ref=e101]
+                      - generic
+                        - generic
+                        - generic
+                        - generic
+                      - generic
+                        - generic
+                          - link "把绿色的种子种进心里" [ref=e102]
+                      - generic
+                        - generic
+                          - link "习近平欢迎并邀请郑丽文率团来访" [ref=e103]
+                      - generic
+                        - generic
+                          - link "时隔6年中国航班再次抵达平壤" [ref=e104]
+                      - generic
+                        - generic
+                          - link "中国创新“酷”在哪里" [ref=e105]
+                      - generic
+                        - generic
+                          - link "疾控提醒：今年蚊子或迎来史诗级加强" [ref=e106]
+                      - generic
+                        - generic
+                          - link "新手友好，PayPal个人卖家账户上线" [ref=e107]
+                      - generic
+                        - generic
+                          - link "广州遭遇“高压水枪式暴击”" [ref=e108]
+                      - generic
+                        - generic
+                          - link "伊朗首都遭大规模空袭 部分区域断电" [ref=e109]
+                      - generic
+                        - generic
+                          - link "被中国淘汰的车却在印度“杀疯了”" [ref=e110]
+                      - generic
+                        - generic
+                          - link "长江水下89米开高铁" [ref=e111]
+                      - generic
+                        - generic
+                          - link "女生在橘子洲拍摄旱地拔葱震撼大片" [ref=e112]
+                      - generic
+                        - generic
+                          - link "女职工到底50岁还是55岁退休" [ref=e113]
+                      - generic
+                        - generic
+                          - link "“抗过敏药容易产生依赖”是误区" [ref=e114]
+                      - generic
+                        - generic
+                          - link "单依纯再次道歉后李荣浩秒回" [ref=e115]
+                      - generic
+                        - generic
+                          - link "蔡磊身体近况：四人搀扶也无法迈步" [ref=e116]
+                      - generic
+                        - generic
+                          - link "伊朗：美国提的建议非常极端且不合理" [ref=e117]
+                      - generic
+                        - generic
+                          - link "住家保姆上门当日病人死亡 家属索赔" [ref=e118]
+                - generic
+        - generic
+          - generic
+            - generic
+              - generic
+                - heading "中科华坤(北京)科技有限公司 - 中科华坤 - 爱企查" [level=3, ref=e43]
+                  - link "中科华坤(北京)科技有限公司 - 中科华坤 - 爱企查" [ref=e64]
+                    - paragraph
+                      - emphasis
+                      - StaticText " - 中科华坤 - 爱企查"
+                - generic
+                  - generic
+                    - link [ref=e77]
+                      - generic
+                  - generic
+                    - StaticText "5天前"
+                    - emphasis
+                      - StaticText "中科华坤(北京)科技有限公司"
+                    - StaticText "是一家小微"
+                    - emphasis
+                      - StaticText "企业"
+                    - StaticText ",该公司成立于2020年10月29日,位于北京市海淀区中关村南大街36号12号楼18层1801-0221,目前处于开业状态,经营范围包括技术开发、技术转让、技术推广、技术服务、技术咨询;企业管理咨询;经济贸易咨询;教育咨询(中介服务除外);企业策划、设计;设计、制作、代理、发布广"
+                  - generic
+                    - generic
+                      - link "头像 爱企查" [ref=e89]
+          - generic
+            - heading "标题:中科华坤（北京）科技有限公司-企业信息" [level=3, ref=e26]
+              - link "标题:中科华坤（北京）科技有限公司-企业信息" [ref=e33]
+                - emphasis
+                  - StaticText "中科华坤"
+                - StaticText "（"
+                - emphasis
+                  - StaticText "北京"
+                - StaticText "）"
+                - emphasis
+                  - StaticText "科技有限公司"
+                - StaticText "-企业信息"
+            - generic
+              - generic
+                - link [ref=e44]
+                  - generic
+                    - generic
+              - generic
+                - paragraph
+                  - StaticText "法定代表人：潘秋谷"
+                - paragraph
+                  - StaticText "注册资本：100万元"
+                - paragraph
+                  - StaticText "成立时间：2020-10-29"
+                - StaticText "小微企业"
+                - StaticText "开业"
+                - StaticText "企业待认领"
+              - generic
+                - link "咨询" [ref=e45]
+                  - button "咨询" [ref=e65]
+                    - StaticText "咨询"
+            - paragraph
+              - emphasis
+                - StaticText "中科华坤"
+              - StaticText "（"
+              - emphasis
+                - StaticText "北京"
+              - StaticText "）"
+              - emphasis
+                - StaticText "科技有限公司"
+              - StaticText "地址位于"
+              - emphasis
+                - StaticText "北京市"
+              - StaticText "海淀区中关村南大街36号12号楼18层1801-0221，经营范围技术开发、技术转让、技术推广、技术服务、技术咨询；企业管理咨询；经济贸易咨询；教育咨询（中介服务除外）；企业策划、设计；设计、制作、代理、发布广告；市场调查；软件开发；软件咨询；产品设计；会议服务；承办展览展示活动；销售自行开发的产品。（市场主体依法自主选择经营项目，开展经营活动；依法须经批准的项目，经相关部门批准后依批准的内容开展经营活动；不得从事国家和本市产业政策禁止和限制类项目的经营活动。）"
+            - generic
+              - LayoutTable
+                - LayoutTableRow
+                  - LayoutTableCell "工商信息"
+                    - link "工商信息" [ref=e78]
+                      - StaticText "工商信息"
+                  - LayoutTableCell "认领企业"
+                    - link "认领企业" [ref=e79]
+                      - StaticText "认领企业"
+                  - LayoutTableCell "经营状况"
+                    - link "经营状况" [ref=e80]
+                      - StaticText "经营状况"
+                  - LayoutTableCell "企业年报"
+                    - link "企业年报" [ref=e81]
+                      - StaticText "企业年报"
+                  - LayoutTableCell "企业股东"
+                    - link "企业股东" [ref=e82]
+                      - StaticText "企业股东"
+            - link "2位相关人员" [ref=e27]
+              - StaticText "2位相关人员"
+            - list
+              - generic
+                - generic
+                  - generic
+                    - listitem [level=1]
+                      - link "潘秋谷 财务负责人，执行董事，经理" [ref=e90]
+                    - listitem [level=1]
+                      - link "杨树梅 监事" [ref=e91]
+            - link "来源：以上信息来源爱企查，一个专业免费的企业信息查询平台" [ref=e28]
+              - generic
+                - generic
+                  - generic
+                    - image
+          - generic
+            - generic
+              - generic
+                - heading "中科华坤(北京)科技有限公司 - 百度地图" [level=3, ref=e46]
+                  - link "中科华坤(北京)科技有限公司 - 百度地图" [ref=e66]
+                    - paragraph
+                      - emphasis
+                      - StaticText " - 百度地图"
+                - generic
+                  - generic
+                    - generic
+                      - link "中科华坤(北京)科技有限公司" [ref=e92]
+                    - generic
+                      - link "北京市海淀区丰慧中路7号新材料创业大厦10层北侧办公1269号" [ref=e93]
+                    - generic
+                      - generic
+                        - link "" [ref=e100]
+                - generic
+                  - link "百度地图" [ref=e67]
+                    - generic
+                    - generic
+          - generic
+            - generic
+              - generic
+                - heading "中科华坤(北京)科技有限公司 - 企查查" [level=3, ref=e47]
+                  - link "中科华坤(北京)科技有限公司 - 企查查" [ref=e68]
+                    - paragraph
+                - generic
+                  - StaticText "2026年2月20日"
+                  - emphasis
+                    - StaticText "中科华坤(北京)科技有限公司"
+                  - StaticText "是⼀家成⽴于2020年10月29日的其他有限责任公司,属于以从事科学研究和技术服务业为主的"
+                  - emphasis
+                    - StaticText "企业"
+                  - StaticText "。位于"
+                  - emphasis
+                    - StaticText "北京市"
+                  - StaticText "海淀区,法定代表人为潘秋谷,目前处于存续状态,公司电话:15010258378,地址:北京市海淀区中关村南大街36号12号楼18层1801-0221。公司人员规模:少于50人,参保人数:2人,注册资本:100万..."
+                - generic
+                  - link "头像 企查查" [ref=e69]
+                    - generic
+                    - StaticText "企查查"
+                - generic
+                  - generic
+          - generic
+            - generic
+              - StaticText "大家还在搜"
+            - generic
+              - link "昆山华坤电子科技有限公司" [ref=e34]
+                - StaticText "昆山华坤电子科技有限公司"
+              - link "北京中科有限公司" [ref=e35]
+                - StaticText "北京中科有限公司"
+              - link "华坤生物科技有限公司" [ref=e36]
+                - StaticText "华坤生物科技有限公司"
+              - link "北京华宇科技有限公司" [ref=e37]
+                - StaticText "北京华宇科技有限公司"
+              - link "北京国科环宇科技股份有限公司" [ref=e38]
+                - StaticText "北京国科环宇科技股份有限公司"
+              - link "华坤科技" [ref=e39]
+                - StaticText "华坤科技"
+              - link "华坤公司" [ref=e40]
+                - StaticText "华坤公司"
+              - link "北京科工集团" [ref=e41]
+                - StaticText "北京科工集团"
+          - generic
+            - generic
+              - generic
+                - heading "中科华坤(北京)科技有限公司-电话、地址" [level=3, ref=e48]
+                  - link "中科华坤(北京)科技有限公司-电话、地址" [ref=e70]
+                    - paragraph
+                - generic
+                  - StaticText "2022年10月1日"
+                  - emphasis
+                    - StaticText "中科华坤(北京)科技有限公司"
+                  - StaticText "成立于2020年10月29日,注册地位于"
+                  - emphasis
+                    - StaticText "北京市"
+                  - StaticText "海淀区丰慧中路7号新材料创业大厦10层10层北侧办公1269号,法定代表人为潘秋谷。经营范围包括技术开发、技术转让、技术推广、技术服务、技术咨询;"
+                  - emphasis
+                    - StaticText "企业"
+                  - StaticText "管理咨询;经济贸易咨询;教育咨询(中介服务除外);企业策划、设计;设计、制作、代理、发布广告;市场..."
+                - generic
+                  - link "利酷搜" [ref=e71]
+                    - StaticText "利酷搜"
+          - generic
+            - generic
+              - generic
+                - heading "中科华坤(北京)科技有限公司取得汽车防撞梁专利,减少对防撞梁本体..." [level=3, ref=e49]
+                  - link "中科华坤(北京)科技有限公司取得汽车防撞梁专利,减少对防撞梁本体..." [ref=e72]
+                    - paragraph
+                - generic
+                  - StaticText "2025年4月29日"
+                  - StaticText "本实用新型通过第一缓冲部第二缓冲部共同作用,减少对防撞梁本体的损害。 天眼查资料显示,"
+                  - emphasis
+                    - StaticText "中科华坤(北京)科技有限公司"
+                  - StaticText ",成立于2020年,位于"
+                  - emphasis
+                    - StaticText "北京市"
+                  - StaticText ",是一家以从事科技推广和应用服务业为主的"
+                  - emphasis
+                    - StaticText "企业"
+                  - StaticText "。企业注册资本100万人民币。通过天眼查大数据分析,中科华坤(北京)科技有限公司财产线索方面有商标信息3条,专利信息38条,此外企..."
+                - generic
+                  - link "金融界" [ref=e73]
+                    - StaticText "金融界"
+          - generic
+            - generic
+              - heading "山河汇科创集团有限公司(公司) - 百度百科" [level=3, ref=e42]
+                - link "山河汇科创集团有限公司(公司) - 百度百科" [ref=e50]
+                  - paragraph
+                    - StaticText "山河汇科创集团"
+                    - emphasis
+                    - StaticText "(公司) - 百度百科"
+              - generic
+                - generic
+                  - generic
+                    - link [ref=e83]
+                  - generic
+                    - paragraph
+                      - link "详情" [ref=e94]
+                      - link "" [ref=e95]
+                  - generic
+                    - link "发展历程" [ref=e84]
+                  - generic
+                    - link "业务体系" [ref=e85]
+                  - generic
+                    - link "知识产权" [ref=e86]
+                  - generic
+                    - link "经营状况" [ref=e87]
+              - generic
+                - link "百度百科" [ref=e51]
+                  - StaticText "百度百科"
+          - generic
+            - generic
+              - generic
+                - heading "解难题促发展 中关村街道为企业“量身”服务" [level=3, ref=e52]
+                  - link "解难题促发展 中关村街道为企业“量身”服务" [ref=e74]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e88]
+                  - generic
+                    - StaticText "2023年2月13日"
+                    - emphasis
+                    - StaticText "是“2022中关村•智聚创新创业大赛”的获奖"
+                    - emphasis
+                    - StaticText ",其主导的玄武岩纤维新材料应用项目备受关注。开年第一站,董智杭就带着“四所一队”和服务经济、地区商会负责人来到公司所在的中科喀斯玛孵化园区,通过面对面座谈交流进一步了解企业发展现状、长远目标和当前遇到的问题困难等,主动对接企业需求,..."
+                  - generic
+                    - generic
+                      - link "头像 国家税务总局北京市税务局" [ref=e96]
+          - generic
+            - generic
+              - generic
+                - heading "中科华坤(北京)科技有限公司-政策补贴 - 企知道" [level=3, ref=e53]
+                  - link "中科华坤(北京)科技有限公司-政策补贴 - 企知道" [ref=e75]
+                - generic
+                - generic
+                  - link "企知道" [ref=e76]
+        - generic
+          - generic
+            - StaticText "相关搜索"
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "昆山华坤电子科技有限公司"
+                - link "昆山华坤电子科技有限公司" [ref=e54]
+              - LayoutTableCell "北京中科有限公司"
+                - link "北京中科有限公司" [ref=e55]
+            - LayoutTableRow
+              - LayoutTableCell "华坤生物科技有限公司"
+                - link "华坤生物科技有限公司" [ref=e56]
+              - LayoutTableCell "北京华宇科技有限公司"
+                - link "北京华宇科技有限公司" [ref=e57]
+            - LayoutTableRow
+              - LayoutTableCell "北京国科环宇科技股份有限公司"
+                - link "北京国科环宇科技股份有限公司" [ref=e58]
+              - LayoutTableCell "华坤科技"
+                - link "华坤科技" [ref=e59]
+            - LayoutTableRow
+              - LayoutTableCell "华坤公司"
+                - link "华坤公司" [ref=e60]
+              - LayoutTableCell "北京科工集团"
+                - link "北京科工集团" [ref=e61]
+            - LayoutTableRow
+              - LayoutTableCell "北京科华"
+                - link "北京科华" [ref=e62]
+              - LayoutTableCell "北京寰宇科技有限责任公司"
+                - link "北京寰宇科技有限责任公司" [ref=e63]
+      - generic
+        - generic
+          - link "上一页" [ref=e15]
+          - strong
+          - link "2" [ref=e16]
+          - link "3" [ref=e17]
+          - link "4" [ref=e18]
+          - link "5" [ref=e19]
+          - link "6" [ref=e20]
+          - link "7" [ref=e21]
+          - link "8" [ref=e22]
+          - link "9" [ref=e23]
+          - link "10" [ref=e24]
+          - link "下一页" [ref=e25]
+      - generic
+      - generic
+        - generic
+          - generic
+            - link "帮助" [ref=e29]
+            - link "举报" [ref=e30]
+            - link "用户反馈" [ref=e31]
+            - link "企业推广" [ref=e32]
+
+STDERR:

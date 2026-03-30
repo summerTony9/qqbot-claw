@@ -1,0 +1,453 @@
+- generic
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。" [ref=e1]
+  - generic
+    - generic
+  - generic
+    - generic
+      - generic
+        - link "到百度首页" [ref=e2]
+          - image "到百度首页"
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                  - generic
+                  - generic
+                    - generic
+                      - generic
+                      - generic
+                        - textbox [ref=e91]: 北京苓娜缤纷商贸有限公司 对外投资 子公司 母公司 股东
+                          - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                          - generic
+                          - generic
+                        - button "百度一下" [ref=e92]
+                          - StaticText "百度一下"
+                    - generic
+                      - generic
+      - generic
+        - link "百度首页" [ref=e3]
+          - StaticText "百度首页"
+        - link "设置" [ref=e4]
+          - StaticText "设置"
+        - link "登录" [ref=e5]
+          - StaticText "登录"
+    - generic
+    - generic
+      - generic
+        - link [ref=e6]
+          - image
+        - StaticText "网页"
+        - link "图片" [ref=e7]
+          - StaticText "图片"
+        - link "资讯" [ref=e8]
+          - StaticText "资讯"
+        - link "视频" [ref=e9]
+          - StaticText "视频"
+        - link "笔记" [ref=e10]
+          - StaticText "笔记"
+        - link "地图" [ref=e11]
+          - StaticText "地图"
+        - link "贴吧" [ref=e12]
+          - StaticText "贴吧"
+        - link "文库" [ref=e13]
+          - StaticText "文库"
+        - link "更多" [ref=e14]
+          - StaticText "更多"
+        - generic
+          - StaticText "搜索工具"
+    - generic
+      - generic
+        - generic
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "相关搜索  全资子公司和母公司的关系  母公司  母公司和子公司  母公司与子公司的区别  对外投资设立全资子公司  全资子公司属于对外投资吗    换一换 热搜榜 民生榜 财经榜  把绿色的种子种进心里 1"
+                - generic
+                  - generic
+                    - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                            - link " 全资子公司和母公司的关系" [ref=e117]
+                          - generic
+                            - link " 母公司" [ref=e118]
+                          - generic
+                            - link " 母公司和子公司" [ref=e119]
+                          - generic
+                            - link " 母公司与子公司的区别" [ref=e120]
+                          - generic
+                            - link " 对外投资设立全资子公司" [ref=e121]
+                          - generic
+                            - link " 全资子公司属于对外投资吗" [ref=e122]
+                  - generic
+                    - generic
+                      - generic
+                        - link " " [ref=e93]
+                          - generic
+                          - generic
+                        - generic
+                          - link " 换一换" [ref=e99]
+                      - generic
+                        - generic
+                          - StaticText "热搜榜"
+                        - generic
+                          - StaticText "民生榜"
+                        - generic
+                          - StaticText "财经榜"
+                      - generic
+                        - generic
+                          - generic
+                          - link "把绿色的种子种进心里" [ref=e100]
+                      - generic
+                        - generic
+                          - StaticText "1"
+                          - link "郑丽文谈访陆：两岸不是终须一战" [ref=e101]
+                          - generic
+                      - generic
+                        - generic
+                          - StaticText "2"
+                          - link "“别人的春和景明 我的氯雷他定”" [ref=e102]
+                          - generic
+                      - generic
+                        - generic
+                          - StaticText "3"
+                          - link "中国创新“酷”在哪里" [ref=e103]
+                      - generic
+                        - generic
+                          - StaticText "4"
+                          - link "今年蚊子或迎来史诗级加强 疾控提醒" [ref=e104]
+                          - generic
+                      - generic
+                        - generic
+                          - generic
+                          - link "新手友好，PayPal个人卖家账户上线" [ref=e105]
+                          - generic
+                      - generic
+                        - generic
+                          - StaticText "5"
+                          - link "年轻人流行起“重新养育父母”" [ref=e106]
+                      - generic
+                        - generic
+                          - StaticText "6"
+                          - link "伊朗一儿童游乐场遭美以袭击" [ref=e107]
+                          - generic
+                      - generic
+                        - generic
+                          - StaticText "7"
+                          - link "被中国淘汰的车却在印度“杀疯了”" [ref=e108]
+                      - generic
+                        - generic
+                          - StaticText "8"
+                          - link "广州遭遇“高压水枪式暴击”" [ref=e109]
+                      - generic
+                        - generic
+                          - StaticText "9"
+                          - link "女职工到底50岁还是55岁退休" [ref=e110]
+                      - generic
+                        - generic
+                          - StaticText "10"
+                          - link "时隔6年中国航班再次抵达平壤" [ref=e111]
+                          - generic
+                      - generic
+                        - generic
+                          - StaticText "11"
+                          - link "“抗过敏药容易产生依赖”是误区" [ref=e112]
+                      - generic
+                        - generic
+                          - StaticText "12"
+                          - link "单依纯再次道歉后李荣浩秒回" [ref=e113]
+                          - generic
+                      - generic
+                        - generic
+                          - StaticText "13"
+                          - link "伊朗首都遭大规模空袭 部分区域断电" [ref=e114]
+                          - generic
+                      - generic
+                        - generic
+                          - StaticText "14"
+                          - link "蔡磊身体近况：四人搀扶也无法迈步" [ref=e115]
+                      - generic
+                        - generic
+                          - StaticText "15"
+                          - link "黑龙江海林建筑坍塌事故致7人遇难" [ref=e116]
+                          - generic
+                - generic
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                    - image
+                    - generic
+                      - generic
+                        - generic
+                          - StaticText ""
+                        - StaticText "听"
+                    - generic
+                      - generic
+                        - paragraph
+                          - StaticText "根据截至2026年3月30日的公开资料，北京苓娜缤纷商贸有限公司的股权结构、对外投资及关联情况如下："
+                        - heading "股东情况" [level=3, ref=e94]
+                          - StaticText "股东情况"
+                        - list
+                          - listitem [level=1]
+                          - listitem [level=1]
+                        - heading "公司性质" [level=3, ref=e95]
+                          - StaticText "公司性质"
+                        - list
+                          - listitem [level=1]
+                          - listitem [level=1]
+                          - listitem [level=1]
+                        - heading "对外投资与子公司" [level=3, ref=e96]
+                          - StaticText "对外投资与子公司"
+                        - list
+                          - listitem [level=1]
+                          - listitem [level=1]
+                        - heading "高管与监事" [level=3, ref=e97]
+                          - StaticText "高管与监事"
+                        - list
+                          - listitem [level=1]
+                          - listitem [level=1]
+                        - heading "经营异常情况" [level=3, ref=e98]
+                          - StaticText "经营异常情况"
+                        - list
+                          - listitem [level=1]
+                        - paragraph
+                          - StaticText "如需进一步查询企业详情，可访问以下平台："
+                        - list
+                          - listitem [level=1]
+                            - link "天眼查 - 北京苓娜缤纷商贸有限公司" [ref=e123]
+                          - listitem [level=1]
+                            - link "企查查 - 北京苓娜缤纷商贸有限公司" [ref=e124]
+                    - generic
+                    - generic
+          - generic
+            - generic
+              - generic
+                - heading "...北广财富金融服务外包(北京)有限公司 - 法定代表人/高管/股东..." [level=3, ref=e44]
+                  - link "...北广财富金融服务外包(北京)有限公司 - 法定代表人/高管/股东..." [ref=e63]
+                    - paragraph
+                - generic
+                  - StaticText "2025年6月30日"
+                  - emphasis
+                    - StaticText "股东"
+                  - StaticText " 监事 史伟鑫 1,000万(元) 2014-10-29 北京市朝阳区 开业 2 苓娜缤纷 北京苓娜缤纷商贸有限公司 监事 罗秋雨 300万(元) 2014-07-10 北京市大兴区 开业 所有任职企业 2 序号 企业名称 职务 注册资本 成立时间 地区 状态 1 北广财富金融服务外包(北京)有限公司 股东 监事 1,000万(元) 2014-10-29"
+                - generic
+                  - link "头像 爱企查" [ref=e64]
+                    - generic
+                    - StaticText "爱企查"
+          - generic
+            - heading "标题:北京苓娜缤纷商贸有限公司-企业信息" [level=3, ref=e26]
+              - link "标题:北京苓娜缤纷商贸有限公司-企业信息" [ref=e34]
+                - emphasis
+                  - StaticText "北京苓娜缤纷商贸有限公司"
+                - StaticText "-企业信息"
+            - generic
+              - generic
+                - link [ref=e45]
+                  - generic
+                    - generic
+              - generic
+                - paragraph
+                  - StaticText "法定代表人：罗秋雨"
+                - paragraph
+                  - StaticText "注册资本：300万元"
+                - paragraph
+                  - StaticText "成立时间：2014-07-10"
+                - StaticText "开业"
+                - StaticText "企业待认领"
+              - generic
+                - link "咨询" [ref=e46]
+                  - button "咨询" [ref=e65]
+                    - StaticText "咨询"
+            - paragraph
+              - emphasis
+                - StaticText "北京苓娜缤纷商贸有限公司"
+              - StaticText "地址位于北京市大兴区黄村镇金星西路3号及3号院3号楼1F-ZD04，经营范围销售化妆品、文化用品、服装、服饰、鞋帽、工艺美术品、家庭用品、针纺织品。（市场主体依法自主选择经营项目，开展经营活动；依法须经批准的项目，经相关部门批准后依批准的内容开展经营活动；不得从事国家和本市产业政策禁止和限制类项目的经营活动。）"
+            - generic
+              - LayoutTable
+                - LayoutTableRow
+                  - LayoutTableCell "工商信息"
+                    - link "工商信息" [ref=e82]
+                  - LayoutTableCell "认领企业"
+                    - link "认领企业" [ref=e83]
+                  - LayoutTableCell "经营状况"
+                    - link "经营状况" [ref=e84]
+                  - LayoutTableCell "企业年报"
+                    - link "企业年报" [ref=e85]
+                  - LayoutTableCell "企业股东"
+                    - link "企业股东" [ref=e86]
+            - link "2位相关人员" [ref=e27]
+              - StaticText "2位相关人员"
+            - list
+              - generic
+                - generic
+                  - generic
+                    - listitem [level=1]
+                      - link "罗秋雨 执行董事，经理" [ref=e88]
+                    - listitem [level=1]
+                      - link "郭耀程 监事" [ref=e89]
+            - link "来源：以上信息来源爱企查，一个专业免费的企业信息查询平台" [ref=e28]
+              - generic
+                - generic
+                  - generic
+                    - image
+          - generic
+            - generic
+              - StaticText "大家还在搜"
+            - generic
+              - link "全资子公司和母公司的关系" [ref=e35]
+                - StaticText "全资子公司和母公司的关系"
+              - link "母公司" [ref=e36]
+                - StaticText "母公司"
+              - link "母公司和子公司" [ref=e37]
+                - StaticText "母公司和子公司"
+              - link "母公司与子公司的区别" [ref=e38]
+                - StaticText "母公司与子公司的区别"
+              - link "对外投资设立全资子公司" [ref=e39]
+                - StaticText "对外投资设立全资子公司"
+              - link "全资子公司属于对外投资吗" [ref=e40]
+                - StaticText "全资子公司属于对外投资吗"
+              - link "对外投资设立子公司利好吗" [ref=e41]
+                - StaticText "对外投资设立子公司利好吗"
+              - link "以子公司股权对外投资" [ref=e42]
+                - StaticText "以子公司股权对外投资"
+          - generic
+            - generic
+              - generic
+                - heading "新赛点:对外投资的公告-新三板—东方财富网" [level=3, ref=e47]
+                  - link "新赛点:对外投资的公告-新三板—东方财富网" [ref=e66]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e87]
+                  - generic
+                    - StaticText "7天前"
+                    - StaticText "一、"
+                    - emphasis
+                    - StaticText "概述(一)基本情况 为推进北京新赛点体育投资股份"
+                    - emphasis
+                    - StaticText "(以下简称“公司”)整体战略布局,满足未来市场需求,提高市场占有率,保障公司产业布局规划及发展战略的实施,推动公司业务合作和发展,公司控股"
+                    - emphasis
+                    - StaticText "百动整合体育发展"
+                    - emphasis
+                    - StaticText "拟设立全资子公司上海百动体育科技有限公司,注册资本 100.00 万元,具体以..."
+                  - generic
+                    - generic
+                      - link "东方财富网" [ref=e90]
+          - generic
+            - generic
+              - generic
+                - heading "一、母公司层面(立方数科股份有限公司)-对外投资公司数量:13家..." [level=3, ref=e48]
+                  - link "一、母公司层面(立方数科股份有限公司)-对外投资公司数量:13家..." [ref=e67]
+                - generic
+                  - StaticText "、参股公司) - 投资总额(认缴/实缴口径): - 公开可查的主要子公司认缴合计约 2.5亿元+(如安徽立方5000万、上海立方5000万、北京互联立方7484万、深圳超立方2000万等) - 无官方披露的“全部投资总额”精确汇总数 二、合并报表..."
+                - generic
+                  - link "东方财富网" [ref=e68]
+          - generic
+            - heading "北京金五星商贸集团有限公司，公司，百度百科" [level=3, ref=e29]
+              - link "北京金五星商贸集团有限公司，公司，百度百科" [ref=e43]
+                - emphasis
+                - StaticText "金五星"
+                - emphasis
+                - StaticText "集团"
+                - emphasis
+                - StaticText " - 百度百科"
+            - generic
+              - generic "查看更多内容"
+                - link "查看更多内容" [ref=e49]
+              - generic
+                - generic "北京金五星商贸集团有限公司是1993年10月13日成立的有限责任公司（自然人投资或控股），法定代表人杨志刚，注册资本5000万元，注册地位于北京市海淀区中关村东路118号。公司主营业务涵盖零售出版物、音像制品、家用电器等商品销售，同时开展汽车租赁、商业用房出租、进出口贸易及游乐园经营等业务，员工规模193人。股东结构为..."
+                - generic
+                  - link "历史沿革" [ref=e69]
+                  - link "经营范围" [ref=e70]
+                  - link "组织架构" [ref=e71]
+                  - link "企业文化" [ref=e72]
+                  - link "经营状况" [ref=e73]
+                  - link "点击可查看更多内容" [ref=e74]
+                - generic
+                  - link "百度百科" [ref=e75]
+                - generic
+          - generic
+            - generic
+              - generic
+                - heading "浩瀚长空(北京)商贸有限责任公司_对外投资_公司对外投资查询..." [level=3, ref=e50]
+                  - link "浩瀚长空(北京)商贸有限责任公司_对外投资_公司对外投资查询..." [ref=e76]
+                - generic
+                - generic
+                  - link "头像 天眼查" [ref=e77]
+          - generic
+            - generic
+              - generic
+                - heading "「莱阳市古柳友信信息咨询服务部」2026年招聘信息-BOSS直聘" [level=3, ref=e51]
+                  - link "「莱阳市古柳友信信息咨询服务部」2026年招聘信息-BOSS直聘" [ref=e78]
+                - generic
+                  - StaticText " 苑女士HRD 立即沟通 推荐公司: 株洲苹果营销顾问招聘 "
+                - generic
+                  - link "看准网" [ref=e79]
+          - generic
+            - generic
+              - generic
+                - heading "北京纳璞科技有限公司_对外投资_公司对外投资查询 - 天眼查" [level=3, ref=e52]
+                  - link "北京纳璞科技有限公司_对外投资_公司对外投资查询 - 天眼查" [ref=e80]
+                - generic
+                - generic
+                  - link "头像 天眼查" [ref=e81]
+        - generic
+          - generic
+            - StaticText "相关搜索"
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "全资子公司和母公司的关系"
+                - link "全资子公司和母公司的关系" [ref=e53]
+              - LayoutTableCell "母公司"
+                - link "母公司" [ref=e54]
+            - LayoutTableRow
+              - LayoutTableCell "母公司和子公司"
+                - link "母公司和子公司" [ref=e55]
+              - LayoutTableCell "母公司与子公司的区别"
+                - link "母公司与子公司的区别" [ref=e56]
+            - LayoutTableRow
+              - LayoutTableCell "对外投资设立全资子公司"
+                - link "对外投资设立全资子公司" [ref=e57]
+              - LayoutTableCell "全资子公司属于对外投资吗"
+                - link "全资子公司属于对外投资吗" [ref=e58]
+            - LayoutTableRow
+              - LayoutTableCell "对外投资设立子公司利好吗"
+                - link "对外投资设立子公司利好吗" [ref=e59]
+              - LayoutTableCell "以子公司股权对外投资"
+                - link "以子公司股权对外投资" [ref=e60]
+            - LayoutTableRow
+              - LayoutTableCell "设立子公司是否属于对外投资"
+                - link "设立子公司是否属于对外投资" [ref=e61]
+              - LayoutTableCell "对外投资公司和子公司的区别"
+                - link "对外投资公司和子公司的区别" [ref=e62]
+      - generic
+        - generic
+          - link "上一页" [ref=e15]
+          - strong
+          - link "2" [ref=e16]
+          - link "3" [ref=e17]
+          - link "4" [ref=e18]
+          - link "5" [ref=e19]
+          - link "6" [ref=e20]
+          - link "7" [ref=e21]
+          - link "8" [ref=e22]
+          - link "9" [ref=e23]
+          - link "10" [ref=e24]
+          - link "下一页" [ref=e25]
+      - generic
+      - generic
+        - generic
+          - generic
+            - link "帮助" [ref=e30]
+            - link "举报" [ref=e31]
+            - link "用户反馈" [ref=e32]
+            - link "企业推广" [ref=e33]

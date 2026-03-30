@@ -1,0 +1,550 @@
+- generic
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。" [ref=e1]
+  - generic
+    - generic
+  - generic
+    - generic
+      - generic
+        - link "到百度首页" [ref=e2]
+          - image "到百度首页"
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                  - generic
+                  - generic
+                    - generic
+                      - generic
+                      - generic
+                        - textbox [ref=e115]: 北京 北京弗远嘉科技有限公司 招投标
+                          - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                          - generic
+                          - generic
+                        - button "百度一下" [ref=e116]
+                          - StaticText "百度一下"
+                    - generic
+                      - generic
+      - generic
+        - link "百度首页" [ref=e3]
+          - StaticText "百度首页"
+        - link "设置" [ref=e4]
+          - StaticText "设置"
+        - link "登录" [ref=e5]
+          - StaticText "登录"
+    - generic
+    - generic
+      - generic
+        - link [ref=e6]
+          - image
+        - StaticText "网页"
+        - link "图片" [ref=e7]
+          - StaticText "图片"
+        - link "资讯" [ref=e8]
+          - StaticText "资讯"
+        - link "视频" [ref=e9]
+          - StaticText "视频"
+        - link "笔记" [ref=e10]
+          - StaticText "笔记"
+        - link "地图" [ref=e11]
+          - StaticText "地图"
+        - link "贴吧" [ref=e12]
+          - StaticText "贴吧"
+        - link "文库" [ref=e13]
+          - StaticText "文库"
+        - link "更多" [ref=e14]
+          - StaticText "更多"
+        - generic
+          - StaticText "搜索工具"
+    - generic
+      - generic
+        - generic
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "相关搜索  北京十大招标代理公司  北京科技园拍卖招标有限公司  北京招投标公司  北京安润通中标  北京招标网  国管招标(北京)有限公司    换一换 热搜榜 民生榜 财经榜  把绿色的种子种进心里 1"
+                - generic
+                  - generic
+                    - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                            - link " 北京十大招标代理公司" [ref=e140]
+                          - generic
+                            - link " 北京科技园拍卖招标有限公司" [ref=e141]
+                          - generic
+                            - link " 北京招投标公司" [ref=e142]
+                          - generic
+                            - link " 北京安润通中标" [ref=e143]
+                          - generic
+                            - link " 北京招标网" [ref=e144]
+                          - generic
+                            - link " 国管招标(北京)有限公司" [ref=e145]
+                  - generic
+                    - generic
+                      - generic
+                        - link " " [ref=e117]
+                        - generic
+                          - link " 换一换" [ref=e122]
+                      - generic
+                        - generic
+                        - generic
+                        - generic
+                      - generic
+                        - generic
+                          - link "把绿色的种子种进心里" [ref=e123]
+                      - generic
+                        - generic
+                          - link "习近平欢迎并邀请郑丽文率团来访" [ref=e124]
+                      - generic
+                        - generic
+                          - link "时隔6年中国航班再次抵达平壤" [ref=e125]
+                      - generic
+                        - generic
+                          - link "中国创新“酷”在哪里" [ref=e126]
+                      - generic
+                        - generic
+                          - link "疾控提醒：今年蚊子或迎来史诗级加强" [ref=e127]
+                      - generic
+                        - generic
+                          - link "新手友好，PayPal个人卖家账户上线" [ref=e128]
+                      - generic
+                        - generic
+                          - link "广州遭遇“高压水枪式暴击”" [ref=e129]
+                      - generic
+                        - generic
+                          - link "伊朗首都遭大规模空袭 部分区域断电" [ref=e130]
+                      - generic
+                        - generic
+                          - link "被中国淘汰的车却在印度“杀疯了”" [ref=e131]
+                      - generic
+                        - generic
+                          - link "长江水下89米开高铁" [ref=e132]
+                      - generic
+                        - generic
+                          - link "女生在橘子洲拍摄旱地拔葱震撼大片" [ref=e133]
+                      - generic
+                        - generic
+                          - link "女职工到底50岁还是55岁退休" [ref=e134]
+                      - generic
+                        - generic
+                          - link "“抗过敏药容易产生依赖”是误区" [ref=e135]
+                      - generic
+                        - generic
+                          - link "单依纯再次道歉后李荣浩秒回" [ref=e136]
+                      - generic
+                        - generic
+                          - link "蔡磊身体近况：四人搀扶也无法迈步" [ref=e137]
+                      - generic
+                        - generic
+                          - link "伊朗：美国提的建议非常极端且不合理" [ref=e138]
+                      - generic
+                        - generic
+                          - link "住家保姆上门当日病人死亡 家属索赔" [ref=e139]
+                - generic
+        - generic
+          - generic
+            - generic
+              - heading "标题:北京弗远嘉科技有限公司-企业信息" [level=3, ref=e40]
+                - link "标题:北京弗远嘉科技有限公司-企业信息" [ref=e71]
+                  - emphasis
+                    - StaticText "北京弗远嘉科技有限公司"
+                  - StaticText "-企业信息"
+              - generic
+                - generic
+                  - link [ref=e90]
+                    - generic
+                      - generic
+                - generic
+                  - paragraph
+                    - StaticText "法定代表人：王菊"
+                  - paragraph
+                    - StaticText "注册资本：100万元"
+                  - paragraph
+                    - StaticText "成立时间：2020-06-23"
+                  - StaticText "小微企业"
+                  - StaticText "开业"
+                  - StaticText "企业待认领"
+                - generic
+                  - link "咨询" [ref=e91]
+                    - button "咨询" [ref=e105]
+                      - StaticText "咨询"
+              - paragraph
+                - emphasis
+                  - StaticText "北京弗远嘉科技有限公司"
+                - StaticText "地址位于"
+                - emphasis
+                  - StaticText "北京市"
+                - StaticText "延庆区中关村延庆园风谷四路8号院27号楼524室，经营范围技术开发、技术咨询、技术转让、技术推广、技术服务；组织文化艺术交流活动；承办展览展示；城市园林绿化施工；会议服务；市场调查；企业管理；企业管理咨询、企业形象策划、策划创意服务；软件开发；专业承包；设计、制作、代理、发布广告；供应链管理；专业设计服务；销售计算机、软件及辅助设备、电子产品、文化用品、体育用品、通讯设备、建筑材料、金属制品；互联网信息服务。（市场主体依法自主选择经营项目，开展经营活动；互联网信息服务以及依法须经批准的项目，经相关部门批准后依批准的内容开展经营活动；不得从事国家和本市产业政策禁止和限制类项目的经营活动。）"
+              - generic
+                - LayoutTable
+                  - LayoutTableRow
+                    - LayoutTableCell "工商信息"
+                      - link "工商信息" [ref=e107]
+                    - LayoutTableCell "认领企业"
+                      - link "认领企业" [ref=e108]
+                    - LayoutTableCell "经营状况"
+                      - link "经营状况" [ref=e109]
+                    - LayoutTableCell "企业年报"
+                      - link "企业年报" [ref=e110]
+                    - LayoutTableCell "企业股东"
+                      - link "企业股东" [ref=e111]
+              - link "2位相关人员" [ref=e41]
+                - StaticText "2位相关人员"
+              - list
+                - generic
+                  - generic
+                    - generic
+                      - listitem [level=1]
+                        - link "张文军 监事" [ref=e118]
+                      - listitem [level=1]
+                        - link "王菊 经理，执行董事" [ref=e119]
+              - link "来源：以上信息来源爱企查，一个专业免费的企业信息查询平台" [ref=e42]
+                - generic
+                  - generic
+                    - generic
+                      - image
+          - generic
+            - generic
+              - generic
+                - heading "[公开]北京友谊医院顺义院区应用系统与研究所信息化建设项目(第1..." [level=3, ref=e72]
+                  - link "[公开]北京友谊医院顺义院区应用系统与研究所信息化建设项目(第1..." [ref=e92]
+                    - paragraph
+                      - StaticText "[公开]"
+                      - emphasis
+                      - StaticText "友谊医院顺义院区应用系统与研究所信息化建设项目(第1..."
+                - generic
+                  - StaticText "2025年9月11日"
+                  - StaticText "二、项目名称:"
+                  - emphasis
+                    - StaticText "北京"
+                  - StaticText "友谊医院顺义院区应用系统与研究所信息化建设项目(医院部分)"
+                  - emphasis
+                    - StaticText "招标"
+                  - StaticText " 三、中标(成交)信息 总中标成交金额:1953.9316 万元(人民币) 中标成交供应商名称、地址及中标成交金额: 中标成交供应商名称:"
+                  - emphasis
+                    - StaticText "北京"
+                  - StaticText "兆维博安"
+                  - emphasis
+                    - StaticText "科技有限公司"
+                  - StaticText " 中标成交供应商地址:"
+                  - emphasis
+                    - StaticText "北京市"
+                  - StaticText "朝阳区酒仙桥路14号50号楼3层 中标金额:105.7万元 中标成交供"
+                - generic
+                  - link "头像 北京市政府采购网" [ref=e93]
+                    - generic
+                      - generic
+                    - StaticText "北京市政府采购网"
+          - generic
+            - heading "北京市招投标-中国招投标信息网" [level=3, ref=e26]
+              - generic
+                - link "北京市招投标-中国招投标信息网" [ref=e73]
+                  - StaticText "北京"
+                  - StaticText "市"
+                  - StaticText "招投标"
+                  - StaticText "-中国招投标信息网"
+            - link [ref=e27]
+              - image
+            - generic
+              - link "最近5分钟前有人申请相关服务" [ref=e43]
+                - generic
+                  - StaticText "最近5分钟前有人申请相关服务"
+            - generic
+              - link "北京市招投标—中小企业公共服务示范平台,为企业提供招标,采购,中标,工程项目信息,覆盖行业全,涵盖全国数万家招标资源,助力企业中标!" [ref=e44]
+                - generic
+                  - StaticText "北京"
+                  - StaticText "市"
+                  - StaticText "招投标"
+                  - StaticText "—中小企业公共服务示范平台,为企业提供招标,采购,中标,工程项目信息,覆盖行业全,涵盖全国数万家招标资源,助力企业中标!"
+            - generic
+              - StaticText "服务项目:"
+              - link "招标采购查询" [ref=e45]
+                - StaticText "招标采购查询"
+              - link "项目进度跟踪" [ref=e46]
+                - StaticText "项目进度跟踪"
+              - link "企业数据查询" [ref=e47]
+                - StaticText "企业数据查询"
+              - link "更多" [ref=e48]
+                - StaticText "更多"
+                - StaticText ""
+            - generic
+              - StaticText "服务项目:"
+              - link "特约查询" [ref=e49]
+                - StaticText "特约查询"
+              - link "竟对分析" [ref=e50]
+                - StaticText "竟对分析"
+              - link "商机跟踪" [ref=e51]
+                - StaticText "商机跟踪"
+              - link "更多" [ref=e52]
+                - StaticText "更多"
+                - StaticText ""
+            - generic
+              - StaticText "热门分类:"
+              - link "实时标讯" [ref=e53]
+                - StaticText "实时标讯"
+              - link "采购意向" [ref=e54]
+                - StaticText "采购意向"
+              - link "招标查询" [ref=e55]
+                - StaticText "招标查询"
+              - link "更多" [ref=e56]
+                - StaticText "更多"
+                - StaticText ""
+            - generic
+              - link [ref=e57]
+                - image
+            - link "招标公告" [ref=e28]
+              - generic
+                - StaticText "招标公告"
+            - link "实时更新" [ref=e29]
+              - generic
+                - StaticText "实时更新"
+            - generic
+              - link [ref=e58]
+                - image
+            - link "拟在建项目" [ref=e30]
+              - generic
+                - StaticText "拟在建项目"
+            - link "建设项目跟踪" [ref=e31]
+              - generic
+                - StaticText "建设项目跟踪"
+            - generic
+              - link [ref=e59]
+                - image
+            - link "采购信息" [ref=e32]
+              - generic
+                - StaticText "采购信息"
+            - link "覆盖全国" [ref=e33]
+              - generic
+                - StaticText "覆盖全国"
+            - generic
+              - link [ref=e60]
+                - image
+            - link "一键订阅" [ref=e34]
+              - generic
+                - StaticText "一键订阅"
+            - link "助力企业" [ref=e35]
+              - generic
+                - StaticText "助力企业"
+            - generic
+              - link "查看更多相关信息" [ref=e61]
+                - StaticText "查看更多相关信息"
+                - StaticText ""
+            - generic
+              - link "宁夏智启星教育咨询 2026-03广告" [ref=e62]
+                - StaticText "宁夏智启星教育咨询"
+                - StaticText " 2026-03"
+                - generic
+                  - generic
+                    - StaticText ""
+                - generic
+                  - StaticText "广告"
+                - generic
+          - generic
+            - generic
+              - generic
+                - heading "[公开]生态及遥感监测运维项目-全市植被生物量监测(2026)公开招标..." [level=3, ref=e74]
+                  - link "[公开]生态及遥感监测运维项目-全市植被生物量监测(2026)公开招标..." [ref=e94]
+                    - paragraph
+                      - StaticText "[公开]生态及遥感监测运维项目-全市植被生物量监测(2026)公开"
+                      - emphasis
+                      - StaticText "..."
+                - generic
+                  - StaticText "8天前"
+                  - StaticText "供应商使用CA数字证书或电子营业执照登录"
+                  - emphasis
+                    - StaticText "北京市"
+                  - StaticText "政府采购电子交易平台获取电子招标文件。 供应商如计划参与多个采购包的"
+                  - emphasis
+                    - StaticText "投标"
+                  - StaticText ",应在登录北京市政府采购电子交易平台后,在【我的项目】栏目依次选择对应采购包,进入项目工作台"
+                  - emphasis
+                    - StaticText "招标"
+                  - StaticText "/采购文件环节分别按采购包下载招标文件电子版。未在规定期限内按上述操作获取文件的采购包,供应商..."
+                - generic
+                  - link "头像 北京市政府采购网" [ref=e95]
+                    - generic
+                      - generic
+                    - StaticText "北京市政府采购网"
+          - generic
+            - generic
+              - StaticText "大家还在搜"
+            - generic
+              - link "北京十大招标代理公司" [ref=e63]
+                - StaticText "北京十大招标代理公司"
+              - link "北京科技园拍卖招标有限公司" [ref=e64]
+                - StaticText "北京科技园拍卖招标有限公司"
+              - link "北京招投标公司" [ref=e65]
+                - StaticText "北京招投标公司"
+              - link "北京安润通中标" [ref=e66]
+                - StaticText "北京安润通中标"
+              - link "北京招标网" [ref=e67]
+                - StaticText "北京招标网"
+              - link "国管招标(北京)有限公司" [ref=e68]
+                - StaticText "国管招标(北京)有限公司"
+              - link "北京招标投标交易平台" [ref=e69]
+                - StaticText "北京招标投标交易平台"
+              - link "兖矿集团招投标" [ref=e70]
+                - StaticText "兖矿集团招投标"
+          - generic
+            - generic
+              - generic
+                - heading "王菊- 北京弗远嘉科技有限公司 - 企查查" [level=3, ref=e75]
+                  - link "王菊- 北京弗远嘉科技有限公司 - 企查查" [ref=e96]
+                    - paragraph
+                      - StaticText "王菊- "
+                      - emphasis
+                      - StaticText " - 企查查"
+                - generic
+                  - StaticText "2026年2月2日"
+                  - StaticText "投资、任职的公司与他相关的企业 2020-06-25 担任法定代表人:担任"
+                  - emphasis
+                    - StaticText "北京弗远嘉科技有限公司"
+                  - StaticText "的法定代表人2020-06-25 新增企业:北京弗远嘉科技有限公司,担任职务:经理执行董事2020-06-25 被投资企业:北京弗远嘉科技有限公司 投资比例:100% 全部动态 相关企业1 ..."
+                - generic
+                  - link "头像 企查查" [ref=e97]
+                    - generic
+                      - generic
+                    - StaticText "企查查"
+                - generic
+                  - generic
+          - generic
+            - generic
+              - generic
+                - heading "张文军 - 北京聚匠投资合伙企业(有限合伙) - 法定代表人/高管/..." [level=3, ref=e76]
+                  - link "张文军 - 北京聚匠投资合伙企业(有限合伙) - 法定代表人/高管/..." [ref=e98]
+                    - paragraph
+                      - StaticText "张文军 - "
+                      - emphasis
+                      - StaticText "聚匠投资合伙"
+                      - emphasis
+                      - StaticText "("
+                      - emphasis
+                      - StaticText "合伙) - 法定代表人/高管/..."
+                - generic
+                  - generic
+                    - link [ref=e106]
+                      - generic
+                  - generic
+                    - StaticText "2026年2月24日"
+                    - StaticText "一、张文军担任职务:张文军目前担任北京匠驰科技有限公司法定代表人,同时担任"
+                    - emphasis
+                      - StaticText "北京弗远嘉科技有限公司"
+                    - StaticText "监事,北京匠驰科技有限公司执行董事,经理;二、张文军的商业合作伙伴:基于公开数据展示,张文军目前有11个商业合作伙伴,包括李文华、刘海龙、赵红刚等。 财产线索 线索数量 老板履历 图文概览商业履历 任职全景图 投资、任..."
+                  - generic
+                    - generic
+                      - link "头像 爱企查" [ref=e112]
+          - generic
+            - generic
+              - generic
+                - heading "北京市交通委员会" [level=3, ref=e77]
+                  - link "北京市交通委员会" [ref=e99]
+                    - paragraph
+                      - emphasis
+                      - StaticText "交通委员会"
+                - generic
+                  - StaticText "6天前"
+                  - StaticText "中标地址:"
+                  - emphasis
+                    - StaticText "北京市"
+                  - StaticText "丰台区西三环南路1号(六里桥西南角) "
+                  - emphasis
+                    - StaticText "招标"
+                  - StaticText "公告日期:2026年2月13日 中标日期:2026年3月18日 工期:365日历天 北京市普通公路路网设施及治超非现场执法设施运维项目第2标段 中标人:北京云星宇交通"
+                  - emphasis
+                    - StaticText "科技"
+                  - StaticText "股份"
+                  - emphasis
+                    - StaticText "有限公司"
+                  - StaticText " 中标金额:13183235万元 中标地址:北京市丰台区西三环南路1号(六里桥西南角) ..."
+                - generic
+                  - link "头像 北京市交通委员会" [ref=e100]
+                    - generic
+                      - generic
+                    - StaticText "北京市交通委员会"
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                    - generic
+                      - heading "北京 北京弗远嘉科技有限公司 招投标 - 实时智能回复" [level=3, ref=e113]
+                        - link "北京 北京弗远嘉科技有限公司 招投标 - 实时智能回复" [ref=e120]
+                    - generic
+                      - link "头像" [ref=e114]
+                      - generic
+                        - link "北京招标信息查询 109人聊过 北京地区招投标咨询服务专家，提供招标流程、招标文件编制、投标策略等方面的咨询服务。" [ref=e121]
+          - generic
+            - generic
+              - generic
+                - heading "北京市司法局2026年度办公设备运维保障服务项目成交结果公告" [level=3, ref=e78]
+                  - link "北京市司法局2026年度办公设备运维保障服务项目成交结果公告" [ref=e101]
+                - generic
+                - generic
+                  - link "头像 北京市司法局" [ref=e102]
+          - generic
+            - generic
+              - generic
+                - heading "转播站运维采购项目(第一~六包)中标公告_通知公告_北京市广播电视局" [level=3, ref=e79]
+                  - link "转播站运维采购项目(第一~六包)中标公告_通知公告_北京市广播电视局" [ref=e103]
+                - generic
+                - generic
+                  - link "头像 北京市广播电视局" [ref=e104]
+        - generic
+          - generic
+            - StaticText "相关搜索"
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "北京十大招标代理公司"
+                - link "北京十大招标代理公司" [ref=e80]
+              - LayoutTableCell "北京科技园拍卖招标有限公司"
+                - link "北京科技园拍卖招标有限公司" [ref=e81]
+            - LayoutTableRow
+              - LayoutTableCell "北京招投标公司"
+                - link "北京招投标公司" [ref=e82]
+              - LayoutTableCell "北京安润通中标"
+                - link "北京安润通中标" [ref=e83]
+            - LayoutTableRow
+              - LayoutTableCell "北京招标网"
+                - link "北京招标网" [ref=e84]
+              - LayoutTableCell "国管招标(北京)有限公司"
+                - link "国管招标(北京)有限公司" [ref=e85]
+            - LayoutTableRow
+              - LayoutTableCell "北京招标投标交易平台"
+                - link "北京招标投标交易平台" [ref=e86]
+              - LayoutTableCell "兖矿集团招投标"
+                - link "兖矿集团招投标" [ref=e87]
+            - LayoutTableRow
+              - LayoutTableCell "招投标网"
+                - link "招投标网" [ref=e88]
+              - LayoutTableCell "北京国际招标有限公司官网"
+                - link "北京国际招标有限公司官网" [ref=e89]
+      - generic
+        - generic
+          - link "上一页" [ref=e15]
+          - strong
+          - link "2" [ref=e16]
+          - link "3" [ref=e17]
+          - link "4" [ref=e18]
+          - link "5" [ref=e19]
+          - link "6" [ref=e20]
+          - link "7" [ref=e21]
+          - link "8" [ref=e22]
+          - link "9" [ref=e23]
+          - link "10" [ref=e24]
+          - link "下一页" [ref=e25]
+      - generic
+      - generic
+        - generic
+          - generic
+            - link "帮助" [ref=e36]
+            - link "举报" [ref=e37]
+            - link "用户反馈" [ref=e38]
+            - link "企业推广" [ref=e39]
+
+STDERR:

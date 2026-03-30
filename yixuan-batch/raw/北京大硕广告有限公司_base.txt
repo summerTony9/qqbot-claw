@@ -1,0 +1,395 @@
+- generic
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。" [ref=e1]
+  - generic
+    - generic
+  - generic
+    - generic
+      - generic
+        - link "到百度首页" [ref=e2]
+          - image "到百度首页"
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                  - generic
+                  - generic
+                    - generic
+                      - generic
+                      - generic
+                        - textbox [ref=e89]: 北京大硕广告有限公司
+                          - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                          - generic
+                          - generic
+                        - button "百度一下" [ref=e90]
+                          - StaticText "百度一下"
+                    - generic
+                      - generic
+      - generic
+        - link "百度首页" [ref=e3]
+          - StaticText "百度首页"
+        - link "设置" [ref=e4]
+          - StaticText "设置"
+        - link "登录" [ref=e5]
+          - StaticText "登录"
+    - generic
+    - generic
+      - generic
+        - link [ref=e6]
+          - image
+        - StaticText "网页"
+        - link "图片" [ref=e7]
+          - StaticText "图片"
+        - link "资讯" [ref=e8]
+          - StaticText "资讯"
+        - link "视频" [ref=e9]
+          - StaticText "视频"
+        - link "笔记" [ref=e10]
+          - StaticText "笔记"
+        - link "地图" [ref=e11]
+          - StaticText "地图"
+        - link "贴吧" [ref=e12]
+          - StaticText "贴吧"
+        - link "文库" [ref=e13]
+          - StaticText "文库"
+        - link "更多" [ref=e14]
+          - StaticText "更多"
+        - generic
+          - StaticText "搜索工具"
+    - generic
+      - generic
+        - generic
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "相关搜索  北京市广告公司前十名  北京广告公司招聘信息  北京声达广告有限公司  北京广告公司有哪些  北京广告公司排行榜  大广(中国)广告有限公司广州分公司 北京大硕广告有限公司关系图_爱企查 投资方(2) 法定代表人：叶久辉 主要人员(2) 北京大硕广告有限公司 分支机构(0) 对外投资(0) 疑似控股(0)  "
+                - generic
+                  - generic
+                    - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                            - link " 北京市广告公司前十名" [ref=e112]
+                          - generic
+                            - link " 北京广告公司招聘信息" [ref=e113]
+                          - generic
+                            - link " 北京声达广告有限公司" [ref=e114]
+                          - generic
+                            - link " 北京广告公司有哪些" [ref=e115]
+                          - generic
+                            - link " 北京广告公司排行榜" [ref=e116]
+                          - generic
+                            - link " 大广(中国)广告有限公司广州分公司" [ref=e117]
+                  - generic
+                    - StaticText "北京大硕广告有限公司关系图_爱企查"
+                  - link "投资方(2) 法定代表人：叶久辉 主要人员(2) 北京大硕广告有限公司 分支机构(0) 对外投资(0) 疑似控股(0)" [ref=e60]
+                    - generic
+                      - generic
+                        - StaticText "投资方(2)"
+                      - generic
+                        - StaticText "法定代表人：叶久辉"
+                      - generic
+                        - StaticText "主要人员(2)"
+                    - generic
+                      - StaticText "北京大硕广告有限公司"
+                    - generic
+                      - generic
+                        - StaticText "分支机构(0)"
+                      - generic
+                        - StaticText "对外投资(0)"
+                      - generic
+                        - StaticText "疑似控股(0)"
+                  - generic
+                    - generic
+                      - generic
+                        - link " " [ref=e91]
+                        - generic
+                          - link " 换一换" [ref=e94]
+                      - generic
+                        - generic
+                        - generic
+                        - generic
+                      - generic
+                        - generic
+                          - link "把绿色的种子种进心里" [ref=e95]
+                      - generic
+                        - generic
+                          - link "郑丽文谈访陆：两岸不是终须一战" [ref=e96]
+                      - generic
+                        - generic
+                          - link "“别人的春和景明 我的氯雷他定”" [ref=e97]
+                      - generic
+                        - generic
+                          - link "中国创新“酷”在哪里" [ref=e98]
+                      - generic
+                        - generic
+                          - link "今年蚊子或迎来史诗级加强 疾控提醒" [ref=e99]
+                      - generic
+                        - generic
+                          - link "新手友好，PayPal个人卖家账户上线" [ref=e100]
+                      - generic
+                        - generic
+                          - link "年轻人流行起“重新养育父母”" [ref=e101]
+                      - generic
+                        - generic
+                          - link "伊朗一儿童游乐场遭美以袭击" [ref=e102]
+                      - generic
+                        - generic
+                          - link "被中国淘汰的车却在印度“杀疯了”" [ref=e103]
+                      - generic
+                        - generic
+                          - link "广州遭遇“高压水枪式暴击”" [ref=e104]
+                      - generic
+                        - generic
+                          - link "女职工到底50岁还是55岁退休" [ref=e105]
+                      - generic
+                        - generic
+                          - link "时隔6年中国航班再次抵达平壤" [ref=e106]
+                      - generic
+                        - generic
+                          - link "“抗过敏药容易产生依赖”是误区" [ref=e107]
+                      - generic
+                        - generic
+                          - link "单依纯再次道歉后李荣浩秒回" [ref=e108]
+                      - generic
+                        - generic
+                          - link "伊朗首都遭大规模空袭 部分区域断电" [ref=e109]
+                      - generic
+                        - generic
+                          - link "蔡磊身体近况：四人搀扶也无法迈步" [ref=e110]
+                      - generic
+                        - generic
+                          - link "黑龙江海林建筑坍塌事故致7人遇难" [ref=e111]
+                - generic
+        - generic
+          - generic
+            - generic
+              - heading "标题:北京大硕广告有限公司-企业信息" [level=3, ref=e31]
+                - link "标题:北京大硕广告有限公司-企业信息" [ref=e41]
+                  - emphasis
+                    - StaticText "北京大硕广告有限公司"
+                  - StaticText "-企业信息"
+              - generic
+                - generic
+                  - link [ref=e61]
+                    - generic
+                      - generic
+                - generic
+                  - paragraph
+                    - StaticText "法定代表人：叶久辉"
+                  - paragraph
+                    - StaticText "注册资本：10万元"
+                  - paragraph
+                    - StaticText "成立时间：2021-04-02"
+                  - StaticText "注销"
+                  - StaticText "企业未认领"
+              - paragraph
+                - emphasis
+                  - StaticText "北京大硕广告有限公司"
+                - StaticText "地址位于北京市昌平区中兴路21号院1号楼7层723，经营范围设计、制作、代理、发布广告；承办展览展示活动；会议服务；包装装潢设计；模型设计；工艺美术设计；组织文化艺术交流活动（不含营业性演出）；房地产信息咨询；从事房地产经纪业务；电影摄制；电脑图文设计；软件开发；基础软件服务、应用软件服务（不含医用软件）；企业策划（不含中介服务）；模型设计；电脑动画设计；摄影服务；影视策划；礼仪服务；销售文化用品、工艺品、电子产品、计算机、软件及辅助设备。（市场主体依法自主选择经营项目，开展经营活动；依法须经批准的项目，经相关部门批准后依批准的内容开展经营活动；不得从事国家和本市产业政策禁止和限制类项目的经营活动。）"
+              - generic
+                - LayoutTable
+                  - LayoutTableRow
+                    - LayoutTableCell "工商信息"
+                      - link "工商信息" [ref=e83]
+                    - LayoutTableCell "经营状况"
+                      - link "经营状况" [ref=e84]
+                    - LayoutTableCell "企业年报"
+                      - link "企业年报" [ref=e85]
+                    - LayoutTableCell "企业股东"
+                      - link "企业股东" [ref=e86]
+                    - LayoutTableCell "行政许可"
+                      - link "行政许可" [ref=e87]
+              - link "2位相关人员" [ref=e32]
+                - StaticText "2位相关人员"
+              - list
+                - generic
+                  - generic
+                    - generic
+                      - listitem [level=1]
+                        - link "叶久辉 执行董事，经理" [ref=e92]
+                      - listitem [level=1]
+                        - link "祁标 监事" [ref=e93]
+              - link "来源：以上信息来源爱企查，一个专业免费的企业信息查询平台" [ref=e33]
+                - generic
+                  - generic
+                    - generic
+          - generic
+            - generic
+              - generic
+                - heading "叶久辉 - 北京大硕广告有限公司 - 法定代表人/高管/股东 - 爱企查" [level=3, ref=e42]
+                  - link "叶久辉 - 北京大硕广告有限公司 - 法定代表人/高管/股东 - 爱企查" [ref=e62]
+                    - paragraph
+                - generic
+                  - StaticText "2026年3月4日"
+                  - emphasis
+                    - StaticText "北京"
+                  - StaticText "优硕广告"
+                  - emphasis
+                    - StaticText "有限公司"
+                  - StaticText " 50% 叶久辉 10万(元) 2021-04-28 "
+                  - emphasis
+                    - StaticText "北京市"
+                  - StaticText "通州区 注销 4 富鲨测绘 鹤岗市富鲨测绘服务"
+                  - emphasis
+                    - StaticText "有限公司"
+                  - StaticText " 20% 祁标 10万(元) 2025-01-07 黑龙江省鹤岗市工农区 注销 担任高管 3 序号 企业名称 职务 法定代表人 注册资本 成立时间 地区 状态 1 大硕广告 "
+                  - emphasis
+                    - StaticText "北京大硕广告有限公司"
+                  - StaticText " 法定代表人 股东"
+                - generic
+                  - link "头像 爱企查" [ref=e63]
+                    - generic
+                    - StaticText "爱企查"
+          - generic
+            - generic
+              - generic
+                - heading "北京大硕律师事务所:养乐多被罚45万?健康类产品公关“问题多”_百度知..." [level=3, ref=e43]
+                  - link "北京大硕律师事务所:养乐多被罚45万?健康类产品公关“问题多”_百度知..." [ref=e64]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e81]
+                  - StaticText "1个回答 - 回答时间: 2026年3月27日"
+                  - generic
+                    - StaticText "最佳答案: "
+                    - StaticText "养乐多的宣传将益生菌功效与新冠病毒防治直接关联，属于对官方信息的曲解和夸大。处罚结果与企业回应上海益力多乳品"
+                    - emphasis
+                    - StaticText "被罚款45万元，处罚信息来源于启信宝APP查询结果。益力多官方已公开道歉，承认宣传行为不当。此次事件导致企业直接经济损失，同时严重损害其公信力，暴露出健康类产品公关中“取巧”或“刻..."
+                  - generic
+                    - link "更多关于北京大硕广告有限公司的问题>>" [ref=e82]
+                  - generic
+                    - generic
+                      - link "百度知道" [ref=e88]
+          - generic
+            - generic
+              - StaticText "大家还在搜"
+            - generic
+              - link "北京市广告公司前十名" [ref=e34]
+                - StaticText "北京市广告公司前十名"
+              - link "北京广告公司招聘信息" [ref=e35]
+                - StaticText "北京广告公司招聘信息"
+              - link "北京声达广告有限公司" [ref=e36]
+                - StaticText "北京声达广告有限公司"
+              - link "北京广告公司有哪些" [ref=e37]
+                - StaticText "北京广告公司有哪些"
+              - link "北京广告公司排行榜" [ref=e38]
+                - StaticText "北京广告公司排行榜"
+              - link "大广(中国)广告有限公司广州分公司" [ref=e39]
+                - StaticText "大广(中国)广告有限公司广州分公司"
+          - generic
+            - heading "北京硕才广告有限公司，公司，百度百科" [level=3, ref=e26]
+              - link "北京硕才广告有限公司，公司，百度百科" [ref=e40]
+                - emphasis
+                - StaticText "才"
+                - emphasis
+                - StaticText " - 百度百科"
+            - generic
+              - generic
+                - generic "北京硕才广告有限公司成立于2017年3月7日，法定代表人为于跃，总部位于北京市通州区新华西街58号院3号楼8层808，注册资本100万人民币，企业类型为有限责任公司（法人独资），所属行业为商务服务业。公司主要经营广告设计制作代理发布、企业管理咨询、文化艺术交流活动组织等业务，同时涵盖电脑图文设计、展览展示承办、大型晚会策划等文化服务领域，并持有广播电视节目制作经营许可证、网络文化经营许可证及出版物零售许可。2025年3月2日，公司经营范围发生变更。该公司下设北京分公司和天津分公司，对外投资企业9家，包括北京硕才文化传媒有限公司、海南硕才文化传媒有限公司、北京硕才文化有限公司等。2023年企业类型变更为有限责任公司（自然人投资或控股），注册资本曾由200万元调整至210万元；2025年1月8日注册资本增加至310万元，随后于2025年3月2日减至100万元，企业类型变更为有限责任公司（自然人"
+                - generic
+                  - link "历史沿革" [ref=e65]
+                  - link "企业治理" [ref=e66]
+                  - link "业务范围" [ref=e67]
+                  - link "经营状况" [ref=e68]
+                  - link "对外投资" [ref=e69]
+                  - link "点击可查看更多内容" [ref=e70]
+                - link "百度百科" [ref=e44]
+                - generic
+          - generic
+            - generic
+              - generic
+                - heading "「西峰区大硕广告部」2026年招聘信息-BOSS直聘" [level=3, ref=e45]
+                  - link "「西峰区大硕广告部」2026年招聘信息-BOSS直聘" [ref=e71]
+                - generic
+                - generic
+                  - link "看准网" [ref=e72]
+          - generic
+            - generic
+              - generic
+                - heading "「北京硕才广告大专工资待遇怎么样」北京硕才广告有限公司 - 职友集" [level=3, ref=e46]
+                  - link "「北京硕才广告大专工资待遇怎么样」北京硕才广告有限公司 - 职友集" [ref=e73]
+                - generic
+                  - StaticText "北京硕才广告大专薪酬区间: 4.5K - 30K,其中70%的岗位拿￥8-15K 10%4.5-6K15%6-8K*** ?8-10K*** ?10-15K5%20-30K 说明:北京硕才"
+                - generic
+                  - link "头像 职友集" [ref=e74]
+          - generic
+            - generic
+              - generic
+                - heading "朝阳就业服务-首页" [level=3, ref=e47]
+                  - link "朝阳就业服务-首页" [ref=e75]
+                - generic
+                - generic
+                  - link "头像 朝阳就业服务" [ref=e76]
+          - generic
+            - generic
+              - generic
+                - heading "北京点亿大硕广告中心(个体工商户) - 爱企查" [level=3, ref=e48]
+                  - link "北京点亿大硕广告中心(个体工商户) - 爱企查" [ref=e77]
+                - generic
+                - generic
+                  - link "头像 爱企查" [ref=e78]
+          - generic
+            - generic
+              - generic
+                - heading "「重庆大硕广告传媒有限公司」2026年招聘信息-BOSS直聘" [level=3, ref=e49]
+                  - link "「重庆大硕广告传媒有限公司」2026年招聘信息-BOSS直聘" [ref=e79]
+                - generic
+                - generic
+                  - link "看准网" [ref=e80]
+        - generic
+          - generic
+            - StaticText "相关搜索"
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "北京市广告公司前十名"
+                - link "北京市广告公司前十名" [ref=e50]
+              - LayoutTableCell "北京广告公司招聘信息"
+                - link "北京广告公司招聘信息" [ref=e51]
+            - LayoutTableRow
+              - LayoutTableCell "北京声达广告有限公司"
+                - link "北京声达广告有限公司" [ref=e52]
+              - LayoutTableCell "北京广告公司有哪些"
+                - link "北京广告公司有哪些" [ref=e53]
+            - LayoutTableRow
+              - LayoutTableCell "北京广告公司排行榜"
+                - link "北京广告公司排行榜" [ref=e54]
+              - LayoutTableCell "大广(中国)广告有限公司广州分公司"
+                - link "大广(中国)广告有限公司广州分公司" [ref=e55]
+            - LayoutTableRow
+              - LayoutTableCell "北京必尔得广告有限公司"
+                - link "北京必尔得广告有限公司" [ref=e56]
+              - LayoutTableCell "北京信硕咨询有限公司"
+                - link "北京信硕咨询有限公司" [ref=e57]
+            - LayoutTableRow
+              - LayoutTableCell "北京纯硕健身有限公司"
+                - link "北京纯硕健身有限公司" [ref=e58]
+              - LayoutTableCell "北京至硕科技有限公司"
+                - link "北京至硕科技有限公司" [ref=e59]
+      - generic
+        - generic
+          - link "上一页" [ref=e15]
+          - strong
+          - link "2" [ref=e16]
+          - link "3" [ref=e17]
+          - link "4" [ref=e18]
+          - link "5" [ref=e19]
+          - link "6" [ref=e20]
+          - link "7" [ref=e21]
+          - link "8" [ref=e22]
+          - link "9" [ref=e23]
+          - link "10" [ref=e24]
+          - link "下一页" [ref=e25]
+      - generic
+      - generic
+        - generic
+          - generic
+            - link "帮助" [ref=e27]
+            - link "举报" [ref=e28]
+            - link "用户反馈" [ref=e29]
+            - link "企业推广" [ref=e30]

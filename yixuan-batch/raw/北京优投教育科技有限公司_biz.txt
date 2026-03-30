@@ -1,0 +1,471 @@
+- generic
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。" [ref=e1]
+  - generic
+    - generic
+  - generic
+    - generic
+      - generic
+        - link "到百度首页" [ref=e2]
+          - image "到百度首页"
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                  - generic
+                  - generic
+                    - generic
+                      - generic
+                      - generic
+                        - textbox [ref=e87]: 北京优投教育科技有限公司 主营 行业
+                          - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                          - generic
+                          - generic
+                        - button "百度一下" [ref=e88]
+                          - StaticText "百度一下"
+                    - generic
+                      - generic
+      - generic
+        - link "百度首页" [ref=e3]
+          - StaticText "百度首页"
+        - link "设置" [ref=e4]
+          - StaticText "设置"
+        - link "登录" [ref=e5]
+          - StaticText "登录"
+    - generic
+    - generic
+      - generic
+        - link [ref=e6]
+          - image
+        - StaticText "网页"
+        - link "图片" [ref=e7]
+          - StaticText "图片"
+        - link "资讯" [ref=e8]
+          - StaticText "资讯"
+        - link "视频" [ref=e9]
+          - StaticText "视频"
+        - link "笔记" [ref=e10]
+          - StaticText "笔记"
+        - link "地图" [ref=e11]
+          - StaticText "地图"
+        - link "贴吧" [ref=e12]
+          - StaticText "贴吧"
+        - link "文库" [ref=e13]
+          - StaticText "文库"
+        - link "更多" [ref=e14]
+          - StaticText "更多"
+        - generic
+          - StaticText "搜索工具"
+    - generic
+      - generic
+        - generic
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "相关搜索  主营行业和经营范围  主营行业类别  北京优学教育科技股份有限公司  主营行业  北京优投科技孵化器有限公司  北京国投创盈投资管理有限公司    换一换 热搜榜 民生榜 财经榜  把绿色的种子种进心里 1"
+                - generic
+                  - generic
+                    - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                            - link " 主营行业和经营范围" [ref=e108]
+                          - generic
+                            - link " 主营行业类别" [ref=e109]
+                          - generic
+                            - link " 北京优学教育科技股份有限公司" [ref=e110]
+                          - generic
+                            - link " 主营行业" [ref=e111]
+                          - generic
+                            - link " 北京优投科技孵化器有限公司" [ref=e112]
+                          - generic
+                            - link " 北京国投创盈投资管理有限公司" [ref=e113]
+                  - generic
+                    - generic
+                      - generic
+                        - link " " [ref=e89]
+                          - generic
+                          - generic
+                        - generic
+                          - link " 换一换" [ref=e90]
+                      - generic
+                        - generic
+                          - StaticText "热搜榜"
+                        - generic
+                          - StaticText "民生榜"
+                        - generic
+                          - StaticText "财经榜"
+                      - generic
+                        - generic
+                          - generic
+                          - link "把绿色的种子种进心里" [ref=e91]
+                      - generic
+                        - generic
+                          - StaticText "1"
+                          - link "郑丽文谈访陆：两岸不是终须一战" [ref=e92]
+                          - generic
+                      - generic
+                        - generic
+                          - StaticText "2"
+                          - link "“别人的春和景明 我的氯雷他定”" [ref=e93]
+                          - generic
+                      - generic
+                        - generic
+                          - StaticText "3"
+                          - link "中国创新“酷”在哪里" [ref=e94]
+                      - generic
+                        - generic
+                          - StaticText "4"
+                          - link "今年蚊子或迎来史诗级加强 疾控提醒" [ref=e95]
+                          - generic
+                      - generic
+                        - generic
+                          - generic
+                          - link "新手友好，PayPal个人卖家账户上线" [ref=e96]
+                          - generic
+                      - generic
+                        - generic
+                          - StaticText "5"
+                          - link "年轻人流行起“重新养育父母”" [ref=e97]
+                      - generic
+                        - generic
+                          - StaticText "6"
+                          - link "伊朗一儿童游乐场遭美以袭击" [ref=e98]
+                          - generic
+                      - generic
+                        - generic
+                          - StaticText "7"
+                          - link "被中国淘汰的车却在印度“杀疯了”" [ref=e99]
+                      - generic
+                        - generic
+                          - StaticText "8"
+                          - link "广州遭遇“高压水枪式暴击”" [ref=e100]
+                      - generic
+                        - generic
+                          - StaticText "9"
+                          - link "女职工到底50岁还是55岁退休" [ref=e101]
+                      - generic
+                        - generic
+                          - StaticText "10"
+                          - link "时隔6年中国航班再次抵达平壤" [ref=e102]
+                          - generic
+                      - generic
+                        - generic
+                          - StaticText "11"
+                          - link "“抗过敏药容易产生依赖”是误区" [ref=e103]
+                      - generic
+                        - generic
+                          - StaticText "12"
+                          - link "单依纯再次道歉后李荣浩秒回" [ref=e104]
+                          - generic
+                      - generic
+                        - generic
+                          - StaticText "13"
+                          - link "伊朗首都遭大规模空袭 部分区域断电" [ref=e105]
+                          - generic
+                      - generic
+                        - generic
+                          - StaticText "14"
+                          - link "蔡磊身体近况：四人搀扶也无法迈步" [ref=e106]
+                      - generic
+                        - generic
+                          - StaticText "15"
+                          - link "黑龙江海林建筑坍塌事故致7人遇难" [ref=e107]
+                          - generic
+                - generic
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                    - image
+                    - generic
+                      - generic
+                        - generic
+                          - StaticText ""
+                        - StaticText "听"
+                    - generic
+                      - generic
+                        - paragraph
+                          - StaticText "北京优投教育科技有限公司的‌"
+                          - strong
+                          - StaticText "‌属于‌"
+                          - strong
+                          - StaticText "‌，具体归类为‌"
+                          - strong
+                          - StaticText "‌‌"
+                          - StaticText "1"
+                          - StaticText "5"
+                          - StaticText "。"
+                        - paragraph
+                          - StaticText "根据企业公开的经营范围和工商信息，其主营业务涵盖以下几大方向："
+                        - list
+                          - listitem [level=1]
+                          - listitem [level=1]
+                          - listitem [level=1]
+                          - listitem [level=1]
+                        - blockquote
+                          - paragraph
+                        - paragraph
+                          - StaticText "如需进一步了解其业务动态或资质情况，可访问："
+                        - list
+                          - listitem [level=1]
+                            - link "天眼查 - 北京优投教育科技有限公司" [ref=e114]
+                          - listitem [level=1]
+                            - link "爱企查 - 北京优投教育科技有限公司" [ref=e115]
+                    - generic
+                    - generic
+          - generic
+            - generic
+              - generic
+                - heading "优投介绍" [level=3, ref=e40]
+                  - link "优投介绍" [ref=e64]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e79]
+                  - generic
+                    - emphasis
+                    - StaticText "的"
+                    - emphasis
+                    - StaticText "业务为为企业提供包括 办公场地,硬件支持,创业指导,融资顾问,市场推广 等多维度全方位的服务. 基础 服务 : "
+                    - emphasis
+                    - StaticText "细分各个服务领域,优选一些服务商,建立长期合作关系,通过第三方合作的形式推荐给企业,保证企业一经入驻,便可接收可选清单,不需苦命奔波,也可降低投资成本,节约时间与精力,便于企业的快速入驻和良好运行.此外,"
+                  - generic
+                    - generic
+                      - link "www.utou.cc/about" [ref=e83]
+          - generic
+            - generic
+              - generic
+                - heading "北京优投教育科技有限公司联系方式-番番寻客宝" [level=3, ref=e41]
+                  - link "北京优投教育科技有限公司联系方式-番番寻客宝" [ref=e65]
+                    - paragraph
+                - generic
+                  - StaticText "2026年3月9日"
+                  - StaticText "北京优投教育科技有限公司 "
+                  - emphasis
+                    - StaticText "经营范围:一般项目:技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广;会议及展览服务;创业空间服务"
+                  - StaticText ";项目策划与公关服务;咨询策划服务;组织文化艺术交流活动;企业管理咨询;企业形象策划;广告设计、代理;广告制作;广告发布;文艺创作;社会经济咨询服务;教育咨询服务(不含涉许可审批的..."
+                - generic
+                  - link "爱番番" [ref=e66]
+                    - StaticText "爱番番"
+          - generic
+            - generic
+              - StaticText "大家还在搜"
+            - generic
+              - link "主营行业和经营范围" [ref=e32]
+                - StaticText "主营行业和经营范围"
+              - link "主营行业类别" [ref=e33]
+                - StaticText "主营行业类别"
+              - link "北京优学教育科技股份有限公司" [ref=e34]
+                - StaticText "北京优学教育科技股份有限公司"
+              - link "主营行业" [ref=e35]
+                - StaticText "主营行业"
+              - link "北京优投科技孵化器有限公司" [ref=e36]
+                - StaticText "北京优投科技孵化器有限公司"
+              - link "北京国投创盈投资管理有限公司" [ref=e37]
+                - StaticText "北京国投创盈投资管理有限公司"
+          - generic
+            - generic
+              - generic
+                - heading "北京优投教育科技有限公司_企业业务 - 企查查" [level=3, ref=e42]
+                  - link "北京优投教育科技有限公司_企业业务 - 企查查" [ref=e67]
+                    - paragraph
+                - generic
+                  - StaticText "2026年1月31日"
+                  - StaticText "企查查行业:"
+                  - emphasis
+                    - StaticText "技术推广服务"
+                  - StaticText " 企业规模:微型 1、基本信息北京优投教育科技有限公司(曾用名:北京优投科技服务有限公司、北京博睿联思国际咨询有限公司)是⼀家成⽴于2010年05月06日的有限责任公司,属于以从事科学研究和技术服务业为主的企业。位于北京市海淀区,法定代表人为代瑞红,目前处于存续状态,公司电话:18518916957..."
+                - generic
+                  - link "头像 企查查" [ref=e68]
+                    - generic
+                    - StaticText "企查查"
+                - generic
+                  - generic
+          - generic
+            - heading "北京优投科技孵化器有限公司，北京市从事投资创业服务的公司，百度百科" [level=3, ref=e26]
+              - link "北京优投科技孵化器有限公司，北京市从事投资创业服务的公司，百度百科" [ref=e38]
+                - emphasis
+                  - StaticText "北京优投科技"
+                - StaticText "孵化器"
+                - emphasis
+                  - StaticText "有限公司"
+                - StaticText " - 百度百科"
+            - generic
+              - generic "查看更多内容"
+                - link "查看更多内容" [ref=e43]
+                  - generic
+                    - generic
+              - generic
+                - generic "北京优投科技孵化器有限公司成立于2016年1月21日，总部位于北京市海淀区，是一家以从事科技推广和应用服务业为主的有限责任公司，也是国家级众创空间和科技企业孵化器。公司是创业孵化服务平台“优投空间”的运营主体，采取“空间+服务+投资”的一体化模式，为早期创业项目提供孵化与加速服务。作为HICOOL全球创业大赛的..."
+                  - StaticText "北京优投科技孵化器有限公司成立于2016年1月21日，总部位于北京市海淀区，"
+                  - emphasis
+                    - StaticText "是一家以从事科技推广和应用服务业为主的有限责任公司"
+                  - StaticText "，也是国家级众创空间和科技企业孵化器。公司是创业孵化服务平台“"
+                  - emphasis
+                    - StaticText "优投空间"
+                  - StaticText "”的运营主体，采取“空间+服务+投资”的一体化模式，..."
+                - generic
+                  - link "公司简介" [ref=e69]
+                    - emphasis
+                    - StaticText "简介 "
+                  - link "发展历程" [ref=e70]
+                    - StaticText "发展历程 "
+                  - link "主营业务" [ref=e71]
+                    - emphasis
+                    - StaticText "业务 "
+                  - link "组织架构" [ref=e72]
+                    - StaticText "组织架构 "
+                  - link "经营状况" [ref=e73]
+                    - StaticText "经营状况 "
+                  - link "点击可查看更多内容" [ref=e74]
+                    - StaticText "更多 >"
+                - generic
+                  - link "百度百科" [ref=e75]
+                    - generic
+                - generic
+          - generic
+            - generic
+              - generic
+                - heading "「北京优投科技孵化器有限公司招聘」-BOSS直聘" [level=3, ref=e44]
+                  - link "「北京优投科技孵化器有限公司招聘」-BOSS直聘" [ref=e76]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e80]
+                  - generic
+                    - StaticText "2026年3月6日"
+                    - emphasis
+                    - StaticText ",目前公司持有"
+                    - emphasis
+                    - StaticText "(iMOMA)和优投创新中心(数码大厦A座35层36层)两个众创空间。总面积4000多平米,入驻企业为五十几家。公司为入驻企业提供诸如:办公场地、创业培训、项目申报、项目对接、..."
+                  - generic
+                    - generic
+                      - link "BOSS直聘" [ref=e84]
+          - generic
+            - heading "标题:北京优投教育科技有限公司 - 企业信息" [level=3, ref=e27]
+              - link "标题:北京优投教育科技有限公司 - 企业信息" [ref=e39]
+                - emphasis
+                  - StaticText "北京优投教育科技有限公司"
+                - StaticText " - 企业信息"
+            - generic
+              - generic
+                - link [ref=e45]
+                  - generic
+                    - generic
+              - generic
+                - paragraph
+                  - emphasis
+                    - StaticText "北京优投教育科技有限公司"
+                  - StaticText "法定代表人：代瑞红，注册资金：100万元，地址：北京市海淀区中关村南大街2号A座33层3301室，经营范围：一般项目：技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广；会议及展览服务；创业空间服务；项目策划与公关服务；咨询策划服务；组织文化艺术交流活动；企业管理咨询；企业形象策划；广告设计、代理；广告制作；广告发布；文艺创作；社会经济咨询服务；教育咨询服务（不含涉许可审批的教育培训活动）；市场调查（不含涉外调查）；计算机系统服务；税务服务；人力资源服务（不含职业中介活动、劳务派遣服务）；业务培训（不含教育培训、职业技能培训等需取得许可的培训）；劳务服务（不含劳务派遣）；信息咨询服务（不含许可类信息咨询服务）；物联网技术研发；市场营销策划。（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）许可项目：网络文化经营；职业中介活动；广播电视节目制作经营。（依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以相关部门批准文件或许可证件为准）（不得从事国家和本市产业政策禁止和限制类项目的经营活动。）"
+                - link "工商信息" [ref=e46]
+                  - generic
+                    - StaticText "工商信息"
+                - link "认领企业" [ref=e47]
+                  - generic
+                    - StaticText "认领企业"
+                - link "经营状况" [ref=e48]
+                  - generic
+                    - StaticText "经营状况"
+                - link "企业年报" [ref=e49]
+                  - generic
+                    - StaticText "企业年报"
+                - link "企业股东" [ref=e50]
+                  - generic
+                    - StaticText "企业股东"
+                - link "来源：以上信息来源爱企查，一个专业免费的企业信息查询平台" [ref=e51]
+                  - generic
+                    - generic
+          - generic
+            - generic
+              - generic
+                - heading "「北京优投科技孵化器有限公司招聘」2026年北京优投科技孵化器有限公司..." [level=3, ref=e52]
+                  - link "「北京优投科技孵化器有限公司招聘」2026年北京优投科技孵化器有限公司..." [ref=e77]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e81]
+                  - generic
+                    - StaticText "2026年1月30日"
+                    - StaticText "获得了“北京市众创空间”、“国家级众创空间”、“中关村创新型孵化器”、“北京市海淀区创业期科技型企业集中办公区”、人力资源和社会保障部“优秀众创空间”等资质和荣誉。"
+                    - emphasis
+                    - StaticText "现运营面积近5000平米,为早期创业项目提供办公场地和创业服务,定期举办创业活动和创业大赛:优投创业营、优投DEMODAY等创业活动和..."
+                  - generic
+                    - generic
+                      - link "头像 智联招聘" [ref=e85]
+                    - generic
+          - generic
+            - generic
+              - generic
+                - heading "代瑞红 - 北京星河智源科技有限公司 - 法定代表人/高管/股东 - 爱..." [level=3, ref=e53]
+                  - link "代瑞红 - 北京星河智源科技有限公司 - 法定代表人/高管/股东 - 爱..." [ref=e78]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e82]
+                  - generic
+                    - StaticText "2026年3月14日"
+                    - StaticText "代瑞红目前担任北京优投科技孵化器有限公司、"
+                    - emphasis
+                    - StaticText "等13家企业法定代表人,同时在16家企业担任高管,包括担任北京优投科技孵化器有限公司执行董事,经理,北京随闻科技有限公司董事;二、代瑞红投资情况:代瑞红目前是14家企业直接控股股东,包括上第摩码(北京)餐饮有限公司、控股比例达100%,太原优投科技服务..."
+                  - generic
+                    - generic
+                      - link "头像 爱企查" [ref=e86]
+        - generic
+          - generic
+            - StaticText "相关搜索"
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "主营行业和经营范围"
+                - link "主营行业和经营范围" [ref=e54]
+              - LayoutTableCell "主营行业类别"
+                - link "主营行业类别" [ref=e55]
+            - LayoutTableRow
+              - LayoutTableCell "北京优学教育科技股份有限公司"
+                - link "北京优学教育科技股份有限公司" [ref=e56]
+              - LayoutTableCell "主营行业"
+                - link "主营行业" [ref=e57]
+            - LayoutTableRow
+              - LayoutTableCell "北京优投科技孵化器有限公司"
+                - link "北京优投科技孵化器有限公司" [ref=e58]
+              - LayoutTableCell "北京国投创盈投资管理有限公司"
+                - link "北京国投创盈投资管理有限公司" [ref=e59]
+            - LayoutTableRow
+              - LayoutTableCell "北京优贯创意文化有限公司"
+                - link "北京优贯创意文化有限公司" [ref=e60]
+              - LayoutTableCell "北京北投教育科技集团有限公司"
+                - link "北京北投教育科技集团有限公司" [ref=e61]
+            - LayoutTableRow
+              - LayoutTableCell "北京均优教育研究院"
+                - link "北京均优教育研究院" [ref=e62]
+              - LayoutTableCell "营业执照主营行业"
+                - link "营业执照主营行业" [ref=e63]
+      - generic
+        - generic
+          - link "上一页" [ref=e15]
+          - strong
+          - link "2" [ref=e16]
+          - link "3" [ref=e17]
+          - link "4" [ref=e18]
+          - link "5" [ref=e19]
+          - link "6" [ref=e20]
+          - link "7" [ref=e21]
+          - link "8" [ref=e22]
+          - link "9" [ref=e23]
+          - link "10" [ref=e24]
+          - link "下一页" [ref=e25]
+      - generic
+      - generic
+        - generic
+          - generic
+            - link "帮助" [ref=e28]
+            - link "举报" [ref=e29]
+            - link "用户反馈" [ref=e30]
+            - link "企业推广" [ref=e31]

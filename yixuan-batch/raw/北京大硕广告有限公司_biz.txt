@@ -1,0 +1,480 @@
+- generic
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。" [ref=e1]
+  - generic
+    - generic
+  - generic
+    - generic
+      - generic
+        - link "到百度首页" [ref=e2]
+          - image "到百度首页"
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                  - generic
+                  - generic
+                    - generic
+                      - generic
+                      - generic
+                        - textbox [ref=e88]: 北京大硕广告有限公司 主营 行业
+                          - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                          - generic
+                          - generic
+                        - button "百度一下" [ref=e89]
+                          - StaticText "百度一下"
+                    - generic
+                      - generic
+      - generic
+        - link "百度首页" [ref=e3]
+          - StaticText "百度首页"
+        - link "设置" [ref=e4]
+          - StaticText "设置"
+        - link "登录" [ref=e5]
+          - StaticText "登录"
+    - generic
+    - generic
+      - generic
+        - link [ref=e6]
+          - image
+        - StaticText "网页"
+        - link "图片" [ref=e7]
+          - StaticText "图片"
+        - link "资讯" [ref=e8]
+          - StaticText "资讯"
+        - link "视频" [ref=e9]
+          - StaticText "视频"
+        - link "笔记" [ref=e10]
+          - StaticText "笔记"
+        - link "地图" [ref=e11]
+          - StaticText "地图"
+        - link "贴吧" [ref=e12]
+          - StaticText "贴吧"
+        - link "文库" [ref=e13]
+          - StaticText "文库"
+        - link "更多" [ref=e14]
+          - StaticText "更多"
+        - generic
+          - StaticText "搜索工具"
+    - generic
+      - generic
+        - generic
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "相关搜索  北京市广告公司前十名  主营行业和经营范围  主营行业类别  主营行业  北京大思广告有限公司  北京有名气的广告公司    换一换 热搜榜 民生榜 财经榜  把绿色的种子种进心里 1"
+                - generic
+                  - generic
+                    - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                            - link " 北京市广告公司前十名" [ref=e111]
+                          - generic
+                            - link " 主营行业和经营范围" [ref=e112]
+                          - generic
+                            - link " 主营行业类别" [ref=e113]
+                          - generic
+                            - link " 主营行业" [ref=e114]
+                          - generic
+                            - link " 北京大思广告有限公司" [ref=e115]
+                          - generic
+                            - link " 北京有名气的广告公司" [ref=e116]
+                  - generic
+                    - generic
+                      - generic
+                        - link " " [ref=e90]
+                          - generic
+                          - generic
+                        - generic
+                          - link " 换一换" [ref=e93]
+                      - generic
+                        - generic
+                          - StaticText "热搜榜"
+                        - generic
+                          - StaticText "民生榜"
+                        - generic
+                          - StaticText "财经榜"
+                      - generic
+                        - generic
+                          - generic
+                          - link "把绿色的种子种进心里" [ref=e94]
+                      - generic
+                        - generic
+                          - StaticText "1"
+                          - link "郑丽文谈访陆：两岸不是终须一战" [ref=e95]
+                          - generic
+                      - generic
+                        - generic
+                          - StaticText "2"
+                          - link "“别人的春和景明 我的氯雷他定”" [ref=e96]
+                          - generic
+                      - generic
+                        - generic
+                          - StaticText "3"
+                          - link "中国创新“酷”在哪里" [ref=e97]
+                      - generic
+                        - generic
+                          - StaticText "4"
+                          - link "今年蚊子或迎来史诗级加强 疾控提醒" [ref=e98]
+                          - generic
+                      - generic
+                        - generic
+                          - generic
+                          - link "新手友好，PayPal个人卖家账户上线" [ref=e99]
+                          - generic
+                      - generic
+                        - generic
+                          - StaticText "5"
+                          - link "年轻人流行起“重新养育父母”" [ref=e100]
+                      - generic
+                        - generic
+                          - StaticText "6"
+                          - link "伊朗一儿童游乐场遭美以袭击" [ref=e101]
+                          - generic
+                      - generic
+                        - generic
+                          - StaticText "7"
+                          - link "被中国淘汰的车却在印度“杀疯了”" [ref=e102]
+                      - generic
+                        - generic
+                          - StaticText "8"
+                          - link "广州遭遇“高压水枪式暴击”" [ref=e103]
+                      - generic
+                        - generic
+                          - StaticText "9"
+                          - link "女职工到底50岁还是55岁退休" [ref=e104]
+                      - generic
+                        - generic
+                          - StaticText "10"
+                          - link "时隔6年中国航班再次抵达平壤" [ref=e105]
+                          - generic
+                      - generic
+                        - generic
+                          - StaticText "11"
+                          - link "“抗过敏药容易产生依赖”是误区" [ref=e106]
+                      - generic
+                        - generic
+                          - StaticText "12"
+                          - link "单依纯再次道歉后李荣浩秒回" [ref=e107]
+                          - generic
+                      - generic
+                        - generic
+                          - StaticText "13"
+                          - link "伊朗首都遭大规模空袭 部分区域断电" [ref=e108]
+                          - generic
+                      - generic
+                        - generic
+                          - StaticText "14"
+                          - link "蔡磊身体近况：四人搀扶也无法迈步" [ref=e109]
+                      - generic
+                        - generic
+                          - StaticText "15"
+                          - link "黑龙江海林建筑坍塌事故致7人遇难" [ref=e110]
+                          - generic
+                - generic
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                    - image
+                    - generic
+                      - generic
+                        - generic
+                          - StaticText ""
+                        - StaticText "听"
+                    - generic
+                      - generic
+                        - paragraph
+                          - StaticText "根据公开资料，‌"
+                          - strong
+                          - StaticText "‌的主营行业为‌"
+                          - strong
+                          - StaticText "‌，具体业务聚焦于‌"
+                          - strong
+                          - StaticText "‌，并涵盖相关文化服务和数字内容领域。"
+                        - heading "核心信息" [level=3, ref=e91]
+                          - StaticText "核心信息"
+                        - list
+                          - listitem [level=1]
+                          - listitem [level=1]
+                          - listitem [level=1]
+                          - listitem [level=1]
+                        - heading "补充说明" [level=3, ref=e92]
+                          - StaticText "补充说明"
+                        - paragraph
+                          - StaticText "尽管名称中含“大硕”，但该公司与“北京硕才广告有限公司”“北京硕果时代广告有限公司”等名称相近企业‌"
+                          - strong
+                          - StaticText "‌，属独立注册的市场主体‌"
+                          - StaticText "3"
+                          - StaticText "。其业务模式以本地化广告制作与小型活动执行为主，属于典型的中小微广告服务商。"
+                        - paragraph
+                          - StaticText "如需进一步查询企业详情，可访问："
+                        - list
+                          - listitem [level=1]
+                            - link "爱企查 - 北京大硕广告有限公司" [ref=e117]
+                          - listitem [level=1]
+                            - link "国家企业信用信息公示系统" [ref=e118]
+                    - generic
+                    - generic
+          - generic
+            - generic
+              - generic
+                - heading "北京大硕广告有限公司 - 天眼查" [level=3, ref=e44]
+                  - link "北京大硕广告有限公司 - 天眼查" [ref=e62]
+                    - paragraph
+                - generic
+                  - StaticText "附近企业 更多2 "
+                  - emphasis
+                    - StaticText "国标行业:综合管理服务"
+                  - StaticText " 企业规模:微型 员工人数:0人 (2021年) 简介:北京大硕广告有限公司,成立于2021年,位于北京市,是一家以从事商务服务业为主的企业。企业注册资本10万人民币。通过天眼查大数据分析,北京大硕广告有限公司拥有行政许可1个。展开 点击更新企业数据 财产线索 线索数量3财产类型1 实际控制人 挖掘公司实际控"
+                - generic
+                  - link "天眼查" [ref=e63]
+                    - StaticText "天眼查"
+          - generic
+            - generic
+              - generic
+                - heading "叶久辉 - 北京大硕广告有限公司 - 法定代表人/高管/股东 - 爱企查" [level=3, ref=e45]
+                  - link "叶久辉 - 北京大硕广告有限公司 - 法定代表人/高管/股东 - 爱企查" [ref=e64]
+                    - paragraph
+                - generic
+                  - StaticText "2026年3月4日"
+                  - StaticText "叶久辉目前担任"
+                  - emphasis
+                    - StaticText "北京大硕广告有限公司"
+                  - StaticText "、北京金鲨广告有限公司等3家企业法定代表人,同时在3家企业担任高管,包括担任北京大硕广告有限公司执行董事,经理,北京金鲨广告有限公司执行董事,经理;二、叶久辉投资情况:目前叶久辉是3家企业最终受益人,包括其在投资北京金鲨广告有限公司最终收益股份为50%,投资北京优硕广告有限公司..."
+                - generic
+                  - link "头像 爱企查" [ref=e65]
+                    - generic
+                    - StaticText "爱企查"
+          - generic
+            - heading "标题:北京大硕广告有限公司 - 企业信息" [level=3, ref=e26]
+              - link "标题:北京大硕广告有限公司 - 企业信息" [ref=e34]
+                - emphasis
+                  - StaticText "北京大硕广告有限公司"
+                - StaticText " - 企业信息"
+            - generic
+              - generic
+                - link [ref=e46]
+                  - generic
+                    - generic
+              - generic
+                - paragraph
+                  - StaticText "法定代表人：叶久辉"
+                - paragraph
+                  - StaticText "注册资本：10万元"
+                - paragraph
+                  - StaticText "成立时间：2021-04-02"
+                - StaticText "注销"
+                - StaticText "企业未认领"
+            - paragraph
+              - emphasis
+                - StaticText "北京大硕广告有限公司"
+              - StaticText "地址位于北京市昌平区中兴路21号院1号楼7层723，经营范围设计、制作、代理、发布广告；承办展览展示活动；会议服务；包装装潢设计；模型设计；工艺美术设计；组织文化艺术交流活动（不含营业性演出）；房地产信息咨询；从事房地产经纪业务；电影摄制；电脑图文设计；软件开发；基础软件服务、应用软件服务（不含医用软件）；企业策划（不含中介服务）；模型设计；电脑动画设计；摄影服务；影视策划；礼仪服务；销售文化用品、工艺品、电子产品、计算机、软件及辅助设备。（市场主体依法自主选择经营项目，开展经营活动；依法须经批准的项目，经相关部门批准后依批准的内容开展经营活动；不得从事国家和本市产业政策禁止和限制类项目的经营活动。）"
+            - generic
+              - LayoutTable
+                - LayoutTableRow
+                  - LayoutTableCell "工商信息"
+                    - link "工商信息" [ref=e79]
+                  - LayoutTableCell "经营状况"
+                    - link "经营状况" [ref=e80]
+                  - LayoutTableCell "企业年报"
+                    - link "企业年报" [ref=e81]
+                  - LayoutTableCell "企业股东"
+                    - link "企业股东" [ref=e82]
+                  - LayoutTableCell "行政许可"
+                    - link "行政许可" [ref=e83]
+            - link "2位相关人员" [ref=e27]
+              - StaticText "2位相关人员"
+            - list
+              - generic
+                - generic
+                  - generic
+                    - listitem [level=1]
+                      - link "叶久辉 执行董事，经理" [ref=e85]
+                    - listitem [level=1]
+                      - link "祁标 监事" [ref=e86]
+            - link "来源：以上信息来源爱企查，一个专业免费的企业信息查询平台" [ref=e28]
+              - generic
+                - generic
+                  - generic
+                    - image
+          - generic
+            - generic
+              - StaticText "大家还在搜"
+            - generic
+              - link "北京市广告公司前十名" [ref=e35]
+                - StaticText "北京市广告公司前十名"
+              - link "主营行业和经营范围" [ref=e36]
+                - StaticText "主营行业和经营范围"
+              - link "主营行业类别" [ref=e37]
+                - StaticText "主营行业类别"
+              - link "主营行业" [ref=e38]
+                - StaticText "主营行业"
+              - link "北京大思广告有限公司" [ref=e39]
+                - StaticText "北京大思广告有限公司"
+              - link "北京有名气的广告公司" [ref=e40]
+                - StaticText "北京有名气的广告公司"
+              - link "北京广告公司招聘信息" [ref=e41]
+                - StaticText "北京广告公司招聘信息"
+              - link "北京广告公司有哪些" [ref=e42]
+                - StaticText "北京广告公司有哪些"
+          - generic
+            - heading "北京硕才广告有限公司，公司，百度百科" [level=3, ref=e29]
+              - link "北京硕才广告有限公司，公司，百度百科" [ref=e43]
+                - emphasis
+                  - StaticText "北京硕"
+                - StaticText "才"
+                - emphasis
+                  - StaticText "广告有限公司"
+                - StaticText " - 百度百科"
+            - generic
+              - generic
+                - generic "北京硕才广告有限公司成立于2017年3月7日，法定代表人为于跃，总部位于北京市通州区新华西街58号院3号楼8层808，注册资本100万人民币，企业类型为有限责任公司（法人独资），所属行业为商务服务业。公司主要经营广告设计制作代理发布、企业管理咨询、文化艺术交流活动组织等业务，同时涵盖电脑图文设计、展览展示承办、..."
+                  - StaticText "北京硕才"
+                  - emphasis
+                    - StaticText "广告有限公司"
+                  - StaticText "成立于2017年3月7日，法定代表人为于跃，总部位于"
+                  - emphasis
+                    - StaticText "北京市"
+                  - StaticText "通州区新华西街58号院3号楼8层808，注册资本100万人民币，企业类型为有限责任公司（法人独资），所属"
+                  - emphasis
+                    - StaticText "行业"
+                  - StaticText "为商务服务业。公司主要经营广告设计制作代理发布、企业管理咨询、文化艺术..."
+                - generic
+                  - link "历史沿革" [ref=e66]
+                    - StaticText "历史沿革 "
+                  - link "企业治理" [ref=e67]
+                    - StaticText "企业治理 "
+                  - link "业务范围" [ref=e68]
+                    - StaticText "业务范围 "
+                  - link "经营状况" [ref=e69]
+                    - StaticText "经营状况 "
+                  - link "对外投资" [ref=e70]
+                    - StaticText "对外投资 "
+                  - link "点击可查看更多内容" [ref=e71]
+                    - StaticText "更多 >"
+                - link "百度百科" [ref=e47]
+                  - generic
+                    - generic
+                - generic
+          - generic
+            - generic
+              - generic
+                - heading "「环翠区大硕广告设计室」2026年招聘信息-BOSS直聘" [level=3, ref=e48]
+                  - link "「环翠区大硕广告设计室」2026年招聘信息-BOSS直聘" [ref=e72]
+                    - paragraph
+                - generic
+                  - StaticText "2026年3月14日"
+                  - StaticText "公司现有人数1-49人,公司类型为个体工商户,"
+                  - emphasis
+                    - StaticText "所属山东服务业行业"
+                  - StaticText "。 基本信息 公司名称:环翠区大硕广告设计室 人员规模:1-49人 所在城市:威海市 高管介绍 刘庚博 法人 任环翠区大硕广告设计室法人 公司地址 青岛街6号106室 工商信息 环翠区大硕广告设计室 法定代表人: 刘庚博 成立日期: 2013--0-6-07 企业类型..."
+                - generic
+                  - link "看准网" [ref=e73]
+                    - StaticText "看准网"
+          - generic
+            - generic
+              - generic
+                - heading "赵硕- 法定代表人/高管/股东 - 五常市大硕广告传媒有限公司..." [level=3, ref=e49]
+                  - link "赵硕- 法定代表人/高管/股东 - 五常市大硕广告传媒有限公司..." [ref=e74]
+                    - paragraph
+                - generic
+                  - StaticText "2022年8月25日"
+                  - emphasis
+                    - StaticText "大硕广告"
+                  - StaticText " 五常市大硕广告传媒"
+                  - emphasis
+                    - StaticText "有限公司"
+                  - StaticText "存续 法定代表人:赵硕 注册资本:50万人民币 成立日期·:2020-06-10 执行董事兼总经理,法定代表人,股东(持股100%)担任法定代表人1 大硕广告 五常市大硕广告传媒有限公司存续 法定代表人:赵硕 注册资本:50万人民币 成立日期·:2020-06-10 执行董事兼总经理,法定代表人,股东(持..."
+                - generic
+                  - link "头像 天眼查" [ref=e75]
+                    - generic
+                    - StaticText "天眼查"
+          - generic
+            - generic
+              - generic
+                - heading "「北京硕才广告有限公司招聘」-BOSS直聘" [level=3, ref=e50]
+                  - link "「北京硕才广告有限公司招聘」-BOSS直聘" [ref=e76]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e84]
+                  - generic
+                    - StaticText "7天前"
+                    - StaticText "公司简介在招职位 公司简介 硕才传媒是"
+                    - emphasis
+                    - StaticText "硕才"
+                    - emphasis
+                    - StaticText "旗下品牌。北京硕才文化传媒有限公司(简称“硕才传媒”),深耕短剧与小说赛道,核心业务积淀始于2016年,秉持“内容为王、技术赋能、生态共赢”理念,依托短剧全链条业务体系,成长为"
+                    - emphasis
+                    - StaticText "核心参与者,旗下“硕才短剧”品牌在女频领域极具市场影响力。 ✅ 核心业..."
+                  - generic
+                    - generic
+                      - link "BOSS直聘" [ref=e87]
+          - generic
+            - generic
+              - generic
+                - heading "北京硕才广告有限公司经营信息 - 企查查" [level=3, ref=e51]
+                  - link "北京硕才广告有限公司经营信息 - 企查查" [ref=e77]
+                - generic
+                - generic
+                  - link "头像 企查查" [ref=e78]
+        - generic
+          - generic
+            - StaticText "相关搜索"
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "北京市广告公司前十名"
+                - link "北京市广告公司前十名" [ref=e52]
+              - LayoutTableCell "主营行业和经营范围"
+                - link "主营行业和经营范围" [ref=e53]
+            - LayoutTableRow
+              - LayoutTableCell "主营行业类别"
+                - link "主营行业类别" [ref=e54]
+              - LayoutTableCell "主营行业"
+                - link "主营行业" [ref=e55]
+            - LayoutTableRow
+              - LayoutTableCell "北京大思广告有限公司"
+                - link "北京大思广告有限公司" [ref=e56]
+              - LayoutTableCell "北京有名气的广告公司"
+                - link "北京有名气的广告公司" [ref=e57]
+            - LayoutTableRow
+              - LayoutTableCell "北京广告公司招聘信息"
+                - link "北京广告公司招聘信息" [ref=e58]
+              - LayoutTableCell "北京广告公司有哪些"
+                - link "北京广告公司有哪些" [ref=e59]
+            - LayoutTableRow
+              - LayoutTableCell "北京硕才广告有限公司"
+                - link "北京硕才广告有限公司" [ref=e60]
+              - LayoutTableCell "北京广告设计公司"
+                - link "北京广告设计公司" [ref=e61]
+      - generic
+        - generic
+          - link "上一页" [ref=e15]
+          - strong
+          - link "2" [ref=e16]
+          - link "3" [ref=e17]
+          - link "4" [ref=e18]
+          - link "5" [ref=e19]
+          - link "6" [ref=e20]
+          - link "7" [ref=e21]
+          - link "8" [ref=e22]
+          - link "9" [ref=e23]
+          - link "10" [ref=e24]
+          - link "下一页" [ref=e25]
+      - generic
+      - generic
+        - generic
+          - generic
+            - link "帮助" [ref=e30]
+            - link "举报" [ref=e31]
+            - link "用户反馈" [ref=e32]
+            - link "企业推广" [ref=e33]

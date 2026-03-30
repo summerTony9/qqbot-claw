@@ -1,0 +1,304 @@
+- generic
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。" [ref=e1]
+  - generic
+    - generic
+  - generic
+    - generic
+      - generic
+        - link "到百度首页" [ref=e2]
+          - image "到百度首页"
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                  - generic
+                  - generic
+                    - generic
+                      - generic
+                      - generic
+                        - textbox [ref=e74]: 北京 北京弗远嘉科技有限公司 公司
+                          - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                          - generic
+                          - generic
+                        - button "百度一下" [ref=e75]
+                          - StaticText "百度一下"
+                    - generic
+                      - generic
+      - generic
+        - link "百度首页" [ref=e3]
+          - StaticText "百度首页"
+        - link "设置" [ref=e4]
+          - StaticText "设置"
+        - link "登录" [ref=e5]
+          - StaticText "登录"
+    - generic
+    - generic
+      - generic
+        - link [ref=e6]
+          - image
+        - StaticText "网页"
+        - link "图片" [ref=e7]
+          - StaticText "图片"
+        - link "资讯" [ref=e8]
+          - StaticText "资讯"
+        - link "视频" [ref=e9]
+          - StaticText "视频"
+        - link "笔记" [ref=e10]
+          - StaticText "笔记"
+        - link "地图" [ref=e11]
+          - StaticText "地图"
+        - link "贴吧" [ref=e12]
+          - StaticText "贴吧"
+        - link "文库" [ref=e13]
+          - StaticText "文库"
+        - link "更多" [ref=e14]
+          - StaticText "更多"
+        - generic
+          - StaticText "搜索工具"
+    - generic
+      - generic
+        - generic
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "相关搜索  北京跬远科技发展有限公司  北京远富投资管理有限公司  北京福托科技开发有限责任公司  九江嘉远科技有限公司  北京嘉信邦科技有限公司  北京弗特恩科技有限公司    换一换 热搜榜 民生榜 财经榜  把绿色的种子种进心里 1"
+                - generic
+                  - generic
+                    - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                            - link " 北京跬远科技发展有限公司" [ref=e95]
+                          - generic
+                            - link " 北京远富投资管理有限公司" [ref=e96]
+                          - generic
+                            - link " 北京福托科技开发有限责任公司" [ref=e97]
+                          - generic
+                            - link " 九江嘉远科技有限公司" [ref=e98]
+                          - generic
+                            - link " 北京嘉信邦科技有限公司" [ref=e99]
+                          - generic
+                            - link " 北京弗特恩科技有限公司" [ref=e100]
+                  - generic
+                    - generic
+                      - generic
+                        - link " " [ref=e76]
+                        - generic
+                          - link " 换一换" [ref=e77]
+                      - generic
+                        - generic
+                        - generic
+                        - generic
+                      - generic
+                        - generic
+                          - link "把绿色的种子种进心里" [ref=e78]
+                      - generic
+                        - generic
+                          - link "习近平欢迎并邀请郑丽文率团来访" [ref=e79]
+                      - generic
+                        - generic
+                          - link "时隔6年中国航班再次抵达平壤" [ref=e80]
+                      - generic
+                        - generic
+                          - link "中国创新“酷”在哪里" [ref=e81]
+                      - generic
+                        - generic
+                          - link "疾控提醒：今年蚊子或迎来史诗级加强" [ref=e82]
+                      - generic
+                        - generic
+                          - link "新手友好，PayPal个人卖家账户上线" [ref=e83]
+                      - generic
+                        - generic
+                          - link "广州遭遇“高压水枪式暴击”" [ref=e84]
+                      - generic
+                        - generic
+                          - link "伊朗首都遭大规模空袭 部分区域断电" [ref=e85]
+                      - generic
+                        - generic
+                          - link "被中国淘汰的车却在印度“杀疯了”" [ref=e86]
+                      - generic
+                        - generic
+                          - link "长江水下89米开高铁" [ref=e87]
+                      - generic
+                        - generic
+                          - link "女生在橘子洲拍摄旱地拔葱震撼大片" [ref=e88]
+                      - generic
+                        - generic
+                          - link "女职工到底50岁还是55岁退休" [ref=e89]
+                      - generic
+                        - generic
+                          - link "“抗过敏药容易产生依赖”是误区" [ref=e90]
+                      - generic
+                        - generic
+                          - link "单依纯再次道歉后李荣浩秒回" [ref=e91]
+                      - generic
+                        - generic
+                          - link "蔡磊身体近况：四人搀扶也无法迈步" [ref=e92]
+                      - generic
+                        - generic
+                          - link "伊朗：美国提的建议非常极端且不合理" [ref=e93]
+                      - generic
+                        - generic
+                          - link "住家保姆上门当日病人死亡 家属索赔" [ref=e94]
+                - generic
+        - generic
+          - generic
+            - generic
+              - generic
+                - heading "北京弗远嘉科技有限公司 - 爱企查" [level=3, ref=e38]
+                  - link "北京弗远嘉科技有限公司 - 爱企查" [ref=e57]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e72]
+                  - generic
+                    - StaticText "2026年1月6日"
+                    - emphasis
+                    - StaticText "是一家小微企业,该公司成立于2020年06月23日,位于北京市延庆区中关村延庆园风谷四路8号院27号楼524室,目前处于开业状态,经营范围包括技术开发、技术咨询、技术转让、技术推广、技术服务;组织文化艺术交流活动;承办展览展示;城市园林绿化施工;会议服务;市场调查;企业管理;企业管理咨询、企业形象策划、策划"
+                  - generic
+                    - generic
+                      - link "头像 爱企查" [ref=e73]
+          - generic
+            - generic
+              - generic
+                - heading "北京弗远嘉科技有限公司 - 天眼查" [level=3, ref=e39]
+                  - link "北京弗远嘉科技有限公司 - 天眼查" [ref=e58]
+                - generic
+                - generic
+                  - link "天眼查" [ref=e59]
+          - generic
+            - generic
+              - generic
+                - heading "北京弗远嘉科技有限公司_【工商信息_信用信息_纳税人识别号_地址..." [level=3, ref=e40]
+                  - link "北京弗远嘉科技有限公司_【工商信息_信用信息_纳税人识别号_地址..." [ref=e60]
+                - generic
+                  - StaticText "公司简介: "
+                - generic
+                  - link "企查猫" [ref=e61]
+          - generic
+            - generic
+              - StaticText "大家还在搜"
+            - generic
+              - link "北京跬远科技发展有限公司" [ref=e31]
+                - StaticText "北京跬远科技发展有限公司"
+              - link "北京远富投资管理有限公司" [ref=e32]
+                - StaticText "北京远富投资管理有限公司"
+              - link "北京福托科技开发有限责任公司" [ref=e33]
+                - StaticText "北京福托科技开发有限责任公司"
+              - link "九江嘉远科技有限公司" [ref=e34]
+                - StaticText "九江嘉远科技有限公司"
+              - link "北京嘉信邦科技有限公司" [ref=e35]
+                - StaticText "北京嘉信邦科技有限公司"
+              - link "北京弗特恩科技有限公司" [ref=e36]
+                - StaticText "北京弗特恩科技有限公司"
+          - generic
+            - generic
+              - generic
+                - heading "北京弗远嘉科技有限公司 - 企查查" [level=3, ref=e41]
+                  - link "北京弗远嘉科技有限公司 - 企查查" [ref=e62]
+                - generic
+                - generic
+                  - link "头像 企查查" [ref=e63]
+                - generic
+          - generic
+            - generic
+              - generic
+                - heading "北京宏晖远嘉科技有限公司 - 天眼查" [level=3, ref=e42]
+                  - link "北京宏晖远嘉科技有限公司 - 天眼查" [ref=e64]
+                - generic
+                - generic
+                  - link "头像 天眼查" [ref=e65]
+          - generic
+            - generic
+              - generic
+                - heading "北京弗远科技有限公司" [level=3, ref=e43]
+                  - link "北京弗远科技有限公司" [ref=e66]
+                - generic
+                  - StaticText "海淀区广源闸5号1幢7层701-245,于2014年06月16日在北京成立。公司资金充裕,注册资本5 万元 人民币,在罗玮带领下, 欢迎各界朋友莅临参观、指导和业务洽谈 联系方式 公司地址: 北京市海淀区广源闸5号1幢7层701-245 ..."
+                - generic
+                  - link "顺企网" [ref=e67]
+          - generic
+            - generic
+              - generic
+                - heading "-企业工商信用信息,电话,地址,法人-阿里巴巴企业信用" [level=3, ref=e44]
+                  - link "-企业工商信用信息,电话,地址,法人-阿里巴巴企业信用" [ref=e68]
+                - generic
+                - generic
+                  - link "阿里巴巴1688" [ref=e69]
+          - generic
+            - heading "北京远弗科技有限公司，公司，百度百科" [level=3, ref=e26]
+              - link "北京远弗科技有限公司，公司，百度百科" [ref=e37]
+                - emphasis
+                - StaticText " - 百度百科"
+            - generic
+              - generic
+                - generic "北京远弗科技有限公司于2020年04月08日成立。法定代表人张晓剑，公司经营范围包括：技术开发、技术转让、技术咨询（中介除外）、技术服务；基础软件服务；软件开发；计算机系统服务；维修机械设备、通讯设备（卫星接收设备除外）、计算机；电脑图文设计、制作；打字、复印；销售照相器材、个人卫生用品、第一类医疗器械、机械设备、电子元器件、家用电器、文化用品（音像制品除外）、通讯设备（卫星接收设备除外）、家具、体育用品、电子产品、计算机、软件及辅助设备、化工产品（危险化学品除外）、仪器仪表、消防器材等。"
+                - link "百度百科" [ref=e45]
+                - generic
+          - generic
+            - generic
+              - generic
+                - heading "王菊- 北京弗远嘉科技有限公司 - 企查查" [level=3, ref=e46]
+                  - link "王菊- 北京弗远嘉科技有限公司 - 企查查" [ref=e70]
+                - generic
+                - generic
+                  - link "头像 企查查" [ref=e71]
+        - generic
+          - generic
+            - StaticText "相关搜索"
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "北京跬远科技发展有限公司"
+                - link "北京跬远科技发展有限公司" [ref=e47]
+              - LayoutTableCell "北京远富投资管理有限公司"
+                - link "北京远富投资管理有限公司" [ref=e48]
+            - LayoutTableRow
+              - LayoutTableCell "北京福托科技开发有限责任公司"
+                - link "北京福托科技开发有限责任公司" [ref=e49]
+              - LayoutTableCell "九江嘉远科技有限公司"
+                - link "九江嘉远科技有限公司" [ref=e50]
+            - LayoutTableRow
+              - LayoutTableCell "北京嘉信邦科技有限公司"
+                - link "北京嘉信邦科技有限公司" [ref=e51]
+              - LayoutTableCell "北京弗特恩科技有限公司"
+                - link "北京弗特恩科技有限公司" [ref=e52]
+            - LayoutTableRow
+              - LayoutTableCell "弗瑞尔(北京)科技有限公司"
+                - link "弗瑞尔(北京)科技有限公司" [ref=e53]
+              - LayoutTableCell "北京远索科技有限公司"
+                - link "北京远索科技有限公司" [ref=e54]
+            - LayoutTableRow
+              - LayoutTableCell "北京弗莱达科技有限责任公司"
+                - link "北京弗莱达科技有限责任公司" [ref=e55]
+              - LayoutTableCell "竣远科技(北京)有限公司"
+                - link "竣远科技(北京)有限公司" [ref=e56]
+      - generic
+        - generic
+          - link "上一页" [ref=e15]
+          - strong
+          - link "2" [ref=e16]
+          - link "3" [ref=e17]
+          - link "4" [ref=e18]
+          - link "5" [ref=e19]
+          - link "6" [ref=e20]
+          - link "7" [ref=e21]
+          - link "8" [ref=e22]
+          - link "9" [ref=e23]
+          - link "10" [ref=e24]
+          - link "下一页" [ref=e25]
+      - generic
+      - generic
+        - generic
+          - generic
+            - link "帮助" [ref=e27]
+            - link "举报" [ref=e28]
+            - link "用户反馈" [ref=e29]
+            - link "企业推广" [ref=e30]
+
+STDERR:

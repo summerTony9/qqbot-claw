@@ -1,0 +1,404 @@
+- generic
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。" [ref=e1]
+  - generic
+    - generic
+  - generic
+    - generic
+      - generic
+        - link "到百度首页" [ref=e2]
+          - image "到百度首页"
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                  - generic
+                  - generic
+                    - generic
+                      - generic
+                      - generic
+                        - textbox [ref=e81]: 北京悦优动体育有限公司 主营 行业
+                          - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                          - generic
+                          - generic
+                        - button "百度一下" [ref=e82]
+                          - StaticText "百度一下"
+                    - generic
+                      - generic
+      - generic
+        - link "百度首页" [ref=e3]
+          - StaticText "百度首页"
+        - link "设置" [ref=e4]
+          - StaticText "设置"
+        - link "登录" [ref=e5]
+          - StaticText "登录"
+    - generic
+    - generic
+      - generic
+        - link [ref=e6]
+          - image
+        - StaticText "网页"
+        - link "图片" [ref=e7]
+          - StaticText "图片"
+        - link "资讯" [ref=e8]
+          - StaticText "资讯"
+        - link "视频" [ref=e9]
+          - StaticText "视频"
+        - link "笔记" [ref=e10]
+          - StaticText "笔记"
+        - link "地图" [ref=e11]
+          - StaticText "地图"
+        - link "贴吧" [ref=e12]
+          - StaticText "贴吧"
+        - link "文库" [ref=e13]
+          - StaticText "文库"
+        - link "更多" [ref=e14]
+          - StaticText "更多"
+        - generic
+          - StaticText "搜索工具"
+    - generic
+      - generic
+        - generic
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "相关搜索  主营行业和经营范围  主营行业类别  主营行业怎么填写  主营行业  北京网动体育文化发展有限公司  北京中锐体育产业有限公司    换一换 热搜榜 民生榜 财经榜  把绿色的种子种进心里 1"
+                - generic
+                  - generic
+                    - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                            - link " 主营行业和经营范围" [ref=e102]
+                          - generic
+                            - link " 主营行业类别" [ref=e103]
+                          - generic
+                            - link " 主营行业怎么填写" [ref=e104]
+                          - generic
+                            - link " 主营行业" [ref=e105]
+                          - generic
+                            - link " 北京网动体育文化发展有限公司" [ref=e106]
+                          - generic
+                            - link " 北京中锐体育产业有限公司" [ref=e107]
+                  - generic
+                    - generic
+                      - generic
+                        - link " " [ref=e83]
+                        - generic
+                          - link " 换一换" [ref=e84]
+                      - generic
+                        - generic
+                        - generic
+                        - generic
+                      - generic
+                        - generic
+                          - link "把绿色的种子种进心里" [ref=e85]
+                      - generic
+                        - generic
+                          - link "郑丽文谈访陆：两岸不是终须一战" [ref=e86]
+                      - generic
+                        - generic
+                          - link "“别人的春和景明 我的氯雷他定”" [ref=e87]
+                      - generic
+                        - generic
+                          - link "中国创新“酷”在哪里" [ref=e88]
+                      - generic
+                        - generic
+                          - link "今年蚊子或迎来史诗级加强 疾控提醒" [ref=e89]
+                      - generic
+                        - generic
+                          - link "新手友好，PayPal个人卖家账户上线" [ref=e90]
+                      - generic
+                        - generic
+                          - link "年轻人流行起“重新养育父母”" [ref=e91]
+                      - generic
+                        - generic
+                          - link "伊朗一儿童游乐场遭美以袭击" [ref=e92]
+                      - generic
+                        - generic
+                          - link "被中国淘汰的车却在印度“杀疯了”" [ref=e93]
+                      - generic
+                        - generic
+                          - link "广州遭遇“高压水枪式暴击”" [ref=e94]
+                      - generic
+                        - generic
+                          - link "女职工到底50岁还是55岁退休" [ref=e95]
+                      - generic
+                        - generic
+                          - link "时隔6年中国航班再次抵达平壤" [ref=e96]
+                      - generic
+                        - generic
+                          - link "“抗过敏药容易产生依赖”是误区" [ref=e97]
+                      - generic
+                        - generic
+                          - link "单依纯再次道歉后李荣浩秒回" [ref=e98]
+                      - generic
+                        - generic
+                          - link "伊朗首都遭大规模空袭 部分区域断电" [ref=e99]
+                      - generic
+                        - generic
+                          - link "蔡磊身体近况：四人搀扶也无法迈步" [ref=e100]
+                      - generic
+                        - generic
+                          - link "黑龙江海林建筑坍塌事故致7人遇难" [ref=e101]
+                - generic
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                    - image
+                    - generic
+                    - generic
+                    - generic
+          - generic
+            - generic
+              - generic
+                - heading "北京悦优动体育有限公司 - 天眼查" [level=3, ref=e40]
+                  - link "北京悦优动体育有限公司 - 天眼查" [ref=e64]
+                    - paragraph
+                - generic
+                  - StaticText "2025年9月11日"
+                  - StaticText "电话:- 邮箱:- 网址:- 地址: "
+                  - emphasis
+                    - StaticText "北京市"
+                  - StaticText "大兴区新源大街27号院3号楼3层323 附近企业 国标"
+                  - emphasis
+                    - StaticText "行业"
+                  - StaticText ":其他"
+                  - emphasis
+                    - StaticText "体育"
+                  - StaticText "组织 企业规模:小型 简介:"
+                  - emphasis
+                    - StaticText "北京悦优动体育有限公司"
+                  - StaticText ",成立于2024年,位于北京市,是一家以从事体育为主的企业。企业注册资本100万人民币。通过天眼查大数据分析,"
+                  - emphasis
+                    - StaticText "北京悦优动体育有限公司"
+                  - StaticText "拥有行政许可1个。展开 点击更新企业数据 财产线索 线索数量1"
+                - generic
+                  - link "天眼查" [ref=e65]
+                    - StaticText "天眼查"
+          - generic
+            - generic
+              - generic
+                - heading "北京悦优动体育有限公司 - 企业/公司信息查询 - 爱企查" [level=3, ref=e41]
+                  - link "北京悦优动体育有限公司 - 企业/公司信息查询 - 爱企查" [ref=e66]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e75]
+                  - generic
+                    - StaticText "爱企查为您提供"
+                    - emphasis
+                    - StaticText "企业信息查询,包括公司注册信息,公司地址,品牌项目,工商信息等公司信息查询,想要了解更多更多企业信息,就到爱企查官网!"
+                  - generic
+                    - generic
+                      - link "头像 爱企查" [ref=e78]
+          - generic
+            - generic
+              - StaticText "大家还在搜"
+            - generic
+              - link "主营行业和经营范围" [ref=e31]
+                - StaticText "主营行业和经营范围"
+              - link "主营行业类别" [ref=e32]
+                - StaticText "主营行业类别"
+              - link "主营行业怎么填写" [ref=e33]
+                - StaticText "主营行业怎么填写"
+              - link "主营行业" [ref=e34]
+                - StaticText "主营行业"
+              - link "北京网动体育文化发展有限公司" [ref=e35]
+                - StaticText "北京网动体育文化发展有限公司"
+              - link "北京中锐体育产业有限公司" [ref=e36]
+                - StaticText "北京中锐体育产业有限公司"
+              - link "锐动体育" [ref=e37]
+                - StaticText "锐动体育"
+              - link "成都动享体育文化传播有限公司" [ref=e38]
+                - StaticText "成都动享体育文化传播有限公司"
+          - generic
+            - generic
+              - generic
+                - heading "北京悦优动体育有限公司_主要人员_董事_监事_公司查询 - 天眼查" [level=3, ref=e42]
+                  - link "北京悦优动体育有限公司_主要人员_董事_监事_公司查询 - 天眼查" [ref=e67]
+                    - paragraph
+                - generic
+                  - StaticText "2025年8月25日"
+                  - StaticText "简介:北京悦优动体育有限公司,成立于2024年,位于北京市,"
+                  - emphasis
+                    - StaticText "是一家以从事体育为主的企业"
+                  - StaticText "。企业注册资本100万人民币。通过天眼查大数据分析,北京悦优动体育有限公司拥有行政许可1个。更多 评分58 法定代表人 韩昊桦 注册资本 100万人民币 成立日期 2024-03-26 ..."
+                - generic
+                  - link "头像 天眼查" [ref=e68]
+                    - generic
+                    - StaticText "天眼查"
+          - generic
+            - generic
+              - generic
+                - heading "韩昊桦 - 北京悦优动体育有限公司 - 法定代表人/高管/股东 - 爱企查" [level=3, ref=e43]
+                  - link "韩昊桦 - 北京悦优动体育有限公司 - 法定代表人/高管/股东 - 爱企查" [ref=e69]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e76]
+                  - generic
+                    - StaticText "2025年8月20日"
+                    - StaticText "韩昊桦目前担任"
+                    - emphasis
+                    - StaticText "法定代表人,同时担任北京悦优动体育有限公司财务负责人,执行董事,经理;二、韩昊桦投资情况:韩昊桦目前是北京悦优动体育有限公司直接控股股东,持股比例为100%;目前韩昊桦投资北京悦优动体育有限公司最终收益股份为100%;三、韩昊桦的商业合作伙伴:基于公开数据展示,韩昊桦与牛嘉锴为..."
+                  - generic
+                    - generic
+                      - link "头像 爱企查" [ref=e79]
+          - generic
+            - heading "标题:北京悦优动体育有限公司 - 企业信息" [level=3, ref=e26]
+              - link "标题:北京悦优动体育有限公司 - 企业信息" [ref=e39]
+                - emphasis
+                  - StaticText "北京悦优动体育有限公司"
+                - StaticText " - 企业信息"
+            - generic
+              - generic
+                - link [ref=e44]
+                  - generic
+                    - generic
+              - generic
+                - paragraph
+                  - emphasis
+                    - StaticText "北京悦优动体育有限公司"
+                  - StaticText "法定代表人：韩昊桦，注册资金：100万元，地址：北京市大兴区新源大街27号院3号楼3层323，经营范围：一般项目：体育竞赛组织；体育场地设施经营（不含高危险性体育运动）；体育健康服务；体育赛事策划；体育保障组织；体育用品设备出租；体育中介代理服务；体育经纪人服务；体育用品及器材制造；体育用品及器材批发；体育用品及器材零售；体育消费用智能设备制造；健身休闲活动；组织体育表演活动；体育场地设施工程施工；技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广；信息咨询服务（不含许可类信息咨询服务）；市场调查（不含涉外调查）；个人商务服务；办公服务；电子产品销售；销售代理；互联网销售（除销售需要许可的商品）；会议及展览服务；组织文化艺术交流活动；文艺创作；其他文化艺术经纪代理；数字内容制作服务（不含出版发行）；数字文化创意内容应用服务；广告制作；广告设计、代理；广告发布；品牌管理；市场营销策划；企业形象策划；个人互联网直播服务；图文设计制作；规划设计管理；专业设计服务；平面设计。（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）（不得从事国家和本市产业政策禁止和限制类项目的经营活动。）"
+                - link "工商信息" [ref=e45]
+                  - generic
+                    - StaticText "工商信息"
+                - link "认领企业" [ref=e46]
+                  - generic
+                    - StaticText "认领企业"
+                - link "企业风险" [ref=e47]
+                  - generic
+                    - StaticText "企业风险"
+                - link "企业股东" [ref=e48]
+                  - generic
+                    - StaticText "企业股东"
+                - link "经营状况" [ref=e49]
+                  - generic
+                    - StaticText "经营状况"
+                - link "来源：以上信息来源爱企查，一个专业免费的企业信息查询平台" [ref=e50]
+                  - generic
+                    - generic
+          - generic
+            - generic
+              - generic
+                - heading "北京动悦体育科技有限公司 - 企查查" [level=3, ref=e51]
+                  - link "北京动悦体育科技有限公司 - 企查查" [ref=e70]
+                    - paragraph
+                - generic
+                  - StaticText "2026年3月17日"
+                  - StaticText "1、基本信息北京动悦体育科技有限公司是⼀家成⽴于2026年02月12日的有限责任公司,"
+                  - emphasis
+                    - StaticText "属于以从事科学研究和技术服务业为主的企业"
+                  - StaticText "。位于北京市密云区,目前处于存续状态。注册资本:500万元。2、营运状况通过企查查⼤数据分析,北京动悦体育科技有限公司共行政许可1个。"
+                - generic
+                  - link "企查查" [ref=e71]
+                    - StaticText "企查查"
+          - generic
+            - generic
+              - generic
+                - heading "北京优动体育文化发展有限公司 - 企查查" [level=3, ref=e52]
+                  - link "北京优动体育文化发展有限公司 - 企查查" [ref=e72]
+                    - paragraph
+                - generic
+                  - StaticText "2026年2月2日"
+                  - StaticText "地址:"
+                  - emphasis
+                    - StaticText "北京市"
+                  - StaticText "石景山区实兴大街30号院3号楼2层B-0718房间附近企业更多1 企查查"
+                  - emphasis
+                    - StaticText "行业"
+                  - StaticText ": 文化娱乐 企业规模:微型 员工人数:1(2024年) 1、基本信息 "
+                  - emphasis
+                    - StaticText "北京优动体育"
+                  - StaticText "文化发展"
+                  - emphasis
+                    - StaticText "有限公司"
+                  - StaticText "是⼀家成⽴于2016年09月13日的"
+                  - emphasis
+                    - StaticText "有限责任公司"
+                  - StaticText ",属于以从事文化、体育和娱乐业为主的企业。位于北京市石景山区,法定代表人为吴颖春,目前处..."
+                - generic
+                  - link "头像 企查查" [ref=e73]
+                    - generic
+                    - StaticText "企查查"
+                - generic
+                  - generic
+          - generic
+            - generic
+              - generic
+                - heading "「河北优动体育发展有限公司招聘」-BOSS直聘" [level=3, ref=e53]
+                  - link "「河北优动体育发展有限公司招聘」-BOSS直聘" [ref=e74]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e77]
+                  - generic
+                    - StaticText "2026年3月4日"
+                    - StaticText "目前"
+                    - emphasis
+                    - StaticText "4-13岁青少年体育培训,主要是篮、网、羽的球类运动、场馆运营、赛事、游学等项目,公司于2016年成立,目前还是创业发展时期,二环内有多家自营场馆和合作场馆,其中在河北省体育馆长期合作网球馆(入住的机构仅有两家),"
+                    - emphasis
+                    - StaticText "占据中心位置。 产品介绍 ..."
+                  - generic
+                    - generic
+                      - link "BOSS直聘" [ref=e80]
+        - generic
+          - generic
+            - StaticText "相关搜索"
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "主营行业和经营范围"
+                - link "主营行业和经营范围" [ref=e54]
+              - LayoutTableCell "主营行业类别"
+                - link "主营行业类别" [ref=e55]
+            - LayoutTableRow
+              - LayoutTableCell "主营行业怎么填写"
+                - link "主营行业怎么填写" [ref=e56]
+              - LayoutTableCell "主营行业"
+                - link "主营行业" [ref=e57]
+            - LayoutTableRow
+              - LayoutTableCell "北京网动体育文化发展有限公司"
+                - link "北京网动体育文化发展有限公司" [ref=e58]
+              - LayoutTableCell "北京中锐体育产业有限公司"
+                - link "北京中锐体育产业有限公司" [ref=e59]
+            - LayoutTableRow
+              - LayoutTableCell "锐动体育"
+                - link "锐动体育" [ref=e60]
+              - LayoutTableCell "成都动享体育文化传播有限公司"
+                - link "成都动享体育文化传播有限公司" [ref=e61]
+            - LayoutTableRow
+              - LayoutTableCell "悦健体育"
+                - link "悦健体育" [ref=e62]
+              - LayoutTableCell "优动体育"
+                - link "优动体育" [ref=e63]
+      - generic
+        - generic
+          - link "上一页" [ref=e15]
+          - strong
+          - link "2" [ref=e16]
+          - link "3" [ref=e17]
+          - link "4" [ref=e18]
+          - link "5" [ref=e19]
+          - link "6" [ref=e20]
+          - link "7" [ref=e21]
+          - link "8" [ref=e22]
+          - link "9" [ref=e23]
+          - link "10" [ref=e24]
+          - link "下一页" [ref=e25]
+      - generic
+      - generic
+        - generic
+          - generic
+            - link "帮助" [ref=e27]
+            - link "举报" [ref=e28]
+            - link "用户反馈" [ref=e29]
+            - link "企业推广" [ref=e30]

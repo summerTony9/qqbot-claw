@@ -1,0 +1,382 @@
+- generic
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。" [ref=e1]
+  - generic
+    - generic
+  - generic
+    - generic
+      - generic
+        - link "到百度首页" [ref=e2]
+          - image "到百度首页"
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                  - generic
+                  - generic
+                    - generic
+                      - generic
+                      - generic
+                        - textbox [ref=e74]: 北京苓娜缤纷商贸有限公司 招聘 专利 融资 中标 官网
+                          - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                          - generic
+                          - generic
+                        - button "百度一下" [ref=e75]
+                          - StaticText "百度一下"
+                    - generic
+                      - generic
+      - generic
+        - link "百度首页" [ref=e3]
+          - StaticText "百度首页"
+        - link "设置" [ref=e4]
+          - StaticText "设置"
+        - link "登录" [ref=e5]
+          - StaticText "登录"
+    - generic
+    - generic
+      - generic
+        - link [ref=e6]
+          - image
+        - StaticText "网页"
+        - link "图片" [ref=e7]
+          - StaticText "图片"
+        - link "资讯" [ref=e8]
+          - StaticText "资讯"
+        - link "视频" [ref=e9]
+          - StaticText "视频"
+        - link "笔记" [ref=e10]
+          - StaticText "笔记"
+        - link "地图" [ref=e11]
+          - StaticText "地图"
+        - link "贴吧" [ref=e12]
+          - StaticText "贴吧"
+        - link "文库" [ref=e13]
+          - StaticText "文库"
+        - link "更多" [ref=e14]
+          - StaticText "更多"
+        - generic
+          - StaticText "搜索工具"
+    - generic
+      - generic
+        - generic
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "相关搜索  专利代理人招聘  中国贸促会专利事务所有限公司  内蒙古遇见阿泯娜商贸有限公司  成都娜沐儿商贸有限公司  郑州娜禾商贸有限公司  广州瑟琳娜商贸有限公司    换一换 热搜榜 民生榜 财经榜  把绿色的种子种进心里 1"
+                - generic
+                  - generic
+                    - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                            - link " 专利代理人招聘" [ref=e95]
+                          - generic
+                            - link " 中国贸促会专利事务所有限公司" [ref=e96]
+                          - generic
+                            - link " 内蒙古遇见阿泯娜商贸有限公司" [ref=e97]
+                          - generic
+                            - link " 成都娜沐儿商贸有限公司" [ref=e98]
+                          - generic
+                            - link " 郑州娜禾商贸有限公司" [ref=e99]
+                          - generic
+                            - link " 广州瑟琳娜商贸有限公司" [ref=e100]
+                  - generic
+                    - generic
+                      - generic
+                        - link " " [ref=e76]
+                        - generic
+                          - link " 换一换" [ref=e77]
+                      - generic
+                        - generic
+                        - generic
+                        - generic
+                      - generic
+                        - generic
+                          - link "把绿色的种子种进心里" [ref=e78]
+                      - generic
+                        - generic
+                          - link "郑丽文谈访陆：两岸不是终须一战" [ref=e79]
+                      - generic
+                        - generic
+                          - link "“别人的春和景明 我的氯雷他定”" [ref=e80]
+                      - generic
+                        - generic
+                          - link "中国创新“酷”在哪里" [ref=e81]
+                      - generic
+                        - generic
+                          - link "今年蚊子或迎来史诗级加强 疾控提醒" [ref=e82]
+                      - generic
+                        - generic
+                          - link "新手友好，PayPal个人卖家账户上线" [ref=e83]
+                      - generic
+                        - generic
+                          - link "年轻人流行起“重新养育父母”" [ref=e84]
+                      - generic
+                        - generic
+                          - link "伊朗一儿童游乐场遭美以袭击" [ref=e85]
+                      - generic
+                        - generic
+                          - link "被中国淘汰的车却在印度“杀疯了”" [ref=e86]
+                      - generic
+                        - generic
+                          - link "广州遭遇“高压水枪式暴击”" [ref=e87]
+                      - generic
+                        - generic
+                          - link "女职工到底50岁还是55岁退休" [ref=e88]
+                      - generic
+                        - generic
+                          - link "时隔6年中国航班再次抵达平壤" [ref=e89]
+                      - generic
+                        - generic
+                          - link "“抗过敏药容易产生依赖”是误区" [ref=e90]
+                      - generic
+                        - generic
+                          - link "单依纯再次道歉后李荣浩秒回" [ref=e91]
+                      - generic
+                        - generic
+                          - link "伊朗首都遭大规模空袭 部分区域断电" [ref=e92]
+                      - generic
+                        - generic
+                          - link "蔡磊身体近况：四人搀扶也无法迈步" [ref=e93]
+                      - generic
+                        - generic
+                          - link "黑龙江海林建筑坍塌事故致7人遇难" [ref=e94]
+                - generic
+        - generic
+          - generic
+            - generic
+              - generic
+                - heading "北京中强智尚知识产权代理有限公司招聘 - 智联招聘" [level=3, ref=e32]
+                  - link "北京中强智尚知识产权代理有限公司招聘 - 智联招聘" [ref=e51]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e64]
+                  - generic
+                    - StaticText "2026年3月16日"
+                    - StaticText "2013年度荣获中关村知识产权服务机构"
+                    - emphasis
+                    - StaticText "分析类的绩效考核优秀单位;2014年11月入围北京知识产权局第一批北京市知识产权服务品牌机构培育单位; 2014年12月,公司代理人荣获2014年度"北京市优秀专利代理人"称号;2015年1月份入围第二批国家专利运营试点企业; 2015年度再次荣获中关村知识产权服务机构专利分析类的绩效考核"
+                  - generic
+                    - generic
+                      - link "头像 智联招聘" [ref=e69]
+                    - generic
+          - generic
+            - generic
+              - generic
+                - heading "郭耀程 - 北广财富金融服务外包(北京)有限公司 - 法定代表人/高管..." [level=3, ref=e33]
+                  - link "郭耀程 - 北广财富金融服务外包(北京)有限公司 - 法定代表人/高管..." [ref=e52]
+                    - paragraph
+                - generic
+                  - StaticText "2025年6月30日"
+                  - StaticText "史伟鑫 合作1次 担任 北广财富金融服务外包(北京)有限公司 法定代表人 担任法定代表人: 2 家 担任股东: 2 家 担任高管: 2 家 控股企业: 2 家 罗秋雨 合作1次 担任 "
+                  - emphasis
+                    - StaticText "北京苓娜缤纷商贸有限公司"
+                  - StaticText " 法定代表人 担任法定代表人: 1 家 担任股东: 1 家 担任高管: 1 家 控股企业: 1 家 上述信息根..."
+                - generic
+                  - link "头像 爱企查" [ref=e53]
+                    - generic
+                    - StaticText "爱企查"
+          - generic
+            - generic
+              - generic
+                - heading "「莱阳市古柳友信信息咨询服务部」2026年招聘信息-BOSS直聘" [level=3, ref=e34]
+                  - link "「莱阳市古柳友信信息咨询服务部」2026年招聘信息-BOSS直聘" [ref=e54]
+                    - paragraph
+                - generic
+                  - StaticText "2026年2月4日"
+                  - StaticText "株洲苹果营销顾问"
+                  - emphasis
+                    - StaticText "招聘"
+                  - StaticText " "
+                  - emphasis
+                    - StaticText "北京苓娜缤纷商贸有限公司"
+                  - StaticText " 石桥毕樱菡门窗店销售顾问招聘 邢台冰圣商贸有限公司 佛山策划经理总监招聘 黑龙江鸿堃机电设备有限公司 深圳市立盛动力科技有限公司 高安市海通汽运有限公司 more体育招聘 金龙特种门窗制造资料员文员招聘 德阳市石门洞水业有限公司 宠物线下销售招聘 苏州通赛电梯有限公司 ..."
+                - generic
+                  - link "看准网" [ref=e55]
+                    - StaticText "看准网"
+          - generic
+            - generic
+              - StaticText "大家还在搜"
+            - generic
+              - link "专利代理人招聘" [ref=e26]
+                - StaticText "专利代理人招聘"
+              - link "中国贸促会专利事务所有限公司" [ref=e27]
+                - StaticText "中国贸促会专利事务所有限公司"
+              - link "内蒙古遇见阿泯娜商贸有限公司" [ref=e28]
+                - StaticText "内蒙古遇见阿泯娜商贸有限公司"
+              - link "成都娜沐儿商贸有限公司" [ref=e29]
+                - StaticText "成都娜沐儿商贸有限公司"
+              - link "郑州娜禾商贸有限公司" [ref=e30]
+                - StaticText "郑州娜禾商贸有限公司"
+              - link "广州瑟琳娜商贸有限公司" [ref=e31]
+                - StaticText "广州瑟琳娜商贸有限公司"
+          - generic
+            - generic
+              - generic
+                - heading "北京交通大学专利申请前评估项目中标公告 - 中标采购公示 - 北京..." [level=3, ref=e35]
+                  - link "北京交通大学专利申请前评估项目中标公告 - 中标采购公示 - 北京..." [ref=e56]
+                    - paragraph
+                - generic
+                  - emphasis
+                    - StaticText "中标"
+                  - StaticText "(成交)金额:0.0000000(万元) 四、主要标的信息 序号供应商名称 服务名称 服务范围 服务要求 服务时间 服务标准 1北京国昊天诚知识产权代理"
+                  - emphasis
+                    - StaticText "有限公司"
+                  - StaticText " "
+                  - emphasis
+                    - StaticText "专利"
+                  - StaticText "申请前评估 满足招标文件要求 满足招标文件要求 自合同签订之日起1年 满足招标文件要求 序号<"
+                - generic
+                  - link "北京交通大学" [ref=e57]
+                    - StaticText "北京交通大学"
+          - generic
+            - generic
+              - generic
+                - heading "【专利分析师】_专利分析师招聘-猎聘" [level=3, ref=e36]
+                  - link "【专利分析师】_专利分析师招聘-猎聘" [ref=e58]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e65]
+                  - generic
+                    - StaticText "2026年3月21日"
+                    - StaticText "招聘专员 "
+                    - emphasis
+                    - StaticText "分析师 【"
+                    - emphasis
+                    - StaticText "-北大地】 10-18k 5年以上本科 北京八月瓜科技有限公司 云计算/大数据,知识产权服务C轮融资100-499人 王女士 hrbp 专利分析师 【北京-建外大街】 15-18k 3-5年本科五险一金带薪年假节日礼物管理规范 LG新能源 新能源融资未公开5000-10000人 ..."
+                  - generic
+                    - generic
+                      - link "头像 猎聘" [ref=e70]
+          - generic
+            - generic
+              - generic
+                - heading "北京腾赫商贸有限责任公司招聘 - 智联招聘" [level=3, ref=e37]
+                  - link "北京腾赫商贸有限责任公司招聘 - 智联招聘" [ref=e59]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e66]
+                  - generic
+                    - StaticText "2026年2月11日"
+                    - StaticText "公司相册 工商信息 企业名称 北京腾赫"
+                    - emphasis
+                    - StaticText " 法人代表 徐志强 成立时间 2002-01-04 企业类型 有限责任公司(自然人投资或控股) 经营状态 存续 注册资本 5000万元 展开全部 公司地址 北京房山区辰光东路16号院"
+                  - generic
+                    - generic
+                      - link "头像 智联招聘" [ref=e71]
+                    - generic
+          - generic
+            - generic
+              - generic
+                - heading "「北京中盛达润商贸有限公司招聘」-BOSS直聘" [level=3, ref=e38]
+                  - link "「北京中盛达润商贸有限公司招聘」-BOSS直聘" [ref=e60]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e67]
+                  - generic
+                    - StaticText "2026年3月19日"
+                    - StaticText "公司全称:北京中盛达润"
+                    - emphasis
+                    - StaticText " 人员规模:20-99人 所在城市:"
+                    - emphasis
+                    - StaticText " 所属行业:100504 旗下品牌 中盛达润 进出口贸易未"
+                    - emphasis
+                    - StaticText "20-99人 热门企业 快手 社交网络与媒体已上市10000人以上 百度 互联网已上市10000人以上 华为 计算机软件不需要融资10000人以上 ..."
+                  - generic
+                    - generic
+                      - link "BOSS直聘" [ref=e72]
+          - generic
+            - generic
+              - generic
+                - heading "【北京专利招聘网_2026年北京专利招聘信息】-北京猎聘" [level=3, ref=e39]
+                  - link "【北京专利招聘网_2026年北京专利招聘信息】-北京猎聘" [ref=e61]
+                    - paragraph
+                - generic
+                  - StaticText "5天前"
+                  - emphasis
+                    - StaticText "专利招聘"
+                  - StaticText "专场进行时 10万起 全国学历不限经验不限 汇聚众多行业名企 领导好发展空间大五险一金 本期新增2518个职位 专利分析师 【北京-北大地】 10-18k 5年以上本科 北京八月瓜科技"
+                  - emphasis
+                    - StaticText "有限公司"
+                  - StaticText " 云计算/大数据,知识产权服务C轮"
+                  - emphasis
+                    - StaticText "融资"
+                  - StaticText "100-499人 刘先生 hrbp经理 ..."
+                - generic
+                  - link "头像 猎聘" [ref=e62]
+                    - generic
+                    - StaticText "猎聘"
+          - generic
+            - generic
+              - generic
+                - heading "化学领域专利代理人【兼职】是什么职位_绿狮通2026年化学领域专利..." [level=3, ref=e40]
+                  - link "化学领域专利代理人【兼职】是什么职位_绿狮通2026年化学领域专利..." [ref=e63]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e68]
+                  - generic
+                    - StaticText "2026年2月13日"
+                    - StaticText "公司基本信息 绿狮通 不需要"
+                    - emphasis
+                    - StaticText " 100-499人 企业服务 查看全部职位 微信扫码分享 职位描述 专利代理人 无销售性质 工作周期:长期兼职 每周工期:无要求 工作时间:不限 工作时段:不限 结算方式:完工结 因业务发展需要,我司"
+                    - emphasis
+                    - StaticText "代理工程师数名: 任职要求: ..."
+                  - generic
+                    - generic
+                      - link "BOSS直聘" [ref=e73]
+        - generic
+          - generic
+            - StaticText "相关搜索"
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "专利代理人招聘"
+                - link "专利代理人招聘" [ref=e41]
+              - LayoutTableCell "中国贸促会专利事务所有限公司"
+                - link "中国贸促会专利事务所有限公司" [ref=e42]
+            - LayoutTableRow
+              - LayoutTableCell "内蒙古遇见阿泯娜商贸有限公司"
+                - link "内蒙古遇见阿泯娜商贸有限公司" [ref=e43]
+              - LayoutTableCell "成都娜沐儿商贸有限公司"
+                - link "成都娜沐儿商贸有限公司" [ref=e44]
+            - LayoutTableRow
+              - LayoutTableCell "郑州娜禾商贸有限公司"
+                - link "郑州娜禾商贸有限公司" [ref=e45]
+              - LayoutTableCell "广州瑟琳娜商贸有限公司"
+                - link "广州瑟琳娜商贸有限公司" [ref=e46]
+            - LayoutTableRow
+              - LayoutTableCell "天津娜娇植商贸有限公司职友网"
+                - link "天津娜娇植商贸有限公司职友网" [ref=e47]
+              - LayoutTableCell "武汉优雅娜商贸有限公司"
+                - link "武汉优雅娜商贸有限公司" [ref=e48]
+            - LayoutTableRow
+              - LayoutTableCell "惠州市优雅娜商贸有限公司"
+                - link "惠州市优雅娜商贸有限公司" [ref=e49]
+              - LayoutTableCell "专利代理师 招聘"
+                - link "专利代理师 招聘" [ref=e50]
+      - generic
+        - generic
+          - link "上一页" [ref=e15]
+          - strong
+          - link "2" [ref=e16]
+          - link "3" [ref=e17]
+          - link "4" [ref=e18]
+          - link "5" [ref=e19]
+          - link "6" [ref=e20]
+          - link "下一页" [ref=e21]
+      - generic
+      - generic
+        - generic
+          - generic
+            - link "帮助" [ref=e22]
+            - link "举报" [ref=e23]
+            - link "用户反馈" [ref=e24]
+            - link "企业推广" [ref=e25]

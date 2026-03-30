@@ -1,0 +1,311 @@
+- generic
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。" [ref=e1]
+  - generic
+    - generic
+  - generic
+    - generic
+      - generic
+        - link "到百度首页" [ref=e2]
+          - image "到百度首页"
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                  - generic
+                  - generic
+                    - generic
+                      - generic
+                      - generic
+                        - textbox [ref=e83]: 北京 中科华坤(北京)科技有限公司 招聘
+                          - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                          - generic
+                          - generic
+                        - button "百度一下" [ref=e84]
+                          - StaticText "百度一下"
+                    - generic
+                      - generic
+      - generic
+        - link "百度首页" [ref=e3]
+          - StaticText "百度首页"
+        - link "设置" [ref=e4]
+          - StaticText "设置"
+        - link "登录" [ref=e5]
+          - StaticText "登录"
+    - generic
+    - generic
+      - generic
+        - link [ref=e6]
+          - image
+        - StaticText "网页"
+        - link "图片" [ref=e7]
+          - StaticText "图片"
+        - link "资讯" [ref=e8]
+          - StaticText "资讯"
+        - link "视频" [ref=e9]
+          - StaticText "视频"
+        - link "笔记" [ref=e10]
+          - StaticText "笔记"
+        - link "地图" [ref=e11]
+          - StaticText "地图"
+        - link "贴吧" [ref=e12]
+          - StaticText "贴吧"
+        - link "文库" [ref=e13]
+          - StaticText "文库"
+        - link "更多" [ref=e14]
+          - StaticText "更多"
+        - generic
+          - StaticText "搜索工具"
+    - generic
+      - generic
+        - generic
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "相关搜索  昆山华坤电子科技有限公司  北京中科院招聘信息  北京航天中科人才服务有限公司  北京中科有限公司  华坤生物科技有限公司  华坤公司    换一换 热搜榜 民生榜 财经榜  把绿色的种子种进心里 1"
+                - generic
+                  - generic
+                    - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                            - link " 昆山华坤电子科技有限公司" [ref=e104]
+                          - generic
+                            - link " 北京中科院招聘信息" [ref=e105]
+                          - generic
+                            - link " 北京航天中科人才服务有限公司" [ref=e106]
+                          - generic
+                            - link " 北京中科有限公司" [ref=e107]
+                          - generic
+                            - link " 华坤生物科技有限公司" [ref=e108]
+                          - generic
+                            - link " 华坤公司" [ref=e109]
+                  - generic
+                    - generic
+                      - generic
+                        - link " " [ref=e85]
+                        - generic
+                          - link " 换一换" [ref=e86]
+                      - generic
+                        - generic
+                        - generic
+                        - generic
+                      - generic
+                        - generic
+                          - link "把绿色的种子种进心里" [ref=e87]
+                      - generic
+                        - generic
+                          - link "习近平欢迎并邀请郑丽文率团来访" [ref=e88]
+                      - generic
+                        - generic
+                          - link "时隔6年中国航班再次抵达平壤" [ref=e89]
+                      - generic
+                        - generic
+                          - link "中国创新“酷”在哪里" [ref=e90]
+                      - generic
+                        - generic
+                          - link "疾控提醒：今年蚊子或迎来史诗级加强" [ref=e91]
+                      - generic
+                        - generic
+                          - link "新手友好，PayPal个人卖家账户上线" [ref=e92]
+                      - generic
+                        - generic
+                          - link "广州遭遇“高压水枪式暴击”" [ref=e93]
+                      - generic
+                        - generic
+                          - link "伊朗首都遭大规模空袭 部分区域断电" [ref=e94]
+                      - generic
+                        - generic
+                          - link "被中国淘汰的车却在印度“杀疯了”" [ref=e95]
+                      - generic
+                        - generic
+                          - link "长江水下89米开高铁" [ref=e96]
+                      - generic
+                        - generic
+                          - link "女生在橘子洲拍摄旱地拔葱震撼大片" [ref=e97]
+                      - generic
+                        - generic
+                          - link "女职工到底50岁还是55岁退休" [ref=e98]
+                      - generic
+                        - generic
+                          - link "“抗过敏药容易产生依赖”是误区" [ref=e99]
+                      - generic
+                        - generic
+                          - link "单依纯再次道歉后李荣浩秒回" [ref=e100]
+                      - generic
+                        - generic
+                          - link "蔡磊身体近况：四人搀扶也无法迈步" [ref=e101]
+                      - generic
+                        - generic
+                          - link "伊朗：美国提的建议非常极端且不合理" [ref=e102]
+                      - generic
+                        - generic
+                          - link "住家保姆上门当日病人死亡 家属索赔" [ref=e103]
+                - generic
+        - generic
+          - generic
+            - generic
+              - generic
+                - heading "【中科华坤(北京)科技有限公司招聘】-猎聘" [level=3, ref=e38]
+                  - link "【中科华坤(北京)科技有限公司招聘】-猎聘" [ref=e57]
+                - generic
+                - generic
+                  - link "头像 猎聘" [ref=e58]
+          - generic
+            - generic
+              - generic
+                - heading "【中科昆华(北京)数字科技研究院有限公司招聘信息】-猎聘" [level=3, ref=e39]
+                  - link "【中科昆华(北京)数字科技研究院有限公司招聘信息】-猎聘" [ref=e59]
+                - generic
+                - generic
+                  - link "头像 猎聘" [ref=e60]
+          - generic
+            - generic
+              - generic
+                - heading "「北京华坤科技开发有限责任公司招聘」-BOSS直聘" [level=3, ref=e40]
+                  - link "「北京华坤科技开发有限责任公司招聘」-BOSS直聘" [ref=e61]
+                - generic
+                - generic
+                  - link "BOSS直聘" [ref=e62]
+          - generic
+            - generic
+              - StaticText "大家还在搜"
+            - generic
+              - link "昆山华坤电子科技有限公司" [ref=e30]
+                - StaticText "昆山华坤电子科技有限公司"
+              - link "北京中科院招聘信息" [ref=e31]
+                - StaticText "北京中科院招聘信息"
+              - link "北京航天中科人才服务有限公司" [ref=e32]
+                - StaticText "北京航天中科人才服务有限公司"
+              - link "北京中科有限公司" [ref=e33]
+                - StaticText "北京中科有限公司"
+              - link "华坤生物科技有限公司" [ref=e34]
+                - StaticText "华坤生物科技有限公司"
+              - link "华坤公司" [ref=e35]
+                - StaticText "华坤公司"
+              - link "华坤科技" [ref=e36]
+                - StaticText "华坤科技"
+              - link "北京市科学技术研究院招聘" [ref=e37]
+                - StaticText "北京市科学技术研究院招聘"
+          - generic
+            - generic
+              - generic
+                - heading "北京中科稀珍健康科技" [level=3, ref=e41]
+                  - link "北京中科稀珍健康科技" [ref=e63]
+                - generic
+                - generic
+                  - link "头像 爱企查" [ref=e64]
+          - generic
+            - generic
+              - generic
+                - heading "助推首季经济“开门红”,北京中关村街道走访助企出实招-千龙网·中国..." [level=3, ref=e42]
+                  - link "助推首季经济“开门红”,北京中关村街道走访助企出实招-千龙网·中国..." [ref=e65]
+                - generic
+                - generic
+                  - link "千龙网" [ref=e66]
+          - generic
+            - generic
+              - generic
+                - heading "中科稀珍(北京)健康科技有限公司_稀珍健康-信息查询-官方资质&..." [level=3, ref=e43]
+                  - link "中科稀珍(北京)健康科技有限公司_稀珍健康-信息查询-官方资质&..." [ref=e67]
+                - generic
+                - generic
+                  - link [ref=e68]
+                - generic
+                  - link [ref=e69]
+                - generic
+                  - link [ref=e70]
+                - generic
+                  - link "14" [ref=e71]
+                - generic
+                  - link "天眼查" [ref=e72]
+          - generic
+            - generic
+              - generic
+                - heading "「北京中科稀珍健康科技招聘」-BOSS直聘" [level=3, ref=e44]
+                  - link "「北京中科稀珍健康科技招聘」-BOSS直聘" [ref=e73]
+                - generic
+                - generic
+                  - link [ref=e74]
+                - generic
+                  - link [ref=e75]
+                - generic
+                  - link [ref=e76]
+                - generic
+                  - link "6" [ref=e77]
+                - generic
+                  - link "BOSS直聘" [ref=e78]
+          - generic
+            - generic
+              - generic
+                - heading "中科稀珍(北京)健康科技有限公司_股东信息_名单_持股比例_企业..." [level=3, ref=e45]
+                  - link "中科稀珍(北京)健康科技有限公司_股东信息_名单_持股比例_企业..." [ref=e79]
+                - generic
+                - generic
+                  - link "头像 天眼查" [ref=e80]
+          - generic
+            - generic
+              - generic
+                - heading "北京中科砚云科技有限公司招聘 - 智联招聘" [level=3, ref=e46]
+                  - link "北京中科砚云科技有限公司招聘 - 智联招聘" [ref=e81]
+                - generic
+                - generic
+                  - link "头像 智联招聘" [ref=e82]
+        - generic
+          - generic
+            - StaticText "相关搜索"
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "昆山华坤电子科技有限公司"
+                - link "昆山华坤电子科技有限公司" [ref=e47]
+              - LayoutTableCell "北京中科院招聘信息"
+                - link "北京中科院招聘信息" [ref=e48]
+            - LayoutTableRow
+              - LayoutTableCell "北京航天中科人才服务有限公司"
+                - link "北京航天中科人才服务有限公司" [ref=e49]
+              - LayoutTableCell "北京中科有限公司"
+                - link "北京中科有限公司" [ref=e50]
+            - LayoutTableRow
+              - LayoutTableCell "华坤生物科技有限公司"
+                - link "华坤生物科技有限公司" [ref=e51]
+              - LayoutTableCell "华坤科技"
+                - link "华坤科技" [ref=e52]
+            - LayoutTableRow
+              - LayoutTableCell "华坤公司"
+                - link "华坤公司" [ref=e53]
+              - LayoutTableCell "北京市科学技术研究院招聘"
+                - link "北京市科学技术研究院招聘" [ref=e54]
+            - LayoutTableRow
+              - LayoutTableCell "华坤医疗科技有限公司"
+                - link "华坤医疗科技有限公司" [ref=e55]
+              - LayoutTableCell "北京科学中心劳务派遣招聘"
+                - link "北京科学中心劳务派遣招聘" [ref=e56]
+      - generic
+        - generic
+          - link "上一页" [ref=e15]
+          - strong
+          - link "2" [ref=e16]
+          - link "3" [ref=e17]
+          - link "4" [ref=e18]
+          - link "5" [ref=e19]
+          - link "6" [ref=e20]
+          - link "7" [ref=e21]
+          - link "8" [ref=e22]
+          - link "9" [ref=e23]
+          - link "10" [ref=e24]
+          - link "下一页" [ref=e25]
+      - generic
+      - generic
+        - generic
+          - generic
+            - link "帮助" [ref=e26]
+            - link "举报" [ref=e27]
+            - link "用户反馈" [ref=e28]
+            - link "企业推广" [ref=e29]
+
+STDERR:

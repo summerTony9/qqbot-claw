@@ -1,0 +1,414 @@
+- generic
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。" [ref=e1]
+  - generic
+    - generic
+  - generic
+    - generic
+      - generic
+        - link "到百度首页" [ref=e2]
+          - image "到百度首页"
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                  - generic
+                  - generic
+                    - generic
+                      - generic
+                      - generic
+                        - textbox [ref=e85]: 北京 北京汇智共创科技发展有限公司 招投标
+                          - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                          - generic
+                          - generic
+                        - button "百度一下" [ref=e86]
+                          - StaticText "百度一下"
+                    - generic
+                      - generic
+      - generic
+        - link "百度首页" [ref=e3]
+          - StaticText "百度首页"
+        - link "设置" [ref=e4]
+          - StaticText "设置"
+        - link "登录" [ref=e5]
+          - StaticText "登录"
+    - generic
+    - generic
+      - generic
+        - link [ref=e6]
+          - image
+        - StaticText "网页"
+        - link "图片" [ref=e7]
+          - StaticText "图片"
+        - link "资讯" [ref=e8]
+          - StaticText "资讯"
+        - link "视频" [ref=e9]
+          - StaticText "视频"
+        - link "笔记" [ref=e10]
+          - StaticText "笔记"
+        - link "地图" [ref=e11]
+          - StaticText "地图"
+        - link "贴吧" [ref=e12]
+          - StaticText "贴吧"
+        - link "文库" [ref=e13]
+          - StaticText "文库"
+        - link "更多" [ref=e14]
+          - StaticText "更多"
+        - generic
+          - StaticText "搜索工具"
+    - generic
+      - generic
+        - generic
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "相关搜索  北京招投标公司  北京英创汇智科技有限公司  北京汇智科技干什么的  山东汇智科技有限公司  北京招标投标交易平台  北京联创智盟科技发展有限公司    换一换 热搜榜 民生榜 财经榜  把绿色的种子种进心里 1"
+                - generic
+                  - generic
+                    - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                            - link " 北京招投标公司" [ref=e108]
+                          - generic
+                            - link " 北京英创汇智科技有限公司" [ref=e109]
+                          - generic
+                            - link " 北京汇智科技干什么的" [ref=e110]
+                          - generic
+                            - link " 山东汇智科技有限公司" [ref=e111]
+                          - generic
+                            - link " 北京招标投标交易平台" [ref=e112]
+                          - generic
+                            - link " 北京联创智盟科技发展有限公司" [ref=e113]
+                  - generic
+                    - generic
+                      - generic
+                        - link " " [ref=e87]
+                        - generic
+                          - link " 换一换" [ref=e90]
+                      - generic
+                        - generic
+                        - generic
+                        - generic
+                      - generic
+                        - generic
+                          - link "把绿色的种子种进心里" [ref=e91]
+                      - generic
+                        - generic
+                          - link "习近平欢迎并邀请郑丽文率团来访" [ref=e92]
+                      - generic
+                        - generic
+                          - link "时隔6年中国航班再次抵达平壤" [ref=e93]
+                      - generic
+                        - generic
+                          - link "中国创新“酷”在哪里" [ref=e94]
+                      - generic
+                        - generic
+                          - link "疾控提醒：今年蚊子或迎来史诗级加强" [ref=e95]
+                      - generic
+                        - generic
+                          - link "新手友好，PayPal个人卖家账户上线" [ref=e96]
+                      - generic
+                        - generic
+                          - link "广州遭遇“高压水枪式暴击”" [ref=e97]
+                      - generic
+                        - generic
+                          - link "伊朗首都遭大规模空袭 部分区域断电" [ref=e98]
+                      - generic
+                        - generic
+                          - link "被中国淘汰的车却在印度“杀疯了”" [ref=e99]
+                      - generic
+                        - generic
+                          - link "长江水下89米开高铁" [ref=e100]
+                      - generic
+                        - generic
+                          - link "女生在橘子洲拍摄旱地拔葱震撼大片" [ref=e101]
+                      - generic
+                        - generic
+                          - link "女职工到底50岁还是55岁退休" [ref=e102]
+                      - generic
+                        - generic
+                          - link "“抗过敏药容易产生依赖”是误区" [ref=e103]
+                      - generic
+                        - generic
+                          - link "单依纯再次道歉后李荣浩秒回" [ref=e104]
+                      - generic
+                        - generic
+                          - link "蔡磊身体近况：四人搀扶也无法迈步" [ref=e105]
+                      - generic
+                        - generic
+                          - link "伊朗：美国提的建议非常极端且不合理" [ref=e106]
+                      - generic
+                        - generic
+                          - link "住家保姆上门当日病人死亡 家属索赔" [ref=e107]
+                - generic
+        - generic
+          - generic
+            - generic
+              - generic
+                - heading "北京汇智共创科技发展有限公司-北京汇智" [level=3, ref=e39]
+                  - link "北京汇智共创科技发展有限公司-北京汇智" [ref=e64]
+                    - paragraph
+                      - emphasis
+                      - StaticText "-北京汇智"
+                - generic
+                  - StaticText "2025年12月23日"
+                  - emphasis
+                    - StaticText "北京汇智共创科技发展有限公司招标"
+                  - StaticText "采购信息查看北京汇智共创科技发展有限公司企业报告 中标-候选人公示 中粮信科2026年外包人力资源采购项目包件2-候选成交供应商公示第1次候选人变更公告 招标项目编号:JT20251125000003 采购单位:中粮信息科技有限公司 评标时间:2025-12-16 09:26:01 公示开始时间:2025-12-23"
+                - generic
+                  - link "比地招标" [ref=e65]
+                    - StaticText "比地招标"
+                - generic
+                  - generic
+          - generic
+            - generic
+              - generic
+                - heading "北京汇智共创科技发展有限公司招标" [level=3, ref=e40]
+                  - link "北京汇智共创科技发展有限公司招标" [ref=e66]
+                    - paragraph
+                      - emphasis
+                - generic
+                  - StaticText "2026年2月3日"
+                  - emphasis
+                    - StaticText "北京汇智共创科技发展有限公司招标"
+                  - StaticText "采购专栏每天提供北京汇智共创科技发展有限公司招标采购信息,更新及时,实时的北京汇智共创科技发展有限公司招标采购一手信息为您服务.准确无误,随时查看,详询采购与招标网."
+                - generic
+                  - link "采购与招标网" [ref=e67]
+                    - StaticText "采购与招标网"
+                - generic
+                  - generic
+          - generic
+            - generic
+              - heading "北京汇智共创科技发展有限公司(公司) - 百度百科" [level=3, ref=e31]
+                - link "北京汇智共创科技发展有限公司(公司) - 百度百科" [ref=e41]
+                  - paragraph
+                    - emphasis
+                      - StaticText "北京汇智共创科技发展有限公司"
+                    - StaticText "(公司) - 百度百科"
+              - generic
+                - generic
+                  - generic
+                    - link [ref=e76]
+                      - generic
+                  - generic
+                    - paragraph
+                      - emphasis
+                      - StaticText "成立于2014年10月28日，法定代表人为李加宁，总部位于"
+                      - emphasis
+                      - StaticText "怀柔区，是一家以从事科技推广和应用服务业为主的有限责任公司。公司是高新技术企业、科技型中小企业及专精特新中小企业，专业从事金融及泛金融、保险、运营商等软件产品开发。公司经过..."
+                      - link "详情" [ref=e81]
+                      - link "" [ref=e82]
+                  - generic
+                    - link "公司简介" [ref=e77]
+                      - generic
+                  - generic
+                    - link "历史沿革" [ref=e78]
+                      - generic
+                  - generic
+                    - link "经营状况" [ref=e79]
+                      - generic
+                  - generic
+                    - link "主营业务" [ref=e80]
+                      - generic
+              - generic
+                - link "百度百科" [ref=e42]
+                  - StaticText "百度百科"
+          - generic
+            - generic
+              - generic
+                - heading "北京汇知同创科技发展有限公司-北京招标网-中标结果" [level=3, ref=e43]
+                  - link "北京汇知同创科技发展有限公司-北京招标网-中标结果" [ref=e68]
+                    - paragraph
+                      - StaticText "北京汇知同创"
+                      - emphasis
+                      - StaticText "-"
+                      - emphasis
+                      - StaticText "网-中标结果"
+                - generic
+                  - emphasis
+                    - StaticText "北京汇知同创科技发展有限公司"
+                  - StaticText "的最新"
+                  - emphasis
+                    - StaticText "招投标"
+                  - StaticText "信息;北京汇知同创科技发展有限公司发布最全相关的招投标信息;中国采招网为各级政府采购、招标代理机构、招标企业、供应商提供强大的专业招标采购信息查询和相关服务!"
+                - generic
+                  - link "北京招标网" [ref=e69]
+                    - StaticText "北京招标网"
+          - generic
+            - generic
+              - StaticText "大家还在搜"
+            - generic
+              - link "北京招投标公司" [ref=e32]
+                - StaticText "北京招投标公司"
+              - link "北京英创汇智科技有限公司" [ref=e33]
+                - StaticText "北京英创汇智科技有限公司"
+              - link "北京汇智科技干什么的" [ref=e34]
+                - StaticText "北京汇智科技干什么的"
+              - link "山东汇智科技有限公司" [ref=e35]
+                - StaticText "山东汇智科技有限公司"
+              - link "北京招标投标交易平台" [ref=e36]
+                - StaticText "北京招标投标交易平台"
+              - link "北京联创智盟科技发展有限公司" [ref=e37]
+                - StaticText "北京联创智盟科技发展有限公司"
+          - generic
+            - generic
+              - generic
+                - heading "北京汇智共创科技发展有限公司招聘 - 智联招聘" [level=3, ref=e44]
+                  - link "北京汇智共创科技发展有限公司招聘 - 智联招聘" [ref=e70]
+                    - paragraph
+                      - emphasis
+                      - StaticText " - 智联招聘"
+                - generic
+                  - StaticText "2026年3月18日"
+                  - StaticText "公司简介 在招职位公司介绍 "
+                  - emphasis
+                    - StaticText "北京汇智共创科技发展有限公司"
+                  - StaticText "于2014年成立,注册资本2000万。公司专业从事金融及泛金融软件产品研发、ITO业务。在上海、深圳等地均设有分支机构。经过近五年的发展,公司数家著名公司建立了紧密的合作伙伴关系。工商信息 企业名称 北京汇智共创科技发展有限公司 法人代表 李加宁 成立时间 2014..."
+                - generic
+                  - link "头像 智联招聘" [ref=e71]
+                    - generic
+                      - generic
+                    - StaticText "智联招聘"
+                - generic
+                  - generic
+          - generic
+            - generic
+              - generic
+                - heading "北京汇智创新科技发展有限公司" [level=3, ref=e45]
+                  - link "北京汇智创新科技发展有限公司" [ref=e72]
+                    - paragraph
+                      - emphasis
+                      - StaticText "创新"
+                      - emphasis
+                - generic
+                  - StaticText "2026年3月17日"
+                  - StaticText "提供"
+                  - emphasis
+                    - StaticText "北京汇智"
+                  - StaticText "创新"
+                  - emphasis
+                    - StaticText "科技发展有限公司招标"
+                  - StaticText "采购信息,涵盖北京汇智创新科技发展有限公司招标与北京汇智创新科技发展有限公司采购信息。每天更新15万条招标项目信息,查询北京汇智创新"
+                  - emphasis
+                    - StaticText "科技发展有限公司招投标"
+                  - StaticText "采购信息,就上千里马招标网!"
+                - generic
+                  - link "千里马招标网" [ref=e73]
+                    - StaticText "千里马招标网"
+          - generic
+            - heading "标题:北京汇智共创科技发展有限公司-企业信息" [level=3, ref=e26]
+              - link "标题:北京汇智共创科技发展有限公司-企业信息" [ref=e38]
+                - emphasis
+                  - StaticText "北京汇智共创科技发展有限公司"
+                - StaticText "-企业信息"
+            - generic
+              - generic
+                - link [ref=e46]
+                  - generic
+                    - generic
+              - generic
+                - paragraph
+                  - emphasis
+                    - StaticText "北京汇智共创科技发展有限公司"
+                  - StaticText "法定代表人：李加宁，注册资金：7000万元，地址："
+                  - emphasis
+                    - StaticText "北京市"
+                  - StaticText "怀柔区乐园西大街16号院13号楼1至2层13-5，经营范围：一般项目：技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广；劳务服务（不含劳务派遣）；人力资源服务（不含职业中介活动、劳务派遣服务）；数据处理服务；数据处理和存储支持服务；软件开发；工业互联网数据服务；信息系统集成服务；人工智能公共服务平台技术咨询服务；互联网数据服务；组织文化艺术交流活动；会议及展览服务；婚庆礼仪服务；文艺创作；图文设计制作；信息系统运行维护服务；教育咨询服务（不含涉许可审批的教育培训活动）；企业形象策划；专业设计服务；计算机软硬件及辅助设备零售；电子产品销售；文具用品零售；机械设备销售；机械电气设备销售；对外承包工程；谷物销售；农产品的生产、销售、加工、运输、贮藏及其他相关服务。（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）许可项目：计算机信息系统安全专用产品销售；建设工程设计；建设工程施工；建设工程施工（除核电站建设经营、民用机场建设）；施工专业作业；职业中介活动。（依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以相关部门批准文件或许可证件为准）（不得从事国家和本市产业政策禁止和限制类项目的经营活动。）"
+                - link "工商信息" [ref=e47]
+                  - generic
+                    - StaticText "工商信息"
+                - link "认领企业" [ref=e48]
+                  - generic
+                    - StaticText "认领企业"
+                - link "企业风险" [ref=e49]
+                  - generic
+                    - StaticText "企业风险"
+                - link "企业年报" [ref=e50]
+                  - generic
+                    - StaticText "企业年报"
+                - link "企业股东" [ref=e51]
+                  - generic
+                    - StaticText "企业股东"
+                - link "来源：以上信息来源爱企查，一个专业免费的企业信息查询平台" [ref=e52]
+                  - generic
+                    - generic
+                      - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                    - generic
+                      - heading "北京 北京汇智共创科技发展有限公司 招投标 - 实时智能回复" [level=3, ref=e83]
+                        - link "北京 北京汇智共创科技发展有限公司 招投标 - 实时智能回复" [ref=e88]
+                    - generic
+                      - link "头像" [ref=e84]
+                      - generic
+                        - link "北京招标信息查询 109人聊过 北京地区招投标咨询服务专家，提供招标流程、招标文件编制、投标策略等方面的咨询服务。" [ref=e89]
+          - generic
+            - generic
+              - generic
+                - heading "汇智共创申请基于人工智能的任务数据分析方法及系统专利,实现软件开发..." [level=3, ref=e53]
+                  - link "汇智共创申请基于人工智能的任务数据分析方法及系统专利,实现软件开发..." [ref=e74]
+                - generic
+                - generic
+                  - link "网易新闻" [ref=e75]
+        - generic
+          - generic
+            - StaticText "相关搜索"
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "北京招投标公司"
+                - link "北京招投标公司" [ref=e54]
+              - LayoutTableCell "北京英创汇智科技有限公司"
+                - link "北京英创汇智科技有限公司" [ref=e55]
+            - LayoutTableRow
+              - LayoutTableCell "北京汇智科技干什么的"
+                - link "北京汇智科技干什么的" [ref=e56]
+              - LayoutTableCell "山东汇智科技有限公司"
+                - link "山东汇智科技有限公司" [ref=e57]
+            - LayoutTableRow
+              - LayoutTableCell "北京联创智盟科技发展有限公司"
+                - link "北京联创智盟科技发展有限公司" [ref=e58]
+              - LayoutTableCell "北京招标投标交易平台"
+                - link "北京招标投标交易平台" [ref=e59]
+            - LayoutTableRow
+              - LayoutTableCell "深圳汇智众创科技有限公司"
+                - link "深圳汇智众创科技有限公司" [ref=e60]
+              - LayoutTableCell "兖矿集团招投标"
+                - link "兖矿集团招投标" [ref=e61]
+            - LayoutTableRow
+              - LayoutTableCell "汇智公司"
+                - link "汇智公司" [ref=e62]
+              - LayoutTableCell "北京国际招标有限公司官网"
+                - link "北京国际招标有限公司官网" [ref=e63]
+      - generic
+        - generic
+          - link "上一页" [ref=e15]
+          - strong
+          - link "2" [ref=e16]
+          - link "3" [ref=e17]
+          - link "4" [ref=e18]
+          - link "5" [ref=e19]
+          - link "6" [ref=e20]
+          - link "7" [ref=e21]
+          - link "8" [ref=e22]
+          - link "9" [ref=e23]
+          - link "10" [ref=e24]
+          - link "下一页" [ref=e25]
+      - generic
+      - generic
+        - generic
+          - generic
+            - link "帮助" [ref=e27]
+            - link "举报" [ref=e28]
+            - link "用户反馈" [ref=e29]
+            - link "企业推广" [ref=e30]
+
+STDERR:

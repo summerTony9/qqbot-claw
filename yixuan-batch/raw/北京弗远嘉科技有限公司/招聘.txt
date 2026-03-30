@@ -1,0 +1,366 @@
+- generic
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。" [ref=e1]
+  - generic
+    - generic
+  - generic
+    - generic
+      - generic
+        - link "到百度首页" [ref=e2]
+          - image "到百度首页"
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                  - generic
+                  - generic
+                    - generic
+                      - generic
+                      - generic
+                        - textbox [ref=e78]: 北京 北京弗远嘉科技有限公司 招聘
+                          - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                          - generic
+                          - generic
+                        - button "百度一下" [ref=e79]
+                          - StaticText "百度一下"
+                    - generic
+                      - generic
+      - generic
+        - link "百度首页" [ref=e3]
+          - StaticText "百度首页"
+        - link "设置" [ref=e4]
+          - StaticText "设置"
+        - link "登录" [ref=e5]
+          - StaticText "登录"
+    - generic
+    - generic
+      - generic
+        - link [ref=e6]
+          - image
+        - StaticText "网页"
+        - link "图片" [ref=e7]
+          - StaticText "图片"
+        - link "资讯" [ref=e8]
+          - StaticText "资讯"
+        - link "视频" [ref=e9]
+          - StaticText "视频"
+        - link "笔记" [ref=e10]
+          - StaticText "笔记"
+        - link "地图" [ref=e11]
+          - StaticText "地图"
+        - link "贴吧" [ref=e12]
+          - StaticText "贴吧"
+        - link "文库" [ref=e13]
+          - StaticText "文库"
+        - link "更多" [ref=e14]
+          - StaticText "更多"
+        - generic
+          - StaticText "搜索工具"
+    - generic
+      - generic
+        - generic
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "相关搜索  北京招聘公司  北京嘉居科技招聘  北京嘉远环保科技有限公司  远嘉科技有限公司  北京远图科技有限公司  南京嘉远电动汽车招聘    换一换 热搜榜 民生榜 财经榜  把绿色的种子种进心里 1"
+                - generic
+                  - generic
+                    - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                            - link " 北京招聘公司" [ref=e99]
+                          - generic
+                            - link " 北京嘉居科技招聘" [ref=e100]
+                          - generic
+                            - link " 北京嘉远环保科技有限公司" [ref=e101]
+                          - generic
+                            - link " 远嘉科技有限公司" [ref=e102]
+                          - generic
+                            - link " 北京远图科技有限公司" [ref=e103]
+                          - generic
+                            - link " 南京嘉远电动汽车招聘" [ref=e104]
+                  - generic
+                    - generic
+                      - generic
+                        - link " " [ref=e80]
+                        - generic
+                          - link " 换一换" [ref=e81]
+                      - generic
+                        - generic
+                        - generic
+                        - generic
+                      - generic
+                        - generic
+                          - link "把绿色的种子种进心里" [ref=e82]
+                      - generic
+                        - generic
+                          - link "习近平欢迎并邀请郑丽文率团来访" [ref=e83]
+                      - generic
+                        - generic
+                          - link "时隔6年中国航班再次抵达平壤" [ref=e84]
+                      - generic
+                        - generic
+                          - link "中国创新“酷”在哪里" [ref=e85]
+                      - generic
+                        - generic
+                          - link "疾控提醒：今年蚊子或迎来史诗级加强" [ref=e86]
+                      - generic
+                        - generic
+                          - link "新手友好，PayPal个人卖家账户上线" [ref=e87]
+                      - generic
+                        - generic
+                          - link "广州遭遇“高压水枪式暴击”" [ref=e88]
+                      - generic
+                        - generic
+                          - link "伊朗首都遭大规模空袭 部分区域断电" [ref=e89]
+                      - generic
+                        - generic
+                          - link "被中国淘汰的车却在印度“杀疯了”" [ref=e90]
+                      - generic
+                        - generic
+                          - link "长江水下89米开高铁" [ref=e91]
+                      - generic
+                        - generic
+                          - link "女生在橘子洲拍摄旱地拔葱震撼大片" [ref=e92]
+                      - generic
+                        - generic
+                          - link "女职工到底50岁还是55岁退休" [ref=e93]
+                      - generic
+                        - generic
+                          - link "“抗过敏药容易产生依赖”是误区" [ref=e94]
+                      - generic
+                        - generic
+                          - link "单依纯再次道歉后李荣浩秒回" [ref=e95]
+                      - generic
+                        - generic
+                          - link "蔡磊身体近况：四人搀扶也无法迈步" [ref=e96]
+                      - generic
+                        - generic
+                          - link "伊朗：美国提的建议非常极端且不合理" [ref=e97]
+                      - generic
+                        - generic
+                          - link "住家保姆上门当日病人死亡 家属索赔" [ref=e98]
+                - generic
+        - generic
+          - generic
+            - generic
+              - generic
+                - heading "王菊- 北京弗远嘉科技有限公司 - 企查查" [level=3, ref=e38]
+                  - link "王菊- 北京弗远嘉科技有限公司 - 企查查" [ref=e57]
+                    - paragraph
+                - generic
+                  - StaticText "2026年2月2日"
+                  - StaticText "投资、任职的"
+                  - emphasis
+                    - StaticText "公司"
+                  - StaticText "与他相关的企业 2020-06-25 担任法定代表人:担任"
+                  - emphasis
+                    - StaticText "北京弗远嘉科技有限公司"
+                  - StaticText "的法定代表人2020-06-25 新增企业:"
+                  - emphasis
+                    - StaticText "北京弗远嘉科技有限公司"
+                  - StaticText ",担任职务:经理执行董事2020-06-25 被投资企业:"
+                  - emphasis
+                    - StaticText "北京弗远嘉科技有限公司"
+                  - StaticText " 投资比例:100% 全部动态 相关企业1 查查图谱2 风险信息 合作伙伴1 新闻舆情 历史信息"
+                - generic
+                  - link "头像 企查查" [ref=e58]
+                    - generic
+                    - StaticText "企查查"
+                - generic
+                  - generic
+          - generic
+            - generic
+              - generic
+                - heading "张文军 - 北京聚匠投资合伙企业(有限合伙) - 法定代表人/高管/..." [level=3, ref=e39]
+                  - link "张文军 - 北京聚匠投资合伙企业(有限合伙) - 法定代表人/高管/..." [ref=e59]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e72]
+                  - generic
+                    - StaticText "2026年2月24日"
+                    - StaticText "一、张文军担任职务:张文军目前担任北京匠驰科技有限公司法定代表人,同时担任"
+                    - emphasis
+                    - StaticText "监事,北京匠驰科技有限公司执行董事,经理;二、张文军的商业合作伙伴:基于公开数据展示,张文军目前有11个商业合作伙伴,包括李文华、刘海龙、赵红刚等。 财产线索 线索数量 老板履历 图文概览商业履历 任职全景图 投资、任..."
+                  - generic
+                    - generic
+                      - link "头像 爱企查" [ref=e75]
+          - generic
+            - generic
+              - generic
+                - heading "「北京志远嘉科技有限公司招聘」-BOSS直聘" [level=3, ref=e40]
+                  - link "「北京志远嘉科技有限公司招聘」-BOSS直聘" [ref=e60]
+                    - paragraph
+                - generic
+                  - StaticText "2025年7月24日"
+                  - StaticText "北京志"
+                  - emphasis
+                    - StaticText "远嘉科技有限公司"
+                  - StaticText " 展开 法定代表人:赵伯义 注册资本:100万人民币 成立日期:2016-05-04 企业类型:有限责任公司自然人投资或控股 经营状态:存续(在营、开业、在册) 注册地址:"
+                  - emphasis
+                    - StaticText "北京市"
+                  - StaticText "密云区西田各庄镇西田各庄中学桥南70米院内北正房西侧 统一社会信用代码:91110228MA0058364J ..."
+                - generic
+                  - link "BOSS直聘" [ref=e61]
+                    - StaticText "BOSS直聘"
+          - generic
+            - generic
+              - generic
+                - heading "现场招聘丨150个岗位640人,最高月薪2.8万 — 新京报" [level=3, ref=e41]
+                  - link "现场招聘丨150个岗位640人,最高月薪2.8万 — 新京报" [ref=e62]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e73]
+                  - generic
+                    - StaticText "6天前"
+                    - StaticText "31.北京红林制药有限公司 32."
+                    - emphasis
+                    - StaticText "德密封材料有限公司 33.北京前锋"
+                    - emphasis
+                    - StaticText " 34.北京瑞家食品有限公司 35.北京乾元本堂饮片有限公司 36.御本堂控股集团有限公司 37.北京雷力海洋生物新产业股份有限公司 38.北京方基恒达汽车部件有限公司 39.北京鑫益华工贸有限公司 40.百仕欣饮料(北京)有限公司 41.北京斯普乐..."
+                  - generic
+                    - generic
+                      - link "新京报网" [ref=e76]
+          - generic
+            - generic
+              - generic
+                - heading "垣岗在线" [level=3, ref=e42]
+                  - link "垣岗在线" [ref=e63]
+                    - paragraph
+                - generic
+                  - StaticText "8天前"
+                  - StaticText "6 九方皋仁(北京)管理咨询"
+                  - emphasis
+                    - StaticText "有限公司"
+                  - StaticText " "
+                  - emphasis
+                    - StaticText "招聘"
+                  - StaticText "专员/助理 5 大学专科 月薪(元):5000-8000 1、执行人才寻访策略,通过各种渠道获取候选人信息和市场信息;2、挖掘业务信息,维护好现有客户客情关系;3、负责客户委托的项目,分析岗位需求点,提炼关键技能,完成推荐报告;4、专注行业中高端候选人寻访,积累丰富的行业候选人资源,与..."
+                - generic
+                  - link "头像 张家口市人力资源和社会保障局" [ref=e64]
+                    - generic
+                    - StaticText "张家口市人力资源和社会保障局"
+          - generic
+            - generic
+              - StaticText "大家还在搜"
+            - generic
+              - link "北京招聘公司" [ref=e30]
+                - StaticText "北京招聘公司"
+              - link "北京嘉居科技招聘" [ref=e31]
+                - StaticText "北京嘉居科技招聘"
+              - link "北京嘉远环保科技有限公司" [ref=e32]
+                - StaticText "北京嘉远环保科技有限公司"
+              - link "远嘉科技有限公司" [ref=e33]
+                - StaticText "远嘉科技有限公司"
+              - link "北京远图科技有限公司" [ref=e34]
+                - StaticText "北京远图科技有限公司"
+              - link "南京嘉远电动汽车招聘" [ref=e35]
+                - StaticText "南京嘉远电动汽车招聘"
+              - link "北京数科网维技术有限责任公司招聘" [ref=e36]
+                - StaticText "北京数科网维技术有限责任公司招聘"
+              - link "北京弈斯伟分公司招聘" [ref=e37]
+                - StaticText "北京弈斯伟分公司招聘"
+          - generic
+            - generic
+              - generic
+                - heading "超2500个岗位!延庆本周五举办现场招聘会" [level=3, ref=e43]
+                  - link "超2500个岗位!延庆本周五举办现场招聘会" [ref=e65]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e74]
+                  - generic
+                    - StaticText "4天前"
+                    - StaticText "延庆区人力资源公共服务中心将于3月27日（星期五）9:30-11:30在延庆四中体育馆（延庆区延庆镇香苑街110号）举办现场"
+                    - emphasis
+                    - StaticText "。请广大求职者互相转告并及时关注。1.企业名称：北京环都拓普空调有限公司 单位性质：有限责任公司 工作地点：延庆康庄 2.企业名称：北京中盛世康"
+                    - emphasis
+                    - StaticText " 单位性质：有限责任公司 工作..."
+                  - generic
+                    - generic
+                      - link "头像  北京日报客户端" [ref=e77]
+          - generic
+            - generic
+              - generic
+                - heading "猛招2380人!通州最新招聘来了" [level=3, ref=e44]
+                  - link "猛招2380人!通州最新招聘来了" [ref=e66]
+                - generic
+                - generic
+                  - link "头像 北京西集" [ref=e67]
+          - generic
+            - generic
+              - generic
+                - heading "「北京弗丽嘉文化发展有限公司招聘」-BOSS直聘" [level=3, ref=e45]
+                  - link "「北京弗丽嘉文化发展有限公司招聘」-BOSS直聘" [ref=e68]
+                - generic
+                - generic
+                  - link "BOSS直聘" [ref=e69]
+          - generic
+            - generic
+              - generic
+                - heading "...2026年北京地区毕业生春季招聘活动延庆分会场”网络招聘会" [level=3, ref=e46]
+                  - link "...2026年北京地区毕业生春季招聘活动延庆分会场”网络招聘会" [ref=e70]
+                - generic
+                - generic
+                  - link "头像 延庆人力社保局" [ref=e71]
+        - generic
+          - generic
+            - StaticText "相关搜索"
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "北京招聘公司"
+                - link "北京招聘公司" [ref=e47]
+              - LayoutTableCell "北京嘉居科技招聘"
+                - link "北京嘉居科技招聘" [ref=e48]
+            - LayoutTableRow
+              - LayoutTableCell "北京嘉远环保科技有限公司"
+                - link "北京嘉远环保科技有限公司" [ref=e49]
+              - LayoutTableCell "远嘉科技有限公司"
+                - link "远嘉科技有限公司" [ref=e50]
+            - LayoutTableRow
+              - LayoutTableCell "北京远图科技有限公司"
+                - link "北京远图科技有限公司" [ref=e51]
+              - LayoutTableCell "南京嘉远电动汽车招聘"
+                - link "南京嘉远电动汽车招聘" [ref=e52]
+            - LayoutTableRow
+              - LayoutTableCell "北京数科网维技术有限责任公司招聘"
+                - link "北京数科网维技术有限责任公司招聘" [ref=e53]
+              - LayoutTableCell "北京弈斯伟分公司招聘"
+                - link "北京弈斯伟分公司招聘" [ref=e54]
+            - LayoutTableRow
+              - LayoutTableCell "九江嘉远科技有限公司招聘"
+                - link "九江嘉远科技有限公司招聘" [ref=e55]
+              - LayoutTableCell "北京远晖通信科技"
+                - link "北京远晖通信科技" [ref=e56]
+      - generic
+        - generic
+          - link "上一页" [ref=e15]
+          - strong
+          - link "2" [ref=e16]
+          - link "3" [ref=e17]
+          - link "4" [ref=e18]
+          - link "5" [ref=e19]
+          - link "6" [ref=e20]
+          - link "7" [ref=e21]
+          - link "8" [ref=e22]
+          - link "9" [ref=e23]
+          - link "10" [ref=e24]
+          - link "下一页" [ref=e25]
+      - generic
+      - generic
+        - generic
+          - generic
+            - link "帮助" [ref=e26]
+            - link "举报" [ref=e27]
+            - link "用户反馈" [ref=e28]
+            - link "企业推广" [ref=e29]
+
+STDERR:

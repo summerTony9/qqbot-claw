@@ -1,0 +1,409 @@
+/root/.nvm/nvm.sh: fork: retry: Resource temporarily unavailable
+- generic
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。" [ref=e1]
+  - generic
+    - generic
+  - generic
+    - generic
+      - generic
+        - link "到百度首页" [ref=e2]
+          - image "到百度首页"
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                  - generic
+                  - generic
+                    - generic
+                      - generic
+                      - generic
+                        - textbox [ref=e81]: 北京中安乾元科技有限公司 招聘 专利 融资 中标 官网
+                          - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                          - generic
+                          - generic
+                        - button "百度一下" [ref=e82]
+                          - StaticText "百度一下"
+                    - generic
+                      - generic
+      - generic
+        - link "百度首页" [ref=e3]
+          - StaticText "百度首页"
+        - link "设置" [ref=e4]
+          - StaticText "设置"
+        - link "登录" [ref=e5]
+          - StaticText "登录"
+    - generic
+    - generic
+      - generic
+        - link [ref=e6]
+          - image
+        - StaticText "网页"
+        - link "图片" [ref=e7]
+          - StaticText "图片"
+        - link "资讯" [ref=e8]
+          - StaticText "资讯"
+        - link "视频" [ref=e9]
+          - StaticText "视频"
+        - link "笔记" [ref=e10]
+          - StaticText "笔记"
+        - link "地图" [ref=e11]
+          - StaticText "地图"
+        - link "贴吧" [ref=e12]
+          - StaticText "贴吧"
+        - link "文库" [ref=e13]
+          - StaticText "文库"
+        - link "更多" [ref=e14]
+          - StaticText "更多"
+        - generic
+          - StaticText "搜索工具"
+    - generic
+      - generic
+        - generic
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "相关搜索  北京中鼎乾元认证有限公司  北京乾乾科技有限公司  江西省久安招标代理有限公司  河北乾亨招标代理有限公司  北京中标研企业管理中心  中安乾(北京)科学技术服务有限公司    换一换 热搜榜 民生榜 财经榜  把绿色的种子种进心里 1"
+                - generic
+                  - generic
+                    - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                            - link " 北京中鼎乾元认证有限公司" [ref=e102]
+                          - generic
+                            - link " 北京乾乾科技有限公司" [ref=e103]
+                          - generic
+                            - link " 江西省久安招标代理有限公司" [ref=e104]
+                          - generic
+                            - link " 河北乾亨招标代理有限公司" [ref=e105]
+                          - generic
+                            - link " 北京中标研企业管理中心" [ref=e106]
+                          - generic
+                            - link " 中安乾(北京)科学技术服务有限公司" [ref=e107]
+                  - generic
+                    - generic
+                      - generic
+                        - link " " [ref=e83]
+                        - generic
+                          - link " 换一换" [ref=e84]
+                      - generic
+                        - generic
+                        - generic
+                        - generic
+                      - generic
+                        - generic
+                          - link "把绿色的种子种进心里" [ref=e85]
+                      - generic
+                        - generic
+                          - link "今年蚊子或迎来史诗级加强 疾控提醒" [ref=e86]
+                      - generic
+                        - generic
+                          - link "“别人的春和景明 我的氯雷他定”" [ref=e87]
+                      - generic
+                        - generic
+                          - link "中国创新“酷”在哪里" [ref=e88]
+                      - generic
+                        - generic
+                          - link "郑丽文谈访陆：两岸不是终须一战" [ref=e89]
+                      - generic
+                        - generic
+                          - link "新手友好，PayPal个人卖家账户上线" [ref=e90]
+                      - generic
+                        - generic
+                          - link "年轻人流行起“重新养育父母”" [ref=e91]
+                      - generic
+                        - generic
+                          - link "伊朗一儿童游乐场遭美以袭击" [ref=e92]
+                      - generic
+                        - generic
+                          - link "被中国淘汰的车却在印度“杀疯了”" [ref=e93]
+                      - generic
+                        - generic
+                          - link "广州遭遇“高压水枪式暴击”" [ref=e94]
+                      - generic
+                        - generic
+                          - link "女职工到底50岁还是55岁退休" [ref=e95]
+                      - generic
+                        - generic
+                          - link "时隔6年中国航班再次抵达平壤" [ref=e96]
+                      - generic
+                        - generic
+                          - link "“抗过敏药容易产生依赖”是误区" [ref=e97]
+                      - generic
+                        - generic
+                          - link "单依纯再次道歉后李荣浩秒回" [ref=e98]
+                      - generic
+                        - generic
+                          - link "伊朗首都遭大规模空袭 部分区域断电" [ref=e99]
+                      - generic
+                        - generic
+                          - link "蔡磊身体近况：四人搀扶也无法迈步" [ref=e100]
+                      - generic
+                        - generic
+                          - link "黑龙江海林建筑坍塌事故致7人遇难" [ref=e101]
+                - generic
+        - generic
+          - generic
+            - generic
+              - generic
+                - heading "企业详情-国家大学生就业服务平台" [level=3, ref=e38]
+                  - link "企业详情-国家大学生就业服务平台" [ref=e57]
+                    - paragraph
+                - generic
+                  - emphasis
+                    - StaticText "北京乾元"
+                  - StaticText "钟鼎"
+                  - emphasis
+                    - StaticText "科技有限公司"
+                  - StaticText "成立于2014年04月08日,注册地位于"
+                  - emphasis
+                    - StaticText "北京市"
+                  - StaticText "海淀区北三环中路44号57号平房57号,法定代表人为王海东。经营范围包括一般项目:货物进出口;技术进出口;单用途商业预付卡代理销售;国内货物运输代理;技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广;通信设备销售;缝制机械销售;机械"
+                - generic
+                  - link "国家大学生就业服务平台" [ref=e58]
+                    - StaticText "国家大学生就业服务平台"
+          - generic
+            - generic
+              - generic
+                - heading "中安创谷科技园集中招聘!" [level=3, ref=e39]
+                  - link "中安创谷科技园集中招聘!" [ref=e59]
+                    - paragraph
+                - generic
+                  - StaticText "6天前"
+                  - StaticText "公司地址:安徽省合肥高新区"
+                  - emphasis
+                    - StaticText "中安"
+                  - StaticText "创谷科技园一期A3A4栋7层 5.安徽瑞轩供应链"
+                  - emphasis
+                    - StaticText "科技有限公司"
+                  - StaticText " 公司注册资本3亿元,在省政府和奇瑞集团支持下搭建瑞轩乾坤圈供应链服务平台,运用人工智能、区块链、云计算等技术,以供应链为抓手,帮助实体企业开展供应链票据"
+                  - emphasis
+                    - StaticText "融资"
+                  - StaticText "。 一、"
+                  - emphasis
+                    - StaticText "招聘"
+                  - StaticText "岗位 1.产品..."
+                - generic
+                  - link "头像 合肥市人民政府发布" [ref=e60]
+                    - generic
+                    - StaticText "合肥市人民政府发布"
+          - generic
+            - generic
+              - generic
+                - heading "北京中安信合科技有限公司招聘 - 智联招聘" [level=3, ref=e40]
+                  - link "北京中安信合科技有限公司招聘 - 智联招聘" [ref=e61]
+                    - paragraph
+                - generic
+                  - StaticText "2026年2月17日"
+                  - StaticText "未"
+                  - emphasis
+                    - StaticText "融资"
+                  - StaticText "·20-99人·计算机软件、IT服务已审核已入驻6年8个月 公司介绍 "
+                  - emphasis
+                    - StaticText "北京中安"
+                  - StaticText "信合"
+                  - emphasis
+                    - StaticText "科技有限公司"
+                  - StaticText "成立于2018年,主要从事危化行业安全相关系统及产品的研发及服务,为危化行业提供专业的信息化、智能化解决方案和政府安全生产监管平台,从而为企业的安全管理升级提供工具,为政府的安全监管工作提供服务。公司长期秉承“严谨、..."
+                - generic
+                  - link "头像 智联招聘" [ref=e62]
+                    - generic
+                    - StaticText "智联招聘"
+                - generic
+                  - generic
+          - generic
+            - generic
+              - StaticText "大家还在搜"
+            - generic
+              - link "北京中鼎乾元认证有限公司" [ref=e31]
+                - StaticText "北京中鼎乾元认证有限公司"
+              - link "北京乾乾科技有限公司" [ref=e32]
+                - StaticText "北京乾乾科技有限公司"
+              - link "江西省久安招标代理有限公司" [ref=e33]
+                - StaticText "江西省久安招标代理有限公司"
+              - link "河北乾亨招标代理有限公司" [ref=e34]
+                - StaticText "河北乾亨招标代理有限公司"
+              - link "北京中标研企业管理中心" [ref=e35]
+                - StaticText "北京中标研企业管理中心"
+              - link "中安乾(北京)科学技术服务有限公司" [ref=e36]
+                - StaticText "中安乾(北京)科学技术服务有限公司"
+          - generic
+            - generic
+              - generic
+                - heading "「北京乾元坤和科技有限公司招聘」-BOSS直聘" [level=3, ref=e41]
+                  - link "「北京乾元坤和科技有限公司招聘」-BOSS直聘" [ref=e63]
+                    - paragraph
+                - generic
+                  - StaticText "2026年3月2日"
+                  - emphasis
+                    - StaticText "北京市"
+                  - StaticText " 公司简介 在"
+                  - emphasis
+                    - StaticText "招"
+                  - StaticText "职位 公司简介 乾元坤和是"
+                  - emphasis
+                    - StaticText "北京乾元"
+                  - StaticText "坤和"
+                  - emphasis
+                    - StaticText "科技有限公司"
+                  - StaticText "旗下品牌.北京乾元坤和科技有限公司的名称源于《易经》,"乾"代表天,天创造万物,是万物之本;"元"即第一,始于的意思,代表公司争创天下第一的雄心壮志;"坤"代表地,地养育万物,是万物之母体;"和"乃融合万物精华于一体,创造力无穷也!她..."
+                - generic
+                  - link "BOSS直聘" [ref=e64]
+                    - StaticText "BOSS直聘"
+          - generic
+            - heading "北京乾元坤和科技有限公司，北京一家互联网软件开发企业，百度百科" [level=3, ref=e26]
+              - link "北京乾元坤和科技有限公司，北京一家互联网软件开发企业，百度百科" [ref=e37]
+                - emphasis
+                  - StaticText "北京乾元"
+                - StaticText "坤和"
+                - emphasis
+                  - StaticText "科技有限公司"
+                - StaticText " - 百度百科"
+            - generic
+              - generic "查看更多内容"
+                - link "查看更多内容" [ref=e42]
+                  - generic
+                    - generic
+              - generic
+                - generic "乾元坤和科技有限公司成立于2009年7月7日，是一家以系统开发为主的互联网服务公司。公司服务范围包括电子政务开发、企业管理系统开发、企业网站开发、软件升级优化以及网站推广运营，业务涉及企业门户网站、ERP系统、OA办公系统、CRM系统、B2C应用类网站等开发运营。2015年7月，公司完成了天使轮融资。公司成立初期，主要..."
+                  - emphasis
+                    - StaticText "乾元"
+                  - StaticText "坤和"
+                  - emphasis
+                    - StaticText "科技有限公司"
+                  - StaticText "成立于2009年7月7日，是一家以系统开发为主的互联网服务公司。公司服务范围包括电子政务开发、企业管理系统开发、企业网站开发、软件升级优化以及网站推广运营，业务涉及企业门户网站、ERP系统、OA办公系统、CRM系统、B2C应用类网站等开..."
+                - generic
+                  - link "公司简介" [ref=e65]
+                    - emphasis
+                    - StaticText "简介 "
+                  - link "发展历程" [ref=e66]
+                    - StaticText "发展历程 "
+                  - link "主营业务" [ref=e67]
+                    - StaticText "主营业务 "
+                  - link "经营状况" [ref=e68]
+                    - StaticText "经营状况 "
+                  - link "企业治理" [ref=e69]
+                    - StaticText "企业治理 "
+                  - link "点击可查看更多内容" [ref=e70]
+                    - StaticText "更多 >"
+                - generic
+                  - link "百度百科" [ref=e71]
+                    - generic
+                - generic
+          - generic
+            - generic
+              - generic
+                - heading "兰州乾元生态科技有限公司招聘 - 智联招聘" [level=3, ref=e43]
+                  - link "兰州乾元生态科技有限公司招聘 - 智联招聘" [ref=e72]
+                    - paragraph
+                - generic
+                  - StaticText "2026年3月15日"
+                  - StaticText "兰州"
+                  - emphasis
+                    - StaticText "乾元"
+                  - StaticText "生态"
+                  - emphasis
+                    - StaticText "科技有限公司"
+                  - StaticText "是一家省级高新技术企业,涉密企业,双软企业,科技型企业,被评为甘肃省科技小巨人。积极参与社会活动,现已成为国家野生植物保护会员单位,兰州市生态促进会理事单位,甘肃省野生动植物保护协会会员单位,国家有害生物防治协会会员单位,国家环境保护产业协会会员单位。"
+                - generic
+                  - link "头像 智联招聘" [ref=e73]
+                    - generic
+                    - StaticText "智联招聘"
+                - generic
+                  - generic
+          - generic
+            - generic
+              - generic
+                - heading "北京乾元坤和科技有限公司_乾元坤和-信息查询-官方资质&背景数据..." [level=3, ref=e44]
+                  - link "北京乾元坤和科技有限公司_乾元坤和-信息查询-官方资质&背景数据..." [ref=e74]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e79]
+                  - generic
+                    - StaticText "2026年2月23日"
+                    - StaticText "简介:"
+                    - emphasis
+                    - StaticText "坤和"
+                    - emphasis
+                    - StaticText " (曾用名:北京乾元坤和商务服务有限公司) ,成立于2009年,位于"
+                    - emphasis
+                    - StaticText ",是一家以从事科技推广和应用服务业为主的企业。企业注册资本3000万人民币,实缴资本3000万人民币。通过天眼查大数据分析,北京乾元坤和科技有限公司参与"
+                    - emphasis
+                    - StaticText "投标项目3次;知识产权方面有著作权信息4条;此外企业还拥有行政许..."
+                  - generic
+                    - generic
+                      - link "天眼查" [ref=e80]
+          - generic
+            - generic
+              - generic
+                - heading "「北京乾元利恒科技有限公司招聘」-BOSS直聘" [level=3, ref=e45]
+                  - link "「北京乾元利恒科技有限公司招聘」-BOSS直聘" [ref=e75]
+                - generic
+                - generic
+                  - link "BOSS直聘" [ref=e76]
+          - generic
+            - generic
+              - generic
+                - heading "「北京中安元盾科技有限公司」2026年招聘信息-BOSS直聘" [level=3, ref=e46]
+                  - link "「北京中安元盾科技有限公司」2026年招聘信息-BOSS直聘" [ref=e77]
+                - generic
+                - generic
+                  - link "看准网" [ref=e78]
+        - generic
+          - generic
+            - StaticText "相关搜索"
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "北京中鼎乾元认证有限公司"
+                - link "北京中鼎乾元认证有限公司" [ref=e47]
+              - LayoutTableCell "北京乾乾科技有限公司"
+                - link "北京乾乾科技有限公司" [ref=e48]
+            - LayoutTableRow
+              - LayoutTableCell "江西省久安招标代理有限公司"
+                - link "江西省久安招标代理有限公司" [ref=e49]
+              - LayoutTableCell "河北乾亨招标代理有限公司"
+                - link "河北乾亨招标代理有限公司" [ref=e50]
+            - LayoutTableRow
+              - LayoutTableCell "北京中标研企业管理中心"
+                - link "北京中标研企业管理中心" [ref=e51]
+              - LayoutTableCell "中安乾(北京)科学技术服务有限公司"
+                - link "中安乾(北京)科学技术服务有限公司" [ref=e52]
+            - LayoutTableRow
+              - LayoutTableCell "实用新型专利可以融资吗"
+                - link "实用新型专利可以融资吗" [ref=e53]
+              - LayoutTableCell "有专利如何融资"
+                - link "有专利如何融资" [ref=e54]
+            - LayoutTableRow
+              - LayoutTableCell "专利融资需要什么资料"
+                - link "专利融资需要什么资料" [ref=e55]
+              - LayoutTableCell "北京乾元宝融管理咨询有限公司"
+                - link "北京乾元宝融管理咨询有限公司" [ref=e56]
+      - generic
+        - generic
+          - link "上一页" [ref=e15]
+          - strong
+          - link "2" [ref=e16]
+          - link "3" [ref=e17]
+          - link "4" [ref=e18]
+          - link "5" [ref=e19]
+          - link "6" [ref=e20]
+          - link "7" [ref=e21]
+          - link "8" [ref=e22]
+          - link "9" [ref=e23]
+          - link "10" [ref=e24]
+          - link "下一页" [ref=e25]
+      - generic
+      - generic
+        - generic
+          - generic
+            - link "帮助" [ref=e27]
+            - link "举报" [ref=e28]
+            - link "用户反馈" [ref=e29]
+            - link "企业推广" [ref=e30]

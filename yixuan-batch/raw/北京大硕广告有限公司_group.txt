@@ -1,0 +1,367 @@
+- generic
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。" [ref=e1]
+  - generic
+    - generic
+  - generic
+    - generic
+      - generic
+        - link "到百度首页" [ref=e2]
+          - image "到百度首页"
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                  - generic
+                  - generic
+                    - generic
+                      - generic
+                      - generic
+                        - textbox [ref=e92]: 北京大硕广告有限公司 对外投资 子公司 母公司 股东
+                          - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                          - generic
+                          - generic
+                        - button "百度一下" [ref=e93]
+                          - StaticText "百度一下"
+                    - generic
+                      - generic
+      - generic
+        - link "百度首页" [ref=e3]
+          - StaticText "百度首页"
+        - link "设置" [ref=e4]
+          - StaticText "设置"
+        - link "登录" [ref=e5]
+          - StaticText "登录"
+    - generic
+    - generic
+      - generic
+        - link [ref=e6]
+          - image
+        - StaticText "网页"
+        - link "图片" [ref=e7]
+          - StaticText "图片"
+        - link "资讯" [ref=e8]
+          - StaticText "资讯"
+        - link "视频" [ref=e9]
+          - StaticText "视频"
+        - link "笔记" [ref=e10]
+          - StaticText "笔记"
+        - link "地图" [ref=e11]
+          - StaticText "地图"
+        - link "贴吧" [ref=e12]
+          - StaticText "贴吧"
+        - link "文库" [ref=e13]
+          - StaticText "文库"
+        - link "更多" [ref=e14]
+          - StaticText "更多"
+        - generic
+          - StaticText "搜索工具"
+    - generic
+      - generic
+        - generic
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "相关搜索  母公司可以不对子公司控股吗  母公司是股东吗  北京群邑广告有限公司  子公司收购母公司  上市公司转让子公司股权  母公司如何成立子公司    换一换 热搜榜 民生榜 财经榜  把绿色的种子种进心里 1"
+                - generic
+                  - generic
+                    - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                            - link " 母公司可以不对子公司控股吗" [ref=e117]
+                          - generic
+                            - link " 母公司是股东吗" [ref=e118]
+                          - generic
+                            - link " 北京群邑广告有限公司" [ref=e119]
+                          - generic
+                            - link " 子公司收购母公司" [ref=e120]
+                          - generic
+                            - link " 上市公司转让子公司股权" [ref=e121]
+                          - generic
+                            - link " 母公司如何成立子公司" [ref=e122]
+                  - generic
+                    - generic
+                      - generic
+                        - link " " [ref=e94]
+                        - generic
+                          - link " 换一换" [ref=e95]
+                      - generic
+                        - generic
+                        - generic
+                        - generic
+                      - generic
+                        - generic
+                          - link "把绿色的种子种进心里" [ref=e96]
+                      - generic
+                        - generic
+                          - link "郑丽文谈访陆：两岸不是终须一战" [ref=e97]
+                      - generic
+                        - generic
+                          - link "“别人的春和景明 我的氯雷他定”" [ref=e98]
+                      - generic
+                        - generic
+                          - link "中国创新“酷”在哪里" [ref=e99]
+                      - generic
+                        - generic
+                          - link "今年蚊子或迎来史诗级加强 疾控提醒" [ref=e100]
+                      - generic
+                        - generic
+                          - link "新手友好，PayPal个人卖家账户上线" [ref=e101]
+                      - generic
+                        - generic
+                          - link "年轻人流行起“重新养育父母”" [ref=e102]
+                      - generic
+                        - generic
+                          - link "伊朗一儿童游乐场遭美以袭击" [ref=e103]
+                      - generic
+                        - generic
+                          - link "被中国淘汰的车却在印度“杀疯了”" [ref=e104]
+                      - generic
+                        - generic
+                          - link "广州遭遇“高压水枪式暴击”" [ref=e105]
+                      - generic
+                        - generic
+                          - link "女职工到底50岁还是55岁退休" [ref=e106]
+                      - generic
+                        - generic
+                          - link "时隔6年中国航班再次抵达平壤" [ref=e107]
+                      - generic
+                        - generic
+                          - link "“抗过敏药容易产生依赖”是误区" [ref=e108]
+                      - generic
+                        - generic
+                          - link "单依纯再次道歉后李荣浩秒回" [ref=e109]
+                      - generic
+                        - generic
+                          - link "伊朗首都遭大规模空袭 部分区域断电" [ref=e110]
+                      - generic
+                        - generic
+                          - link "蔡磊身体近况：四人搀扶也无法迈步" [ref=e111]
+                      - generic
+                        - generic
+                          - link "黑龙江海林建筑坍塌事故致7人遇难" [ref=e112]
+                - generic
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                    - image
+                    - generic
+                    - generic
+                    - generic
+          - generic
+            - generic
+              - generic
+                - heading "叶久辉 - 北京大硕广告有限公司 - 法定代表人/高管/股东 - 爱企查" [level=3, ref=e44]
+                  - link "叶久辉 - 北京大硕广告有限公司 - 法定代表人/高管/股东 - 爱企查" [ref=e62]
+                    - paragraph
+                - generic
+                  - StaticText "2026年3月4日"
+                  - StaticText "叶久辉目前担任"
+                  - emphasis
+                    - StaticText "北京大硕广告有限公司"
+                  - StaticText "、北京金鲨广告有限公司等3家企业法定代表人,同时在3家企业担任高管,包括担任北京大硕广告有限公司执行董事,经理,北京金鲨广告有限公司执行董事,经理;二、叶久辉投资情况:目前叶久辉是3家企业最终受益人,包括其在投资北京金鲨广告有限公司最终收益股份为50%,投资北京优硕广告有限公司最终收益股份为50%"
+                - generic
+                  - link "头像 爱企查" [ref=e63]
+                    - generic
+                    - StaticText "爱企查"
+          - generic
+            - heading "标题:北京大硕广告有限公司-企业信息" [level=3, ref=e26]
+              - link "标题:北京大硕广告有限公司-企业信息" [ref=e35]
+                - emphasis
+                  - StaticText "北京大硕广告有限公司"
+                - StaticText "-企业信息"
+            - generic
+              - generic
+                - link [ref=e45]
+                  - generic
+                    - generic
+              - generic
+                - paragraph
+                  - StaticText "法定代表人：叶久辉"
+                - paragraph
+                  - StaticText "注册资本：10万元"
+                - paragraph
+                  - StaticText "成立时间：2021-04-02"
+                - StaticText "注销"
+                - StaticText "企业未认领"
+            - paragraph
+              - emphasis
+                - StaticText "北京大硕广告有限公司"
+              - StaticText "地址位于北京市昌平区中兴路21号院1号楼7层723，经营范围设计、制作、代理、发布广告；承办展览展示活动；会议服务；包装装潢设计；模型设计；工艺美术设计；组织文化艺术交流活动（不含营业性演出）；房地产信息咨询；从事房地产经纪业务；电影摄制；电脑图文设计；软件开发；基础软件服务、应用软件服务（不含医用软件）；企业策划（不含中介服务）；模型设计；电脑动画设计；摄影服务；影视策划；礼仪服务；销售文化用品、工艺品、电子产品、计算机、软件及辅助设备。（市场主体依法自主选择经营项目，开展经营活动；依法须经批准的项目，经相关部门批准后依批准的内容开展经营活动；不得从事国家和本市产业政策禁止和限制类项目的经营活动。）"
+            - generic
+              - LayoutTable
+                - LayoutTableRow
+                  - LayoutTableCell "工商信息"
+                    - link "工商信息" [ref=e85]
+                  - LayoutTableCell "经营状况"
+                    - link "经营状况" [ref=e86]
+                  - LayoutTableCell "企业年报"
+                    - link "企业年报" [ref=e87]
+                  - LayoutTableCell "企业股东"
+                    - link "企业股东" [ref=e88]
+                  - LayoutTableCell "行政许可"
+                    - link "行政许可" [ref=e89]
+            - link "2位相关人员" [ref=e27]
+              - StaticText "2位相关人员"
+            - list
+              - generic
+                - generic
+                  - generic
+                    - listitem [level=1]
+                      - link "叶久辉 执行董事，经理" [ref=e90]
+                    - listitem [level=1]
+                      - link "祁标 监事" [ref=e91]
+            - link "来源：以上信息来源爱企查，一个专业免费的企业信息查询平台" [ref=e28]
+              - generic
+                - generic
+          - generic
+            - generic
+              - StaticText "大家还在搜"
+            - generic
+              - link "母公司可以不对子公司控股吗" [ref=e36]
+                - StaticText "母公司可以不对子公司控股吗"
+              - link "母公司是股东吗" [ref=e37]
+                - StaticText "母公司是股东吗"
+              - link "北京群邑广告有限公司" [ref=e38]
+                - StaticText "北京群邑广告有限公司"
+              - link "子公司收购母公司" [ref=e39]
+                - StaticText "子公司收购母公司"
+              - link "上市公司转让子公司股权" [ref=e40]
+                - StaticText "上市公司转让子公司股权"
+              - link "母公司如何成立子公司" [ref=e41]
+                - StaticText "母公司如何成立子公司"
+          - generic
+            - generic
+              - generic
+                - heading "视觉(中国)文化发展股份有限公司 关于全资子公司与专业投资机构..." [level=3, ref=e46]
+                  - link "视觉(中国)文化发展股份有限公司 关于全资子公司与专业投资机构..." [ref=e64]
+                - generic
+                - generic
+                  - link "深圳证券交易所" [ref=e65]
+          - generic
+            - generic
+              - generic
+                - heading "北京雪迪龙科技股份有限公司 关于以自有资金向全资子公司增资的公告" [level=3, ref=e47]
+                  - link "北京雪迪龙科技股份有限公司 关于以自有资金向全资子公司增资的公告" [ref=e66]
+                - generic
+                - generic
+                  - link "深圳证券交易所" [ref=e67]
+          - generic
+            - generic
+              - generic
+                - heading "北京大硕律师事务所_对外投资_公司对外投资查询 - 天眼查" [level=3, ref=e48]
+                  - link "北京大硕律师事务所_对外投资_公司对外投资查询 - 天眼查" [ref=e68]
+                - generic
+                - generic
+                  - link "头像 天眼查" [ref=e69]
+          - generic
+            - generic
+              - generic
+                - heading "北京大硕律师事务所_商标信息_公司商标信息查询 - 天眼查" [level=3, ref=e49]
+                  - link "北京大硕律师事务所_商标信息_公司商标信息查询 - 天眼查" [ref=e70]
+                - generic
+                  - StaticText "律师事务所 BEIJING DASHUO LAW FIRM DS 注册号 :88597585 类别:45类-社会服务 状态: 全部北京大硕律师事务所 商标信息 网站备案 查看公司主页公司看一看 品牌看一看 1中经金控投资"
+                - generic
+                  - link "头像 天眼查" [ref=e71]
+          - generic
+            - heading "北京硕才广告有限公司，公司，百度百科" [level=3, ref=e29]
+              - link "北京硕才广告有限公司，公司，百度百科" [ref=e42]
+                - emphasis
+                - StaticText "才"
+                - emphasis
+                - StaticText " - 百度百科"
+            - generic
+              - generic
+                - generic "此外，公司于2024年退出了对东阳市硕才路权影视有限公司（原持股20%）和湖北景阅文化传媒有限公司（原持股10%）的投资。分支机构 北京硕才广告有限公司北京分公司成立于2019年9月6日，负责人为于跃，状态为存续。北京硕才广告有限公司天津分公司成立于2017年11月22日，负责人为于跃，状态为开业，地址位于天津市武清..."
+                - generic
+                  - link "历史沿革" [ref=e72]
+                  - link "企业治理" [ref=e73]
+                  - link "业务范围" [ref=e74]
+                  - link "经营状况" [ref=e75]
+                  - link "对外投资" [ref=e76]
+                  - link "点击可查看更多内容" [ref=e77]
+                - link "百度百科" [ref=e50]
+                - generic
+          - generic
+            - heading "北京展硕投资控股有限公司，公司，百度百科" [level=3, ref=e30]
+              - link "北京展硕投资控股有限公司，公司，百度百科" [ref=e43]
+                - emphasis
+                - StaticText "展"
+                - emphasis
+                - StaticText "控股"
+                - emphasis
+                - StaticText " - 百度百科"
+            - generic
+              - generic "查看更多内容"
+                - link "查看更多内容" [ref=e51]
+              - generic
+                - generic "北京展硕投资控股有限公司共对外投资了7家企业，包括存续企业展硕融资租赁有限公司（持股82.3529%）和新建(深圳)工程管理有限公司（持股49%），以及注销企业歆华连创业投资(上海)有限公司（持股95%）、九统世纪商贸(海南)有限公司（持股20%）、青岛泰如商业保理有限公司（持股80%）、北京展硕供应链管理有限公司（持股..."
+                - generic
+                  - link "公司简介" [ref=e78]
+                  - link "历史沿革" [ref=e79]
+                  - link "组织架构" [ref=e80]
+                  - link "主营业务" [ref=e81]
+                  - link "经营状况" [ref=e82]
+                  - link "点击可查看更多内容" [ref=e83]
+                - generic
+                  - link "百度百科" [ref=e84]
+        - generic
+          - generic
+            - StaticText "相关搜索"
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "母公司可以不对子公司控股吗"
+                - link "母公司可以不对子公司控股吗" [ref=e52]
+              - LayoutTableCell "母公司是股东吗"
+                - link "母公司是股东吗" [ref=e53]
+            - LayoutTableRow
+              - LayoutTableCell "北京群邑广告有限公司"
+                - link "北京群邑广告有限公司" [ref=e54]
+              - LayoutTableCell "子公司收购母公司"
+                - link "子公司收购母公司" [ref=e55]
+            - LayoutTableRow
+              - LayoutTableCell "上市公司转让子公司股权"
+                - link "上市公司转让子公司股权" [ref=e56]
+              - LayoutTableCell "母公司如何成立子公司"
+                - link "母公司如何成立子公司" [ref=e57]
+            - LayoutTableRow
+              - LayoutTableCell "母公司股东变成子公司股东"
+                - link "母公司股东变成子公司股东" [ref=e58]
+              - LayoutTableCell "公司内部股东股权转让"
+                - link "公司内部股东股权转让" [ref=e59]
+            - LayoutTableRow
+              - LayoutTableCell "北京硕才广告有限公司"
+                - link "北京硕才广告有限公司" [ref=e60]
+              - LayoutTableCell "北京华盛基业广告有限公司"
+                - link "北京华盛基业广告有限公司" [ref=e61]
+      - generic
+        - generic
+          - link "上一页" [ref=e15]
+          - strong
+          - link "2" [ref=e16]
+          - link "3" [ref=e17]
+          - link "4" [ref=e18]
+          - link "5" [ref=e19]
+          - link "6" [ref=e20]
+          - link "7" [ref=e21]
+          - link "8" [ref=e22]
+          - link "9" [ref=e23]
+          - link "10" [ref=e24]
+          - link "下一页" [ref=e25]
+      - generic
+      - generic
+        - generic
+          - generic
+            - link "帮助" [ref=e31]
+            - link "举报" [ref=e32]
+            - link "用户反馈" [ref=e33]
+            - link "企业推广" [ref=e34]

@@ -1,0 +1,454 @@
+- generic
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。" [ref=e1]
+  - generic
+    - generic
+  - generic
+    - generic
+      - generic
+        - link "到百度首页" [ref=e2]
+          - image "到百度首页"
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                  - generic
+                  - generic
+                    - generic
+                      - generic
+                      - generic
+                        - textbox [ref=e79]: 北京悦优动体育有限公司 对外投资 子公司 母公司 股东
+                          - generic
+                            - StaticText "北京悦优动体育有限公司 对外投资 子公司 母公司 股东"
+                      - generic
+                        - generic
+                          - generic
+                            - image
+                          - generic
+                            - generic
+                          - generic
+                            - generic
+                          - generic
+                            - generic
+                        - button "百度一下" [ref=e80]
+                          - StaticText "百度一下"
+                    - generic
+                      - generic
+      - generic
+        - link "百度首页" [ref=e3]
+          - StaticText "百度首页"
+        - link "设置" [ref=e4]
+          - StaticText "设置"
+        - link "登录" [ref=e5]
+          - StaticText "登录"
+    - generic
+    - generic
+      - generic
+        - link [ref=e6]
+          - image
+        - StaticText "网页"
+        - link "图片" [ref=e7]
+          - StaticText "图片"
+        - link "资讯" [ref=e8]
+          - StaticText "资讯"
+        - link "视频" [ref=e9]
+          - StaticText "视频"
+        - link "笔记" [ref=e10]
+          - StaticText "笔记"
+        - link "地图" [ref=e11]
+          - StaticText "地图"
+        - link "贴吧" [ref=e12]
+          - StaticText "贴吧"
+        - link "文库" [ref=e13]
+          - StaticText "文库"
+        - link "更多" [ref=e14]
+          - StaticText "更多"
+        - generic
+          - StaticText "搜索工具"
+    - generic
+      - generic
+        - generic
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "相关搜索  控股子公司和参股子公司的区别  母公司可以不对子公司控股吗  母公司是股东吗  体育文化发展有限公司经营范围  子公司收购母公司  悦凯娱乐股东结构    换一换 热搜榜 民生榜 财经榜  把绿色的种子种进心里 1"
+                - generic
+                  - generic
+                    - generic
+                      - generic
+                        - generic
+                          - generic
+                            - StaticText "相关搜索"
+                          - generic
+                            - link " 控股子公司和参股子公司的区别" [ref=e103]
+                          - generic
+                            - link " 母公司可以不对子公司控股吗" [ref=e104]
+                          - generic
+                            - link " 母公司是股东吗" [ref=e105]
+                          - generic
+                            - link " 体育文化发展有限公司经营范围" [ref=e106]
+                          - generic
+                            - link " 子公司收购母公司" [ref=e107]
+                          - generic
+                            - link " 悦凯娱乐股东结构" [ref=e108]
+                  - generic
+                    - generic
+                      - generic
+                        - link " " [ref=e81]
+                          - generic
+                            - StaticText ""
+                          - generic
+                            - StaticText ""
+                        - generic
+                          - link " 换一换" [ref=e82]
+                            - generic
+                            - StaticText "换一换"
+                      - generic
+                        - generic
+                          - StaticText "热搜榜"
+                        - generic
+                          - StaticText "民生榜"
+                        - generic
+                          - StaticText "财经榜"
+                      - generic
+                        - generic
+                          - generic
+                            - StaticText ""
+                          - link "把绿色的种子种进心里" [ref=e83]
+                            - StaticText "把绿色的种子种进心里"
+                      - generic
+                        - generic
+                          - StaticText "1"
+                          - link "郑丽文谈访陆：两岸不是终须一战" [ref=e84]
+                            - StaticText "郑丽文谈访陆：两岸不是终须一战"
+                          - generic
+                            - StaticText "新"
+                      - generic
+                        - generic
+                          - StaticText "2"
+                          - link "“别人的春和景明 我的氯雷他定”" [ref=e85]
+                            - StaticText "“别人的春和景明 我的氯雷他定”"
+                          - generic
+                            - StaticText "新"
+                      - generic
+                        - generic
+                          - StaticText "3"
+                          - link "中国创新“酷”在哪里" [ref=e86]
+                            - StaticText "中国创新“酷”在哪里"
+                      - generic
+                        - generic
+                          - StaticText "4"
+                          - link "今年蚊子或迎来史诗级加强 疾控提醒" [ref=e87]
+                            - StaticText "今年蚊子或迎来史诗级加强 疾控提醒"
+                          - generic
+                            - StaticText "热"
+                      - generic
+                        - generic
+                          - generic
+                          - link "新手友好，PayPal个人卖家账户上线" [ref=e88]
+                            - StaticText "新手友好，PayPal个人卖家账户上线"
+                          - generic
+                            - StaticText "商"
+                      - generic
+                        - generic
+                          - StaticText "5"
+                          - link "年轻人流行起“重新养育父母”" [ref=e89]
+                            - StaticText "年轻人流行起“重新养育父母”"
+                      - generic
+                        - generic
+                          - StaticText "6"
+                          - link "伊朗一儿童游乐场遭美以袭击" [ref=e90]
+                            - StaticText "伊朗一儿童游乐场遭美以袭击"
+                          - generic
+                            - StaticText "新"
+                      - generic
+                        - generic
+                          - StaticText "7"
+                          - link "被中国淘汰的车却在印度“杀疯了”" [ref=e91]
+                            - StaticText "被中国淘汰的车却在印度“杀疯了”"
+                      - generic
+                        - generic
+                          - StaticText "8"
+                          - link "广州遭遇“高压水枪式暴击”" [ref=e92]
+                            - StaticText "广州遭遇“高压水枪式暴击”"
+                      - generic
+                        - generic
+                          - StaticText "9"
+                          - link "女职工到底50岁还是55岁退休" [ref=e93]
+                            - StaticText "女职工到底50岁还是55岁退休"
+                      - generic
+                        - generic
+                          - StaticText "10"
+                          - link "时隔6年中国航班再次抵达平壤" [ref=e94]
+                            - StaticText "时隔6年中国航班再次抵达平壤"
+                          - generic
+                            - StaticText "热"
+                      - generic
+                        - generic
+                          - StaticText "11"
+                          - link "“抗过敏药容易产生依赖”是误区" [ref=e95]
+                            - StaticText "“抗过敏药容易产生依赖”是误区"
+                      - generic
+                        - generic
+                          - StaticText "12"
+                          - link "单依纯再次道歉后李荣浩秒回" [ref=e96]
+                            - StaticText "单依纯再次道歉后李荣浩秒回"
+                          - generic
+                            - StaticText "热"
+                      - generic
+                        - generic
+                          - StaticText "13"
+                          - link "伊朗首都遭大规模空袭 部分区域断电" [ref=e97]
+                            - StaticText "伊朗首都遭大规模空袭 部分区域断电"
+                          - generic
+                            - StaticText "新"
+                      - generic
+                        - generic
+                          - StaticText "14"
+                          - link "蔡磊身体近况：四人搀扶也无法迈步" [ref=e98]
+                            - StaticText "蔡磊身体近况：四人搀扶也无法迈步"
+                      - generic
+                        - generic
+                          - StaticText "15"
+                          - link "黑龙江海林建筑坍塌事故致7人遇难" [ref=e99]
+                            - StaticText "黑龙江海林建筑坍塌事故致7人遇难"
+                          - generic
+                            - StaticText "新"
+                - generic
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                    - image
+                    - generic
+                      - generic
+                        - generic
+                          - StaticText ""
+                        - StaticText "停"
+                      - generic
+                        - generic
+                          - StaticText ""
+                        - StaticText "听"
+                    - generic
+                      - generic
+                        - generic
+                        - generic
+                          - paragraph
+                            - StaticText "根据截至2026年3月30日的公开资料，关于‌"
+                            - strong
+                            - StaticText "‌的对外投资、子公司、母公司及股东情况如下："
+                          - heading "股东与控股结构" [level=3, ref=e100]
+                            - StaticText "股东与控股结构"
+                          - list
+                            - listitem [level=1]
+                            - listitem [level=1]
+                          - heading "母公司与子公司" [level=3, ref=e101]
+                            - StaticText "母公司与子公司"
+                          - list
+                            - listitem [level=1]
+                            - listitem [level=1]
+                          - heading "公司基本信息（补充参考）" [level=3, ref=e102]
+                            - StaticText "公司基本信息（补充参考）"
+                          - list
+                            - listitem [level=1]
+                            - listitem [level=1]
+                            - listitem [level=1]
+                            - listitem [level=1]
+                          - paragraph
+                            - StaticText "如需进一步查询企业信用或股权详情，可访问以下平台："
+                          - list
+                            - listitem [level=1]
+                              - link "爱企查 - 北京悦优动体育有限公司" [ref=e109]
+                            - listitem [level=1]
+                              - link "天眼查 - 北京悦优动体育有限公司" [ref=e110]
+                    - generic
+          - generic
+            - generic
+              - generic
+                - heading "北京悦优动体育有限公司_悦优动-企业工商信息-官方资质认证-天眼查" [level=3, ref=e38]
+                  - link "北京悦优动体育有限公司_悦优动-企业工商信息-官方资质认证-天眼查" [ref=e62]
+                    - paragraph
+                - generic
+                  - StaticText "2025年12月7日"
+                  - StaticText "电话:- 邮箱:- 网址:- 地址: "
+                  - emphasis
+                    - StaticText "北京市"
+                  - StaticText "大兴区新源大街27号院3号楼3层323 附近企业 国标行业:其他"
+                  - emphasis
+                    - StaticText "体育"
+                  - StaticText "组织 企业规模:小型 简介:"
+                  - emphasis
+                    - StaticText "北京悦优动体育有限公司"
+                  - StaticText ",成立于2024年,位于北京市,是一家以从事体育为主的企业。企业注册资本100万人民币。通过天眼查大数据分析,"
+                  - emphasis
+                    - StaticText "北京悦优动体育有限公司"
+                  - StaticText "拥有行政许可1个。展开 点击更新企业数据 财产线索 线索数量1"
+                - generic
+                  - link "天眼查" [ref=e63]
+                    - StaticText "天眼查"
+          - generic
+            - generic
+              - generic
+                - heading "韩昊桦 - 北京悦优动体育有限公司 - 法定代表人/高管/股东 - 爱企查" [level=3, ref=e39]
+                  - link "韩昊桦 - 北京悦优动体育有限公司 - 法定代表人/高管/股东 - 爱企查" [ref=e64]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e73]
+                  - generic
+                    - StaticText "2025年8月20日"
+                    - emphasis
+                    - StaticText ",持股比例为100%;目前韩昊桦投资北京悦优动体育有限公司最终收益股份为100%;三、韩昊桦的商业合作伙伴:基于公开数据展示,韩昊桦与牛嘉锴为商业合作伙伴。 财产线索 线索数量 老板履历 图文概览商业履历 任职全景图 投资、任职的关联公司 股权..."
+                  - generic
+                    - generic
+                      - link "头像 爱企查" [ref=e76]
+          - generic
+            - generic
+              - StaticText "大家还在搜"
+            - generic
+              - link "控股子公司和参股子公司的区别" [ref=e31]
+                - StaticText "控股子公司和参股子公司的区别"
+              - link "母公司可以不对子公司控股吗" [ref=e32]
+                - StaticText "母公司可以不对子公司控股吗"
+              - link "母公司是股东吗" [ref=e33]
+                - StaticText "母公司是股东吗"
+              - link "体育文化发展有限公司经营范围" [ref=e34]
+                - StaticText "体育文化发展有限公司经营范围"
+              - link "子公司收购母公司" [ref=e35]
+                - StaticText "子公司收购母公司"
+              - link "悦凯娱乐股东结构" [ref=e36]
+                - StaticText "悦凯娱乐股东结构"
+          - generic
+            - generic
+              - generic
+                - heading "北京悦优动体育有限公司 - 企业/公司信息查询 - 爱企查" [level=3, ref=e40]
+                  - link "北京悦优动体育有限公司 - 企业/公司信息查询 - 爱企查" [ref=e65]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e74]
+                  - generic
+                    - StaticText "爱企查为您提供"
+                    - emphasis
+                    - StaticText "企业信息查询,包括公司注册信息,公司地址,品牌项目,工商信息等公司信息查询,想要了解更多更多企业信息,就到爱企查官网!"
+                  - generic
+                    - generic
+                      - link "头像 爱企查" [ref=e77]
+          - generic
+            - generic
+              - generic
+                - heading "新赛点:对外投资的公告-新三板—东方财富网" [level=3, ref=e41]
+                  - link "新赛点:对外投资的公告-新三板—东方财富网" [ref=e66]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e75]
+                  - generic
+                    - StaticText "7天前"
+                    - StaticText "一、"
+                    - emphasis
+                    - StaticText "概述(一)基本情况 为推进北京新赛点体育投资股份"
+                    - emphasis
+                    - StaticText "(以下简称“公司”)整体战略布局,满足未来市场需求,提高市场占有率,保障公司产业布局规划及发展战略的实施,推动公司业务合作和发展,公司控股"
+                    - emphasis
+                    - StaticText "百动整合体育发展"
+                    - emphasis
+                    - StaticText "拟设立全资子公司上海百"
+                    - emphasis
+                    - StaticText "科技有限公司,注册资本 100.00 万元,具体以..."
+                  - generic
+                    - generic
+                      - link "东方财富网" [ref=e78]
+          - generic
+            - heading "标题:北京悦优动体育有限公司-企业信息" [level=3, ref=e26]
+              - link "标题:北京悦优动体育有限公司-企业信息" [ref=e37]
+                - emphasis
+                - StaticText "-企业信息"
+            - generic
+              - generic
+                - link [ref=e42]
+              - generic
+                - paragraph
+                - link "工商信息" [ref=e43]
+                - link "认领企业" [ref=e44]
+                - link "企业风险" [ref=e45]
+                - link "企业股东" [ref=e46]
+                - link "经营状况" [ref=e47]
+                - link "来源：以上信息来源爱企查，一个专业免费的企业信息查询平台" [ref=e48]
+          - generic
+            - generic
+              - generic
+                - heading "新赛点(834425):公司控股子公司北京百动整合体育发展有限责任公司..." [level=3, ref=e49]
+                  - link "新赛点(834425):公司控股子公司北京百动整合体育发展有限责任公司..." [ref=e67]
+                - generic
+                - generic
+                  - link "每日经济新闻" [ref=e68]
+          - generic
+            - generic
+              - generic
+                - heading "北京悦动世界体育发展有限公司_对外投资_公司对外投资查询 - 天眼查" [level=3, ref=e50]
+                  - link "北京悦动世界体育发展有限公司_对外投资_公司对外投资查询 - 天眼查" [ref=e69]
+                - generic
+                - generic
+                  - link "头像 天眼查" [ref=e70]
+          - generic
+            - generic
+              - generic
+                - heading "北京诠优酷动体育有限责任公司 - 变更记录 - 爱企查" [level=3, ref=e51]
+                  - link "北京诠优酷动体育有限责任公司 - 变更记录 - 爱企查" [ref=e71]
+                - generic
+                - generic
+                  - link "头像 爱企查" [ref=e72]
+        - generic
+          - generic
+            - StaticText "相关搜索"
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "控股子公司和参股子公司的区别"
+                - link "控股子公司和参股子公司的区别" [ref=e52]
+              - LayoutTableCell "母公司可以不对子公司控股吗"
+                - link "母公司可以不对子公司控股吗" [ref=e53]
+            - LayoutTableRow
+              - LayoutTableCell "母公司是股东吗"
+                - link "母公司是股东吗" [ref=e54]
+              - LayoutTableCell "体育文化发展有限公司经营范围"
+                - link "体育文化发展有限公司经营范围" [ref=e55]
+            - LayoutTableRow
+              - LayoutTableCell "子公司收购母公司"
+                - link "子公司收购母公司" [ref=e56]
+              - LayoutTableCell "悦凯娱乐股东结构"
+                - link "悦凯娱乐股东结构" [ref=e57]
+            - LayoutTableRow
+              - LayoutTableCell "体育产业有限公司"
+                - link "体育产业有限公司" [ref=e58]
+              - LayoutTableCell "上市公司转让子公司股权"
+                - link "上市公司转让子公司股权" [ref=e59]
+            - LayoutTableRow
+              - LayoutTableCell "北京悦动体育发展有限公司"
+                - link "北京悦动体育发展有限公司" [ref=e60]
+              - LayoutTableCell "北京中锐体育产业有限公司"
+                - link "北京中锐体育产业有限公司" [ref=e61]
+      - generic
+        - generic
+          - link "上一页" [ref=e15]
+          - strong
+          - link "2" [ref=e16]
+          - link "3" [ref=e17]
+          - link "4" [ref=e18]
+          - link "5" [ref=e19]
+          - link "6" [ref=e20]
+          - link "7" [ref=e21]
+          - link "8" [ref=e22]
+          - link "9" [ref=e23]
+          - link "10" [ref=e24]
+          - link "下一页" [ref=e25]
+      - generic
+      - generic
+        - generic
+          - generic
+            - link "帮助" [ref=e27]
+            - link "举报" [ref=e28]
+            - link "用户反馈" [ref=e29]
+            - link "企业推广" [ref=e30]
