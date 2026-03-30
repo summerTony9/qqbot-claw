@@ -46,3 +46,26 @@ Append new unique findings here with timestamp, source, snippet, relevance, and 
 - Manual correction after review
 - Rejected xhs:69bb4f460000000023023781 as service_provider_or_case_study_marketing
 - Corrected effective result for prior run: 0 valid high-confidence leads
+
+## 2026-03-28T16:10:36.646353+08:00
+Final clean run: 13 candidates, 5 inspected, 0 valid
+- REJECTED [missing_beijing_or_tech] 北京朝阳｜新媒体｜初创公司招人啦～
+- REJECTED [previously_rejected] 我们招人啦 | AI初创公司-Apexmind
+- REJECTED [job_seeker] 宇树科技四月组里缺人！接受无经验 快来
+
+## 2026-03-30 08:32:00 +0800
+- Query: 北京 人工智能 公司 融资
+- Source: post+comment
+- Title: 北京机器人公司招融资及战略负责人
+- Author: ovO✨
+- Date: 03-08
+- Urgency: 中
+- Why: 明确提到 A轮具身机器人公司、base 北京海淀，并招聘融资及战略负责人，正文直接暴露股权融资/投融资流程/资源需求，符合北京科技企业近期融资拓展信号。
+- Snippet: A轮具身机器人公司，汇报对象公司创始人，base北京海淀；有市场化机构股权融资经验，熟悉投融资流程和战略规划，熟悉AI、机器人等相关领域优先。
+- Link: https://www.xiaohongshu.com/explore/69ad9334000000000d00b7ee
+
+## 2026-03-30 08:53:00 +0800
+- User correction applied
+- Cleared all rejected_signatures for fresh re-evaluation
+- Scope broadened: accept Beijing startup / new-media / hiring-growth signals in addition to account-opening and tech-enterprise loan clues
+- Deep-open target increased to 8-10 posts per run with bounded runtime to avoid timeout

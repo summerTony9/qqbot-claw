@@ -1,12 +1,13 @@
-# Xiaohongshu monitor: Beijing tech-business outreach leads
+# Xiaohongshu monitor: Beijing business outreach leads
 
 ## Goal
-Monitor Xiaohongshu hourly for **new** posts/comments that reveal a **Beijing-based tech-related business** worth contacting.
+Monitor Xiaohongshu hourly for **new** posts/comments that reveal a **Beijing-based business** worth contacting.
 
 This is **not limited to loan / financing demand**. We also want lead-like signals for:
 - business loans / enterprise financing / working-capital need
 - corporate bank account / 对公开户 / 公户 / 收款 / 流水 / tax / invoice / payroll / compliance questions
 - startup growth / team expansion / active hiring / office expansion / business ramp-up
+- Beijing startup / 初创公司 / 新媒体团队 / 内容团队 / 电商团队等出现扩张、招人、经营起量信号
 - founders or operators asking for business solutions where贷款、开户、结算、财税、授信可能都能切入
 
 ## Time window
@@ -54,8 +55,9 @@ Use and rotate combinations of these keywords:
 
 ## What counts as a valid lead
 Strong signals:
-- clearly mentions Beijing / 北京 / 北京公司 / 北京企业 / 北京老板 / 北京快科 / 科技公司 etc.
-- clearly shows **technology-related business context**, such as: `科技`, `软件`, `AI`, `人工智能`, `互联网`, `SaaS`, `系统开发`, `电商`, `MCN`, `高新`, `专精特新`, `研发`, `平台`, `云服务`, `自媒体团队`
+- clearly mentions Beijing / 北京 / 北京公司 / 北京企业 / 北京老板 / 北京朝阳 / 北京海淀 etc.
+- shows a real **business context**. Tech-related context is still strong, but not mandatory if the post clearly reflects Beijing startup growth, hiring, account-opening, enterprise banking, financing, or new-media / content-team expansion.
+- helpful business-context words include: `科技`, `软件`, `AI`, `人工智能`, `互联网`, `SaaS`, `系统开发`, `电商`, `MCN`, `高新`, `专精特新`, `研发`, `平台`, `云服务`, `自媒体团队`, `新媒体`, `初创公司`, `团队扩张`, `招人`
 - reveals a business opportunity for outreach, including any of the following:
   - explicit financing / loan /授信 / 资金周转 demand
   - explicit 对公开户 / 公户 / 银行 / 结算 / tax / payroll / invoice / 收款 / compliance need
@@ -71,7 +73,7 @@ Ignore:
 - duplicate posts/comments already reported
 - `发票贷`-focused content as a primary topic
 - stale leads older than 30 days
-- non-tech businesses when the technology signal is weak or missing
+- posts with no real business-expansion / financing / account-opening / enterprise-banking signal at all
 - **中介 / 助贷 / 代理 / 渠道商 / 居间方** as the lead subject
 - posts where the author is obviously selling loan products rather than expressing business need
 - recruiter / service-provider content unless the underlying company itself is the real target and not just an agency shell
@@ -95,7 +97,8 @@ To reduce platform risk:
   - 2-5 seconds between searches/navigation
   - 3-7 seconds after opening a post before reading comments
   - 1-3 seconds between small scrolls
-- deep-open only the most promising results first; cap deep post opens to about 4-6 per run
+- deep-open only the most promising results first; target about 8-10 deep post opens per run when the page is healthy
+- keep an eye on total runtime; prefer bounded broader coverage over timing out
 - do not rapidly click many links from the same result page
 - if the page looks abnormal / empty / heavily rate-limited, stop early and avoid hammering retries
 
