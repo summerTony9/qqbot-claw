@@ -1,4 +1,5 @@
 import base64
+import hashlib
 import json
 import mimetypes
 import os
@@ -469,80 +470,110 @@ async def call_minimax_chat(system_prompt: str, user_prompt: str) -> str:
     return ""
 
 
-async def build_data_url_from_image_url(image_url: str) -> str:
+async def fetch_image_bytes(image_url: str) -> tuple[bytes, str]:
     if not image_url:
-        return ""
+        return b"", ""
+    if os.path.exists(image_url):
+        try:
+            raw = Path(image_url).read_bytes()
+            guessed, _ = mimetypes.guess_type(image_url)
+            return raw, (guessed or "image/jpeg")
+        except Exception as e:
+            logger.warning(f"[minimax-vlm] read local image failed: {e}")
+            return b"", ""
     try:
         async with httpx.AsyncClient(timeout=60, follow_redirects=True) as client:
             resp = await client.get(image_url)
             resp.raise_for_status()
+            raw = resp.content or b""
             content_type = (resp.headers.get("content-type") or "").split(";")[0].strip().lower()
             if not content_type or not content_type.startswith("image/"):
                 guessed, _ = mimetypes.guess_type(image_url)
-                content_type = guessed or "image/png"
-            raw = resp.content
-            if not raw:
-                return ""
-            b64 = base64.b64encode(raw).decode("ascii")
-            return f"data:{content_type};base64,{b64}"
+                content_type = guessed or "image/jpeg"
+            return raw, content_type
     except Exception as e:
-        logger.warning(f"[minimax-vision] download image failed: {e}")
+        logger.warning(f"[minimax-vlm] download image failed: {e}")
+        return b"", ""
+
+
+async def save_remote_image_to_local(image_url: str) -> str:
+    raw, content_type = await fetch_image_bytes(image_url)
+    if not raw:
+        return ""
+
+    ext = ".jpg"
+    if "png" in content_type:
+        ext = ".png"
+    elif "webp" in content_type:
+        ext = ".webp"
+    elif "jpeg" in content_type or "jpg" in content_type:
+        ext = ".jpg"
+
+    digest = hashlib.sha1(raw).hexdigest()[:16]
+    local_path = DATA_DIR / f"qq_image_{digest}{ext}"
+    try:
+        local_path.write_bytes(raw)
+        return str(local_path)
+    except Exception as e:
+        logger.warning(f"[minimax-vlm] save local image failed: {e}")
         return ""
 
 
-async def call_minimax_vision_chat(system_prompt: str, user_prompt: str, image_url: str) -> str:
+def local_image_to_data_url(local_path: str) -> str:
+    if not local_path or not os.path.exists(local_path):
+        return ""
+    try:
+        image_format = 'jpeg'
+        if local_path.lower().endswith('.png'):
+            image_format = 'png'
+        elif local_path.lower().endswith('.webp'):
+            image_format = 'webp'
+        elif local_path.lower().endswith(('.jpg', '.jpeg')):
+            image_format = 'jpeg'
+        raw = Path(local_path).read_bytes()
+        if not raw:
+            return ""
+        return f"data:image/{image_format};base64,{base64.b64encode(raw).decode('utf-8')}"
+    except Exception as e:
+        logger.warning(f"[minimax-vlm] local image encode failed: {e}")
+        return ""
+
+
+async def call_minimax_understand_image(prompt: str, image_url: str) -> str:
     api_key = os.getenv("MINIMAX_API_KEY", "").strip()
+    api_host = os.getenv("MINIMAX_API_HOST", "https://api.minimaxi.com").strip() or "https://api.minimaxi.com"
     if not api_key or not image_url:
         return ""
 
-    data_url = await build_data_url_from_image_url(image_url)
+    local_path = await save_remote_image_to_local(image_url)
+    if not local_path:
+        return ""
+    data_url = local_image_to_data_url(local_path)
     if not data_url:
         return ""
 
-    model = os.getenv("MINIMAX_CHAT_MODEL", "MiniMax-M2.7").strip() or "MiniMax-M2.7"
-    try:
-        max_tokens = int(os.getenv("MINIMAX_CHAT_MAX_TOKENS", "1536") or "1536")
-    except ValueError:
-        max_tokens = 1536
-
     payload = {
-        "model": model,
-        "messages": [
-            {"role": "system", "content": system_prompt},
-            {
-                "role": "user",
-                "content": [
-                    {"type": "text", "text": user_prompt},
-                    {"type": "image_url", "image_url": {"url": data_url}},
-                ],
-            },
-        ],
-        "temperature": 0.8,
-        "top_p": 0.95,
-        "max_tokens": max_tokens,
+        "prompt": prompt,
+        "image_url": data_url,
     }
 
     try:
         async with httpx.AsyncClient(timeout=90) as client:
             resp = await client.post(
-                "https://api.minimaxi.com/v1/text/chatcompletion_v2",
+                f"{api_host}/v1/coding_plan/vlm",
                 headers={
                     "Authorization": f"Bearer {api_key}",
+                    "MM-API-Source": "Minimax-MCP",
                     "Content-Type": "application/json",
                 },
                 json=payload,
             )
             resp.raise_for_status()
             data = resp.json()
-            logger.info(f"[minimax-vision] model={model} base_resp={data.get('base_resp')} choices_present={bool(data.get('choices'))} data_url_len={len(data_url)}")
-            choice = ((data or {}).get("choices") or [{}])[0]
-            message = choice.get("message", {}) or {}
-            reply = (message.get("content") or "").strip()
-            if not reply:
-                reply = (((data or {}).get("reply") or {}).get("content") or "").strip()
-            return sanitize_generated_text(reply)
+            logger.info(f"[minimax-vlm] base_resp={data.get('base_resp')} local_path={local_path}")
+            return (data.get("content") or "").strip()
     except Exception as e:
-        logger.warning(f"[minimax-vision] generate failed: {e}")
+        logger.warning(f"[minimax-vlm] request failed: {e}")
         return ""
 
 
@@ -569,27 +600,39 @@ async def generate_group_roast_reply(target_text: str, context_lines: list[str])
     return await call_minimax_chat(system_prompt, user_prompt)
 
 
-def build_group_image_roast_prompt(sender_ref: str) -> tuple[str, str]:
+def build_group_image_understand_prompt() -> str:
+    return (
+        "请只根据图片本身提炼可见内容，不要脑补，不要身份识别，不要推断真实关系。"
+        "输出1到4条最具体的内容点，每条一行。重点描述：主体、动作/姿态、穿着或显著外观、表情、背景。"
+        "如果图片看不清或无法判断，就只输出 EMPTY_RESPONSE。"
+    )
+
+
+def build_group_image_roast_prompt(sender_ref: str, image_facts: str) -> tuple[str, str]:
     system_prompt = (
-        "你是QQ群里的暴躁贴吧老哥。你的任务是只根据图片本身，先看懂图里具体有什么，再对发图的群友来一句具体锐评。"
-        "要求：1）只依据图片内容，不要引用群聊上下文，不要脑补聊天前情；"
-        "2）先抓住图片里最具体、最显眼、最值得吐槽的内容点；"
-        "3）回复要体现你真的看见了图里的细节，不能空泛，不能只说‘这图好抽象’这种废话；"
-        "4）如果图片无法识别、内容过糊、或你根本没看到图，就只输出 EMPTY_RESPONSE，绝对不要编造，不要说‘图呢’；"
-        "5）语气暴躁、阴阳怪气、损一点，但不要出现仇恨、歧视、暴力威胁、真实人身伤害鼓动；"
-        "6）回复必须短，10-40字，像真实群友插话；"
-        "7）不要解释自己，不要加引号，不要分点，不要输出[小嘴][doge][笑哭]这类平台表情名。"
+        "你是QQ群里的暴躁贴吧老哥。你的任务是根据已经提炼好的图片内容，对发图的群友来一句具体锐评。"
+        "要求：1）只能基于给定的图片内容点输出，不要添加新事实；"
+        "2）必须点到具体内容，不能空泛；"
+        "3）语气暴躁、阴阳怪气、损一点，但不要出现仇恨、歧视、暴力威胁、真实人身伤害鼓动；"
+        "4）回复必须短，10-40字，像真实群友插话；"
+        "5）不要解释自己，不要加引号，不要分点，不要输出[小嘴][doge][笑哭]这类平台表情名；"
+        "6）如果内容点不足以支撑可靠吐槽，就只输出 EMPTY_RESPONSE。"
     )
     user_prompt = (
         f"发图的人：{sender_ref}\n"
-        "现在请只看这张图，提炼图里最具体的内容点，然后直接输出一句群聊锐评。"
+        f"图片内容点：\n{image_facts}\n\n"
+        "现在直接输出一句群聊锐评。"
     )
     return system_prompt, user_prompt
 
 
 async def generate_group_image_roast_reply(image_url: str, sender_ref: str, context_lines: list[str]) -> str:
-    system_prompt, user_prompt = build_group_image_roast_prompt(sender_ref)
-    reply = await call_minimax_vision_chat(system_prompt, user_prompt, image_url)
+    image_facts = await call_minimax_understand_image(build_group_image_understand_prompt(), image_url)
+    image_facts = (image_facts or "").strip()
+    if not image_facts or image_facts == "EMPTY_RESPONSE":
+        return ""
+    system_prompt, user_prompt = build_group_image_roast_prompt(sender_ref, image_facts)
+    reply = await call_minimax_chat(system_prompt, user_prompt)
     if reply.strip() == "EMPTY_RESPONSE":
         return ""
     return reply
