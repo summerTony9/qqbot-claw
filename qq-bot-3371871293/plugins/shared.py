@@ -1,4 +1,6 @@
+import base64
 import json
+import mimetypes
 import os
 import random
 import re
@@ -372,6 +374,14 @@ def extract_bilibili_card_meta(event: Event) -> dict:
     return meta
 
 
+def message_contains_image(event: Event) -> bool:
+    for seg in event.get_message() or []:
+        seg_type = getattr(seg, "type", None)
+        if seg_type == "image":
+            return True
+    return False
+
+
 def get_user_display_name(user_id: str | int) -> str:
     user_id = str(user_id)
     return USER_NAME_MAP.get(user_id, user_id)
@@ -459,6 +469,83 @@ async def call_minimax_chat(system_prompt: str, user_prompt: str) -> str:
     return ""
 
 
+async def build_data_url_from_image_url(image_url: str) -> str:
+    if not image_url:
+        return ""
+    try:
+        async with httpx.AsyncClient(timeout=60, follow_redirects=True) as client:
+            resp = await client.get(image_url)
+            resp.raise_for_status()
+            content_type = (resp.headers.get("content-type") or "").split(";")[0].strip().lower()
+            if not content_type or not content_type.startswith("image/"):
+                guessed, _ = mimetypes.guess_type(image_url)
+                content_type = guessed or "image/png"
+            raw = resp.content
+            if not raw:
+                return ""
+            b64 = base64.b64encode(raw).decode("ascii")
+            return f"data:{content_type};base64,{b64}"
+    except Exception as e:
+        logger.warning(f"[minimax-vision] download image failed: {e}")
+        return ""
+
+
+async def call_minimax_vision_chat(system_prompt: str, user_prompt: str, image_url: str) -> str:
+    api_key = os.getenv("MINIMAX_API_KEY", "").strip()
+    if not api_key or not image_url:
+        return ""
+
+    data_url = await build_data_url_from_image_url(image_url)
+    if not data_url:
+        return ""
+
+    model = os.getenv("MINIMAX_CHAT_MODEL", "MiniMax-M2.7").strip() or "MiniMax-M2.7"
+    try:
+        max_tokens = int(os.getenv("MINIMAX_CHAT_MAX_TOKENS", "1536") or "1536")
+    except ValueError:
+        max_tokens = 1536
+
+    payload = {
+        "model": model,
+        "messages": [
+            {"role": "system", "content": system_prompt},
+            {
+                "role": "user",
+                "content": [
+                    {"type": "text", "text": user_prompt},
+                    {"type": "image_url", "image_url": {"url": data_url}},
+                ],
+            },
+        ],
+        "temperature": 0.8,
+        "top_p": 0.95,
+        "max_tokens": max_tokens,
+    }
+
+    try:
+        async with httpx.AsyncClient(timeout=90) as client:
+            resp = await client.post(
+                "https://api.minimaxi.com/v1/text/chatcompletion_v2",
+                headers={
+                    "Authorization": f"Bearer {api_key}",
+                    "Content-Type": "application/json",
+                },
+                json=payload,
+            )
+            resp.raise_for_status()
+            data = resp.json()
+            logger.info(f"[minimax-vision] model={model} base_resp={data.get('base_resp')} choices_present={bool(data.get('choices'))} data_url_len={len(data_url)}")
+            choice = ((data or {}).get("choices") or [{}])[0]
+            message = choice.get("message", {}) or {}
+            reply = (message.get("content") or "").strip()
+            if not reply:
+                reply = (((data or {}).get("reply") or {}).get("content") or "").strip()
+            return sanitize_generated_text(reply)
+    except Exception as e:
+        logger.warning(f"[minimax-vision] generate failed: {e}")
+        return ""
+
+
 def build_group_roast_prompt(target_text: str, context_lines: list[str]) -> tuple[str, str]:
     system_prompt = (
         "你是QQ群里的暴躁贴吧老哥。你的任务是针对指定消息做一句具体回复。"
@@ -480,6 +567,32 @@ def build_group_roast_prompt(target_text: str, context_lines: list[str]) -> tupl
 async def generate_group_roast_reply(target_text: str, context_lines: list[str]) -> str:
     system_prompt, user_prompt = build_group_roast_prompt(target_text, context_lines)
     return await call_minimax_chat(system_prompt, user_prompt)
+
+
+def build_group_image_roast_prompt(sender_ref: str) -> tuple[str, str]:
+    system_prompt = (
+        "你是QQ群里的暴躁贴吧老哥。你的任务是只根据图片本身，先看懂图里具体有什么，再对发图的群友来一句具体锐评。"
+        "要求：1）只依据图片内容，不要引用群聊上下文，不要脑补聊天前情；"
+        "2）先抓住图片里最具体、最显眼、最值得吐槽的内容点；"
+        "3）回复要体现你真的看见了图里的细节，不能空泛，不能只说‘这图好抽象’这种废话；"
+        "4）如果图片无法识别、内容过糊、或你根本没看到图，就只输出 EMPTY_RESPONSE，绝对不要编造，不要说‘图呢’；"
+        "5）语气暴躁、阴阳怪气、损一点，但不要出现仇恨、歧视、暴力威胁、真实人身伤害鼓动；"
+        "6）回复必须短，10-40字，像真实群友插话；"
+        "7）不要解释自己，不要加引号，不要分点，不要输出[小嘴][doge][笑哭]这类平台表情名。"
+    )
+    user_prompt = (
+        f"发图的人：{sender_ref}\n"
+        "现在请只看这张图，提炼图里最具体的内容点，然后直接输出一句群聊锐评。"
+    )
+    return system_prompt, user_prompt
+
+
+async def generate_group_image_roast_reply(image_url: str, sender_ref: str, context_lines: list[str]) -> str:
+    system_prompt, user_prompt = build_group_image_roast_prompt(sender_ref)
+    reply = await call_minimax_vision_chat(system_prompt, user_prompt, image_url)
+    if reply.strip() == "EMPTY_RESPONSE":
+        return ""
+    return reply
 
 
 def fetch_bilibili_subtitle_text(headers: dict, aid: int | None, cid: int | None) -> str:

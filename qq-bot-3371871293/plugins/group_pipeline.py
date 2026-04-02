@@ -15,10 +15,12 @@ from .shared import (
     extract_bilibili_url_from_event,
     format_message_brief,
     generate_bilibili_roast_reply,
+    generate_group_image_roast_reply,
     generate_group_roast_reply,
     get_group_roaster_config,
     get_user_display_name,
     is_regular_group_text,
+    message_contains_image,
     pick_image_url_from_segments,
     remember_group_message,
     save_group_state,
@@ -61,22 +63,48 @@ async def handle_bilibili_if_needed(bot: Bot, event: Event, group_key: str) -> b
     return True
 
 
-async def handle_group_roaster_if_needed(bot: Bot, event: Event, group_key: str, plain: str) -> None:
+async def handle_group_roaster_if_needed(bot: Bot, event: Event, group_key: str, plain: str, image_url: str = "") -> None:
     config = get_group_roaster_config()
-    if not config.enabled or not is_regular_group_text(plain):
+    has_image = bool(image_url) or message_contains_image(event)
+    if not config.enabled:
+        return
+
+    context_lines = list(GROUP_CONTEXTS[group_key])
+    sender_name = get_user_display_name(getattr(event, 'user_id', 'unknown'))
+    sender_ref = f"发图的群友（{sender_name}）"
+
+    # 图片消息：单独即时锐评，不占用/不重置普通文字随机插话计数
+    if has_image and image_url:
+        logger.info(f"[group-roaster] image-roast triggered for group={group_key}")
+        reply = await generate_group_image_roast_reply(image_url, sender_ref, context_lines)
+        if reply:
+            logger.info(f"[group-roaster] sending image roast: {reply[:120]}")
+            message_id = getattr(event, "message_id", None)
+            if message_id is not None:
+                msg = Message()
+                msg.append(MessageSegment.reply(message_id))
+                msg.append(MessageSegment.text(reply))
+                await bot.send(event, msg)
+            else:
+                await bot.send(event, reply)
+        else:
+            logger.warning(f"[group-roaster] empty image roast for group={group_key}")
+        return
+
+    # 普通文字消息：继续沿用现有随机触发逻辑
+    if not is_regular_group_text(plain):
         return
     if GROUP_TRIGGER_COUNTER[group_key] < GROUP_NEXT_TRIGGER[group_key]:
         return
 
-    logger.info(f"[group-roaster] triggered for group={group_key}")
-    context_lines = list(GROUP_CONTEXTS[group_key])
+    logger.info(f"[group-roaster] text-roast triggered for group={group_key}")
     reply = await generate_group_roast_reply(format_message_brief(event), context_lines)
     GROUP_TRIGGER_COUNTER[group_key] = 0
     GROUP_NEXT_TRIGGER[group_key] = config.min_trigger + __import__('random').randint(0, config.max_trigger - config.min_trigger)
     save_group_state(group_key)
     logger.info(f"[group-roaster] next trigger reset to {GROUP_NEXT_TRIGGER[group_key]}")
     if reply:
-        logger.info(f"[group-roaster] sending reply: {reply[:120]}")
+        logger.info(f"[group-roaster] sending text roast: {reply[:120]}")
         message_id = getattr(event, "message_id", None)
         if message_id is not None:
             msg = Message()
@@ -86,7 +114,7 @@ async def handle_group_roaster_if_needed(bot: Bot, event: Event, group_key: str,
         else:
             await bot.send(event, reply)
     else:
-        logger.warning(f"[group-roaster] empty reply for group={group_key}")
+        logger.warning(f"[group-roaster] empty text roast for group={group_key}")
 
 
 @image_cache.handle()
@@ -114,6 +142,6 @@ async def _cache_image(bot: Bot, event: Event):
             return
 
         plain = event.get_plaintext().strip() if hasattr(event, "get_plaintext") else ""
-        await handle_group_roaster_if_needed(bot, event, group_key, plain)
+        await handle_group_roaster_if_needed(bot, event, group_key, plain, image_url)
     except Exception as e:
         logger.warning(f"[i2i/group] cache handler failed: {e}")
