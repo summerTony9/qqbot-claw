@@ -23,6 +23,7 @@ TMP_AUDIO_DIR = BASE_DIR / "tmp_audio"
 TMP_AUDIO_DIR.mkdir(exist_ok=True)
 
 IMAGE_SEGMENT_CACHE: dict[str, str] = {}
+MESSAGE_CONTENT_CACHE: dict[str, str] = {}
 PENDING_I2I: dict[str, dict[str, str]] = {}
 GROUP_CONTEXTS: dict[str, deque] = {}
 GROUP_MESSAGE_LOGS: dict[str, deque] = {}
@@ -402,10 +403,61 @@ def json_from_httpx_response(resp: httpx.Response) -> dict:
 
 
 def sanitize_generated_text(text: str) -> str:
-    text = (text or "").replace("\n", " ").strip()
+    text = (text or "").strip()
+    if not text:
+        return ""
+
+    text = re.sub(r"<think>.*?</think>", " ", text, flags=re.IGNORECASE | re.DOTALL)
+    text = re.sub(r"<thinking>.*?</thinking>", " ", text, flags=re.IGNORECASE | re.DOTALL)
+    text = re.sub(r"```(?:thinking|reasoning)?[\s\S]*?```", " ", text, flags=re.IGNORECASE)
+    text = re.sub(r"(^|\n)\s*(?:思考过程|推理过程|分析过程|内部思考|reasoning|thinking)\s*[:：].*", " ", text, flags=re.IGNORECASE)
     text = re.sub(r"\[[^\[\]\s]{1,12}\]", "", text)
+    text = text.replace("\r", " ").replace("\n", " ")
     text = re.sub(r"\s{2,}", " ", text).strip()
     return text[:300]
+
+
+def looks_like_internal_reasoning(text: str) -> bool:
+    normalized = (text or "").strip().lower()
+    if not normalized:
+        return False
+
+    bad_patterns = [
+        r"<think>",
+        r"</think>",
+        r"<thinking>",
+        r"用户让我",
+        r"我需要",
+        r"看看上下文",
+        r"目标消息",
+        r"先分析",
+        r"我的回复",
+        r"思考过程",
+        r"推理过程",
+        r"chain\s*of\s*thought",
+        r"reasoning",
+        r"internal",
+    ]
+    return any(re.search(pattern, normalized, flags=re.IGNORECASE) for pattern in bad_patterns)
+
+
+def pick_visible_reply_text(reply: str, reasoning: str = "") -> str:
+    cleaned_reply = sanitize_generated_text(reply)
+    if cleaned_reply and not looks_like_internal_reasoning(cleaned_reply):
+        return cleaned_reply
+
+    raw_reply = (reply or "").strip()
+    if raw_reply:
+        think_stripped = re.sub(r"<think>.*?</think>", " ", raw_reply, flags=re.IGNORECASE | re.DOTALL)
+        think_stripped = re.sub(r"<thinking>.*?</thinking>", " ", think_stripped, flags=re.IGNORECASE | re.DOTALL)
+        think_stripped = sanitize_generated_text(think_stripped)
+        if think_stripped and not looks_like_internal_reasoning(think_stripped):
+            return think_stripped
+
+    cleaned_reasoning = sanitize_generated_text(reasoning)
+    if cleaned_reasoning and not looks_like_internal_reasoning(cleaned_reasoning):
+        return cleaned_reasoning
+    return ""
 
 
 async def call_minimax_chat_with_reasoning(system_prompt: str, user_prompt: str) -> tuple[str, str]:
@@ -450,7 +502,10 @@ async def call_minimax_chat_with_reasoning(system_prompt: str, user_prompt: str)
             reasoning = (message.get("reasoning_content") or "").strip()
             if not reply:
                 reply = (((data or {}).get("reply") or {}).get("content") or "").strip()
-            return sanitize_generated_text(reply), reasoning[:4000]
+            visible_reply = pick_visible_reply_text(reply, reasoning)
+            if visible_reply != sanitize_generated_text(reply):
+                logger.warning("[minimax-chat] filtered possible internal reasoning from model output")
+            return visible_reply, reasoning[:4000]
     except Exception as e:
         logger.warning(f"[minimax-chat] generate failed: {e}")
         return "", ""
@@ -458,15 +513,16 @@ async def call_minimax_chat_with_reasoning(system_prompt: str, user_prompt: str)
 
 async def call_minimax_chat(system_prompt: str, user_prompt: str) -> str:
     reply, reasoning = await call_minimax_chat_with_reasoning(system_prompt, user_prompt)
-    if reply:
-        return sanitize_generated_text(reply)
+    visible_reply = pick_visible_reply_text(reply, reasoning)
+    if visible_reply:
+        return visible_reply
     if reasoning:
-        logger.warning("[minimax-chat] empty content, retrying from reasoning")
-        retry_reply, _ = await call_minimax_chat_with_reasoning(
-            "把给定分析压缩成1到3句最终回复。只输出最终回复，不要解释，不要思考过程，要像正常人在群里说话。不要输出[小嘴][doge][笑哭]这类平台表情名。",
+        logger.warning("[minimax-chat] empty/unsafe content, retrying from reasoning")
+        retry_reply, retry_reasoning = await call_minimax_chat_with_reasoning(
+            "把给定分析压缩成1到3句最终回复。只输出最终回复，不要解释，不要思考过程，不要复述用户要求，不要输出<think>标签或任何分析过程，要像正常人在群里说话。不要输出[小嘴][doge][笑哭]这类平台表情名。",
             reasoning[-2200:],
         )
-        return sanitize_generated_text(retry_reply) if retry_reply else ""
+        return pick_visible_reply_text(retry_reply, retry_reasoning)
     return ""
 
 
@@ -608,25 +664,49 @@ def build_group_image_understand_prompt() -> str:
     )
 
 
+def build_group_image_direct_roast_prompt(sender_ref: str) -> str:
+    return (
+        f"你是QQ群里的暴躁贴吧老哥，现在要对{sender_ref}发的这张图直接来一句锐评。"
+        "要求：1）只能根据图片里真实可见内容输出，不准编造新事实；"
+        "2）语气要冲、损、阴阳怪气，像群里最会接茬的暴躁老哥；"
+        "3）必须点到图里最具体、最显眼、最欠吐槽的内容点；"
+        "4）回复控制在12到36字，最好一两句；"
+        "5）如果看不清、拿不准、或内容太少不足以可靠吐槽，就只输出 EMPTY_RESPONSE；"
+        "6）不要解释自己，不要加引号，不要分点，不要输出[小嘴][doge][笑哭]这类平台表情名。"
+    )
+
+
 def build_group_image_roast_prompt(sender_ref: str, image_facts: str) -> tuple[str, str]:
     system_prompt = (
-        "你是QQ群里的暴躁贴吧老哥。你的任务是根据已经提炼好的图片内容，对发图的群友来一句具体锐评。"
+        "你是QQ群里的暴躁贴吧老哥，嘴臭、阴阳怪气、爱损人，像群里最会接茬的那种老哥。"
+        "你的任务是根据已经提炼好的图片内容，对发图的群友来一句具体锐评。"
         "要求：1）只能基于给定的图片内容点输出，不要添加新事实；"
-        "2）必须点到具体内容，不能空泛；"
-        "3）语气暴躁、阴阳怪气、损一点，但不要出现仇恨、歧视、暴力威胁、真实人身伤害鼓动；"
-        "4）回复必须短，10-40字，像真实群友插话；"
-        "5）不要解释自己，不要加引号，不要分点，不要输出[小嘴][doge][笑哭]这类平台表情名；"
-        "6）如果内容点不足以支撑可靠吐槽，就只输出 EMPTY_RESPONSE。"
+        "2）必须点到具体内容，不能空泛，最好抓最显眼、最欠吐槽的那个点狠狠干；"
+        "3）语气要更冲一点、更损一点、更像贴吧老哥当场开麦，但不要出现仇恨、歧视、暴力威胁、真实人身伤害鼓动；"
+        "4）允许阴阳怪气、嫌弃、挖苦、损人，但要像真人群聊插话，不要像写段子；"
+        "5）回复必须短，12-36字，最好一两句，节奏脆，别拖泥带水；"
+        "6）不要解释自己，不要加引号，不要分点，不要输出[小嘴][doge][笑哭]这类平台表情名；"
+        "7）如果内容点不足以支撑可靠吐槽，就只输出 EMPTY_RESPONSE。"
     )
     user_prompt = (
         f"发图的人：{sender_ref}\n"
         f"图片内容点：\n{image_facts}\n\n"
-        "现在直接输出一句群聊锐评。"
+        "现在直接输出一句更像暴躁老哥当场开喷的群聊锐评。"
     )
     return system_prompt, user_prompt
 
 
 async def generate_group_image_roast_reply(image_url: str, sender_ref: str, context_lines: list[str]) -> str:
+    # 优先：VLM 直接看图开喷，减少一层信息传递，让语气更顺
+    direct_reply = await call_minimax_understand_image(build_group_image_direct_roast_prompt(sender_ref), image_url)
+    direct_reply = (direct_reply or "").strip()
+    if direct_reply and direct_reply != "EMPTY_RESPONSE":
+        direct_reply = sanitize_generated_text(direct_reply)
+        bad_markers = ("EMPTY_RESPONSE", "看不清", "无法判断", "无法识别", "看不到", "图呢")
+        if direct_reply and not any(marker in direct_reply for marker in bad_markers):
+            return direct_reply
+
+    # 回退：先提炼事实，再走文风生成，稳一点
     image_facts = await call_minimax_understand_image(build_group_image_understand_prompt(), image_url)
     image_facts = (image_facts or "").strip()
     if not image_facts or image_facts == "EMPTY_RESPONSE":
@@ -838,6 +918,9 @@ def remember_group_message(event: Event, group_key: str):
         user_id=str(getattr(event, 'user_id', 'unknown')),
         text=brief,
     )
+    message_id = getattr(event, 'message_id', None)
+    if message_id is not None:
+        cache_message_content(message_id, build_recall_message_text(event))
     GROUP_CONTEXTS[group_key].append(brief)
     GROUP_MESSAGE_LOGS[group_key].append(record)
     append_group_message(group_key, record)
@@ -854,6 +937,29 @@ def cache_image_message(message_id: int, image_url: str):
     if len(IMAGE_SEGMENT_CACHE) > 500:
         for key in list(IMAGE_SEGMENT_CACHE.keys())[:100]:
             IMAGE_SEGMENT_CACHE.pop(key, None)
+
+
+def cache_message_content(message_id: int | str, content: str):
+    key = str(message_id)
+    MESSAGE_CONTENT_CACHE[key] = (content or "").strip()
+    if len(MESSAGE_CONTENT_CACHE) > 2000:
+        for stale in list(MESSAGE_CONTENT_CACHE.keys())[:300]:
+            MESSAGE_CONTENT_CACHE.pop(stale, None)
+
+
+def get_cached_message_content(message_id: int | str) -> str:
+    return (MESSAGE_CONTENT_CACHE.get(str(message_id)) or "").strip()
+
+
+def build_recall_message_text(event: Event) -> str:
+    plain = event.get_plaintext().strip() if hasattr(event, "get_plaintext") else ""
+    if plain:
+        return plain[:400]
+    image_url = pick_image_url_from_segments(event.get_message())
+    if image_url:
+        return "[图片]"
+    raw = str(event.get_message()).strip()
+    return raw[:400] if raw else "[消息内容为空]"
 
 
 def is_regular_group_text(plain: str) -> bool:
@@ -901,3 +1007,25 @@ async def generate_group_summary_reply(group_key: str, hours: float) -> str:
     system_prompt, user_prompt = build_group_summary_prompt(records, hours)
     reply = await call_minimax_chat(system_prompt, user_prompt)
     return reply or "这几个小时群聊有动静，但你这会儿让我总结，它偏偏给我装哑巴。"
+
+
+def build_recall_roast_prompt(sender_ref: str, recalled_text: str) -> tuple[str, str]:
+    system_prompt = (
+        "你是QQ群里的暴躁贴吧老哥。现在有人发完消息又撤回了，你要把这件事狠狠嘲讽一番。"
+        "要求：1）必须同时吐槽消息内容和‘发了又撤回’这个怂样；"
+        "2）语气暴躁、阴阳怪气、损一点，但不要出现仇恨、歧视、暴力威胁、真实人身伤害鼓动；"
+        "3）像真实群友插话，12到50字，最好一两句；"
+        "4）可以先复读关键内容再喷，但别写成长段报告；"
+        "5）不要输出[小嘴][doge][笑哭]这类平台表情名，不要解释自己。"
+    )
+    user_prompt = (
+        f"撤回的人：{sender_ref}\n"
+        f"被撤回的内容：{recalled_text}\n\n"
+        "现在直接输出一句群聊嘲讽。"
+    )
+    return system_prompt, user_prompt
+
+
+async def generate_recall_roast_reply(sender_ref: str, recalled_text: str) -> str:
+    system_prompt, user_prompt = build_recall_roast_prompt(sender_ref, recalled_text)
+    return await call_minimax_chat(system_prompt, user_prompt)
