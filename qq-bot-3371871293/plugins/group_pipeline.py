@@ -92,7 +92,10 @@ async def handle_group_roaster_if_needed(bot: Bot, event: Event, group_key: str,
         return
 
     # 普通文字消息：继续沿用现有随机触发逻辑
+    # 但被艾特的消息由 mention_reply 单独处理，这里跳过避免重复
     if not is_regular_group_text(plain):
+        return
+    if event.is_tome():
         return
     if GROUP_TRIGGER_COUNTER[group_key] < GROUP_NEXT_TRIGGER[group_key]:
         return
