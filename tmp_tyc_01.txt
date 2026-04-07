@@ -1,0 +1,6 @@
+- generic
+  - StaticText "Customer service number: "
+- generic
+  - StaticText "· Weekdays: 9:00 AM to 7:00 PM"
+- generic
+  - StaticText "· Holidays: 9:00 AM to 6:00 PM"

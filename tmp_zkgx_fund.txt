@@ -1,0 +1,322 @@
+- generic
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。" [ref=e1]
+  - generic
+    - generic
+  - generic
+    - generic
+      - generic
+        - link "到百度首页" [ref=e2]
+          - image "到百度首页"
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                  - generic
+                  - generic
+                    - generic
+                      - generic
+                      - generic
+                        - textbox [ref=e95]: 中科躬行 融资
+                          - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                          - generic
+                          - generic
+                        - button "百度一下" [ref=e96]
+                          - StaticText "百度一下"
+                    - generic
+                      - generic
+      - generic
+        - link "百度首页" [ref=e3]
+          - StaticText "百度首页"
+        - link "设置" [ref=e4]
+          - StaticText "设置"
+        - link "登录" [ref=e5]
+          - StaticText "登录"
+    - generic
+    - generic
+      - generic
+        - link [ref=e6]
+          - image
+        - StaticText "网页"
+        - link "图片" [ref=e7]
+          - StaticText "图片"
+        - link "资讯" [ref=e8]
+          - StaticText "资讯"
+        - link "视频" [ref=e9]
+          - StaticText "视频"
+        - link "笔记" [ref=e10]
+          - StaticText "笔记"
+        - link "地图" [ref=e11]
+          - StaticText "地图"
+        - link "贴吧" [ref=e12]
+          - StaticText "贴吧"
+        - link "文库" [ref=e13]
+          - StaticText "文库"
+        - link "更多" [ref=e14]
+          - StaticText "更多"
+        - generic
+          - StaticText "搜索工具"
+    - generic
+      - generic
+        - generic
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "相关搜索  中科为  中科融信科技有限公司  中科为融资租赁(深圳)有限公司  中科国金智能科技有限公司  中科创投资集团有限公司  中科融道智能科技有限公司    换一换 热搜榜 民生榜 财经榜  为山川大地增添锦绣 1"
+                - generic
+                  - generic
+                    - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                            - link " 中科为" [ref=e115]
+                          - generic
+                            - link " 中科融信科技有限公司" [ref=e116]
+                          - generic
+                            - link " 中科为融资租赁(深圳)有限公司" [ref=e117]
+                          - generic
+                            - link " 中科国金智能科技有限公司" [ref=e118]
+                          - generic
+                            - link " 中科创投资集团有限公司" [ref=e119]
+                          - generic
+                            - link " 中科融道智能科技有限公司" [ref=e120]
+                  - generic
+                    - generic
+                      - generic
+                        - link " " [ref=e97]
+                        - generic
+                          - link " 换一换" [ref=e98]
+                      - generic
+                        - generic
+                        - generic
+                        - generic
+                      - generic
+                        - generic
+                          - link "为山川大地增添锦绣" [ref=e99]
+                      - generic
+                        - generic
+                          - link "张雪机车一战封神" [ref=e100]
+                      - generic
+                        - generic
+                          - link "买安眠药收注销驾驶证短信 交警回应" [ref=e101]
+                      - generic
+                        - generic
+                          - link "从一线到中小城市 入境游持续升温" [ref=e102]
+                      - generic
+                        - generic
+                          - link "张雪称将吃掉国际大牌超50%份额" [ref=e103]
+                      - generic
+                        - generic
+                          - link "央视调查烧秸秆屡禁不止" [ref=e104]
+                      - generic
+                        - generic
+                          - link "伊朗议会批准对霍尔木兹海峡收通行费" [ref=e105]
+                      - generic
+                        - generic
+                          - link "午睡超过这个时间 真的会越睡越累" [ref=e106]
+                      - generic
+                        - generic
+                          - link "贵州茅台宣布涨价" [ref=e107]
+                      - generic
+                        - generic
+                          - link "牛奶价格卷起来了" [ref=e108]
+                      - generic
+                        - generic
+                          - link "“这一刻我等了20年！我们赢了”" [ref=e109]
+                      - generic
+                        - generic
+                          - link "高三男孩喀纳斯湖失踪系谣言" [ref=e110]
+                      - generic
+                        - generic
+                          - link "国际油价大涨" [ref=e111]
+                      - generic
+                        - generic
+                          - link "伊朗：打击美军指挥中心" [ref=e112]
+                      - generic
+                        - generic
+                          - link "花上万办卡 被按摩到癌细胞扩散" [ref=e113]
+                      - generic
+                        - generic
+                          - link "《跳楼机》原唱深夜发文称忍不下了" [ref=e114]
+                - generic
+        - generic
+          - generic
+            - generic
+              - generic
+                - heading "「中科躬行(北京)...招聘」2026年中科躬行(北京)...招聘信息-BOSS..." [level=3, ref=e44]
+                  - link "「中科躬行(北京)...招聘」2026年中科躬行(北京)...招聘信息-BOSS..." [ref=e69]
+                - generic
+                - generic
+                  - link "BOSS直聘" [ref=e70]
+          - generic
+            - heading "中科躬行(北京)科技有限公司，公司，百度百科" [level=3, ref=e26]
+              - link "中科躬行(北京)科技有限公司，公司，百度百科" [ref=e33]
+                - emphasis
+                - StaticText "（北京）科技有限公司 - 百度百科"
+            - generic
+              - generic "查看更多内容"
+                - link "查看更多内容" [ref=e45]
+              - generic
+                - generic "中科躬行（北京）科技有限公司，是一家成立于2020年1月2日的其他有限责任公司，位于北京市昌平区未来科学城滨河大道3号院2号楼1101，法定代表人为刘福刚。公司由青岛中科躬行教育服务中心（有限合伙）持股65%、刘福刚持股35%，主营业务为科技推广和应用服务业，具体包括技术服务、技术开发、软件开发、企业管理咨询等。2024年1月，公司住所及经营范围发生变更。公司对外投资了3家企业，拥有15条商标信息及2条软件著作权。公司为科技与教育相结合的综合性服务企业，涉及人工智能、虚拟现实、大数据等领域。"
+                - generic
+                  - link "公司简介" [ref=e71]
+                  - link "历史沿革" [ref=e72]
+                  - link "主营业务" [ref=e73]
+                  - link "公司治理" [ref=e74]
+                  - link "知识产权" [ref=e75]
+                  - link "点击可查看更多内容" [ref=e76]
+                - generic
+                  - link "百度百科" [ref=e77]
+                - generic
+          - generic
+            - heading "中科躬行(青岛)计算机教育培训学校有限公司，公司，百度百科" [level=3, ref=e27]
+              - link "中科躬行(青岛)计算机教育培训学校有限公司，公司，百度百科" [ref=e34]
+                - emphasis
+                - StaticText "（青岛）计算机教育培训学校有限公司 - 百度百科"
+            - generic
+              - generic "查看更多内容"
+                - link "查看更多内容" [ref=e46]
+              - generic
+                - generic "中科躬行（青岛）计算机教育培训学校有限公司成立于2020年5月13日，位于山东省青岛市胶州市大沽河省级生态旅游度假区创新创业服务基地，是一家以从事教育为主的其他有限责任公司。法定代表人刘福刚，注册资本100万人民币，实缴资本16万人民币，国标行业为职业技能培训，企业规模为小型。公司经营范围包括人工智能、计算机应用与开发培训。公司由中科躬行(北京)科技有限公司持股60%、青岛中科躬行教育服务中心(有限合伙)持股40%。主要人员包括刘福刚（董事长兼总经理）、吴文军、王刚、张秋萍、郭海鹏、马智。2021年4月16日，公司发生主要成员变更，崔春雨退出，吴文军新增加入。"
+                - generic
+                  - link "公司简介" [ref=e78]
+                  - link "历史沿革" [ref=e79]
+                  - link "组织架构" [ref=e80]
+                  - link "经营范围" [ref=e81]
+                  - link "经营状况" [ref=e82]
+                  - link "点击可查看更多内容" [ref=e83]
+                - generic
+                  - link "百度百科" [ref=e84]
+                - generic
+          - generic
+            - generic
+              - StaticText "大家还在搜"
+            - generic
+              - link "中科为" [ref=e35]
+                - StaticText "中科为"
+              - link "中科融信科技有限公司" [ref=e36]
+                - StaticText "中科融信科技有限公司"
+              - link "中科为融资租赁(深圳)有限公司" [ref=e37]
+                - StaticText "中科为融资租赁(深圳)有限公司"
+              - link "中科国金智能科技有限公司" [ref=e38]
+                - StaticText "中科国金智能科技有限公司"
+              - link "中科创投资集团有限公司" [ref=e39]
+                - StaticText "中科创投资集团有限公司"
+              - link "中科融道智能科技有限公司" [ref=e40]
+                - StaticText "中科融道智能科技有限公司"
+              - link "中科实投集团公司" [ref=e41]
+                - StaticText "中科实投集团公司"
+              - link "国科投资" [ref=e42]
+                - StaticText "国科投资"
+          - generic
+            - generic
+              - generic
+                - heading "中科躬行(北京)科技有限公司怎么样 - 职友集" [level=3, ref=e47]
+                  - link "中科躬行(北京)科技有限公司怎么样 - 职友集" [ref=e85]
+                - generic
+                - generic
+                  - link "头像 职友集" [ref=e86]
+          - generic
+            - generic
+              - generic
+                - heading "中科躬行(北京)科技有限公司-企业工商信用信息,电话,地址,法人-阿里巴巴..." [level=3, ref=e48]
+                  - link "中科躬行(北京)科技有限公司-企业工商信用信息,电话,地址,法人-阿里巴巴..." [ref=e87]
+                - generic
+                - generic
+                  - link "阿里巴巴1688" [ref=e88]
+          - generic
+            - generic
+              - generic
+                - heading "产业投资赋能高质量发展 粤开证券以“慢投资”之道陪伴企业成长" [level=3, ref=e49]
+                  - link "产业投资赋能高质量发展 粤开证券以“慢投资”之道陪伴企业成长" [ref=e89]
+                - generic
+                - generic
+                  - link "同花顺财经" [ref=e90]
+          - generic
+            - heading "标题:中科躬行（北京）科技有限公司-企业信息" [level=3, ref=e28]
+              - link "标题:中科躬行（北京）科技有限公司-企业信息" [ref=e43]
+                - emphasis
+                - StaticText "（北京）科技有限公司-企业信息"
+            - generic
+              - generic
+                - link [ref=e50]
+              - generic
+                - paragraph
+                - link "工商信息" [ref=e51]
+                - link "认领企业" [ref=e52]
+                - link "企业风险" [ref=e53]
+                - link "企业年报" [ref=e54]
+                - link "企业股东" [ref=e55]
+                - link "来源：以上信息来源爱企查，一个专业免费的企业信息查询平台" [ref=e56]
+          - generic
+            - generic
+              - generic
+                - heading "中科信息3月23日获融资买入1030.34万元,融资余额3.95亿元" [level=3, ref=e57]
+                  - link "中科信息3月23日获融资买入1030.34万元,融资余额3.95亿元" [ref=e91]
+                - generic
+                - generic
+                  - link "头像  新浪财经" [ref=e92]
+          - generic
+            - generic
+              - generic
+                - heading "B轮融10亿,又一家百亿独角兽诞生了丨投融周报" [level=3, ref=e58]
+                  - link "B轮融10亿,又一家百亿独角兽诞生了丨投融周报" [ref=e93]
+                - generic
+                - generic
+                  - link "头像  新浪财经" [ref=e94]
+        - generic
+          - generic
+            - StaticText "相关搜索"
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "中科为"
+                - link "中科为" [ref=e59]
+              - LayoutTableCell "中科融信科技有限公司"
+                - link "中科融信科技有限公司" [ref=e60]
+            - LayoutTableRow
+              - LayoutTableCell "中科为融资租赁(深圳)有限公司"
+                - link "中科为融资租赁(深圳)有限公司" [ref=e61]
+              - LayoutTableCell "中科国金智能科技有限公司"
+                - link "中科国金智能科技有限公司" [ref=e62]
+            - LayoutTableRow
+              - LayoutTableCell "中科创投资集团有限公司"
+                - link "中科创投资集团有限公司" [ref=e63]
+              - LayoutTableCell "中科融道智能科技有限公司"
+                - link "中科融道智能科技有限公司" [ref=e64]
+            - LayoutTableRow
+              - LayoutTableCell "中科实投集团公司"
+                - link "中科实投集团公司" [ref=e65]
+              - LayoutTableCell "国科投资"
+                - link "国科投资" [ref=e66]
+            - LayoutTableRow
+              - LayoutTableCell "中国科技产业投资管理有限公司"
+                - link "中国科技产业投资管理有限公司" [ref=e67]
+              - LayoutTableCell "中科经创资产管理有限公司"
+                - link "中科经创资产管理有限公司" [ref=e68]
+      - generic
+        - generic
+          - link "上一页" [ref=e15]
+          - strong
+          - link "2" [ref=e16]
+          - link "3" [ref=e17]
+          - link "4" [ref=e18]
+          - link "5" [ref=e19]
+          - link "6" [ref=e20]
+          - link "7" [ref=e21]
+          - link "8" [ref=e22]
+          - link "9" [ref=e23]
+          - link "10" [ref=e24]
+          - link "下一页" [ref=e25]
+      - generic
+      - generic
+        - generic
+          - generic
+            - link "帮助" [ref=e29]
+            - link "举报" [ref=e30]
+            - link "用户反馈" [ref=e31]
+            - link "企业推广" [ref=e32]

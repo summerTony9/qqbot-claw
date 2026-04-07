@@ -1,0 +1,408 @@
+- generic
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。" [ref=e1]
+  - generic
+    - generic
+  - generic
+    - generic
+      - generic
+        - link "到百度首页" [ref=e2]
+          - image "到百度首页"
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                  - generic
+                  - generic
+                    - generic
+                      - generic
+                      - generic
+                        - textbox [ref=e87]: 中科躬行 官网
+                          - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                          - generic
+                          - generic
+                        - button "百度一下" [ref=e88]
+                          - StaticText "百度一下"
+                    - generic
+                      - generic
+      - generic
+        - link "百度首页" [ref=e3]
+          - StaticText "百度首页"
+        - link "设置" [ref=e4]
+          - StaticText "设置"
+        - link "登录" [ref=e5]
+          - StaticText "登录"
+    - generic
+    - generic
+      - generic
+        - link [ref=e6]
+          - image
+        - StaticText "网页"
+        - link "图片" [ref=e7]
+          - StaticText "图片"
+        - link "资讯" [ref=e8]
+          - StaticText "资讯"
+        - link "视频" [ref=e9]
+          - StaticText "视频"
+        - link "笔记" [ref=e10]
+          - StaticText "笔记"
+        - link "地图" [ref=e11]
+          - StaticText "地图"
+        - link "贴吧" [ref=e12]
+          - StaticText "贴吧"
+        - link "文库" [ref=e13]
+          - StaticText "文库"
+        - link "更多" [ref=e14]
+          - StaticText "更多"
+        - generic
+          - StaticText "搜索工具"
+    - generic
+      - generic
+        - generic
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "相关搜索  中科躬行(北京)科技有限公司  中科信息  中科蓝汛  中科曙光  中科科技有限公司  中科曙光的巨大潜力    换一换 热搜榜 民生榜 财经榜  为山川大地增添锦绣 1"
+                - generic
+                  - generic
+                    - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                            - link " 中科躬行(北京)科技有限公司" [ref=e109]
+                          - generic
+                            - link " 中科信息" [ref=e110]
+                          - generic
+                            - link " 中科蓝汛" [ref=e111]
+                          - generic
+                            - link " 中科曙光" [ref=e112]
+                          - generic
+                            - link " 中科科技有限公司" [ref=e113]
+                          - generic
+                            - link " 中科曙光的巨大潜力" [ref=e114]
+                  - generic
+                    - generic
+                      - generic
+                        - link " " [ref=e89]
+                        - generic
+                          - link " 换一换" [ref=e92]
+                      - generic
+                        - generic
+                        - generic
+                        - generic
+                      - generic
+                        - generic
+                          - link "为山川大地增添锦绣" [ref=e93]
+                      - generic
+                        - generic
+                          - link "张雪机车一战封神" [ref=e94]
+                      - generic
+                        - generic
+                          - link "买安眠药收注销驾驶证短信 交警回应" [ref=e95]
+                      - generic
+                        - generic
+                          - link "从一线到中小城市 入境游持续升温" [ref=e96]
+                      - generic
+                        - generic
+                          - link "张雪称将吃掉国际大牌超50%份额" [ref=e97]
+                      - generic
+                        - generic
+                          - link "央视调查烧秸秆屡禁不止" [ref=e98]
+                      - generic
+                        - generic
+                          - link "伊朗议会批准对霍尔木兹海峡收通行费" [ref=e99]
+                      - generic
+                        - generic
+                          - link "午睡超过这个时间 真的会越睡越累" [ref=e100]
+                      - generic
+                        - generic
+                          - link "花上万办卡 被按摩到癌细胞扩散" [ref=e101]
+                      - generic
+                        - generic
+                          - link "贵州茅台宣布涨价" [ref=e102]
+                      - generic
+                        - generic
+                          - link "牛奶价格卷起来了" [ref=e103]
+                      - generic
+                        - generic
+                          - link "高三男孩喀纳斯湖失踪系谣言" [ref=e104]
+                      - generic
+                        - generic
+                          - link "国际油价大涨" [ref=e105]
+                      - generic
+                        - generic
+                          - link "伊朗：打击美军指挥中心" [ref=e106]
+                      - generic
+                        - generic
+                          - link "《跳楼机》原唱深夜发文称忍不下了" [ref=e107]
+                      - generic
+                        - generic
+                          - link "“这一刻我等了20年！我们赢了”" [ref=e108]
+                - generic
+        - generic
+          - generic
+            - generic
+              - heading "标题:中科躬行（北京）科技有限公司 - 企业信息" [level=3, ref=e28]
+                - link "标题:中科躬行（北京）科技有限公司 - 企业信息" [ref=e41]
+                  - emphasis
+                    - StaticText "中科躬行"
+                  - StaticText "（北京）科技有限公司 - 企业信息"
+              - generic
+                - generic
+                  - link [ref=e61]
+                    - generic
+                      - generic
+                - generic
+                  - paragraph
+                    - StaticText "法定代表人：刘福刚"
+                  - paragraph
+                    - StaticText "注册资本：100万元"
+                  - paragraph
+                    - StaticText "成立时间：2020-01-02"
+                  - StaticText "小微企业"
+                  - StaticText "开业"
+                  - StaticText "企业待认领"
+                - generic
+                  - link "咨询" [ref=e62]
+                    - button "咨询" [ref=e77]
+                      - StaticText "咨询"
+              - paragraph
+                - emphasis
+                  - StaticText "中科躬行"
+                - StaticText "（北京）科技有限公司地址位于北京市昌平区未来科学城滨河大道3号院2号楼1101，经营范围一般项目：技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广；软件开发；计算机系统服务；企业管理咨询；社会经济咨询服务；组织文化艺术交流活动；市场调查（不含涉外调查）；企业形象策划；广告设计、代理；体育竞赛组织；会议及展览服务。（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）（不得从事国家和本市产业政策禁止和限制类项目的经营活动。）"
+              - generic
+                - LayoutTable
+                  - LayoutTableRow
+                    - LayoutTableCell "工商信息"
+                      - link "工商信息" [ref=e80]
+                    - LayoutTableCell "认领企业"
+                      - link "认领企业" [ref=e81]
+                    - LayoutTableCell "企业风险"
+                      - link "企业风险" [ref=e82]
+                    - LayoutTableCell "企业年报"
+                      - link "企业年报" [ref=e83]
+                    - LayoutTableCell "企业股东"
+                      - link "企业股东" [ref=e84]
+              - link "2位相关人员" [ref=e29]
+                - StaticText "2位相关人员"
+              - list
+                - generic
+                  - generic
+                    - generic
+                      - listitem [level=1]
+                        - link "刘福刚 执行董事，经理" [ref=e90]
+                      - listitem [level=1]
+                        - link "郭海鹏 监事" [ref=e91]
+              - paragraph
+                - link "【企业动态】：2026-03-16 新增 法院公告" [ref=e42]
+                  - StaticText "【企业动态】：2026-03-16 新增 法院公告"
+              - link "来源：以上信息来源爱企查，一个专业免费的企业信息查询平台" [ref=e30]
+                - generic
+                  - generic
+                    - generic
+          - generic
+            - generic
+              - generic
+                - heading "中科躬行(北京)科技有限公司 - 核心成员 - 爱企查" [level=3, ref=e43]
+                  - link "中科躬行(北京)科技有限公司 - 核心成员 - 爱企查" [ref=e63]
+                    - paragraph
+                - generic
+                  - StaticText "2025年8月13日"
+                  - emphasis
+                    - StaticText "中科躬行"
+                  - StaticText "(北京)科技有限公司成立于2020年01月02日,注册地位于北京市昌平区未来科学城滨河大道3号院2号楼1101,法定代表人为刘福刚。经营范围包括一般项目:技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广;软件开发;计算机系统服务;企业管理咨询;社会经济咨询服务;组织文化艺术交流活动;市场调查(不含"
+                - generic
+                  - link "头像 爱企查" [ref=e64]
+                    - generic
+                    - StaticText "爱企查"
+          - generic
+            - generic
+              - generic
+                - heading "中科躬行(北京)科技有限公司 - 企查查" [level=3, ref=e44]
+                  - link "中科躬行(北京)科技有限公司 - 企查查" [ref=e65]
+                    - paragraph
+                - generic
+                  - StaticText "2026年3月17日"
+                  - emphasis
+                    - StaticText "中科躬行"
+                  - StaticText "(北京)科技有限公司是⼀家成⽴于2020年01月02日的其他有限责任公司,也是中科躬行科技旗下企业,属于以从事科学研究和技术服务业为主的企业。位于北京市昌平区,法定代表人为刘福刚,目前处于存续状态,公司电话:18601207181,网址:www.xinkao.net.cn,邮箱:love214828@126.com,地址:北京市昌平区未来科学城滨河..."
+                - generic
+                  - link "头像 企查查" [ref=e66]
+                    - generic
+                    - StaticText "企查查"
+                - generic
+                  - generic
+          - generic
+            - generic
+              - StaticText "大家还在搜"
+            - generic
+              - link "中科躬行(北京)科技有限公司" [ref=e31]
+                - StaticText "中科躬行(北京)科技有限公司"
+              - link "中科信息" [ref=e32]
+                - StaticText "中科信息"
+              - link "中科蓝汛" [ref=e33]
+                - StaticText "中科蓝汛"
+              - link "中科曙光" [ref=e34]
+                - StaticText "中科曙光"
+              - link "中科科技有限公司" [ref=e35]
+                - StaticText "中科科技有限公司"
+              - link "中科曙光的巨大潜力" [ref=e36]
+                - StaticText "中科曙光的巨大潜力"
+              - link "中科海" [ref=e37]
+                - StaticText "中科海"
+              - link "中科清研科学技术研究院" [ref=e38]
+                - StaticText "中科清研科学技术研究院"
+              - link "中科方德" [ref=e39]
+                - StaticText "中科方德"
+              - link "中国中科" [ref=e40]
+                - StaticText "中国中科"
+          - generic
+            - generic
+              - generic
+                - heading "中科躬行(北京)科技有限公司_被执行人_被执行人查询 - 天眼查" [level=3, ref=e45]
+                  - link "中科躬行(北京)科技有限公司_被执行人_被执行人查询 - 天眼查" [ref=e67]
+                    - paragraph
+                - generic
+                  - StaticText "2026年1月18日"
+                  - StaticText "简介:"
+                  - emphasis
+                    - StaticText "中科躬行"
+                  - StaticText " (北京) 科技有限公司,成立于2020年,位于北京市,是一家以从事科技推广和应用服务业为主的企业。企业注册资本100万人民币,实缴资本47万人民币。通过天眼查大数据分析,中科躬行 (北京) 科技有限公司共对外投资了3家企业;知识产权方面有商标信息15条,著作权信息2条;此外企业还拥有行政许可2个。更多 评..."
+                - generic
+                  - link "头像 天眼查" [ref=e68]
+                    - generic
+                    - StaticText "天眼查"
+          - generic
+            - generic
+              - generic
+                - heading "网站首页-中科携行" [level=3, ref=e46]
+                  - link "网站首页-中科携行" [ref=e69]
+                    - paragraph
+                - generic
+                  - emphasis
+                    - StaticText "中科"
+                  - StaticText "携行(北京)科技有限公司成立于2019年12月31日,是科研院所孵化的国家高新技术企业,主要负责将研究所的先进技术实现产业化应用,公司核心团队均来自于科研院所,有强大的学科背景和技术优势,借助院所优质的实验室平台资源,将高端技术打造成产品推广市场。"
+                - generic
+                  - link "中科携行" [ref=e70]
+                    - StaticText "中科携行"
+          - generic
+            - generic
+              - generic
+                - heading "中科躬行(北京)科技有限公司怎么样 - 职友集" [level=3, ref=e47]
+                  - link "中科躬行(北京)科技有限公司怎么样 - 职友集" [ref=e71]
+                    - paragraph
+                - generic
+                  - StaticText "2020年11月28日"
+                  - StaticText "全称:"
+                  - emphasis
+                    - StaticText "中科躬行"
+                  - StaticText "(北京)科技有限公司。 发展阶段 荣誉:中关村高新技术企业科技型中小企业根据算法标注 招聘:2025年较2024年下降91%。 公司介绍 信息为全网搜索整合加工而来,可能并不精确,仅供参考。 信息有误?认领后修改 招聘需求增长速度怎么样 管理 ? 增长速度 ..."
+                - generic
+                  - link "头像 职友集" [ref=e72]
+                    - generic
+                    - StaticText "职友集"
+          - generic
+            - generic
+              - generic
+                - heading "中科躬行(青岛)计算机教育培训学校有限公司 - 企查查" [level=3, ref=e48]
+                  - link "中科躬行(青岛)计算机教育培训学校有限公司 - 企查查" [ref=e73]
+                    - paragraph
+                - generic
+                  - StaticText "2026年1月20日"
+                  - emphasis
+                    - StaticText "中科躬行"
+                  - StaticText "(青岛)计算机教育培训学校有限公司是⼀家成⽴于2020年05月13日的其他有限责任公司,也是中科躬行科技旗下企业,属于以从事教育为主的企业。位于青岛市胶州市,法定代表人为刘福刚,目前处于在营状态。公司人员规模:少于50人,注册资本:100万元,实缴资本:16万元。"
+                - generic
+                  - link "头像 企查查" [ref=e74]
+                    - generic
+                    - StaticText "企查查"
+                - generic
+                  - generic
+          - generic
+            - generic
+              - generic
+                - heading "中科躬行(青岛)计算机教育培训学校有限公司 - 爱企查" [level=3, ref=e49]
+                  - link "中科躬行(青岛)计算机教育培训学校有限公司 - 爱企查" [ref=e75]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e78]
+                  - generic
+                    - StaticText "2025年1月12日"
+                    - emphasis
+                    - StaticText ":- 地址:山东省青岛市胶州市大沽河省级生态旅游度假区创新创业服务基地 简介: 1、基本情况"
+                    - emphasis
+                    - StaticText "(青岛)计算机教育培训学校有限公司成立于2020年05月13日,位于山东省青岛市胶州市大沽河省级生态旅游度假区创新创业服务基地,目前处于开业状态,经营范围包括人工智能、计算机应用与开发培训。(依法须经批准的项目,经..."
+                  - generic
+                    - generic
+                      - link "头像 爱企查" [ref=e85]
+          - generic
+            - generic
+              - generic
+                - heading "信考网" [level=3, ref=e50]
+                  - link "信考网" [ref=e76]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e79]
+                  - generic
+                    - StaticText "中国电子工业标准化协会教培委 中国电子工业标准化技术协会(简称:中电标协),英文名称:chinese electronics standardization association,简称:cesa.成立于1993年3月,是经国家民政部批准的国家一级协会.电子信息领域唯一的专业标准化社团组织. 交付标准 "
+                    - emphasis
+                    - StaticText "院系 本系由中科院相关院所上市龙头企业组成的产业集群,包含中科..."
+                  - generic
+                    - generic
+                      - link "www.xinkao.net.cn/" [ref=e86]
+        - generic
+          - generic
+            - StaticText "相关搜索"
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "中科躬行(北京)科技有限公司"
+                - link "中科躬行(北京)科技有限公司" [ref=e51]
+              - LayoutTableCell "中科信息"
+                - link "中科信息" [ref=e52]
+            - LayoutTableRow
+              - LayoutTableCell "中科蓝汛"
+                - link "中科蓝汛" [ref=e53]
+              - LayoutTableCell "中科曙光"
+                - link "中科曙光" [ref=e54]
+            - LayoutTableRow
+              - LayoutTableCell "中科科技有限公司"
+                - link "中科科技有限公司" [ref=e55]
+              - LayoutTableCell "中科曙光的巨大潜力"
+                - link "中科曙光的巨大潜力" [ref=e56]
+            - LayoutTableRow
+              - LayoutTableCell "中科海"
+                - link "中科海" [ref=e57]
+              - LayoutTableCell "中科清研科学技术研究院"
+                - link "中科清研科学技术研究院" [ref=e58]
+            - LayoutTableRow
+              - LayoutTableCell "中科方德"
+                - link "中科方德" [ref=e59]
+              - LayoutTableCell "中国中科"
+                - link "中国中科" [ref=e60]
+      - generic
+        - generic
+          - link "上一页" [ref=e15]
+          - strong
+          - link "2" [ref=e16]
+          - link "3" [ref=e17]
+          - link "4" [ref=e18]
+          - link "5" [ref=e19]
+          - link "6" [ref=e20]
+          - link "7" [ref=e21]
+          - link "8" [ref=e22]
+          - link "下一页" [ref=e23]
+      - generic
+      - generic
+        - generic
+          - generic
+            - link "帮助" [ref=e24]
+            - link "举报" [ref=e25]
+            - link "用户反馈" [ref=e26]
+            - link "企业推广" [ref=e27]

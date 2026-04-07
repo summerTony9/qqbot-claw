@@ -1,0 +1,34 @@
+03-27 15:47:36 [SUCCESS] nonebot | NoneBot is initializing...
+03-27 15:47:36 [INFO] nonebot | Current Env: prod
+03-27 15:47:36 [SUCCESS] nonebot | Succeeded to load plugin "nonebot_plugin_apsc
+heduler"
+03-27 15:47:36 [SUCCESS] nonebot | Succeeded to load plugin "basic" from "plugin
+s.basic"
+03-27 15:47:36 [SUCCESS] nonebot | Running NoneBot...
+03-27 15:47:36 [SUCCESS] nonebot | Loaded adapters: OneBot V11
+03-27 15:47:36 [INFO] uvicorn | Started server process [486502]
+03-27 15:47:36 [INFO] uvicorn | Waiting for application startup.
+03-27 15:47:36 [INFO] nonebot_plugin_apscheduler | Scheduler Started
+03-27 15:47:36 [INFO] uvicorn | Application startup complete.
+03-27 15:47:36 [INFO] uvicorn | Uvicorn running on http://127.0.0.1:8080 (Press
+CTRL+C to quit)
+03-27 15:47:36 [INFO] nonebot | OneBot V11 | Bot 3371871293 connected
+03-27 15:48:17 [SUCCESS] nonebot | OneBot V11 3371871293 | [message.group.normal
+]: Message 1009996856 from 769163832@[¤ÿ:946973502] '[json:data={\n  "config" :
+{\n    "height" : 0,\n    "forward" : 1,\n    "ctime" :...]'
+03-27 15:48:18 [INFO] nonebot | Event will be handled by Matcher(type='message',
+ module=plugins.basic, lineno=27)
+03-27 15:48:18 [WARNING] basic | [i2i/group] cache handler failed: name '_extrac
+t_bilibili_url_from_event' is not defined
+03-27 15:48:18 [INFO] nonebot | Matcher(type='message', module=plugins.basic, li
+neno=27) running complete
+03-27 15:48:33 [SUCCESS] nonebot | OneBot V11 3371871293 | [message.group.normal
+]: Message 1026626909 from 769163832@[¤ÿ:946973502] '[json:data={\n  "config" :
+{\n    "height" : 0,\n    "forward" : 1,\n    "ctime" :...]'
+03-27 15:48:33 [INFO] nonebot | Event will be handled by Matcher(type='message',
+ module=plugins.basic, lineno=27)
+03-27 15:48:33 [WARNING] basic | [i2i/group] cache handler failed: name '_extrac
+t_bilibili_url_from_event' is not defined
+03-27 15:48:33 [INFO] nonebot | Matcher(type='message', module=plugins.basic, li
+neno=27) running complete
+

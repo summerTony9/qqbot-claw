@@ -6,6 +6,7 @@ from .image_to_image import run_i2i_from_image_url
 from .shared import (
     GROUP_CONTEXTS,
     GROUP_NEXT_TRIGGER,
+    GROUP_ROAST_COOLDOWN,
     GROUP_TRIGGER_COUNTER,
     PENDING_I2I,
     SEEN_BILIBILI_URLS,
@@ -100,11 +101,18 @@ async def handle_group_roaster_if_needed(bot: Bot, event: Event, group_key: str,
     if GROUP_TRIGGER_COUNTER[group_key] < GROUP_NEXT_TRIGGER[group_key]:
         return
 
+    # 冷却中跳过（AI 还没回来时，后续消息的计数会被暂存，不会白白浪费）
+    if GROUP_ROAST_COOLDOWN.get(group_key):
+        logger.info(f"[group-roaster] cooling down, skipping trigger for group={group_key}")
+        return
+
     logger.info(f"[group-roaster] text-roast triggered for group={group_key}")
+    GROUP_ROAST_COOLDOWN[group_key] = True
     reply = await generate_group_roast_reply(format_message_brief(event), context_lines)
     GROUP_TRIGGER_COUNTER[group_key] = 0
     GROUP_NEXT_TRIGGER[group_key] = config.min_trigger + __import__('random').randint(0, config.max_trigger - config.min_trigger)
     save_group_state(group_key)
+    GROUP_ROAST_COOLDOWN[group_key] = False
     logger.info(f"[group-roaster] next trigger reset to {GROUP_NEXT_TRIGGER[group_key]}")
     if reply:
         logger.info(f"[group-roaster] sending text roast: {reply[:120]}")

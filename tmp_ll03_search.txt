@@ -1,0 +1,397 @@
+- generic
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。" [ref=e1]
+  - generic
+    - generic
+  - generic
+    - generic
+      - generic
+        - link "到百度首页" [ref=e2]
+          - image "到百度首页"
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                  - generic
+                  - generic
+                    - generic
+                      - generic
+                      - generic
+                        - textbox [ref=e95]: 北京雷力海洋生物新产业股份有限公司 法定人 违级
+                          - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                          - generic
+                          - generic
+                        - button "百度一下" [ref=e96]
+                          - StaticText "百度一下"
+                    - generic
+                      - generic
+      - generic
+        - link "百度首页" [ref=e3]
+          - StaticText "百度首页"
+        - link "设置" [ref=e4]
+          - StaticText "设置"
+        - link "登录" [ref=e5]
+          - StaticText "登录"
+    - generic
+    - generic
+      - generic
+        - link [ref=e6]
+          - image
+        - StaticText "网页"
+        - link "图片" [ref=e7]
+          - StaticText "图片"
+        - link "资讯" [ref=e8]
+          - StaticText "资讯"
+        - link "视频" [ref=e9]
+          - StaticText "视频"
+        - link "笔记" [ref=e10]
+          - StaticText "笔记"
+        - link "地图" [ref=e11]
+          - StaticText "地图"
+        - link "贴吧" [ref=e12]
+          - StaticText "贴吧"
+        - link "文库" [ref=e13]
+          - StaticText "文库"
+        - link "更多" [ref=e14]
+          - StaticText "更多"
+        - generic
+          - StaticText "搜索工具"
+    - generic
+      - generic
+        - generic
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "相关搜索  雷力海洋生物新产业股份有限公司  海南海控环保生物有限公司  海洋生物  雷防科务002413  北京雷力集团怎么样  北京雷力海洋生物待遇怎么样    换一换 热搜榜 民生榜 财经榜  为山川大地增添锦绣 1"
+                - generic
+                  - generic
+                    - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                            - link " 雷力海洋生物新产业股份有限公司" [ref=e115]
+                          - generic
+                            - link " 海南海控环保生物有限公司" [ref=e116]
+                          - generic
+                            - link " 海洋生物" [ref=e117]
+                          - generic
+                            - link " 雷防科务002413" [ref=e118]
+                          - generic
+                            - link " 北京雷力集团怎么样" [ref=e119]
+                          - generic
+                            - link " 北京雷力海洋生物待遇怎么样" [ref=e120]
+                  - generic
+                    - generic
+                      - generic
+                        - link " " [ref=e97]
+                        - generic
+                          - link " 换一换" [ref=e98]
+                      - generic
+                        - generic
+                        - generic
+                        - generic
+                      - generic
+                        - generic
+                          - link "为山川大地增添锦绣" [ref=e99]
+                      - generic
+                        - generic
+                          - link "“看我怎样用中国制造干掉日本制造”" [ref=e100]
+                      - generic
+                        - generic
+                          - link "买安眠药收注销驾驶证短信 交警回应" [ref=e101]
+                      - generic
+                        - generic
+                          - link "从一线到中小城市 入境游持续升温" [ref=e102]
+                      - generic
+                        - generic
+                          - link "内存价格大跳水原因找到了" [ref=e103]
+                      - generic
+                        - generic
+                          - link "央视调查烧秸秆屡禁不止" [ref=e104]
+                      - generic
+                        - generic
+                          - link "伊朗议会批准对霍尔木兹海峡收通行费" [ref=e105]
+                      - generic
+                        - generic
+                          - link "重庆一隧道爆炸致4人死亡" [ref=e106]
+                      - generic
+                        - generic
+                          - link "午睡超过这个时间 真的会越睡越累" [ref=e107]
+                      - generic
+                        - generic
+                          - link "遗体打捞难度大 落水者家属无奈放弃" [ref=e108]
+                      - generic
+                        - generic
+                          - link "“这一刻我等了20年！我们赢了”" [ref=e109]
+                      - generic
+                        - generic
+                          - link "高三男孩喀纳斯湖失踪系谣言" [ref=e110]
+                      - generic
+                        - generic
+                          - link "国际油价大涨" [ref=e111]
+                      - generic
+                        - generic
+                          - link "韩国向中国14个城市发放十年签" [ref=e112]
+                      - generic
+                        - generic
+                          - link "张雪称将吃掉国际大牌超50%份额" [ref=e113]
+                      - generic
+                        - generic
+                          - link "多个家电品牌宣布4月起涨价" [ref=e114]
+                - generic
+        - generic
+          - generic
+            - generic
+              - StaticText ""
+            - StaticText "以下包含 "
+            - link "北京雷力海洋生物新产业股份有限公司 法定人 违纪" [ref=e26]
+              - StaticText "北京雷力海洋生物新产业股份有限公司 法定人 违纪"
+            - StaticText " 的搜索结果，仍然搜索："
+            - link "北京雷力海洋生物新产业股份有限公司 法定人 违级" [ref=e27]
+              - StaticText "北京雷力海洋生物新产业股份有限公司 法定人 违级"
+          - generic
+            - generic
+              - heading "北京雷力海洋生物新产业股份有限公司(从事海藻生物制品研发... - 百度百科" [level=3, ref=e34]
+                - link "北京雷力海洋生物新产业股份有限公司(从事海藻生物制品研发... - 百度百科" [ref=e43]
+                  - paragraph
+                    - emphasis
+                    - StaticText "(从事海藻生物制品研发... - 百度百科"
+              - generic
+                - generic
+                  - generic
+                    - link [ref=e86]
+                  - generic
+                    - paragraph
+                      - link "详情" [ref=e92]
+                      - link "" [ref=e93]
+                  - generic
+                    - link "发展历程" [ref=e87]
+                  - generic
+                    - link "主营业务" [ref=e88]
+                  - generic
+                    - link "主要产品" [ref=e89]
+                  - generic
+                    - link "技术研发" [ref=e90]
+              - generic
+                - link "百度百科" [ref=e44]
+                  - StaticText "百度百科"
+          - generic
+            - generic
+              - generic
+                - heading "北京雷力海洋生物新产业股份有限公司 - 企查查" [level=3, ref=e45]
+                  - link "北京雷力海洋生物新产业股份有限公司 - 企查查" [ref=e69]
+                    - paragraph
+                - generic
+                  - StaticText "6天前"
+                  - StaticText "统一社会信用代码91110108600008022D企业名称"
+                  - emphasis
+                    - StaticText "北京雷力海洋生物新产业股份有限公司"
+                  - StaticText " 曾用名 北京雷力农用化学有限公司(1993-02 至 2013-12) 法定代表人 汤洁关联企业10 登记状态存续(在营、开业、在册)成立日期1993-02-01 注册资本10000万元实缴资本10000万元"
+                - generic
+                  - link "头像 企查查" [ref=e70]
+                    - generic
+                    - StaticText "企查查"
+                - generic
+                  - generic
+          - generic
+            - generic
+              - generic
+                - heading "北京雷力海洋生物新产业股份有限公司(2019)京0108民初2764号裁判..." [level=3, ref=e46]
+                  - link "北京雷力海洋生物新产业股份有限公司(2019)京0108民初2764号裁判..." [ref=e71]
+                    - paragraph
+                - generic
+                  - StaticText "2021年4月15日"
+                  - StaticText "原告山东省供销社农产品有限公司(以下简称山东供销社)与被告"
+                  - emphasis
+                    - StaticText "北京雷力海洋生物新产业股份有限公司"
+                  - StaticText "(以下简称雷力公司)买卖合同纠纷一案,经北京市第一中级人民法院于2018年12月17日作出(2018)京01民终9211号民事裁定书发回本院重审,本院另行组成合议庭,公开开庭进行了审理。原告山东供销社的委托诉讼代理人邹卫红、王仁..."
+                - generic
+                  - link "建设通" [ref=e72]
+                    - StaticText "建设通"
+          - generic
+            - heading "北京雷力联合海洋生物科技有限公司，公司，百度百科" [level=3, ref=e28]
+              - link "北京雷力联合海洋生物科技有限公司，公司，百度百科" [ref=e35]
+                - emphasis
+                  - StaticText "北京雷力"
+                - StaticText "联合"
+                - emphasis
+                  - StaticText "海洋生物"
+                - StaticText "科技"
+                - emphasis
+                  - StaticText "有限公司"
+                - StaticText " - 百度百科"
+            - generic
+              - generic "查看更多内容"
+                - link "查看更多内容" [ref=e47]
+                  - generic
+                    - generic
+              - generic
+                - generic "北京雷力联合海洋生物科技有限公司是雷力生物旗下的一家有限责任公司，成立于2004年6月29日，法定代表人为汤洁，注册资本316万元人民币。公司位于北京市怀柔区雁栖经济开发区，是一家以从事农副食品加工业为主的企业。该公司是雷力集团的全资子公司，专业从事海藻类有机添加剂的研发、生产与销售，拥有万吨级海洋生物制品生产基地和研发中心。公司拥有商标信息25条、专利信息4条，其“海洋生物活性物质岩藻多糖提取新工艺”技术曾通过相关鉴定。2020年，公司法定代表人由郭占武变更为汤洁。2011年，公司作为发起单位之一参与了我国首个海洋生物制品产业技术创新战略联盟的成立。"
+                  - emphasis
+                    - StaticText "北京雷力"
+                  - StaticText "联合"
+                  - emphasis
+                    - StaticText "海洋生物"
+                  - StaticText "科技"
+                  - emphasis
+                    - StaticText "有限公司"
+                  - StaticText "是雷力生物旗下的一家"
+                  - emphasis
+                    - StaticText "有限责任公司"
+                  - StaticText "，成立于2004年6月29日，"
+                  - emphasis
+                    - StaticText "法定"
+                  - StaticText "代表人为汤洁，注册资本316万元人民币。公司位于北京市怀柔区雁栖经济开发区，是一家以从事农副食品加工业为主的企业。该公司是雷力集团的全资子公司，专业从事..."
+                - generic
+                  - link "公司概况" [ref=e73]
+                    - emphasis
+                    - StaticText "概况 "
+                  - link "发展历程" [ref=e74]
+                    - StaticText "发展历程 "
+                  - link "主要业务与产品" [ref=e75]
+                    - StaticText "主要业务与产品 "
+                  - link "公司治理" [ref=e76]
+                    - emphasis
+                    - StaticText "治理 "
+                  - link "点击可查看更多内容" [ref=e77]
+                    - StaticText "更多 >"
+                - generic
+                  - link "百度百科" [ref=e78]
+                    - generic
+                - generic
+          - generic
+            - generic
+              - generic
+                - heading "北京雷力海洋生物新产业股份有限公司(2021)京01民终6234号裁判..." [level=3, ref=e48]
+                  - link "北京雷力海洋生物新产业股份有限公司(2021)京01民终6234号裁判..." [ref=e79]
+                    - paragraph
+                - generic
+                  - StaticText "2021年11月11日"
+                  - StaticText "北京市第一中级人民法院 民事判决书 (2021)京01民终6234号 上诉人(原审被告):"
+                  - emphasis
+                    - StaticText "北京雷力海洋生物新产业股份有限公司"
+                  - StaticText ",住所地北京市海淀区四季青镇北辛庄路北软双新科创园D座301室。 法定代表人:郭占武,董事长。 委托诉讼代理人:郭良忠,北京市华贸硅谷律师事务所律师。"
+                - generic
+                  - link "建设通" [ref=e80]
+                    - StaticText "建设通"
+          - generic
+            - generic
+              - StaticText "大家还在搜"
+            - generic
+              - link "雷力海洋生物新产业股份有限公司" [ref=e36]
+                - StaticText "雷力海洋生物新产业股份有限公司"
+              - link "海南海控环保生物有限公司" [ref=e37]
+                - StaticText "海南海控环保生物有限公司"
+              - link "海洋生物" [ref=e38]
+                - StaticText "海洋生物"
+              - link "雷防科务002413" [ref=e39]
+                - StaticText "雷防科务002413"
+              - link "北京雷力集团怎么样" [ref=e40]
+                - StaticText "北京雷力集团怎么样"
+              - link "北京雷力海洋生物待遇怎么样" [ref=e41]
+                - StaticText "北京雷力海洋生物待遇怎么样"
+          - generic
+            - generic
+              - generic
+                - heading "北京雷力海洋生物新产业股份有限公司招聘 - 智联招聘" [level=3, ref=e49]
+                  - link "北京雷力海洋生物新产业股份有限公司招聘 - 智联招聘" [ref=e81]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e91]
+                  - generic
+                    - StaticText "2026年3月16日"
+                    - StaticText "1.1综合实力 "
+                    - emphasis
+                    - StaticText "成立于1993年,是集新型海洋生物制品的研发、生产和国际、国内推广于一体的国家级高新技术企业集团,掌握先进的双酶酶解技术等30余项核心技术,拥有百余种海洋生物绿色、有机农业投入品,近20款产品获得欧盟、北美和中国有机认证,是平衡农业技术的倡导者。业务领域涉及生物农..."
+                  - generic
+                    - generic
+                      - link "头像 智联招聘" [ref=e94]
+          - generic
+            - heading "标题:北京雷力海洋生物新产业股份有限公司 - 企业信息" [level=3, ref=e29]
+              - link "标题:北京雷力海洋生物新产业股份有限公司 - 企业信息" [ref=e42]
+                - emphasis
+                - StaticText " - 企业信息"
+            - generic
+              - generic
+                - link [ref=e50]
+              - generic
+                - paragraph
+                - link "工商信息" [ref=e51]
+                - link "企业店铺" [ref=e52]
+                - link "认领企业" [ref=e53]
+                - link "经营状况" [ref=e54]
+                - link "企业年报" [ref=e55]
+                - link "来源：以上信息来源爱企查，一个专业免费的企业信息查询平台" [ref=e56]
+          - generic
+            - generic
+              - generic
+                - heading "...执法检查结果公示 北京雷力海洋生物新产业股份有限公司生产基地" [level=3, ref=e57]
+                  - link "...执法检查结果公示 北京雷力海洋生物新产业股份有限公司生产基地" [ref=e82]
+                - generic
+                - generic
+                  - link "头像 北京市应急管理局" [ref=e83]
+          - generic
+            - generic
+              - generic
+                - heading "北京雷力海洋生物新产业股份有限公司_对外投资_公司对外投资查询..." [level=3, ref=e58]
+                  - link "北京雷力海洋生物新产业股份有限公司_对外投资_公司对外投资查询..." [ref=e84]
+                - generic
+                - generic
+                  - link "头像 天眼查" [ref=e85]
+        - generic
+          - generic
+            - StaticText "相关搜索"
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "雷力海洋生物新产业股份有限公司"
+                - link "雷力海洋生物新产业股份有限公司" [ref=e59]
+              - LayoutTableCell "海南海控环保生物有限公司"
+                - link "海南海控环保生物有限公司" [ref=e60]
+            - LayoutTableRow
+              - LayoutTableCell "海洋生物"
+                - link "海洋生物" [ref=e61]
+              - LayoutTableCell "雷防科务002413"
+                - link "雷防科务002413" [ref=e62]
+            - LayoutTableRow
+              - LayoutTableCell "北京雷力集团怎么样"
+                - link "北京雷力集团怎么样" [ref=e63]
+              - LayoutTableCell "北京雷力海洋生物待遇怎么样"
+                - link "北京雷力海洋生物待遇怎么样" [ref=e64]
+            - LayoutTableRow
+              - LayoutTableCell "雷丰农业产业发展有限公司"
+                - link "雷丰农业产业发展有限公司" [ref=e65]
+              - LayoutTableCell "鑫珂海洋生物公司电话"
+                - link "鑫珂海洋生物公司电话" [ref=e66]
+            - LayoutTableRow
+              - LayoutTableCell "雷能电力集团有限公司"
+                - link "雷能电力集团有限公司" [ref=e67]
+              - LayoutTableCell "东阳联丰生物技术有限公司"
+                - link "东阳联丰生物技术有限公司" [ref=e68]
+      - generic
+        - generic
+          - link "上一页" [ref=e15]
+          - strong
+          - link "2" [ref=e16]
+          - link "3" [ref=e17]
+          - link "4" [ref=e18]
+          - link "5" [ref=e19]
+          - link "6" [ref=e20]
+          - link "7" [ref=e21]
+          - link "8" [ref=e22]
+          - link "9" [ref=e23]
+          - link "10" [ref=e24]
+          - link "下一页" [ref=e25]
+      - generic
+      - generic
+        - generic
+          - generic
+            - link "帮助" [ref=e30]
+            - link "举报" [ref=e31]
+            - link "用户反馈" [ref=e32]
+            - link "企业推广" [ref=e33]

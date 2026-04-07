@@ -1,0 +1,369 @@
+- generic
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。" [ref=e1]
+  - generic
+    - generic
+  - generic
+    - generic
+      - generic
+        - link "到百度首页" [ref=e2]
+          - image "到百度首页"
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                  - generic
+                  - generic
+                    - generic
+                      - generic
+                      - generic
+                        - textbox [ref=e74]: 北京绍云银河科技有限责们公司 工商
+                          - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                          - generic
+                          - generic
+                        - button "百度一下" [ref=e75]
+                          - StaticText "百度一下"
+                    - generic
+                      - generic
+      - generic
+        - link "百度首页" [ref=e3]
+          - StaticText "百度首页"
+        - link "设置" [ref=e4]
+          - StaticText "设置"
+        - link "登录" [ref=e5]
+          - StaticText "登录"
+    - generic
+    - generic
+      - generic
+        - link [ref=e6]
+          - image
+        - StaticText "网页"
+        - link "图片" [ref=e7]
+          - StaticText "图片"
+        - link "资讯" [ref=e8]
+          - StaticText "资讯"
+        - link "视频" [ref=e9]
+          - StaticText "视频"
+        - link "笔记" [ref=e10]
+          - StaticText "笔记"
+        - link "地图" [ref=e11]
+          - StaticText "地图"
+        - link "贴吧" [ref=e12]
+          - StaticText "贴吧"
+        - link "文库" [ref=e13]
+          - StaticText "文库"
+        - link "更多" [ref=e14]
+          - StaticText "更多"
+        - generic
+          - StaticText "搜索工具"
+    - generic
+      - generic
+        - generic
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "相关搜索  北京云从科技有限公司  北京云纵信息技术有限公司  北京银河资产管理有限公司  北京银河创新技术发展有限公司  河北云晖信息科技有限公司  北京银河创想信息技术有限公司    换一换 热搜榜 民生榜 财经榜  为山川大地增添锦绣 1"
+                - generic
+                  - generic
+                    - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                            - link " 北京云从科技有限公司" [ref=e94]
+                          - generic
+                            - link " 北京云纵信息技术有限公司" [ref=e95]
+                          - generic
+                            - link " 北京银河资产管理有限公司" [ref=e96]
+                          - generic
+                            - link " 北京银河创新技术发展有限公司" [ref=e97]
+                          - generic
+                            - link " 河北云晖信息科技有限公司" [ref=e98]
+                          - generic
+                            - link " 北京银河创想信息技术有限公司" [ref=e99]
+                  - generic
+                    - generic
+                      - generic
+                        - link " " [ref=e76]
+                        - generic
+                          - link " 换一换" [ref=e77]
+                      - generic
+                        - generic
+                        - generic
+                        - generic
+                      - generic
+                        - generic
+                          - link "为山川大地增添锦绣" [ref=e78]
+                      - generic
+                        - generic
+                          - link "张雪机车一战封神" [ref=e79]
+                      - generic
+                        - generic
+                          - link "买安眠药收注销驾驶证短信 交警回应" [ref=e80]
+                      - generic
+                        - generic
+                          - link "从一线到中小城市 入境游持续升温" [ref=e81]
+                      - generic
+                        - generic
+                          - link "内存价格大跳水原因找到了" [ref=e82]
+                      - generic
+                        - generic
+                          - link "央视调查烧秸秆屡禁不止" [ref=e83]
+                      - generic
+                        - generic
+                          - link "伊朗议会批准对霍尔木兹海峡收通行费" [ref=e84]
+                      - generic
+                        - generic
+                          - link "午睡超过这个时间 真的会越睡越累" [ref=e85]
+                      - generic
+                        - generic
+                          - link "张雪称将吃掉国际大牌超50%份额" [ref=e86]
+                      - generic
+                        - generic
+                          - link "患癌男子将3亿家产赠小28岁妻子" [ref=e87]
+                      - generic
+                        - generic
+                          - link "“这一刻我等了20年！我们赢了”" [ref=e88]
+                      - generic
+                        - generic
+                          - link "高三男孩喀纳斯湖失踪系谣言" [ref=e89]
+                      - generic
+                        - generic
+                          - link "国际油价大涨" [ref=e90]
+                      - generic
+                        - generic
+                          - link "13岁少年去世前绝食让父母生二胎" [ref=e91]
+                      - generic
+                        - generic
+                          - link "伊朗：打击美军指挥中心" [ref=e92]
+                      - generic
+                        - generic
+                          - link "多个家电品牌宣布4月起涨价" [ref=e93]
+                - generic
+        - generic
+          - generic
+            - generic
+              - generic
+                - heading "中传银河(北京)科技有限责任公司 - 企查查" [level=3, ref=e36]
+                  - link "中传银河(北京)科技有限责任公司 - 企查查" [ref=e55]
+                    - paragraph
+                - generic
+                  - StaticText "2026年2月27日"
+                  - StaticText "统一社会信用代码91110105318118068L"
+                  - emphasis
+                    - StaticText "企业"
+                  - StaticText "名称中传"
+                  - emphasis
+                    - StaticText "银河"
+                  - StaticText "(北京)"
+                  - emphasis
+                    - StaticText "科技有限责"
+                  - StaticText "任"
+                  - emphasis
+                    - StaticText "公司"
+                  - StaticText " 法定代表人 董文娟 登记状态注销(2024-10-24)成立日期2014-10-29 注册资本200万元实缴资本- 组织机构代码31811806-8工商注册号110105018091132纳税人识别号91110105318118068L 企业类型有限责任公司(自然人投资或控股"
+                - generic
+                  - link "头像 企查查" [ref=e56]
+                    - generic
+                    - StaticText "企查查"
+                - generic
+                  - generic
+          - generic
+            - generic
+              - generic
+                - heading "“国家队”入局,商业航天资本化再添“硬核”大将!银河航天的参股..." [level=3, ref=e37]
+                  - link "“国家队”入局,商业航天资本化再添“硬核”大将!银河航天的参股..." [ref=e57]
+                    - paragraph
+                - generic
+                  - StaticText "2026年3月21日"
+                  - StaticText "近日,根据企查查信息显示,知名商业航天"
+                  - emphasis
+                    - StaticText "公司银河"
+                  - StaticText "航天发生"
+                  - emphasis
+                    - StaticText "工商"
+                  - StaticText "变更,公司名称由“银河航天(北京)网络技术"
+                  - emphasis
+                    - StaticText "有限公司"
+                  - StaticText "”变更为“银河航天(北京)"
+                  - emphasis
+                    - StaticText "科技"
+                  - StaticText "集团股份有限公司”,市场主体类型由其他"
+                  - emphasis
+                    - StaticText "有限责"
+                  - StaticText "任公司变更为其他股份有限公司(非上市),这意味着银河航天已完成股改,国内商业航天资本化“军团”再添一员“大将”。 多项关键技术获得..."
+                - generic
+                  - link "证券时报网" [ref=e58]
+                    - StaticText "证券时报网"
+          - generic
+            - generic
+              - generic
+                - heading "北京银河爱动科技发展有限责任公司 - 企查查" [level=3, ref=e38]
+                  - link "北京银河爱动科技发展有限责任公司 - 企查查" [ref=e59]
+                    - paragraph
+                - generic
+                  - StaticText "2026年2月21日"
+                  - emphasis
+                    - StaticText "北京银河"
+                  - StaticText "爱动"
+                  - emphasis
+                    - StaticText "科技"
+                  - StaticText "发展"
+                  - emphasis
+                    - StaticText "有限责任公司"
+                  - StaticText "成立于2015-11-20,法定代表人为王建青,注册资本为100万元,统一社会信用代码为91110108MA0020HR7R,企业注册地址位于北京市昌平区沙河镇北街家园五区2号楼12层4单元1214,所属行业为科技推广和应用服务业,经营范围包含:技术开发、技术"
+                - generic
+                  - link "企查查" [ref=e60]
+                    - StaticText "企查查"
+          - generic
+            - generic
+              - StaticText "大家还在搜"
+            - generic
+              - link "北京云从科技有限公司" [ref=e30]
+                - StaticText "北京云从科技有限公司"
+              - link "北京云纵信息技术有限公司" [ref=e31]
+                - StaticText "北京云纵信息技术有限公司"
+              - link "北京银河资产管理有限公司" [ref=e32]
+                - StaticText "北京银河资产管理有限公司"
+              - link "北京银河创新技术发展有限公司" [ref=e33]
+                - StaticText "北京银河创新技术发展有限公司"
+              - link "河北云晖信息科技有限公司" [ref=e34]
+                - StaticText "河北云晖信息科技有限公司"
+              - link "北京银河创想信息技术有限公司" [ref=e35]
+                - StaticText "北京银河创想信息技术有限公司"
+          - generic
+            - generic
+              - generic
+                - heading "瀚海银河科技发展(北京)有限责任公司_瀚海银河-企业工商信息-官方..." [level=3, ref=e39]
+                  - link "瀚海银河科技发展(北京)有限责任公司_瀚海银河-企业工商信息-官方..." [ref=e61]
+                    - paragraph
+                - generic
+                  - StaticText "2026年2月26日"
+                  - StaticText "历史"
+                  - emphasis
+                    - StaticText "工商"
+                  - StaticText "信息 工商官网快照 导出 "
+                  - emphasis
+                    - StaticText "企业"
+                  - StaticText "名称 瀚海"
+                  - emphasis
+                    - StaticText "银河科技"
+                  - StaticText "发展(北京)"
+                  - emphasis
+                    - StaticText "有限责"
+                  - StaticText "任"
+                  - emphasis
+                    - StaticText "公司"
+                  - StaticText " 曾用名 瀚海银河环保科技(北京)有限责任公司 (2021-07至 2021-09) 更多 1 法定代表人 杨 杨存洪 关联企业 7 登记状态 存续 天眼评分 77 分 成立日期 2021-03-25 统一社会信用代码 91110105ma0217ff16 注册资本 2000万人民币 实..."
+                - generic
+                  - link "天眼查" [ref=e62]
+                    - StaticText "天眼查"
+          - generic
+            - generic
+              - generic
+                - heading "银河通用机器人成立科技研发公司# 注册资本100万_财富号_东方财富网" [level=3, ref=e40]
+                  - link "银河通用机器人成立科技研发公司# 注册资本100万_财富号_东方财富网" [ref=e63]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e72]
+                  - generic
+                    - StaticText "2026年3月13日"
+                    - StaticText "在东方财富看资讯行情,选东方财富证券一站式开户交易>> 天眼查App显示,近日,"
+                    - emphasis
+                    - StaticText "通用机器人"
+                    - emphasis
+                    - StaticText "研发"
+                    - emphasis
+                    - StaticText "成立,法定代表人为姚腾洲,注册资本100万人民币,经营范围包括服务消费机器人制造、服务消费机器人销售、智能机器人的研发等。股东信息显示,该公司由北京银河通用机器人股份有限公司全资持股。"
+                  - generic
+                    - generic
+                      - link "东方财富网" [ref=e73]
+          - generic
+            - generic
+              - generic
+                - heading "北京银河金星科技发展有限公司-企业工商信用信息,电话,地址,法人-阿..." [level=3, ref=e41]
+                  - link "北京银河金星科技发展有限公司-企业工商信用信息,电话,地址,法人-阿..." [ref=e64]
+                - generic
+                - generic
+                  - link "阿里巴巴1688" [ref=e65]
+          - generic
+            - generic
+              - generic
+                - heading "中国银河证券官方网站" [level=3, ref=e42]
+                  - link "中国银河证券官方网站" [ref=e66]
+                - generic
+                - generic
+                  - link "中国银河证券" [ref=e67]
+                - generic
+          - generic
+            - generic
+              - generic
+                - heading "银河航天(北京)科技有限公司招聘信息 - 天眼查" [level=3, ref=e43]
+                  - link "银河航天(北京)科技有限公司招聘信息 - 天眼查" [ref=e68]
+                - generic
+                - generic
+                  - link "头像 天眼查" [ref=e69]
+          - generic
+            - generic
+              - generic
+                - heading "...逾期尚未支付中小企业款项信息公示_通知公告_北京市科学技术..." [level=3, ref=e44]
+                  - link "...逾期尚未支付中小企业款项信息公示_通知公告_北京市科学技术..." [ref=e70]
+                - generic
+                - generic
+                  - link "头像 kw.beijing.gov.cn" [ref=e71]
+        - generic
+          - generic
+            - StaticText "相关搜索"
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "北京云从科技有限公司"
+                - link "北京云从科技有限公司" [ref=e45]
+              - LayoutTableCell "北京云纵信息技术有限公司"
+                - link "北京云纵信息技术有限公司" [ref=e46]
+            - LayoutTableRow
+              - LayoutTableCell "北京银河资产管理有限公司"
+                - link "北京银河资产管理有限公司" [ref=e47]
+              - LayoutTableCell "北京银河创新技术发展有限公司"
+                - link "北京银河创新技术发展有限公司" [ref=e48]
+            - LayoutTableRow
+              - LayoutTableCell "河北云晖信息科技有限公司"
+                - link "河北云晖信息科技有限公司" [ref=e49]
+              - LayoutTableCell "北京云中融信网络科技有限公司"
+                - link "北京云中融信网络科技有限公司" [ref=e50]
+            - LayoutTableRow
+              - LayoutTableCell "北京银河创想信息技术有限公司"
+                - link "北京银河创想信息技术有限公司" [ref=e51]
+              - LayoutTableCell "北京云圣智能科技有限责任公司"
+                - link "北京云圣智能科技有限责任公司" [ref=e52]
+            - LayoutTableRow
+              - LayoutTableCell "北京清云智慧科技发展有限公司"
+                - link "北京清云智慧科技发展有限公司" [ref=e53]
+              - LayoutTableCell "北京银融科技有限责任公司"
+                - link "北京银融科技有限责任公司" [ref=e54]
+      - generic
+        - generic
+          - link "上一页" [ref=e15]
+          - strong
+          - link "2" [ref=e16]
+          - link "3" [ref=e17]
+          - link "4" [ref=e18]
+          - link "5" [ref=e19]
+          - link "6" [ref=e20]
+          - link "7" [ref=e21]
+          - link "8" [ref=e22]
+          - link "9" [ref=e23]
+          - link "10" [ref=e24]
+          - link "下一页" [ref=e25]
+      - generic
+      - generic
+        - generic
+          - generic
+            - link "帮助" [ref=e26]
+            - link "举报" [ref=e27]
+            - link "用户反馈" [ref=e28]
+            - link "企业推广" [ref=e29]

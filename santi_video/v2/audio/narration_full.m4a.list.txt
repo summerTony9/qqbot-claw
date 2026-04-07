@@ -1,0 +1,5 @@
+file '/root/.openclaw/workspace/santi_video/audio_01_ant.mp3'
+file '/root/.openclaw/workspace/santi_video/audio_02_cliff.mp3'
+file '/root/.openclaw/workspace/santi_video/audio_03_ship.mp3'
+file '/root/.openclaw/workspace/santi_video/audio_04_deception.mp3'
+file '/root/.openclaw/workspace/santi_video/audio_05_end.mp3'

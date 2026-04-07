@@ -1,0 +1,28 @@
+- generic
+  - banner
+    - button "Skip to content" [ref=e1]
+      - generic
+        - StaticText "Skip to content"
+    - button "Accessibility Feedback" [ref=e2]
+      - generic
+        - StaticText "Accessibility Feedback"
+    - generic
+      - link "Back to Bing search" [ref=e3]
+        - heading "Back to Bing search" [level=1, ref=e6]
+          - generic
+      - search
+        - generic
+          - generic
+            - button "Search" [ref=e9]
+        - searchbox "Enter your search here - Search suggestions will show as you type" [ref=e7]: 北京曛森文化发展有限公司 工商
+    - complementary "Account Rewards and Preferences"
+      - button "Microsoft Rewards" [expanded=false, ref=e4]
+      - generic
+      - link "Sign in" [ref=e5]
+    - generic
+      - StaticText "One last step"
+    - generic
+      - StaticText "Please solve the challenge below to continue"
+    - generic
+      - generic
+        - Iframe "Widget containing a Cloudflare security challenge" [ref=e8]

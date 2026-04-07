@@ -1,0 +1,388 @@
+- generic
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。" [ref=e1]
+  - generic
+    - generic
+  - generic
+    - generic
+      - generic
+        - link "到百度首页" [ref=e2]
+          - image "到百度首页"
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                  - generic
+                  - generic
+                    - generic
+                      - generic
+                      - generic
+                        - textbox [ref=e91]: 中科躬行 信考网
+                          - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                          - generic
+                          - generic
+                        - button "百度一下" [ref=e92]
+                          - StaticText "百度一下"
+                    - generic
+                      - generic
+      - generic
+        - link "百度首页" [ref=e3]
+          - StaticText "百度首页"
+        - link "设置" [ref=e4]
+          - StaticText "设置"
+        - link "登录" [ref=e5]
+          - StaticText "登录"
+    - generic
+    - generic
+      - generic
+        - link [ref=e6]
+          - image
+        - StaticText "网页"
+        - link "图片" [ref=e7]
+          - StaticText "图片"
+        - link "资讯" [ref=e8]
+          - StaticText "资讯"
+        - link "视频" [ref=e9]
+          - StaticText "视频"
+        - link "笔记" [ref=e10]
+          - StaticText "笔记"
+        - link "地图" [ref=e11]
+          - StaticText "地图"
+        - link "贴吧" [ref=e12]
+          - StaticText "贴吧"
+        - link "文库" [ref=e13]
+          - StaticText "文库"
+        - link "更多" [ref=e14]
+          - StaticText "更多"
+        - generic
+          - StaticText "搜索工具"
+    - generic
+      - generic
+        - generic
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "相关搜索  中科信息  学人考试网  全国翻译资格证书考试官网  中科医信科技有限公司  中华考试网官网  中科地信是什么公司    换一换 热搜榜 民生榜 财经榜  为山川大地增添锦绣 1"
+                - generic
+                  - generic
+                    - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                            - link " 中科信息" [ref=e111]
+                          - generic
+                            - link " 学人考试网" [ref=e112]
+                          - generic
+                            - link " 全国翻译资格证书考试官网" [ref=e113]
+                          - generic
+                            - link " 中科医信科技有限公司" [ref=e114]
+                          - generic
+                            - link " 中华考试网官网" [ref=e115]
+                          - generic
+                            - link " 中科地信是什么公司" [ref=e116]
+                  - generic
+                    - generic
+                      - generic
+                        - link " " [ref=e93]
+                        - generic
+                          - link " 换一换" [ref=e94]
+                      - generic
+                        - generic
+                        - generic
+                        - generic
+                      - generic
+                        - generic
+                          - link "为山川大地增添锦绣" [ref=e95]
+                      - generic
+                        - generic
+                          - link "张雪机车一战封神" [ref=e96]
+                      - generic
+                        - generic
+                          - link "买安眠药收注销驾驶证短信 交警回应" [ref=e97]
+                      - generic
+                        - generic
+                          - link "从一线到中小城市 入境游持续升温" [ref=e98]
+                      - generic
+                        - generic
+                          - link "张雪称将吃掉国际大牌超50%份额" [ref=e99]
+                      - generic
+                        - generic
+                          - link "央视调查烧秸秆屡禁不止" [ref=e100]
+                      - generic
+                        - generic
+                          - link "伊朗议会批准对霍尔木兹海峡收通行费" [ref=e101]
+                      - generic
+                        - generic
+                          - link "午睡超过这个时间 真的会越睡越累" [ref=e102]
+                      - generic
+                        - generic
+                          - link "贵州茅台宣布涨价" [ref=e103]
+                      - generic
+                        - generic
+                          - link "牛奶价格卷起来了" [ref=e104]
+                      - generic
+                        - generic
+                          - link "“这一刻我等了20年！我们赢了”" [ref=e105]
+                      - generic
+                        - generic
+                          - link "高三男孩喀纳斯湖失踪系谣言" [ref=e106]
+                      - generic
+                        - generic
+                          - link "国际油价大涨" [ref=e107]
+                      - generic
+                        - generic
+                          - link "伊朗：打击美军指挥中心" [ref=e108]
+                      - generic
+                        - generic
+                          - link "花上万办卡 被按摩到癌细胞扩散" [ref=e109]
+                      - generic
+                        - generic
+                          - link "《跳楼机》原唱深夜发文称忍不下了" [ref=e110]
+                - generic
+        - generic
+          - generic
+            - generic
+              - heading "中科躬行（北京）科技有限公司(公司) - 百度百科" [level=3, ref=e30]
+                - link "中科躬行（北京）科技有限公司(公司) - 百度百科" [ref=e41]
+                  - paragraph
+                    - emphasis
+                    - StaticText "（北京）科技有限公司(公司) - 百度百科"
+              - generic
+                - generic
+                  - generic
+                    - link [ref=e78]
+                  - generic
+                    - paragraph
+                      - link "详情" [ref=e86]
+                      - link "" [ref=e87]
+                  - generic
+                    - link "公司简介" [ref=e79]
+                  - generic
+                    - link "历史沿革" [ref=e80]
+                  - generic
+                    - link "主营业务" [ref=e81]
+                  - generic
+                    - link "公司治理" [ref=e82]
+              - generic
+                - link "百度百科" [ref=e42]
+                  - StaticText "百度百科"
+          - generic
+            - generic
+              - generic
+                - heading "信考网" [level=3, ref=e43]
+                  - link "信考网" [ref=e61]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e83]
+                  - generic
+                    - StaticText "中国电子工业标准化技术协会(简称:中电标协),英文名称:chinese electronics standardization association,简称:cesa.成立于1993年3月,是经国家民政部批准的国家一级协会.电子信息领域唯一的专业标准化社团组织. 交付标准 "
+                    - emphasis
+                    - StaticText "院系 本系由"
+                    - emphasis
+                    - StaticText "院相关院所上市龙头企业组成的产业集群,包含"
+                    - emphasis
+                    - StaticText "曙光,"
+                    - emphasis
+                    - StaticText "星图,中"
+                  - generic
+                    - generic
+                      - link "www.xinkao.net.cn/" [ref=e88]
+          - generic
+            - generic
+              - StaticText "大家还在搜"
+            - generic
+              - link "中科信息" [ref=e31]
+                - StaticText "中科信息"
+              - link "学人考试网" [ref=e32]
+                - StaticText "学人考试网"
+              - link "全国翻译资格证书考试官网" [ref=e33]
+                - StaticText "全国翻译资格证书考试官网"
+              - link "中科医信科技有限公司" [ref=e34]
+                - StaticText "中科医信科技有限公司"
+              - link "中华考试网官网" [ref=e35]
+                - StaticText "中华考试网官网"
+              - link "中科地信是什么公司" [ref=e36]
+                - StaticText "中科地信是什么公司"
+              - link "中科品信控股集团" [ref=e37]
+                - StaticText "中科品信控股集团"
+              - link "中科生信" [ref=e38]
+                - StaticText "中科生信"
+              - link "中国考试研究院" [ref=e39]
+                - StaticText "中国考试研究院"
+              - link "中国考试期刊" [ref=e40]
+                - StaticText "中国考试期刊"
+          - generic
+            - generic
+              - generic
+                - heading "信考网在线学习云平台_中科躬行(北京)科技有限公司_软件著作权..." [level=3, ref=e44]
+                  - link "信考网在线学习云平台_中科躬行(北京)科技有限公司_软件著作权..." [ref=e62]
+                    - paragraph
+                - generic
+                  - emphasis
+                    - StaticText "信考网"
+                  - StaticText "在线学习云平台是由"
+                  - emphasis
+                    - StaticText "中科躬行"
+                  - StaticText "(北京)科技有限公司著作的软件著作,该软件著作登记号为:2021SR1504341,属于分类,想要查询更多关于信考网在线学习云平台著作的著作权信息就到天眼查官网!"
+                - generic
+                  - link "天眼查" [ref=e63]
+                    - StaticText "天眼查"
+          - generic
+            - generic
+              - generic
+                - heading "「中科躬行(北京)...招聘」-BOSS直聘" [level=3, ref=e45]
+                  - link "「中科躬行(北京)...招聘」-BOSS直聘" [ref=e64]
+                    - paragraph
+                - generic
+                  - StaticText "2024年3月6日"
+                  - StaticText "旗下拥有三大教育品牌:"
+                  - emphasis
+                    - StaticText "躬行"
+                  - StaticText "学院、"
+                  - emphasis
+                    - StaticText "信考网"
+                  - StaticText "、AI-Jointer实验室,涉及高校学科专业建设与人才培养全链条服务,包括专业设计、课程体系、师资培训、工程实训、培训认证、创新创业、竞赛支撑、联合科研、实习就业、在线学习等内容,目前业务已经覆盖华北、华等地,为高校提供不同层次多元化的教育合作服务解决方案。公司一直努力成为..."
+                - generic
+                  - link [ref=e65]
+                    - generic
+                - generic
+                  - link [ref=e66]
+                    - generic
+                - generic
+                  - link [ref=e67]
+                    - generic
+                - generic
+                  - link "29" [ref=e68]
+                    - generic
+                    - generic
+                - generic
+                  - link "BOSS直聘" [ref=e69]
+                    - StaticText "BOSS直聘"
+          - generic
+            - generic
+              - generic
+                - heading "信考官网 - 中学信息技术考试练习系统软件" [level=3, ref=e46]
+                  - link "信考官网 - 中学信息技术考试练习系统软件" [ref=e70]
+                    - paragraph
+                - generic
+                  - emphasis
+                    - StaticText "信考"
+                  - StaticText "软件官网:信考,让考试更简单 Tel:0531-88819208 0531-88819218 QQ:869730011 869730022 869730033,中学信息技术考试练习系统软件,中考会考信息技术考试软件系统适用于:山东,山西,陕西,河南,浙江,贵州,江苏,江西,河北,北京,天津,上海,重庆,安徽,广东,云南,四川,湖"
+                - generic
+                  - link "信考官网" [ref=e71]
+                    - StaticText "信考官网"
+          - generic
+            - generic
+              - generic
+                - heading "「专业介绍」——AI软件工程技术" [level=3, ref=e47]
+                  - link "「专业介绍」——AI软件工程技术" [ref=e72]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e84]
+                  - generic
+                    - StaticText "2022年5月9日"
+                    - StaticText "公司依托于产业端，开发人工智能、大数据等新一代信息技术领域产品方案，与"
+                    - emphasis
+                    - StaticText "院相关院所、中国通信学会、中国通信企业协会、中国电子工业标准化技术协会教育培训委员会、中电联、用友软件、0PENAILAB等研究机构、协会、产业方等保持战略合作关系，旗下拥有三大教育品牌："
+                    - emphasis
+                    - StaticText "学院、"
+                    - emphasis
+                    - StaticText "、AI-Jointer实验室，涉及高校学科..."
+                  - generic
+                    - generic
+                      - link "头像  九江市华科技工学校" [ref=e89]
+          - generic
+            - generic
+              - generic
+                - heading "中国科学技术信息研究所_院校信息_中国研究生招生信息网" [level=3, ref=e48]
+                  - link "中国科学技术信息研究所_院校信息_中国研究生招生信息网" [ref=e73]
+                    - paragraph
+                - generic
+                  - StaticText "5天前"
+                  - StaticText "关于初试过国家线的一志愿考生加群通知 2026-03-09 中国科学技术信息研究所关于2026年全国硕士研究生招生考试初试成绩查询通知 2026-02-27 网报公告更多 暂无数据 调剂办法更多 中国科学技术信息研究所2025年硕士研究生招生调剂工作办法 2025-03-31 中国科学技术信息研究所2024年硕士研究生招生调剂工作办法 ..."
+                - generic
+                  - link "中国研究生招生信息网" [ref=e74]
+                    - StaticText "中国研究生招生信息网"
+          - generic
+            - generic
+              - generic
+                - heading "中国研究生招生信息网" [level=3, ref=e49]
+                  - link "中国研究生招生信息网" [ref=e75]
+                    - paragraph
+                - generic
+                  - StaticText "2026年吉林大学硕士研究生招生考试考生进入复试的初试成绩基本要求 2026-03-18 中国农业大学2026年硕士研究生招生考试复试基本分数线 2026-03-18 复旦大学2026年硕士研究生招生考试考生进入复试的初试成绩基本要求 2026-03-17 中南大学2026年全国硕士研究生招生考试考生进入复试的初试成绩基本要求 2026-03-17 兰州大学..."
+                - generic
+                  - link "中国研究生招生信息网" [ref=e76]
+                    - StaticText "中国研究生招生信息网"
+          - generic
+            - generic
+              - generic
+                - heading "中国科学技术大学" [level=3, ref=e50]
+                  - link "中国科学技术大学" [ref=e77]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e85]
+                  - generic
+                    - StaticText "我的日程 考试安排 科研资源 校园网络 班车 访客 欢迎来到 访客服务 班车查询 全景科大 校园地图 系统直通车 综合教务系统 教务处 我的邮箱 网络信息中心 合同综合信息平台 财务处 教师主页 网络信息中心 OA公文系统 党政办公室 人力资源信息化系统 党委教师工作部、人力资源部(合署办公) ..."
+                  - generic
+                    - generic
+                      - link "头像 中国科学技术大学网上服务大厅" [ref=e90]
+        - generic
+          - generic
+            - StaticText "相关搜索"
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "中科信息"
+                - link "中科信息" [ref=e51]
+              - LayoutTableCell "学人考试网"
+                - link "学人考试网" [ref=e52]
+            - LayoutTableRow
+              - LayoutTableCell "全国翻译资格证书考试官网"
+                - link "全国翻译资格证书考试官网" [ref=e53]
+              - LayoutTableCell "中科医信科技有限公司"
+                - link "中科医信科技有限公司" [ref=e54]
+            - LayoutTableRow
+              - LayoutTableCell "中华考试网官网"
+                - link "中华考试网官网" [ref=e55]
+              - LayoutTableCell "中科地信是什么公司"
+                - link "中科地信是什么公司" [ref=e56]
+            - LayoutTableRow
+              - LayoutTableCell "中科品信控股集团"
+                - link "中科品信控股集团" [ref=e57]
+              - LayoutTableCell "中科生信"
+                - link "中科生信" [ref=e58]
+            - LayoutTableRow
+              - LayoutTableCell "中国考试研究院"
+                - link "中国考试研究院" [ref=e59]
+              - LayoutTableCell "中国考试期刊"
+                - link "中国考试期刊" [ref=e60]
+      - generic
+        - generic
+          - link "上一页" [ref=e15]
+          - strong
+          - link "2" [ref=e16]
+          - link "3" [ref=e17]
+          - link "4" [ref=e18]
+          - link "5" [ref=e19]
+          - link "6" [ref=e20]
+          - link "7" [ref=e21]
+          - link "8" [ref=e22]
+          - link "9" [ref=e23]
+          - link "10" [ref=e24]
+          - link "下一页" [ref=e25]
+      - generic
+      - generic
+        - generic
+          - generic
+            - link "帮助" [ref=e26]
+            - link "举报" [ref=e27]
+            - link "用户反馈" [ref=e28]
+            - link "企业推广" [ref=e29]

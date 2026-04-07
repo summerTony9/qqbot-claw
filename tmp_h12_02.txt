@@ -1,0 +1,321 @@
+- generic
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。" [ref=e1]
+  - generic
+    - generic
+  - generic
+    - generic
+      - generic
+        - link "到百度首页" [ref=e2]
+          - image "到百度首页"
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                  - generic
+                  - generic
+                    - generic
+                      - generic
+                      - generic
+                        - textbox [ref=e80]: 翋威(深圲)供应链管理有限公司
+                          - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                          - generic
+                          - generic
+                        - button "百度一下" [ref=e81]
+                          - StaticText "百度一下"
+                    - generic
+                      - generic
+      - generic
+        - link "百度首页" [ref=e3]
+          - StaticText "百度首页"
+        - link "设置" [ref=e4]
+          - StaticText "设置"
+        - link "登录" [ref=e5]
+          - StaticText "登录"
+    - generic
+    - generic
+      - generic
+        - link [ref=e6]
+          - image
+        - StaticText "网页"
+        - link "图片" [ref=e7]
+          - StaticText "图片"
+        - link "资讯" [ref=e8]
+          - StaticText "资讯"
+        - link "视频" [ref=e9]
+          - StaticText "视频"
+        - link "笔记" [ref=e10]
+          - StaticText "笔记"
+        - link "地图" [ref=e11]
+          - StaticText "地图"
+        - link "贴吧" [ref=e12]
+          - StaticText "贴吧"
+        - link "文库" [ref=e13]
+          - StaticText "文库"
+        - link "更多" [ref=e14]
+          - StaticText "更多"
+        - generic
+          - StaticText "搜索工具"
+    - generic
+      - generic
+        - generic
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell " 登录百度帐号 交易更有保障  相关搜索  深圳威科科技有限公司  深圳市正威集团有限公司  深圳正威集团是做什么的  首威贸易(深圳)有限公司  威时泰物流(深圳)有限公司  深圳市深金实国际供应链有限公司    换一换 热搜榜 民生榜 财经榜"
+                - generic
+                  - generic
+                    - list
+                      - listitem [level=1]
+                        - generic
+                          - generic
+                          - StaticText "登录百度帐号 交易更有保障"
+                          - StaticText ""
+                - generic
+                  - generic
+                    - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                            - link " 深圳威科科技有限公司" [ref=e101]
+                          - generic
+                            - link " 深圳市正威集团有限公司" [ref=e102]
+                          - generic
+                            - link " 深圳正威集团是做什么的" [ref=e103]
+                          - generic
+                            - link " 首威贸易(深圳)有限公司" [ref=e104]
+                          - generic
+                            - link " 威时泰物流(深圳)有限公司" [ref=e105]
+                          - generic
+                            - link " 深圳市深金实国际供应链有限公司" [ref=e106]
+                  - generic
+                    - generic
+                      - generic
+                        - link " " [ref=e82]
+                        - generic
+                          - link " 换一换" [ref=e84]
+                      - generic
+                        - generic
+                        - generic
+                        - generic
+                      - generic
+                        - generic
+                          - link "为山川大地增添锦绣" [ref=e85]
+                      - generic
+                        - generic
+                          - link "“看我怎样用中国制造干掉日本制造”" [ref=e86]
+                      - generic
+                        - generic
+                          - link "买安眠药收注销驾驶证短信 交警回应" [ref=e87]
+                      - generic
+                        - generic
+                          - link "从一线到中小城市 入境游持续升温" [ref=e88]
+                      - generic
+                        - generic
+                          - link "韩国向中国14个城市发放十年签" [ref=e89]
+                      - generic
+                        - generic
+                          - link "央视调查烧秸秆屡禁不止" [ref=e90]
+                      - generic
+                        - generic
+                          - link "伊朗议会批准对霍尔木兹海峡收通行费" [ref=e91]
+                      - generic
+                        - generic
+                          - link "重庆一隧道爆炸致4人死亡" [ref=e92]
+                      - generic
+                        - generic
+                          - link "午睡超过这个时间 真的会越睡越累" [ref=e93]
+                      - generic
+                        - generic
+                          - link "“这一刻我等了20年！我们赢了”" [ref=e94]
+                      - generic
+                        - generic
+                          - link "遗体打捞难度大 落水者家属无奈放弃" [ref=e95]
+                      - generic
+                        - generic
+                          - link "高三男孩喀纳斯湖失踪系谣言" [ref=e96]
+                      - generic
+                        - generic
+                          - link "患癌男子将3亿家产赠小28岁妻子" [ref=e97]
+                      - generic
+                        - generic
+                          - link "张雪称将吃掉国际大牌超50%份额" [ref=e98]
+                      - generic
+                        - generic
+                          - link "国际油价大涨" [ref=e99]
+                      - generic
+                        - generic
+                          - link "孙颖莎回应成功卫冕将创造历史" [ref=e100]
+                - generic
+                  - generic
+                    - generic
+                      - heading "▶想在此推广您的产品吗?" [level=2, ref=e77]
+                        - link "▶想在此推广您的产品吗?" [ref=e83]
+                      - link "咨询热线：400-800-8888" [ref=e78]
+                      - link "e.baidu.com" [ref=e79]
+        - generic
+          - generic
+            - heading "供应链平台-点击进入网站" [level=3, ref=e19]
+              - generic
+                - link "供应链平台-点击进入网站" [ref=e35]
+            - link [ref=e20]
+              - image
+            - generic
+              - link "供应链平台,企业SaaS服务平台.供应链平台,为企业提供采购,销售,库存,财务等管理功能." [ref=e26]
+                - generic
+            - generic
+              - link "蓝幸软件（上海）有限公司 2026-03广告" [ref=e27]
+                - StaticText "蓝幸软件（上海）有限公司"
+                - StaticText " 2026-03"
+                - generic
+                - generic
+                - generic
+          - generic
+            - generic
+              - generic
+                - heading "中威供应链管理服务(深圳)有限公司怎么样 - 职友集" [level=3, ref=e36]
+                  - link "中威供应链管理服务(深圳)有限公司怎么样 - 职友集" [ref=e55]
+                - generic
+                - generic
+                  - link "头像 职友集" [ref=e56]
+          - generic
+            - generic
+              - generic
+                - heading "「上海琦威供应链管理有限公司招聘」-BOSS直聘" [level=3, ref=e37]
+                  - link "「上海琦威供应链管理有限公司招聘」-BOSS直聘" [ref=e57]
+                - generic
+                - generic
+                  - link "BOSS直聘" [ref=e58]
+          - generic
+            - heading "深圳市海威国际供应链管理有限公司，光伏设备公司，百度百科" [level=3, ref=e21]
+              - link "深圳市海威国际供应链管理有限公司，光伏设备公司，百度百科" [ref=e28]
+                - StaticText "深圳市海威国际"
+                - emphasis
+                - StaticText " - 百度百科"
+            - generic
+              - generic "查看更多内容"
+                - link "查看更多内容" [ref=e38]
+              - generic
+                - generic "深圳市海威太阳能科技有限公司（曾用名：深圳市海威国际供应链管理有限公司、深圳市海威国际货运代理有限公司）成立于2006年12月12日，法定代表人为贾代喜，位于深圳市宝安区，注册资本1000万元，是一家有限责任公司，主营业务为光伏设备及元器件、太阳能热利用产品、新能源汽车整车等新能源产品的制造与销售。公司前身为深圳市海威国际货运代理有限公司，初期经营国际物流和代理报关业务，2008年业务范围扩展至供应链管理，2023年4月9日更名并转向新能源业务。"
+                - generic
+                  - link "公司简介" [ref=e59]
+                  - link "历史沿革" [ref=e60]
+                  - link "经营范围" [ref=e61]
+                  - link "公司治理" [ref=e62]
+                  - link "点击可查看更多内容" [ref=e63]
+                - generic
+                  - link "百度百科" [ref=e64]
+                - generic
+          - generic
+            - generic
+              - StaticText "大家还在搜"
+            - generic
+              - link "深圳威科科技有限公司" [ref=e29]
+                - StaticText "深圳威科科技有限公司"
+              - link "深圳市正威集团有限公司" [ref=e30]
+                - StaticText "深圳市正威集团有限公司"
+              - link "深圳正威集团是做什么的" [ref=e31]
+                - StaticText "深圳正威集团是做什么的"
+              - link "首威贸易(深圳)有限公司" [ref=e32]
+                - StaticText "首威贸易(深圳)有限公司"
+              - link "威时泰物流(深圳)有限公司" [ref=e33]
+                - StaticText "威时泰物流(深圳)有限公司"
+              - link "深圳市深金实国际供应链有限公司" [ref=e34]
+                - StaticText "深圳市深金实国际供应链有限公司"
+          - generic
+            - generic
+              - generic
+                - heading "【深圳市时威供应链有限公司招聘人才信息】-猎聘" [level=3, ref=e39]
+                  - link "【深圳市时威供应链有限公司招聘人才信息】-猎聘" [ref=e65]
+                - generic
+                - generic
+                  - link "头像 猎聘网" [ref=e66]
+          - generic
+            - generic
+              - generic
+                - heading "广州哈威供应链管理有限公司_哈威-企业工商信息-官方资质认证..." [level=3, ref=e40]
+                  - link "广州哈威供应链管理有限公司_哈威-企业工商信息-官方资质认证..." [ref=e67]
+                - generic
+                - generic
+                  - link "天眼查" [ref=e68]
+          - generic
+            - generic
+              - generic
+                - heading "公司官网" [level=3, ref=e41]
+                  - link "公司官网" [ref=e69]
+                - generic
+                - generic
+                  - link "www.goldenways-china.com/" [ref=e70]
+          - generic
+            - generic
+              - generic
+                - heading "奇维斯(深圳)供应链服务有限公司_股东信息_名单_持股比例_企业..." [level=3, ref=e42]
+                  - link "奇维斯(深圳)供应链服务有限公司_股东信息_名单_持股比例_企业..." [ref=e71]
+                - generic
+                - generic
+                  - link "头像 天眼查" [ref=e72]
+          - generic
+            - generic
+              - generic
+                - heading "中威供应链管理服务(深圳)有限公司招聘(供应链管理公司) - 职友集" [level=3, ref=e43]
+                  - link "中威供应链管理服务(深圳)有限公司招聘(供应链管理公司) - 职友集" [ref=e73]
+                - generic
+                - generic
+                  - link "头像 职友集" [ref=e74]
+          - generic
+            - generic
+              - generic
+                - heading "威飒国际供应链管理(深圳)有限公司怎么样 - 职友集" [level=3, ref=e44]
+                  - link "威飒国际供应链管理(深圳)有限公司怎么样 - 职友集" [ref=e75]
+                - generic
+                - generic
+                  - link "头像 职友集" [ref=e76]
+        - generic
+          - generic
+            - StaticText "相关搜索"
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "深圳威科科技有限公司"
+                - link "深圳威科科技有限公司" [ref=e45]
+              - LayoutTableCell "深圳市正威集团有限公司"
+                - link "深圳市正威集团有限公司" [ref=e46]
+            - LayoutTableRow
+              - LayoutTableCell "深圳正威集团是做什么的"
+                - link "深圳正威集团是做什么的" [ref=e47]
+              - LayoutTableCell "首威贸易(深圳)有限公司"
+                - link "首威贸易(深圳)有限公司" [ref=e48]
+            - LayoutTableRow
+              - LayoutTableCell "威时泰物流(深圳)有限公司"
+                - link "威时泰物流(深圳)有限公司" [ref=e49]
+              - LayoutTableCell "深圳市深金实国际供应链有限公司"
+                - link "深圳市深金实国际供应链有限公司" [ref=e50]
+            - LayoutTableRow
+              - LayoutTableCell "上海威豹供应链有限公司"
+                - link "上海威豹供应链有限公司" [ref=e51]
+              - LayoutTableCell "朝威供应链管理有限公司"
+                - link "朝威供应链管理有限公司" [ref=e52]
+            - LayoutTableRow
+              - LayoutTableCell "深青供应链管理有限公司"
+                - link "深青供应链管理有限公司" [ref=e53]
+              - LayoutTableCell "美特斯邦威的供应链模式"
+                - link "美特斯邦威的供应链模式" [ref=e54]
+      - generic
+        - generic
+          - link "上一页" [ref=e15]
+          - strong
+          - link "2" [ref=e16]
+          - link "3" [ref=e17]
+          - link "下一页" [ref=e18]
+      - generic
+      - generic
+        - generic
+          - generic
+            - link "帮助" [ref=e22]
+            - link "举报" [ref=e23]
+            - link "用户反馈" [ref=e24]
+            - link "企业推广" [ref=e25]

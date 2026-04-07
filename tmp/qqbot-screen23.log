@@ -1,0 +1,24 @@
+03-27 15:50:40 [SUCCESS] nonebot | NoneBot is initializing...
+03-27 15:50:40 [INFO] nonebot | Current Env: prod
+03-27 15:50:40 [SUCCESS] nonebot | Succeeded to load plugin "nonebot_plugin_apsc
+heduler"
+03-27 15:50:40 [SUCCESS] nonebot | Succeeded to load plugin "basic" from "plugin
+s.basic"
+03-27 15:50:40 [SUCCESS] nonebot | Running NoneBot...
+03-27 15:50:40 [SUCCESS] nonebot | Loaded adapters: OneBot V11
+03-27 15:50:40 [INFO] uvicorn | Started server process [487451]
+03-27 15:50:40 [INFO] uvicorn | Waiting for application startup.
+03-27 15:50:40 [INFO] nonebot_plugin_apscheduler | Scheduler Started
+03-27 15:50:40 [INFO] uvicorn | Application startup complete.
+03-27 15:50:40 [INFO] uvicorn | Uvicorn running on http://127.0.0.1:8080 (Press
+CTRL+C to quit)
+03-27 15:50:40 [INFO] nonebot | OneBot V11 | Bot 3371871293 connected
+
+
+
+
+
+
+
+
+

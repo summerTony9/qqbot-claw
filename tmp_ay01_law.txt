@@ -1,0 +1,308 @@
+- generic
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。" [ref=e1]
+  - generic
+    - generic
+  - generic
+    - generic
+      - generic
+        - link "到百度首页" [ref=e2]
+          - image "到百度首页"
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                  - generic
+                  - generic
+                    - generic
+                      - generic
+                      - generic
+                        - textbox [ref=e83]: 北京安宜商贸 法定代表人 股东 法定人
+                          - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                          - generic
+                          - generic
+                        - button "百度一下" [ref=e84]
+                          - StaticText "百度一下"
+                    - generic
+                      - generic
+      - generic
+        - link "百度首页" [ref=e3]
+          - StaticText "百度首页"
+        - link "设置" [ref=e4]
+          - StaticText "设置"
+        - link "登录" [ref=e5]
+          - StaticText "登录"
+    - generic
+    - generic
+      - generic
+        - link [ref=e6]
+          - image
+        - StaticText "网页"
+        - link "图片" [ref=e7]
+          - StaticText "图片"
+        - link "资讯" [ref=e8]
+          - StaticText "资讯"
+        - link "视频" [ref=e9]
+          - StaticText "视频"
+        - link "笔记" [ref=e10]
+          - StaticText "笔记"
+        - link "地图" [ref=e11]
+          - StaticText "地图"
+        - link "贴吧" [ref=e12]
+          - StaticText "贴吧"
+        - link "文库" [ref=e13]
+          - StaticText "文库"
+        - link "更多" [ref=e14]
+          - StaticText "更多"
+        - generic
+          - StaticText "搜索工具"
+    - generic
+      - generic
+        - generic
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "相关搜索  法定代表人不是股东  贸易公司的监事有法律责任吗  有限责任公司法人是谁  董事会成员一定是股东吗  商贸有限公司和有限责任公司的区别  法定代表人可以有几个    换一换 热搜榜 民生榜 财经榜  为山川大地增添锦绣 1"
+                - generic
+                  - generic
+                    - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                            - link " 法定代表人不是股东" [ref=e105]
+                          - generic
+                            - link " 贸易公司的监事有法律责任吗" [ref=e106]
+                          - generic
+                            - link " 有限责任公司法人是谁" [ref=e107]
+                          - generic
+                            - link " 董事会成员一定是股东吗" [ref=e108]
+                          - generic
+                            - link " 商贸有限公司和有限责任公司的区别" [ref=e109]
+                          - generic
+                            - link " 法定代表人可以有几个" [ref=e110]
+                  - generic
+                    - generic
+                      - generic
+                        - link " " [ref=e85]
+                        - generic
+                          - link " 换一换" [ref=e88]
+                      - generic
+                        - generic
+                        - generic
+                        - generic
+                      - generic
+                        - generic
+                          - link "为山川大地增添锦绣" [ref=e89]
+                      - generic
+                        - generic
+                          - link "张雪机车一战封神" [ref=e90]
+                      - generic
+                        - generic
+                          - link "买安眠药收注销驾驶证短信 交警回应" [ref=e91]
+                      - generic
+                        - generic
+                          - link "从一线到中小城市 入境游持续升温" [ref=e92]
+                      - generic
+                        - generic
+                          - link "内存价格大跳水原因找到了" [ref=e93]
+                      - generic
+                        - generic
+                          - link "央视调查烧秸秆屡禁不止" [ref=e94]
+                      - generic
+                        - generic
+                          - link "伊朗议会批准对霍尔木兹海峡收通行费" [ref=e95]
+                      - generic
+                        - generic
+                          - link "午睡超过这个时间 真的会越睡越累" [ref=e96]
+                      - generic
+                        - generic
+                          - link "张雪称将吃掉国际大牌超50%份额" [ref=e97]
+                      - generic
+                        - generic
+                          - link "“这一刻我等了20年！我们赢了”" [ref=e98]
+                      - generic
+                        - generic
+                          - link "患癌男子将3亿家产赠小28岁妻子" [ref=e99]
+                      - generic
+                        - generic
+                          - link "高三男孩喀纳斯湖失踪系谣言" [ref=e100]
+                      - generic
+                        - generic
+                          - link "国际油价大涨" [ref=e101]
+                      - generic
+                        - generic
+                          - link "13岁少年去世前绝食让父母生二胎" [ref=e102]
+                      - generic
+                        - generic
+                          - link "伊朗：打击美军指挥中心" [ref=e103]
+                      - generic
+                        - generic
+                          - link "多个家电品牌宣布4月起涨价" [ref=e104]
+                - generic
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+          - generic
+            - generic
+              - generic
+                - heading "张佩昊 - 北京安宜商贸有限公司 - 法定代表人/高管/股东 - 爱企查" [level=3, ref=e40]
+                  - link "张佩昊 - 北京安宜商贸有限公司 - 法定代表人/高管/股东 - 爱企查" [ref=e64]
+                - generic
+                - generic
+                  - link "头像 爱企查" [ref=e65]
+          - generic
+            - heading "安宜(北京)投资管理有限公司，公司，百度百科" [level=3, ref=e26]
+              - link "安宜(北京)投资管理有限公司，公司，百度百科" [ref=e32]
+                - emphasis
+                - StaticText "（"
+                - emphasis
+                - StaticText "）投资管理有限公司 - 百度百科"
+            - generic
+              - generic "查看更多内容"
+                - link "查看更多内容" [ref=e41]
+              - generic
+                - generic "安宜（北京）投资管理有限公司于2014年10月28日成立。2014年12月10日，法定代表人由辛立辉变更为白杨。2015年9月11日，经营范围中的“经济信息咨询”改为“经济贸易咨询”，住所发生变更。2016年5月30日，股东邢涛退出。2019年4月2日，公司地址由北京市通州区新华西街58号院2号楼15层1504变更为北京市通州区寨辛庄..."
+                - generic
+                  - link "公司概况" [ref=e66]
+                  - link "历史沿革" [ref=e67]
+                  - link "主营业务" [ref=e68]
+                  - link "公司管理" [ref=e69]
+                  - link "商标信息" [ref=e70]
+                  - link "点击可查看更多内容" [ref=e71]
+                - generic
+                  - link "百度百科" [ref=e72]
+                - generic
+          - generic
+            - generic
+              - StaticText "大家还在搜"
+            - generic
+              - link "法定代表人不是股东" [ref=e33]
+                - StaticText "法定代表人不是股东"
+              - link "贸易公司的监事有法律责任吗" [ref=e34]
+                - StaticText "贸易公司的监事有法律责任吗"
+              - link "有限责任公司法人是谁" [ref=e35]
+                - StaticText "有限责任公司法人是谁"
+              - link "董事会成员一定是股东吗" [ref=e36]
+                - StaticText "董事会成员一定是股东吗"
+              - link "商贸有限公司和有限责任公司的区别" [ref=e37]
+                - StaticText "商贸有限公司和有限责任公司的区别"
+              - link "法定代表人可以有几个" [ref=e38]
+                - StaticText "法定代表人可以有几个"
+          - generic
+            - generic
+              - generic
+                - heading "北京安宜商贸有限公司怎么样 - 企查查" [level=3, ref=e42]
+                  - link "北京安宜商贸有限公司怎么样 - 企查查" [ref=e73]
+                - generic
+                - generic
+                  - link "头像 企查查" [ref=e74]
+                - generic
+          - generic
+            - generic
+              - generic
+                - heading "苏春华 - 北京万家安宜商贸有限公司 - 企查查" [level=3, ref=e43]
+                  - link "苏春华 - 北京万家安宜商贸有限公司 - 企查查" [ref=e75]
+                - generic
+                - generic
+                  - link "头像 企查查" [ref=e76]
+                - generic
+          - generic
+            - generic
+              - generic
+                - heading "北京旋嘉安宜商贸有限公司 - 天眼查" [level=3, ref=e44]
+                  - link "北京旋嘉安宜商贸有限公司 - 天眼查" [ref=e77]
+                - generic
+                  - StaticText " 注册资本:400万人民币 复制 成立日期:2024-06-12复制 电话:- 邮箱:- 网址:- 地址: 北京市海淀区碧桐园3号楼4层411 附近企业 国标行业:化学药品制剂制造 企业规模:小型 简介:北京旋嘉安宜商贸有限公司,成立于2024年,位于北京市,是一家以从事医药制造业为主的企业。企业注册资本400万人民..."
+                - generic
+                  - link "天眼查" [ref=e78]
+          - generic
+            - heading "标题:北京安宜商贸有限公司 - 企业信息" [level=3, ref=e27]
+              - link "标题:北京安宜商贸有限公司 - 企业信息" [ref=e39]
+                - emphasis
+                - StaticText "有限公司 - 企业信息"
+            - generic
+              - generic
+                - link [ref=e45]
+              - generic
+                - paragraph
+                - link "工商信息" [ref=e46]
+                - link "认领企业" [ref=e47]
+                - link "经营状况" [ref=e48]
+                - link "企业年报" [ref=e49]
+                - link "企业股东" [ref=e50]
+                - link "来源：以上信息来源爱企查，一个专业免费的企业信息查询平台" [ref=e51]
+          - generic
+            - generic
+              - generic
+                - heading "「北京安宜和顺商贸有限公司」2026年招聘信息-BOSS直聘" [level=3, ref=e52]
+                  - link "「北京安宜和顺商贸有限公司」2026年招聘信息-BOSS直聘" [ref=e79]
+                - generic
+                  - StaticText ": 申向东 注册资本: 300万人民币 成立日期: 2019-04-15 企业类型: 有限责任公司自然人投资或控股 经营状态: 存续(在营、开业、在册) 注册地址: 北京市顺义区后沙峪镇安平街3号(国门一号建材家居市场D馆地下一层W厅区137号) 统一社会信用代码: 91110113MA01JFQ670 收起 股..."
+                - generic
+                  - link "看准网" [ref=e80]
+          - generic
+            - generic
+              - generic
+                - heading "北京安宜正兴商贸有限公司 (北京市海淀区中关村南大街1号北京友谊..." [level=3, ref=e53]
+                  - link "北京安宜正兴商贸有限公司 (北京市海淀区中关村南大街1号北京友谊..." [ref=e81]
+                - generic
+                - generic
+                  - link "名录集" [ref=e82]
+        - generic
+          - generic
+            - StaticText "相关搜索"
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "法定代表人不是股东"
+                - link "法定代表人不是股东" [ref=e54]
+              - LayoutTableCell "贸易公司的监事有法律责任吗"
+                - link "贸易公司的监事有法律责任吗" [ref=e55]
+            - LayoutTableRow
+              - LayoutTableCell "有限责任公司法人是谁"
+                - link "有限责任公司法人是谁" [ref=e56]
+              - LayoutTableCell "董事会成员一定是股东吗"
+                - link "董事会成员一定是股东吗" [ref=e57]
+            - LayoutTableRow
+              - LayoutTableCell "商贸有限公司和有限责任公司的区别"
+                - link "商贸有限公司和有限责任公司的区别" [ref=e58]
+              - LayoutTableCell "法定代表人可以有几个"
+                - link "法定代表人可以有几个" [ref=e59]
+            - LayoutTableRow
+              - LayoutTableCell "法人与法定代表人的区别"
+                - link "法人与法定代表人的区别" [ref=e60]
+              - LayoutTableCell "法定代表人是老板吗"
+                - link "法定代表人是老板吗" [ref=e61]
+            - LayoutTableRow
+              - LayoutTableCell "法定代表人可以是公司吗"
+                - link "法定代表人可以是公司吗" [ref=e62]
+              - LayoutTableCell "宜安控股有限公司"
+                - link "宜安控股有限公司" [ref=e63]
+      - generic
+        - generic
+          - link "上一页" [ref=e15]
+          - strong
+          - link "2" [ref=e16]
+          - link "3" [ref=e17]
+          - link "4" [ref=e18]
+          - link "5" [ref=e19]
+          - link "6" [ref=e20]
+          - link "7" [ref=e21]
+          - link "8" [ref=e22]
+          - link "9" [ref=e23]
+          - link "10" [ref=e24]
+          - link "下一页" [ref=e25]
+      - generic
+      - generic
+        - generic
+          - generic
+            - link "帮助" [ref=e28]
+            - link "举报" [ref=e29]
+            - link "用户反馈" [ref=e30]
+            - link "企业推广" [ref=e31]

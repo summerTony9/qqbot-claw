@@ -1,75 +1,60 @@
 {
   "version": 1,
   "created_at": "2026-03-28T15:20:00+08:00",
-  "last_run_at": "2026-03-30T08:32:00+08:00",
-  "last_success_at": "2026-03-30T08:32:00+08:00",
-  "last_unavailable_alert_at": null,
+  "last_run_at": "2026-04-05T16:30:00+08:00",
+  "last_success_at": "2026-03-30T08:55:00+08:00",
+  "last_unavailable_alert_at": "2026-04-05T16:30:00+08:00",
   "browser_dependency": {
     "requires_local_chrome": true,
     "requires_ssh_reverse_tunnel": true,
     "requires_server_relay": true
   },
   "seen_signatures": [
-    "xhs:685a6cea0000000013012c11",
     "xhs:69a68382000000001b015520",
-    "xhs:69bb4f460000000023023781",
-    "xhs:69ad9334000000000d00b7ee"
+    "xhs:685a6cea0000000013012c11",
+    "xhs:69ad9334000000000d00b7ee",
+    "xhs:69ba690f0000000021012071",
+    "xhs:69c60d89000000002200f4e1",
+    "xhs:69bdf642000000001b002377",
+    "xhs:69bb4f460000000023023781"
   ],
   "recent_findings": [
     {
       "signature": "xhs:685a6cea0000000013012c11",
       "time": "2026-03-28T15:33:19.868607+08:00",
       "title": "北京有没有3个点左右的银行能贷？",
-      "url": "https://www.xiaohongshu.com/explore/685a6cea0000000013012c11?xsec_token=ABAuFbYdI5BcCoQVJIRQx_P5dmkCMLf1rHDr95BgsMvnU=&xsec_source=",
-      "urgency": "高"
+      "url": "https://www.xiaohongshu.com/explore/685a6cea0000000013012c11?xsec_token=ABAuFbYdI5BcCoQVJIRQx_P5dmkCMLf1rHDr95BgsMvnU=&xsec_source="
     },
     {
       "signature": "xhs:69ad9334000000000d00b7ee",
       "time": "2026-03-30T08:32:00+08:00",
       "title": "北京机器人公司招融资及战略负责人",
-      "url": "https://www.xiaohongshu.com/explore/69ad9334000000000d00b7ee",
-      "urgency": "中"
+      "url": "https://www.xiaohongshu.com/explore/69ad9334000000000d00b7ee"
+    },
+    {
+      "signature": "xhs:69bdf642000000001b002377",
+      "time": "2026-03-30T08:55:00+08:00",
+      "title": "我们招人啦 | AI初创公司-Apexmind",
+      "url": "https://www.xiaohongshu.com/explore/69bdf642000000001b002377"
+    },
+    {
+      "signature": "xhs:69ba690f0000000021012071",
+      "time": "2026-03-30T08:55:00+08:00",
+      "title": "🎈我们招人啦｜坐标北京，期待你的加入！",
+      "url": "https://www.xiaohongshu.com/explore/69ba690f0000000021012071"
+    },
+    {
+      "signature": "xhs:69c60d89000000002200f4e1",
+      "time": "2026-03-30T08:55:00+08:00",
+      "title": "AI陪伴赛道宝藏公司💻正在捞人",
+      "url": "https://www.xiaohongshu.com/explore/69c60d89000000002200f4e1"
     }
   ],
-  "preferences": {
-    "tech_related_only": false,
-    "recency_days": 30,
-    "exclude_primary_topics": [
-      "发票贷"
-    ],
-    "comments_as_independent_leads": true,
-    "delivery_format": "markdown_attachment",
-    "broadened_lead_types": [
-      "financing",
-      "account-opening",
-      "business-banking",
-      "hiring-expansion",
-      "operations-growth",
-      "beijing-startup-growth",
-      "new-media-growth"
-    ],
-    "exclude_intermediaries": true,
-    "notes": "Do not restrict to loan/financing only. Accept Beijing startup/hiring/growth clues, including new-media startup expansion, plus account-opening and enterprise-loan signals. Comments can independently reveal leads. Exclude agencies/intermediaries/loan brokers. Prefer recent Beijing business outreach leads.",
-    "randomized_pacing": true,
-    "deep_open_cap_per_run": 10,
-    "search_delay_seconds": [
-      2,
-      5
-    ],
-    "post_open_delay_seconds": [
-      3,
-      7
-    ],
-    "scroll_delay_seconds": [
-      1,
-      3
-    ]
-  },
   "rejected_signatures": {},
   "runtime": {
-    "last_browser_check_at": "2026-03-30T08:32:00+08:00",
-    "last_browser_status": "available",
-    "last_browser_error": null,
-    "browser_unavailable_since": null
+    "last_browser_check_at": "2026-04-06T16:30:00+08:00",
+    "last_browser_status": "unavailable",
+    "last_browser_error": "relay_connection_refused",
+    "browser_unavailable_since": "2026-03-30T16:30:00+08:00"
   }
 }

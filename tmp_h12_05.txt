@@ -1,0 +1,441 @@
+- generic
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。" [ref=e1]
+  - generic
+    - generic
+  - generic
+    - generic
+      - generic
+        - link "到百度首页" [ref=e2]
+          - image "到百度首页"
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                  - generic
+                  - generic
+                    - generic
+                      - generic
+                      - generic
+                        - textbox [ref=e87]: 知侟知识产权咨询(北京)有限公司 法定人
+                          - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                          - generic
+                          - generic
+                        - button "百度一下" [ref=e88]
+                          - StaticText "百度一下"
+                    - generic
+                      - generic
+      - generic
+        - link "百度首页" [ref=e3]
+          - StaticText "百度首页"
+        - link "设置" [ref=e4]
+          - StaticText "设置"
+        - link "登录" [ref=e5]
+          - StaticText "登录"
+    - generic
+    - generic
+      - generic
+        - link [ref=e6]
+          - image
+        - StaticText "网页"
+        - link "图片" [ref=e7]
+          - StaticText "图片"
+        - link "资讯" [ref=e8]
+          - StaticText "资讯"
+        - link "视频" [ref=e9]
+          - StaticText "视频"
+        - link "笔记" [ref=e10]
+          - StaticText "笔记"
+        - link "地图" [ref=e11]
+          - StaticText "地图"
+        - link "贴吧" [ref=e12]
+          - StaticText "贴吧"
+        - link "文库" [ref=e13]
+          - StaticText "文库"
+        - link "更多" [ref=e14]
+          - StaticText "更多"
+        - generic
+          - StaticText "搜索工具"
+    - generic
+      - generic
+        - generic
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "相关搜索  知识产权事务所  北京汇知杰知识产权代理有限公司  知识产权有限公司是做什么的  知识产权公司上班好吗  北京律盟知识产权代理有限责任公司  北京保识知识产权代理事务所    换一换 热搜榜 民生榜 财经榜  为山川大地增添锦绣 1"
+                - generic
+                  - generic
+                    - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                            - link " 知识产权事务所" [ref=e107]
+                          - generic
+                            - link " 北京汇知杰知识产权代理有限公司" [ref=e108]
+                          - generic
+                            - link " 知识产权有限公司是做什么的" [ref=e109]
+                          - generic
+                            - link " 知识产权公司上班好吗" [ref=e110]
+                          - generic
+                            - link " 北京律盟知识产权代理有限责任公司" [ref=e111]
+                          - generic
+                            - link " 北京保识知识产权代理事务所" [ref=e112]
+                  - generic
+                    - generic
+                      - generic
+                        - link " " [ref=e89]
+                        - generic
+                          - link " 换一换" [ref=e90]
+                      - generic
+                        - generic
+                        - generic
+                        - generic
+                      - generic
+                        - generic
+                          - link "为山川大地增添锦绣" [ref=e91]
+                      - generic
+                        - generic
+                          - link "“看我怎样用中国制造干掉日本制造”" [ref=e92]
+                      - generic
+                        - generic
+                          - link "买安眠药收注销驾驶证短信 交警回应" [ref=e93]
+                      - generic
+                        - generic
+                          - link "从一线到中小城市 入境游持续升温" [ref=e94]
+                      - generic
+                        - generic
+                          - link "韩国向中国14个城市发放十年签" [ref=e95]
+                      - generic
+                        - generic
+                          - link "央视调查烧秸秆屡禁不止" [ref=e96]
+                      - generic
+                        - generic
+                          - link "伊朗议会批准对霍尔木兹海峡收通行费" [ref=e97]
+                      - generic
+                        - generic
+                          - link "重庆一隧道爆炸致4人死亡" [ref=e98]
+                      - generic
+                        - generic
+                          - link "午睡超过这个时间 真的会越睡越累" [ref=e99]
+                      - generic
+                        - generic
+                          - link "“这一刻我等了20年！我们赢了”" [ref=e100]
+                      - generic
+                        - generic
+                          - link "遗体打捞难度大 落水者家属无奈放弃" [ref=e101]
+                      - generic
+                        - generic
+                          - link "高三男孩喀纳斯湖失踪系谣言" [ref=e102]
+                      - generic
+                        - generic
+                          - link "患癌男子将3亿家产赠小28岁妻子" [ref=e103]
+                      - generic
+                        - generic
+                          - link "张雪称将吃掉国际大牌超50%份额" [ref=e104]
+                      - generic
+                        - generic
+                          - link "国际油价大涨" [ref=e105]
+                      - generic
+                        - generic
+                          - link "孙颖莎回应成功卫冕将创造历史" [ref=e106]
+                - generic
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - image
+                  - generic
+                  - generic
+                    - StaticText "问题分析中"
+          - generic
+            - generic
+              - generic
+                - heading "知乾知识产权咨询(北京)有限公司_主要人员_董事_监事_公司查询..." [level=3, ref=e40]
+                  - link "知乾知识产权咨询(北京)有限公司_主要人员_董事_监事_公司查询..." [ref=e58]
+                    - paragraph
+                - generic
+                  - StaticText "2026年2月17日"
+                  - StaticText "简介:知乾"
+                  - emphasis
+                    - StaticText "知识产权咨询 (北京) 有限公司"
+                  - StaticText " (曾用名:知乾知识产权信息咨询 (北京) 有限公司) ,成立于2015年,位于北京市,是一家以从事科技推广和应用服务业为主的企业。企业注册资本100万人民币。通过天眼查大数据分析,知乾知识产权咨询 (北京) 有限公司参与招投标项目2次;知识产权方面有商标信息8条;此外企业还拥有行政许可4个。更多 评分58"
+                - generic
+                  - link "头像 天眼查" [ref=e59]
+                    - generic
+                    - StaticText "天眼查"
+          - generic
+            - generic
+              - generic
+                - heading "北京知先生知识产权代理有限公司 - 爱企查" [level=3, ref=e41]
+                  - link "北京知先生知识产权代理有限公司 - 爱企查" [ref=e60]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e79]
+                  - generic
+                    - StaticText "2026年2月3日"
+                    - emphasis
+                    - StaticText ",参保人数为6人,其中全振华担任执行董事,经理,潘艳付担任监事。 3、知识产权北京知先生知识产权代理有限公司拥有多项知识产权,其中包括1个企业品牌项目,13个软件著作权,这些知识产权的拥有,表明该企业拥有较强的实力和创新能力。 上述文章是根据发布当时全网最新公开信息..."
+                  - generic
+                    - generic
+                      - link "头像 爱企查" [ref=e83]
+          - generic
+            - generic
+              - StaticText "大家还在搜"
+            - generic
+              - link "知识产权事务所" [ref=e32]
+                - StaticText "知识产权事务所"
+              - link "北京汇知杰知识产权代理有限公司" [ref=e33]
+                - StaticText "北京汇知杰知识产权代理有限公司"
+              - link "知识产权有限公司是做什么的" [ref=e34]
+                - StaticText "知识产权有限公司是做什么的"
+              - link "知识产权公司上班好吗" [ref=e35]
+                - StaticText "知识产权公司上班好吗"
+              - link "北京律盟知识产权代理有限责任公司" [ref=e36]
+                - StaticText "北京律盟知识产权代理有限责任公司"
+              - link "北京保识知识产权代理事务所" [ref=e37]
+                - StaticText "北京保识知识产权代理事务所"
+          - generic
+            - generic
+              - generic
+                - heading "北京知元知识产权顾问有限公司 - 知元知识 - 爱企查" [level=3, ref=e42]
+                  - link "北京知元知识产权顾问有限公司 - 知元知识 - 爱企查" [ref=e61]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e80]
+                  - generic
+                    - StaticText "2026年2月18日"
+                    - emphasis
+                    - StaticText "代表人:刘奇 注册资本:50万(元) 统一社会信用代码:91110108306765356U 电话:1380125*** 邮箱:1***@qq.com 官网:- 地址:"
+                    - emphasis
+                    - StaticText "海淀区上地信息产业基地三街1号楼四层C段 简介: 1、基本情况"
+                    - emphasis
+                    - StaticText "元"
+                    - emphasis
+                    - StaticText "顾问"
+                    - emphasis
+                    - StaticText "是一家小微企业,该公司成立于2014年08月22日,位于北京市海淀区上地信息产业基地三街1..."
+                  - generic
+                    - generic
+                      - link "头像 爱企查" [ref=e84]
+          - generic
+            - heading "北京知无忧知识产权服务有限公司，公司，百度百科" [level=3, ref=e26]
+              - link "北京知无忧知识产权服务有限公司，公司，百度百科" [ref=e38]
+                - emphasis
+                  - StaticText "北京知"
+                - StaticText "无忧"
+                - emphasis
+                  - StaticText "知识产权"
+                - StaticText "服务"
+                - emphasis
+                  - StaticText "有限公司"
+                - StaticText " - 百度百科"
+            - generic
+              - generic
+                - generic "北京知无忧知识产权服务有限公司成立于2009年9月23日，法定代表人为郑林涛，注册资本100万元，企业类型为有限责任公司（自然人投资或控股），注册地址为北京市西城区茶马北街1号院2号楼3层1单元0301。公司主营商标代理、版权代理、知识产权代理及专利代理业务，同时涵盖技术推广、展览展示承办、文化用品销售等综合服务..."
+                  - StaticText "北京知无忧知识产权服务有限公司成立于2009年9月23日，"
+                  - emphasis
+                    - StaticText "法定代表人为郑林涛"
+                  - StaticText "，注册资本100万元，企业类型为有限责任公司（自然人投资或控股），注册地址为北京市西城区茶马北街1号院2号楼3层1单元0301。公司主营商标代理、版权代理、知识产权代理及专利代理业务..."
+                - generic
+                  - link "公司简介" [ref=e62]
+                    - emphasis
+                    - StaticText "简介 "
+                  - link "历史沿革" [ref=e63]
+                    - StaticText "历史沿革 "
+                  - link "主营业务" [ref=e64]
+                    - StaticText "主营业务 "
+                  - link "公司治理" [ref=e65]
+                    - emphasis
+                    - StaticText "治理 "
+                  - link "经营状况" [ref=e66]
+                    - StaticText "经营状况 "
+                  - link "点击可查看更多内容" [ref=e67]
+                    - StaticText "更多 >"
+                - link "百度百科" [ref=e43]
+                  - generic
+                    - generic
+                - generic
+          - generic
+            - heading "品牌(北京)知识产权服务有限公司，公司，百度百科" [level=3, ref=e27]
+              - link "品牌(北京)知识产权服务有限公司，公司，百度百科" [ref=e39]
+                - StaticText "品牌（"
+                - emphasis
+                  - StaticText "北京"
+                - StaticText "）"
+                - emphasis
+                  - StaticText "知识产权"
+                - StaticText "服务"
+                - emphasis
+                  - StaticText "有限公司"
+                - StaticText " - 百度百科"
+            - generic
+              - generic "查看更多内容"
+                - link "查看更多内容" [ref=e44]
+                  - generic
+                    - generic
+              - generic
+                - generic "品牌（北京）知识产权服务有限公司成立于2018年8月8日，法定代表人为韩军，注册资本300万元，总部位于北京市海淀区海淀中街16号9层6单元906。公司属自然人投资或控股的有限责任公司，经营状态为开业。公司经营范围包括：代理记账；商标代理；版权代理；著作权代理；财务咨询；技术开发、技术推广、技术转让、技术咨询、..."
+                  - StaticText "品牌（北京）知识产权服务有限公司成立于2018年8月8日，"
+                  - emphasis
+                    - StaticText "法定代表人为韩军"
+                  - StaticText "，注册资本300万元，总部位于北京市海淀区海淀中街16号9层6单元906。公司属自然人投资或控股的有限责任公司，经营状态为开业。公司经营范围包括：代理记账；商标代理；版权代理；著作权..."
+                - generic
+                  - link "公司概况" [ref=e68]
+                    - emphasis
+                    - StaticText "概况 "
+                  - link "主营业务" [ref=e69]
+                    - StaticText "主营业务 "
+                  - link "公司治理" [ref=e70]
+                    - emphasis
+                    - StaticText "治理 "
+                  - link "对外投资" [ref=e71]
+                    - StaticText "对外投资 "
+                  - link "法律风险" [ref=e72]
+                    - StaticText "法律风险 "
+                  - link "点击可查看更多内容" [ref=e73]
+                    - StaticText "更多 >"
+                - generic
+                  - link "百度百科" [ref=e74]
+                    - generic
+                - generic
+          - generic
+            - generic
+              - generic
+                - heading "北京知典知识产权服务有限公司 - 企查查" [level=3, ref=e45]
+                  - link "北京知典知识产权服务有限公司 - 企查查" [ref=e75]
+                    - paragraph
+                - generic
+                  - StaticText "2026年3月7日"
+                  - emphasis
+                    - StaticText "北京知"
+                  - StaticText "典"
+                  - emphasis
+                    - StaticText "知识产权"
+                  - StaticText "服务"
+                  - emphasis
+                    - StaticText "有限公司("
+                  - StaticText "曾用名:北京中瓯政创信息"
+                  - emphasis
+                    - StaticText "咨询有限公司)"
+                  - StaticText "是⼀家成⽴于2015年10月10日的"
+                  - emphasis
+                    - StaticText "有限责任公司"
+                  - StaticText ",属于以从事科学研究和技术服务业为主的企业。位于"
+                  - emphasis
+                    - StaticText "北京市"
+                  - StaticText "海淀区,"
+                  - emphasis
+                    - StaticText "法定"
+                  - StaticText "代表人为熊智明,目前处于存续状态,公司电话:13801247589,邮箱:743543242@qq.com,地址:北京市海淀区北三环西路47号乙1号一层51。注..."
+                - generic
+                  - link "头像 企查查" [ref=e76]
+                    - generic
+                    - StaticText "企查查"
+                - generic
+                  - generic
+          - generic
+            - generic
+              - generic
+                - heading "北京知图知识产权管理有限公司 - 企查查" [level=3, ref=e46]
+                  - link "北京知图知识产权管理有限公司 - 企查查" [ref=e77]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e81]
+                  - generic
+                    - StaticText "2026年3月23日"
+                    - emphasis
+                    - StaticText "图"
+                    - emphasis
+                    - StaticText "管理"
+                    - emphasis
+                    - StaticText "成立于2015-08-31,"
+                    - emphasis
+                    - StaticText "代表人为张宏川,注册资本为10万元,统一社会信用代码为911101023552642321,企业注册地址位于"
+                    - emphasis
+                    - StaticText "西城区马连道南街6号院1号楼13层1305-38,所属行业为科技推广和应用服务业,经营范围包含:商标代理;著作权代理;版权代理;技术"
+                    - emphasis
+                    - StaticText "、技术开发、技术服务、技术转让;制作、发..."
+                  - generic
+                    - generic
+                      - link "企查查" [ref=e85]
+          - generic
+            - generic
+              - generic
+                - heading "北京基石知本知识产权有限公司_基石知本-企业工商信息-官方资质..." [level=3, ref=e47]
+                  - link "北京基石知本知识产权有限公司_基石知本-企业工商信息-官方资质..." [ref=e78]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e82]
+                  - generic
+                    - StaticText "2026年3月16日"
+                    - StaticText "北京基石知本"
+                    - emphasis
+                    - StaticText " 存续 报告 监控 小微企业  2223 1天前更新 统一社会信用代码 : 91110105macmc61r80 "
+                    - emphasis
+                    - StaticText "代表人 : 袁庄 注册资本 : 300万人民币 成立日期 : 2023-06-09 电话: 1890116*** 登录查看 同电话企业 2 邮箱: summer@kiistone.com 网址: - 地址: "
+                    - emphasis
+                    - StaticText "朝阳区东三环中路1号1..."
+                  - generic
+                    - generic
+                      - link "天眼查" [ref=e86]
+        - generic
+          - generic
+            - StaticText "相关搜索"
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "知识产权事务所"
+                - link "知识产权事务所" [ref=e48]
+              - LayoutTableCell "知识产权代理有限公司"
+                - link "知识产权代理有限公司" [ref=e49]
+            - LayoutTableRow
+              - LayoutTableCell "知识产权有限公司是做什么的"
+                - link "知识产权有限公司是做什么的" [ref=e50]
+              - LayoutTableCell "知识产权公司上班好吗"
+                - link "知识产权公司上班好吗" [ref=e51]
+            - LayoutTableRow
+              - LayoutTableCell "北京律盟知识产权代理有限责任公司"
+                - link "北京律盟知识产权代理有限责任公司" [ref=e52]
+              - LayoutTableCell "北京保识知识产权代理事务所"
+                - link "北京保识知识产权代理事务所" [ref=e53]
+            - LayoutTableRow
+              - LayoutTableCell "中细软知识产权公司"
+                - link "中细软知识产权公司" [ref=e54]
+              - LayoutTableCell "知识产权是什么公司"
+                - link "知识产权是什么公司" [ref=e55]
+            - LayoutTableRow
+              - LayoutTableCell "知识产权代理人"
+                - link "知识产权代理人" [ref=e56]
+              - LayoutTableCell "知识产权"
+                - link "知识产权" [ref=e57]
+      - generic
+        - generic
+          - link "上一页" [ref=e15]
+          - strong
+          - link "2" [ref=e16]
+          - link "3" [ref=e17]
+          - link "4" [ref=e18]
+          - link "5" [ref=e19]
+          - link "6" [ref=e20]
+          - link "7" [ref=e21]
+          - link "8" [ref=e22]
+          - link "9" [ref=e23]
+          - link "10" [ref=e24]
+          - link "下一页" [ref=e25]
+      - generic
+      - generic
+        - generic
+          - generic
+            - link "帮助" [ref=e28]
+            - link "举报" [ref=e29]
+            - link "用户反馈" [ref=e30]
+            - link "企业推广" [ref=e31]

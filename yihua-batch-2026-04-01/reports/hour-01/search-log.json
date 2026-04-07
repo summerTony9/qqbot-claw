@@ -1,0 +1,102 @@
+[
+  {
+    "company": "车托帮（北京）移动科技有限公司",
+    "checks": [
+      {
+        "query": "北京+车托帮（北京）移动科技有限公司+工商",
+        "stdout": "\u001b[32m✓\u001b[0m \u001b[1m天眼查-商业查询平台_企业信息查询_公司查询_工商查询_企业信用信息系统\u001b[0m\n  \u001b[2mhttps://www.tianyancha.com/search?key=%E5%8C%97%E4%BA%AC%2B%E8%BD%A6%E6%89%98%E5%B8%AE%EF%BC%88%E5%8C%97%E4%BA%AC%EF%BC%89%E7%A7%BB%E5%8A%A8%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%2B%E5%B7%A5%E5%95%86\u001b[0m\n天眼查-商业查询平台_企业信息查询_公司查询_工商查询_企业信用信息系统\n根据相关法律规定，当前所在地区暂不支持访问\nAccording to relevant legal regulations, access is temporarily not supported in your current location.\n当前IP：43.156.180.151Current IP: 43.156.180.151\n当前地区：新加坡Current location: SG\n如果您的设备或所处Wi-Fi环境使用了VPN服务，请关闭后重试。\n如有其他问题，请联系官方客服：\n客服电话：+86 400-608-0000\n服务时间 (北京时间)",
+        "code": 0
+      },
+      {
+        "query": "北京+车托帮（北京）移动科技有限公司+天眼查",
+        "stdout": "\u001b[32m✓\u001b[0m \u001b[1m天眼查-商业查询平台_企业信息查询_公司查询_工商查询_企业信用信息系统\u001b[0m\n  \u001b[2mhttps://www.tianyancha.com/search?key=%E5%8C%97%E4%BA%AC%2B%E8%BD%A6%E6%89%98%E5%B8%AE%EF%BC%88%E5%8C%97%E4%BA%AC%EF%BC%89%E7%A7%BB%E5%8A%A8%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%2B%E5%A4%A9%E7%9C%BC%E6%9F%A5\u001b[0m\n天眼查-商业查询平台_企业信息查询_公司查询_工商查询_企业信用信息系统\n根据相关法律规定，当前所在地区暂不支持访问\nAccording to relevant legal regulations, access is temporarily not supported in your current location.\n当前IP：43.156.180.151Current IP: 43.156.180.151\n当前地区：新加坡Current location: SG\n如果您的设备或所处Wi-Fi环境使用了VPN服务，请关闭后重试。\n如有其他问题，请联系官方客服：\n客服电话：+86 400-608-0000\n服务时间 (北京时间)",
+        "code": 0
+      },
+      {
+        "query": "北京+车托帮（北京）移动科技有限公司+主营",
+        "stdout": "\u001b[32m✓\u001b[0m \u001b[1m天眼查-商业查询平台_企业信息查询_公司查询_工商查询_企业信用信息系统\u001b[0m\n  \u001b[2mhttps://www.tianyancha.com/search?key=%E5%8C%97%E4%BA%AC%2B%E8%BD%A6%E6%89%98%E5%B8%AE%EF%BC%88%E5%8C%97%E4%BA%AC%EF%BC%89%E7%A7%BB%E5%8A%A8%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%2B%E4%B8%BB%E8%90%A5\u001b[0m\n天眼查-商业查询平台_企业信息查询_公司查询_工商查询_企业信用信息系统\n根据相关法律规定，当前所在地区暂不支持访问\nAccording to relevant legal regulations, access is temporarily not supported in your current location.\n当前IP：43.156.180.151Current IP: 43.156.180.151\n当前地区：新加坡Current location: SG\n如果您的设备或所处Wi-Fi环境使用了VPN服务，请关闭后重试。\n如有其他问题，请联系官方客服：\n客服电话：+86 400-608-0000\n服务时间 (北京时间)",
+        "code": 0
+      }
+    ]
+  },
+  {
+    "company": "北京中科格励微科技有限公司",
+    "checks": [
+      {
+        "query": "北京+北京中科格励微科技有限公司+工商",
+        "stdout": "\u001b[32m✓\u001b[0m \u001b[1m天眼查-商业查询平台_企业信息查询_公司查询_工商查询_企业信用信息系统\u001b[0m\n  \u001b[2mhttps://www.tianyancha.com/search?key=%E5%8C%97%E4%BA%AC%2B%E5%8C%97%E4%BA%AC%E4%B8%AD%E7%A7%91%E6%A0%BC%E5%8A%B1%E5%BE%AE%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%2B%E5%B7%A5%E5%95%86\u001b[0m\n天眼查-商业查询平台_企业信息查询_公司查询_工商查询_企业信用信息系统\n根据相关法律规定，当前所在地区暂不支持访问\nAccording to relevant legal regulations, access is temporarily not supported in your current location.\n当前IP：43.156.180.151Current IP: 43.156.180.151\n当前地区：新加坡Current location: SG\n如果您的设备或所处Wi-Fi环境使用了VPN服务，请关闭后重试。\n如有其他问题，请联系官方客服：\n客服电话：+86 400-608-0000\n服务时间 (北京时间)",
+        "code": 0
+      },
+      {
+        "query": "北京+北京中科格励微科技有限公司+天眼查",
+        "stdout": "\u001b[32m✓\u001b[0m \u001b[1m天眼查-商业查询平台_企业信息查询_公司查询_工商查询_企业信用信息系统\u001b[0m\n  \u001b[2mhttps://www.tianyancha.com/search?key=%E5%8C%97%E4%BA%AC%2B%E5%8C%97%E4%BA%AC%E4%B8%AD%E7%A7%91%E6%A0%BC%E5%8A%B1%E5%BE%AE%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%2B%E5%A4%A9%E7%9C%BC%E6%9F%A5\u001b[0m\n天眼查-商业查询平台_企业信息查询_公司查询_工商查询_企业信用信息系统\n根据相关法律规定，当前所在地区暂不支持访问\nAccording to relevant legal regulations, access is temporarily not supported in your current location.\n当前IP：43.156.180.151Current IP: 43.156.180.151\n当前地区：新加坡Current location: SG\n如果您的设备或所处Wi-Fi环境使用了VPN服务，请关闭后重试。\n如有其他问题，请联系官方客服：\n客服电话：+86 400-608-0000\n服务时间 (北京时间)",
+        "code": 0
+      },
+      {
+        "query": "北京+北京中科格励微科技有限公司+主营",
+        "stdout": "\u001b[32m✓\u001b[0m \u001b[1m天眼查-商业查询平台_企业信息查询_公司查询_工商查询_企业信用信息系统\u001b[0m\n  \u001b[2mhttps://www.tianyancha.com/search?key=%E5%8C%97%E4%BA%AC%2B%E5%8C%97%E4%BA%AC%E4%B8%AD%E7%A7%91%E6%A0%BC%E5%8A%B1%E5%BE%AE%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%2B%E4%B8%BB%E8%90%A5\u001b[0m\n天眼查-商业查询平台_企业信息查询_公司查询_工商查询_企业信用信息系统\n根据相关法律规定，当前所在地区暂不支持访问\nAccording to relevant legal regulations, access is temporarily not supported in your current location.\n当前IP：43.156.180.151Current IP: 43.156.180.151\n当前地区：新加坡Current location: SG\n如果您的设备或所处Wi-Fi环境使用了VPN服务，请关闭后重试。\n如有其他问题，请联系官方客服：\n客服电话：+86 400-608-0000\n服务时间 (北京时间)",
+        "code": 0
+      }
+    ]
+  },
+  {
+    "company": "清环智源（北京）科技有限公司",
+    "checks": [
+      {
+        "query": "北京+清环智源（北京）科技有限公司+工商",
+        "stdout": "\u001b[32m✓\u001b[0m \u001b[1m天眼查-商业查询平台_企业信息查询_公司查询_工商查询_企业信用信息系统\u001b[0m\n  \u001b[2mhttps://www.tianyancha.com/search?key=%E5%8C%97%E4%BA%AC%2B%E6%B8%85%E7%8E%AF%E6%99%BA%E6%BA%90%EF%BC%88%E5%8C%97%E4%BA%AC%EF%BC%89%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%2B%E5%B7%A5%E5%95%86\u001b[0m\n天眼查-商业查询平台_企业信息查询_公司查询_工商查询_企业信用信息系统\n根据相关法律规定，当前所在地区暂不支持访问\nAccording to relevant legal regulations, access is temporarily not supported in your current location.\n当前IP：43.156.180.151Current IP: 43.156.180.151\n当前地区：新加坡Current location: SG\n如果您的设备或所处Wi-Fi环境使用了VPN服务，请关闭后重试。\n如有其他问题，请联系官方客服：\n客服电话：+86 400-608-0000\n服务时间 (北京时间)",
+        "code": 0
+      },
+      {
+        "query": "北京+清环智源（北京）科技有限公司+天眼查",
+        "stdout": "\u001b[32m✓\u001b[0m \u001b[1m天眼查-商业查询平台_企业信息查询_公司查询_工商查询_企业信用信息系统\u001b[0m\n  \u001b[2mhttps://www.tianyancha.com/search?key=%E5%8C%97%E4%BA%AC%2B%E6%B8%85%E7%8E%AF%E6%99%BA%E6%BA%90%EF%BC%88%E5%8C%97%E4%BA%AC%EF%BC%89%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%2B%E5%A4%A9%E7%9C%BC%E6%9F%A5\u001b[0m\n天眼查-商业查询平台_企业信息查询_公司查询_工商查询_企业信用信息系统\n根据相关法律规定，当前所在地区暂不支持访问\nAccording to relevant legal regulations, access is temporarily not supported in your current location.\n当前IP：43.156.180.151Current IP: 43.156.180.151\n当前地区：新加坡Current location: SG\n如果您的设备或所处Wi-Fi环境使用了VPN服务，请关闭后重试。\n如有其他问题，请联系官方客服：\n客服电话：+86 400-608-0000\n服务时间 (北京时间)",
+        "code": 0
+      },
+      {
+        "query": "北京+清环智源（北京）科技有限公司+主营",
+        "stdout": "\u001b[32m✓\u001b[0m \u001b[1m天眼查-商业查询平台_企业信息查询_公司查询_工商查询_企业信用信息系统\u001b[0m\n  \u001b[2mhttps://www.tianyancha.com/search?key=%E5%8C%97%E4%BA%AC%2B%E6%B8%85%E7%8E%AF%E6%99%BA%E6%BA%90%EF%BC%88%E5%8C%97%E4%BA%AC%EF%BC%89%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%2B%E4%B8%BB%E8%90%A5\u001b[0m\n天眼查-商业查询平台_企业信息查询_公司查询_工商查询_企业信用信息系统\n根据相关法律规定，当前所在地区暂不支持访问\nAccording to relevant legal regulations, access is temporarily not supported in your current location.\n当前IP：43.156.180.151Current IP: 43.156.180.151\n当前地区：新加坡Current location: SG\n如果您的设备或所处Wi-Fi环境使用了VPN服务，请关闭后重试。\n如有其他问题，请联系官方客服：\n客服电话：+86 400-608-0000\n服务时间 (北京时间)",
+        "code": 0
+      }
+    ]
+  },
+  {
+    "company": "中泰众薪（北京）科技有限公司",
+    "checks": [
+      {
+        "query": "北京+中泰众薪（北京）科技有限公司+工商",
+        "stdout": "\u001b[32m✓\u001b[0m \u001b[1m天眼查-商业查询平台_企业信息查询_公司查询_工商查询_企业信用信息系统\u001b[0m\n  \u001b[2mhttps://www.tianyancha.com/search?key=%E5%8C%97%E4%BA%AC%2B%E4%B8%AD%E6%B3%B0%E4%BC%97%E8%96%AA%EF%BC%88%E5%8C%97%E4%BA%AC%EF%BC%89%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%2B%E5%B7%A5%E5%95%86\u001b[0m\n天眼查-商业查询平台_企业信息查询_公司查询_工商查询_企业信用信息系统\n根据相关法律规定，当前所在地区暂不支持访问\nAccording to relevant legal regulations, access is temporarily not supported in your current location.\n当前IP：43.156.180.151Current IP: 43.156.180.151\n当前地区：新加坡Current location: SG\n如果您的设备或所处Wi-Fi环境使用了VPN服务，请关闭后重试。\n如有其他问题，请联系官方客服：\n客服电话：+86 400-608-0000\n服务时间 (北京时间)",
+        "code": 0
+      },
+      {
+        "query": "北京+中泰众薪（北京）科技有限公司+天眼查",
+        "stdout": "\u001b[32m✓\u001b[0m \u001b[1m天眼查-商业查询平台_企业信息查询_公司查询_工商查询_企业信用信息系统\u001b[0m\n  \u001b[2mhttps://www.tianyancha.com/search?key=%E5%8C%97%E4%BA%AC%2B%E4%B8%AD%E6%B3%B0%E4%BC%97%E8%96%AA%EF%BC%88%E5%8C%97%E4%BA%AC%EF%BC%89%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%2B%E5%A4%A9%E7%9C%BC%E6%9F%A5\u001b[0m\n天眼查-商业查询平台_企业信息查询_公司查询_工商查询_企业信用信息系统\n根据相关法律规定，当前所在地区暂不支持访问\nAccording to relevant legal regulations, access is temporarily not supported in your current location.\n当前IP：43.156.180.151Current IP: 43.156.180.151\n当前地区：新加坡Current location: SG\n如果您的设备或所处Wi-Fi环境使用了VPN服务，请关闭后重试。\n如有其他问题，请联系官方客服：\n客服电话：+86 400-608-0000\n服务时间 (北京时间)",
+        "code": 0
+      },
+      {
+        "query": "北京+中泰众薪（北京）科技有限公司+主营",
+        "stdout": "\u001b[32m✓\u001b[0m \u001b[1m天眼查-商业查询平台_企业信息查询_公司查询_工商查询_企业信用信息系统\u001b[0m\n  \u001b[2mhttps://www.tianyancha.com/search?key=%E5%8C%97%E4%BA%AC%2B%E4%B8%AD%E6%B3%B0%E4%BC%97%E8%96%AA%EF%BC%88%E5%8C%97%E4%BA%AC%EF%BC%89%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%2B%E4%B8%BB%E8%90%A5\u001b[0m\n天眼查-商业查询平台_企业信息查询_公司查询_工商查询_企业信用信息系统\n根据相关法律规定，当前所在地区暂不支持访问\nAccording to relevant legal regulations, access is temporarily not supported in your current location.\n当前IP：43.156.180.151Current IP: 43.156.180.151\n当前地区：新加坡Current location: SG\n如果您的设备或所处Wi-Fi环境使用了VPN服务，请关闭后重试。\n如有其他问题，请联系官方客服：\n客服电话：+86 400-608-0000\n服务时间 (北京时间)",
+        "code": 0
+      }
+    ]
+  },
+  {
+    "company": "北京罗迅科技有限公司",
+    "checks": [
+      {
+        "query": "北京+北京罗迅科技有限公司+工商",
+        "stdout": "\u001b[32m✓\u001b[0m \u001b[1m天眼查-商业查询平台_企业信息查询_公司查询_工商查询_企业信用信息系统\u001b[0m\n  \u001b[2mhttps://www.tianyancha.com/search?key=%E5%8C%97%E4%BA%AC%2B%E5%8C%97%E4%BA%AC%E7%BD%97%E8%BF%85%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%2B%E5%B7%A5%E5%95%86\u001b[0m\n天眼查-商业查询平台_企业信息查询_公司查询_工商查询_企业信用信息系统\n根据相关法律规定，当前所在地区暂不支持访问\nAccording to relevant legal regulations, access is temporarily not supported in your current location.\n当前IP：43.156.180.151Current IP: 43.156.180.151\n当前地区：新加坡Current location: SG\n如果您的设备或所处Wi-Fi环境使用了VPN服务，请关闭后重试。\n如有其他问题，请联系官方客服：\n客服电话：+86 400-608-0000\n服务时间 (北京时间)",
+        "code": 0
+      },
+      {
+        "query": "北京+北京罗迅科技有限公司+天眼查",
+        "stdout": "\u001b[32m✓\u001b[0m \u001b[1m天眼查-商业查询平台_企业信息查询_公司查询_工商查询_企业信用信息系统\u001b[0m\n  \u001b[2mhttps://www.tianyancha.com/search?key=%E5%8C%97%E4%BA%AC%2B%E5%8C%97%E4%BA%AC%E7%BD%97%E8%BF%85%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%2B%E5%A4%A9%E7%9C%BC%E6%9F%A5\u001b[0m\n天眼查-商业查询平台_企业信息查询_公司查询_工商查询_企业信用信息系统\n根据相关法律规定，当前所在地区暂不支持访问\nAccording to relevant legal regulations, access is temporarily not supported in your current location.\n当前IP：43.156.180.151Current IP: 43.156.180.151\n当前地区：新加坡Current location: SG\n如果您的设备或所处Wi-Fi环境使用了VPN服务，请关闭后重试。\n如有其他问题，请联系官方客服：\n客服电话：+86 400-608-0000\n服务时间 (北京时间)",
+        "code": 0
+      },
+      {
+        "query": "北京+北京罗迅科技有限公司+主营",
+        "stdout": "\u001b[32m✓\u001b[0m \u001b[1m天眼查-商业查询平台_企业信息查询_公司查询_工商查询_企业信用信息系统\u001b[0m\n  \u001b[2mhttps://www.tianyancha.com/search?key=%E5%8C%97%E4%BA%AC%2B%E5%8C%97%E4%BA%AC%E7%BD%97%E8%BF%85%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%2B%E4%B8%BB%E8%90%A5\u001b[0m\n天眼查-商业查询平台_企业信息查询_公司查询_工商查询_企业信用信息系统\n根据相关法律规定，当前所在地区暂不支持访问\nAccording to relevant legal regulations, access is temporarily not supported in your current location.\n当前IP：43.156.180.151Current IP: 43.156.180.151\n当前地区：新加坡Current location: SG\n如果您的设备或所处Wi-Fi环境使用了VPN服务，请关闭后重试。\n如有其他问题，请联系官方客服：\n客服电话：+86 400-608-0000\n服务时间 (北京时间)",
+        "code": 0
+      }
+    ]
+  }
+]

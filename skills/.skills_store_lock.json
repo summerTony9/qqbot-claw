@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "skills": {
+    "browser-relay-xiaohongshu": {
+      "name": "Browser Relay",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=browser-relay-xiaohongshu",
+      "source": "skillhub",
+      "version": "0.2.2"
+    },
+    "agent-reach": {
+      "name": "Agent Reach",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=agent-reach",
+      "source": "skillhub",
+      "version": "1.1.0"
+    },
+    "self-improving-agent": {
+      "name": "self-improving-agent",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=self-improving-agent",
+      "source": "skillhub",
+      "version": "1.0.11"
+    }
+  }
+}

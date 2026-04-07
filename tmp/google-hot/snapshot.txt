@@ -1,0 +1,360 @@
+- generic
+  - generic
+    - banner
+      - generic
+      - generic
+        - button "Main menu" [expanded=false, ref=e1]
+          - image
+        - generic
+          - generic
+            - link "Trends" [ref=e18]
+              - StaticText "Trends"
+        - generic
+          - button "Home" [ref=e9]
+            - generic
+            - generic
+            - StaticText "Home"
+        - generic
+          - button "Explore" [ref=e10]
+            - generic
+            - generic
+            - StaticText "Explore"
+        - generic
+          - button "Trending now" [ref=e11]
+            - generic
+            - generic
+            - StaticText "Trending now"
+        - generic
+        - generic
+        - generic
+          - generic
+            - generic
+              - button "Google apps" [expanded=false, ref=e20]
+                - generic
+                  - StaticText "  "
+                - image
+                - generic
+          - link "Sign in" [ref=e12]
+            - generic
+              - StaticText "  "
+            - StaticText "Sign in"
+  - generic
+    - generic
+      - generic
+      - generic
+        - navigation
+      - main
+        - heading "Trending Now - Google Trends" [level=1, ref=e2]
+          - StaticText "Trending Now - Google Trends"
+        - heading "Trending Now" [level=1, ref=e3]
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+              - generic
+                - generic
+                  - button "Past 24 hours, select period" [expanded=false, ref=e218]
+              - generic
+                - generic
+                  - button "All categories, select category" [expanded=false, ref=e219]
+              - generic
+                - generic
+                  - button "All trends, select trend status" [expanded=false, ref=e220]
+              - generic
+                - generic
+                  - button "Relevance, select sort criteria" [expanded=false, ref=e221]
+          - generic
+            - generic
+              - generic
+                - button "Export" [expanded=false, ref=e170]
+                  - generic
+                  - StaticText "Export"
+                  - image
+        - generic
+          - grid
+            - rowgroup
+              - row "Search trends Trends (Updated Mar 26, 3:57 PM) Search volume Started More info Trend breakdown More info Past 24 hours"
+                - gridcell
+                - columnheader "Search trends Trends (Updated Mar 26, 3:57 PM)" [ref=e171]
+                  - generic
+                    - button "Search trends" [ref=e300]
+                  - generic
+                    - button "Trends" [ref=e301]
+                  - StaticText "("
+                  - StaticText "Updated Mar 26, 3:57 PM"
+                  - StaticText ")"
+                - columnheader "Search volume" [ref=e172]
+                  - generic
+                    - button "Search volume" [ref=e302]
+                - columnheader "Started More info" [ref=e173]
+                  - generic
+                    - button "Started" [ref=e303]
+                  - generic
+                    - button "More info" [ref=e304]
+                - columnheader "Trend breakdown More info" [ref=e174]
+                  - StaticText "Trend breakdown"
+                  - generic
+                    - button "More info" [ref=e305]
+                - columnheader "Past 24 hours" [ref=e175]
+            - row "Select row yankees vs giants 200K+ 1,000% 20 hours ago Active mlb games today giants opening day See 7 additional items Search interest graph"
+              - gridcell "Select row" [ref=e21]
+              - gridcell "yankees vs giants" [ref=e22]
+              - gridcell "200K+ 1,000%" [ref=e23]
+              - gridcell "20 hours ago Active" [ref=e24]
+                - button "20 hours ago" [ref=e176]
+              - gridcell "mlb games today giants opening day See 7 additional items" [ref=e25]
+                - button "See 7 additional items" [ref=e177]
+              - gridcell "Search interest graph" [ref=e26]
+            - row "Select row lakers vs pacers 100K+ 1,000% 9 hours ago Active pacers See 7 additional items Search interest graph"
+              - gridcell "Select row" [ref=e27]
+              - gridcell "lakers vs pacers" [ref=e28]
+              - gridcell "100K+ 1,000%" [ref=e29]
+              - gridcell "9 hours ago Active" [ref=e30]
+                - button "9 hours ago" [ref=e178]
+              - gridcell "pacers See 7 additional items" [ref=e31]
+                - button "See 7 additional items" [ref=e179]
+              - gridcell "Search interest graph" [ref=e32]
+            - row "Select row mlb 200K+ 200% 20 hours ago Active mlb scores giants vs yankees max fried See 15 additional items Search interest graph"
+              - gridcell "Select row" [ref=e33]
+              - gridcell "mlb" [ref=e34]
+              - gridcell "200K+ 200%" [ref=e35]
+              - gridcell "20 hours ago Active" [ref=e36]
+                - button "20 hours ago" [ref=e180]
+              - gridcell "mlb scores giants vs yankees max fried See 15 additional items" [ref=e37]
+                - button "See 15 additional items" [ref=e181]
+              - gridcell "Search interest graph" [ref=e38]
+            - row "Select row thunder vs celtics 100K+ 1,000% 9 hours ago Active celtics boston celtics celtics game See 19 additional items Search interest graph"
+              - gridcell "Select row" [ref=e39]
+              - gridcell "thunder vs celtics" [ref=e40]
+              - gridcell "100K+ 1,000%" [ref=e41]
+              - gridcell "9 hours ago Active" [ref=e42]
+                - button "9 hours ago" [ref=e182]
+              - gridcell "celtics boston celtics celtics game See 19 additional items" [ref=e43]
+                - button "See 19 additional items" [ref=e183]
+              - gridcell "Search interest graph" [ref=e44]
+            - row "Select row nets vs warriors 50K+ 1,000% 6 hours ago Active warriors game golden state warriors See 8 additional items Search interest graph"
+              - gridcell "Select row" [ref=e45]
+              - gridcell "nets vs warriors" [ref=e46]
+              - gridcell "50K+ 1,000%" [ref=e47]
+              - gridcell "6 hours ago Active" [ref=e48]
+                - button "6 hours ago" [ref=e184]
+              - gridcell "warriors game golden state warriors See 8 additional items" [ref=e49]
+                - button "See 8 additional items" [ref=e185]
+              - gridcell "Search interest graph" [ref=e50]
+            - row "Select row mavericks vs nuggets 20K+ 1,000% 6 hours ago Active where to watch dallas mavericks vs denver nuggets naji marshall See 2 additional items Search interest graph"
+              - gridcell "Select row" [ref=e51]
+              - gridcell "mavericks vs nuggets" [ref=e52]
+              - gridcell "20K+ 1,000%" [ref=e53]
+              - gridcell "6 hours ago Active" [ref=e54]
+                - button "6 hours ago" [ref=e186]
+              - gridcell "where to watch dallas mavericks vs denver nuggets naji marshall See 2 additional items" [ref=e55]
+                - button "See 2 additional items" [ref=e187]
+              - gridcell "Search interest graph" [ref=e56]
+            - row "Select row bulls vs 76ers 50K+ 1,000% 9 hours ago Active sixers 76ers philadelphia 76ers Search interest graph"
+              - gridcell "Select row" [ref=e57]
+              - gridcell "bulls vs 76ers" [ref=e58]
+              - gridcell "50K+ 1,000%" [ref=e59]
+              - gridcell "9 hours ago Active" [ref=e60]
+                - button "9 hours ago" [ref=e188]
+              - gridcell "sixers 76ers philadelphia 76ers" [ref=e61]
+              - gridcell "Search interest graph" [ref=e62]
+            - row "Select row rockets vs timberwolves 50K+ 1,000% 7 hours ago Active jaden mcdaniels timberwolves rockets See 14 additional items Search interest graph"
+              - gridcell "Select row" [ref=e63]
+              - gridcell "rockets vs timberwolves" [ref=e64]
+              - gridcell "50K+ 1,000%" [ref=e65]
+              - gridcell "7 hours ago Active" [ref=e66]
+                - button "7 hours ago" [ref=e189]
+              - gridcell "jaden mcdaniels timberwolves rockets See 14 additional items" [ref=e67]
+                - button "See 14 additional items" [ref=e190]
+              - gridcell "Search interest graph" [ref=e68]
+            - row "Select row twitter down 20K+ 1,000% 40 minutes ago Active is twitter down is x down x See 5 additional items Search interest graph"
+              - gridcell "Select row" [ref=e69]
+              - gridcell "twitter down" [ref=e70]
+              - gridcell "20K+ 1,000%" [ref=e71]
+              - gridcell "40 minutes ago Active" [ref=e72]
+                - button "40 minutes ago" [ref=e191]
+              - gridcell "is twitter down is x down x See 5 additional items" [ref=e73]
+                - button "See 5 additional items" [ref=e192]
+              - gridcell "Search interest graph" [ref=e74]
+            - row "Select row harry potter trailer 50K+ 500% 18 hours ago Active harry potter and the philosopher's stone new harry potter series See 18 additional items Search interest graph"
+              - gridcell "Select row" [ref=e75]
+              - gridcell "harry potter trailer" [ref=e76]
+              - gridcell "50K+ 500%" [ref=e77]
+              - gridcell "18 hours ago Active" [ref=e78]
+                - button "18 hours ago" [ref=e193]
+              - gridcell "harry potter and the philosopher's stone new harry potter series See 18 additional items" [ref=e79]
+                - button "See 18 additional items" [ref=e194]
+              - gridcell "Search interest graph" [ref=e80]
+            - row "Select row hawks vs pistons 50K+ 1,000% 9 hours ago Active hawks pistons detroit pistons See 10 additional items Search interest graph"
+              - gridcell "Select row" [ref=e81]
+              - gridcell "hawks vs pistons" [ref=e82]
+              - gridcell "50K+ 1,000%" [ref=e83]
+              - gridcell "9 hours ago Active" [ref=e84]
+                - button "9 hours ago" [ref=e195]
+              - gridcell "hawks pistons detroit pistons See 10 additional items" [ref=e85]
+                - button "See 10 additional items" [ref=e196]
+              - gridcell "Search interest graph" [ref=e86]
+            - row "Select row spurs vs grizzlies 20K+ 1,000% 8 hours ago Active where to watch san antonio spurs vs memphis grizzlies Search interest graph"
+              - gridcell "Select row" [ref=e87]
+              - gridcell "spurs vs grizzlies" [ref=e88]
+              - gridcell "20K+ 1,000%" [ref=e89]
+              - gridcell "8 hours ago Active" [ref=e90]
+                - button "8 hours ago" [ref=e197]
+              - gridcell "where to watch san antonio spurs vs memphis grizzlies" [ref=e91]
+              - gridcell "Search interest graph" [ref=e92]
+            - row "Select row heat vs cavaliers 20K+ 1,000% 9 hours ago Active cavs game cavs score cavaliers See 2 additional items Search interest graph"
+              - gridcell "Select row" [ref=e93]
+              - gridcell "heat vs cavaliers" [ref=e94]
+              - gridcell "20K+ 1,000%" [ref=e95]
+              - gridcell "9 hours ago Active" [ref=e96]
+                - button "9 hours ago" [ref=e198]
+              - gridcell "cavs game cavs score cavaliers See 2 additional items" [ref=e97]
+                - button "See 2 additional items" [ref=e199]
+              - gridcell "Search interest graph" [ref=e98]
+            - row "Select row covid variant ba 3.2 20K+ 700% 10 hours ago Active new covid variant 2026 new covid variant See 1 additional items Search interest graph"
+              - gridcell "Select row" [ref=e99]
+              - gridcell "covid variant ba 3.2" [ref=e100]
+              - gridcell "20K+ 700%" [ref=e101]
+              - gridcell "10 hours ago Active" [ref=e102]
+                - button "10 hours ago" [ref=e200]
+              - gridcell "new covid variant 2026 new covid variant See 1 additional items" [ref=e103]
+                - button "See 1 additional items" [ref=e201]
+              - gridcell "Search interest graph" [ref=e104]
+            - row "Select row bucks vs trail blazers 20K+ 1,000% 6 hours ago Active blazers portland trail blazers ryan rollins See 2 additional items Search interest graph"
+              - gridcell "Select row" [ref=e105]
+              - gridcell "bucks vs trail blazers" [ref=e106]
+              - gridcell "20K+ 1,000%" [ref=e107]
+              - gridcell "6 hours ago Active" [ref=e108]
+                - button "6 hours ago" [ref=e202]
+              - gridcell "blazers portland trail blazers ryan rollins See 2 additional items" [ref=e109]
+                - button "See 2 additional items" [ref=e203]
+              - gridcell "Search interest graph" [ref=e110]
+            - row "Select row druski 10K+ 700% 7 hours ago Active erika kirk druski erika kirk Search interest graph"
+              - gridcell "Select row" [ref=e111]
+              - gridcell "druski" [ref=e112]
+              - gridcell "10K+ 700%" [ref=e113]
+              - gridcell "7 hours ago Active" [ref=e114]
+                - button "7 hours ago" [ref=e204]
+              - gridcell "erika kirk druski erika kirk" [ref=e115]
+              - gridcell "Search interest graph" [ref=e116]
+            - row "Select row raptors vs clippers 10K+ 1,000% 6 hours ago Active raptors toronto raptors clippers vs raptors See 2 additional items Search interest graph"
+              - gridcell "Select row" [ref=e117]
+              - gridcell "raptors vs clippers" [ref=e118]
+              - gridcell "10K+ 1,000%" [ref=e119]
+              - gridcell "6 hours ago Active" [ref=e120]
+                - button "6 hours ago" [ref=e205]
+              - gridcell "raptors toronto raptors clippers vs raptors See 2 additional items" [ref=e121]
+                - button "See 2 additional items" [ref=e206]
+              - gridcell "Search interest graph" [ref=e122]
+            - row "Select row gene shalit 20K+ 300% 20 hours ago Active Search interest graph"
+              - gridcell "Select row" [ref=e123]
+              - gridcell "gene shalit" [ref=e124]
+              - gridcell "20K+ 300%" [ref=e125]
+              - gridcell "20 hours ago Active" [ref=e126]
+                - button "20 hours ago" [ref=e207]
+              - gridcell
+              - gridcell "Search interest graph" [ref=e127]
+            - row "Select row age of attraction reunion 20K+ 300% 14 hours ago Active age of attraction couples See 2 additional items Search interest graph"
+              - gridcell "Select row" [ref=e128]
+              - gridcell "age of attraction reunion" [ref=e129]
+              - gridcell "20K+ 300%" [ref=e130]
+              - gridcell "14 hours ago Active" [ref=e131]
+                - button "14 hours ago" [ref=e208]
+              - gridcell "age of attraction couples See 2 additional items" [ref=e132]
+                - button "See 2 additional items" [ref=e209]
+              - gridcell "Search interest graph" [ref=e133]
+            - row "Select row forgotten island 10K+ 200% 16 hours ago Active Search interest graph"
+              - gridcell "Select row" [ref=e134]
+              - gridcell "forgotten island" [ref=e135]
+              - gridcell "10K+ 200%" [ref=e136]
+              - gridcell "16 hours ago Active" [ref=e137]
+                - button "16 hours ago" [ref=e210]
+              - gridcell
+              - gridcell "Search interest graph" [ref=e138]
+            - row "Select row mlb games 100K+ 100% 21 hours ago Active yankees - giants yankees game giants game See 31 additional items Search interest graph"
+              - gridcell "Select row" [ref=e139]
+              - gridcell "mlb games" [ref=e140]
+              - gridcell "100K+ 100%" [ref=e141]
+              - gridcell "21 hours ago Active" [ref=e142]
+                - button "21 hours ago" [ref=e211]
+              - gridcell "yankees - giants yankees game giants game See 31 additional items" [ref=e143]
+                - button "See 31 additional items" [ref=e212]
+              - gridcell "Search interest graph" [ref=e144]
+            - row "Select row wizards vs jazz 10K+ 900% 7 hours ago Active Search interest graph"
+              - gridcell "Select row" [ref=e145]
+              - gridcell "wizards vs jazz" [ref=e146]
+              - gridcell "10K+ 900%" [ref=e147]
+              - gridcell "7 hours ago Active" [ref=e148]
+                - button "7 hours ago" [ref=e213]
+              - gridcell
+              - gridcell "Search interest graph" [ref=e149]
+            - row "Select row noelia castillo ramos 5K+ 200% 11 hours ago Active noelia castillo eutanasia Search interest graph"
+              - gridcell "Select row" [ref=e150]
+              - gridcell "noelia castillo ramos" [ref=e151]
+              - gridcell "5K+ 200%" [ref=e152]
+              - gridcell "11 hours ago Active" [ref=e153]
+                - button "11 hours ago" [ref=e214]
+              - gridcell "noelia castillo eutanasia" [ref=e154]
+              - gridcell "Search interest graph" [ref=e155]
+            - row "Select row nasa $20 billion moon base 20K+ 300% 16 hours ago Active nasa moon base moon base nasa moon Search interest graph"
+              - gridcell "Select row" [ref=e156]
+              - gridcell "nasa $20 billion moon base" [ref=e157]
+              - gridcell "20K+ 300%" [ref=e158]
+              - gridcell "16 hours ago Active" [ref=e159]
+                - button "16 hours ago" [ref=e215]
+              - gridcell "nasa moon base moon base nasa moon" [ref=e160]
+              - gridcell "Search interest graph" [ref=e161]
+            - row "Select row meta social media addiction trial 20K+ 500% 11 hours ago Active mark zuckerberg meta lawsuit social media trial See 4 additional items Search interest graph"
+              - gridcell "Select row" [ref=e162]
+              - gridcell "meta social media addiction trial" [ref=e163]
+              - gridcell "20K+ 500%" [ref=e164]
+              - gridcell "11 hours ago Active" [ref=e165]
+                - button "11 hours ago" [ref=e216]
+              - gridcell "mark zuckerberg meta lawsuit social media trial See 4 additional items" [ref=e166]
+                - button "See 4 additional items" [ref=e217]
+              - gridcell "Search interest graph" [ref=e167]
+          - generic
+            - StaticText "Rows per page"
+          - generic
+            - generic
+              - combobox "Rows per page" [expanded=false, ref=e168]: 25
+          - status "Showing 1 to 25 of 353 rows"
+          - button "Go to first page" [disabled, ref=e13]
+            - generic
+            - generic
+          - button "Go to previous page" [disabled, ref=e14]
+            - generic
+            - generic
+          - button "Go to next page" [ref=e15]
+            - generic
+            - generic
+          - button "Go to last page" [ref=e16]
+            - generic
+            - generic
+        - generic
+      - contentinfo
+        - image "Google"
+        - link "Privacy Opens a new tab" [ref=e4]
+          - StaticText "Privacy"
+        - link "Terms Opens a new tab" [ref=e5]
+          - StaticText "Terms"
+        - button "Send feedback" [ref=e6]
+          - StaticText "Send feedback"
+        - link "About Opens a new tab" [ref=e7]
+          - StaticText "About"
+        - link "Help Opens a new tab" [ref=e8]
+          - StaticText "Help"
+        - generic
+          - generic
+            - generic
+              - combobox "Select language" [expanded=false, ref=e169]: English (United States)‎
+      - generic
+        - generic
+          - StaticText "This site uses cookies from Google to deliver and enhance the quality of its services and to analyze traffic"
+        - generic
+          - generic
+            - link "Learn more" [ref=e19]
+        - generic
+          - button "Got it" [ref=e17]

@@ -1,0 +1,321 @@
+- generic
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。" [ref=e1]
+  - generic
+    - generic
+  - generic
+    - generic
+      - generic
+        - link "到百度首页" [ref=e2]
+          - image "到百度首页"
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                  - generic
+                  - generic
+                    - generic
+                      - generic
+                      - generic
+                        - textbox [ref=e93]: 中科躬行 招投标
+                          - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                          - generic
+                          - generic
+                        - button "百度一下" [ref=e94]
+                          - StaticText "百度一下"
+                    - generic
+                      - generic
+      - generic
+        - link "百度首页" [ref=e3]
+          - StaticText "百度首页"
+        - link "设置" [ref=e4]
+          - StaticText "设置"
+        - link "登录" [ref=e5]
+          - StaticText "登录"
+    - generic
+    - generic
+      - generic
+        - link [ref=e6]
+          - image
+        - StaticText "网页"
+        - link "图片" [ref=e7]
+          - StaticText "图片"
+        - link "资讯" [ref=e8]
+          - StaticText "资讯"
+        - link "视频" [ref=e9]
+          - StaticText "视频"
+        - link "笔记" [ref=e10]
+          - StaticText "笔记"
+        - link "地图" [ref=e11]
+          - StaticText "地图"
+        - link "贴吧" [ref=e12]
+          - StaticText "贴吧"
+        - link "文库" [ref=e13]
+          - StaticText "文库"
+        - link "更多" [ref=e14]
+          - StaticText "更多"
+        - generic
+          - StaticText "搜索工具"
+    - generic
+      - generic
+        - generic
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "相关搜索  中正招标  国采招标(深圳)有限公司  中国工程物理研究院招投标  中科标禾工程项目管理有限公司  浙江中科智能工程技术有限公司  广东国采招标咨询有限公司    换一换 热搜榜 民生榜 财经榜  为山川大地增添锦绣 1"
+                - generic
+                  - generic
+                    - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                            - link " 中正招标" [ref=e113]
+                          - generic
+                            - link " 国采招标(深圳)有限公司" [ref=e114]
+                          - generic
+                            - link " 中国工程物理研究院招投标" [ref=e115]
+                          - generic
+                            - link " 中科标禾工程项目管理有限公司" [ref=e116]
+                          - generic
+                            - link " 浙江中科智能工程技术有限公司" [ref=e117]
+                          - generic
+                            - link " 广东国采招标咨询有限公司" [ref=e118]
+                  - generic
+                    - generic
+                      - generic
+                        - link " " [ref=e95]
+                        - generic
+                          - link " 换一换" [ref=e96]
+                      - generic
+                        - generic
+                        - generic
+                        - generic
+                      - generic
+                        - generic
+                          - link "为山川大地增添锦绣" [ref=e97]
+                      - generic
+                        - generic
+                          - link "张雪机车一战封神" [ref=e98]
+                      - generic
+                        - generic
+                          - link "买安眠药收注销驾驶证短信 交警回应" [ref=e99]
+                      - generic
+                        - generic
+                          - link "从一线到中小城市 入境游持续升温" [ref=e100]
+                      - generic
+                        - generic
+                          - link "张雪称将吃掉国际大牌超50%份额" [ref=e101]
+                      - generic
+                        - generic
+                          - link "央视调查烧秸秆屡禁不止" [ref=e102]
+                      - generic
+                        - generic
+                          - link "伊朗议会批准对霍尔木兹海峡收通行费" [ref=e103]
+                      - generic
+                        - generic
+                          - link "午睡超过这个时间 真的会越睡越累" [ref=e104]
+                      - generic
+                        - generic
+                          - link "花上万办卡 被按摩到癌细胞扩散" [ref=e105]
+                      - generic
+                        - generic
+                          - link "贵州茅台宣布涨价" [ref=e106]
+                      - generic
+                        - generic
+                          - link "牛奶价格卷起来了" [ref=e107]
+                      - generic
+                        - generic
+                          - link "高三男孩喀纳斯湖失踪系谣言" [ref=e108]
+                      - generic
+                        - generic
+                          - link "国际油价大涨" [ref=e109]
+                      - generic
+                        - generic
+                          - link "伊朗：打击美军指挥中心" [ref=e110]
+                      - generic
+                        - generic
+                          - link "《跳楼机》原唱深夜发文称忍不下了" [ref=e111]
+                      - generic
+                        - generic
+                          - link "“这一刻我等了20年！我们赢了”" [ref=e112]
+                - generic
+        - generic
+          - generic
+            - generic
+              - generic
+                - heading "「中科躬行(北京)...招聘」2026年中科躬行(北京)...招聘信息-BOSS..." [level=3, ref=e42]
+                  - link "「中科躬行(北京)...招聘」2026年中科躬行(北京)...招聘信息-BOSS..." [ref=e67]
+                - generic
+                - generic
+                  - link "BOSS直聘" [ref=e68]
+          - generic
+            - generic
+              - generic
+                - heading "中国科学技术协会重大主题活动宣传和媒体报道项目公开招标公告" [level=3, ref=e43]
+                  - link "中国科学技术协会重大主题活动宣传和媒体报道项目公开招标公告" [ref=e69]
+                - generic
+                - generic
+                  - link "头像 中国政府采购网" [ref=e70]
+          - generic
+            - heading "中科躬行(北京)科技有限公司，公司，百度百科" [level=3, ref=e26]
+              - link "中科躬行(北京)科技有限公司，公司，百度百科" [ref=e33]
+                - emphasis
+                - StaticText "（北京）科技有限公司 - 百度百科"
+            - generic
+              - generic "查看更多内容"
+                - link "查看更多内容" [ref=e44]
+              - generic
+                - generic "中科躬行（北京）科技有限公司，是一家成立于2020年1月2日的其他有限责任公司，位于北京市昌平区未来科学城滨河大道3号院2号楼1101，法定代表人为刘福刚。公司由青岛中科躬行教育服务中心（有限合伙）持股65%、刘福刚持股35%，主营业务为科技推广和应用服务业，具体包括技术服务、技术开发、软件开发、企业管理咨询等。2024年1月，公司住所及经营范围发生变更。公司对外投资了3家企业，拥有15条商标信息及2条软件著作权。公司为科技与教育相结合的综合性服务企业，涉及人工智能、虚拟现实、大数据等领域。"
+                - generic
+                  - link "公司简介" [ref=e71]
+                  - link "历史沿革" [ref=e72]
+                  - link "主营业务" [ref=e73]
+                  - link "公司治理" [ref=e74]
+                  - link "知识产权" [ref=e75]
+                  - link "点击可查看更多内容" [ref=e76]
+                - generic
+                  - link "百度百科" [ref=e77]
+                - generic
+          - generic
+            - generic
+              - StaticText "大家还在搜"
+            - generic
+              - link "中正招标" [ref=e34]
+                - StaticText "中正招标"
+              - link "国采招标(深圳)有限公司" [ref=e35]
+                - StaticText "国采招标(深圳)有限公司"
+              - link "中国工程物理研究院招投标" [ref=e36]
+                - StaticText "中国工程物理研究院招投标"
+              - link "中科标禾工程项目管理有限公司" [ref=e37]
+                - StaticText "中科标禾工程项目管理有限公司"
+              - link "浙江中科智能工程技术有限公司" [ref=e38]
+                - StaticText "浙江中科智能工程技术有限公司"
+              - link "广东国采招标咨询有限公司" [ref=e39]
+                - StaticText "广东国采招标咨询有限公司"
+          - generic
+            - generic
+              - generic
+                - heading "中科星图(688568):中标象山县大目湾新城投资开发有限公司采购项目..." [level=3, ref=e45]
+                  - link "中科星图(688568):中标象山县大目湾新城投资开发有限公司采购项目..." [ref=e78]
+                - generic
+                  - StaticText "星图股份有限公司于2026年3月26日公告中标象山县大目湾新城投资开发有限公司采购项目,中标金额为1898.00万元。 相关上市公司:中科星图(688568.SH) 同壁财经小贴士: 中科星图(688568.SH)2024年营业..."
+                - generic
+                  - link "同花顺财经" [ref=e79]
+          - generic
+            - generic
+              - generic
+                - heading "中国科学技术大学人工晶体配送服务第1包招标公告(二次)" [level=3, ref=e46]
+                  - link "中国科学技术大学人工晶体配送服务第1包招标公告(二次)" [ref=e80]
+                - generic
+                - generic
+                  - link "头像 中国政府采购网" [ref=e81]
+          - generic
+            - heading "中科躬行(青岛)计算机教育培训学校有限公司，公司，百度百科" [level=3, ref=e27]
+              - link "中科躬行(青岛)计算机教育培训学校有限公司，公司，百度百科" [ref=e40]
+                - emphasis
+                - StaticText "（青岛）计算机教育培训学校有限公司 - 百度百科"
+            - generic
+              - generic "查看更多内容"
+                - link "查看更多内容" [ref=e47]
+              - generic
+                - generic "中科躬行（青岛）计算机教育培训学校有限公司成立于2020年5月13日，位于山东省青岛市胶州市大沽河省级生态旅游度假区创新创业服务基地，是一家以从事教育为主的其他有限责任公司。法定代表人刘福刚，注册资本100万人民币，实缴资本16万人民币，国标行业为职业技能培训，企业规模为小型。公司经营范围包括人工智能、计算机应用与开发培训。公司由中科躬行(北京)科技有限公司持股60%、青岛中科躬行教育服务中心(有限合伙)持股40%。主要人员包括刘福刚（董事长兼总经理）、吴文军、王刚、张秋萍、郭海鹏、马智。2021年4月16日，公司发生主要成员变更，崔春雨退出，吴文军新增加入。"
+                - generic
+                  - link "公司简介" [ref=e82]
+                  - link "历史沿革" [ref=e83]
+                  - link "组织架构" [ref=e84]
+                  - link "经营范围" [ref=e85]
+                  - link "经营状况" [ref=e86]
+                  - link "点击可查看更多内容" [ref=e87]
+                - generic
+                  - link "百度百科" [ref=e88]
+                - generic
+          - generic
+            - heading "标题:江西中科躬行信息技术服务有限公司-企业信息" [level=3, ref=e28]
+              - link "标题:江西中科躬行信息技术服务有限公司-企业信息" [ref=e41]
+                - StaticText "江西"
+                - emphasis
+                - StaticText "信息技术服务有限公司-企业信息"
+            - generic
+              - generic
+                - link [ref=e48]
+              - generic
+                - paragraph
+                - link "工商信息" [ref=e49]
+                - link "认领企业" [ref=e50]
+                - link "经营状况" [ref=e51]
+                - link "企业年报" [ref=e52]
+                - link "企业股东" [ref=e53]
+                - link "来源：以上信息来源爱企查，一个专业免费的企业信息查询平台" [ref=e54]
+          - generic
+            - generic
+              - generic
+                - heading "中科躬行(北京)科技有限公司怎么样 - 职友集" [level=3, ref=e55]
+                  - link "中科躬行(北京)科技有限公司怎么样 - 职友集" [ref=e89]
+                - generic
+                - generic
+                  - link "头像 职友集" [ref=e90]
+          - generic
+            - generic
+              - generic
+                - heading "新乡市政府采购网" [level=3, ref=e56]
+                  - link "新乡市政府采购网" [ref=e91]
+                - generic
+                  - StaticText "公共服务平台》、《河南省政府采购网》和《新乡市公共资源交易中心网》上发布。 十一、其他补充事宜: ..."
+                - generic
+                  - link "头像 新乡市政府采购网" [ref=e92]
+        - generic
+          - generic
+            - StaticText "相关搜索"
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "中正招标"
+                - link "中正招标" [ref=e57]
+              - LayoutTableCell "国采招标(深圳)有限公司"
+                - link "国采招标(深圳)有限公司" [ref=e58]
+            - LayoutTableRow
+              - LayoutTableCell "中国工程物理研究院招投标"
+                - link "中国工程物理研究院招投标" [ref=e59]
+              - LayoutTableCell "中科标禾工程项目管理有限公司"
+                - link "中科标禾工程项目管理有限公司" [ref=e60]
+            - LayoutTableRow
+              - LayoutTableCell "浙江中科智能工程技术有限公司"
+                - link "浙江中科智能工程技术有限公司" [ref=e61]
+              - LayoutTableCell "广东国采招标咨询有限公司"
+                - link "广东国采招标咨询有限公司" [ref=e62]
+            - LayoutTableRow
+              - LayoutTableCell "浙江国际技术设备招标有限公司"
+                - link "浙江国际技术设备招标有限公司" [ref=e63]
+              - LayoutTableCell "杭州中浙招标有限公司"
+                - link "杭州中浙招标有限公司" [ref=e64]
+            - LayoutTableRow
+              - LayoutTableCell "中科躬行(北京)科技有限公司"
+                - link "中科躬行(北京)科技有限公司" [ref=e65]
+              - LayoutTableCell "云采招阳招标平台"
+                - link "云采招阳招标平台" [ref=e66]
+      - generic
+        - generic
+          - link "上一页" [ref=e15]
+          - strong
+          - link "2" [ref=e16]
+          - link "3" [ref=e17]
+          - link "4" [ref=e18]
+          - link "5" [ref=e19]
+          - link "6" [ref=e20]
+          - link "7" [ref=e21]
+          - link "8" [ref=e22]
+          - link "9" [ref=e23]
+          - link "10" [ref=e24]
+          - link "下一页" [ref=e25]
+      - generic
+      - generic
+        - generic
+          - generic
+            - link "帮助" [ref=e29]
+            - link "举报" [ref=e30]
+            - link "用户反馈" [ref=e31]
+            - link "企业推广" [ref=e32]

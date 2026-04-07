@@ -1,0 +1,390 @@
+- generic
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。" [ref=e1]
+  - generic
+    - generic
+  - generic
+    - generic
+      - generic
+        - link "到百度首页" [ref=e2]
+          - image "到百度首页"
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                  - generic
+                  - generic
+                    - generic
+                      - generic
+                      - generic
+                        - textbox [ref=e77]: 中科躬行 法院公告
+                          - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                          - generic
+                          - generic
+                        - button "百度一下" [ref=e78]
+                          - StaticText "百度一下"
+                    - generic
+                      - generic
+      - generic
+        - link "百度首页" [ref=e3]
+          - StaticText "百度首页"
+        - link "设置" [ref=e4]
+          - StaticText "设置"
+        - link "登录" [ref=e5]
+          - StaticText "登录"
+    - generic
+    - generic
+      - generic
+        - link [ref=e6]
+          - image
+        - StaticText "网页"
+        - link "图片" [ref=e7]
+          - StaticText "图片"
+        - link "资讯" [ref=e8]
+          - StaticText "资讯"
+        - link "视频" [ref=e9]
+          - StaticText "视频"
+        - link "笔记" [ref=e10]
+          - StaticText "笔记"
+        - link "地图" [ref=e11]
+          - StaticText "地图"
+        - link "贴吧" [ref=e12]
+          - StaticText "贴吧"
+        - link "文库" [ref=e13]
+          - StaticText "文库"
+        - link "更多" [ref=e14]
+          - StaticText "更多"
+        - generic
+          - StaticText "搜索工具"
+    - generic
+      - generic
+        - generic
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "相关搜索  法院公告查询  中国法院公告网  中科院华伟公示  法院公告是什么意思  被法院公告是什么后果  中科云网股吧002306    换一换 热搜榜 民生榜 财经榜  为山川大地增添锦绣 1"
+                - generic
+                  - generic
+                    - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                            - link " 法院公告查询" [ref=e97]
+                          - generic
+                            - link " 中国法院公告网" [ref=e98]
+                          - generic
+                            - link " 中科院华伟公示" [ref=e99]
+                          - generic
+                            - link " 法院公告是什么意思" [ref=e100]
+                          - generic
+                            - link " 被法院公告是什么后果" [ref=e101]
+                          - generic
+                            - link " 中科云网股吧002306" [ref=e102]
+                  - generic
+                    - generic
+                      - generic
+                        - link " " [ref=e79]
+                        - generic
+                          - link " 换一换" [ref=e80]
+                      - generic
+                        - generic
+                        - generic
+                        - generic
+                      - generic
+                        - generic
+                          - link "为山川大地增添锦绣" [ref=e81]
+                      - generic
+                        - generic
+                          - link "张雪机车一战封神" [ref=e82]
+                      - generic
+                        - generic
+                          - link "买安眠药收注销驾驶证短信 交警回应" [ref=e83]
+                      - generic
+                        - generic
+                          - link "从一线到中小城市 入境游持续升温" [ref=e84]
+                      - generic
+                        - generic
+                          - link "张雪称将吃掉国际大牌超50%份额" [ref=e85]
+                      - generic
+                        - generic
+                          - link "央视调查烧秸秆屡禁不止" [ref=e86]
+                      - generic
+                        - generic
+                          - link "伊朗议会批准对霍尔木兹海峡收通行费" [ref=e87]
+                      - generic
+                        - generic
+                          - link "午睡超过这个时间 真的会越睡越累" [ref=e88]
+                      - generic
+                        - generic
+                          - link "贵州茅台宣布涨价" [ref=e89]
+                      - generic
+                        - generic
+                          - link "牛奶价格卷起来了" [ref=e90]
+                      - generic
+                        - generic
+                          - link "“这一刻我等了20年！我们赢了”" [ref=e91]
+                      - generic
+                        - generic
+                          - link "高三男孩喀纳斯湖失踪系谣言" [ref=e92]
+                      - generic
+                        - generic
+                          - link "国际油价大涨" [ref=e93]
+                      - generic
+                        - generic
+                          - link "伊朗：打击美军指挥中心" [ref=e94]
+                      - generic
+                        - generic
+                          - link "花上万办卡 被按摩到癌细胞扩散" [ref=e95]
+                      - generic
+                        - generic
+                          - link "《跳楼机》原唱深夜发文称忍不下了" [ref=e96]
+                - generic
+        - generic
+          - generic
+            - generic
+              - generic
+                - heading "公告办理 - 人民法院公告网" [level=3, ref=e38]
+                  - link "公告办理 - 人民法院公告网" [ref=e57]
+                    - paragraph
+                - generic
+                  - StaticText "2天前"
+                  - StaticText "友情链接 : 最高人民"
+                  - emphasis
+                    - StaticText "法院"
+                  - StaticText " 人民"
+                  - emphasis
+                    - StaticText "法院"
+                  - StaticText "报 中国"
+                  - emphasis
+                    - StaticText "法院"
+                  - StaticText "网 中国庭审公开网 中国审判流程信息公开网 中国裁判文书网 中国执行信息公开网公告查询:010-67550885/6/7 投诉:010-67550860 地址:北京市东城区东花市北里西区22号东 邮政编码:100062 最高人民法院 人民法院新闻传媒总社 版权所有 京ICP备05023036号"
+                - generic
+                  - link "头像 人民法院公告网" [ref=e58]
+                    - generic
+                    - StaticText "人民法院公告网"
+          - generic
+            - generic
+              - generic
+                - heading "光明网法院公告" [level=3, ref=e39]
+                  - link "光明网法院公告" [ref=e59]
+                    - paragraph
+                - generic
+                  - emphasis
+                    - StaticText "中科"
+                  - StaticText "思成建设集团有限责任公司牡丹江分公司:本院受理原告张于与被告中科思成建设集团有限责任公司牡丹江分公司劳动争议纠纷一案,案号(2025)黑1005民初878号,现依法向你你下落不明,现"
+                  - emphasis
+                    - StaticText "公告"
+                  - StaticText "向你送达起诉状副本、应诉通知书、举证通知书、诉讼风险提示书、开庭传票、廉政监督卡,黄秋玲向本院提出诉讼请求如下:1.被告向原告..."
+                - generic
+                  - link "courtgg.gmw.cn/deta...php?gg_info=..." [ref=e60]
+                    - StaticText "courtgg.gmw.cn/deta...php?gg_info=..."
+          - generic
+            - generic
+              - generic
+                - heading "...纠纷持续发酵 东方中科股东万里锦程全部持股遭司法冻结|速读公告" [level=3, ref=e40]
+                  - link "...纠纷持续发酵 东方中科股东万里锦程全部持股遭司法冻结|速读公告" [ref=e61]
+                    - paragraph
+                - generic
+                  - StaticText "2025年10月8日"
+                  - StaticText "东方"
+                  - emphasis
+                    - StaticText "中科"
+                  - StaticText "在"
+                  - emphasis
+                    - StaticText "公告"
+                  - StaticText "中强调，万里锦程非控股股东或实控人，股份冻结不影响公司控制权变更及日常经营，但也坦言此次冻结股份事项对前述业绩承诺补偿事项的影响将取决于仲裁裁决的结果及其执行情况。此次冻结能否打破持续两年的僵局，仍需等待仲裁裁决及"
+                  - emphasis
+                    - StaticText "法院"
+                  - StaticText "后续程序的推进，财联社记者将保持关注。（财联社记者 张校毓）"
+                - generic
+                  - link "头像  财联社" [ref=e62]
+                    - generic
+                    - StaticText "财联社"
+          - generic
+            - generic
+              - StaticText "大家还在搜"
+            - generic
+              - link "法院公告查询" [ref=e30]
+                - StaticText "法院公告查询"
+              - link "中国法院公告网" [ref=e31]
+                - StaticText "中国法院公告网"
+              - link "中科院华伟公示" [ref=e32]
+                - StaticText "中科院华伟公示"
+              - link "法院公告是什么意思" [ref=e33]
+                - StaticText "法院公告是什么意思"
+              - link "被法院公告是什么后果" [ref=e34]
+                - StaticText "被法院公告是什么后果"
+              - link "中科云网股吧002306" [ref=e35]
+                - StaticText "中科云网股吧002306"
+              - link "成会明 中科院" [ref=e36]
+                - StaticText "成会明 中科院"
+              - link "中科信息最新消息" [ref=e37]
+                - StaticText "中科信息最新消息"
+          - generic
+            - generic
+              - generic
+                - heading "广州市番禺区人民法院" [level=3, ref=e41]
+                  - link "广州市番禺区人民法院" [ref=e63]
+                    - paragraph
+                - generic
+                  - StaticText "2024年8月12日"
+                  - StaticText "本院受理的原告彭兴凯与被告"
+                  - emphasis
+                    - StaticText "中科"
+                  - StaticText "智慧健康(广州)科技发展有限责任公司买卖合同纠纷一案,因依《中华人民共和国民事诉讼法》规定的其它送达方式无法向你送达,本院根据该法第九十五条的规定,向你"
+                  - emphasis
+                    - StaticText "公告"
+                  - StaticText "送达(2024)粤0113民初5356号民事裁定书。本院裁定如下:驳回原告彭兴凯的起诉。本公告自发出之日起,经过三十天,即视为送达。"
+                - generic
+                  - link "头像 广州市番禺区人民法院" [ref=e64]
+                    - generic
+                    - StaticText "广州市番禺区人民法院"
+          - generic
+            - generic
+              - generic
+                - heading "(2025)粤0308行审5799号等58案公告-送达公告-深圳市盐田区人民法院" [level=3, ref=e42]
+                  - link "(2025)粤0308行审5799号等58案公告-送达公告-深圳市盐田区人民法院" [ref=e65]
+                    - paragraph
+                - generic
+                  - StaticText "2025年6月20日"
+                  - StaticText "(2025)粤0308行审5799号等58案公告 广东省深圳市盐田区人民"
+                  - emphasis
+                    - StaticText "法院 公告"
+                  - StaticText " 本院审结的行政非诉审查案件中作出的裁判文书(详见附表)。因已穷尽其他方式仍无法送达,依照《中华人民共和国行政诉讼法》第一百零一条,参照《中华人民共和国民事诉讼法》第九十五条之规定,现依法公告送达。自本公告发出之日起,经过三十日即视为..."
+                - generic
+                  - link "头像 审判网" [ref=e66]
+                    - generic
+                    - StaticText "审判网"
+          - generic
+            - generic
+              - generic
+                - heading "北京中科奥森科技有限公司与国家知识产权局等发明专利权无效行政..." [level=3, ref=e43]
+                  - link "北京中科奥森科技有限公司与国家知识产权局等发明专利权无效行政..." [ref=e67]
+                    - paragraph
+                - generic
+                  - StaticText "最高人民"
+                  - emphasis
+                    - StaticText "法院"
+                  - StaticText "行政判决书 (2021)最高法知行终556号 上诉人(一审原告、专利权人):北京"
+                  - emphasis
+                    - StaticText "中科"
+                  - StaticText "奥森科技有限公司。住所地:北京市海淀区白家疃尚峰园2号楼4层511。 法定代表人:李子青,该公司执行董事。 委托诉讼代理人:付建军,北京市隆安律师事务所律师。 委托诉讼代理人:郑孝军,北京市隆安(株洲)律师事务所律师。"
+                - generic
+                  - link "头像 中华人民共和国最高人民法院公报" [ref=e68]
+                    - generic
+                    - StaticText "中华人民共和国最高人民法院公报"
+          - generic
+            - generic
+              - generic
+                - heading "重庆市涪陵区人民法院公告" [level=3, ref=e44]
+                  - link "重庆市涪陵区人民法院公告" [ref=e69]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e73]
+                  - generic
+                    - StaticText "2026年2月5日"
+                    - StaticText "(居民身份证号码512301197104262715):本院受理原告重庆股份转让中心有限责任公司诉被告王小琴、黄一峰、重庆市"
+                    - emphasis
+                    - StaticText "控股有限公司、重庆玮晨商贸股份有限公司证券纠纷一案,因采用其他方式无法送达,依照《中华人民共和国民事诉讼法》第九十五条的规定,现依法向被告王小琴、黄一峰"
+                    - emphasis
+                    - StaticText "送达民事起诉状副本、应诉通知书、举证通知书..."
+                  - generic
+                    - generic
+                      - link "头像 法治网" [ref=e75]
+          - generic
+            - generic
+              - generic
+                - heading "国科控股作为被告/被上诉人的1起涉及请求公司收购股份纠纷的诉讼..." [level=3, ref=e45]
+                  - link "国科控股作为被告/被上诉人的1起涉及请求公司收购股份纠纷的诉讼..." [ref=e70]
+                    - paragraph
+                - generic
+                  - StaticText "2025年4月20日"
+                  - StaticText "审理"
+                  - emphasis
+                    - StaticText "法院"
+                  - StaticText ":北京市第一中级人民法院 案由:请求公司收购股份纠纷 当事人信息: 原告/上诉人:北京"
+                  - emphasis
+                    - StaticText "中科"
+                  - StaticText "普惠科技发展有限公司 被告/被上诉人:中国科学院控股有限公司 开庭日期:2025年4月23日 根据统计,近一年内以中国科学院控股有限公司为当事人的历史开庭"
+                  - emphasis
+                    - StaticText "公告"
+                  - StaticText "有1则,其中案由为“请求公司收购股份纠纷”的公告以1则居首。"
+                - generic
+                  - link "证券之星" [ref=e71]
+                    - StaticText "证券之星"
+          - generic
+            - generic
+              - generic
+                - heading "辽宁省鞍山市立山区人民法院公告" [level=3, ref=e46]
+                  - link "辽宁省鞍山市立山区人民法院公告" [ref=e72]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e74]
+                  - generic
+                    - StaticText "2025年12月24日"
+                    - StaticText "辽宁"
+                    - emphasis
+                    - StaticText "鞍镓半导体科技有限公司:本院受理李正军申请追加中科北方投资发展有限公司、中贸融兴控股有限公司、辽宁智科实业有限公司为(2025)辽0304执1166号执行案件(申请执行人李正军与被执行人辽宁中科鞍镓半导体科技有限公司劳务合同纠纷)的被执行人,已审查终结,现依法向你们"
+                    - emphasis
+                    - StaticText "送达(2025)辽0304执异142号及(2025)辽0304..."
+                  - generic
+                    - generic
+                      - link "头像 法治网" [ref=e76]
+        - generic
+          - generic
+            - StaticText "相关搜索"
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "法院公告查询"
+                - link "法院公告查询" [ref=e47]
+              - LayoutTableCell "中国法院公告网"
+                - link "中国法院公告网" [ref=e48]
+            - LayoutTableRow
+              - LayoutTableCell "中科院华伟公示"
+                - link "中科院华伟公示" [ref=e49]
+              - LayoutTableCell "法院公告是什么意思"
+                - link "法院公告是什么意思" [ref=e50]
+            - LayoutTableRow
+              - LayoutTableCell "被法院公告是什么后果"
+                - link "被法院公告是什么后果" [ref=e51]
+              - LayoutTableCell "中科云网股吧002306"
+                - link "中科云网股吧002306" [ref=e52]
+            - LayoutTableRow
+              - LayoutTableCell "成会明 中科院"
+                - link "成会明 中科院" [ref=e53]
+              - LayoutTableCell "中科信息最新消息"
+                - link "中科信息最新消息" [ref=e54]
+            - LayoutTableRow
+              - LayoutTableCell "中科云网最新消息今天"
+                - link "中科云网最新消息今天" [ref=e55]
+              - LayoutTableCell "中科信息收购中科院资产"
+                - link "中科信息收购中科院资产" [ref=e56]
+      - generic
+        - generic
+          - link "上一页" [ref=e15]
+          - strong
+          - link "2" [ref=e16]
+          - link "3" [ref=e17]
+          - link "4" [ref=e18]
+          - link "5" [ref=e19]
+          - link "6" [ref=e20]
+          - link "7" [ref=e21]
+          - link "8" [ref=e22]
+          - link "9" [ref=e23]
+          - link "10" [ref=e24]
+          - link "下一页" [ref=e25]
+      - generic
+      - generic
+        - generic
+          - generic
+            - link "帮助" [ref=e26]
+            - link "举报" [ref=e27]
+            - link "用户反馈" [ref=e28]
+            - link "企业推广" [ref=e29]

@@ -1,0 +1,24 @@
+04-07 17:40:03 [SUCCESS] nonebot | NoneBot is initializing...
+04-07 17:40:03 [INFO] nonebot | Current Env: prod
+04-07 17:40:04 [SUCCESS] nonebot | Succeeded to load plugin "shared" from "plugins.shared"
+04-07 17:40:04 [SUCCESS] nonebot | Succeeded to load plugin "basic" from "plugins.basic"
+04-07 17:40:04 [SUCCESS] nonebot | Succeeded to load plugin "nonebot_plugin_apscheduler"
+04-07 17:40:04 [SUCCESS] nonebot | Succeeded to load plugin "group_summary" from "plugins.group_summary"
+04-07 17:40:04 [SUCCESS] nonebot | Succeeded to load plugin "read_aloud" from "plugins.read_aloud"
+04-07 17:40:04 [SUCCESS] nonebot | Succeeded to load plugin "group_pipeline" from "plugins.group_pipeline"
+04-07 17:40:04 [SUCCESS] nonebot | Succeeded to load plugin "image_generation" from "plugins.image_generation"
+04-07 17:40:04 [SUCCESS] nonebot | Succeeded to load plugin "mention_reply" from "plugins.mention_reply"
+04-07 17:40:04 [SUCCESS] nonebot | Succeeded to load plugin "basic_commands" from "plugins.basic_commands"
+04-07 17:40:04 [SUCCESS] nonebot | Succeeded to load plugin "recall_roaster" from "plugins.recall_roaster"
+04-07 17:40:04 [SUCCESS] nonebot | Succeeded to load plugin "news_digest" from "plugins.news_digest"
+04-07 17:40:04 [SUCCESS] nonebot | Succeeded to load plugin "image_to_image" from "plugins.image_to_image"
+04-07 17:40:04 [SUCCESS] nonebot | Running NoneBot...
+04-07 17:40:04 [SUCCESS] nonebot | Loaded adapters: OneBot V11
+04-07 17:40:04 [INFO] uvicorn | Started server process [812495]
+04-07 17:40:04 [INFO] uvicorn | Waiting for application startup.
+04-07 17:40:04 [INFO] nonebot_plugin_apscheduler | Scheduler Started
+04-07 17:40:04 [INFO] uvicorn | Application startup complete.
+04-07 17:40:04 [ERROR] uvicorn | [Errno 98] error while attempting to bind on address ('127.0.0.1', 8080): address already in use
+04-07 17:40:04 [INFO] uvicorn | Waiting for application shutdown.
+04-07 17:40:04 [INFO] nonebot_plugin_apscheduler | Scheduler Shutdown
+04-07 17:40:04 [INFO] uvicorn | Application shutdown complete.

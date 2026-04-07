@@ -1,0 +1,1048 @@
+  File "/usr/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 84, in websocket
+    async with connection as ws:
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/websockets/asyncio/client.py", line 590, in __aenter__
+    return await self
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/websockets/asyncio/client.py", line 544, in __await_impl__
+    self.connection = await self.create_connection()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/websockets/asyncio/client.py", line 470, in create_connection
+    _, connection = await loop.create_connection(factory, **kwargs)
+  File "uvloop/loop.pyx", line 2043, in create_connection
+    raise exceptions[0]
+  File "uvloop/loop.pyx", line 2020, in uvloop.loop.Loop.create_connection
+    await waiter
+ConnectionRefusedError: [Errno 111] Connection refused
+03-27 09:25:29 [ERROR] nonebot | OneBot V11 | Error while setup websocket to ws:
+//127.0.0.1:3001/. Trying to reconnect...
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/qq-bot-3371871293/bot.py", line 12, in <module
+>
+    nonebot.run()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/__init__.py", line 337, in run
+    get_driver().run(*args, **kwargs)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/fastapi.py", line 187, in run
+    uvicorn.run(
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/uvicorn/main.py", line 606, in run
+    server.run()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/uvicorn/server.py", line 75, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get
+_loop_factory())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+> File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/adapters/onebot/v11/adapter.py", line 343, in _forward_ws
+    async with self.websocket(request) as ws:
+  File "/usr/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/internal/adapter/adapter.py", line 99, in websocket
+    async with self.driver.websocket(setup) as ws:
+  File "/usr/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 84, in websocket
+    async with connection as ws:
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/websockets/asyncio/client.py", line 590, in __aenter__
+    return await self
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/websockets/asyncio/client.py", line 544, in __await_impl__
+    self.connection = await self.create_connection()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/websockets/asyncio/client.py", line 470, in create_connection
+    _, connection = await loop.create_connection(factory, **kwargs)
+  File "uvloop/loop.pyx", line 2043, in create_connection
+    raise exceptions[0]
+  File "uvloop/loop.pyx", line 2020, in uvloop.loop.Loop.create_connection
+    await waiter
+ConnectionRefusedError: [Errno 111] Connection refused
+03-27 09:25:32 [ERROR] nonebot | OneBot V11 | Error while setup websocket to ws:
+//127.0.0.1:3001/. Trying to reconnect...
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/qq-bot-3371871293/bot.py", line 12, in <module
+>
+    nonebot.run()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/__init__.py", line 337, in run
+    get_driver().run(*args, **kwargs)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/fastapi.py", line 187, in run
+    uvicorn.run(
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/uvicorn/main.py", line 606, in run
+    server.run()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/uvicorn/server.py", line 75, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get
+_loop_factory())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+> File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/adapters/onebot/v11/adapter.py", line 343, in _forward_ws
+    async with self.websocket(request) as ws:
+  File "/usr/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/internal/adapter/adapter.py", line 99, in websocket
+    async with self.driver.websocket(setup) as ws:
+  File "/usr/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 84, in websocket
+    async with connection as ws:
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/websockets/asyncio/client.py", line 590, in __aenter__
+    return await self
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/websockets/asyncio/client.py", line 544, in __await_impl__
+    self.connection = await self.create_connection()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/websockets/asyncio/client.py", line 470, in create_connection
+    _, connection = await loop.create_connection(factory, **kwargs)
+  File "uvloop/loop.pyx", line 2043, in create_connection
+    raise exceptions[0]
+  File "uvloop/loop.pyx", line 2020, in uvloop.loop.Loop.create_connection
+    await waiter
+ConnectionRefusedError: [Errno 111] Connection refused
+03-27 09:25:35 [ERROR] nonebot | OneBot V11 | Error while setup websocket to ws:
+//127.0.0.1:3001/. Trying to reconnect...
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/qq-bot-3371871293/bot.py", line 12, in <module
+>
+    nonebot.run()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/__init__.py", line 337, in run
+    get_driver().run(*args, **kwargs)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/fastapi.py", line 187, in run
+    uvicorn.run(
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/uvicorn/main.py", line 606, in run
+    server.run()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/uvicorn/server.py", line 75, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get
+_loop_factory())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+> File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/adapters/onebot/v11/adapter.py", line 343, in _forward_ws
+    async with self.websocket(request) as ws:
+  File "/usr/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/internal/adapter/adapter.py", line 99, in websocket
+    async with self.driver.websocket(setup) as ws:
+  File "/usr/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 84, in websocket
+    async with connection as ws:
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/websockets/asyncio/client.py", line 590, in __aenter__
+    return await self
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/websockets/asyncio/client.py", line 544, in __await_impl__
+    self.connection = await self.create_connection()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/websockets/asyncio/client.py", line 470, in create_connection
+    _, connection = await loop.create_connection(factory, **kwargs)
+  File "uvloop/loop.pyx", line 2043, in create_connection
+    raise exceptions[0]
+  File "uvloop/loop.pyx", line 2020, in uvloop.loop.Loop.create_connection
+    await waiter
+ConnectionRefusedError: [Errno 111] Connection refused
+03-27 09:25:38 [ERROR] nonebot | OneBot V11 | Error while setup websocket to ws:
+//127.0.0.1:3001/. Trying to reconnect...
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/qq-bot-3371871293/bot.py", line 12, in <module
+>
+    nonebot.run()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/__init__.py", line 337, in run
+    get_driver().run(*args, **kwargs)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/fastapi.py", line 187, in run
+    uvicorn.run(
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/uvicorn/main.py", line 606, in run
+    server.run()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/uvicorn/server.py", line 75, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get
+_loop_factory())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+> File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/adapters/onebot/v11/adapter.py", line 343, in _forward_ws
+    async with self.websocket(request) as ws:
+  File "/usr/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/internal/adapter/adapter.py", line 99, in websocket
+    async with self.driver.websocket(setup) as ws:
+  File "/usr/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 84, in websocket
+    async with connection as ws:
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/websockets/asyncio/client.py", line 590, in __aenter__
+    return await self
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/websockets/asyncio/client.py", line 544, in __await_impl__
+    self.connection = await self.create_connection()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/websockets/asyncio/client.py", line 470, in create_connection
+    _, connection = await loop.create_connection(factory, **kwargs)
+  File "uvloop/loop.pyx", line 2043, in create_connection
+    raise exceptions[0]
+  File "uvloop/loop.pyx", line 2020, in uvloop.loop.Loop.create_connection
+    await waiter
+ConnectionRefusedError: [Errno 111] Connection refused
+03-27 09:25:41 [ERROR] nonebot | OneBot V11 | Error while setup websocket to ws:
+//127.0.0.1:3001/. Trying to reconnect...
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/qq-bot-3371871293/bot.py", line 12, in <module
+>
+    nonebot.run()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/__init__.py", line 337, in run
+    get_driver().run(*args, **kwargs)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/fastapi.py", line 187, in run
+    uvicorn.run(
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/uvicorn/main.py", line 606, in run
+    server.run()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/uvicorn/server.py", line 75, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get
+_loop_factory())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+> File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/adapters/onebot/v11/adapter.py", line 343, in _forward_ws
+    async with self.websocket(request) as ws:
+  File "/usr/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/internal/adapter/adapter.py", line 99, in websocket
+    async with self.driver.websocket(setup) as ws:
+  File "/usr/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 84, in websocket
+    async with connection as ws:
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/websockets/asyncio/client.py", line 590, in __aenter__
+    return await self
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/websockets/asyncio/client.py", line 544, in __await_impl__
+    self.connection = await self.create_connection()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/websockets/asyncio/client.py", line 470, in create_connection
+    _, connection = await loop.create_connection(factory, **kwargs)
+  File "uvloop/loop.pyx", line 2043, in create_connection
+    raise exceptions[0]
+  File "uvloop/loop.pyx", line 2020, in uvloop.loop.Loop.create_connection
+    await waiter
+ConnectionRefusedError: [Errno 111] Connection refused
+03-27 09:25:44 [ERROR] nonebot | OneBot V11 | Error while setup websocket to ws:
+//127.0.0.1:3001/. Trying to reconnect...
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/qq-bot-3371871293/bot.py", line 12, in <module
+>
+    nonebot.run()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/__init__.py", line 337, in run
+    get_driver().run(*args, **kwargs)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/fastapi.py", line 187, in run
+    uvicorn.run(
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/uvicorn/main.py", line 606, in run
+    server.run()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/uvicorn/server.py", line 75, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get
+_loop_factory())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+> File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/adapters/onebot/v11/adapter.py", line 343, in _forward_ws
+    async with self.websocket(request) as ws:
+  File "/usr/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/internal/adapter/adapter.py", line 99, in websocket
+    async with self.driver.websocket(setup) as ws:
+  File "/usr/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 84, in websocket
+    async with connection as ws:
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/websockets/asyncio/client.py", line 590, in __aenter__
+    return await self
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/websockets/asyncio/client.py", line 544, in __await_impl__
+    self.connection = await self.create_connection()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/websockets/asyncio/client.py", line 470, in create_connection
+    _, connection = await loop.create_connection(factory, **kwargs)
+  File "uvloop/loop.pyx", line 2043, in create_connection
+    raise exceptions[0]
+  File "uvloop/loop.pyx", line 2020, in uvloop.loop.Loop.create_connection
+    await waiter
+ConnectionRefusedError: [Errno 111] Connection refused
+03-27 09:25:47 [ERROR] nonebot | OneBot V11 | Error while setup websocket to ws:
+//127.0.0.1:3001/. Trying to reconnect...
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/qq-bot-3371871293/bot.py", line 12, in <module
+>
+    nonebot.run()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/__init__.py", line 337, in run
+    get_driver().run(*args, **kwargs)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/fastapi.py", line 187, in run
+    uvicorn.run(
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/uvicorn/main.py", line 606, in run
+    server.run()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/uvicorn/server.py", line 75, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get
+_loop_factory())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+> File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/adapters/onebot/v11/adapter.py", line 343, in _forward_ws
+    async with self.websocket(request) as ws:
+  File "/usr/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/internal/adapter/adapter.py", line 99, in websocket
+    async with self.driver.websocket(setup) as ws:
+  File "/usr/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 84, in websocket
+    async with connection as ws:
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/websockets/asyncio/client.py", line 590, in __aenter__
+    return await self
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/websockets/asyncio/client.py", line 544, in __await_impl__
+    self.connection = await self.create_connection()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/websockets/asyncio/client.py", line 470, in create_connection
+    _, connection = await loop.create_connection(factory, **kwargs)
+  File "uvloop/loop.pyx", line 2043, in create_connection
+    raise exceptions[0]
+  File "uvloop/loop.pyx", line 2020, in uvloop.loop.Loop.create_connection
+    await waiter
+ConnectionRefusedError: [Errno 111] Connection refused
+03-27 09:25:50 [ERROR] nonebot | OneBot V11 | Error while setup websocket to ws:
+//127.0.0.1:3001/. Trying to reconnect...
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/qq-bot-3371871293/bot.py", line 12, in <module
+>
+    nonebot.run()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/__init__.py", line 337, in run
+    get_driver().run(*args, **kwargs)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/fastapi.py", line 187, in run
+    uvicorn.run(
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/uvicorn/main.py", line 606, in run
+    server.run()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/uvicorn/server.py", line 75, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get
+_loop_factory())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+> File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/adapters/onebot/v11/adapter.py", line 343, in _forward_ws
+    async with self.websocket(request) as ws:
+  File "/usr/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/internal/adapter/adapter.py", line 99, in websocket
+    async with self.driver.websocket(setup) as ws:
+  File "/usr/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 84, in websocket
+    async with connection as ws:
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/websockets/asyncio/client.py", line 590, in __aenter__
+    return await self
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/websockets/asyncio/client.py", line 544, in __await_impl__
+    self.connection = await self.create_connection()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/websockets/asyncio/client.py", line 470, in create_connection
+    _, connection = await loop.create_connection(factory, **kwargs)
+  File "uvloop/loop.pyx", line 2043, in create_connection
+    raise exceptions[0]
+  File "uvloop/loop.pyx", line 2020, in uvloop.loop.Loop.create_connection
+    await waiter
+ConnectionRefusedError: [Errno 111] Connection refused
+03-27 09:25:53 [ERROR] nonebot | OneBot V11 | Error while setup websocket to ws:
+//127.0.0.1:3001/. Trying to reconnect...
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/qq-bot-3371871293/bot.py", line 12, in <module
+>
+    nonebot.run()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/__init__.py", line 337, in run
+    get_driver().run(*args, **kwargs)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/fastapi.py", line 187, in run
+    uvicorn.run(
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/uvicorn/main.py", line 606, in run
+    server.run()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/uvicorn/server.py", line 75, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get
+_loop_factory())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+> File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/adapters/onebot/v11/adapter.py", line 343, in _forward_ws
+    async with self.websocket(request) as ws:
+  File "/usr/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/internal/adapter/adapter.py", line 99, in websocket
+    async with self.driver.websocket(setup) as ws:
+  File "/usr/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 84, in websocket
+    async with connection as ws:
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/websockets/asyncio/client.py", line 590, in __aenter__
+    return await self
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/websockets/asyncio/client.py", line 544, in __await_impl__
+    self.connection = await self.create_connection()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/websockets/asyncio/client.py", line 470, in create_connection
+    _, connection = await loop.create_connection(factory, **kwargs)
+  File "uvloop/loop.pyx", line 2043, in create_connection
+    raise exceptions[0]
+  File "uvloop/loop.pyx", line 2020, in uvloop.loop.Loop.create_connection
+    await waiter
+ConnectionRefusedError: [Errno 111] Connection refused
+03-27 09:25:56 [ERROR] nonebot | OneBot V11 | Error while setup websocket to ws:
+//127.0.0.1:3001/. Trying to reconnect...
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/qq-bot-3371871293/bot.py", line 12, in <module
+>
+    nonebot.run()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/__init__.py", line 337, in run
+    get_driver().run(*args, **kwargs)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/fastapi.py", line 187, in run
+    uvicorn.run(
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/uvicorn/main.py", line 606, in run
+    server.run()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/uvicorn/server.py", line 75, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get
+_loop_factory())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+> File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/adapters/onebot/v11/adapter.py", line 343, in _forward_ws
+    async with self.websocket(request) as ws:
+  File "/usr/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/internal/adapter/adapter.py", line 99, in websocket
+    async with self.driver.websocket(setup) as ws:
+  File "/usr/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 84, in websocket
+    async with connection as ws:
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/websockets/asyncio/client.py", line 590, in __aenter__
+    return await self
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/websockets/asyncio/client.py", line 544, in __await_impl__
+    self.connection = await self.create_connection()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/websockets/asyncio/client.py", line 470, in create_connection
+    _, connection = await loop.create_connection(factory, **kwargs)
+  File "uvloop/loop.pyx", line 2043, in create_connection
+    raise exceptions[0]
+  File "uvloop/loop.pyx", line 2020, in uvloop.loop.Loop.create_connection
+    await waiter
+ConnectionRefusedError: [Errno 111] Connection refused
+03-27 09:25:59 [ERROR] nonebot | OneBot V11 | WebSocket Closed
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 55, in decorator
+    return await func(*args, **kwargs)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 112, in receive
+    return await self.websocket.recv()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedOK: received 1005 (no status received [int
+ernal]); then sent 1005 (no status received [internal])
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/qq-bot-3371871293/bot.py", line 12, in <module
+>
+    nonebot.run()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/__init__.py", line 337, in run
+    get_driver().run(*args, **kwargs)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/fastapi.py", line 187, in run
+    uvicorn.run(
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/uvicorn/main.py", line 606, in run
+    server.run()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/uvicorn/server.py", line 75, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get
+_loop_factory())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+> File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/adapters/onebot/v11/adapter.py", line 350, in _forward_ws
+    data = await ws.receive()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 57, in decorator
+    raise WebSocketClosed(e.code, e.reason)
+nonebot.exception.WebSocketClosed: WebSocketClosed(code=1005)
+03-27 09:26:02 [ERROR] nonebot | OneBot V11 | WebSocket Closed
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 55, in decorator
+    return await func(*args, **kwargs)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 112, in receive
+    return await self.websocket.recv()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedOK: received 1005 (no status received [int
+ernal]); then sent 1005 (no status received [internal])
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/qq-bot-3371871293/bot.py", line 12, in <module
+>
+    nonebot.run()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/__init__.py", line 337, in run
+    get_driver().run(*args, **kwargs)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/fastapi.py", line 187, in run
+    uvicorn.run(
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/uvicorn/main.py", line 606, in run
+    server.run()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/uvicorn/server.py", line 75, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get
+_loop_factory())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+> File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/adapters/onebot/v11/adapter.py", line 350, in _forward_ws
+    data = await ws.receive()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 57, in decorator
+    raise WebSocketClosed(e.code, e.reason)
+nonebot.exception.WebSocketClosed: WebSocketClosed(code=1005)
+03-27 09:26:05 [ERROR] nonebot | OneBot V11 | WebSocket Closed
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 55, in decorator
+    return await func(*args, **kwargs)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 112, in receive
+    return await self.websocket.recv()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedOK: received 1005 (no status received [int
+ernal]); then sent 1005 (no status received [internal])
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/qq-bot-3371871293/bot.py", line 12, in <module
+>
+    nonebot.run()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/__init__.py", line 337, in run
+    get_driver().run(*args, **kwargs)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/fastapi.py", line 187, in run
+    uvicorn.run(
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/uvicorn/main.py", line 606, in run
+    server.run()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/uvicorn/server.py", line 75, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get
+_loop_factory())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+> File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/adapters/onebot/v11/adapter.py", line 350, in _forward_ws
+    data = await ws.receive()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 57, in decorator
+    raise WebSocketClosed(e.code, e.reason)
+nonebot.exception.WebSocketClosed: WebSocketClosed(code=1005)
+03-27 09:26:08 [ERROR] nonebot | OneBot V11 | WebSocket Closed
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 55, in decorator
+    return await func(*args, **kwargs)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 112, in receive
+    return await self.websocket.recv()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedOK: received 1005 (no status received [int
+ernal]); then sent 1005 (no status received [internal])
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/qq-bot-3371871293/bot.py", line 12, in <module
+>
+    nonebot.run()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/__init__.py", line 337, in run
+    get_driver().run(*args, **kwargs)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/fastapi.py", line 187, in run
+    uvicorn.run(
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/uvicorn/main.py", line 606, in run
+    server.run()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/uvicorn/server.py", line 75, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get
+_loop_factory())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+> File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/adapters/onebot/v11/adapter.py", line 350, in _forward_ws
+    data = await ws.receive()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 57, in decorator
+    raise WebSocketClosed(e.code, e.reason)
+nonebot.exception.WebSocketClosed: WebSocketClosed(code=1005)
+03-27 09:26:11 [ERROR] nonebot | OneBot V11 | WebSocket Closed
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 55, in decorator
+    return await func(*args, **kwargs)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 112, in receive
+    return await self.websocket.recv()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedOK: received 1005 (no status received [int
+ernal]); then sent 1005 (no status received [internal])
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/qq-bot-3371871293/bot.py", line 12, in <module
+>
+    nonebot.run()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/__init__.py", line 337, in run
+    get_driver().run(*args, **kwargs)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/fastapi.py", line 187, in run
+    uvicorn.run(
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/uvicorn/main.py", line 606, in run
+    server.run()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/uvicorn/server.py", line 75, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get
+_loop_factory())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+> File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/adapters/onebot/v11/adapter.py", line 350, in _forward_ws
+    data = await ws.receive()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 57, in decorator
+    raise WebSocketClosed(e.code, e.reason)
+nonebot.exception.WebSocketClosed: WebSocketClosed(code=1005)
+03-27 09:26:14 [ERROR] nonebot | OneBot V11 | WebSocket Closed
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 55, in decorator
+    return await func(*args, **kwargs)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 112, in receive
+    return await self.websocket.recv()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedOK: received 1005 (no status received [int
+ernal]); then sent 1005 (no status received [internal])
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/qq-bot-3371871293/bot.py", line 12, in <module
+>
+    nonebot.run()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/__init__.py", line 337, in run
+    get_driver().run(*args, **kwargs)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/fastapi.py", line 187, in run
+    uvicorn.run(
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/uvicorn/main.py", line 606, in run
+    server.run()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/uvicorn/server.py", line 75, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get
+_loop_factory())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+> File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/adapters/onebot/v11/adapter.py", line 350, in _forward_ws
+    data = await ws.receive()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 57, in decorator
+    raise WebSocketClosed(e.code, e.reason)
+nonebot.exception.WebSocketClosed: WebSocketClosed(code=1005)
+03-27 09:26:17 [ERROR] nonebot | OneBot V11 | WebSocket Closed
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 55, in decorator
+    return await func(*args, **kwargs)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 112, in receive
+    return await self.websocket.recv()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedOK: received 1005 (no status received [int
+ernal]); then sent 1005 (no status received [internal])
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/qq-bot-3371871293/bot.py", line 12, in <module
+>
+    nonebot.run()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/__init__.py", line 337, in run
+    get_driver().run(*args, **kwargs)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/fastapi.py", line 187, in run
+    uvicorn.run(
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/uvicorn/main.py", line 606, in run
+    server.run()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/uvicorn/server.py", line 75, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get
+_loop_factory())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+> File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/adapters/onebot/v11/adapter.py", line 350, in _forward_ws
+    data = await ws.receive()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 57, in decorator
+    raise WebSocketClosed(e.code, e.reason)
+nonebot.exception.WebSocketClosed: WebSocketClosed(code=1005)
+03-27 09:26:20 [ERROR] nonebot | OneBot V11 | WebSocket Closed
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 55, in decorator
+    return await func(*args, **kwargs)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 112, in receive
+    return await self.websocket.recv()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedOK: received 1005 (no status received [int
+ernal]); then sent 1005 (no status received [internal])
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/qq-bot-3371871293/bot.py", line 12, in <module
+>
+    nonebot.run()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/__init__.py", line 337, in run
+    get_driver().run(*args, **kwargs)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/fastapi.py", line 187, in run
+    uvicorn.run(
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/uvicorn/main.py", line 606, in run
+    server.run()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/uvicorn/server.py", line 75, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get
+_loop_factory())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+> File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/adapters/onebot/v11/adapter.py", line 350, in _forward_ws
+    data = await ws.receive()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 57, in decorator
+    raise WebSocketClosed(e.code, e.reason)
+nonebot.exception.WebSocketClosed: WebSocketClosed(code=1005)
+03-27 09:26:23 [ERROR] nonebot | OneBot V11 | WebSocket Closed
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 55, in decorator
+    return await func(*args, **kwargs)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 112, in receive
+    return await self.websocket.recv()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedOK: received 1005 (no status received [int
+ernal]); then sent 1005 (no status received [internal])
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/qq-bot-3371871293/bot.py", line 12, in <module
+>
+    nonebot.run()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/__init__.py", line 337, in run
+    get_driver().run(*args, **kwargs)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/fastapi.py", line 187, in run
+    uvicorn.run(
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/uvicorn/main.py", line 606, in run
+    server.run()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/uvicorn/server.py", line 75, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get
+_loop_factory())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+> File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/adapters/onebot/v11/adapter.py", line 350, in _forward_ws
+    data = await ws.receive()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 57, in decorator
+    raise WebSocketClosed(e.code, e.reason)
+nonebot.exception.WebSocketClosed: WebSocketClosed(code=1005)
+03-27 09:26:26 [ERROR] nonebot | OneBot V11 | WebSocket Closed
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 55, in decorator
+    return await func(*args, **kwargs)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 112, in receive
+    return await self.websocket.recv()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedOK: received 1005 (no status received [int
+ernal]); then sent 1005 (no status received [internal])
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/qq-bot-3371871293/bot.py", line 12, in <module
+>
+    nonebot.run()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/__init__.py", line 337, in run
+    get_driver().run(*args, **kwargs)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/fastapi.py", line 187, in run
+    uvicorn.run(
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/uvicorn/main.py", line 606, in run
+    server.run()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/uvicorn/server.py", line 75, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get
+_loop_factory())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+> File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/adapters/onebot/v11/adapter.py", line 350, in _forward_ws
+    data = await ws.receive()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 57, in decorator
+    raise WebSocketClosed(e.code, e.reason)
+nonebot.exception.WebSocketClosed: WebSocketClosed(code=1005)
+03-27 09:26:29 [ERROR] nonebot | OneBot V11 | WebSocket Closed
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 55, in decorator
+    return await func(*args, **kwargs)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 112, in receive
+    return await self.websocket.recv()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedOK: received 1005 (no status received [int
+ernal]); then sent 1005 (no status received [internal])
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/qq-bot-3371871293/bot.py", line 12, in <module
+>
+    nonebot.run()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/__init__.py", line 337, in run
+    get_driver().run(*args, **kwargs)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/fastapi.py", line 187, in run
+    uvicorn.run(
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/uvicorn/main.py", line 606, in run
+    server.run()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/uvicorn/server.py", line 75, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get
+_loop_factory())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+> File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/adapters/onebot/v11/adapter.py", line 350, in _forward_ws
+    data = await ws.receive()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 57, in decorator
+    raise WebSocketClosed(e.code, e.reason)
+nonebot.exception.WebSocketClosed: WebSocketClosed(code=1005)
+03-27 09:26:32 [ERROR] nonebot | OneBot V11 | WebSocket Closed
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 55, in decorator
+    return await func(*args, **kwargs)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 112, in receive
+    return await self.websocket.recv()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedOK: received 1005 (no status received [int
+ernal]); then sent 1005 (no status received [internal])
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/qq-bot-3371871293/bot.py", line 12, in <module
+>
+    nonebot.run()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/__init__.py", line 337, in run
+    get_driver().run(*args, **kwargs)
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/fastapi.py", line 187, in run
+    uvicorn.run(
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/uvicorn/main.py", line 606, in run
+    server.run()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/uvicorn/server.py", line 75, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get
+_loop_factory())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+> File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/adapters/onebot/v11/adapter.py", line 350, in _forward_ws
+    data = await ws.receive()
+  File "/root/.openclaw/workspace/qq-bot-3371871293/.venv/lib/python3.12/site-pa
+ckages/nonebot/drivers/websockets.py", line 57, in decorator
+    raise WebSocketClosed(e.code, e.reason)
+nonebot.exception.WebSocketClosed: WebSocketClosed(code=1005)
+

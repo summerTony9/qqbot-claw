@@ -1,0 +1,86 @@
+03-27 16:15:48 [SUCCESS] nonebot | NoneBot is initializing...
+03-27 16:15:48 [INFO] nonebot | Current Env: prod
+03-27 16:15:48 [SUCCESS] nonebot | Succeeded to load plugin "nonebot_plugin_apsc
+heduler"
+03-27 16:15:48 [SUCCESS] nonebot | Succeeded to load plugin "basic" from "plugin
+s.basic"
+03-27 16:15:48 [SUCCESS] nonebot | Running NoneBot...
+03-27 16:15:48 [SUCCESS] nonebot | Loaded adapters: OneBot V11
+03-27 16:15:48 [INFO] uvicorn | Started server process [494995]
+03-27 16:15:48 [INFO] uvicorn | Waiting for application startup.
+03-27 16:15:48 [INFO] nonebot_plugin_apscheduler | Scheduler Started
+03-27 16:15:48 [INFO] uvicorn | Application startup complete.
+03-27 16:15:48 [INFO] uvicorn | Uvicorn running on http://127.0.0.1:8080 (Press
+CTRL+C to quit)
+03-27 16:15:48 [INFO] nonebot | OneBot V11 | Bot 3371871293 connected
+03-27 16:16:58 [SUCCESS] nonebot | OneBot V11 3371871293 | [message.group.normal
+]: Message 2077446536 from 769163832@[¤ÿ:946973502] '[json:data={\n  "config" :
+{\n    "height" : 0,\n    "forward" : 1,\n    "ctime" :...]'
+03-27 16:16:58 [INFO] nonebot | Event will be handled by Matcher(type='message',
+ module=plugins.basic, lineno=26)
+03-27 16:16:58 [INFO] basic | [bili-roaster] json card snippet: {
+  "config" : {
+    "height" : 0,
+    "forward" : 1,
+    "ctime" : 1774598571,
+    "width" : 0,
+    "type" : "normal",
+    "token" : "0c2f902374a827cbeaa3cc2b612b18f7",
+    "autoSize" : 0
+  },
+  "prompt" : "[QQÿÿÿ]ÿ@ÿ.ÿÿTÿ2ôÿ°ÿÿ'ÿÏÿaÿLÿŞÿÿÿ:ÿÿ@ÿ	ÿaÿLÿWÿiÿÿ—ÿôÿ°ÿ
+MÿÿHÿœÿùÿÔÿ",
+  "app" : "com.tencent.miniapp_01",
+  "ver" : "0.0.0.1",
+  "appID" : "100951776",
+  "view" : "view_8C8E89B49BE609866298ADDFF2DBABA4",
+  "meta" : {
+    "detail_1" : {
+      "appid" : "1109937557",
+      "preview" : "https:\/\/pic.ugcimg.cn\/746a7f8945953f17f23e72651ec752f2\/jp
+g1",
+      "shareTemplateData" : {
+
+      },
+      "gamePointsUrl" : "",
+03-27 16:16:58 [INFO] basic | [bili-roaster] found url in parsed json: https://b
+23.tv/bRwfw1x
+03-27 16:16:58 [INFO] basic | [bili-roaster] handling bilibili url: https://b23.
+tv/bRwfw1x
+03-27 16:16:58 [INFO] basic | [bili-roaster] card meta: {'title': '[QQÿÿÿ]ÿ
+@ÿ.ÿÿTÿ2ôÿ°ÿÿ'ÿÏÿaÿLÿŞÿÿÿ:ÿÿ@ÿ	ÿaÿLÿWÿiÿÿ—ÿôÿ°ÿMÿÿHÿœÿùÿÔÿ', 'desc': 'ÿ
+@ÿ.ÿÿTÿ2ôÿ°ÿÿ'ÿÏÿaÿLÿŞÿÿÿ:ÿÿ@ÿ	ÿaÿLÿWÿiÿÿ—ÿôÿ°ÿMÿÿHÿœÿùÿÔÿ', 'jump_url':
+'https://b23.tv/bRwfw1x', 'raw': '{\n  "config" : {\n    "height" : 0,\n    "for
+ward" : 1,\n    "ctime" : 1774598571,\n    "width" : 0,\n    "type" : "normal",\
+n    "token" : "0c2f902374a827cbeaa3cc2b612b18f7",\n    "autoSize" : 0\n  },\n
+"prompt" : "[QQÿÿÿ]ÿ@ÿ.ÿÿTÿ2ôÿ°ÿÿ'ÿÏÿaÿLÿŞÿÿÿ:ÿÿ@ÿ	ÿaÿLÿWÿiÿÿ—ÿôÿ°ÿMÿ
+ÿHÿœÿùÿÔÿ",\n  "app" : "com.tencent.miniapp_01",\n  "ver" : "0.0.0.1",\n  "appI
+D" : "100951776",\n  "view" : "view_8C8E89B49BE609866298ADDFF2DBABA4",\n  "meta"
+ : {\n    "detail_1" : {\n      "appid" : "1109937557",\n      "preview" : "http
+s:\\/\\/pic.ugcimg.cn\\/746a7f8945953f17f23e72651ec752f2\\/jpg1",\n      "shareT
+emplateData" : {\n\n      },\n      "gamePointsUrl" : "",\n      "gamePoints" :
+"",\n      "url" : "m.q.qq.com\\/a\\/s\\/b7a3f90ea8b5ea28f07cf61395b1b5e5",\n
+   "appType" : 0,\n      "desc" : "ÿ@ÿ.ÿÿTÿ2ôÿ°ÿÿ'ÿÏÿaÿLÿŞÿÿÿ:ÿÿ@ÿ	ÿaÿLÿWÿ
+iÿÿ—ÿôÿ°ÿMÿÿHÿœÿùÿÔÿ",\n      "title" : "ÔÿéÿÔÿéÿ",\n      "scene" : 1036,\n
+    "host" : {\n        "uin" : 769163832,\n        "nick" : "luyueti1"\n      }
+,\n      "icon" : "http:\\/\\/miniapp.gtimg.cn\\/public\\/appicon\\/432b76be3a54
+8fc128acaa6c1ec90131_200.jpg",\n  '}
+03-27 16:16:58 [INFO] basic | [bili-roaster] fetching metadata via bilibili api:
+ https://b23.tv/bRwfw1x
+03-27 16:16:59 [INFO] basic | [bili-roaster] final url: https://www.bilibili.com
+/video/BV1hBXbBeEKe?buvid=Y244C6284323F9F340118E8D9743CB8C7C63&from_spmid=tm.rec
+ommend.0.0&is_story_h5=false&mid=SdaI5PKQQ7NCNSVeLX9nMQ%3D%3D&p=1&plat_id=116&sh
+are_from=ugc&share_medium=iphone&share_plat=ios&share_session_id=276D182C-7EAA-4
+79F-BF2D-1D9828A5E099&share_source=QQ&share_tag=s_i&spmid=united.player-video-de
+tail.0.0&timestamp=1774598569&unique_k=bRwfw1x&up_id=8874643
+03-27 16:16:59 [INFO] basic | [bili-roaster] metadata title: ÿ@ÿ.ÿÿTÿ2ôÿ°ÿÿ'ÿ
+ÏÿaÿLÿŞÿÿÿ:ÿÿ@ÿ	ÿaÿLÿWÿiÿÿ—ÿôÿ°ÿMÿÿHÿœÿùÿÔÿ
+03-27 16:17:08 [INFO] basic | [minimax-chat] model=MiniMax-M2.7 base_resp={'stat
+us_code': 0, 'status_msg': ''} choices_present=True
+03-27 16:17:08 [WARNING] basic | [minimax-chat] empty content, retrying from rea
+soning
+03-27 16:17:22 [INFO] basic | [minimax-chat] model=MiniMax-M2.7 base_resp={'stat
+us_code': 0, 'status_msg': ''} choices_present=True
+03-27 16:17:22 [INFO] nonebot | Matcher(type='message', module=plugins.basic, li
+neno=26) running complete
+

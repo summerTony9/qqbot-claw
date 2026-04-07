@@ -1,0 +1,402 @@
+- generic
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。" [ref=e1]
+  - generic
+    - generic
+  - generic
+    - generic
+      - generic
+        - link "到百度首页" [ref=e2]
+          - image "到百度首页"
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                  - generic
+                  - generic
+                    - generic
+                      - generic
+                      - generic
+                        - textbox [ref=e80]: 北京曛森文化发展有限公司
+                          - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                          - generic
+                          - generic
+                        - button "百度一下" [ref=e81]
+                          - StaticText "百度一下"
+                    - generic
+                      - generic
+      - generic
+        - link "百度首页" [ref=e3]
+          - StaticText "百度首页"
+        - link "设置" [ref=e4]
+          - StaticText "设置"
+        - link "登录" [ref=e5]
+          - StaticText "登录"
+    - generic
+    - generic
+      - generic
+        - link [ref=e6]
+          - image
+        - StaticText "网页"
+        - link "图片" [ref=e7]
+          - StaticText "图片"
+        - link "资讯" [ref=e8]
+          - StaticText "资讯"
+        - link "视频" [ref=e9]
+          - StaticText "视频"
+        - link "笔记" [ref=e10]
+          - StaticText "笔记"
+        - link "地图" [ref=e11]
+          - StaticText "地图"
+        - link "贴吧" [ref=e12]
+          - StaticText "贴吧"
+        - link "文库" [ref=e13]
+          - StaticText "文库"
+        - link "更多" [ref=e14]
+          - StaticText "更多"
+        - generic
+          - StaticText "搜索工具"
+    - generic
+      - generic
+        - generic
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "相关搜索  北京森林影画文化传媒有限公司  上海磐森文化传媒有限公司  北京森林孩子文化传播有限公司  木森文化传媒有限公司  森雨文化  北京森普文化传媒    换一换 热搜榜 民生榜 财经榜  为山川大地增添锦绣 1"
+                - generic
+                  - generic
+                    - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                            - link " 北京森林影画文化传媒有限公司" [ref=e100]
+                          - generic
+                            - link " 上海磐森文化传媒有限公司" [ref=e101]
+                          - generic
+                            - link " 北京森林孩子文化传播有限公司" [ref=e102]
+                          - generic
+                            - link " 木森文化传媒有限公司" [ref=e103]
+                          - generic
+                            - link " 森雨文化" [ref=e104]
+                          - generic
+                            - link " 北京森普文化传媒" [ref=e105]
+                  - generic
+                    - generic
+                      - generic
+                        - link " " [ref=e82]
+                        - generic
+                          - link " 换一换" [ref=e83]
+                      - generic
+                        - generic
+                        - generic
+                        - generic
+                      - generic
+                        - generic
+                          - link "为山川大地增添锦绣" [ref=e84]
+                      - generic
+                        - generic
+                          - link "“看我怎样用中国制造干掉日本制造”" [ref=e85]
+                      - generic
+                        - generic
+                          - link "买安眠药收注销驾驶证短信 交警回应" [ref=e86]
+                      - generic
+                        - generic
+                          - link "从一线到中小城市 入境游持续升温" [ref=e87]
+                      - generic
+                        - generic
+                          - link "多个家电品牌宣布4月起涨价" [ref=e88]
+                      - generic
+                        - generic
+                          - link "央视调查烧秸秆屡禁不止" [ref=e89]
+                      - generic
+                        - generic
+                          - link "伊朗议会批准对霍尔木兹海峡收通行费" [ref=e90]
+                      - generic
+                        - generic
+                          - link "重庆一隧道爆炸致4人死亡" [ref=e91]
+                      - generic
+                        - generic
+                          - link "午睡超过这个时间 真的会越睡越累" [ref=e92]
+                      - generic
+                        - generic
+                          - link "“这一刻我等了20年！我们赢了”" [ref=e93]
+                      - generic
+                        - generic
+                          - link "遗体打捞难度大 落水者家属无奈放弃" [ref=e94]
+                      - generic
+                        - generic
+                          - link "高三男孩喀纳斯湖失踪系谣言" [ref=e95]
+                      - generic
+                        - generic
+                          - link "患癌男子将3亿家产赠小28岁妻子" [ref=e96]
+                      - generic
+                        - generic
+                          - link "韩国向中国14个城市发放十年签" [ref=e97]
+                      - generic
+                        - generic
+                          - link "张雪称将吃掉国际大牌超50%份额" [ref=e98]
+                      - generic
+                        - generic
+                          - link "孙颖莎回应成功卫冕将创造历史" [ref=e99]
+                - generic
+        - generic
+          - generic
+            - generic
+              - generic
+                - heading "晴曛文化发展(北京)有限公司怎么样 - 爱企查" [level=3, ref=e40]
+                  - link "晴曛文化发展(北京)有限公司怎么样 - 爱企查" [ref=e60]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e74]
+                  - generic
+                    - StaticText "2025年4月12日"
+                    - StaticText "晴"
+                    - emphasis
+                    - StaticText "(北京)"
+                    - emphasis
+                    - StaticText " 2025-04-12 联系企业 1,基本情况 晴"
+                    - emphasis
+                    - StaticText "(北京)有限公司成立于2023年04月07日,位于北京市朝阳区红松园北里18号院3号楼4层413,目前处于开业状态,经营范围包括一般项目:组织文化艺术交流活动;专业设计服务;美甲服务;健康咨询服务(不含诊疗服务);艺术品代理;工艺美术品及收藏品零售(象牙"
+                  - generic
+                    - generic
+                      - link "头像 爱企查" [ref=e77]
+          - generic
+            - heading "森园国际文化发展(北京)有限公司，北京市从事企业宣传片制作、广告拍摄、宣传推广等业务的公司，百度百科" [level=3, ref=e26]
+              - link "森园国际文化发展(北京)有限公司，北京市从事企业宣传片制作、广告拍摄、宣传推广等业务的公司，百度百科" [ref=e31]
+                - StaticText "森园国际"
+                - emphasis
+                  - StaticText "文化发展"
+                - StaticText "（"
+                - emphasis
+                  - StaticText "北京"
+                - StaticText "）"
+                - emphasis
+                  - StaticText "有限公司"
+                - StaticText " - 百度百科"
+            - generic
+              - generic "查看更多内容"
+                - link "查看更多内容" [ref=e41]
+                  - generic
+                    - generic
+              - generic
+                - generic "森园国际文化发展（北京）有限公司，致力于整合各界资源为合作伙伴打造一站式宣传服务平台。"
+                  - StaticText "森园国际"
+                  - emphasis
+                    - StaticText "文化发展"
+                  - StaticText "（"
+                  - emphasis
+                    - StaticText "北京"
+                  - StaticText "）"
+                  - emphasis
+                    - StaticText "有限公司"
+                  - StaticText "，致力于整合各界资源为合作伙伴打造一站式宣传服务平台。"
+                - generic
+                  - link "百度百科" [ref=e61]
+                    - generic
+                - generic
+          - generic
+            - generic
+              - generic
+                - heading "【北京海森林文化发展有限公司】_北京海森林文化发展有限公司招聘..." [level=3, ref=e42]
+                  - link "【北京海森林文化发展有限公司】_北京海森林文化发展有限公司招聘..." [ref=e62]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e75]
+                  - generic
+                    - StaticText "4天前"
+                    - StaticText "猎聘"
+                    - emphasis
+                    - StaticText "海森林"
+                    - emphasis
+                    - StaticText "招聘频道为您提供大量的北京海森林文化发展有限公司招聘信息,有超过10000多北京海森林文化发展有限公司招聘信息任你选寻,招聘北京海森林文化发展有限公司人才就来猎聘北京海森林文化发展有限公司招聘!求职找工作就用猎聘聊。"
+                  - generic
+                    - generic
+                      - link "头像 猎聘" [ref=e78]
+          - generic
+            - generic
+              - StaticText "大家还在搜"
+            - generic
+              - link "北京森林影画文化传媒有限公司" [ref=e32]
+                - StaticText "北京森林影画文化传媒有限公司"
+              - link "上海磐森文化传媒有限公司" [ref=e33]
+                - StaticText "上海磐森文化传媒有限公司"
+              - link "北京森林孩子文化传播有限公司" [ref=e34]
+                - StaticText "北京森林孩子文化传播有限公司"
+              - link "木森文化传媒有限公司" [ref=e35]
+                - StaticText "木森文化传媒有限公司"
+              - link "森雨文化" [ref=e36]
+                - StaticText "森雨文化"
+              - link "北京森普文化传媒" [ref=e37]
+                - StaticText "北京森普文化传媒"
+              - link "森宇文化" [ref=e38]
+                - StaticText "森宇文化"
+              - link "森利文化发展有限公司" [ref=e39]
+                - StaticText "森利文化发展有限公司"
+          - generic
+            - generic
+              - generic
+                - heading "「北京蓉子文化发展有限公司招聘」-BOSS直聘" [level=3, ref=e43]
+                  - link "「北京蓉子文化发展有限公司招聘」-BOSS直聘" [ref=e63]
+                    - paragraph
+                - generic
+                  - StaticText "2026年3月22日"
+                  - StaticText "公司简介在招职位 公司简介 蓉子文化是北京蓉子"
+                  - emphasis
+                    - StaticText "文化发展有限公司"
+                  - StaticText "旗下品牌。北京蓉子文化发展有限公司创立于2007年09月18日,公司地点在"
+                  - emphasis
+                    - StaticText "北京市"
+                  - StaticText "朝阳区安立路68号4层C2—402;企业的经营范围有一般项目:组织文化艺术交流活动、教学专用仪器销售、普通露天游乐场所游乐设备销售、玩具、动漫及游艺用品销售、文具用品批发、文具..."
+                - generic
+                  - link "BOSS直聘" [ref=e64]
+                    - StaticText "BOSS直聘"
+          - generic
+            - generic
+              - generic
+                - heading "北京蜜獾先生文化发展有限公司怎么样 - 职友集" [level=3, ref=e44]
+                  - link "北京蜜獾先生文化发展有限公司怎么样 - 职友集" [ref=e65]
+                    - paragraph
+                - generic
+                  - StaticText "2025年12月30日"
+                  - StaticText "公司概况 性质: 民营公司 规模: 少于50人 成立: 8年 行业: 影视/媒体/艺术/文化传播 , 公关/市场推广/会展 全称: "
+                  - emphasis
+                    - StaticText "北京"
+                  - StaticText "蜜獾先生"
+                  - emphasis
+                    - StaticText "文化发展有限公司"
+                  - StaticText ". 发展阶段 工资: 50%的岗位拿4.5-8k.. 招聘: 2025年较2024年增长33%. 要求: 学历:不限最多,占75%.经验:1-3年最多,占50%. 地区: 分布在个地区,北京..."
+                - generic
+                  - link "头像 职友集" [ref=e66]
+                    - generic
+                    - StaticText "职友集"
+          - generic
+            - generic
+              - generic
+                - heading "朝阳区四家文化企业入选《北京市独角兽企业名单(2024)》" [level=3, ref=e45]
+                  - link "朝阳区四家文化企业入选《北京市独角兽企业名单(2024)》" [ref=e67]
+                    - paragraph
+                - generic
+                  - StaticText "2025年2月17日"
+                  - StaticText "2025年1月,中关村独角兽企业"
+                  - emphasis
+                    - StaticText "发展"
+                  - StaticText "联盟、"
+                  - emphasis
+                    - StaticText "北京市"
+                  - StaticText "长城企业战略研究所等6家机构联合发布了《北京市独角兽企业名单(2024)》,115家北京企业入围(朝阳区25家),其中,我区快看世界(北京)科技"
+                  - emphasis
+                    - StaticText "有限公司"
+                  - StaticText "、太合音乐(北京)有限公司、北京思维造物信息科技股份有限公司、北京一点网聚科技有限公司4家"
+                  - emphasis
+                    - StaticText "文化"
+                  - StaticText "企业入选。"
+                - generic
+                  - link "头像 北京朝阳" [ref=e68]
+                    - generic
+                    - StaticText "北京朝阳"
+          - generic
+            - generic
+              - generic
+                - heading "「北京琥珀星之森文化传播有限公司」2026年招聘信息-BOSS直聘" [level=3, ref=e46]
+                  - link "「北京琥珀星之森文化传播有限公司」2026年招聘信息-BOSS直聘" [ref=e69]
+                    - paragraph
+                - generic
+                  - StaticText "2026年3月15日"
+                  - StaticText "北京琥珀星之"
+                  - emphasis
+                    - StaticText "森文化"
+                  - StaticText "传播"
+                  - emphasis
+                    - StaticText "有限公司"
+                  - StaticText "在2019-09-20创办 。公司详细地址为"
+                  - emphasis
+                    - StaticText "北京市"
+                  - StaticText "门头沟区斋堂镇柏峪村byc009号,地理位置优越 经营范围为组织文化艺术交流活动(不含营业性演出);承办展览展示活动;软件开发;基础软件服务;应用软件服务;计算机系统服务;市场调查;经济贸易咨询;企业管理咨询;教育咨询(不含出国留学咨询及中介服务);..."
+                - generic
+                  - link "看准网" [ref=e70]
+                    - StaticText "看准网"
+          - generic
+            - generic
+              - generic
+                - heading "北京分子互动文化传播有限公司" [level=3, ref=e47]
+                  - link "北京分子互动文化传播有限公司" [ref=e71]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e76]
+                  - generic
+                    - StaticText "分子互动成立于2012年,是一家聚焦泛二次元领域和年轻人群的"
+                    - emphasis
+                    - StaticText ",业务包括漫画IP孵化、动画影视制作、 衍生消费品开发及销售、IP营销传播服务等。旗下IP《非人哉》、《万圣街》、《有兽焉》系列内容全网粉丝2000万以上,播放量超过40亿次!并获得行业大佬腾讯、B站多轮联合战略投资!"
+                  - generic
+                    - generic
+                      - link "头像 中央美术学院就业创业网" [ref=e79]
+          - generic
+            - generic
+              - generic
+                - StaticText "【PDF】"
+                - heading "论世界主流文明轮替" [level=3, ref=e48]
+                  - link "论世界主流文明轮替" [ref=e72]
+                - StaticText "文件格式：PDF/Adobe Acrobat -"
+                - link "HTML版" [ref=e49]
+                - generic
+                - generic
+                  - link "青岛大学东方论坛" [ref=e73]
+        - generic
+          - generic
+            - StaticText "相关搜索"
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "北京森林影画文化传媒有限公司"
+                - link "北京森林影画文化传媒有限公司" [ref=e50]
+              - LayoutTableCell "上海磐森文化传媒有限公司"
+                - link "上海磐森文化传媒有限公司" [ref=e51]
+            - LayoutTableRow
+              - LayoutTableCell "北京森林孩子文化传播有限公司"
+                - link "北京森林孩子文化传播有限公司" [ref=e52]
+              - LayoutTableCell "木森文化传媒有限公司"
+                - link "木森文化传媒有限公司" [ref=e53]
+            - LayoutTableRow
+              - LayoutTableCell "森雨文化"
+                - link "森雨文化" [ref=e54]
+              - LayoutTableCell "北京森普文化传媒"
+                - link "北京森普文化传媒" [ref=e55]
+            - LayoutTableRow
+              - LayoutTableCell "森宇文化"
+                - link "森宇文化" [ref=e56]
+              - LayoutTableCell "森利文化发展有限公司"
+                - link "森利文化发展有限公司" [ref=e57]
+            - LayoutTableRow
+              - LayoutTableCell "森文化传媒"
+                - link "森文化传媒" [ref=e58]
+              - LayoutTableCell "森璞文化"
+                - link "森璞文化" [ref=e59]
+      - generic
+        - generic
+          - link "上一页" [ref=e15]
+          - strong
+          - link "2" [ref=e16]
+          - link "3" [ref=e17]
+          - link "4" [ref=e18]
+          - link "5" [ref=e19]
+          - link "6" [ref=e20]
+          - link "7" [ref=e21]
+          - link "8" [ref=e22]
+          - link "9" [ref=e23]
+          - link "10" [ref=e24]
+          - link "下一页" [ref=e25]
+      - generic
+      - generic
+        - generic
+          - generic
+            - link "帮助" [ref=e27]
+            - link "举报" [ref=e28]
+            - link "用户反馈" [ref=e29]
+            - link "企业推广" [ref=e30]

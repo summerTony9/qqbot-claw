@@ -1,0 +1,509 @@
+- generic
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。" [ref=e1]
+  - generic
+    - generic
+  - generic
+    - generic
+      - generic
+        - link "到百度首页" [ref=e2]
+          - image "到百度首页"
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                  - generic
+                  - generic
+                    - generic
+                      - generic
+                      - generic
+                        - textbox [ref=e89]: 北京曛森文化发展 企业名
+                          - generic
+                            - StaticText "北京曛森文化发展 企业名"
+                      - generic
+                        - generic
+                          - generic
+                            - image
+                          - generic
+                            - generic
+                          - generic
+                            - generic
+                          - generic
+                            - generic
+                        - button "百度一下" [ref=e90]
+                          - StaticText "百度一下"
+                    - generic
+                      - generic
+      - generic
+        - link "百度首页" [ref=e3]
+          - StaticText "百度首页"
+        - link "设置" [ref=e4]
+          - StaticText "设置"
+        - link "登录" [ref=e5]
+          - StaticText "登录"
+    - generic
+    - generic
+      - generic
+        - link [ref=e6]
+          - image
+        - StaticText "网页"
+        - link "图片" [ref=e7]
+          - StaticText "图片"
+        - link "资讯" [ref=e8]
+          - StaticText "资讯"
+        - link "视频" [ref=e9]
+          - StaticText "视频"
+        - link "笔记" [ref=e10]
+          - StaticText "笔记"
+        - link "地图" [ref=e11]
+          - StaticText "地图"
+        - link "贴吧" [ref=e12]
+          - StaticText "贴吧"
+        - link "文库" [ref=e13]
+          - StaticText "文库"
+        - link "更多" [ref=e14]
+          - StaticText "更多"
+        - generic
+          - StaticText "搜索工具"
+    - generic
+      - generic
+        - generic
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell " 登录百度帐号 交易更有保障  相关搜索  北京森家环保科技发展有限公司  北京森林影画文化传媒有限公司  北京森源达生态环境股份有限公司  森雨文化  北京森普文化传媒  森宇文化传媒有限公司    换一换 热搜榜 民生榜 财经榜"
+                - generic
+                  - generic
+                    - list
+                      - listitem [level=1]
+                        - generic
+                          - generic
+                            - StaticText ""
+                          - StaticText "登录百度帐号 交易更有保障"
+                          - StaticText ""
+                - generic
+                  - generic
+                    - generic
+                      - generic
+                        - generic
+                          - generic
+                            - StaticText "相关搜索"
+                          - generic
+                            - link " 北京森家环保科技发展有限公司" [ref=e110]
+                          - generic
+                            - link " 北京森林影画文化传媒有限公司" [ref=e111]
+                          - generic
+                            - link " 北京森源达生态环境股份有限公司" [ref=e112]
+                          - generic
+                            - link " 森雨文化" [ref=e113]
+                          - generic
+                            - link " 北京森普文化传媒" [ref=e114]
+                          - generic
+                            - link " 森宇文化传媒有限公司" [ref=e115]
+                  - generic
+                    - generic
+                      - generic
+                        - link " " [ref=e91]
+                          - generic
+                            - StaticText ""
+                          - generic
+                            - StaticText ""
+                        - generic
+                          - link " 换一换" [ref=e93]
+                            - generic
+                            - StaticText "换一换"
+                      - generic
+                        - generic
+                          - StaticText "热搜榜"
+                        - generic
+                          - StaticText "民生榜"
+                        - generic
+                          - StaticText "财经榜"
+                      - generic
+                        - generic
+                          - generic
+                            - StaticText ""
+                          - link "为山川大地增添锦绣" [ref=e94]
+                            - StaticText "为山川大地增添锦绣"
+                      - generic
+                        - generic
+                          - StaticText "1"
+                          - link "“看我怎样用中国制造干掉日本制造”" [ref=e95]
+                            - StaticText "“看我怎样用中国制造干掉日本制造”"
+                          - generic
+                            - StaticText "新"
+                      - generic
+                        - generic
+                          - StaticText "2"
+                          - link "买安眠药收注销驾驶证短信 交警回应" [ref=e96]
+                            - StaticText "买安眠药收注销驾驶证短信 交警回应"
+                          - generic
+                            - StaticText "热"
+                      - generic
+                        - generic
+                          - StaticText "3"
+                          - link "从一线到中小城市 入境游持续升温" [ref=e97]
+                            - StaticText "从一线到中小城市 入境游持续升温"
+                      - generic
+                        - generic
+                          - StaticText "4"
+                          - link "多个家电品牌宣布4月起涨价" [ref=e98]
+                            - StaticText "多个家电品牌宣布4月起涨价"
+                          - generic
+                            - StaticText "新"
+                      - generic
+                        - generic
+                          - StaticText "5"
+                          - link "央视调查烧秸秆屡禁不止" [ref=e99]
+                            - StaticText "央视调查烧秸秆屡禁不止"
+                          - generic
+                            - StaticText "热"
+                      - generic
+                        - generic
+                          - StaticText "6"
+                          - link "伊朗议会批准对霍尔木兹海峡收通行费" [ref=e100]
+                            - StaticText "伊朗议会批准对霍尔木兹海峡收通行费"
+                      - generic
+                        - generic
+                          - StaticText "7"
+                          - link "重庆一隧道爆炸致4人死亡" [ref=e101]
+                            - StaticText "重庆一隧道爆炸致4人死亡"
+                          - generic
+                            - StaticText "新"
+                      - generic
+                        - generic
+                          - StaticText "8"
+                          - link "午睡超过这个时间 真的会越睡越累" [ref=e102]
+                            - StaticText "午睡超过这个时间 真的会越睡越累"
+                      - generic
+                        - generic
+                          - StaticText "9"
+                          - link "“这一刻我等了20年！我们赢了”" [ref=e103]
+                            - StaticText "“这一刻我等了20年！我们赢了”"
+                      - generic
+                        - generic
+                          - StaticText "10"
+                          - link "遗体打捞难度大 落水者家属无奈放弃" [ref=e104]
+                            - StaticText "遗体打捞难度大 落水者家属无奈放弃"
+                      - generic
+                        - generic
+                          - StaticText "11"
+                          - link "高三男孩喀纳斯湖失踪系谣言" [ref=e105]
+                            - StaticText "高三男孩喀纳斯湖失踪系谣言"
+                      - generic
+                        - generic
+                          - StaticText "12"
+                          - link "患癌男子将3亿家产赠小28岁妻子" [ref=e106]
+                            - StaticText "患癌男子将3亿家产赠小28岁妻子"
+                      - generic
+                        - generic
+                          - StaticText "13"
+                          - link "韩国向中国14个城市发放十年签" [ref=e107]
+                            - StaticText "韩国向中国14个城市发放十年签"
+                      - generic
+                        - generic
+                          - StaticText "14"
+                          - link "张雪称将吃掉国际大牌超50%份额" [ref=e108]
+                            - StaticText "张雪称将吃掉国际大牌超50%份额"
+                      - generic
+                        - generic
+                          - StaticText "15"
+                          - link "孙颖莎回应成功卫冕将创造历史" [ref=e109]
+                            - StaticText "孙颖莎回应成功卫冕将创造历史"
+                          - generic
+                            - StaticText "新"
+                - generic
+                  - generic
+                    - generic
+                      - heading "▶想在此推广您的产品吗?" [level=2, ref=e84]
+                        - link "▶想在此推广您的产品吗?" [ref=e92]
+                          - StaticText "▶想在此推广您的产品吗?"
+                      - link "咨询热线：400-800-8888" [ref=e85]
+                        - StaticText "咨询热线：400-800-8888"
+                      - link "e.baidu.com" [ref=e86]
+                        - StaticText "e.baidu.com"
+        - generic
+          - generic
+            - heading "北京企业命名,正邦北京企业命名 始于1996-北上广设计.." [level=3, ref=e26]
+              - generic
+                - link "北京企业命名,正邦北京企业命名 始于1996-北上广设计.." [ref=e45]
+                  - StaticText "北京企业"
+                  - StaticText "命名,正邦"
+                  - StaticText "北京企业"
+                  - StaticText "命名 始于1996-北上广设计.."
+            - generic
+              - link "本月178人已咨询相关问题" [ref=e32]
+                - generic
+                  - StaticText "本月178人已咨询相关问题"
+            - generic
+              - link "正邦为以下客户提供品牌命名 /口号服务:中国移动and和,广汽传祺,腾讯,美的"易酷客",长城汽车,龙湖地产,北京现代等" [ref=e33]
+                - generic
+                  - StaticText "正邦为以下客户提供品牌命名 /口号服务:中国移动and和,广汽传祺,腾讯,美的"易酷客",长城汽车,龙湖地产,"
+                  - StaticText "北京"
+                  - StaticText "现代等"
+            - generic
+              - link "正邦创意(北京)品牌科技 2026-03广告" [ref=e34]
+                - StaticText "正邦创意(北京)品牌科技"
+                - StaticText " 2026-03"
+                - generic
+                  - generic
+                    - StaticText ""
+                - generic
+                  - StaticText "广告"
+                - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                    - image
+                    - generic
+                      - generic
+                        - generic
+                          - StaticText ""
+                        - StaticText "听"
+                    - generic
+                      - generic
+                        - generic
+                          - paragraph
+                            - StaticText "经核查当前公开资料，‌"
+                            - strong
+                            - StaticText "‌。"
+                          - paragraph
+                            - StaticText "不过，存在多个名称中包含“曛森”或发音相近的文化传播/文化发展类公司，可能因输入误差或名称混淆导致。以下是几家名称相近的企业供参考："
+                          - list
+                            - listitem [level=1]
+                            - listitem [level=1]
+                            - listitem [level=1]
+                          - paragraph
+                            - StaticText "若实际想查询的是“‌"
+                            - strong
+                            - StaticText "‌”，其相关信息如下："
+                          - list
+                            - listitem [level=1]
+                            - listitem [level=1]
+                            - listitem [level=1]
+                            - listitem [level=1]
+                            - listitem [level=1]
+                            - listitem [level=1]
+                          - paragraph
+                            - StaticText "如需进一步确认具体企业信息，建议通过官方渠道查询，例如："
+                          - list
+                            - listitem [level=1]
+                              - link "国家企业信用信息公示系统" [ref=e116]
+                            - listitem [level=1]
+                              - link "企查查" [ref=e117]
+                    - generic
+                    - generic
+          - generic
+            - generic
+              - heading "森园国际文化发展（北京）有限公司(北京市从事企业宣传片... - 百度百科" [level=3, ref=e35]
+                - link "森园国际文化发展（北京）有限公司(北京市从事企业宣传片... - 百度百科" [ref=e46]
+                  - paragraph
+                    - StaticText "森园国际"
+                    - emphasis
+                    - StaticText "（"
+                    - emphasis
+                    - StaticText "）有限公司(北京市从事企业宣传片... - 百度百科"
+              - generic
+                - generic
+                  - generic
+                    - link [ref=e80]
+                  - generic
+                    - paragraph
+                  - generic
+                    - link "百度百科" [ref=e81]
+          - generic
+            - generic
+              - generic
+                - heading "北京有森文化传媒有限公司 - 企查查" [level=3, ref=e47]
+                  - link "北京有森文化传媒有限公司 - 企查查" [ref=e64]
+                    - paragraph
+                - generic
+                  - StaticText "2026年3月8日"
+                  - StaticText "企业名称 "
+                  - emphasis
+                    - StaticText "北京有森文化传媒有限公司"
+                  - StaticText " 法定代表人 孙叶成 关联企业 4 登记状态 存续(在营,开业,在册) 成立日期 2022-11-29 注册资本 158.6899万元 实缴资本 54.92万元 组织机构代码 mac58td0-9 工商注册号 110112034867429 纳税人识别号 91110112mac58td09r 企业类型 有限责任公司(自然人投资或控股) 营业期限 2022..."
+                - generic
+                  - link "头像 企查查" [ref=e65]
+                    - generic
+                    - StaticText "企查查"
+                - generic
+                  - generic
+          - generic
+            - generic
+              - generic
+                - heading "北京旭森国际文化传媒有限公司怎么样 - 职友集" [level=3, ref=e48]
+                  - link "北京旭森国际文化传媒有限公司怎么样 - 职友集" [ref=e66]
+                    - paragraph
+                - generic
+                  - StaticText "2025年9月23日"
+                  - emphasis
+                    - StaticText "全称:北京旭森国际文化传媒有限公司"
+                  - StaticText "。 公司介绍 北京旭森国际文化传媒有限公司是一家从事大型演唱会,各类文艺演出,庆典晚会,文化艺术交流,歌舞艺术交流商业宣传,广告设计,创意策划,全程策划执行企业品牌形象推广,大型文化活动,展示展览工程,大型灯光,音响,舞台系统租凭制作为一体的演出公司。 旭森国际文化传媒有限公司有10多..."
+                - generic
+                  - link "头像 职友集" [ref=e67]
+                    - generic
+                    - StaticText "职友集"
+          - generic
+            - generic
+              - StaticText "大家还在搜"
+            - generic
+              - link "北京森家环保科技发展有限公司" [ref=e36]
+                - StaticText "北京森家环保科技发展有限公司"
+              - link "北京森林影画文化传媒有限公司" [ref=e37]
+                - StaticText "北京森林影画文化传媒有限公司"
+              - link "北京森源达生态环境股份有限公司" [ref=e38]
+                - StaticText "北京森源达生态环境股份有限公司"
+              - link "森雨文化" [ref=e39]
+                - StaticText "森雨文化"
+              - link "北京森普文化传媒" [ref=e40]
+                - StaticText "北京森普文化传媒"
+              - link "森宇文化传媒有限公司" [ref=e41]
+                - StaticText "森宇文化传媒有限公司"
+              - link "森宇文化" [ref=e42]
+                - StaticText "森宇文化"
+              - link "森利文化发展有限公司" [ref=e43]
+                - StaticText "森利文化发展有限公司"
+          - generic
+            - generic
+              - generic
+                - heading "北京橦森网络传媒有限公司 - 工商信息查询 - 爱企查" [level=3, ref=e49]
+                  - link "北京橦森网络传媒有限公司 - 工商信息查询 - 爱企查" [ref=e68]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e82]
+                  - generic
+                    - StaticText "2025年7月14日"
+                    - StaticText "企业名称 "
+                    - emphasis
+                    - StaticText " 统一社会信用代码 91110115maddglkk85 法定代表人 许垠 他投资的 1家公司 > 经营状态 开业 成立日期 2024-03-11 行政区划 北京市大兴区 注册资本 5万(元) 实缴资本 - 企业类型 有限责任公司(自然人独资) 所属行业 广播,电视,电影和录音制作业 工商注册号 组织机构代码 ..."
+                  - generic
+                    - generic
+                      - link "头像 爱企查" [ref=e87]
+          - generic
+            - generic
+              - generic
+                - heading "「北京蓉子文化发展有限公司招聘」-BOSS直聘" [level=3, ref=e50]
+                  - link "「北京蓉子文化发展有限公司招聘」-BOSS直聘" [ref=e69]
+                    - paragraph
+                - generic
+                  - StaticText "2026年3月22日"
+                  - StaticText "推荐公司: "
+                  - emphasis
+                    - StaticText "北京如日东升体育文化发展有限公司"
+                  - StaticText "北京瑞迪恒泰工程技术有限公司北京瑞辉欣业贸易有限公司北京瑞志龙腾科技有限公司北京三明灯光环境艺术有限公司北京森普利科技有限公司北京尚视维广告有限公司北京深扬麦讯数控设备有限公司北京神州亚伟科贸有限公司北京狮龙门业有限公司北京实力场策划有限公司北京时代畅想广告有限公司北..."
+                - generic
+                  - link "BOSS直聘" [ref=e70]
+                    - StaticText "BOSS直聘"
+          - generic
+            - generic
+              - generic
+                - heading "「北京门森文化传媒有限公司招聘」-BOSS直聘" [level=3, ref=e51]
+                  - link "「北京门森文化传媒有限公司招聘」-BOSS直聘" [ref=e71]
+                    - paragraph
+                - generic
+                  - StaticText "柴门森执行董事 任北京门"
+                  - emphasis
+                    - StaticText "森文化"
+                  - StaticText "传媒有限"
+                  - emphasis
+                    - StaticText "公司"
+                  - StaticText "执行董事 柴门森经理 任北京门森文化传媒有限公司经理 吴梓明监事 任北京门森文化传媒有限公司监事 基本信息 公司全称:北京门森文化传媒有限公司 人员规模:1-20人 所在城市:"
+                  - emphasis
+                    - StaticText "北京市"
+                  - StaticText " 曾用名:北京柴门森文化传媒有限公司 ..."
+                - generic
+                  - link "BOSS直聘" [ref=e72]
+                    - StaticText "BOSS直聘"
+          - generic
+            - generic
+              - generic
+                - heading "北京嘻柚互娱文化传媒有限公司_嘻柚互娱-企业工商信息-官方资质..." [level=3, ref=e52]
+                  - link "北京嘻柚互娱文化传媒有限公司_嘻柚互娱-企业工商信息-官方资质..." [ref=e73]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e83]
+                  - generic
+                    - StaticText "2026年2月27日"
+                    - emphasis
+                    - StaticText " "
+                    - emphasis
+                    - StaticText "嘻柚互娱"
+                    - emphasis
+                    - StaticText "传媒有限公司 法定代表人 陈一宁 关联企业5 登记状态 存续 天眼评分 73分 成立日期2016-12-07 统一社会信用代码 91110105MA00A4XM2R 注册资本 1000万人民币 实缴资本244.6万人民币 工商注册号 110105022574131 纳税人识别号 91110105MA00A4XM2R ..."
+                  - generic
+                    - generic
+                      - link "天眼查" [ref=e88]
+          - generic
+            - heading "北京森浦文化传播有限公司，公司，百度百科" [level=3, ref=e27]
+              - link "北京森浦文化传播有限公司，公司，百度百科" [ref=e44]
+                - emphasis
+                - StaticText "森浦"
+                - emphasis
+                - StaticText "传播有限公司 - 百度百科"
+            - generic
+              - generic
+                - generic "北京森浦文化传播有限公司是一个原创设计本子生产商。旗下品牌为“本事文具”，其英文名为BEN‘Z STORE，另有商标BENSTASH。品牌风格结合无印良品（muji）风与原研哉的设计理念。产品从手账本起步，已延伸至约50种原创周边，如拉链包、刺绣贴、日期贴、打孔器等。公司曾参加中国国际文具及办公用品展览会（Paperworld ..."
+                - generic
+                  - link "公司简介" [ref=e74]
+                  - link "经营范围" [ref=e75]
+                  - link "主要产品" [ref=e76]
+                  - link "知识产权" [ref=e77]
+                  - link "公司管理" [ref=e78]
+                  - link "点击可查看更多内容" [ref=e79]
+                - link "百度百科" [ref=e53]
+        - generic
+          - generic
+            - StaticText "相关搜索"
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "北京森家环保科技发展有限公司"
+                - link "北京森家环保科技发展有限公司" [ref=e54]
+              - LayoutTableCell "北京森林影画文化传媒有限公司"
+                - link "北京森林影画文化传媒有限公司" [ref=e55]
+            - LayoutTableRow
+              - LayoutTableCell "北京森源达生态环境股份有限公司"
+                - link "北京森源达生态环境股份有限公司" [ref=e56]
+              - LayoutTableCell "森雨文化"
+                - link "森雨文化" [ref=e57]
+            - LayoutTableRow
+              - LayoutTableCell "北京森普文化传媒"
+                - link "北京森普文化传媒" [ref=e58]
+              - LayoutTableCell "森宇文化传媒有限公司"
+                - link "森宇文化传媒有限公司" [ref=e59]
+            - LayoutTableRow
+              - LayoutTableCell "森宇文化"
+                - link "森宇文化" [ref=e60]
+              - LayoutTableCell "森利文化发展有限公司"
+                - link "森利文化发展有限公司" [ref=e61]
+            - LayoutTableRow
+              - LayoutTableCell "森文化传媒"
+                - link "森文化传媒" [ref=e62]
+              - LayoutTableCell "森陌文化"
+                - link "森陌文化" [ref=e63]
+      - generic
+        - generic
+          - link "上一页" [ref=e15]
+          - strong
+          - link "2" [ref=e16]
+          - link "3" [ref=e17]
+          - link "4" [ref=e18]
+          - link "5" [ref=e19]
+          - link "6" [ref=e20]
+          - link "7" [ref=e21]
+          - link "8" [ref=e22]
+          - link "9" [ref=e23]
+          - link "10" [ref=e24]
+          - link "下一页" [ref=e25]
+      - generic
+      - generic
+        - generic
+          - generic
+            - link "帮助" [ref=e28]
+            - link "举报" [ref=e29]
+            - link "用户反馈" [ref=e30]
+            - link "企业推广" [ref=e31]

@@ -1,0 +1,376 @@
+- generic
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。" [ref=e1]
+  - generic
+    - generic
+  - generic
+    - generic
+      - generic
+        - link "到百度首页" [ref=e2]
+          - image "到百度首页"
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                  - generic
+                  - generic
+                    - generic
+                      - generic
+                      - generic
+                        - textbox [ref=e100]: 中科躬行 专利
+                          - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                          - generic
+                          - generic
+                        - button "百度一下" [ref=e101]
+                          - StaticText "百度一下"
+                    - generic
+                      - generic
+      - generic
+        - link "百度首页" [ref=e3]
+          - StaticText "百度首页"
+        - link "设置" [ref=e4]
+          - StaticText "设置"
+        - link "登录" [ref=e5]
+          - StaticText "登录"
+    - generic
+    - generic
+      - generic
+        - link [ref=e6]
+          - image
+        - StaticText "网页"
+        - link "图片" [ref=e7]
+          - StaticText "图片"
+        - link "资讯" [ref=e8]
+          - StaticText "资讯"
+        - link "视频" [ref=e9]
+          - StaticText "视频"
+        - link "笔记" [ref=e10]
+          - StaticText "笔记"
+        - link "地图" [ref=e11]
+          - StaticText "地图"
+        - link "贴吧" [ref=e12]
+          - StaticText "贴吧"
+        - link "文库" [ref=e13]
+          - StaticText "文库"
+        - link "更多" [ref=e14]
+          - StaticText "更多"
+        - generic
+          - StaticText "搜索工具"
+    - generic
+      - generic
+        - generic
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "相关搜索  中国专利  中国专利排名前十的公司  中科科技有限公司  专利之星  中科类脑智能技术有限公司  浙江中科智能工程技术有限公司    换一换 热搜榜 民生榜 财经榜  为山川大地增添锦绣 1"
+                - generic
+                  - generic
+                    - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                            - link " 中国专利" [ref=e120]
+                          - generic
+                            - link " 中国专利排名前十的公司" [ref=e121]
+                          - generic
+                            - link " 中科科技有限公司" [ref=e122]
+                          - generic
+                            - link " 专利之星" [ref=e123]
+                          - generic
+                            - link " 中科类脑智能技术有限公司" [ref=e124]
+                          - generic
+                            - link " 浙江中科智能工程技术有限公司" [ref=e125]
+                  - generic
+                    - generic
+                      - generic
+                        - link " " [ref=e102]
+                        - generic
+                          - link " 换一换" [ref=e103]
+                      - generic
+                        - generic
+                        - generic
+                        - generic
+                      - generic
+                        - generic
+                          - link "为山川大地增添锦绣" [ref=e104]
+                      - generic
+                        - generic
+                          - link "张雪机车一战封神" [ref=e105]
+                      - generic
+                        - generic
+                          - link "买安眠药收注销驾驶证短信 交警回应" [ref=e106]
+                      - generic
+                        - generic
+                          - link "从一线到中小城市 入境游持续升温" [ref=e107]
+                      - generic
+                        - generic
+                          - link "张雪称将吃掉国际大牌超50%份额" [ref=e108]
+                      - generic
+                        - generic
+                          - link "央视调查烧秸秆屡禁不止" [ref=e109]
+                      - generic
+                        - generic
+                          - link "伊朗议会批准对霍尔木兹海峡收通行费" [ref=e110]
+                      - generic
+                        - generic
+                          - link "午睡超过这个时间 真的会越睡越累" [ref=e111]
+                      - generic
+                        - generic
+                          - link "贵州茅台宣布涨价" [ref=e112]
+                      - generic
+                        - generic
+                          - link "牛奶价格卷起来了" [ref=e113]
+                      - generic
+                        - generic
+                          - link "“这一刻我等了20年！我们赢了”" [ref=e114]
+                      - generic
+                        - generic
+                          - link "高三男孩喀纳斯湖失踪系谣言" [ref=e115]
+                      - generic
+                        - generic
+                          - link "国际油价大涨" [ref=e116]
+                      - generic
+                        - generic
+                          - link "伊朗：打击美军指挥中心" [ref=e117]
+                      - generic
+                        - generic
+                          - link "花上万办卡 被按摩到癌细胞扩散" [ref=e118]
+                      - generic
+                        - generic
+                          - link "《跳楼机》原唱深夜发文称忍不下了" [ref=e119]
+                - generic
+        - generic
+          - generic
+            - generic
+              - heading "中科躬行（北京）科技有限公司(公司) - 百度百科" [level=3, ref=e32]
+                - link "中科躬行（北京）科技有限公司(公司) - 百度百科" [ref=e43]
+                  - paragraph
+                    - emphasis
+                    - StaticText "（北京）科技有限公司(公司) - 百度百科"
+              - generic
+                - generic
+                  - generic
+                    - link [ref=e91]
+                  - generic
+                    - paragraph
+                      - link "详情" [ref=e97]
+                      - link "" [ref=e98]
+                  - generic
+                    - link "公司简介" [ref=e92]
+                  - generic
+                    - link "历史沿革" [ref=e93]
+                  - generic
+                    - link "主营业务" [ref=e94]
+                  - generic
+                    - link "公司治理" [ref=e95]
+              - generic
+                - link "百度百科" [ref=e44]
+                  - StaticText "百度百科"
+          - generic
+            - generic
+              - generic
+                - heading "中科躬行(北京)科技有限公司-企业工商信用信息,电话,地址,法人-阿里巴巴..." [level=3, ref=e45]
+                  - link "中科躬行(北京)科技有限公司-企业工商信用信息,电话,地址,法人-阿里巴巴..." [ref=e69]
+                    - paragraph
+                - generic
+                  - StaticText "2026年2月19日"
+                  - StaticText "基本信息 企业名称 "
+                  - emphasis
+                    - StaticText "中科躬行"
+                  - StaticText "(北京)科技有限公司 统一社会信用代码 91110108ma01pnhu0a 工商注册号 110108028324951 法定代表人 刘福刚 经营状态 在营(开业) 企业机构类型 其他有限责任公司 成立日期 2020-01-02 经营期限 2020-01-02~长期 登记机关 北京市海淀区市场监督管理局 地址 北京市海淀区西三旗建材城内3幢二..."
+                - generic
+                  - link "阿里巴巴1688" [ref=e70]
+                    - StaticText "阿里巴巴1688"
+          - generic
+            - heading "中科躬行(青岛)计算机教育培训学校有限公司，公司，百度百科" [level=3, ref=e26]
+              - link "中科躬行(青岛)计算机教育培训学校有限公司，公司，百度百科" [ref=e33]
+                - emphasis
+                  - StaticText "中科躬行"
+                - StaticText "（青岛）计算机教育培训学校有限公司 - 百度百科"
+            - generic
+              - generic "查看更多内容"
+                - link "查看更多内容" [ref=e46]
+                  - generic
+                    - generic
+              - generic
+                - generic "中科躬行（青岛）计算机教育培训学校有限公司成立于2020年5月13日，位于山东省青岛市胶州市大沽河省级生态旅游度假区创新创业服务基地，是一家以从事教育为主的其他有限责任公司。法定代表人刘福刚，注册资本100万人民币，实缴资本16万人民币，国标行业为职业技能培训，企业规模为小型。公司经营范围包括人工智能、计算机应用与开发培训。公司由中科躬行(北京)科技有限公司持股60%、青岛中科躬行教育服务中心(有限合伙)持股40%。主要人员包括刘福刚（董事长兼总经理）、吴文军、王刚、张秋萍、郭海鹏、马智。2021年4月16日，公司发生主要成员变更，崔春雨退出，吴文军新增加入。"
+                  - emphasis
+                    - StaticText "中科躬行"
+                  - StaticText "（青岛）计算机教育培训学校有限公司成立于2020年5月13日，位于山东省青岛市胶州市大沽河省级生态旅游度假区创新创业服务基地，是一家以从事教育为主的其他有限责任公司。法定代表人刘福刚，注册资本100万人民币，实缴资本16万人民币，国标行业为职业..."
+                - generic
+                  - link "公司简介" [ref=e71]
+                    - StaticText "公司简介 "
+                  - link "历史沿革" [ref=e72]
+                    - StaticText "历史沿革 "
+                  - link "组织架构" [ref=e73]
+                    - StaticText "组织架构 "
+                  - link "经营范围" [ref=e74]
+                    - StaticText "经营范围 "
+                  - link "经营状况" [ref=e75]
+                    - StaticText "经营状况 "
+                  - link "点击可查看更多内容" [ref=e76]
+                    - StaticText "更多 >"
+                - generic
+                  - link "百度百科" [ref=e77]
+                    - generic
+                - generic
+          - generic
+            - generic
+              - StaticText "大家还在搜"
+            - generic
+              - link "中国专利" [ref=e34]
+                - StaticText "中国专利"
+              - link "中国专利排名前十的公司" [ref=e35]
+                - StaticText "中国专利排名前十的公司"
+              - link "中科科技有限公司" [ref=e36]
+                - StaticText "中科科技有限公司"
+              - link "专利之星" [ref=e37]
+                - StaticText "专利之星"
+              - link "中科类脑智能技术有限公司" [ref=e38]
+                - StaticText "中科类脑智能技术有限公司"
+              - link "浙江中科智能工程技术有限公司" [ref=e39]
+                - StaticText "浙江中科智能工程技术有限公司"
+              - link "中科创新技术股份有限公司官网" [ref=e40]
+                - StaticText "中科创新技术股份有限公司官网"
+              - link "中科躬行(北京)科技有限公司" [ref=e41]
+                - StaticText "中科躬行(北京)科技有限公司"
+          - generic
+            - generic
+              - generic
+                - heading "「中科专利招聘」-BOSS直聘" [level=3, ref=e47]
+                  - link "「中科专利招聘」-BOSS直聘" [ref=e78]
+                    - paragraph
+                - generic
+                  - StaticText "2026年2月24日"
+                  - emphasis
+                    - StaticText "中科专利"
+                  - StaticText "商标代理有限责任公司(简称中科专利,CSPTAL)是中国的一家综合的知识产权事务所,它的前身是成立于1984年的中国科学院专利事务所。40多年来,中科专利代理众多的国内和国际客户,为他们的知识产权的取得和保护提供优质的服务,得到这些客户的认可和好评。"
+                - generic
+                  - link [ref=e79]
+                    - generic
+                - generic
+                  - link [ref=e80]
+                    - generic
+                - generic
+                  - link [ref=e81]
+                    - generic
+                - generic
+                  - link "7" [ref=e82]
+                    - generic
+                    - generic
+                - generic
+                  - link "BOSS直聘" [ref=e83]
+                    - StaticText "BOSS直聘"
+          - generic
+            - generic
+              - generic
+                - heading "中科专利商标代理有限责任公司 - 企查查" [level=3, ref=e48]
+                  - link "中科专利商标代理有限责任公司 - 企查查" [ref=e84]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e96]
+                  - generic
+                    - StaticText "2026年3月16日"
+                    - emphasis
+                    - StaticText "商标代理有限责任公司(CSPTAL)成立于1984年,它是中国较大的知识产权事务所之一,也是中国最早的知识产权事务所之一。 2、基本信息 中科专利商标代理有限责任公司是⼀家成⽴于1995年01月25日的有限责任公司,属于以从事科学研究和技术服务业为主的企业。位于北京市海淀区,法定代表人为张立岩,目前处于存续状态..."
+                  - generic
+                    - generic
+                      - link "头像 企查查" [ref=e99]
+          - generic
+            - heading "标题:中科躬行（北京）科技有限公司-企业信息" [level=3, ref=e27]
+              - link "标题:中科躬行（北京）科技有限公司-企业信息" [ref=e42]
+                - emphasis
+                - StaticText "（北京）科技有限公司-企业信息"
+            - generic
+              - generic
+                - link [ref=e49]
+              - generic
+                - paragraph
+                - link "工商信息" [ref=e50]
+                - link "认领企业" [ref=e51]
+                - link "企业风险" [ref=e52]
+                - link "企业年报" [ref=e53]
+                - link "企业股东" [ref=e54]
+                - link "来源：以上信息来源爱企查，一个专业免费的企业信息查询平台" [ref=e55]
+          - generic
+            - generic
+              - generic
+                - heading "中科躬行(北京)科技有限公司怎么样 - 职友集" [level=3, ref=e56]
+                  - link "中科躬行(北京)科技有限公司怎么样 - 职友集" [ref=e85]
+                - generic
+                - generic
+                  - link "头像 职友集" [ref=e86]
+          - generic
+            - generic
+              - generic
+                - heading "一种基于高分遥感与倾斜摄影的数字孪生系统用处理方法-专利-万方..." [level=3, ref=e57]
+                  - link "一种基于高分遥感与倾斜摄影的数字孪生系统用处理方法-专利-万方..." [ref=e87]
+                - generic
+                  - StaticText "代理机构: 北京星通盈泰知识产权代理有限公司 代理人: 黄正奇 国别省市代码: 北京,11 权利要求: 1.一种基于高分遥感与倾斜摄影的数字孪生系统用处理方法,其特征在于,包括: 接收待传输数据,根据所述待传输数据确定数据发送端和数据接收端,基于所述数据发送端和所述数据接收端确定数据传输通道,其中,所述待传输数..."
+                - generic
+                  - link "万方数据" [ref=e88]
+          - generic
+            - generic
+              - generic
+                - heading "山东躬行能源科技申请新能源场站涉网继电保护定值校验专利,高效..." [level=3, ref=e58]
+                  - link "山东躬行能源科技申请新能源场站涉网继电保护定值校验专利,高效..." [ref=e89]
+                - generic
+                - generic
+                  - link "头像  金融界" [ref=e90]
+        - generic
+          - generic
+            - StaticText "相关搜索"
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "中国专利"
+                - link "中国专利" [ref=e59]
+              - LayoutTableCell "中国专利排名前十的公司"
+                - link "中国专利排名前十的公司" [ref=e60]
+            - LayoutTableRow
+              - LayoutTableCell "专利之星"
+                - link "专利之星" [ref=e61]
+              - LayoutTableCell "中科科技有限公司"
+                - link "中科科技有限公司" [ref=e62]
+            - LayoutTableRow
+              - LayoutTableCell "中科类脑智能技术有限公司"
+                - link "中科类脑智能技术有限公司" [ref=e63]
+              - LayoutTableCell "浙江中科智能工程技术有限公司"
+                - link "浙江中科智能工程技术有限公司" [ref=e64]
+            - LayoutTableRow
+              - LayoutTableCell "中科创新技术股份有限公司官网"
+                - link "中科创新技术股份有限公司官网" [ref=e65]
+              - LayoutTableCell "中科躬行(北京)科技有限公司"
+                - link "中科躬行(北京)科技有限公司" [ref=e66]
+            - LayoutTableRow
+              - LayoutTableCell "中科专利张立岩简历"
+                - link "中科专利张立岩简历" [ref=e67]
+              - LayoutTableCell "中科专利 面试"
+                - link "中科专利 面试" [ref=e68]
+      - generic
+        - generic
+          - link "上一页" [ref=e15]
+          - strong
+          - link "2" [ref=e16]
+          - link "3" [ref=e17]
+          - link "4" [ref=e18]
+          - link "5" [ref=e19]
+          - link "6" [ref=e20]
+          - link "7" [ref=e21]
+          - link "8" [ref=e22]
+          - link "9" [ref=e23]
+          - link "10" [ref=e24]
+          - link "下一页" [ref=e25]
+      - generic
+      - generic
+        - generic
+          - generic
+            - link "帮助" [ref=e28]
+            - link "举报" [ref=e29]
+            - link "用户反馈" [ref=e30]
+            - link "企业推广" [ref=e31]

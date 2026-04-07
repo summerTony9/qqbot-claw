@@ -1,0 +1,24 @@
+03-27 10:01:32 [SUCCESS] nonebot | NoneBot is initializing...
+03-27 10:01:32 [INFO] nonebot | Current Env: prod
+03-27 10:01:32 [SUCCESS] nonebot | Succeeded to load plugin "nonebot_plugin_apsc
+heduler"
+03-27 10:01:32 [SUCCESS] nonebot | Succeeded to load plugin "basic" from "plugin
+s.basic"
+03-27 10:01:32 [SUCCESS] nonebot | Running NoneBot...
+03-27 10:01:32 [SUCCESS] nonebot | Loaded adapters: OneBot V11
+03-27 10:01:32 [INFO] uvicorn | Started server process [398632]
+03-27 10:01:32 [INFO] uvicorn | Waiting for application startup.
+03-27 10:01:32 [INFO] nonebot_plugin_apscheduler | Scheduler Started
+03-27 10:01:32 [INFO] uvicorn | Application startup complete.
+03-27 10:01:32 [INFO] uvicorn | Uvicorn running on http://127.0.0.1:8080 (Press
+CTRL+C to quit)
+03-27 10:01:32 [INFO] nonebot | OneBot V11 | Bot 3371871293 connected
+03-27 10:01:51 [SUCCESS] nonebot | OneBot V11 3371871293 | [message.group.normal
+]: Message 1094185181 from 769163832@[§ˇ:946973502] '[reply:id=138338420]9ˇ˛ˇ ´ˇ
+ˇèˇ;ˇŒˇ'
+03-27 10:01:51 [INFO] nonebot | Event will be handled by Matcher(type='message',
+ module=plugins.basic, lineno=20)
+03-27 10:01:52 [INFO] nonebot | Matcher(type='message', module=plugins.basic, li
+neno=20) running complete
+
+

@@ -1,0 +1,364 @@
+- generic
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。" [ref=e1]
+  - generic
+    - generic
+  - generic
+    - generic
+      - generic
+        - link "到百度首页" [ref=e2]
+          - image "到百度首页"
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                  - generic
+                  - generic
+                    - generic
+                      - generic
+                      - generic
+                        - textbox [ref=e71]: 北京安宜商贸 主营业务 法定人 法定人
+                          - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                          - generic
+                          - generic
+                        - button "百度一下" [ref=e72]
+                          - StaticText "百度一下"
+                    - generic
+                      - generic
+      - generic
+        - link "百度首页" [ref=e3]
+          - StaticText "百度首页"
+        - link "设置" [ref=e4]
+          - StaticText "设置"
+        - link "登录" [ref=e5]
+          - StaticText "登录"
+    - generic
+    - generic
+      - generic
+        - link [ref=e6]
+          - image
+        - StaticText "网页"
+        - link "图片" [ref=e7]
+          - StaticText "图片"
+        - link "资讯" [ref=e8]
+          - StaticText "资讯"
+        - link "视频" [ref=e9]
+          - StaticText "视频"
+        - link "笔记" [ref=e10]
+          - StaticText "笔记"
+        - link "地图" [ref=e11]
+          - StaticText "地图"
+        - link "贴吧" [ref=e12]
+          - StaticText "贴吧"
+        - link "文库" [ref=e13]
+          - StaticText "文库"
+        - link "更多" [ref=e14]
+          - StaticText "更多"
+        - generic
+          - StaticText "搜索工具"
+    - generic
+      - generic
+        - generic
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "相关搜索  贸易公司的监事有法律责任吗  商贸有限公司经营范围  商贸有限公司和有限责任公司的区别  北京商贸公司有哪些  宜安控股有限公司  商贸有限公司的法人代表是谁    换一换 热搜榜 民生榜 财经榜  为山川大地增添锦绣 1"
+                - generic
+                  - generic
+                    - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                            - link " 贸易公司的监事有法律责任吗" [ref=e91]
+                          - generic
+                            - link " 商贸有限公司经营范围" [ref=e92]
+                          - generic
+                            - link " 商贸有限公司和有限责任公司的区别" [ref=e93]
+                          - generic
+                            - link " 北京商贸公司有哪些" [ref=e94]
+                          - generic
+                            - link " 宜安控股有限公司" [ref=e95]
+                          - generic
+                            - link " 商贸有限公司的法人代表是谁" [ref=e96]
+                  - generic
+                    - generic
+                      - generic
+                        - link " " [ref=e73]
+                        - generic
+                          - link " 换一换" [ref=e74]
+                      - generic
+                        - generic
+                        - generic
+                        - generic
+                      - generic
+                        - generic
+                          - link "为山川大地增添锦绣" [ref=e75]
+                      - generic
+                        - generic
+                          - link "张雪机车一战封神" [ref=e76]
+                      - generic
+                        - generic
+                          - link "买安眠药收注销驾驶证短信 交警回应" [ref=e77]
+                      - generic
+                        - generic
+                          - link "从一线到中小城市 入境游持续升温" [ref=e78]
+                      - generic
+                        - generic
+                          - link "内存价格大跳水原因找到了" [ref=e79]
+                      - generic
+                        - generic
+                          - link "央视调查烧秸秆屡禁不止" [ref=e80]
+                      - generic
+                        - generic
+                          - link "伊朗议会批准对霍尔木兹海峡收通行费" [ref=e81]
+                      - generic
+                        - generic
+                          - link "午睡超过这个时间 真的会越睡越累" [ref=e82]
+                      - generic
+                        - generic
+                          - link "张雪称将吃掉国际大牌超50%份额" [ref=e83]
+                      - generic
+                        - generic
+                          - link "“这一刻我等了20年！我们赢了”" [ref=e84]
+                      - generic
+                        - generic
+                          - link "患癌男子将3亿家产赠小28岁妻子" [ref=e85]
+                      - generic
+                        - generic
+                          - link "高三男孩喀纳斯湖失踪系谣言" [ref=e86]
+                      - generic
+                        - generic
+                          - link "国际油价大涨" [ref=e87]
+                      - generic
+                        - generic
+                          - link "13岁少年去世前绝食让父母生二胎" [ref=e88]
+                      - generic
+                        - generic
+                          - link "伊朗：打击美军指挥中心" [ref=e89]
+                      - generic
+                        - generic
+                          - link "多个家电品牌宣布4月起涨价" [ref=e90]
+                - generic
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                    - image
+                    - generic
+                    - generic
+          - generic
+            - generic
+              - generic
+                - heading "北京安宜商贸有限公司怎么样 - 企查查" [level=3, ref=e36]
+                  - link "北京安宜商贸有限公司怎么样 - 企查查" [ref=e54]
+                    - paragraph
+                - generic
+                  - StaticText "2026年2月8日"
+                  - StaticText "北京安宜商贸有限公司成立于2002-06-14,"
+                  - emphasis
+                    - StaticText "法定代表人为张佩昊"
+                  - StaticText ",注册资本为100万元,统一社会信用代码为9111011774009724XH,企业注册地址位于北京市怀柔区雁栖经济开发区雁栖大街31号(集群注册),所属行业为零售业,经营范围包含:一般项目:建筑材料销售;计算机软硬件及"
+                - generic
+                  - link "头像 企查查" [ref=e55]
+                    - generic
+                    - StaticText "企查查"
+                - generic
+                  - generic
+          - generic
+            - generic
+              - generic
+                - heading "白丽- 北京安宜通商贸中心(个体工商户) - 法定代表人/高管/股东..." [level=3, ref=e37]
+                  - link "白丽- 北京安宜通商贸中心(个体工商户) - 法定代表人/高管/股东..." [ref=e56]
+                    - paragraph
+                - generic
+                  - StaticText "2026年3月4日"
+                  - StaticText "一,"
+                  - emphasis
+                    - StaticText "白丽担任职务: 白丽目前担任北京安宜通商贸中心(个体工商户)法定代表人"
+                  - StaticText "; 老板履历 图文概览商业履历 任职全景图 投资,任职的关联公司 商业关系图 一图看清商业版图 更新时间: 2026-03-04 关联企业 1 担任法定代表人 1 担任股东 0 担任高管 0 所有任职企业 1 作为最终受益人 0 所属集团 0 投资信息 控股..."
+                - generic
+                  - link "头像 爱企查" [ref=e57]
+                    - generic
+                    - StaticText "爱企查"
+          - generic
+            - generic
+              - StaticText "大家还在搜"
+            - generic
+              - link "贸易公司的监事有法律责任吗" [ref=e30]
+                - StaticText "贸易公司的监事有法律责任吗"
+              - link "商贸有限公司经营范围" [ref=e31]
+                - StaticText "商贸有限公司经营范围"
+              - link "商贸有限公司和有限责任公司的区别" [ref=e32]
+                - StaticText "商贸有限公司和有限责任公司的区别"
+              - link "北京商贸公司有哪些" [ref=e33]
+                - StaticText "北京商贸公司有哪些"
+              - link "宜安控股有限公司" [ref=e34]
+                - StaticText "宜安控股有限公司"
+              - link "商贸有限公司的法人代表是谁" [ref=e35]
+                - StaticText "商贸有限公司的法人代表是谁"
+          - generic
+            - generic
+              - generic
+                - heading "「北京安宜和顺商贸有限公司」2026年招聘信息-BOSS直聘" [level=3, ref=e38]
+                  - link "「北京安宜和顺商贸有限公司」2026年招聘信息-BOSS直聘" [ref=e58]
+                    - paragraph
+                - generic
+                  - StaticText "2026年2月2日"
+                  - StaticText "北京安宜和顺商贸有限公司 "
+                  - emphasis
+                    - StaticText "法定代表人: 申向东"
+                  - StaticText " 注册资本: 300万人民币 成立日期: 2019-04-15 企业类型: 有限责任公司自然人投资或控股 经营状态: 存续(在营、开业、在册) 注册地址: 北京市顺义区后沙峪镇安平街3号(国门一号建材家居市场D馆地下一层W厅区137号) 统一社会信用代码: 91110113MA01JFQ670 收起 股..."
+                - generic
+                  - link "看准网" [ref=e59]
+                    - StaticText "看准网"
+          - generic
+            - generic
+              - generic
+                - heading "北京安宜和顺商贸有限公司企业发展 - 企查查" [level=3, ref=e39]
+                  - link "北京安宜和顺商贸有限公司企业发展 - 企查查" [ref=e60]
+                    - paragraph
+                - generic
+                  - StaticText "2025年12月11日"
+                  - emphasis
+                    - StaticText "法定代表人: 申向东"
+                  - StaticText " 关联企业 33 注册资本: 300万元 成立日期: 2019-04-15 电话: 13501353618 邮箱: 13501353618@163.com 官网: - 地址: 北京市顺义区安平北街6号院4号楼3层320 附近企业 更多1 企查查行业:家用轻工批发 企业规模:小型 1、基本信息北京安宜和顺商贸有限公司是⼀家成⽴于2019年0..."
+                - generic
+                  - link "头像 企查查" [ref=e61]
+                    - generic
+                    - StaticText "企查查"
+                - generic
+                  - generic
+          - generic
+            - generic
+              - generic
+                - heading "北京安宜正兴商贸有限公司 (北京市海淀区中关村南大街1号北京友谊..." [level=3, ref=e40]
+                  - link "北京安宜正兴商贸有限公司 (北京市海淀区中关村南大街1号北京友谊..." [ref=e62]
+                    - paragraph
+                - generic
+                  - StaticText "2025年7月31日"
+                  - StaticText "--北京市海淀区中关村南大街1号北京友谊宾馆63715房间注册的公司 --如何免费在百度地图标记公司地址、门店位置、地点信息? 法人:葛政(查看法人葛政的所有公司) --企业疑似控制人和受益人查询 --"
+                  - emphasis
+                    - StaticText "北京安宜"
+                  - StaticText "正兴"
+                  - emphasis
+                    - StaticText "商贸"
+                  - StaticText "有限公司企业核心人员在其它公司任职情况 --企业重要人员风险排查(法人、股东、董事风险排查) ..."
+                - generic
+                  - link "名录集" [ref=e63]
+                    - StaticText "名录集"
+          - generic
+            - generic
+              - generic
+                - heading "北京安易贸易有限公司_主要人员_董事_监事_公司查询 - 天眼查" [level=3, ref=e41]
+                  - link "北京安易贸易有限公司_主要人员_董事_监事_公司查询 - 天眼查" [ref=e64]
+                    - paragraph
+                - generic
+                  - StaticText "2026年2月8日"
+                  - StaticText "简介:北京安易"
+                  - emphasis
+                    - StaticText "贸易"
+                  - StaticText "有限公司,成立于2014年,位于"
+                  - emphasis
+                    - StaticText "北京市"
+                  - StaticText ",是一家以从事零售业为主的企业。企业注册资本100万人民币,实缴资本100万人民币。通过天眼查大数据分析,北京安易贸易有限公司拥有行政许可4个。更多 评分58 "
+                  - emphasis
+                    - StaticText "法定"
+                  - StaticText "代表人 唐春初 注册资本 100万人民币 成立日期 2014-04-04 ..."
+                - generic
+                  - link "头像 天眼查" [ref=e65]
+                    - generic
+                    - StaticText "天眼查"
+          - generic
+            - generic
+              - generic
+                - heading "「北京安宜东方企业管理咨询中心(有限合伙)」2026年招聘信息-BOSS..." [level=3, ref=e42]
+                  - link "「北京安宜东方企业管理咨询中心(有限合伙)」2026年招聘信息-BOSS..." [ref=e66]
+                    - paragraph
+                - generic
+                  - StaticText "2026年2月6日"
+                  - emphasis
+                    - StaticText "北京安宜"
+                  - StaticText "东方企业管理咨询中心于2016年01月06日创办,公司地址北京市丰台区南四环西路128号院4号楼12层1515-1516,交通方便;"
+                  - emphasis
+                    - StaticText "主营"
+                  - StaticText "经济信息咨询、机动车公共停车场服务、设计、制作、代理发布广告、组织文化艺术交流活动、承办展览展示活动等。目前公司人员1-49人,公司类型为有限合伙企业,是一家在北京从事服务业行业的公司..."
+                - generic
+                  - link "看准网" [ref=e67]
+                    - StaticText "看准网"
+          - generic
+            - generic
+              - generic
+                - heading "北京市安宜卫生用品有限公司_经营信息-启信宝" [level=3, ref=e43]
+                  - link "北京市安宜卫生用品有限公司_经营信息-启信宝" [ref=e68]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e69]
+                  - generic
+                    - StaticText "1998年2月12日"
+                    - StaticText "简介:"
+                    - emphasis
+                    - StaticText "卫生用品有限公司成立于1998年02月12日,注册地址为北京市顺义区高丽营镇二村新华大街9号,"
+                    - emphasis
+                    - StaticText "代表人为王盟,注册资本为1500万人民币,统一社会信用代码为911101131025512173,经营范围包括许可项目:第二类医疗器械生产;道路货物运输(不含危险货物);卫生用品和一次性使用医疗用品生产。(依法须经批准的项目,经..."
+                  - generic
+                    - generic
+                      - link "头像 启信宝" [ref=e70]
+        - generic
+          - generic
+            - StaticText "相关搜索"
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "贸易公司的监事有法律责任吗"
+                - link "贸易公司的监事有法律责任吗" [ref=e44]
+              - LayoutTableCell "商贸有限公司经营范围"
+                - link "商贸有限公司经营范围" [ref=e45]
+            - LayoutTableRow
+              - LayoutTableCell "商贸有限公司和有限责任公司的区别"
+                - link "商贸有限公司和有限责任公司的区别" [ref=e46]
+              - LayoutTableCell "北京商贸公司有哪些"
+                - link "北京商贸公司有哪些" [ref=e47]
+            - LayoutTableRow
+              - LayoutTableCell "宜安控股有限公司"
+                - link "宜安控股有限公司" [ref=e48]
+              - LayoutTableCell "商贸有限公司的法人代表是谁"
+                - link "商贸有限公司的法人代表是谁" [ref=e49]
+            - LayoutTableRow
+              - LayoutTableCell "北京商贸有限责任公司"
+                - link "北京商贸有限责任公司" [ref=e50]
+              - LayoutTableCell "颐宜贸易法人代表是谁"
+                - link "颐宜贸易法人代表是谁" [ref=e51]
+            - LayoutTableRow
+              - LayoutTableCell "贸易公司监事最大要承担的责任"
+                - link "贸易公司监事最大要承担的责任" [ref=e52]
+              - LayoutTableCell "贸易公司营业范围"
+                - link "贸易公司营业范围" [ref=e53]
+      - generic
+        - generic
+          - link "上一页" [ref=e15]
+          - strong
+          - link "2" [ref=e16]
+          - link "3" [ref=e17]
+          - link "4" [ref=e18]
+          - link "5" [ref=e19]
+          - link "6" [ref=e20]
+          - link "7" [ref=e21]
+          - link "8" [ref=e22]
+          - link "9" [ref=e23]
+          - link "10" [ref=e24]
+          - link "下一页" [ref=e25]
+      - generic
+      - generic
+        - generic
+          - generic
+            - link "帮助" [ref=e26]
+            - link "举报" [ref=e27]
+            - link "用户反馈" [ref=e28]
+            - link "企业推广" [ref=e29]

@@ -1,0 +1,426 @@
+- generic
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。" [ref=e1]
+  - generic
+    - generic
+  - generic
+    - generic
+      - generic
+        - link "到百度首页" [ref=e2]
+          - image "到百度首页"
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                  - generic
+                  - generic
+                    - generic
+                      - generic
+                      - generic
+                        - textbox [ref=e73]: 北京中科前治科技有限公司 法定人 法定人
+                          - generic
+                            - StaticText "北京中科前治科技有限公司 法定人 法定人"
+                      - generic
+                        - generic
+                          - generic
+                            - image
+                          - generic
+                            - generic
+                          - generic
+                            - generic
+                          - generic
+                            - generic
+                        - button "百度一下" [ref=e74]
+                          - StaticText "百度一下"
+                    - generic
+                      - generic
+      - generic
+        - link "百度首页" [ref=e3]
+          - StaticText "百度首页"
+        - link "设置" [ref=e4]
+          - StaticText "设置"
+        - link "登录" [ref=e5]
+          - StaticText "登录"
+    - generic
+    - generic
+      - generic
+        - link [ref=e6]
+          - image
+        - StaticText "网页"
+        - link "图片" [ref=e7]
+          - StaticText "图片"
+        - link "资讯" [ref=e8]
+          - StaticText "资讯"
+        - link "视频" [ref=e9]
+          - StaticText "视频"
+        - link "笔记" [ref=e10]
+          - StaticText "笔记"
+        - link "地图" [ref=e11]
+          - StaticText "地图"
+        - link "贴吧" [ref=e12]
+          - StaticText "贴吧"
+        - link "文库" [ref=e13]
+          - StaticText "文库"
+        - link "更多" [ref=e14]
+          - StaticText "更多"
+        - generic
+          - StaticText "搜索工具"
+    - generic
+      - generic
+        - generic
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "相关搜索  北京中科国咨咨询管理有限公司  北京中科有限公司  人民中科智能技术有限公司  中科集团是国企吗  北京中科灵瑞生物技术股份有限公司  北京中科基因技术股份有限公司    换一换 热搜榜 民生榜 财经榜  为山川大地增添锦绣 1"
+                - generic
+                  - generic
+                    - generic
+                      - generic
+                        - generic
+                          - generic
+                            - StaticText "相关搜索"
+                          - generic
+                            - link " 北京中科国咨咨询管理有限公司" [ref=e93]
+                          - generic
+                            - link " 北京中科有限公司" [ref=e94]
+                          - generic
+                            - link " 人民中科智能技术有限公司" [ref=e95]
+                          - generic
+                            - link " 中科集团是国企吗" [ref=e96]
+                          - generic
+                            - link " 北京中科灵瑞生物技术股份有限公司" [ref=e97]
+                          - generic
+                            - link " 北京中科基因技术股份有限公司" [ref=e98]
+                  - generic
+                    - generic
+                      - generic
+                        - link " " [ref=e75]
+                          - generic
+                            - StaticText ""
+                          - generic
+                            - StaticText ""
+                        - generic
+                          - link " 换一换" [ref=e76]
+                            - generic
+                            - StaticText "换一换"
+                      - generic
+                        - generic
+                          - StaticText "热搜榜"
+                        - generic
+                          - StaticText "民生榜"
+                        - generic
+                          - StaticText "财经榜"
+                      - generic
+                        - generic
+                          - generic
+                            - StaticText ""
+                          - link "为山川大地增添锦绣" [ref=e77]
+                            - StaticText "为山川大地增添锦绣"
+                      - generic
+                        - generic
+                          - StaticText "1"
+                          - link "“看我怎样用中国制造干掉日本制造”" [ref=e78]
+                            - StaticText "“看我怎样用中国制造干掉日本制造”"
+                          - generic
+                            - StaticText "新"
+                      - generic
+                        - generic
+                          - StaticText "2"
+                          - link "买安眠药收注销驾驶证短信 交警回应" [ref=e79]
+                            - StaticText "买安眠药收注销驾驶证短信 交警回应"
+                          - generic
+                            - StaticText "热"
+                      - generic
+                        - generic
+                          - StaticText "3"
+                          - link "从一线到中小城市 入境游持续升温" [ref=e80]
+                            - StaticText "从一线到中小城市 入境游持续升温"
+                      - generic
+                        - generic
+                          - StaticText "4"
+                          - link "内存价格大跳水原因找到了" [ref=e81]
+                            - StaticText "内存价格大跳水原因找到了"
+                          - generic
+                            - StaticText "新"
+                      - generic
+                        - generic
+                          - StaticText "5"
+                          - link "央视调查烧秸秆屡禁不止" [ref=e82]
+                            - StaticText "央视调查烧秸秆屡禁不止"
+                          - generic
+                            - StaticText "热"
+                      - generic
+                        - generic
+                          - StaticText "6"
+                          - link "伊朗议会批准对霍尔木兹海峡收通行费" [ref=e83]
+                            - StaticText "伊朗议会批准对霍尔木兹海峡收通行费"
+                      - generic
+                        - generic
+                          - StaticText "7"
+                          - link "午睡超过这个时间 真的会越睡越累" [ref=e84]
+                            - StaticText "午睡超过这个时间 真的会越睡越累"
+                      - generic
+                        - generic
+                          - StaticText "8"
+                          - link "“这一刻我等了20年！我们赢了”" [ref=e85]
+                            - StaticText "“这一刻我等了20年！我们赢了”"
+                      - generic
+                        - generic
+                          - StaticText "9"
+                          - link "遗体打捞难度大 落水者家属无奈放弃" [ref=e86]
+                            - StaticText "遗体打捞难度大 落水者家属无奈放弃"
+                      - generic
+                        - generic
+                          - StaticText "10"
+                          - link "地铁吐血女孩频繁收到转账 账户被封" [ref=e87]
+                            - StaticText "地铁吐血女孩频繁收到转账 账户被封"
+                      - generic
+                        - generic
+                          - StaticText "11"
+                          - link "高三男孩喀纳斯湖失踪系谣言" [ref=e88]
+                            - StaticText "高三男孩喀纳斯湖失踪系谣言"
+                      - generic
+                        - generic
+                          - StaticText "12"
+                          - link "国际油价大涨" [ref=e89]
+                            - StaticText "国际油价大涨"
+                      - generic
+                        - generic
+                          - StaticText "13"
+                          - link "韩国向中国14个城市发放十年签" [ref=e90]
+                            - StaticText "韩国向中国14个城市发放十年签"
+                      - generic
+                        - generic
+                          - StaticText "14"
+                          - link "张雪称将吃掉国际大牌超50%份额" [ref=e91]
+                            - StaticText "张雪称将吃掉国际大牌超50%份额"
+                      - generic
+                        - generic
+                          - StaticText "15"
+                          - link "多个家电品牌宣布4月起涨价" [ref=e92]
+                            - StaticText "多个家电品牌宣布4月起涨价"
+                - generic
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                    - image
+                    - generic
+                      - generic
+                        - generic
+                          - StaticText ""
+                        - StaticText "听"
+                    - generic
+                      - generic
+                        - generic
+                          - paragraph
+                            - StaticText "经核查公开资料，‌"
+                            - strong
+                            - StaticText "‌。"
+                          - paragraph
+                            - StaticText "但存在名称相近的多家“中科”系企业，例如："
+                          - list
+                            - listitem [level=1]
+                            - listitem [level=1]
+                            - listitem [level=1]
+                          - paragraph
+                            - StaticText "可能的情况包括："
+                          - list
+                            - listitem [level=1]
+                            - listitem [level=1]
+                            - listitem [level=1]
+                          - paragraph
+                            - StaticText "建议通过以下权威平台进一步核实："
+                          - list
+                            - listitem [level=1]
+                              - link "爱企查" [ref=e99]
+                            - listitem [level=1]
+                              - link "天眼查" [ref=e100]
+                            - listitem [level=1]
+                              - link "国家企业信用信息公示系统" [ref=e101]
+                    - generic
+          - generic
+            - generic
+              - generic
+                - heading "中科精治(北京)科技有限责任公司 - 中科精治 - 爱企查" [level=3, ref=e36]
+                  - link "中科精治(北京)科技有限责任公司 - 中科精治 - 爱企查" [ref=e54]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e67]
+                  - generic
+                    - StaticText "6天前"
+                    - emphasis
+                    - StaticText ",张莉担任财务负责人,王辉担任董事,经理。 3、知识产权中科精治(北京)科技有限责任公司拥有多项知识产权,其中包括17个软件著作权,这些知识产权的拥有,表明该企业拥有较强的实力和创新能力。 上述文章是根据发布当时全网最新公开信息生成的,仅供您参考,如需了解该企业最新及更全面"
+                  - generic
+                    - generic
+                      - link "头像 爱企查" [ref=e70]
+          - generic
+            - generic
+              - generic
+                - heading "北京中科前瞻科技有限公司_主要人员_董事_监事_公司查询 - 天眼查" [level=3, ref=e37]
+                  - link "北京中科前瞻科技有限公司_主要人员_董事_监事_公司查询 - 天眼查" [ref=e55]
+                    - paragraph
+                - generic
+                  - StaticText "2026年2月3日"
+                  - StaticText "更多 评分61 "
+                  - emphasis
+                    - StaticText "法定代表人 张卫国"
+                  - StaticText " 注册资本 200万人民币 成立日期 2022-07-01 13681138505 574809414@qq.com 北京市海淀区北四环中路283号2幢4层077号 -主要人员 张 张卫国 任职1家企业 董事,经理,财务负责人 叶 叶瑞斌 任职1家企业 监事全部北京中科前瞻科技有限公司 主要人员 股东信息 对外投资..."
+                - generic
+                  - link "头像 天眼查" [ref=e56]
+                    - generic
+                    - StaticText "天眼查"
+          - generic
+            - generic
+              - StaticText "大家还在搜"
+            - generic
+              - link "北京中科国咨咨询管理有限公司" [ref=e30]
+                - StaticText "北京中科国咨咨询管理有限公司"
+              - link "北京中科有限公司" [ref=e31]
+                - StaticText "北京中科有限公司"
+              - link "人民中科智能技术有限公司" [ref=e32]
+                - StaticText "人民中科智能技术有限公司"
+              - link "中科集团是国企吗" [ref=e33]
+                - StaticText "中科集团是国企吗"
+              - link "北京中科灵瑞生物技术股份有限公司" [ref=e34]
+                - StaticText "北京中科灵瑞生物技术股份有限公司"
+              - link "北京中科基因技术股份有限公司" [ref=e35]
+                - StaticText "北京中科基因技术股份有限公司"
+          - generic
+            - generic
+              - generic
+                - heading "北京中科前瞻科技有限公司 - 中科前瞻 - 爱企查" [level=3, ref=e38]
+                  - link "北京中科前瞻科技有限公司 - 中科前瞻 - 爱企查" [ref=e57]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e68]
+                  - generic
+                    - StaticText "2025年12月24日"
+                    - emphasis
+                    - StaticText " 注册资本:200万(元) 统一社会信用代码:91110108MABQFW2Q5E 电话:1368113*** 邮箱:5***@qq.com 官网:- 地址:北京市海淀区北四环中路283号2幢4层077号 简介: 1、基本情况北京中科前瞻科技有限公司是一家小微企业,该公司成立于2022年07月01日,位于北京市海淀区北四环中路283号2幢4层077号..."
+                  - generic
+                    - generic
+                      - link "头像 爱企查" [ref=e71]
+          - generic
+            - generic
+              - generic
+                - heading "中科精治(北京)科技有限责任公司_股东信息 - 企查查" [level=3, ref=e39]
+                  - link "中科精治(北京)科技有限责任公司_股东信息 - 企查查" [ref=e58]
+                    - paragraph
+                - generic
+                  - StaticText "2026年1月18日"
+                  - StaticText "企业规模:微型 员工人数:1(2024年) 营业收入: 120.00万元(2024年) 1、基本信息 "
+                  - emphasis
+                    - StaticText "中科"
+                  - StaticText "精治(北京)"
+                  - emphasis
+                    - StaticText "科技有限责任公司"
+                  - StaticText "是⼀家成⽴于2022年05月31日的其他有限责任公司,也是共好未来教育旗下企业,属于以从事科学研究和技术服务业为主的企业。位于"
+                  - emphasis
+                    - StaticText "北京市"
+                  - StaticText "门头沟区,"
+                  - emphasis
+                    - StaticText "法定"
+                  - StaticText "代表人为王辉,目前处于存续状态。注册资本:1000万元..."
+                - generic
+                  - link "头像 企查查" [ref=e59]
+                    - generic
+                    - StaticText "企查查"
+                - generic
+                  - generic
+          - generic
+            - generic
+              - generic
+                - heading "北京中科基因技术股份有限公司_中科基因-企业工商信息-官方资质..." [level=3, ref=e40]
+                  - link "北京中科基因技术股份有限公司_中科基因-企业工商信息-官方资质..." [ref=e60]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e69]
+                  - generic
+                    - StaticText "2026年2月19日"
+                    - StaticText "北京中科基因技术有限公司 (2016-04 至 2021-01) "
+                    - emphasis
+                    - StaticText " 关联企业 6 登记状态 存续 天眼评分 86 分 成立日期 2016-04-22 统一社会信用代码 91110115ma0051gp38 注册资本 9328.1889万人民币 实缴资本 9046.7532万人民币 工商注册号 110115021088115 纳税人识别号 91110115ma0051gp38 组织机构代码 ma..."
+                  - generic
+                    - generic
+                      - link "天眼查" [ref=e72]
+          - generic
+            - generic
+              - generic
+                - heading "北京中科微元生物科技有限公司 - 企查查" [level=3, ref=e41]
+                  - link "北京中科微元生物科技有限公司 - 企查查" [ref=e61]
+                - generic
+                - generic
+                  - link "企查查" [ref=e62]
+          - generic
+            - generic
+              - generic
+                - heading "北京中科天昊科技有限公司_【工商信息_信用信息_纳税人识别号..." [level=3, ref=e42]
+                  - link "北京中科天昊科技有限公司_【工商信息_信用信息_纳税人识别号..." [ref=e63]
+                - generic
+                - generic
+                  - link "企查猫" [ref=e64]
+          - generic
+            - generic
+              - generic
+                - heading "张治平 - 中科红信(北京)科技有限公司 - 法定代表人/高管/股东..." [level=3, ref=e43]
+                  - link "张治平 - 中科红信(北京)科技有限公司 - 法定代表人/高管/股东..." [ref=e65]
+                - generic
+                - generic
+                  - link "头像 爱企查" [ref=e66]
+        - generic
+          - generic
+            - StaticText "相关搜索"
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "北京中科国咨咨询管理有限公司"
+                - link "北京中科国咨咨询管理有限公司" [ref=e44]
+              - LayoutTableCell "北京中科有限公司"
+                - link "北京中科有限公司" [ref=e45]
+            - LayoutTableRow
+              - LayoutTableCell "人民中科智能技术有限公司"
+                - link "人民中科智能技术有限公司" [ref=e46]
+              - LayoutTableCell "中科集团是国企吗"
+                - link "中科集团是国企吗" [ref=e47]
+            - LayoutTableRow
+              - LayoutTableCell "北京中科灵瑞生物技术股份有限公司"
+                - link "北京中科灵瑞生物技术股份有限公司" [ref=e48]
+              - LayoutTableCell "北京中科基因技术股份有限公司"
+                - link "北京中科基因技术股份有限公司" [ref=e49]
+            - LayoutTableRow
+              - LayoutTableCell "中科软科技股份有限公司"
+                - link "中科软科技股份有限公司" [ref=e50]
+              - LayoutTableCell "北京中科仙络智算科技有限公司"
+                - link "北京中科仙络智算科技有限公司" [ref=e51]
+            - LayoutTableRow
+              - LayoutTableCell "北京中科兴农生物科技有限公司"
+                - link "北京中科兴农生物科技有限公司" [ref=e52]
+              - LayoutTableCell "有限责任公司"
+                - link "有限责任公司" [ref=e53]
+      - generic
+        - generic
+          - link "上一页" [ref=e15]
+          - strong
+          - link "2" [ref=e16]
+          - link "3" [ref=e17]
+          - link "4" [ref=e18]
+          - link "5" [ref=e19]
+          - link "6" [ref=e20]
+          - link "7" [ref=e21]
+          - link "8" [ref=e22]
+          - link "9" [ref=e23]
+          - link "10" [ref=e24]
+          - link "下一页" [ref=e25]
+      - generic
+      - generic
+        - generic
+          - generic
+            - link "帮助" [ref=e26]
+            - link "举报" [ref=e27]
+            - link "用户反馈" [ref=e28]
+            - link "企业推广" [ref=e29]

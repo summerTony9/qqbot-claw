@@ -29,6 +29,7 @@ GROUP_CONTEXTS: dict[str, deque] = {}
 GROUP_MESSAGE_LOGS: dict[str, deque] = {}
 GROUP_TRIGGER_COUNTER: dict[str, int] = {}
 GROUP_NEXT_TRIGGER: dict[str, int] = {}
+GROUP_ROAST_COOLDOWN: dict[str, bool] = {}  # 防止 AI 返回前多个计数同时撞线
 SEEN_BILIBILI_URLS: deque = deque(maxlen=200)
 HYDRATED_GROUPS: set[str] = set()
 
@@ -251,20 +252,8 @@ def ensure_group_state(group_id: str):
         GROUP_TRIGGER_COUNTER[group_id] = 0
     if group_id not in GROUP_NEXT_TRIGGER:
         GROUP_NEXT_TRIGGER[group_id] = random.randint(config.min_trigger, config.max_trigger)
-
-    if group_id in HYDRATED_GROUPS:
-        return
-
-    counter, next_trigger = load_group_state(group_id, config)
-    GROUP_TRIGGER_COUNTER[group_id] = counter
-    GROUP_NEXT_TRIGGER[group_id] = next_trigger
-
-    preload_limit = max(config.context_size, min(get_group_summary_log_maxlen(), 300))
-    records = load_recent_group_messages(group_id, preload_limit)
-    for record in records:
-        GROUP_MESSAGE_LOGS[group_id].append(record)
-        GROUP_CONTEXTS[group_id].append(record.text)
-    HYDRATED_GROUPS.add(group_id)
+    if group_id not in GROUP_ROAST_COOLDOWN:
+        GROUP_ROAST_COOLDOWN[group_id] = False
 
     if group_id in HYDRATED_GROUPS:
         return

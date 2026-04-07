@@ -1,0 +1,376 @@
+- generic
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。" [ref=e1]
+  - generic
+    - generic
+  - generic
+    - generic
+      - generic
+        - link "到百度首页" [ref=e2]
+          - image "到百度首页"
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                  - generic
+                  - generic
+                    - generic
+                      - generic
+                      - generic
+                        - textbox [ref=e78]: 北京中科前治科技有限公司 工商
+                          - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                          - generic
+                          - generic
+                        - button "百度一下" [ref=e79]
+                          - StaticText "百度一下"
+                    - generic
+                      - generic
+      - generic
+        - link "百度首页" [ref=e3]
+          - StaticText "百度首页"
+        - link "设置" [ref=e4]
+          - StaticText "设置"
+        - link "登录" [ref=e5]
+          - StaticText "登录"
+    - generic
+    - generic
+      - generic
+        - link [ref=e6]
+          - image
+        - StaticText "网页"
+        - link "图片" [ref=e7]
+          - StaticText "图片"
+        - link "资讯" [ref=e8]
+          - StaticText "资讯"
+        - link "视频" [ref=e9]
+          - StaticText "视频"
+        - link "笔记" [ref=e10]
+          - StaticText "笔记"
+        - link "地图" [ref=e11]
+          - StaticText "地图"
+        - link "贴吧" [ref=e12]
+          - StaticText "贴吧"
+        - link "文库" [ref=e13]
+          - StaticText "文库"
+        - link "更多" [ref=e14]
+          - StaticText "更多"
+        - generic
+          - StaticText "搜索工具"
+    - generic
+      - generic
+        - generic
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "相关搜索  北京中科有限公司  中科信息  北京中科康蒂健生物科技有限公司  中科集团是国企吗  北京中科基因技术股份有限公司  中科软科技股份有限公司    换一换 热搜榜 民生榜 财经榜  为山川大地增添锦绣 1"
+                - generic
+                  - generic
+                    - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                            - link " 北京中科有限公司" [ref=e98]
+                          - generic
+                            - link " 中科信息" [ref=e99]
+                          - generic
+                            - link " 北京中科康蒂健生物科技有限公司" [ref=e100]
+                          - generic
+                            - link " 中科集团是国企吗" [ref=e101]
+                          - generic
+                            - link " 北京中科基因技术股份有限公司" [ref=e102]
+                          - generic
+                            - link " 中科软科技股份有限公司" [ref=e103]
+                  - generic
+                    - generic
+                      - generic
+                        - link " " [ref=e80]
+                        - generic
+                          - link " 换一换" [ref=e81]
+                      - generic
+                        - generic
+                        - generic
+                        - generic
+                      - generic
+                        - generic
+                          - link "为山川大地增添锦绣" [ref=e82]
+                      - generic
+                        - generic
+                          - link "“看我怎样用中国制造干掉日本制造”" [ref=e83]
+                      - generic
+                        - generic
+                          - link "买安眠药收注销驾驶证短信 交警回应" [ref=e84]
+                      - generic
+                        - generic
+                          - link "从一线到中小城市 入境游持续升温" [ref=e85]
+                      - generic
+                        - generic
+                          - link "内存价格大跳水原因找到了" [ref=e86]
+                      - generic
+                        - generic
+                          - link "央视调查烧秸秆屡禁不止" [ref=e87]
+                      - generic
+                        - generic
+                          - link "伊朗议会批准对霍尔木兹海峡收通行费" [ref=e88]
+                      - generic
+                        - generic
+                          - link "午睡超过这个时间 真的会越睡越累" [ref=e89]
+                      - generic
+                        - generic
+                          - link "“这一刻我等了20年！我们赢了”" [ref=e90]
+                      - generic
+                        - generic
+                          - link "遗体打捞难度大 落水者家属无奈放弃" [ref=e91]
+                      - generic
+                        - generic
+                          - link "地铁吐血女孩频繁收到转账 账户被封" [ref=e92]
+                      - generic
+                        - generic
+                          - link "高三男孩喀纳斯湖失踪系谣言" [ref=e93]
+                      - generic
+                        - generic
+                          - link "国际油价大涨" [ref=e94]
+                      - generic
+                        - generic
+                          - link "韩国向中国14个城市发放十年签" [ref=e95]
+                      - generic
+                        - generic
+                          - link "患癌男子将3亿家产赠小28岁妻子" [ref=e96]
+                      - generic
+                        - generic
+                          - link "多个家电品牌宣布4月起涨价" [ref=e97]
+                - generic
+        - generic
+          - generic
+            - generic
+              - generic
+                - heading "中科精治(北京)科技有限责任公司 - 中科精治 - 爱企查" [level=3, ref=e38]
+                  - link "中科精治(北京)科技有限责任公司 - 中科精治 - 爱企查" [ref=e57]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e72]
+                  - generic
+                    - StaticText "6天前"
+                    - emphasis
+                    - StaticText "精治(北京)"
+                    - emphasis
+                    - StaticText "成立于2022年05月31日,位于"
+                    - emphasis
+                    - StaticText "门头沟区妙峰山镇政府大院南楼MFS2020室(集群注册),目前处于开业状态,经营范围包括一般项目:技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广;信息咨询服务(不含许可类信息咨询服务);信息技术咨询服务;计算机软硬件及辅助设备批发;信息系统集成"
+                  - generic
+                    - generic
+                      - link "头像 爱企查" [ref=e75]
+          - generic
+            - generic
+              - generic
+                - heading "中科精治(北京)科技有限责任公司_变更记录_公司变更记录查询..." [level=3, ref=e39]
+                  - link "中科精治(北京)科技有限责任公司_变更记录_公司变更记录查询..." [ref=e58]
+                    - paragraph
+                - generic
+                  - StaticText "2026年2月6日"
+                  - StaticText "简介:"
+                  - emphasis
+                    - StaticText "中科"
+                  - StaticText "精治 (北京) "
+                  - emphasis
+                    - StaticText "科技有限责任公司"
+                  - StaticText ",成立于2022年,位于"
+                  - emphasis
+                    - StaticText "北京市"
+                  - StaticText ",是一家以从事科技推广和应用服务业为主的企业。企业注册资本1000万人民币。通过天眼查大数据分析,中科精治 (北京) 科技有限责任公司共对外投资了1家企业,参与招投标项目3次;知识产权方面有著作权信息20条;此外企业还拥有行政许可2个。更多 评分73..."
+                - generic
+                  - link "头像 天眼查" [ref=e59]
+                    - generic
+                    - StaticText "天眼查"
+          - generic
+            - generic
+              - generic
+                - heading "北京中科前瞻科技有限公司_【工商信息_信用信息_纳税人识别号..." [level=3, ref=e40]
+                  - link "北京中科前瞻科技有限公司_【工商信息_信用信息_纳税人识别号..." [ref=e60]
+                    - paragraph
+                - generic
+                  - StaticText "2026年2月20日"
+                  - StaticText "企业地址:北京市海淀区北四环中路283号2幢4层077号 公司简介:"
+                  - emphasis
+                    - StaticText "北京中科"
+                  - StaticText "前瞻"
+                  - emphasis
+                    - StaticText "科技有限公司"
+                  - StaticText ",于2022-07-01在北京市海淀区市场监督管理局登记成立,张卫国担任法定代表人,注册资本为200(万人民币),公司位于北京市海淀区北四环中路283号2幢4层077号,公司经营范围:一般项目:技术服务、技术开发、技术咨询、技术交流、技术转让..."
+                - generic
+                  - link "企查猫" [ref=e61]
+                    - StaticText "企查猫"
+          - generic
+            - generic
+              - StaticText "大家还在搜"
+            - generic
+              - link "北京中科有限公司" [ref=e30]
+                - StaticText "北京中科有限公司"
+              - link "中科信息" [ref=e31]
+                - StaticText "中科信息"
+              - link "北京中科康蒂健生物科技有限公司" [ref=e32]
+                - StaticText "北京中科康蒂健生物科技有限公司"
+              - link "中科集团是国企吗" [ref=e33]
+                - StaticText "中科集团是国企吗"
+              - link "北京中科基因技术股份有限公司" [ref=e34]
+                - StaticText "北京中科基因技术股份有限公司"
+              - link "中科软科技股份有限公司" [ref=e35]
+                - StaticText "中科软科技股份有限公司"
+              - link "中联重科股份有限公司" [ref=e36]
+                - StaticText "中联重科股份有限公司"
+              - link "有限责任公司" [ref=e37]
+                - StaticText "有限责任公司"
+          - generic
+            - generic
+              - generic
+                - heading "北京中科镁冶科技有限公司-企业工商信用信息,电话,地址,法人-阿里巴巴..." [level=3, ref=e41]
+                  - link "北京中科镁冶科技有限公司-企业工商信用信息,电话,地址,法人-阿里巴巴..." [ref=e62]
+                    - paragraph
+                - generic
+                  - StaticText "2025年6月15日"
+                  - StaticText "企业名称 "
+                  - emphasis
+                    - StaticText "北京中科"
+                  - StaticText "镁冶"
+                  - emphasis
+                    - StaticText "科技有限公司"
+                  - StaticText " 法定代表人 曾晶媛 统一社会信用代码 91110108554857188p 工商注册号 110108012824878 经营状态 在营(开业) 企业机构类型 有限责任公司(自然人投资或控股) 经营期限 2010-04-30~2030-04-29 成立日期 2010-04-30 登记机关 "
+                  - emphasis
+                    - StaticText "北京市工商"
+                  - StaticText "行政管理局海淀分局 地址 北京市海淀区上地信息..."
+                - generic
+                  - link "阿里巴巴1688" [ref=e63]
+                    - StaticText "阿里巴巴1688"
+          - generic
+            - generic
+              - generic
+                - heading "北京中科前瞻科技有限公司 - 中科前瞻 - 爱企查" [level=3, ref=e42]
+                  - link "北京中科前瞻科技有限公司 - 中科前瞻 - 爱企查" [ref=e64]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e73]
+                  - generic
+                    - StaticText "2025年12月24日"
+                    - StaticText "企业名称 "
+                    - emphasis
+                    - StaticText "前瞻"
+                    - emphasis
+                    - StaticText " 统一社会信用代码 91110108MABQFW2Q5E 法定代表人 张卫国 他投资的 1 家公司 > 经营状态 开业 成立日期 2022-07-01 行政区划 北京市海淀区 注册资本 200万(元) 实缴资本 40万(元) 企业类型 有限责任公司(自然人投资或控股) 所属行业 科技推广和应用服务业 "
+                    - emphasis
+                    - StaticText "注册号 1101..."
+                  - generic
+                    - generic
+                      - link "头像 爱企查" [ref=e76]
+          - generic
+            - generic
+              - generic
+                - heading "北京中科前瞻科技有限公司_主要人员_董事_监事_公司查询 - 天眼查" [level=3, ref=e43]
+                  - link "北京中科前瞻科技有限公司_主要人员_董事_监事_公司查询 - 天眼查" [ref=e65]
+                    - paragraph
+                - generic
+                  - StaticText "2026年2月3日"
+                  - StaticText "简介:"
+                  - emphasis
+                    - StaticText "北京中科"
+                  - StaticText "前瞻"
+                  - emphasis
+                    - StaticText "科技有限公司"
+                  - StaticText ",成立于2022年,位于北京市,是一家以从事科技推广和应用服务业为主的企业。企业注册资本200万人民币,实缴资本40万人民币。通过天眼查大数据分析,北京中科前瞻科技有限公司共对外投资了1家企业;此外企业还拥有行政许可1个。更多 评分61 ..."
+                - generic
+                  - link "头像 天眼查" [ref=e66]
+                    - generic
+                    - StaticText "天眼查"
+          - generic
+            - generic
+              - generic
+                - heading "北京中科基因技术股份有限公司_中科基因-企业工商信息-官方资质..." [level=3, ref=e44]
+                  - link "北京中科基因技术股份有限公司_中科基因-企业工商信息-官方资质..." [ref=e67]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e74]
+                  - generic
+                    - StaticText "2026年2月19日"
+                    - emphasis
+                    - StaticText "基因技术股份"
+                    - emphasis
+                    - StaticText " (曾用名:北京中科基因技术有限公司) ,成立于2016年,位于北京市,是一家以从事"
+                    - emphasis
+                    - StaticText "推广和应用服务业为主的企业。企业注册资本9328.1889万人民币,实缴资本9046.7532万人民币,并已于2020年完成了股权融资。通过天眼查大数据分析,北京中科基因技术股份有限公司共对外投资了33家企业,参与招投标..."
+                  - generic
+                    - generic
+                      - link "天眼查" [ref=e77]
+          - generic
+            - generic
+              - generic
+                - heading "北京中科热休生物科技有限公司 - 企查查" [level=3, ref=e45]
+                  - link "北京中科热休生物科技有限公司 - 企查查" [ref=e68]
+                - generic
+                  - StaticText " 信用报告更新时间:3天前 存续小微企业 简介: 1、基本信息北京中科热休生物科技有限公司是⼀家成⽴于2023年08月18日的有限责任公司,属于以从事科学研究和技术服务业为主的企业。位于北京市东城区,目前处于存续状态。注册资本:1000万元。2、营运状况通过企查查⼤数据分析,北京中科热..."
+                - generic
+                  - link "企查查" [ref=e69]
+          - generic
+            - generic
+              - generic
+                - heading "北京中科标准科技集团有限公司-企业工商信用信息,电话,地址,法人-阿..." [level=3, ref=e46]
+                  - link "北京中科标准科技集团有限公司-企业工商信用信息,电话,地址,法人-阿..." [ref=e70]
+                - generic
+                - generic
+                  - link "阿里巴巴1688" [ref=e71]
+        - generic
+          - generic
+            - StaticText "相关搜索"
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "北京中科有限公司"
+                - link "北京中科有限公司" [ref=e47]
+              - LayoutTableCell "中科信息"
+                - link "中科信息" [ref=e48]
+            - LayoutTableRow
+              - LayoutTableCell "北京中科康蒂健生物科技有限公司"
+                - link "北京中科康蒂健生物科技有限公司" [ref=e49]
+              - LayoutTableCell "中科集团是国企吗"
+                - link "中科集团是国企吗" [ref=e50]
+            - LayoutTableRow
+              - LayoutTableCell "北京中科基因技术股份有限公司"
+                - link "北京中科基因技术股份有限公司" [ref=e51]
+              - LayoutTableCell "中科软科技股份有限公司"
+                - link "中科软科技股份有限公司" [ref=e52]
+            - LayoutTableRow
+              - LayoutTableCell "中联重科股份有限公司"
+                - link "中联重科股份有限公司" [ref=e53]
+              - LayoutTableCell "有限责任公司"
+                - link "有限责任公司" [ref=e54]
+            - LayoutTableRow
+              - LayoutTableCell "中科先行北京资产管理有限公司"
+                - link "中科先行北京资产管理有限公司" [ref=e55]
+              - LayoutTableCell "中科创新科学技术北京有限公司"
+                - link "中科创新科学技术北京有限公司" [ref=e56]
+      - generic
+        - generic
+          - link "上一页" [ref=e15]
+          - strong
+          - link "2" [ref=e16]
+          - link "3" [ref=e17]
+          - link "4" [ref=e18]
+          - link "5" [ref=e19]
+          - link "6" [ref=e20]
+          - link "7" [ref=e21]
+          - link "8" [ref=e22]
+          - link "9" [ref=e23]
+          - link "10" [ref=e24]
+          - link "下一页" [ref=e25]
+      - generic
+      - generic
+        - generic
+          - generic
+            - link "帮助" [ref=e26]
+            - link "举报" [ref=e27]
+            - link "用户反馈" [ref=e28]
+            - link "企业推广" [ref=e29]

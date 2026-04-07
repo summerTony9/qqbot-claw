@@ -1,0 +1,404 @@
+- generic
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。" [ref=e1]
+  - generic
+    - generic
+  - generic
+    - generic
+      - generic
+        - link "到百度首页" [ref=e2]
+          - image "到百度首页"
+        - generic
+          - generic
+            - generic
+              - generic
+                - generic
+                  - generic
+                  - generic
+                  - generic
+                    - generic
+                      - generic
+                      - generic
+                        - textbox [ref=e92]: 中科躬行 被执行人
+                          - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                          - generic
+                          - generic
+                        - button "百度一下" [ref=e93]
+                          - StaticText "百度一下"
+                    - generic
+                      - generic
+      - generic
+        - link "百度首页" [ref=e3]
+          - StaticText "百度首页"
+        - link "设置" [ref=e4]
+          - StaticText "设置"
+        - link "登录" [ref=e5]
+          - StaticText "登录"
+    - generic
+    - generic
+      - generic
+        - link [ref=e6]
+          - image
+        - StaticText "网页"
+        - link "图片" [ref=e7]
+          - StaticText "图片"
+        - link "资讯" [ref=e8]
+          - StaticText "资讯"
+        - link "视频" [ref=e9]
+          - StaticText "视频"
+        - link "笔记" [ref=e10]
+          - StaticText "笔记"
+        - link "地图" [ref=e11]
+          - StaticText "地图"
+        - link "贴吧" [ref=e12]
+          - StaticText "贴吧"
+        - link "文库" [ref=e13]
+          - StaticText "文库"
+        - link "更多" [ref=e14]
+          - StaticText "更多"
+        - generic
+          - StaticText "搜索工具"
+    - generic
+      - generic
+        - generic
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "相关搜索  吴亮其 中科院  中科院计算所院士  中科科技有限公司  中科类脑智能技术有限公司  中国科学院控股有限公司董事长  北京中科院柯常军简介    换一换 热搜榜 民生榜 财经榜  为山川大地增添锦绣 1"
+                - generic
+                  - generic
+                    - generic
+                      - generic
+                        - generic
+                          - generic
+                          - generic
+                            - link " 吴亮其 中科院" [ref=e112]
+                          - generic
+                            - link " 中科院计算所院士" [ref=e113]
+                          - generic
+                            - link " 中科科技有限公司" [ref=e114]
+                          - generic
+                            - link " 中科类脑智能技术有限公司" [ref=e115]
+                          - generic
+                            - link " 中国科学院控股有限公司董事长" [ref=e116]
+                          - generic
+                            - link " 北京中科院柯常军简介" [ref=e117]
+                  - generic
+                    - generic
+                      - generic
+                        - link " " [ref=e94]
+                        - generic
+                          - link " 换一换" [ref=e95]
+                      - generic
+                        - generic
+                        - generic
+                        - generic
+                      - generic
+                        - generic
+                          - link "为山川大地增添锦绣" [ref=e96]
+                      - generic
+                        - generic
+                          - link "张雪机车一战封神" [ref=e97]
+                      - generic
+                        - generic
+                          - link "买安眠药收注销驾驶证短信 交警回应" [ref=e98]
+                      - generic
+                        - generic
+                          - link "从一线到中小城市 入境游持续升温" [ref=e99]
+                      - generic
+                        - generic
+                          - link "张雪称将吃掉国际大牌超50%份额" [ref=e100]
+                      - generic
+                        - generic
+                          - link "央视调查烧秸秆屡禁不止" [ref=e101]
+                      - generic
+                        - generic
+                          - link "伊朗议会批准对霍尔木兹海峡收通行费" [ref=e102]
+                      - generic
+                        - generic
+                          - link "午睡超过这个时间 真的会越睡越累" [ref=e103]
+                      - generic
+                        - generic
+                          - link "贵州茅台宣布涨价" [ref=e104]
+                      - generic
+                        - generic
+                          - link "牛奶价格卷起来了" [ref=e105]
+                      - generic
+                        - generic
+                          - link "“这一刻我等了20年！我们赢了”" [ref=e106]
+                      - generic
+                        - generic
+                          - link "高三男孩喀纳斯湖失踪系谣言" [ref=e107]
+                      - generic
+                        - generic
+                          - link "国际油价大涨" [ref=e108]
+                      - generic
+                        - generic
+                          - link "伊朗：打击美军指挥中心" [ref=e109]
+                      - generic
+                        - generic
+                          - link "花上万办卡 被按摩到癌细胞扩散" [ref=e110]
+                      - generic
+                        - generic
+                          - link "《跳楼机》原唱深夜发文称忍不下了" [ref=e111]
+                - generic
+        - generic
+          - generic
+            - generic
+              - heading "中科躬行（北京）科技有限公司(公司) - 百度百科" [level=3, ref=e31]
+                - link "中科躬行（北京）科技有限公司(公司) - 百度百科" [ref=e41]
+                  - paragraph
+                    - emphasis
+                    - StaticText "（北京）科技有限公司(公司) - 百度百科"
+              - generic
+                - generic
+                  - generic
+                    - link [ref=e79]
+                  - generic
+                    - paragraph
+                      - link "详情" [ref=e87]
+                      - link "" [ref=e88]
+                  - generic
+                    - link "公司简介" [ref=e80]
+                  - generic
+                    - link "历史沿革" [ref=e81]
+                  - generic
+                    - link "主营业务" [ref=e82]
+                  - generic
+                    - link "公司治理" [ref=e83]
+              - generic
+                - link "百度百科" [ref=e42]
+                  - StaticText "百度百科"
+          - generic
+            - generic
+              - generic
+                - heading "中科行智深圳智能科技有限公司失信记录 - 查老赖 - 失信人信息..." [level=3, ref=e43]
+                  - link "中科行智深圳智能科技有限公司失信记录 - 查老赖 - 失信人信息..." [ref=e61]
+                    - paragraph
+                - generic
+                  - StaticText "2025年8月4日"
+                  - StaticText "失信"
+                  - emphasis
+                    - StaticText "被执行人"
+                  - StaticText " "
+                  - emphasis
+                    - StaticText "中科"
+                  - StaticText "行智深圳智能科技有限公司 组织机构代码 被执行人的履行情况 全部未履行 省份 广东 案号 (2025)粤0311执6063号 执行法院 深圳市光明区人民法院 执行依据文号 深光劳人仲(凤凰)案[2024]563号 做出执行依据单位 深圳市光明区劳动人事争议仲裁委员会 立案日期 2025-08-04 发布日期 2025-08-2..."
+                - generic
+                  - link "头像 爱企查" [ref=e62]
+                    - generic
+                    - StaticText "爱企查"
+          - generic
+            - heading "中科躬行(青岛)计算机教育培训学校有限公司，公司，百度百科" [level=3, ref=e26]
+              - link "中科躬行(青岛)计算机教育培训学校有限公司，公司，百度百科" [ref=e32]
+                - emphasis
+                  - StaticText "中科躬行"
+                - StaticText "（青岛）计算机教育培训学校有限公司 - 百度百科"
+            - generic
+              - generic "查看更多内容"
+                - link "查看更多内容" [ref=e44]
+                  - generic
+                    - generic
+              - generic
+                - generic "中科躬行（青岛）计算机教育培训学校有限公司成立于2020年5月13日，位于山东省青岛市胶州市大沽河省级生态旅游度假区创新创业服务基地，是一家以从事教育为主的其他有限责任公司。法定代表人刘福刚，注册资本100万人民币，实缴资本16万人民币，国标行业为职业技能培训，企业规模为小型。公司经营范围包括人工智能、计算机应用与开发培训。公司由中科躬行(北京)科技有限公司持股60%、青岛中科躬行教育服务中心(有限合伙)持股40%。主要人员包括刘福刚（董事长兼总经理）、吴文军、王刚、张秋萍、郭海鹏、马智。2021年4月16日，公司发生主要成员变更，崔春雨退出，吴文军新增加入。"
+                  - emphasis
+                    - StaticText "中科躬行"
+                  - StaticText "（青岛）计算机教育培训学校有限公司成立于2020年5月13日，位于山东省青岛市胶州市大沽河省级生态旅游度假区创新创业服务基地，是一家以从事教育为主的其他有限责任公司。法定代表人刘福刚，注册资本100万人民币，实缴资本16万人民币，国标行业为职业..."
+                - generic
+                  - link "公司简介" [ref=e63]
+                    - StaticText "公司简介 "
+                  - link "历史沿革" [ref=e64]
+                    - StaticText "历史沿革 "
+                  - link "组织架构" [ref=e65]
+                    - StaticText "组织架构 "
+                  - link "经营范围" [ref=e66]
+                    - StaticText "经营范围 "
+                  - link "经营状况" [ref=e67]
+                    - StaticText "经营状况 "
+                  - link "点击可查看更多内容" [ref=e68]
+                    - StaticText "更多 >"
+                - generic
+                  - link "百度百科" [ref=e69]
+                    - generic
+                - generic
+          - generic
+            - generic
+              - StaticText "大家还在搜"
+            - generic
+              - link "吴亮其 中科院" [ref=e33]
+                - StaticText "吴亮其 中科院"
+              - link "中科院计算所院士" [ref=e34]
+                - StaticText "中科院计算所院士"
+              - link "中科科技有限公司" [ref=e35]
+                - StaticText "中科科技有限公司"
+              - link "中科类脑智能技术有限公司" [ref=e36]
+                - StaticText "中科类脑智能技术有限公司"
+              - link "中国科学院控股有限公司董事长" [ref=e37]
+                - StaticText "中国科学院控股有限公司董事长"
+              - link "北京中科院柯常军简介" [ref=e38]
+                - StaticText "北京中科院柯常军简介"
+              - link "中国科学院过程工程所" [ref=e39]
+                - StaticText "中国科学院过程工程所"
+              - link "孙其君中科院" [ref=e40]
+                - StaticText "孙其君中科院"
+          - generic
+            - generic
+              - generic
+                - heading "被执行人信息|中科金财、彩讯股份相关公司成被执行人 执行标的..." [level=3, ref=e45]
+                  - link "被执行人信息|中科金财、彩讯股份相关公司成被执行人 执行标的..." [ref=e70]
+                    - paragraph
+                - generic
+                  - StaticText "2025年3月14日"
+                  - StaticText "快查APP显示,2025年3月11日,爱化身科技(北京)有限公司被北京市海淀区人民法院列为"
+                  - emphasis
+                    - StaticText "被执行人"
+                  - StaticText ",案号为(2025)京0108执8582号,执行标的为人民币37269.00元。 快查股权穿透数据显示,该公司由"
+                  - emphasis
+                    - StaticText "中科"
+                  - StaticText "金财、彩讯股份持股,出资比例为6.42%、11.22%。"
+                - generic
+                  - link "同花顺财经" [ref=e71]
+                    - StaticText "同花顺财经"
+          - generic
+            - generic
+              - generic
+                - heading "被执行人信息|泰尔重工相关公司成被执行人 执行标的160908.00元" [level=3, ref=e46]
+                  - link "被执行人信息|泰尔重工相关公司成被执行人 执行标的160908.00元" [ref=e72]
+                    - paragraph
+                - generic
+                  - StaticText "2026年1月18日"
+                  - emphasis
+                    - StaticText "被执行人"
+                  - StaticText "信息|泰尔重工相关公司成被执行人 执行标的160908.00元 快查APP显示,2026年1月15日,合肥"
+                  - emphasis
+                    - StaticText "中科"
+                  - StaticText "九衡科技有限公司被合肥高新技术产业开发区人民法院列为被执行人,案号为(2026)皖0191执1361号,执行标的为人民币160908.00元。 快查股权穿透数据显示,该公司由泰尔重工持股,出资比例为4.54%。"
+                - generic
+                  - link "同花顺财经" [ref=e73]
+                    - StaticText "同花顺财经"
+          - generic
+            - generic
+              - generic
+                - heading "中科磁业(301141)新增1条被执行人信息,执行标的2.52万元_股票频道..." [level=3, ref=e47]
+                  - link "中科磁业(301141)新增1条被执行人信息,执行标的2.52万元_股票频道..." [ref=e74]
+                    - paragraph
+                - generic
+                  - StaticText "2025年4月23日"
+                  - StaticText "证券之星消息,根据天眼查-司法案件数据整理,4月17日"
+                  - emphasis
+                    - StaticText "中科"
+                  - StaticText "磁业(301141)新增1条"
+                  - emphasis
+                    - StaticText "被执行人"
+                  - StaticText "信息,执行标的2.52万元。被执行人信息如下: 案号:(2025)浙0783执3304号 被执行人:浙江中科磁业股份有限公司 身份证号/组织机构代码:55285527-7 执行法院:东阳市人民法院 ..."
+                - generic
+                  - link "证券之星" [ref=e75]
+                    - StaticText "证券之星"
+          - generic
+            - generic
+              - generic
+                - heading "赵伟- 山东躬行元跞科技发展有限公司 - 法定代表人/高管/股东..." [level=3, ref=e48]
+                  - link "赵伟- 山东躬行元跞科技发展有限公司 - 法定代表人/高管/股东..." [ref=e76]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e84]
+                  - generic
+                    - StaticText "2026年2月11日"
+                    - StaticText "法定代表人 财务负责人,董事,经理 赵伟 10万(元) 2025-09-02 山东省泰安市岱岳区 开业 所有任职企业 2 序号 企业名称 职务 注册资本 成立时间 地区 状态 1 "
+                    - emphasis
+                    - StaticText " 山东躬行元跞科技发展有限公司 法定代表人 "
+                    - emphasis
+                    - StaticText "董事兼总经理 300万(元) 2019-12-12 山东省泰安市岱岳区 开业 2 创 创幻互娱(泰安)网络..."
+                  - generic
+                    - generic
+                      - link "头像 爱企查" [ref=e89]
+          - generic
+            - generic
+              - generic
+                - heading "即科集团被执行超3.4亿 医美场景风险受关注" [level=3, ref=e49]
+                  - link "即科集团被执行超3.4亿 医美场景风险受关注" [ref=e77]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e85]
+                  - generic
+                    - StaticText "2天前"
+                    - StaticText "记者就即科集团近期被列为"
+                    - emphasis
+                    - StaticText "情况向小米消金、蒙商消金、锦程消金发去采访函，希望了解相关合作事宜。截至发稿，三家机构均未予回复。博通咨询首席分析师王蓬博认为，合作持牌消金需立即排查存量资产担保效力与代偿能力，启动风险资产压降与催收补强，暂停新增授信并重新核验合作机构资质，重点防范担保失效、助贷..."
+                  - generic
+                    - generic
+                      - link "头像  山西经济日报" [ref=e90]
+          - generic
+            - generic
+              - generic
+                - heading "ST中科恒:公司及实际控制人被纳入失信被执行人的公告(补发)-新..." [level=3, ref=e50]
+                  - link "ST中科恒:公司及实际控制人被纳入失信被执行人的公告(补发)-新..." [ref=e78]
+                    - paragraph
+                - generic
+                  - generic
+                    - link [ref=e86]
+                  - generic
+                    - StaticText "2022年6月15日"
+                    - StaticText "(1)被申请人"
+                    - emphasis
+                    - StaticText "恒运股份有限公司支付申请人高楠工资等费用共计捌万捌仟壹佰柒拾叁元叁角叁分(88173.33 元),分三期支付,于 2022 年 3 月 31 日前支付 8817 元,于 2022 年 4 月 30 日前支付 26451 元,于 2022 年 5 月 31 日前支付 52905.33 元,若有任何一笔逾期未支付,申请人可申请"
+                    - emphasis
+                    - StaticText "剩余全部金额;..."
+                  - generic
+                    - generic
+                      - link "东方财富网" [ref=e91]
+        - generic
+          - generic
+            - StaticText "相关搜索"
+          - LayoutTable
+            - LayoutTableRow
+              - LayoutTableCell "吴亮其 中科院"
+                - link "吴亮其 中科院" [ref=e51]
+              - LayoutTableCell "中科院计算所院士"
+                - link "中科院计算所院士" [ref=e52]
+            - LayoutTableRow
+              - LayoutTableCell "中科科技有限公司"
+                - link "中科科技有限公司" [ref=e53]
+              - LayoutTableCell "中科类脑智能技术有限公司"
+                - link "中科类脑智能技术有限公司" [ref=e54]
+            - LayoutTableRow
+              - LayoutTableCell "中国科学院控股有限公司董事长"
+                - link "中国科学院控股有限公司董事长" [ref=e55]
+              - LayoutTableCell "北京中科院柯常军简介"
+                - link "北京中科院柯常军简介" [ref=e56]
+            - LayoutTableRow
+              - LayoutTableCell "中国科学院过程工程所"
+                - link "中国科学院过程工程所" [ref=e57]
+              - LayoutTableCell "孙其君中科院"
+                - link "孙其君中科院" [ref=e58]
+            - LayoutTableRow
+              - LayoutTableCell "天眼查上公布的被执行人是什么意思"
+                - link "天眼查上公布的被执行人是什么意思" [ref=e59]
+              - LayoutTableCell "中科院自动化所领导班子"
+                - link "中科院自动化所领导班子" [ref=e60]
+      - generic
+        - generic
+          - link "上一页" [ref=e15]
+          - strong
+          - link "2" [ref=e16]
+          - link "3" [ref=e17]
+          - link "4" [ref=e18]
+          - link "5" [ref=e19]
+          - link "6" [ref=e20]
+          - link "7" [ref=e21]
+          - link "8" [ref=e22]
+          - link "9" [ref=e23]
+          - link "10" [ref=e24]
+          - link "下一页" [ref=e25]
+      - generic
+      - generic
+        - generic
+          - generic
+            - link "帮助" [ref=e27]
+            - link "举报" [ref=e28]
+            - link "用户反馈" [ref=e29]
+            - link "企业推广" [ref=e30]

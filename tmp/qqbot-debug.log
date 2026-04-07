@@ -1,0 +1,27 @@
+03-27 09:57:54 [SUCCESS] nonebot | NoneBot is initializing...
+03-27 09:57:54 [INFO] nonebot | Current Env: prod
+03-27 09:57:54 [SUCCESS] nonebot | Succeeded to load plugin "nonebot_plugin_apsc
+heduler"
+03-27 09:57:54 [SUCCESS] nonebot | Succeeded to load plugin "basic" from "plugin
+s.basic"
+03-27 09:57:54 [SUCCESS] nonebot | Running NoneBot...
+03-27 09:57:54 [SUCCESS] nonebot | Loaded adapters: OneBot V11
+03-27 09:57:54 [INFO] uvicorn | Started server process [397338]
+03-27 09:57:54 [INFO] uvicorn | Waiting for application startup.
+03-27 09:57:54 [INFO] nonebot_plugin_apscheduler | Scheduler Started
+03-27 09:57:54 [INFO] uvicorn | Application startup complete.
+03-27 09:57:54 [INFO] uvicorn | Uvicorn running on http://127.0.0.1:8080 (Press
+CTRL+C to quit)
+03-27 09:57:54 [INFO] nonebot | OneBot V11 | Bot 3371871293 connected
+03-27 09:58:40 [SUCCESS] nonebot | OneBot V11 3371871293 | [message.group.normal
+]: Message 138338420 from 769163832@[§ˇ:946973502] '[image:summary=,file=FD8850B
+656A596670F438AFB24B97E5F.png,sub_type=0,url=https://multimedia.nt.qq.com.cn/dow
+nload?appid=1407&fileid=EhQWHy9t...,file_size=23598]'
+03-27 09:58:58 [SUCCESS] nonebot | OneBot V11 3371871293 | [message.group.normal
+]: Message 1330143489 from 769163832@[§ˇ:946973502] '[reply:id=138338420]9ˇ˛ˇ ´ˇ
+ˇèˇ;ˇŒˇ'
+03-27 09:58:58 [INFO] nonebot | Event will be handled by Matcher(type='message',
+ module=plugins.basic, lineno=19)
+03-27 09:58:59 [INFO] nonebot | Matcher(type='message', module=plugins.basic, li
+neno=19) running complete
+
